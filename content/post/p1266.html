@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Drive letters in Mac OS X' 
+date: "2008-08-15T03:43:14+10:00"
+categories: 
+- Software 
+tags: 
+- boatdeck-cafe
+- drive-letters
+- infocomm
+- mac-os-x
+- mawson-lakes
+- windows
+- windows-2000 
+---
+<p>While sitting at the <a href="http://www.theboatdeck.com.au/">Boatdeck Cafe</a> in <a href="http://www.mawsonlakes.com.au/">Mawson Lakes</a>, I was approached by a bloke who said he had just switched his Windows laptop for a MacBook, and he had a question about drive letters in Mac OS X. I&#39;ve been asked this question many, many times before so I figure many switchers must be having this problem, so I&#39;m posting about the issue here.</p>
+<blockquote><p><strong>ASIDE:</strong> Isn’t it funny how Mac people are generally more willing to talk to other Mac people in cafes and whatnot compared to Windows users? I can’t imagine many Windows users saying &quot;I noticed you’re using a Dell, could I ask you some quesions about how to use the taskbar?&quot;</p>
+<p>The other funny thing is, I don’t know why this is! Is it just because Macs are less common, or that if you see a Mac user you can be fairly confident they’re running the same software as you? Or is it some psychological Steve Jobs thing?</p></blockquote>
+<p>Mac OS X is the default operating system shipped with new Macs, and it has it’s heritage in Unix. Like other Unix-like OSs such as Linux, Mac OS X does not use drive letters to reference mounted drives: instead it uses essentially virtual directories for each drive located on the primary &quot;root&quot; directory. This would be equivalent to drive <code>c:</code> in DOS.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.win2k.drives.png" style="height:245px; width:500px" alt="Windows 2000 Explorer showing drives, for comparison" /><br />
+<cite>Windows 2000 Explorer showing drives, for comparison</cite></p>
+<p>For example, on Windows if you wanted to reference the <code>notepad.exe</code> in the Windows folder on your primary hard disk, and another file on your optical drive, the addresses would typically look something like this:</p>
+<pre>C:Windowssystem32notepad.exeD:FolderAnotherchuckpeddle.txt</pre>
+<p>On a modern Mac, your primary hard drive is typically the one where you have Mac OS X installed. Therefore, all drives you have mounted on your Mac will not only appear on your Desktop, but will be found within their own virtual folders in the hidden <code>Volumes</code> directory on the primary hard disk, which is ALWAYS referenced with a single forward-slash <code>/</code>.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.osx.volume.drives.png" style="height:250px; width:500px" alt="Leopard Finder showing the hidden /Volumes directory" /><br />
+<cite>Leopard Finder showing the hidden <code>/Volumes</code> directory</cite></p>
+<p>Here are some examples. The first is the address of a file in our Applications folder on our primary hard drive, the second is a CD-ROM we’ve inserted, and the third is a USB key:</p>
+<pre>/Applications/TextEdit.app/Volumes/Microsoft Office 2008/Installer.app/Volumes/Ruben Memory Key/homework.txt</pre>
+<p>Notice how the <em>virtual directories which are named after the volume</em> essentially replace the drive letter used on Windows, DOS, CP/M etc. In the first example we didn&#39;t need to reference the <code>Volumes</code> folder because it&#39;s on our primary hard disk. Mac OS X also uses forward-slashes instead of back-slashes (just like a URL) just like other Unix-like systems.</p>
+<p>The only caveat to this system is that Apple intentionally hides the <code>/Volumes</code> folder by default. To view it in the Finder, navigate to the <code>Go</code> menu and enter <code>/Volumes</code>.</p>
+<p>Of course you can also fire up your <code>/Applications/Utilities/Terminal.app</code> and enter <code>cd /Volumes</code>, then <code>ls</code> to list the contents.</p>
+ 

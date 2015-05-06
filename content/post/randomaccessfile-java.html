@@ -1,0 +1,55 @@
+---
+layout: post
+title: 'Using RandomAccessFile objects in Java' 
+date: "2009-08-27T07:09:26+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- java
+- old-school
+- programming
+- studies 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3859007484/" title="Coffee? Java? I know, it's cliche!"><img src="http://farm3.static.flickr.com/2588/3859007484_c20d34da51.jpg" width="500" height="375" alt="Coffee? Java? I know, it's cliche!" /></a></p>
+<p>Messing around with some basic data files here using <a href="http://java.sun.com/javase/6/docs/api/java/io/RandomAccessFile.html">RandomAccessFile</a> instead of reading in and writing data files sequentially.</p>
+<blockquote style="font-size:11px">
+<pre>
+import java.io.*;
+
+public class TestRandomAccess {
+  public static void main(String[] args) {
+    try {
+      RandomAccessFile raf = new RandomAccessFile("raf","rw");
+      raf.writeInt(127);
+      raf.writeDouble(2.718281828459045);
+      raf.writeChars("Bird Bird Bird, the Bird is the Word");
+      System.out.println(raf.length());
+      raf.seek(4);
+      System.out.println(raf.readDouble());
+      System.out.println(raf.getFilePointer());
+    }
+    catch (Exception e) { System.err.println(e); }
+  }
+}
+</pre>
+</blockquote>
+<p>What&#39;s really cool is exporting a seemingly innocuous double (double length floating point number in Java) then reading back as an integer!</p>
+<blockquote style="font-size:11px">
+<pre>
+import java.io.*;
+
+public class TestRandomAccess {
+  public static void main(String[] args) {
+    try {
+      RandomAccessFile raf = new RandomAccessFile("raf","rw");
+      raf.writeDouble(10.0);
+      System.out.println(raf.readInt());
+    }
+    catch (Exception e) { System.err.println(e); }
+  }
+}
+</pre>
+</blockquote>
+<p>The result: <code>1076101120</code>. Spiffy!</p>
+ 

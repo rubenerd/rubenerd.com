@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Install jekyll-import with &#8211;pre for now' 
+date: "2013-05-12T12:13:19+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- jekyll
+- ruby 
+---
+<p><img src="http://files.rubenerd.com/2013/jekylllogo.png" alt="" style="width:249px; height:115px" class="transparent" /></p>
+<p>Updating to the latest version of Jekyll, I got the following error when attempting to migrate a WXR file:</p>
+<pre class="code" style="overflow-x:scroll;">
+You must install the 'jekyll-import' gem before continuing.
+* Do this by running `gem install jekyll-import`.
+* Or if you need root privileges, run `sudo gem install jekyll-import`.
+</pre>
+<p>Sure enough, along with an <a href="http://jekyllrb.com/">entirely new site</a>, Jekyll now uses <a href="https://github.com/mojombo/jekyll/wiki/blog-migrations">importers instead of migrators</a>, which reside in their own gem. Unfortunately, attempting to install this resulted in a new error.</p>
+<pre class="code" style="overflow-x:scroll;">
+ready % gem install jekyll-import
+ERROR:  Could not find a valid gem 'jekyll-import' (>= 0) in any repository
+ERROR:  Possible alternatives: jekyll-ebook, jekyll-epub, jekyll-reposter, module-import
+</pre>
+<p>It turns out that jekyll-import is still technically in beta, so needs to be installed thusly:</p>
+<pre class="code" style="overflow-x:scroll;">
+ready % gem install jekyll-import --pre
+</pre>
+<p>At the time of writing, this works in my bog standard RubyGems environment on Mac OS X 10.8.3, with the following dependencies and docs installed:</p>
+<pre class="code" style="overflow-x:scroll;">
+Fetching: fastercsv-1.5.5.gem (100%)
+Fetching: nokogiri-1.5.9.gem (100%)
+Building native extensions.  This could take a while…
+Fetching: jekyll-import-0.1.0.beta1.gem (100%)
+Successfully installed fastercsv-1.5.5
+Successfully installed nokogiri-1.5.9
+Successfully installed jekyll-import-0.1.0.beta1
+3 gems installed
+Installing ri documentation for fastercsv-1.5.5…
+Installing ri documentation for nokogiri-1.5.9…
+Installing ri documentation for jekyll-import-0.1.0.beta1…
+Installing RDoc documentation for fastercsv-1.5.5…
+Installing RDoc documentation for nokogiri-1.5.9…
+Installing RDoc documentation for jekyll-import-0.1.0.beta1…
+</pre>
+ 

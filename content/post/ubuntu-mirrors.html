@@ -1,0 +1,70 @@
+---
+layout: post
+title: 'Ubuntu mirrors' 
+date: "2014-10-20T08:10:14+10:00"
+categories: 
+- Software 
+tags: 
+- mirrors
+- ubuntu 
+---
+<p><img src="http://files.rubenerd.com/2014/juzokun.ubuntu.jpg" alt="" style="width:500px; height:360px;" /></p>
+<p style="font-style:italic">Ah <a href="http://juzo-kun.deviantart.com/art/Linux-tan-fanart-Ubuntu-23866865">juzo-kun</a>, your Linux-tans have become the stuff of legend!</p>
+<p>Today I needed to change apt sources on an Ubuntu server to point somewhere else, on account of an awry default mirror. Since Lucid, Ubuntu has supported the <a href="http://askubuntu.com/a/9035">mirror method</a>:</p>
+<pre style="margin-bottom:0px !important">
+## /etc/apt/sources.list for Ubuntu 14.04 LTS
+## Using mirror.txt pool for geographically-close servers
+
+deb mirror://mirrors.ubuntu.com/mirrors.txt trusty main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt trusty-security main restricted universe multiverse
+</pre>
+<div style="text-align:right; font-size:small"><a href="https://gist.github.com/RubenSchade/2843ee37814fbbff447f">Github Gist</a></div>
+<p>I was entirely unaware mirror had its own protocol! I’ll bet it’s <a href="https://en.wikipedia.org/wiki/Reflection_%28computer_programming%29">reflective</a>. Jokes aside, I swapped out my local mirror for these text files, and low and behold I was pulling packages from Optus. Half a day later, and it was iiNet.</p>
+<p>Downloading the file directly (with http, not mirrors) resulted in this list:</p>
+<pre style="margin-bottom:0px !important">
+
+http://mirror.optus.net/ubuntu/
+
+
+http://ubuntu.mirror.serversaustralia.com.au/ubuntu/
+
+
+http://mirror.netspace.net.au/pub/ubuntu/
+
+
+http://ftp.iinet.net.au/pub/ubuntu/
+
+
+http://mirror.overthewire.com.au/ubuntu/
+
+
+http://ubuntu.mirror.crucial.com.au/
+
+
+http://mirror.as24220.net/pub/ubuntu-archive/
+
+
+http://mirror.internode.on.net/pub/ubuntu/ubuntu/
+
+
+http://ubuntu.mirror.uber.com.au/archive/
+
+
+http://mirror.as24220.net/pub/ubuntu/
+
+
+http://mirror.aarnet.edu.au/pub/ubuntu/archive/
+
+
+http://mirror.waia.asn.au/ubuntu/
+
+
+http://archive.ubuntu.com/ubuntu/
+
+</pre>
+<div style="text-align:right; font-size:small"><a href="https://gist.github.com/RubenSchade/d65705f4108e93da9b42">Github Gist</a></div>
+<p>An interesting approach. Rather than hitting the same repo each time, we’re given a pool of alternative, geographically-close servers.</p>
+<p>Both Debian and FreeBSD take a different approach to this with redirectors. Depending on where you hit <a href="http://pkg.freebsd.org/">pkg.freebsd.org</a> or <a href="http://http.debian.org">http.debian.org</a> from, you’re directed to a different server.</p>
+ 

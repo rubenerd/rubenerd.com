@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Some ZFS SSD feedback from @zoomosis' 
+date: "2013-12-12T11:49:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- file-systems
+- hard-drives
+- ssds
+- zfs 
+---
+<p><img src="http://files.rubenerd.com/2013/zfs-best-filesystem-award-2008.jpg" alt="" style="width:440px; height:331px;" /></p>
+<p>Earlier this week, I posted my intrigue about ZFS now supporting SSDs in FreeBSD. <a href="https://twitter.com/zoomosis/status/410407198187978752">@zoomosis offered this feedback</a>:</p>
+<blockquote>
+<p>@Rubenerd ZFS isn&#39;t very useful on single-drive systems (laptops). SSDs (&amp; TRIM support) are useful for ZFS caching: <a href="http://blog.ociru.net/2013/04/05/zfs-ssd-usage" title="Get the most out of your SSD for ZFS - ociru.net">http://t.co/T4ypc0Xh86</a></p>
+</blockquote>
+<p>I&#39;ve seen people put ZFS on their laptops because they&#39;re so adamant about data integrity. If I weren&#39;t an Apple guy, I&#39;d likely try buying a souped up ThinkPad and giving it a try, but only because I&#39;m also a tad obsessive. Digital dust scares me more than the real thing.</p>
+<p>Moving on though, I theorised an Apple Fusion Drive-like system with SSDs and traditional spinning platters. @zoomosis links us to an article about using an SSD as a ZFS cache. I got stuck thinking about how it could be done in a single pool before, but the author uses two. This is really, really cool.</p>
+<p>And his <a href="https://mobile.twitter.com/zoomosis/status/410407827211943936">second comment</a>:</p>
+<blockquote>
+<p>@Rubenerd &quot;ZFS also requires a disproportionately large amount of system memory&quot; This is only true if you use dedup. <a href="http://doc.freenas.org/index.php/Hardware_Recommendations" title="Hardware Recommendations - FreeNAS">http://t.co/OLZR1WwgGv</a></p>
+</blockquote>
+<p>Indeed. From my own use and (albeit brief!) experience in a data centre, I saw deduping taking more memory and time than simple compression, and arguably without much better results. Naturally certain data sets lend themselves better to deduping than others, but for my small needs it doesn&#39;t. As an aside, it makes you appreciate why so many cloud vendors don&#39;t wish to encrypt data; such processing would render even the most sophisticated deduper utterly useless.</p>
+<p>The other way I&#39;ve seen ZFS chew up tons of memory is with a live memory cache. The aforementioned data centre was using a limited amount of the stuff for a cache after they discovered a significant number of requests were to a tiny fraction of their served data. I can&#39;t recall if they were using an external tool for that or not; if they were I suppose that would be a stretch for me to claim that&#39;s a memory requirement of ZFS.</p>
+<p>Whatever the case, ZFS is a wonderful filesystem in the hands of capable hardware, and can even be used with modest hardware if deployed appropriately. I&#39;m still disappointed it never made it officially into OS X.</p>
+<p>Thank you for the feedback and clarification, it was much appreciated :). As for the above graphic from InfoWorld, it was just too fabulous to pass up. I miss the old Sun lettering, and the old Sun.</p>
+ 

@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Faulty Intel DQ35JO motherboard fun' 
+date: "2008-02-25T08:40:39+10:00"
+categories: 
+- Hardware 
+tags: 
+- bsd
+- cybermind
+- diy-computer
+- dq35jo
+- freebsd
+- infocomm
+- intel
+- kde
+- motherboard
+- scripting
+- shopping
+- sim-lim-square
+- skylet
+- x11 
+---
+<p>As I mentioned in a recent post, I&#39;ve assembled another computer recently for number crunching and compiling applications for other machines and for university projects. Given these needs, I figured I&#39;d buy a motherboard with simple onboard graphics and use the money I saved to buy more RAM. After all, I won&#39;t be playing any games on here (save for some terribly addictive little <a href="http://games.kde.org/">KDE games</a>!) or encoding video. In fact it&#39;s quite feasible to think sometimes I wouldn&#39;t even interface with it directly at all, but rather just send it tasks remotely from my MacBook Pro through SFTP or NFS, or check up on it with SSH or TLA.</p>
+<p>Anyway life story aside, I finally settled on the <a href="http://www.intel.com/products/motherboard/DQ35JO/index.htm">Intel &quot;Executive Series&quot; DQ35JO board</a> with the <a href="http://www.intel.com/products/processor/core2duo/specifications.htm?iid=prod_core2duo+tab_spec">Intel Core 2 Duo 8400 3.0GHz CPU</a> and two sticks of <a href="http://www.kingston.com/hyperX/">1.0GB Kingston HyperX low latency PC2-6400 RAM</a>.</p>
+<p>Problem is, it&#39;s as reliable as I am… without coffee! The order of events:</p>
+<ol>
+<li>Once booted into FreeBSD it works beautifully</li>
+<li>After a random unspecified amount of time, all processes on the machine visibly slow to a crawl</li>
+<li>Eventually it stops responding to all keyboard and mouse input and has to be physically turned off</li>
+<li>After waiting a few seconds and powering it back up, the display refuses to come back on</li>
+<li>10-15 seconds pass, the motherboard <strong>reboots itself</strong></li>
+<li>After another random unspecified amount of time ranging sometimes from 5 minutes to 5 hours it can be turned back on again with the video output.</li>
+<li>Lather, rinse, repeat</li>
+</ol>
+<p>It&#39;s downright maddening. <a href="http://downloadcenter.intel.com/confirm.aspx?httpDown=http://downloadmirror.intel.com/15433/eng/JO0757P.ISO&#038;agr=N&#038;ProductID=2783&#038;DwnldId=15433&#038;strOSs=38&#038;OSFullName=OS%20Independent&#038;lang=eng">I&#39;ve flashed the BIOS to a newer version</a>, I&#39;ve stood in a circle around a campfire chanting various lines, I&#39;ve stood on one leg while singing <em>Majulah Singapura</em> and <em>Advance Australia Fair</em> backwards… nothing seems to make any difference. What bothers me most though is the randomness, at least if it failed and worked again predictably it would be easier to figure out what&#39;s going on.</p>
+<p><img src="http://files.rubenerd.com/uploads/photo.intelboxes.jpg" style="height:315px; width:420px" alt="" /></p>
+<p>For now I guess it&#39;s back to the store. Fortunately I bought the parts from <a href="http://www.skylet.com/">Skylet</a> and <a href="http://www.cybermind.com.sg/">Cybermind</a> at <a href="http://www.simlimsquare.com.sg/">SLS</a> which both have 7 day on the spot replacements in addition to the warranties.</p>
+<p>I&#39;m sure it&#39;s just an inevitable manufacturing defect which statistically is bound to happen when you buy electronic components, but it&#39;s still disheartening. While it was working, this computer was the fastest and most responsive system I&#39;ve ever used, period! Not to mention the time it took to compile kdebase from FreeBSD ports… wow I&#39;ve never seen the compiler notices fly by so quickly!</p>
+<p>More as the story develops.</p>
+ 

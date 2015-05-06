@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'When script kiddies don’t get absolute URLs' 
+date: "2014-08-25T03:36:41+10:00"
+categories: 
+- Internet 
+tags: 
+- java
+- script-kiddies
+- web-servers
+- weblog 
+---
+<p>Some Java script kiddie has been having fun trying to download my site. Problem is, he or she doesn’t realise my bookmark links aren’t relative:</p>
+<pre>
+86.[redacted] - - [04/Jun/2014:14:57:03 +1000] "GET /https://centos.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:04 +1000] "GET /https://debian.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:04 +1000] "GET /https://freebsd.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:05 +1000] "GET /https://medibank.com HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:06 +1000] "GET /https://slashdot.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:06 +1000] "GET /https://soylentnews.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:07 +1000] "GET /https://www.libreoffice.org HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:07 +1000] "GET /https://facebook.com/ruben.schade HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:08 +1000] "GET /https://tomcat.apache.org/tomcat-6.0-doc HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:09 +1000] "GET /https://tomcat.apache.org/tomcat-8.0-doc HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:09 +1000] "GET /https://twitter.com/Rubenerd HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:10 +1000] "GET /https://alpha.app.net/Rubens HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:11 +1000] "GET /https://alpha.app.net/kiri HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:11 +1000] "GET /https://developer.apple.com/membercenter HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:12 +1000] "GET /https://facebook.com/kirishimaayama HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:12 +1000] "GET /https://friendfeed.com/rubenerd HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:13 +1000] "GET /https://github.com/orionvm HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:14 +1000] "GET /https://smilesoftware.com/TextExpander HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:14 +1000] "GET /https://twitter.com/MisterSnrub HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:15 +1000] "GET /https://twitter.com/RainerSays HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:15 +1000] "GET /https://twitter.com/RubenSchade HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:16 +1000] "GET /https://twitter.com/Rubenerd_Blog HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:17 +1000] "GET /https://twitter.com/TaleOfAlanADale HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:17 +1000] "GET /https://twitter.com/elkeee HTTP/1.1" 404 162 "-" "Java/1.7.0_45"
+86.[redacted] - - [04/Jun/2014:14:57:18 +1000] "GET /https://twitter.com/hanezawakirika HTTP/1.1" 404 162 "-" "Java/1.7.0_45
+
+</pre>
+<p>I have a bog pit/honeypot cloud instance that I redirect obvious spam and attacks to. In this case though, I’m almost willing to make an exception, if only for the entertainment value of knowing someone out there just got a whole lot of empty 404 files in their Java application.</p>
+ 

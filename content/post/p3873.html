@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Switching to the TENEX C Shell on Arch Linux' 
+date: "2009-03-10T11:12:50+10:00"
+categories: 
+- Software 
+tags: 
+- arch-linux
+- armada-m300
+- bash
+- infocomm
+- linux
+- pacman
+- tcsh 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.tcsh.png" alt="Screenshot of the tcsh man page" style="width:480px; height:300px; display:inline; border:0px;" /><br /><cite>Screenshot of the tcsh man page</cite></p>
+<p>Having been a FreeBSD guy for a while, I’m so used to the <a href="http://www.tcsh.org/Welcome/">TENEX C Shell</a> (<code>tcsh</code>) that when I move to Linux or later versions of Mac OS X that use <a href="http://en.wikipedia.org/wiki/BASH"><code>bash</code></a> as the default, it feels all alien and foreign (<a href="http://en.wikipedia.org/wiki/Tcsh">Wikipedia’s tcsh article</a> shows OSs that still tcsh as the default). If I need to do some shell scripting I use basic sh, but I always try to use tcsh as my interactive shell whenever possible.</p>
+<p>I don’t know if this is common knowledge or whether it’s just what I’m used to, but I find tcsh’s <code>.tcshrc</code>/<code>.cshrc</code> configuration files much more intuitive and cleaner than bash’s <code>.bashrc</code>/<code>.profile</code> files too. But that’s for a future post.</p>
+<p>While there’s a surprising absence of a tcsh page in Arch Linux’s usually comprehensive and easy to read wiki, Eric Bélanger has made it <a href="http://www.archlinux.org/packages/?q=tcsh">available from the Pacman system</a> for both i686 and x86_64, and studiously keeps them up to date. Thanks to him, installing it is a snap.</p>
+<blockquote><p>
+<code># pacman -Sy tcsh</code>
+</p>
+</blockquote>
+<p>When installed tcsh will reside in the root <code>/bin</code> directory. This means if you want to set it as your default shell and pretend in a small way you’re running FreeBSD (tee hee), run this as the user you want to change:</p>
+<blockquote><p>
+<code>% chsh</code><br />
+Enter &quot;<code>/bin/tcsh</code>&quot; when prompted, without quotes!
+</p>
+</blockquote>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.terminal.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px;" />I remember being sternly told in the FreeBSD documentation that you absolutely never want to change the default shell of the root user to a shell you’ve installed from a package manager because if for some reason an upgrade fails and the shell you assigned to it breaks, you’re up the creek without a paddle. Given Arch Linux treats all parts of the system the same I’m not sure whether this applies here too, but for the sake of safety I’m keeping the root account using bash.</p>
+<p>Now when I log into Arch Linux on my Armada M300 I’m in <code>tcsh</code> with the identical user prompt and virtually the same command aliases I had on FreeBSD. It gives you a nice, fuzzy, warm feeling. I’m tempted to learn tcsh programming one day just because most of the world is on <code>bash</code> <img src='http://rubenerd.com/wp-includes/images/smilies/icon_biggrin.gif' alt=':-D' class='wp-smiley' /> </p>
+ 

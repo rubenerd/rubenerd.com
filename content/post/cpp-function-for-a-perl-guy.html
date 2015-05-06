@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'C++ function for a Perl guy' 
+date: "2013-06-20T03:38:00+10:00"
+categories: 
+- Software 
+tags: 
+- cpp
+- infocomm
+- nostalgia
+- perl
+- ruby 
+---
+<p><img src="http://files.rubenerd.com/2013/photo.thomasguest.perlcpp.jpg" alt="C++ and Perl programming tomes, photo by Thomas Guest on Flickr" style="width:500px; height:px" /></p>
+<p>Feeling a bit homesick for Perl with all this C++ I’ve been writing of late, so I did this. It even forces me to put a newline just like my beloved Perl print function.</p>
+<pre class="code" style="overflow-x:scroll;">
+#include &lt;iostream&gt;
+
+void print(const std::string message) {
+   cout &lt;&lt; message;
+}
+</pre>
+<p>Now that I think about it, we could even bring a touch of home to my Ruby side:</p>
+<pre class="code" style="overflow-x:scroll;">
+#include &lt;iostream&gt;
+
+void puts(const std::string message) {
+   cout &lt;&lt; message &lt;&lt; endl;
+}
+</pre>
+<p>I giggled incessantly when writing these, due perhaps to sleep-deprived, broken-ankle, exam-anxiety induced state.</p>
+<p>Alternatively, I could have just done this:</p>
+<pre class="code" style="overflow-x:scroll;">
+#include &lt;string&gt;
+#include &lt;stdio.h&gt;
+
+void print(const std::string message) {
+   printf(message.c_str());
+}
+</pre>
+<p>But we all know how much C++ folks love when we mix in C stuff that has a C++ equivalent. I think I’ll stop now. #fallsasleep</p>
+<p><cite>Photo by <a href="https://secure.flickr.com/photos/thomasguest/5142421926/">Thomas Guest</a> on Flickr.</cite></p>
+ 

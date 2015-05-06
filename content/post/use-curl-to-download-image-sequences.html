@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Use curl to download image sequences' 
+date: "2014-07-06T11:45:21+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- curl
+- freebsd
+- guides
+- linux
+- netbsd
+- os-x 
+---
+<p>If you need to download a series of images, such as nineteen project slides that were uploaded individually (argh!), you can get this done easily with curl:</p>
+<pre>
+% curl -O "http://example.com/[01-10].jpg"
+</pre>
+<p>Sometimes though, you’ll end up with empty files. If people publish their files through a <abbr title="content delivery network">CDN</abbr>, the <abbr title="universal resource locator">URL</abbr> may simply be a redirect. To follow these and download the original:</p>
+<pre>
+% curl -OL "http://example.com/[01-10].jpg"
+</pre>
+<p>This is just scratching the surface, but it’s a substantial part of what I use curl for. Now I just wish my hair didn’t in humid weather.</p>
+ 

@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Trying VMware Fusion, and trying, and trying…' 
+date: "2007-03-23T02:53:11+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- infocomm
+- virtualisation 
+---
+<p><em>Since writing this post I have resolved the issue and have recieved a useful link for anyone who may be having similar problems, plus a message to forward to everyone:</em></p>
+<blockquote><p>
+Hi &#8211; Your blog is coming up as the first result for anybody who searches for this issue. Can you add an update to the blog pointing people to the following web page:</p>
+<p><a href="http://www.vmware.com/community/message.jspa?messageID=542008#542008">http://www.vmware.com/community/message.jspa?messageID=542008#542008</a></p>
+<p>This details the cure that you used. It took me several hours searching to uncover this fix, and it would be great if you could help make it more accessible.</p></blockquote>
+<p><em>You can find out more at the <a href="http://www.vmware.com/community/">VMWare Forums</a>, and you can read all my posts (so far) regarding <a href="http://rubenerd.com/category/vmware/">VMware on my blog here</a>. Thanks to John for the heads up.</em></p>
+<h3>The Original Post</h3>
+<p>I&#39;ve found for my university work virtualisation is a lifesaver. I can compile my programs for FreeBSD (my current pet project), NetBSD, Mac OS X, Slackware, Solaris and… heaven forbid… Windows 2000, all on the same machine. Most people in my class only compile for Solaris, and technically I don&#39;t get extra marks for doing it for multiple OSs, but I hope it it makes my projects look more complete and I figure if I can make the marker&#39;s life easier, perhaps they&#39;ll return the favour… cough.</p>
+<p>Anyway I&#39;m currently using Parallels Desktop on my MacBook Pro but with all the talk lately I decided to try out <a href="http://www.vmware.com/products/beta/fusion/">VMware Fusion</a>. I had experience with VMware Workstation many years ago on Windows, Fusion apparently has better Linux and FreeBSD support, and you can register for a free beta trial key. I figured what do I have to lose?</p>
+<p>Unfortunately not everything worked to plan; here I am two hours later after the first install and something is definitely screwy. Not only can&#39;t I complete an install without it failing at the last step, but it also claims that the serial number <em>which I registered for and received from VMware</em> is invalid.</p>
+<p><img id="image707" src="http://files.rubenerd.com/uploads/vmware.png" alt="VMware invalid serial number" /></p>
+<p>Looking through my <code>/var/logs/install.log</code> file I isolated an individual error line:</p>
+<pre>Install failed: The following install step failed: run postflight script for VMware Fusion</pre>
+<p>I&#39;ve uninstalled and reinstalled Fusion at least three times, registered for three different serial numbers and still I come up with these issues. I&#39;m really dissapointed, I was looking forward to giving VMware Fusion a shot. I&#39;ve had great experience with their products in the past.</p>
+<p>I&#39;ll keep Googling and checking the support forums. This is no good lah.</p>
+ 

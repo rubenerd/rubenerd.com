@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Fedora 12 beta’s bundling of Mono' 
+date: "2009-11-15T02:11:54+10:00"
+categories: 
+- Software 
+tags: 
+- fedora
+- infocomm
+- mono
+- red-hat
+- worrying-out-loud 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.mononono.png" alt="Mono" style="height:240px; width:202px; display:inline; padding:0em; background:transparent;" /></p>
+<p>Having installed Fedora 11 alongside FreeBSD on my ThinkPad X40 and <a href="http://rubenerd.com/fedora-11-almost-awesome/">deciding I liked it</a>, I went ahead this evening and installed the current <a href="http://fedoraproject.org/en/get-prerelease">beta release of Fedora 12</a>. So far I&#39;m really impressed, but one thing is worrying.</p>
+<p><!--oldmore--></p>
+<p>After the OS was installed and I was presented with the default Gnome desktop, I noticed under the Sound &amp; Video Applications menu I saw a link for the F-Spot image organiser. Its been a while since I&#39;ve been a part of the Red Hat ecosystem so someone might be able to clarify this, but it seems after having it removed from default installs since Fedora 10, they&#39;ve started bundling Mono again.</p>
+<p>I don&#39;t want to debate the merits of Mono nor its patent scariness (pardon the terrible IP pun) here, all I want to say is for people like me this move by the Fedora team is worrying. Will this be a permanent feature?</p>
+<h3>My spell checker says &quot;Uninstalling&quot; isn’t a word</h3>
+<p>Fortunately looking at it myself you can remove Mono from the Fedora 12 beta by uninstalling the following packages:</p>
+<ul>
+<li>F-Spot</li>
+<li>mono-data-*</li>
+<li>mono-core-*</li>
+<li>mono-addins-*</li>
+<li>gtk-sharp2-*</li>
+<li>gnome-sharp-*</li>
+<li>mono-web-*</li>
+<li>mono-winforms-*</li>
+</ul>
+<p>The last Red Hat based distribution I used was Red Hat Linux 9 back in the day so I&#39;m very rusty, but with dependencies being what they are uninstalling just mono-core-* might be enough to be prompted for the removal of all the others.</p>
+<h3>Update</h3>
+<p>I installed Fedora 11 from a USB key made from a Live CD which is why I didn&#39;t have Mono. I&#39;m assuming this means previous full releases of Fedora had it then. Still worrying though.</p>
+ 

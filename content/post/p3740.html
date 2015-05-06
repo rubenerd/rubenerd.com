@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Rubenerd Blog XHTML 1.0 Strict-yness' 
+date: "2009-02-05T09:31:37+10:00"
+categories: 
+- Internet 
+tags: 
+- formats
+- html
+- infocomm
+- standards
+- w3c
+- xhtml 
+---
+<p><a href="http://validator.w3.org/"><img src="http://files.rubenerd.com/uploads/screenie.w3c.validator.png" alt="The W3C Validator" style="height:140px; width:500px; display:inline; border:0px" /></a></p>
+<p>One of the final pieces of the puzzle (to use a worn out cliche that long since overstayed it&#39;s welcome) of moving web servers is making sure that the code in the blog <strong><em>posts</em></strong> here and for the show are valid <a href="http://www.w3.org/MarkUp/#xhtml1">XHTML</a> (I had kept this in mind for several years, but I have made mistakes that need correcting). This is important for several  reasons which I won&#39;t bore you with here, suffice to say it has to do with moving over to a new server with a new theme, possible assignment marks and with some XML software I&#39;m writing.</p>
+<p>For those who are staring at me with blank faces right now (even more than usual I mean), XHTML is a reformulation of HTML into strict <a href="http://en.wikipedia.org/wiki/XML">XML</a> instead of the more lenient <a href="http://en.wikipedia.org/wiki/SGML">SGML</a>. Alphabet soup sentences aside, pragmatically this means you can pass your web pages through a XML parser which allows you to do some really cool things like converting pages into other file formats, extract data more easily, use <a href="http://microformats.org/">microformats</a> to generate feeds, and so on. The theory also is because XML is stricter than SGML, pages written in XHTML are more &quot;correct&quot; and should be easier for browsers to render.</p>
+<blockquote><p><strong>ASIDE:</strong> You can tell if a page has been optimised for an XHTML standard by looking at the head of the source code for a page for a DOCTYPE definition.</p>
+<p>The current standards are XHTML 1.0 Frameset, XHTML 1.0 Transitional and XHTML 1.0 Strict (which is what I currently use). XHTML 1.1 also exists, but has seen limited adoption given Internet Explorer 6’s hostility towards the required xml version declaration which triggers it’s quirks mode which isn’t what we want!</p></blockquote>
+<p>There seems to be a huge difference of opinion between people who see the value of validating web pages with a XHTML W3C specification, and those who say it&#39;s a waste of time and more of a hindrance to the web than an assistance.</p>
+<p>I&#39;m firmly in the first camp, but that&#39;s not to say I approve of everything the W3C is doing with their specs. Unfortunately the way I see it, for every three steps forward they make, they take one step backwards. This means they&#39;re definitely heading in the right direction and making progress (albeit at a snail&#39;s pace), but they&#39;re shedding some useful stuff along the way in their absolute rigid pursuit of code purity and correctness. Iframe elements and ordered lists come to mind, but I&#39;ll save them for another post where I can elaborate further.</p>
+<p><a href="http://validator.w3.org/check?uri=http://rubenerd.com/"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a></p>
+<p>As of the 5th of February 2009 <a href="http://validator.w3.org/check?uri=http://rubenerd.com/">the home page of this blog is valid XHTML 1.0 Strict</a>, but there&#39;s still lots of work to be done for individual posts. A lot of this can be done automatically with a few Perl scripts I&#39;ve hacked together, but a few tags that will need replacement can really only be taken care of by a human looking at it and making the correct substitutions. At least I feel I&#39;m making progress.</p>
+<p>XHTML sounds like an isotonic energy drink. It doesn&#39;t sound like Bill Kurtis, which is useful because I&#39;m not Bill Kurtis.</p>
+ 

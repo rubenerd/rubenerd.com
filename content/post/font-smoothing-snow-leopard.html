@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Font smoothing in Snow Leopard' 
+date: "2009-08-29T06:28:26+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- displays
+- font-smoothing
+- fonts
+- guide
+- howto
+- infocomm
+- mac-os-x
+- operating-systems
+- snow-leopard 
+---
+<p>With the introduction of Mac OS X Snow Leopard, Apple has decided to disable graphical configuration of font smoothing. Fortunately, there is a workaround!</p>
+<h3>Previously on Leopard</h3>
+<p>In Leopard and earlier versions of Mac OS X, if you opened <strong>System Preferences</strong> and chose <strong>Appearance</strong>, you could choose the level of font smoothing on your monitor with a handy drop down box.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.fontsmoothing.leopard.png" alt="Appearance prefpane in Leopard" style="height:129px; width:500px; display:inline; border:0em;"/></p>
+<h3>On Snow Leopard…</h3>
+<p>For some reason, Apple decided in <a href="http://rubenerd.com/tag/snow-leopard">Snow Leopard</a> to to disable graphical configuration of font smoothing aside from a single checkbox, instead relying on LCDs to report what settings should be used. The problem is, support for this is spotty and sometimes the results look terrible.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.fontsmoothing.snowleopard.png" alt="Appearance prefpane in Snow Leopard" style="height:84px; width:500px; display:inline; border:0em;"/></p>
+<h3>The solution!</h3>
+<p>Fortunately you can still adjust this manually. Open the Terminal in your Utilities folder, then enter the following code on <strong>one line</strong>. Replace the <strong>&quot;2&quot;</strong> with a number between 1 and 4, depending on how much smoothing you want.</p>
+<blockquote><p>defaults -currentHost write -globalDomain AppleFontSmoothing -int 2</p></blockquote>
+<p>The changes will only take effect on <strong>newly opened applications</strong>. The easiest way I&#39;ve found is just to log out and log in again.</p>
+<p>Heaven knows why Apple user interface designers decided to remove access to this feature.</p>
+ 

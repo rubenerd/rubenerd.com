@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Non-destructive Perl regex substitutions' 
+date: "2013-01-13T01:56:38+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- infocomm
+- perl 
+---
+<p><img src="http://files.rubenerd.com/uploads/Mimetypes-text-x-perl-icon.png" alt="" style="width:98px; height:128px; float:right; margin:0px 0px 10px 10px;" class="transparent" /></p>
+<p>I’ve been a <a href="http://rubenerd.com/tag/perl/">Perl Monk in training</a> for years, but I only just realised this.</p>
+<p>Say you want to print an original string, and a modified version with a case-insensitive substitution. This below will output &#8220;shimapan shima-melonpan&#8221;, just because I can.</p>
+<pre>my $first = "shimapan"
+my $second = $first;
+$second =~ s/pan/-melonpan/i;
+print("$first $secondn");
+</pre>
+<p>You can use &#8220;r&#8221; instead to non-destructively substitute, with the same result.</p>
+<pre>my $first = "shimapan"
+my $second = $first =~ s/pan/melonpan/ir;
+print("$first $secondn");
+</pre>
+<p>I generally avoid Perl Golf-isms for the <a href="http://www.dagolden.com/index.php/163/stop-with-the-perl-golf-already/">same reasosn Dagolden does</a>, but in this case I find it does remove a little redundancy, and is just as readable.</p>
+<p>Thanks to <a href="https://twitter.com/damncabbage/status/290290088456384512">@damncabbage</a> for getting me to finally post this!</p>
+ 

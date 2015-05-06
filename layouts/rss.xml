@@ -1,0 +1,43 @@
+<rss version="2.0"
+  xml:base="http://rubenerd.com/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html">
+
+<channel>
+  <title>{{ .Site.Title }}</title>
+  <link>{{ .Permalink }}</link>
+  <description>By Ruben Schade in s/Singapore/Sydney/.</description>
+  <copyright>{{ .Site.Copyright }}</copyright>
+  <language>{{ .Site.LanguageCode }}</language>
+  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHtml }}</lastBuildDate>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHtml }}</pubDate>
+  <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+  <ttl>30</ttl>
+  <dc:creator>Ruben Schade</dc:creator>
+  <source:account service="twitter">Rubenerd</source:account>
+  <source:account service="facebook">ruben.schade</source:account>
+
+  <image>
+    <url>http://rubenerd.com/logo.rss.png</url>
+    <title>{{ .Site.Title }}</title>
+    <link>http://rubenerd.com/</link>
+    <width>144</width>
+    <height>72</height>
+    <description>By Ruben Schade in s/Singapore/Sydney/.</description>
+  </image>
+{{ range first 30 .Data.Pages }}
+<item>
+  <title>{{ .Title }}</title>
+  <link>{{ .Permalink }}</link>
+  <guid>{{ .Permalink }}</guid>
+  {{ range .Params.categories }}<category>{{ . | lower }}</category>{{ end }}
+  {{ range .Params.tags }}<category>{{ . | lower }}</category>
+  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
+  <description>{{ .Content | html }}</description>
+</item>
+
+{{ end }}
+
+</channel>
+</rss>
+

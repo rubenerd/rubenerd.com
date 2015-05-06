@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'NTP sanity check' 
+date: "2014-06-20T04:53:41+10:00"
+categories: 
+- Software 
+tags: 
+- freebsd
+- ntp
+- time 
+---
+<p>Creating a new FreeBSD Xen template at work, I was given the all too familiar error message:</p>
+<pre>
+ntpd[1037]: time correction of -39583 seconds exceeds sanity
+limit (1000); set clock manually to the correct UTC time.
+</pre>
+<p>This despite setting the time to UTC and the local timezone in bsdinstall moments earlier.</p>
+<p>The solution is to set the time manually. Even if its slightly off, it will<br />
+be within the allowed drift of NTP, which will let it correct it:</p>
+<pre>
+# date 1654
+</pre>
+<p>I’ll have to ask the other engineers how much of an issue time drift is to VMs. From my own client experience, it can be a hugely thorny issue.</p>
+ 

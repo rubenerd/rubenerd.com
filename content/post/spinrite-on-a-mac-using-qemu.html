@@ -1,0 +1,51 @@
+---
+layout: post
+title: 'SpinRite on a Mac using QEMU' 
+date: "2011-03-15T12:14:26+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- hard-drives
+- howto
+- infocomm
+- mac-os-x
+- postaday2011
+- qemu
+- spinrite
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.spinrite.png" alt="" style="height:294px; width:500px;" /></p>
+<p>More out of interest sake than being under any illusion of practicality, I decided this evening to try running <a href="http://www.grc.com/">SpinRite</a> in <a href="http://qemu.org/">QEMU</a> on my Mac Pro. The verdict: it works, if you have lots of spare time!</p>
+<p><!--oldmore--></p>
+<h3>Notes before proceeding</h3>
+<p>I tested this on a Mac Pro, running SpinRite in QEMU on a non-system drive. I would assume if you booted Mac OS X off an external drive you could try this on your machine&#39;s system drive as well, but your mileage may vary.</p>
+<p>QEMU is easy enough to build yourself, or its available on Homebrew, MacPorts, Fink and pkgsrc.</p>
+<p><strong>Finally, this action is allowing software raw access to your drive, so be extremely careful about getting the labels and identifiers right. Backup your stuff. Do at your own risk!</strong></p>
+<h3>The procedure</h3>
+<ol>
+<li>
+<p>Go into Disk Utility, click the drive you want to run SpinRite on, then go to File &#8594; Get Info. Under the &quot;disk identifier&quot; heading you should see a string called disk[number]. Make a note of it.</p>
+</li>
+<li>
+<p>Use Disk Utility to unmount the drive. If it says the drive is busy but you&#39;re sure you&#39;re not doing anything with it, you can force eject it with its shell sibling:</p>
+</li>
+</ol>
+<blockquote style="font-family:monospace"><p>% sudo hdiutil eject -force /Volumes/[label]</p></blockquote>
+<ol>
+<li>Temporarily assign yourself ownership of that volume:</li>
+</ol>
+<blockquote style="font-family:monospace"><p>% sudo chown [your username] /dev/disk[number]</p></blockquote>
+<ol>
+<li>Fire up a QEMU session:</li>
+</ol>
+<blockquote style="font-family:monospace"><p>% qemu -hda /dev/disk[X] -cdrom spinrite.iso -boot d</p></blockquote>
+<p>From here on in, its just like SpinRite on a regular machine… although an order of magnitude slower!</p>
+<p>Don&#39;t forget when you&#39;re done to return permissions to root on the drive:</p>
+<blockquote style="font-family:monospace"><p>% sudo chown root /dev/disk[number]</p></blockquote>
+<h3>Why go to all the trouble?</h3>
+<p>SpinRite is a preventative hard drive maintenance utility that is run off a bootable FreeDOS image burned either to a CD or run off a floppy disk. Unfortunately, while it boots on Intel Macs, the software requires BIOS level access to drives which EFI obviously fails to provide. As a consequence, the keyboard doesn&#39;t work and even if it did, the drives wouldn&#39;t be accessible.</p>
+<p>One potential workaround is to physically remove internal drives from Macs, install them in a regular PC with a BIOS and perform SpinRite on it. While this works, its terribly clumsy and doesn&#39;t lend itself well to performing regular maintenance as Steve Gibson suggests we use it.</p>
+<p>This got me thinking whether or not it can be virtualised. Provided the software had raw access to the drive, theoretically one could create a virtual machine, boot off the SpinRite ISO image and have it do its thing. I&#39;d tried it using raw access in VirtualBox before, but it was complicated to configure and ran as slow as molasses.</p>
+<p>Turns out, using QEMU to do this on a non-system drive is fairly simple, though just as slow. Oh well, you live and learn!</p>
+ 

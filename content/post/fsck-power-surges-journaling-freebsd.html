@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Fsck, power surges, journaling, FreeBSD' 
+date: "2007-02-19T07:51:54+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- file-systems
+- freebsd
+- fsck
+- infocomm
+- malaysia 
+---
+<p><a href="http://rubenerd.com/category/freebsd/"><img src="http://files.rubenerd.com/uploads/bsd_daemon.jpg" alt="Rubenerd Blog FreeBSD related articles" style="float:right; margin: 0 0 10px 20px" /></a> By nearly all accounts my decision last year to adopt FreeBSD over Linux (and Windows… haha) on my non-Apple computers has been a damned good one. Installing, maintaining and updating FreeBSD boxes is so simple compared to Linux, the <a href="freebsd.org/doc/en_US.ISO8859-1/books/handbook/">documentation</a> is second to none, the <a href="http://www.freebsd.org/ports">FreeBSD Ports System</a> is simple and easy to optimise, and I&#39;ve really come to appreciate the clean drive layout.</p>
+<p>There&#39;s just one problem! Living in Malaysia power spikes tend to happen more often than in Singapore and Australia, and while it&#39;s great that my surge protectors do a fine job of preventing any real damage (touch wood) I find myself turning computers back on that have been automatically switched off every couple of weeks. Let&#39;s just say I&#39;ve become fairly well aquainted with <a href="http://www.freebsd.org/cgi/man.cgi?query=fsck">fsck</a>.</p>
+<p>And therein lies the problem: <em>FreeBSD&#39;s UFS doesn&#39;t have native journaling</em>, so hard disk failures are far more of a pain in the arse to recover from. In comparison, Linux, Solaris and Mac OS X all have journaling meaning that if they ever fail it&#39;s a breeze to get them back up again after restarting.</p>
+<p>Fortunately a cursory search on <a href="http://www.google.com/search?q=gjournal+freebsd">Google</a> and <a href="http://search.yahoo.com/search;_ylt=A0geuok.ZdlFs04BYDOl87UF?ei=UTF-8&#038;fr=sfp&#038;p=gjournal+freebsd">Yahoo</a> revealed a project called GJournal created by Pawel Jakub Dawidek during the Summer of Code 2005, which seems to be implementing journaling over exiting disk labels.</p>
+<p>From the <a href="http://lists.freebsd.org/pipermail/freebsd-fs/2006-June/001962.html">Journaling UFS with gjournal entries</a> on the FreeBSD mailing list:</p>
+<blockquote><p>
+GJournal was designed to journal GEOM providers, so it actually works<br />
+below file system layer, but it has hooks which allow to work with<br />
+file systems. In other words, gjournal is not file system-depended,<br />
+it can work probably with any file system with minimum knowledge<br />
+about it. I implemented only UFS support.
+</p></blockquote>
+<p>And from the (outdated) <a href="http://wiki.freebsd.org/gjournal">article on the FreeBSD wiki</a>:</p>
+<blockquote><p>
+Gjournal is a layer in the GEOM hierarchy that consumes two lower-layer devices and produces one device. The two lower-layer devices are called data disk and journal disk. The data disk is self-sufficient and (eventually) contains verbatim data that’s handled to the layer, so after the journal is disconnected it in itself can be used as a normal storage device. The journal disk contains linear records for every write request handled to the layer
+</p></blockquote>
+<p>From what I can tell it has been released to the -CURRENT branch which doesn&#39;t help me sitting on -STABLE (and -RELEASE on my firewall box), but it appears it will be released in FreeBSD 7. Good to see this is happening; perhaps I&#39;ll install it seperately myself and give it a shot.</p>
+<p>Has anyone had any success with this? It would seriously save me a lot of trouble.</p>
+ 

@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Getting PHP Working on Mac OS X' 
+date: "2006-10-15T03:08:53+10:00"
+categories: 
+- Software 
+tags: 
+- apache
+- apple
+- guide
+- howto
+- infocomm
+- php
+- scripting
+- unix 
+---
+<p><img style="width:400px;" src="http://files.rubenerd.com/uploads/php.jpg" alt="" /><br />
+<em>Ruben the Perl Programmer: I resent that remark</em></p>
+<p>I consider myself a more experienced Perl programmer, though I do need PHP to run some of the programs I download. Mac OS X comes bundled with PHP, but it needs to be enabled in Apache before you can run PHP programs on your websever. Dang.</p>
+<p>From the always useful <a href="http://www.devarticles.com/c/a/Apache/Using-Apache-and-PHP-on-Mac-OS-X/">DevArticles.com</a>:</p>
+<blockquote><p>Using the Terminal.app, Start the Terminal.app located in the &#8220;/Applications/Utilities/&#8221; directory, then change the directory to the &#8220;httpd&#8221; directory using the following command:</p>
+<p>cd /etc/httpd</p>
+<p>Next step is to use &#8220;root&#8221; privileges, start up the text editor named &#8220;Pico&#8221; and edit the &#8220;httpd.conf&#8221; file.</p>
+<p>Use the following command in the Terminal.app:</p>
+<p>sudo pico httpd.conf</p>
+<p>Type the root password and you are ready to go.</p>
+<p>Locate the 4 lines:</p>
+<p>#LoadModule php4_module<br />
+#AddModule mod_php4.c<br />
+#AddType application/x-httpd-php .php<br />
+#AddType application/x-httpd-php-source .phps</p>
+<p>Use your arrow keys to navigate the document and remove only the pound signs &#8220;#&#8221;. The best way to navigate is to use the DOWN arrow key and stay to the left Side of the document. To remove the pound sign, hit the right arrow to the right Of the sign and then hit the DELETE key.</p>
+<p>Warning: Only remove the pound signs!! Keep the lines of code where they are and do not relocate them!! You have been warned!</p>
+<p>The changed lines should look like this:</p>
+<p>LoadModule php4_module<br />
+AddModule mod_php4.c<br />
+AddType application/x-httpd-php .php<br />
+AddType application/x-httpd-php-source .phps</p></blockquote>
+ 

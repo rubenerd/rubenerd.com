@@ -1,0 +1,57 @@
+---
+layout: post
+title: 'X11, FreeBSD, Parallels Desktop, xorg.conf' 
+date: "2007-03-14T08:33:43+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- kde
+- unix
+- virtualisation
+- x11 
+---
+<blockquote><p><strong>2009 UPDATE:</strong> I’ve long since moved to VMware Fusion and Parallels has long since moved out of beta, so as it stands this page should now be considered historical. Some very helpful people have posted comments though, so it seems most of this can still be used. Thanks everyone.</p></blockquote>
+<p><em>If you&#39;re in a hurry and just want the damned xorg.conf file, you can <a href="http://files.rubenerd.com/uploads/xorg.conf">download mine here</a>. Do NOT copy the text, right click and save the file.</em></p>
+<p><a href="http://rubenerd.com/category/freebsd/"><img src="http://files.rubenerd.com/uploads/bsd_daemon.jpg" alt="FreeBSD!" style="float:right; margin: 0 0 10px 20px" /></a> If you&#39;ve read any of my blog by now you know I use <a href="http://www.freebsd.org/">FreeBSD 6.2</a> in <a href="http://forum.parallels.com/">Parallels Desktop</a> on my MacBook Pro. I&#39;ve received two emails from people asking how I got X11 working, so for the benefit of those fabulous people and anyone else who&#39;s interested I thought I&#39;d post a quick how-to.</p>
+<p>Essentially configuring X on FreeBSD in Parallels Desktop is the same as a normal machine but with a few quirks, especially if you&#39;re running a widescreen MacBook or MacBook Pro.</p>
+<p>Firstly after you&#39;ve installed FreeBSD (I just download the ISOs and mount them directly in Parallels), log on as root and run the X11 configuration script, which will dump an <code>xorg.conf.new</code> file into your <code>/root</code> directory:</p>
+<pre>Xorg -configure</pre>
+<p>Next open the <code>xorg.conf.new</code> in a text editor. If you&#39;re fairly new to UNIX and FreeBSD the Easy Editor is probably your best bet:</p>
+<pre>ee /root/xorg.conf.new</pre>
+<p>Most of the heavy lifting has been done for you; from my experience FreeBSD in Parallels Desktop detects the virtual keyboard and mouse just fine. We need to add some more information though for our widescreens.</p>
+<p>Scroll down until you see <code>Section &quot;Monitor&quot;</code> and add the following lines (make sure each Modeline is on one line though, not wrapped like this):</p>
+<pre>HorizSync 31.5 - 100.0
+VertRefresh 59.0 - 75.0
+Modeline "1440x900_60.0" 106.47 1440 1520 1672 1904 900 901 904 932 -HSync +Vsync
+Modeline "1280x800" 83.46 1280 1344 1480 1680 800 801 804 828
+</pre>
+<p>The modelines allow X11 to use the widescreen displays of the MacBook Pro and MacBook respectively. Even though I have a MacBook Pro I tend to use the &#8220;1280&#215;800&#8243; because it fits nicely in a window on my OS X desktop.</p>
+<p>Next under <code>Section "Device"</code> add the VideoRam line followed by the amount of VRAM you allocated your virtual machine <em>in kilobytes</em> (ie: multiply by 1024). The default is 16MB, which would be 16384:</p>
+<pre>VideoRam    16384</pre>
+<p>Really unless you’re using an external monitor there is no point at the moment allocating more than this to your VM; Parallels Desktop takes this from your host machine’s normal RAM not video memory and uses it to increase supported resolutions.</p>
+<p>Now scroll down to <code>Section "Screen"</code>. You should see several <code>SubSection "Display"</code> configurations with different colour depths. Scroll down to the last one and add the appropriate <code>Modes</code> line:</p>
+<pre>SubSection "Display"Viewport 0 0Depth 24Modes "1280x800"</code> (for MacBook) OR
+<code>Modes "1440x900"</code> (for MacBook Pro)
+<code>EndSubSection</pre>
+<p>FreeBSD should auto-detect under most circumstances the highest colour depth the VM supports, but I usually put a <code>DefaultDepth</code> line in right under <code>Section "Screen"</code> for good measure:</p>
+<pre>Section "Screen"DefaultDepth 24</code>
+[…]
+</blockquote>
+
+<p>Now you&#39;re all set! All that&#39;s left to do now is <em>rename and move</em> the changed file over to the X11 configuration directory:</p>
+
+<pre>mv /root/xorg.conf.new /etc/X11/xorg.conf</pre>
+<p>Now the moment of truth: testing if it works!</p>
+<pre>startx</pre>
+<p>And that&#39;s all there is to it. To return to the command line, just type <code>ctrl alt delete/backspace</code>.</p>
+<p>The next step would be to go to your ports tree and install your favourite window mananger or desktop environment. For example if you want KDE, as root:</p>
+<pre>cd /usr/ports/x11/kde3make install clean</pre>
+<p>Or if you if you&#39;d prefer not to wait two days for the entire desktop to be compiled ;):</p>
+<pre>pkg_add -rv kde</pre>
+<p>Then add <code>exec startkde</code> to your <code>.xinitrc</code> in your home directory (create it if it doesn&#39;t exist).</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.klia_freebsd.png"><img id="image626" src="http://files.rubenerd.com/uploads/klia_freebsd_thumb.png" alt="Haruhi KDE FreeBSD" /></a></p>
+<p>Don&#39;t forget to read the <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/">FreeBSD Handbook</a> chapter on <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/x-config.html">X11 Configuration</a> as well.</p>
+ 

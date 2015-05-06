@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'VIM security note for FreeBSD folks' 
+date: "2008-05-19T10:09:59+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- security
+- vim 
+---
+<p><a href="http://files.rubenerd.com/uploads/screenie.vim.ports.png"><img src="http://files.rubenerd.com/uploads/screenie.vim.ports.thumb.png" alt="Installing vim on FreeBSD" style="height:233px; width:320px;" /></a></p>
+<p>If you install the <a href="http://www.freshports.org/editors/vim/">vim text editor</a> either from packages or ports, just a reminder from the <a href="http://www.freebsd.org/security/">FreeBSD Security Team</a>:</p>
+<blockquote><p>SECURITY NOTE: The VIM software has had several remote vulnerabilities discovered within VIM’s modeline support. It allowed remote attackers to execute arbitrary code as the user running VIM. All known problems have been fixed, but the FreeBSD Security Team advises that VIM users use &#8216;set nomodeline’ in ~/.vimrc to avoid the possibility of trojaned text files.</p></blockquote>
+<p>If you install lots of ports at once or just happened to have vim installed automatically because it was listed as a dependency, you may not have see that message. Take care.</p>
+ 

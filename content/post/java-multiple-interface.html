@@ -1,0 +1,51 @@
+---
+layout: post
+title: 'Java multiple interface ambiguity' 
+date: "2009-08-11T07:27:22+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><img src="http://farm3.static.flickr.com/2614/3675153074_cfb43a3f6d.jpg" style="height:335px; width:500px; border:0px; display:inline;" alt="" /></p>
+<p>I&#39;ve been told in lectures that the reason why Java doesn&#39;t support multiple inheritance is because every class inherits from the Object class which negates the need for it (perhaps), and because it prevents problems encountered in languages like C++ where multiple parent classes might have methods and data members with the same signatures and names.</p>
+<p>What Java does support though is multiple interfaces which lends objects consistent behaviour even if they&#39;re completely different:</p>
+<blockquote>
+<pre>
+public class Bicycle implements PeddlePower, Purchasable {
+   // I want to ride my bicycle,
+   // I want to ride my bike…
+}
+
+public class Keyboard implements Purchasable {
+   // Bucking spring keyboards are the shiz
+}
+</pre>
+</blockquote>
+<p>What I wanted to know is whether or not different interfaces with the same abstract methods and data members could cause a similar clash to the ones avoided by not having multiple inheritance, or whether it would cause an override.</p>
+<blockquote>
+<pre>
+public interface InterfaceA { final int x = 4; }
+
+public interface InterfaceB { final int x = 4; }
+
+public class Testing implements InterfaceA, InterfaceB {
+   public class Testing {
+      System.out.println(x);
+   }
+}
+</pre>
+</blockquote>
+<p>Turns out it does generate an error, and now that I&#39;ve seen it, it does make sense.</p>
+<blockquote>
+<pre>
+Testing.java:5: reference to x is ambiguous, 
+both variable x in A and variable x in B match
+</pre>
+</blockquote>
+<p>My reasoning was: imagine you&#39;re passing the Testing object to a setter method that accepts any object that implements <code>InterfaceA</code>. I assumed it would know to use the <code>int x</code> data member from <code>InterfaceA</code> and NOT from <code>InterfaceB</code> right? Well of course not, just because it&#39;s been passed through something that only accepts objects that implement <code>InterfaceA</code>, that doesn&#39;t mean it&#39;s lost it&#39;s <code>InterfaceB</code>!</p>
+<p>Anyway to seasoned Java folk this probably all seems childish and silly, but I find if I try to explain a logic problem out loud to somebody, often I learn the answer myself in the process; in this case why two interfaces can&#39;t have methods and data members with the same signatures and names after all! Well technically they could provided you&#39;re sure both interfaces will never be used on the same objects at the same time.</p>
+ 

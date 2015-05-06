@@ -1,0 +1,62 @@
+---
+layout: post
+title: 'Playing with Homebrew on Mac OS X' 
+date: "2011-04-16T01:55:58+10:00"
+categories: 
+- Software 
+tags: 
+- homebrew
+- infocomm
+- mac-os-x
+- package-managers
+- postaday2011 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.homebrew.png" alt="Homebrew running on my Mac Pro this afternoon" style="height:215px; width:500px;" /></p>
+<p>In January I started trialling <a href="http://github.com/mxcl/homebrew/">Homebrew</a>, the new package manager for Mac OS X. With my latest system rebuild, I’ve moved to it exclusively, and am loving it!</p>
+<p><!--oldmore--></p>
+<h3>Homebrew means coffee, right?</h3>
+<p>Ironically despite only being a partially free/open source OS, Mac OS X users are spoiled for choice when choosing a package management system to install free/open source software:</p>
+<ul>
+<li><a href="http://macports.macforge.org/">MacPorts</a> (formerly DarwinPorts) is a source-based system that’s functionally similar to FreeBSD’s ports system, though easier to update in my opinion.
+</p>
+</li>
+<li><a href="http://finkproject.org/">Fink</a> is a source and binary based system that’s broadly equivalent to Debian’s apt-get.
+</p>
+</li>
+<li>NetBSD’s comprehensive <a href="http://www.netbsd.org/pkgsrc/">pkgsrc</a> system can be bootstrapped provided the target volume is case sensitive.
+</p>
+</li>
+<li>While not a package manager <em>per s&eacute;</em>, <a href="http://rudix.org/">Rudix</a> conveniently bundles some of the most common *nix command line software, tools, languages and libraries into one package. For new Linux to Mac converts who want to leave package managers behind, I recommend this to give them the tools they’re used to.
+</p>
+</li>
+<li>Apple’s App Store… wait no. Actually that’s a good question, can you distribute free/open source software through that, or will you be vilified and VLC-d by the FSF? Eh, just use <a href="http://www.maclibre.com/">MacLibre</a> for that :)</li>
+</ul>
+<p>When I first heard about Homebrew, I have to admit my first thought was &quot;geez, another one!?&quot; My tune quickly changed when I learned more about it.</p>
+<h3>The goodness</h3>
+<p>In CatB, the legendary Eric S. Raymond commented that every good work of software starts by scratching a developer’s personal itch, and that’s evident with the design of Homebrew. The entire system is based off Git, and individual formulas (their terminology for ports/packages) are simple Ruby files. I’m ready to dive off Mercurial and learn more Git just to see all the cool stuff I can do with this!</p>
+<p>My favourite feature however is how formulas are installed. In a nod to NeXT/Mac OS X application packages and PC-BSD’s PBI system, instead of dumping everything into ungainly POSIX folders like almost every other package manager, Homebrew installs formulas into their own directories in <code>$HOMEBREW_PATH/Cellar</code>, then create symlinks into their expected POSIX folders so you merely have to add <code>$HOMEBREW_PATH/bin</code> to your <code>$PATH</code>. Compatible, but clean!</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.homebrew.cellar.png" alt="Homebrew listing my installed brews in the Cellar" style="height:227px; width:500px;" /></p>
+<h3>Where Ruben differs</h3>
+<p>In keeping with not being tied down to how traditional package managers operate, the Homebrew team suggests you take ownership of the <code>/usr/local/</code> directory, then install Homebrew there.</p>
+<p>Their justifications seem reasonable, but the idea rubs me the wrong way. I don’t want Homebrew clashing with the software I already build and maintain myself in <code>/usr/local/</code>, and personally <code>chown</code>-ing such a critical directory goes against everything I’ve learned about security and segregation.</p>
+<p>Fortunately the Homebrew developers took into account there’d be crusty, inflexible people like me using their system, so you can elect to install it wherever you want. I chose to use the old standard <code>/opt/local/</code>, assign it to root, and bootstrap:</p>
+<blockquote style="font-family:monospace"><p>
+% sudo -s<br />
+# mkdir -p /opt/local</p>
+<p># curl -L <br />
+http://github.com/mxcl/homebrew/tarball/master <br />
+| tar xz <span>-</span><span>-</span>strip 1 -C /opt/local
+</p></blockquote>
+<p>Then its just a matter of updating your shell&#39;s $PATH and $MANPATH to point to your newly created directories. Too easy!</p>
+<h3>Installing stuff</h3>
+<p>Probably the first thing you’ll want to do is run an update, which requires Git. The procedure is super complex.</p>
+<blockquote style="font-family:monospace">
+<p># brew install git<br />
+# brew update</p>
+</blockquote>
+<p>Now you’re ready to install all your FLOSS goodness! To see what’s available you can browse the <a href="http://github.com/mxcl/homebrew/tree/master/Library/Formula/">formula directory</a> on Github, or you can use <code>brew search</code>. If you’re a Git ninja, once performing an <code>update</code> you can perform all the Git commands you’re used to.</p>
+<p>Finally, I often judge projects based on the quality of its documentation. <code>brew help</code> lists all the available commands, and the brew manpage is very clear and well written. Kudos :).</p>
+<h3>Group hug</h3>
+<p>
+<p>Credit goes to <a href="http://ascarter.net/2010/02/22/homebrew-for-osx.html">Andrew Carter</a> who shared my skepticism about installing Homebrew into /usr/local. Thanks also to the people behind <a href="http://github.com/mxcl/homebrew/">Homebrew</a> for this awesome software, and to the MacPorts maintainers for all the tireless work you did over the years to keep my Mac brimming with FLOSSY goodness. Your efforts have all been highly appreciated :).</p>
+ 

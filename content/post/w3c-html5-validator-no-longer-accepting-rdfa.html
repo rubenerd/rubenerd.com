@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'W3C HTML5 validator no longer accepting RDFa?' 
+date: "2013-06-29T01:48:00+10:00"
+categories: 
+- Internet 
+tags: 
+- dublin-core
+- infocomm
+- metadata
+- rdf
+- xml 
+---
+<p><img class="transparent" src="http://files.rubenerd.com/2013/icon.rdf.png" alt="RDF logo" style="height:128px;" /></p>
+<p style="font-weight:bold;"><a href="http://rubenerd.com/w3c-rdfa-validation-works">UPDATE: This issue has since been resolved.</a></p>
+<p>As of last night, something is wrong with the W3C’s HTML5 validator and RDFa prefix syntax (maybe). Previously validating pages that employ either the html prefix tag, or Dublin Core schemas no longer validate.</p>
+<h3>Broken HTML5 prefix</h3>
+<p>This is how I currently employ RDFa Dublin Core metadata properties on my pages (and will be on Rubenerd.com soon):</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;html prefix="dc: http://purl.org/dc/elements/1.1/"&gt;
+[..]
+&lt;meta property="dc:date" content="[some timestamp]" /&gt;
+</pre>
+<p>Doing so now generates this error:</p>
+<blockquote>
+<p>&#8220;Element meta is missing required attribute name&#8221;</p>
+<p>Attributes for element meta: name http-equiv content charset</p>
+</blockquote>
+<p>The &#8220;property&#8221; attribute is now no longer even listed. Huh.</p>
+<h3>Broken HTML5 schemas</h3>
+<p>If you replace RDFa syntax with a schema link (such as to Dublin Core), and replace the meta properties with meta names:</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;link rel="schema.DC" href="http://purl.org/dc/elements/1.1/" /&gt;
+&lt;link rel="schema.DCTERMS" href="http://purl.org/dc/terms/" /&gt;
+[..]
+&lt;meta name="DC.date" content="[some timestamp]" /&gt;
+</pre>
+<p>You get this error:</p>
+<blockquote>
+<p>&#8220;Bad value schema.dc for attribute rel on element link: The string schema.dc is not a registered keyword or absolute URL.&#8221;</p>
+</blockquote>
+<p>I am unsure how to proceed. If this is an error in the evolving, beta HTML5 validatior, I’ll understand. If instead they’ve decided RDFa-like syntax can’t tango with HTML5 after all, I won’t be a very happy munchkin.</p>
+ 

@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Repeated SegPub downtime over last few days' 
+date: "2009-08-25T02:37:25+10:00"
+categories: 
+- Internet 
+tags: 
+- 404-error
+- infocomm
+- segpub
+- segpub-downtime
+- weblog 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3855098676/" title="SegPub problems: database by rubenerd, on Flickr"><img src="http://farm3.static.flickr.com/2567/3855098676_a8293fb47d_o.png" width="480" height="320" alt="SegPub problems: database" /></a></p>
+<p>Today has not been a very good one for the intertubes. For the second time in the last couple of days <a href="http://rubenerd.com/">Rubenerd.com</a> went offline for an extended period of time, fourth time if you count database connection errors. SegPub guarantees a <a href="http://segpub.net/hosting/">free month&#39;s hosting</a> if uptime dips below 99.5%.</p>
+<p>The timing could not have been worse, some of the blog posts I had written regarding OpenSolaris and Java were supposed to be used in a practical today because I thought I could get some valuable feedback (which I did) instead of just writing it up in OpenOffice or Word. I showed the results of <a href="http://downforeveryoneorjustme.com/rubenerd.com">a well known downtime indicator</a> to the teacher, but he was not impressed. Serves me right for trying to think outside the box.</p>
+<p>I got a reply from the SegPub discussion mailing list regarding the matter:</p>
+<blockquote><p>
+I can assure you we haven’t had any outages recorded today. We monitor all our services from 19 redundant locations, if 2 or more report an issue then we consider a service to be down and we’ll react immediately.</p>
+<p>I’m not saying it wasn’t down for you, but just in regards to our monitoring, we haven’t had any outages today. To give you a bit of background, this is the first time since February 2009 that we’ve had any kind of issues, its just unfortunate when things happen they tend to happen all at once.</p>
+<p>It’d be great to see if we can get some source IP addresses you were connecting from so we can trace the issues at our edge routers so we can trace back and work out if perhaps there’s a network issue along the way.</p>
+<p>I can assure you we take downtime VERY seriously, and we strive to maintain our excellent uptime and stability.</p></blockquote>
+<p>I believe them when they say they take downtime seriously, but respectively their claim that there was no downtime today is simply not true.</p>
+<p>I could understand if it was just my isolated IP address or ISP having connection problems, but I was able to confirm with people living in Singapore and London that it was offline, and as you can see from the screenshot <a href="http://DownForEveryoneOrJustMe.com/">from the following website</a> they were reporting it down too.</p>
+<p><a href="http://www.flickr.com/photos/rubenerd/3854062435/" title="SegPub #Fail by rubenerd, on Flickr"><img src="http://farm3.static.flickr.com/2595/3854062435_4ec4a67514_o.png" width="480" height="320" alt="SegPub #Fail" /></a></p>
+<p>I&#39;ve had nothing but positive experiences to report with SegPub, they run a tight ship. Here&#39;s hoping these last couple of days were just one off occurrences. If it does happen again I&#39;ll be running a <code>dtrace</code> to see where the problem starts.</p>
+ 

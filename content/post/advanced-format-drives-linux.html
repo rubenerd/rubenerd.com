@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'The partition is misaligned by 3072 bytes?' 
+date: "2012-04-09T12:51:32+10:00"
+categories: 
+- Software 
+tags: 
+- gdisk
+- gpt
+- guid
+- guide
+- hard-drives
+- infocomm
+- linux
+- p12
+- palimpsest
+- red-hat 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.palimpsest.4096.png" alt="" style="height:195px; width:500px;" alt="The partition is misaligned by 3072 bytes. This may result in very poor performance. Repartitioning is suggested." /></p>
+<p>Getting this error in Red Hat&#39;s <a href="http://library.gnome.org/users/palimpsest/">Palimpsest</a> (Disk Utility)? Use gdisk to define partitions first, then you&#39;ll have no problems :).</p>
+<p><!--oldmore--></p>
+<h3>The problem</h3>
+<p>Starting with their larger capacity, multi-terabyte/tebibyte drives, Seagate and Western Digital have moved from a 512 byte sector size to 4 kb. The benefits and tradeoffs of this new low level format is beyond the scope of this post; suffice to say it wrecks havoc with certain drive formatting tools!</p>
+<p>If you attempt to format one of these newer drives in Palimpsest, you may receive an error similar to this:</p>
+<blockquote><p>The partition is misaligned by 3072 bytes. This may result in very poor performance. Repartitioning is suggested.</p></blockquote>
+<p>Technically the drive is completely usable in this state, but you&#39;ll pay a hefty performance penalty.</p>
+<h3>The solution</h3>
+<p>At the time of writing this post, both GParted and Palimpsest have trouble with these drives, but <a href="https://en.wikipedia.org/wiki/GUID_Partition_Table#Unix-class_operating_systems">gdisk</a> can handle them. Gdisk is a command line based disk editor that works on <abbr title="Globally Unique Identifier">GUID</abbr> <abbr title="GUID Partition Table">GPT</abbr> drives.</p>
+<p>I shouldn&#39;t need to tell you to <strong>back up your data</strong> and <strong>quadruple check</strong> you&#39;re performing operations on the right drive. <strong>Please be careful!</strong></p>
+<ol>
+<li>Install from your package manager (no, really?)
+</p>
+</li>
+<li>Launch gdisk as root with the device path of your new drive; you can find that out from Palimpsest’s &#8220;Device&#8221; label. It’ll look something like this:
+</p>
+<pre># gdisk /dev/sd[x]</pre>
+</p>
+</li>
+<li>Type <code>n</code> for new partition, and accept the defaults, assuming you want a partition that takes the entire drive.
+</p>
+</li>
+<li>Type &#8220;w&#8221; to write the changes.</li>
+</ol>
+<p>Now you can format the drive with any tool you wish!</p>
+ 

@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Esoteric DOS tip of the week' 
+date: "2011-09-18T01:57:29+10:00"
+categories: 
+- Software 
+tags: 
+- dos
+- infocomm
+- nostalgia
+- pc-dos
+- postaday2011
+- retro 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.w311.386.png" alt="" style="height:155px; width:500px;" /></p>
+<p>If you&#39;ve installed Windows 3.x in IBM PC DOS 7.0/2000 and it reports insufficient conventional memory, you may be running the wrong version of SmartDrive.</p>
+<p><!--oldmore--></p>
+<pre>Insufficient memory or address space to initialize Windows in 386 enhanced mode. Quit one or more memory-resident programs or remove unnecessary utilities from your CONFIG.SYS and AUTOEXEC.BAT files and restart your computer.</pre>
+<h3>Potential fix</h3>
+<p>If you&#39;ve installed Windows 3.x in IBM PC DOS 7.0/2000 (wait, didn&#39;t I already say that?) and received the above error message <strong>regardless</strong> of the amount of conventional memory you&#39;ve painstakingly freed by loading everything into UMBs like a good DOS memory managing guru, chances are you&#39;re attempting to use the PC DOS version of <code>SMARTDRV.EXE</code> instead of the one provided by Windows.</p>
+<p>While the PC DOS version uses less memory (ironically), I&#39;ve never been able to get it to work with Windows 3.x. The only workable solution I&#39;ve found is to go into your <code>AUTOEXEC.EXE</code> and <code>CONFIG.SYS</code> files and replace:</p>
+<pre>C:DOSSMARTDRV.EXE [/FLAGS]</pre>
+<p>with:</p>
+<pre>C:WINDOWSSMARTDRV.EXE [/FLAGS]</pre>
+<p>The DOS version of <code>EMM386.EXE</code> works however, and is newer than the one offered with Windows 3.x.</p>
+ 

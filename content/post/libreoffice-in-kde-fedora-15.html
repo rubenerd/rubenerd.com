@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'LibreOffice in KDE Fedora 15' 
+date: "2011-09-12T01:27:56+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- kde
+- libreoffice
+- linux
+- postaday2011 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.libreofficegtkqt.png" alt="LibreOffice running in KDE Gnome" style="height:220px; width:500px;" /></p>
+<p>For your consideration, my adventure with getting LibreOffice running optimally on the <a href="http://spins.fedoraproject.org/kde/">KDE spin of Fedora</a>. Not too hard :).</p>
+<p><!--oldmore--></p>
+<p>While <a href="http://www.koffice.org/">KOffice</a> and the <a href="http://www.calligra-suite.org/">Calligra Suite</a> perform better on KDE (for obvious reasons) and I prefer their use for my own ODF needs, I&#39;ve found LibreOffice still handles Microsoft Office documents the best, even ones that are saved in those terrible Microsoft OOXML-based formats. I use the term &quot;OOXML-based&quot; given even Microsoft Office doesn&#39;t strictly conform to their own ratified standard.</p>
+<h3>Method one: downloading from LibreOffice.org</h3>
+<p>For those wanting the latest bleeding-edge release, downloading the RPMs directly from <a href="http://www.libreoffice.org/download/">LibreOffice.org</a> is the way to go, and the good news is the RedHat integration RPM even lets KDE pick up the newly installed applications.</p>
+<p>The downside is that the GTK+ interface seemingly doesn&#39;t inherit any theme, even if you&#39;ve specified one in your KDE settings. The result is an otherwise usable office suite that looks even more out of place in a Qt desktop than usual. There may be a way around this, but for now I just opted for method two.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.libreofficegtk.png" alt="LibreOffice running in KDE Gnome" style="height:200px; width:500px;" /></p>
+<h3>Method two: Fedora repos</h3>
+<p>For those using the default Gnome install of Fedora, you can simply fire up a Terminal and issue this obfuscated command:</p>
+<blockquote>
+<p><code>% su<br />
+# yum groupinstall "Office/Productivity"</code></p>
+</blockquote>
+<p>I wish I could just as easily install office productivity into my brain, sometimes its hard to garner enthusiasm for writing reports and the like. But I digress.</p>
+<p>The problem with this approach is it introduces a lot of Gnome dependencies I don&#39;t want or need on my beautiful KDE desktop, so I prefer installing each component separately. For example:</p>
+</p>
+<blockquote>
+<p><code>% su<br />
+# yum install libreoffice-calc <br />
+libreoffice-draw <br />
+libreoffice-impress <br />
+libreoffice-writer</code></p>
+</blockquote>
+<p>Running this command didn&#39;t introduce many Gnome dependencies at all, leading me to think another LibreOffice application I don&#39;t use needs them. In any case, I fire up these applications and they look and perform as much like a Qt app as a GTK+ app with the correct theme can.</p>
+<p>If you run LibreOffice (or even OOo) on KDE, I&#39;d love to hear how you use it.</p>
+ 

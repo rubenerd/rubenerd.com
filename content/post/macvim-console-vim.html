@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'MacVim.app comes with console Vim!' 
+date: "2011-04-19T05:36:46+10:00"
+categories: 
+- Software 
+tags: 
+- editors
+- guide
+- infocomm
+- macvim
+- postaday2011
+- vim 
+---
+<p><img src="http://files.rubenerd.com/uploads/diagram.vim.mac.png" alt="" style="height:124px; width:481px;" class="transparent" /></p>
+<p>Shortly after posting my entry about building Vim from source because Homebrew preferred I install MacVim or use OS X&#39;s outdated version instead, Ibid <a href="http://rubenerd.com/mercurial-vim-mac-os-x/">commented</a> that MacVim hides regular Vim inside its application bundle. A quick check confirms that it does! This is why I blog, to learn stuff from awesome people :).</p>
+<p><!--oldmore--></p>
+<h3>My dad asked me once why I was typing &#8220;is&#8221;</h3>
+<p>For those who have installed it from the binary disk image:</p>
+<blockquote style="font-family:monospace;"><p>
+% ls /Applications/MacVim.app/Contents/MacOS<br />
+MacVim* vim*
+</p></blockquote>
+<p>And from Homebrew, presuming you haven&#39;t symlinked it yet (reconstruct onto one line, <code>ls</code> doesn&#39;t like multi-line backslash!):</p>
+<blockquote style="font-family:monospace;"><p>
+% ls $HOMEBREW_PATH/macvim/[version]<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;/MacVim.app/Contents/MacOS<br />
+MacVim* vim*
+</p></blockquote>
+<p>MacVim is the the Cocoa version of Vim we&#39;ve come to love, and Vim is indeed regular Vim!</p>
+<h3>Chrome has longer version numbers</h3>
+<p>At the time of writing, obviously this version of Vim lags a little behind what you&#39;d get from building the source yourself (<code>7.3.107</code> versus <code>7.3.108</code>), but that&#39;s certainly far newer than the <code>7.2.x</code> tree we&#39;re still on with Snow Leopard by default.</p>
+<p>Unlike gvim builds of Vim which can just be called without the <code>-gtk</code> flag to render a regular emulator in the shell, MacVim is thoroughly a Cocoa application, so I presumed launching vanilla Vim wasn&#39;t possible. Building from source will give me the latest version, but I&#39;m tempted just to use MacVim&#39;s version from now on, if only so then I have one less Vim floating around my system which I otherwise keep meticulously tidy!</p>
+ 

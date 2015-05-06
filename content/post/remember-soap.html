@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'Remember SOAP?' 
+date: "2014-06-12T05:28:30+10:00"
+categories: 
+- Internet 
+tags: 
+- protocols
+- soap
+- studies
+- uts 
+---
+<p>It&#39;s been a long road. Several aborted starts, extenuating family circumstances, international moves, degree changes and restarts. Still, I&#39;m less than a week away from finishing my last full time semester at uni, and I&#39;m royally excited.</p>
+<p>Which gets us to the issue at hand. One of the topics we have to study for tomorrow&#39;s exam is SOAP, or the misleadingly titled  <em>Simple Object Access Protocol</em>. It&#39;s been around so long, I won&#39;t bore you with lame puns about overscrubbing you&#39;ve probably all read a million times by now.</p>
+<p>I hadn&#39;t done too much with the technology before, and certainly never attempted to implement it. My memories harken back to the mid 2000s, ironically at my first university in Adelaide, and a small web server we had to communicate with over&#8230; get this&#8230; SMTP. Turns out, SOAP is utterly application layer agnostic, so you don&#39;t even need to use HTTP.</p>
+<p>Hey look, Wikipedia even uses SOAP over SMTP as an example. Go figure, we&#39;re not allowed to use it as a reference, but our lecturers can.</p>
+<p style="font-style:italic;">(Not that I’m suggesting anything there, of course. Other than the fact I’ve caught lecturers at UniSA and UTS using Wikipedia material in their slides. That Creative Commons licence does require attribution, guys).</p>
+<h3>But I digress, what makes SOAP?</h3>
+<p>In a fatty acid nutshell, <a href="http://www.markbaker.ca/blog/2002/10/dave-winers-soap-definition/">SOAP</a> is an XML based messaging protocol for &quot;calling procedures on other machines&quot;. Information is transmitted in SOAP <strong>envelopes</strong> with the following components:</p>
+<ul>
+<li>A <strong>header</strong>, which outlines the features of the SOAP message</li>
+<li>A <strong>body</strong>, with the primary information for the message recipient</li>
+<li>An optional <strong>fault</strong> section to describe encountered processing errors</li>
+</ul>
+<p>Of course, how do we know what services are available and the type of data we can expect to receive? For that, we turn to more XML in the form of the Web Services Description Language. These documents define:</p>
+<ul>
+<li><strong>Services</strong>, expressed as ports/endpoints and bindings</li>
+<li><strong>Ports/Endpoints</strong>, the connection point to a web service</li>
+<li><strong>Bindings</strong>, which map operations to protocols, such as HTTP</li>
+<li><strong>PortType/Interfaces</strong>, which defines performable operations</li>
+<li><strong>Operations</strong>, or abstract descriptions of supported SOAP actions </li>
+<li><strong>Messages</strong>, which define sets of parameters</li>
+<li><strong>Types</strong>, which define data types used</li>
+</ul>
+<p style="font-style:italic;">(I’m sitting in a coffee shop while I write this, and the Hornsby Shire Council just started playing <em>My heart will go on</em>. I’m picturing all these people RESTing in lifeboats while this bar of SOAP slowly sinks beneath the waves under its own weight, with suds and bubbles still gurgling from its tallowy funnels).</p>
+<h3>But I digress, can we look back in time with this?</h3>
+<p>SOAP is a fascinating time capsule into how developers and designers thought web services would shake out in the late 1990s and early 2000s. Along with WSDL, the designers had bold plans for registries where web services could publish their capabilities. These were defined in yet another XML format, called the <a title="OASIS UDDI Specifications TC - Committee Specifications" href="https://www.oasis-open.org/committees/uddi-spec/doc/tcspecs.htm">Universal Description Discovery and Integration</a> protocol.</p>
+<p>While the web has moved on, and UDDI has become the <a href="http://lists.oasis-open.org/archives/uddi-spec/200807/msg00000.html">stuff of history</a>, SOAP is still used in more places than I appreciated. According to <a title="SOAP is Not Dead - It's Undead, a Zombie in the Enterprise" href="http://readwrite.com/2011/05/26/soap-is-not-dead---its-undead">Alex Williams</a>:</p>
+<blockquote>
+<p>I asked Michael Cote of RedMonk for his opinion on about why SOAP is still used in the enterprise. &quot;Existing applications that use it and Enterprise Architects who still want to enforce a top-down, well, architecture with it.&quot; </p>
+</blockquote>
+<p>So that&#39;s why universities still teach it.</p>
+ 

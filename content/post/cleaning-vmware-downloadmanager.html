@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Cleaning VMware’s .DownloadManager' 
+date: "2010-10-13T08:51:43+10:00"
+categories: 
+- Software 
+tags: 
+- cleaning
+- guide
+- howto
+- infocomm
+- mac-os-x
+- vmware
+- vmware-fusion 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.downloadmanager.png" alt="The .DownloadManager folder" style="height:140px; width:500px;" /></p>
+<p>If you&#39;ve ever attempted a download from the VMware website on your Mac, chances are you have some junk files you can delete in a folder called &quot;<code>.DownloadManager</code>&quot; If you&#39;re as obsessed as me, you&#39;ll want to delete it!</p>
+<p><!--oldmore--></p>
+<h3>The delete is the bongly bong deng diggy diggy</h3>
+<p>You can use the Finder by clicking the &quot;<code>Go</code>&quot; menu, then &quot;<code>Go To Folder…</code>&quot; and entering in &quot;<code>~/.DownloadManager</code>&quot;. Then you can safely delete the folder.</p>
+<p>Alternatively, just use the Terminal:</p>
+<pre>
+% rm -r ~/.DownloadManager
+</pre>
+<p>Or for the paranoid:</p>
+<pre>
+% rm -irv ~/.DownloadManager
+</pre>
+<p>Or if you wanted to be really stupid and utterly superflous:</p>
+<pre>
+#!/usr/bin/perl -w
+use strict;
+my $junk = '~/.DownloadManager';
+system("rm -r $junk");
+while (1) { print("The Bird is The Word!n"); }
+</pre>
+<h3>One of these paragraphs is really important!</h3>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.junk.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; display:inline; float:right; padding:0em; margin:0 0 10px 20px; background:transparent;" />Unlike my computer desk, I like to keep my computer hard drives spotlessly organised, so when I find junk I delete it. In this case, I was going through my home directory and found a ton of unessisary files. What surprises me is… I don&#39;t ever remember using VMware&#39;s Download Manager at all. Maybe someone went into my brain and altered my memories. What a terrifying prospect. </p>
+<p>Did you know there&#39;s a place in South Australia called <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Prospect,_South_Australia">Prospect</a>? It&#39;s in Prospect. I assume its name was derived from the process of prospecting. Or maybe there was a prospective name, but it never materialised. You know if you spell materialised without the m, you don&#39;t get a name of a place in South Australia all. Coincidence? I think not. Wait, don&#39;t read too far into that previous sentence, however short it was.</p>
+<p>As with all my posts, take my advice and use it at your own risk! I&#39;m assuming the only side effect would be that if you <strong>did</strong> use VMware&#39;s Download Manager (whatever that is) and you were part way through a download, you may need to start again.</p>
+ 

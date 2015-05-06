@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'Using UUIDs in Fedora’s fstab file' 
+date: "2010-05-24T11:15:23+10:00"
+categories: 
+- Software 
+tags: 
+- fedora
+- fstab
+- gnu
+- guide
+- hard-drives
+- howto
+- infocomm
+- linux
+- storage 
+---
+<p><img src="http://files.rubenerd.com/uploads/fedora-logo-icon.png" alt="Fedora icon" style="height:96px; width:96px; padding:0em; background:transparent;" /></p>
+<p>As with my beloved FreeBSD, Fedora has a <code>/etc/fstab</code> file that lists partitions to be automatically mounted on boot, but with one important difference: Fedora defaults to using a partition’s UUID and not its label.</p>
+<p><!--oldmore--></p>
+<h3>Why?</h3>
+<p>I was all ready to pose a question in a newsgroup myself, but fortunately Bill Nottingham from <a href="http://old.nabble.com/Why-does-fstab-use-partition-UUIDs-vice-partition-labels-in-F9-beta--td16310452.html">this old thread</a> from the Fedora 9 days put it simply:</p>
+<blockquote cite="http://old.nabble.com/Why-does-fstab-use-partition-UUIDs-vice-partition-labels-in-F9-beta--td16310452.html">
+<p>UUIDs are unique. (In theory, anyway.) Labels aren’t.</p>
+<p>Bill</p>
+</blockquote>
+<p>Fair enough, I suppose you could have unintentionally labelled two of your drives the same thing. I never have because I like to use unique labels that match their mountpoints to keep things simple, but I suppose if Sarah Palin or Stephen Conroy ever installed Linux they’d probably try a stunt like that.</p>
+<p>Anyway so it seemed if I wanted my brand new formatted drive to be mounted when Fedora booted, I needed to find out what the new drive’s partition UUID was instead of just using the label I’d just assigned to it.</p>
+<h3>How do I find out a partition’s UUID?</h3>
+<p>Good question. A cursory Google search returned <a href="http://serverfault.com/questions/3132/how-do-i-find-the-uuid-of-a-partition">this page from ServerFault</a> which lists a dizzying array of options with plenty of justifications. blkid worked for me:</p>
+<pre>
+# blkid /dev/sda<br />
+&gt; LABEL="moe" UUID="#-#-#-#-#" TYPE="ext4"</p>
+<p>If this doesn't work, you may not have <code>/sbin</code> in your <code>$PATH</code>. In that case, just run it from that folder, no worries.</p>
+<p>Once you've got the UUID, you can finally add it to <code>/etc/fstab/</code> along with the file system and mountpoint.</p>
+<p>I still can't say I'm a fan, but I suppose that's the way things are going.</p>
+ 

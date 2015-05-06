@@ -1,0 +1,82 @@
+---
+layout: post
+title: 'Rzip is absolutely incredible' 
+date: "2007-09-07T06:47:09+10:00"
+categories: 
+- Software 
+tags: 
+- algorithms
+- archiving
+- bsd
+- bzip2
+- compression
+- dynapac
+- gnu-zip
+- gzip
+- infocomm
+- jeremy-zawodny
+- linux
+- mac-os-x
+- macports
+- mikuruism
+- pkgsrc
+- pointless-anime-references
+- ports
+- rzip 
+---
+<p><img src='http://files.rubenerd.com/uploads/anime.mikuru.jpg' alt='mikuru.jpg' /><br /><cite>Mikuru tried to compress my files too using her superpower energy. Rzip still worked better.</cite></p>
+<p>After reading an old post on <a href="http://jeremy.zawodny.com/blog/archives/001842.html">Jeremy Zawodny&#39;s weblog</a> and installing it myself, I have to say Rzip is my new favourite compression algorithm!</p>
+<p>From the <a href="http://rzip.samba.org/">developer&#39;s website</a>:</p>
+<blockquote><p>rzip is a compression program, similar in functionality to gzip or bzip2, but able to take advantage long distance redundancies in files, which can sometimes allow rzip to produce much better compression ratios than other programs. The original idea behind rzip is <a href="http://samba.org/~tridge/">described in my PhD thesis</a>.</p></blockquote>
+<p>For a bit of real world testing, I decided to try compressing the www folder in my home directory on my MacBook Pro. I thought this folder would be a useful test because it&#39;s relatively large and contains a few large files mixed in with hundreds of smaller ones. From what I understand of compression algorithms, they each tend to favour compressing certain types of files and in certain quantities so I figured this way it would show a more balanced result.</p>
+<p>The original folder size was 436.0 MiB with 312 files. The Tape Archive is the control because it&#39;s needed for all but ZIP to archive the files before they can be compressed. For convenience the names also redirect to their associated Wikipedia pages.</p>
+<table style="border:0; border-collapse:collapse;">
+<tr>
+<th style="padding-right:2.4em;">Algorithm</th>
+<th style="padding-right:2.4em;">Extension</th>
+<th style="padding-right:2.4em;">File size</th>
+<th style="padding-right:2.4em;">% of original</th>
+<th style="padding-right:2.4em;">% saved</th>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Tar_%28file_format%29">Tape Archive</a></td>
+<td>www.tar</td>
+<td>423.9 MiB</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/Zip_%28file_format%29">ZIP</a></td>
+<td>www.tar.zip</td>
+<td>290.9 MiB</td>
+<td>68.62</td>
+<td>31.38</td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/bzip2">Bzip2</a></td>
+<td>www.tar.bz2</td>
+<td>286.3 MiB</td>
+<td>67.72</td>
+<td>32.28</td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/gzip">GNU zip</a></td>
+<td>www.tar.gz</td>
+<td>284.8 MiB</td>
+<td>67.54</td>
+<td>32.46</td>
+</tr>
+<tr>
+<td><a href="http://en.wikipedia.org/wiki/rzip">Rzip</a></td>
+<td>www.tar.rz</td>
+<td>104.7 MiB</td>
+<td>24.70</td>
+<td>75.30</td>
+</tr>
+</table>
+<p>What&#39;s curious is that Gzip was more efficient than Bzip2, in almost every other circumstance I&#39;ve come across the reverse was true. I&#39;m not sure how much that affected the results of the other formats. The final result is clear though, <strong>Rzip was able to squash like nobody else!</strong></p>
+<p><cite><a href="http://commons.wikimedia.org/wiki/Image:Dynapac_CC232.JPG"><img src='http://files.rubenerd.com/uploads/steamroller.jpg' alt='steamroller.jpg' /></a><br /><span>Image &copy; <a href="http://pl.wikipedia.org/wiki/Wikipedysta:Lestat">Jan Mehlich</a>, from <a href="http://commons.wikimedia.org/wiki/Image:Dynapac_CC232.JPG">Wikimedia Commons</a>. As with the image above, I thought it was mildly amusing given the subject matter. I hate dry weblog posts without pictures you see.</span></cite></p>
+<p>From what I can make out reading the developer&#39;s website; and with help from <a href="http://twitter.com/dadaist/">dadaist in real-time on Twitter</a>; is that Rzip isn&#39;t an entirely new compression algorithm per-se, it essentially just uses larger chunks of data over much longer distances, and then uses existing algorithms to process it all.</p>
+<p>I theorise from reading up on this that only in the last decade have computers had enough processing power, and more importantly memory, to be able to pull this off. 900MiB of looking space is great for compression, but can suck up all your resources pretty fast if you don&#39;t have much. This is why we haven&#39;t seen this level of compression until recently.</p>
+<p>In any case, I know what I&#39;ll be using to compress all my large files and folders with now :).</p>
+ 

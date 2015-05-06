@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Excluding WordPress categories' 
+date: "2009-06-08T09:06:15+10:00"
+categories: 
+- Internet 
+tags: 
+- categories
+- guide
+- howto
+- infocomm
+- metadata
+- taxonomy
+- wordpress 
+---
+<p><img src="http://files.rubenerd.com/uploads/graphic.wordpress.icon.png" alt="" style="height:140px; width:380px; border:0px; display:inline;" /></p>
+<p>I can confirm adding the following code to the <code>functions.php</code> in my current theme prevents posts from certain categories appearing on the home page, and the main site RSS feed. In this case we&#39;re filtering category ID 5:</p>
+<blockquote>
+<pre>function myFilter($query) {
+  if ($query->is_feed || $query->is_home) {
+    $query->set('cat','-5');
+  }
+  return $query;
+}
+add_filter('pre_get_posts','myFilter');</pre>
+</blockquote>
+<p>If you only want to filter categories from the home page, simply remove the <code>$query-&gt;is_feed ||</code> condition, and vica versa.</p>
+<p>This little change really allows WordPress to be used as a simple CMS by allowing you to separate material and provide category feeds for different types of posts. I&#39;ll be using this so regular readers subscribed to my <a href="http://rubenerd.com/feed/">main RSS feed</a> don&#39;t get any of my anime posts from my blog that I&#39;ll be importing from my university intranet.</p>
+<p>Thanks to <a href="http://www.jangro.com/wordpress/excluding-posts-from-your-blog-feed/">Scott Jangro</a> for this great tip.</p>
+ 

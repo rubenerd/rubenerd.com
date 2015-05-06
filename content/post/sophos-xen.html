@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'Sophos Security Gateway on Xen' 
+date: "2014-10-15T12:39:00+10:00"
+categories: 
+- Software 
+tags: 
+- astaro
+- guides
+- linux
+- security
+- sophos
+- virtualisation
+- xen 
+---
+<p><img src="http://files.rubenerd.com/2014/sophos.sg.jpg" alt="A couple of Sophos hardware gateways" style="height:120px; width:500px;" class="rubenerd-retina" /></p>
+<p>It’s good to be back. Had a really terrible stomach flu thing, was out of action for a week. Lots of electrolytes and less solid foods. But that’s not what you tuned in for.</p>
+<p>The <a href="http://www.sophos.com/en-us/products/free-trials/utm/download.aspx">Sophos Security Gateway</a> (formerly of Astaro fame) comes with a VMware Virtual Appliance. If you want to install on Xen (or another hypervisor) they suggest you can use their regular Software Appliance ISO:</p>
+<blockquote>
+<p>Any other virtualization platforms such as Xen, Hyper-V, KVM, etc. that can boot up from an .iso should operate just fine as well. (Some platforms may not have full support for networking drivers, tools, or time keeping.)</p>
+</blockquote>
+<p>The North American convention of putting full stops inside brackets is just crazymaking. But I digress; if you can, install with Xen using the virtual optical drive. If you’re attempting a bootstrap on a cloud platform (or via USB key), you can first create a hybrid bootable image from the ISO and <code>dd</code> across:</p>
+<pre>
+# isohybrid asg-9[x].iso
+# dcfldd if=asg-9[x].iso of=/dev/xvda[x]
+</pre>
+<p>Unfortunately, this creates a small problem. The installer will boot, but when it gets to the file extraction stage it won’t find the installer files:</p>
+<pre>
+Install.tar wasn't found on the installation mirror
+</pre>
+<p>This likely happens because it can’t mount the optical drive as it expects. You can confirm this by dropping to a shell with <code>[ALT]</code>+<code>[F2]</code> and listing the install mountpoint.</p>
+<pre>
+# ls /install
+# ==&gt; crickets
+</pre>
+<p>Fortunately we’re dealing with Linux, so its relatively easy to mount the installer volume manually. It’ll be different depending on your environment, but if you imaged to a second Xen drive:</p>
+<pre>
+# mount /dev/xvda2 /install
+</pre>
+<p>Then hit <code>[ALT]</code>+<code>[F2]</code> and proceed as normal. Again depending on your environment, you may even see this:</p>
+<pre>
+Extra RPMs are installed for improved Xen HVM support.
+</pre>
+<p>Boom!</p>
+ 

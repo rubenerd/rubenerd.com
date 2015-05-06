@@ -1,0 +1,63 @@
+---
+layout: post
+title: 'Altered brew tap structure breaking brew-cask' 
+date: "2014-05-05T04:06:00+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- homebrew
+- mac-os-x
+- os-x
+- sysadmin 
+---
+<p><!--
+<p><img src="http://files.rubenerd.com/2014/anime.godot.jpg" alt="The rather fabulous Godot throwing papers and coffee brew around, by Takix on Pixiv" style="height:318px; width:500px;" /></p>
+<p>--></p>
+<p><a href="http://brew.sh/">Homebrew</a> recently changed the way taps are identified. Or more specifically, after running an update:</p>
+<pre class="code">
+Warning: Homebrew changed the structure of Taps like &lt;someuser&gt;/&lt;sometap&gt;.
+</pre>
+<p>For example, the first shows the location of brew cask on my <abbr title="MacBook Air">MBA</abbr>, the second on my Mac Pro. I’ll admit, I get a kick out of calling my Air a <abbr title="MacBook Air">MBA</abbr>; but I digress.</p>
+<pre class="code">
+phinze/cask
+caskroom/cask
+</pre>
+<p>This causes issues when attempting to search for a cask. On my un–updated <abbr title="MacBook Air">MBA</abbr>:</p>
+<pre class="code">
+$ brew cask search gnucash
+==> Exact match
+gnucash
+</pre>
+<p>And on my updated Mac Pro:</p>
+<pre class="code">
+% brew cask search gnucash
+No cask found for "gnucash"
+</pre>
+<p>Last week, WyseNynga <a title="Github: brew 0.9.5 changed tap directory structure and now no casks are found #4026" href="https://github.com/caskroom/homebrew-cask/issues/4026">identified the issue</a> on Github, with floriankubis suggesting creating a symlink to bridge the old/new folders. This comment thread has since been closed, with rolandwalker identifying that brew-cask needs to be upgraded in response to this change:</p>
+<blockquote><p>There’s a new code release &#8212; brew update &amp;&amp; brew upgrade brew-cask should fix the problem.</p>
+<p>For various reasons, the symlink trick only partially worked.</p>
+</blockquote>
+<p>For reasons beyond me, upgrading as suggested didn’t work. In fact, it generated the same errors that would occur when brew-cask hadn’t even been installed:</p>
+<pre>
+$ brew cask search gnucash
+Error: can't convert nil into String
+Please report this bug:
+
+https://github.com/Homebrew/homebrew/wiki/troubleshooting
+
+/usr/local/Library/brew.rb:64:in `require'
+/usr/local/Library/brew.rb:64:in `require?'
+/usr/local/Library/brew.rb:111
+</pre>
+<p>In this case, uninstalling and reinstalling seemed to do the trick:</p>
+<pre>
+$ brew uninstall brew-cask
+$ brew install brew-cask
+$ brew cask search gnucash
+==> Exact match
+gnucash
+</pre>
+<p>Homebrew is a promising package manager for OS X, but its pre-1.0 version is demonstrated by such changes. It seems we have a ways to go before sysadmins can get the same (relatively) stable package system we have on our Linux boxes.</p>
+<p style="font-style:italic">Image of the rather fabulous Godot throwing papers and coffee brew around by <a href="http://www.pixiv.net/member_illust.php?mode=medium&#038;illust_id=19070768">Takix on Pixiv</a>.</p>
+ 

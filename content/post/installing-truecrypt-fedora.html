@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Installing TrueCrypt on x86 or x84 Fedora' 
+date: "2010-05-21T09:57:14+10:00"
+categories: 
+- Software 
+tags: 
+- cryptography
+- encryption
+- fedora
+- guide
+- howto
+- infocomm
+- linux
+- privacy 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.truecrypt.renderhead.png" alt="TrueCrypt" style="height:128px; width:109px; padding:0em; background:transparent;" /></p>
+<p>Because of some licencing issues (that from a pragmatic point of view don&#39;t really bother me) TrueCrypt for Linux isn&#39;t usually available from package managers unless you add third party repositories. I really hate that word. I prefer installing it manually, and the installer lets me choose where to put it.</p>
+<p><!--oldmore--></p>
+<h3>The quick way</h3>
+<ol>
+<li>
+<p>Go to the <a href="http://www.truecrypt.org/downloads">TrueCrypt downloads page</a> and choose the Linux install for your system architecture.</p>
+</li>
+<li>
+<p>Do the usual tar extract, and <strong>execute</strong> the resulting file much as you would an installer. For example, the latest (at the time of this post) for 64 bit CPUs:</p>
+</li>
+</ol>
+<pre>
+% tar xzvf truecrypt-6.3a-linux-x64.tar.gz
+% ./truecrypt-6.3a-setup-x64
+</pre>
+<ol>
+<li>
+<p>Choose option 1 when the installer prompts, then hit [Page Down] a few times and enter &quot;yes&quot; to accept the licence agreement.</p>
+</li>
+<li>
+<p>Fedora places TrueCrypt in the Accessories groups in Xfce and Gnome, I assume it would for KDE and LXDE too.</p>
+</li>
+</ol>
+<h3>The more custom way</h3>
+<p>If you prefer, in <span style="font-weight:bold;">step 3</span> if you choose option 2, TrueCrypt extracts itself into <code>/tmp</code> so you can place them where you prefer. For example, because of my FreeBSD history I like having resources I install to be run from <code>/usr/local</code>, so once I&#39;ve extracted them I move them to where I want. Done and done :).</p>
+<h3>And the best part of all…</h3>
+<p>Once you have TrueCrypt installed, you can use it to hide whatever you want from overzealous and legally dubious Australian customs officials (<a href="http://rubenerd.com/aussie-customs-officialssearch-laptops/">Aussie customs can now search laptops</a>)!</p>
+<p>Then again, if you&#39;re running Fedora or another free/open source operating system I doubt they&#39;d even be able to figure out how to use it let alone perform a constitutionally illegal search.</p>
+<p>Then you can use it to hide everything from overzealous legally dubious Australian customs officials.</p>
+ 

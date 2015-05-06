@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'Probably no Firefox update security loophole…' 
+date: "2010-01-29T09:32:13+10:00"
+categories: 
+- Internet 
+tags: 
+- browsers
+- dns
+- far-too-long
+- firefox
+- infocomm
+- man-in-the-middle-attacks
+- mozilla
+- security
+- thinking-out-loud
+- updates
+- wifi 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.firefox.noscriptupdate.png" alt="Firefox NoScript update notification" style="height:180px; width:500px; display:inline;" /></p>
+<p>Having only just sat at <a href="http://www.starbucks.com.sg/">Starbucks</a> to do some programming and cleaning out my desktop (I let far too many files accumulate) I accessed the free WiFi and launched <a href="http://getfirefox.com/">Firefox</a> only to see the above dialog presenting me with a <a href="http://noscript.net/">NoScript</a> update. Problem is, I&#39;m connected to the WiFi hotspot but <strong>not</strong> to the open internet! Spooked out stuff.</p>
+<p><!--oldmore--></p>
+<p>In this circumstance I was presented with the above NoScript update notification when I connected to <a href="http://www.ida.gov.sg/Programmes/20061027174147.aspx?getPagetype=36">Wireless@SG</a> but before I had entered my login credentials, so it couldn&#39;t have requested and received information from Mozilla yet. At least I hope not, for security sake!</p>
+<p>The only thing I can think of is Firefox pings for updates while running but doesn&#39;t download them, then if the application is relaunched it checks if any extensions have been flagged as outdated and proceeds to download them. I love the word ping.</p>
+<p>I suppose in this way it doesn&#39;t download updates in the background which may slow a client&#39;s machine down… which is already slow from running Firefox, but instead just checks for the existence of updates. I think that&#39;s right, is it? Time to dust off my Mozillazine forum account?</p>
+<h3>Attack vector?</h3>
+<p>Picture this: say you were a malicious hacker in a public WiFi hotspot and you wanted to allow some remote code execution on some machines for your own mischievous purposes.</p>
+<p>When a person connects to a [typical] hotspot they would connect to the WiFi network, then open their browser and use the web based login screen for the hotspot provider to authenticate. The way this works is the remote server or router equipment would automatically redirect all traffic from any specified domain to the login screen.</p>
+<p>If you could somehow get access to the router (still too easy to do due to a combination of weak passwords and being in the open) and modify it&#39;s DNS settings to point all requests to the login screen <strong>except</strong> for the URL Firefox (or Chrome, or Opera…) uses to check for updates, could you perform a man-in-the-middle attack and provide a false update flag, followed by a false update executable that could contain your code? People would launch their browsers and not realise they don&#39;t have access to Mozilla.org yet, so when they&#39;re told there&#39;s an update they&#39;d go ahead and download it.</p>
+<p>I don&#39;t know too much about Firefox&#39;s internals, probably updates are digitally signed in some way to prevent MITM attacks, at least I hope they are. If they just rely on the URL being well formed and expected, a DNS attack like this could get around it.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.firefox.noscriptupdate.going.png" alt="Firefox NoScript update notification" style="height:120px; width:500px; display:inline;" /></p>
+<h3>Hey wait a minute, its even easier!</h3>
+<p><strong><em>viscously bangs head on table!</em></strong></p>
+<p>Stuff all this &quot;accessed the WiFi before they log in&quot; trickery, if you could break into the router and modify DNS you could do that even if they are logged in, and presumably you could do plenty of other more sinister things too.</p>
+<p>I find talking about things like this out loud is a really fun and useful thing to do because in explaining my idea I better understand it myself. In this case, how silly my example really was!</p>
+ 

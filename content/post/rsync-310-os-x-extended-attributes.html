@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'rsync 3.1.0 and OS X extended attributes' 
+date: "2014-03-10T12:54:00+10:00"
+categories: 
+- Software 
+tags: 
+- filesystems
+- guides
+- rsync 
+---
+<p><img src="http://files.rubenerd.com/2013/newrsynclogo.jpg" alt="rsync's rather fabulous retro logo" style="width:125px; height:61px" /></p>
+<p>With rsync 3.1.0, we got several new features, performance improvements and broken extended attribute syncing in OS X. Using the -X flag, we get this:</p>
+<pre>
+rsync error: protocol incompatibility (code 2) at io.c(599) [sender=3.1.0]
+rsync: [sender] write error: Broken pipe (32)
+</pre>
+<p>Patches have been commited, though the success rate of using them seems to be mixed. Given how critical rsync is to my “workflow”, I’m sticking with 3.0.9.</p>
+<p>If you’re on <a href="http://brew.sh" title="Homebrew package manager for OS X">Homebrew</a>, Keithbsmiley identified the <a href="https://github.com/Homebrew/homebrew-dupes/issues/254#issuecomment-32820127">last brew</a> before 3.1.0:</p>
+<pre>
+% brew install https://raw.github.com/Homebrew/homebrew-dupes/109dca908c6499116e07483d7afe8a1c3ef63ad6/rsync.rb
+</pre>
+<p>Alternatively, you can build and install the old fashioned way. As an example, I build my own material under <code>/opt</code>:</p>
+<pre>
+% cd /opt/src
+% curl -O "http://rsync.samba.org/ftp/rsync/src/rsync-3.0.9.tar.gz"
+% tar xzvf rsync-3.0.9.tar.gz
+% cd rsync-3.0.9
+% ./configure --prefix=/opt
+% sudo make install clean
+</pre>
+<h3>Update</h3>
+<p>The <a href="http://rsync.samba.org/ftp/rsync/src-previews/rsync-3.1.1pre1-NEWS">early pre–releases of 3.1.1</a> indicate they’ve fixed the issue. I’ve decided to skip 3.1.0 entirely and wait for this release.</p>
+ 

@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'GNS3: The Graphical Network Simulator' 
+date: "2013-03-20T10:01:53+10:00"
+categories: 
+- Software 
+tags: 
+- cisco
+- gns3
+- networking
+- reviews 
+---
+<p><img src="http://files.rubenerd.com/2013/screenie.gns3.png" alt="" style="width:500px; height:281px" /></p>
+<p>For someone who’s been building home networks since primary school and when 10BaseT hubs were cheaper enough than switches to be worthwhile, I have a shocking lack of formal training. At UTS this semester, I finally find myself working towards my CCNA2 prerequisite (so I can do computer forensics), and this tool has helped me tremendously!</p>
+<p>According to the site, &quot;GNS3 is a graphical network simulator that allows simulation of complex networks.&quot; An amalgamation of various different tools and projects such as dynamips, dynagen and the Qt framework, the developers have even taken it upon themselves to maintain their own current fork of the former.</p>
+<p>Using a Visio-esque drag-and-drop interface, you can configure your network topology, start routers and other hardware, connect virtual machines and monitor traffic. It’s as close as having your very own Cisco lab running on your local machine, which is invaluable for study and gaining experience outside the labs.</p>
+<p>The only caveat: you’ll need to provide your own Cisco IOS images for use in the <strong>Edit &#8594; IOS Images and Hypervisors</strong> screen. Ahem.</p>
+<p>So far I’ve just been messing around with dynamic routing protocols like RIP between routers, but the next step is to attach some VirtualBox VMs and check out some more complex topologies. Unfortunately, QEMU 1.3.1 and 1.4.0 have both decided to stop working on OS X 10.8.2, which is a right royal pain.</p>
+ 

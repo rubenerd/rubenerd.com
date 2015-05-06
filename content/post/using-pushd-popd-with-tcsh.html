@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Using pushd and popd with tcsh' 
+date: "2010-05-06T07:42:32+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- csh
+- freebsd
+- infocomm
+- linux
+- pancakes
+- stacks
+- tcsh 
+---
+<p><img src="http://files.rubenerd.com/uploads/diagram.stack.pushd.png" alt="" style="height:129px; width:410px; background:transparent; padding:0em;" /></p>
+<p>Aside from FreeBSD induced inertia, the other reason why I stick with <a href="http://www.tcsh.org/">tcsh</a> as my primary *nix shell are the glorious <code>pushd</code> and <code>popd</code> stack commands.</p>
+<p><!--oldmore--></p>
+<p>I love stacks, they’re one of my all time favourite computer science concepts. They also remind me of hot pancakes with syrup even if they were really named for plates in diners. I’m mad about pancakes and I’m mad about stacks, sometimes even using the latter in situations where they’re not necessary or advised because they’re fun. You probably didn’t need or want to know any of this. Pancakes.</p>
+<h3>My point, and I do have one</h3>
+<p>The <code>pushd</code> and <code>popd</code> commands simply allow you to push and pop directories onto a stack. If you’re as into stacks as me you can probably already start to think of all the cool things you can do with this in a shell setting and in scripts.</p>
+<p>In a practical example, I use pushd as a drop in replacement for the venerable <code>cd</code> command. I still enter <code>cd</code>, but I have <code>pushd</code> aliased to it in my <code>.tcshrc</code> file.</p>
+<p>With it used in this way, each time I change to a different directory it gets added to the stack. This means, if if need to switch between two folders that would be tedious to rewrite each time, I can simply pop each off the stack using <code>popd</code> and appear back where I was. It also has a huge history, so you can go back to a ton of different folders.</p>
+<p>It doesn’t sound like much, but it’s probably done more to improve both my sanity and productivity than anything else in a long while. Its such a more elegant solution than using the up arrow cursor to search my command history for the cd command I used before.</p>
+<h3>Some useful .[t]cshrc arguments</h3>
+<p>If you intend to use pushd and popd in this way, I’ve found these settings in my <code>.tcshrc</code> (or <code>.cshrc</code> if used with tcsh) make them more useful:</p>
+<pre>
+## Use pushd as a drop in cd replacement
+alias cd 'pushd'
+
+## Return to ~/ when given no arguments, like cd
+set pushdtohome
+
+## Don't print each directory added to stack
+## I have the working dir shown in my prompt
+set pushdsilent
+
+</pre>
+ 

@@ -1,0 +1,40 @@
+#!/bin/sh
+
+######
+## Ruben's Hugo Post Install Script of Doom
+## April 2015
+
+set -e
+
+rsync='/usr/local/bin/rsync'
+virtual_root='rubenerdcom'
+
+echo 'Removing previously generated content (if any)...'
+rm -rf ./public/*
+
+echo 'Building site with Hugo (may take a few moments)...'
+hugo
+
+echo 'Moving RSS feed from index.xml to /feed/...'
+mkdir ./public/feed/
+mv -f ./public/index.xml ./public/feed/index.xml
+
+echo 'Removing all other generated feeds...'
+rm -rf ./public/categories/*/index.xml
+rm -rf ./public/tags/*/index.xml
+
+echo 'Removing /categories/ from permalink, and /tags/ --> /tag/...'
+rm -rf ./public/categories/index.*
+mv -f ./public/categories/* ./public/
+mv -f ./public/tags/ ./public/tag/
+
+echo 'Fixing category and tag URLs in generated pages (may take a few moments)...'
+for post in ./public/*/*\.html; do
+    sed -i '' -e 's/\/categories\//\//g' ${post}
+    sed -i '' -e 's/\/tags\//\/tag\//g' ${post}
+done
+
+echo "Compressing (with rsync -z) and pushing to server..."
+${rsync} --recursive --verbose --times --compress --rsh=ssh --checksum --delete \
+    ./public/ chitanda:${virtual_root}/
+

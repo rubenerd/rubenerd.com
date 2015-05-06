@@ -1,0 +1,59 @@
+---
+layout: post
+title: 'Creating and using restricted accounts on Mac OS X' 
+date: "2008-10-28T06:07:12+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- howto
+- infocomm
+- mac-os-x
+- superuser
+- suzumiya-haruhi 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.haruhi.superuser.jpg" alt="Suzumiya Haruhi: the ultimate superuser!" style="height:254px; width:500px" /><br />
+<cite>Suzumiya Haruhi: the ultimate superuser!</cite></p>
+<p>As a person used to using Unix-like systems such as <a href="http://www.freebsd.org/">FreeBSD</a> on a regular basis, I know how important it is to use a restricted account for day to day use, and an all powerful administrative root account <strong><em>only</em></strong> when system maintenance needs to be performed. <strong><em>It is the absolute golden rule for every Unix system</em></strong>.</p>
+<p>In the world of Mac OS X the story is somewhat different. In a similar fashion to Windows installations, when you install Mac OS X a user account is created with the name of your choice: the problem is the resulting account is an <em>&quot;administrator&quot;</em> with which you can modify most aspects of the system with little to no restriction (differs somewhat from a root user, but that’s for another post). This of course flies right in the face of the golden rule.</p>
+<h3>Creating the accounts</h3>
+<p>Fortunately it is possible to modify your existing account for regular use and create an administrative account:</p>
+<ol>
+<li>Launch the <em>Accounts</em> preference pane and click the <em>&quot;[+]&quot;</em> in the lower left hand side. You may need to click the lock icon to make changes.
+</p>
+</li>
+<li>Create a new administrative account by filling in a name (I chose &quot;Senpai&quot;!), a solid password and make sure you set the <em>&quot;New Account&quot;</em> type to <em>&quot;Administrator&quot;</em>. Click <em>&quot;Create Account&quot;</em>.
+</p>
+</li>
+<li>You may be asked if you want to disable <em>&quot;Automatic login&quot;</em>. Definitely a good idea.
+</p>
+</li>
+<li>Disable administrative access rights in your current account by selecting it in the account column and uncheck the <em>&quot;Allow user to administer this computer&quot;</em>.
+</p>
+</li>
+<li>Hide your admin account by clicking <em>&quot;Login Options&quot;</em> and changing the <em>&quot;Display login window as:&quot;</em> radio button to <em>&quot;Name and password&quot;</em>.
+</p>
+</li>
+<li>Log out of your account, and log back in to save changes.</li>
+</ol>
+<p>Now whenever you log into Mac OS X, enter your now restricted account username and password.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.leopard.accounts.png" style="height:390px; width:500px" alt="Accounts preference pane in System Preferences" /><br />
+<cite>Accounts preference pane in System Preferences</cite></p>
+<h3>Advantages</h3>
+<ul>
+<li>Whenever you want to install a new piece of software by dragging it’s icon to the Applications folder, Mac OS X will ask for your admin username and password, just as it would if you were using an installation assistant. This means applications can’t install without your explicit permission.
+</p>
+</li>
+<li>If ever a trojan horse or malicious application installed itself on your system (barring extenuating circumstances) it would be limited to your standard account which means it’s potential to cause damage would be greatly restricted.
+</p>
+</li>
+<li>The potential for you to cause unintentional damage to the file system or system files is greatly reduced because you simply not allowed to do it. Often you’re the greatest threat to your system!
+</p>
+</li>
+<li>The best thing about this arrangement is that you never actually ever have to login to your admin account at all, you just use it’s username and password whenever you want to make changes to the system.</li>
+</ul>
+<h3>Conclusion</h3>
+<p>It’s a shame that Apple doesn’t create standard/restricted accounts by default for people. Fortunately it’s not a hard thing to change, and once you do you’re well on your way to hardening the security of your Mac.</p>
+<p>One thing to keep in mind is that if you use the Terminal, as a restricted user you don’t have <em>&quot;wheel&quot;</em> priveliges anymore. To be able to use the <code>sudo</code> command, first login to your admin account by entering <em>su [account name]</em>.</p>
+<p>For more information, check out the <a href="http://docs.info.apple.com/article.html?path=Mac/10.5/en/8235.html">Apple Knowledge Base article on creating user accounts</a>, the <a href="http://en.wikipedia.org/wiki/Superuser">Wikipedia article on superusers</a> and the <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/users-superuser.html">FreeBSD Handbook page on superusers</a> for a general overview on on why it’s a good idea to use restricted accounts on Unix systems.</p>
+ 

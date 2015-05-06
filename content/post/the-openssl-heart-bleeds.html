@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'The OpenSSL heart bleeds' 
+date: "2014-04-21T08:32:00+10:00"
+categories: 
+- Internet 
+tags: 
+- heartbleed
+- openssl
+- security 
+---
+<p><img src="http://files.rubenerd.com/2014/heartbleed.png" alt="Heartbleed.com icon" style="width:170px; height:206px;" /></p>
+<p>We’ve now been living with the fallout of Heartbleed for a few weeks now, and if anything there’s more to be concerned about.</p>
+<h3>Very, very brief</h3>
+<p>Earlier this month, the now infamous Heartbleed bug was discovered in OpenSSL. In an extreme, abridged nutshell, the library allowed malicious users to access private data from a server. By over-reporting packet length, memory extraneous to that request could be leaked.</p>
+<p>As with memory leaks on our desktop OSs, the implications are applications, and nefarious users, gaining access to memory they’re not supposed to. In the case of servers, this could include anything from private keys, to session data, to login credentials for users, databases, accounts, the works.</p>
+<p>It’s terrifying, not only because traffic to so many unpatched sites could be compromised, but that they could have been compromised for so long in the past, and retroactively so. For so many servers rattling along without carers, or embedded systems, or others that will take time to patch, its feasible this attack could render some traffic insecure for the foreseeable future.</p>
+<p>In his classic, no nonsense style, OpenBSD and OpenSSH’s Theo De Raadt <a href="http://article.gmane.org/gmane.os.openbsd.misc/211963">took issue</a> with the OpenSSL team’s use of a wrapper around C malloc and free calls, thereby sidestepping any future potential security improvements. In this case, the burden of maintaining secure memory was drawn away from the OS, which is rarely a good idea.</p>
+<h3>Broader implications</h3>
+<p>Regardless of whether the age old issue of performance and security played a part, the issue has raised several key questions.</p>
+<ul>
+<li>
+<p>Should we be writing such critical security code in languages that have arbitrary access to process memory at all?</p>
+</li>
+<li>
+<p>Is the Torvaldian &#8220;with enough eyes, all bugs are shallow with open source code&#8221; meme dead and buried now?</p>
+</li>
+<li>
+<p>Will this finally provide the impetus for widespread <a href="http://en.wikipedia.org/wiki/Forward_secrecy#Perfect_forward_secrecy">perfect forward secrecy</a> deployment, given its random session keys could help protect against such attacks being retroactively used on archived encrypted communications?</p>
+</li>
+<li>
+<p>For such critical software, should the overworked OpenSSL team be given more resources? Should we all be contributing to software that we all depend on?</p>
+</li>
+<li>
+<p>Should organisations, such as the NSA, be obligated to share bugs of this nature that potentially affect everyone? Or more bluntly, should we be surprised that they exploited such a bug?</p>
+</li>
+</ul>
+<p>I’ve yet to develop my thoughts on these sufficiently, so they’ll have to be for future posts. Well, other than the NSA one, I think we all know the answer to that already.</p>
+<p>If you see a sysadmin around, or know one, give them a hug and maybe some chocolates if that’s her/his thing. We’ll need all of it we can get.</p>
+ 

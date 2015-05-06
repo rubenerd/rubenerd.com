@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'Tiamo’s 32–bit efi and Mavericks 10.9.2' 
+date: "2014-02-27T12:46:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- guides
+- mac-os-x
+- mac-pro
+- tiami
+- updates 
+---
+<p><img src="//farm8.staticflickr.com/7362/12358194695_347e3ce97b_b.jpg" alt="" style="width:500px; height:335px;" /></p>
+<p>Earlier this month, I <a href="http://rubenerd.com/mavericks-mac-pro/" title="Mavericks on my first gen Mac Pro">didn&#39;t use Tiamo&#39;s replacement 32–bit bootloader</a> to allow me to install OS X 10.9 Mavericks on my Mac Pro 1,1. At the end of that post, I said:</p>
+<blockquote>
+<p>[..] there&#39;s no reason Apple couldn&#39;t change your lovingly replaced boot.efi with a future software update. You&#39;d be wise to keep a bootable memory key with the altered boot.efi available in case you ever need to boot with it and swap it back.</p>
+</blockquote>
+<p>With 10.9.2, this happened. Unsurprisingly, the solution is to overwrite the updated <code>boot.efi</code> files with Tiamo&#39;s replacements again.</p>
+<h3>Fixing in a nutshell</h3>
+<ol>
+<li>Install the <a href="http://support.apple.com/kb/DL1725" title="OS X Mavericks 10.9.2 Update">redistributable update</a>, not the App Store update</li>
+<li><strong>Before</strong> restarting, replace the updated boot.efi files</li>
+<li>Reboot</li>
+</ol>
+<p>If you installed the update and now your Mac Pro can&#39;t boot (as I may or may not have done), you can replace the updated <code>boot.efi</code> files with your Mavericks boot key, or any other bootable Mac volume. </p>
+<p>After booting, use the Terminal to replace these files with Tiamo&#39;s:</p>
+<pre>
+/Volumes/[Your Boot Drive]/System/Library/CoreServices/boot.efi
+/Volumes/[Your Boot Drive]/usr/standalone/i386/boot.efi
+</pre>
+<p>If you get an error, you may need to unlock them first:</p>
+<pre>
+chflags -R nouchg boot.efi
+</pre>
+<p>And we end with another agreement that <strong>what you do to your machine is your own fault and responsibility</strong>. I didn&#39;t do this, and neither should you.</p>
+ 

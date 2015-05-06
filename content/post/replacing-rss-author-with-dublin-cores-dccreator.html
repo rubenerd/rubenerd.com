@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Replacing RSS author with Dublin Core’s dc:creator' 
+date: "2013-06-09T01:38:43+10:00"
+categories: 
+- Internet 
+tags: 
+- dublin-core
+- infocomm
+- metadata
+- rss
+- xml 
+---
+<p><img src="http://files.rubenerd.com/2013/dublin.jpg" alt="Photo of Dublin I took in 2010" style="width:500px; height:px" /></p>
+<p>When Dave Winer introduced RSS 2.0, he included a number of new tags. One of which was author, which is designed for an email address:</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;author&gt;123@fakestreet.springfield (Ruben Schade)&lt;/author&gt;
+</pre>
+<p>This probably made more sense back then than it does now. While it’d be lovely to contact the owner of a feed, it’s mostly just a huge spam target bullseye.</p>
+<p>We have four options (probably more). We can use our regular email address here, and hope our increasingly sophisticated spam filters can handle the sudden and inevitable onslaught. We can pollute our metadata with a fake address, or defeat the purpose of the tag with a junk address we’ll probably never check.</p>
+<p>A forth option is to take the RDF-spirited approach and import the <a href="http://dublincore.org/documents/dces/">Dublin Core namespace</a>:</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;rss version="2.0"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"&gt;
+</pre>
+<p>With it, we get the lovely <a href="http://purl.org/dc/elements/1.1/creator">dc:creator</a> tag which lets us do this:</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;dc:creator&gt;Ruben Schade&lt;/dc:creator&gt;
+</pre>
+<p>There is some semantic impact to this; an author isn’t the same as a dc:creator. In some ways however, I think it’s superior. Author asserts a person is defined by their email address. dc:creator assumes an author’s unique identifier (if you will) is their name.</p>
+<p>It probably comes down to personal preference above all else; I for one prefer the latter. To be fair though, I have an unusual name combination!</p>
+<p>Software packages like WordPress have been doing this for years, and I’ve finally decided to implement it myself on the feeds I generate. I try to avoid importing namespaces in RSS 2.0 when I can, but this is a useful addition. Plus then I get all the extra Dublin Core goodies ^_^.</p>
+<p><cite>Photo taken by me of the Dublin skyline in 2010. Ireland is so beautiful!</cite></p>
+ 

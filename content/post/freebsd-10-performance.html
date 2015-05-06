@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'FreeBSD 10 performance' 
+date: "2014-09-16T04:17:52+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- clang
+- freebsd
+- gcc
+- linux 
+---
+<p>The move from GCC to Clang was arguably the biggest change going to FreeBSD 10. <a href="http://aboutthebsds.wordpress.com/2014/01/22/freebsd-release-10-0-the-worst-release-of-freebsd-yet/">Wrote this in response</a> to what I now realise is a troll site. Oh well.</p>
+<blockquote>
+<p>FreeBSD were stuck between a rock and a hard place with this. They could continue to use the last increasingly outdated non-GPL3 GCC, or take the performance hit and move to Clang. I think we can all emphathise with their decision.</p>
+<p>In the meantime, I’ve moved all my boxes and cloud instances to FreeBSD 10 under various loads (DB servers, web servers, file stores) and haven’t seen any noticeable performance penalty. That said, I haven’t done any serious benchmarking, and FreeBSD’s natively better performance than GNU/Linux under similar loads on my hardware has somewhat masked this. As a Xen guest, its native kernel PVHVM drivers have also significantly increased practical performance.</p>
+<p>With Apple’s backing, Clang/LLVM binaries could eventually become competitive with GCC. Indications are they’re slowly moving in the right direction, if the <a href="http://www.phoronix.com/scan.php?page=article&#038;item=llvm34_gcc49_compilers&#038;num=1">Phoronix Test Suite</a> benchmarks are to be believed.</p>
+</blockquote>
+ 

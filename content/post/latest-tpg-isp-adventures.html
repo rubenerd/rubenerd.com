@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Latest TPG ISP adventures' 
+date: "2014-08-29T04:45:11+10:00"
+categories: 
+- Internet 
+tags: 
+- australia
+- sydney
+- tpg 
+---
+<p>So we have TPG home internet. Yes they’re not great, but all Australian internet is terrible after you’ve grown up in Singapore. </p>
+<p style="font-style:italic">(Good grief, I miss MaxOnline cable internet fiercely. Since moving back, they’ve even <a href="http://www.zdnet.com/au/nbn-fibre-to-the-world-singapore-7000032534/">implemented their own NBN</a> while our politicians and talking heads decry fibre is <a href="http://rubenerd.com/cost-fast-tv-web-browsing/">minimally beneficial</a>. Ah Australia, always on the <em>verge</em> of greatness but never allowing yourself to do it).</p>
+<p>TPG are generally decent during the day, but their evening speeds approach the ISDN connection we had when I was a kid. Check out our latest isolation test, performed with speedtest-py:</p>
+<pre>
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Testing from TPG Internet ([our IP address])...
+Selecting best server based on latency...
+Hosted by Vodafone Hutchison Australia (SD) (Sydney) [19.49 km]: 59.047 ms
+Testing download speed........................................
+Download: 1.72 Mbits/s
+Testing upload speed..................................................
+Upload: 0.28 Mbits/s
+</pre>
+<p>That’s fairly average. Between 19:00 and 22:00, its’ normal to see that dip below 0.80 Mb/s down. Worse still, their peering arrangements result in speeds for the major social networks that are so slow, my tethered iPhone with 2 bars of reception performs better.</p>
+<p>As the “IT guy” in the house, I get blamed for this. Normally I’d resent being the face of such an issue, but given it’s this bad, I can’t say I blame them for their resentment.</p>
+<p>The next step is to check the phone line, swap out the modem, run regular tests, graph the results, then move back overseas.</p>
+<p>If these fail to turn up anything, we may attempt to cancel our plan, citing their terms of service which lists &#8220;900kb/s&#8221; as the minimum acceptable speed (which is in itself a joke). I would hope it wouldn’t come to that.</p>
+ 

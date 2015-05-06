@@ -1,0 +1,54 @@
+---
+layout: post
+title: '14 years later, he tried SciTE' 
+date: "2012-10-28T03:45:38+10:00"
+categories: 
+- Software 
+tags: 
+- editors
+- geany
+- guide
+- infocomm
+- review
+- scintilla
+- scite 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.scite.png" alt="SciTE" style="width:500px; height:281px;" /> </p>
+<p>I thought I&#39;d tried every conceivable editor from the IBM E Editor to Vim and everything in between, but I&#39;d never used SciTE before. #herpderp!</p>
+<p><!--oldmore--></p>
+<h3>And you call yourself a hacker</h3>
+<p><a href="http://www.scintilla.org/SciTE.html">SciTE</a> is a simple, cross platform text editor with a tabbed interface, syntax highlighting for all the major suspects and a trippy icon. It also reads like &quot;science&quot; which is just too cool. It was originally developed by Neil Hodgson in 1998 to demonstrate the open source <a href="http://www.scintilla.org/">Scintilla</a> editing library, but is now a fully featured application in its own right.</p>
+<p>MacPorts has the <a href="https://trac.macports.org/browser/trunk/dports/editors/scite/Portfile">latest version</a>, and it&#39;s also available on the App Store. Fedora 17 had a fairly dated 2.x version in its repos, so I <a href="http://sourceforge.net/projects/scintilla/files/latest/download?source=files">downloaded</a> the latest and greatest 3.2.3 release and built it. The tarball also came with the latest version of Scintilla.</p>
+<pre>
+% sudo -s
+# tar xzvf scite*tgz
+# cd scintilla/gtk <strong>or</strong> scintilla/qt
+# make
+# cd ../../scite/gtk <strong>or</strong> /qt
+# make
+# make install
+# exit
+</pre>
+<p>The output from <code>make install</code>. On Xfce it doesn&#39;t matter that it only installed a 48x48px icon in pixmaps, but this won&#39;t cut it on Gnome 3!</p>
+<pre>
+[root@nia]/usr/local/src/scite/gtk
+# make install
+install -m 755 -d /usr/bin /usr/share/scite
+install -m 755 ../bin/SciTE /usr/bin
+for files in ../src/*.properties ../doc/*.html ../doc/SciTEIco.png ../doc/PrintHi.png; 
+do 
+    install -m 644 $files /usr/share/scite; 
+done
+install -m 755 -d /usr/share/applications /usr/share/pixmaps
+install -m 755 SciTE.desktop /usr/share/applications/SciTE.desktop
+install -m 644 Sci48M.png /usr/share/pixmaps/Sci48M.png
+</pre>
+<h3>Impressions</h3>
+<p>The beautiful, simple Geany IDE which I&#39;ve been using for many years uses the same Scintilla library that SciTE does, and there is a bit of a family resemblance in the layout of the editing area.</p>
+<p>On the Vim/Emacs continuum of kitchen-sinkness, SciTE falls more on the Vim side. The initial configuration is fairly sparse, and it&#39;s up to you to customise it the way you want. The first things I did were turning on line numbering and the status bar, which helpfully shows which column the cursor is in, and what type of newline is being employed (in my *nix case, LF). No doubt these can be customised.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.scite.languages.png" alt="SciTE languages" style="width:500px; height:200px;" /> </p>
+<p>User configuration is stored in various <code>*properties</code> files which you can conveniently access from the Options menu. I haven&#39;t had time to look into this so far.</p>
+<p>In terms of usability, it employs all the same key shortcuts we&#39;re used to in other applications, such as CTRL+S for save. I&#39;ll admit in Geany I never have this problem, but in SciTE I keep reaching for that escape key to start hammering away my Vim shortcuts. Perhaps it&#39;s the minimalist interface ;).</p>
+<h3>Pushing onto my editor stack</h3>
+<p>For someone who otherwise likes minimalism and doesn&#39;t install things unless he really needs them, the last thing I need is another editor. On this ThinkPad right now I have Gvim, Geany, LaTeXila, NetBeans, JASSPA MicroEmacs, Torvald&#39;s me, Bluefish and Leafpad from Xfce. I&#39;ve also been told to try Sublime Text, and I have Chocolat on my Mac. I&#39;ll commit to one eventually ^_^;;</p>
+ 

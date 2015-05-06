@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'Windows NT 4.0 sound in VirtualBox' 
+date: "2010-11-01T01:14:48+10:00"
+categories: 
+- Software 
+tags: 
+- audio
+- drivers
+- guide
+- howto
+- infocomm
+- nostalgia
+- retro
+- virtualbox
+- windows-nt 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.winnt4.sound.png" alt="" style="height:200px; width:500px;" /></p>
+<p>So you want to get sound working in your Windows NT 4.0 VirtualBox virtual machine to relieve the glory days of your electronic youth, or some other reason you&#39;re too embarrased to discuss? Don&#39;t we all.</p>
+<p><!--oldmore--></p>
+<h3>Caveats, mmm, must be Russian for bug larvae</h3>
+<p>Before we go any further, two quick points.</p>
+<p>Unlike newer operating systems, Windows NT 4.0 is accorded VirtualBox additions that don&#39;t bother to set up the sound system. How dreadfully inconsiderate. Fortunately, after you&#39;ve installed Service Pack 6 and the VirtualBox additions (in that order), it only takes a few minor adjustments to get sound.</p>
+<p>The other point is, these instructions work and are current as of VirtualBox 3.2.10, build r66523. That&#39;s very close to a satanic number, just saying. I&#39;ve been using NT 4 in VirtualBox for many years and the software has a habit of requiring different sound settings and drivers with subsequent releases.</p>
+<h3>The procedure</h3>
+<ol>
+<li>Click your Windows NT 4.0 VM and hit <strong>Settings</strong>. Under the <strong>Audio</strong> tab, change the <strong>Audio Controller</strong> to <strong>SoundBlaster 16</strong>.
+</p>
+</li>
+<li>Start the VM (always helps). Navigate to <strong>Start</strong> &#8594; <strong>Settings</strong> &#8594; <strong>Control Panel</strong> and choose <strong>Multimedia</strong>. Under the <strong>Devices</strong> tab, click <strong>Add…</strong>.
+</p>
+</li>
+<li>Choose <strong>Create Labs Sound Blaster 1.X, Pro, 16</strong> and hit <strong>OK</strong>. You’ll need to specify the location of your Windows NT 4 installation files. I installed mine from CD, so I mounted the installation CD at this point, then hit <strong>OK</strong>
+</p>
+</li>
+<li>Leave the <strong>I/O Address</strong> at &quot;<code>220</code>&quot; and click <strong>Continue</strong>, then under <strong>MPU401 I/O Address</strong>, change the value from &quot;<code>330</code>&quot; to &quot;<code>Disable</code>&quot; and hit <strong>OK</strong>.
+</p>
+</li>
+<li>If you’ve mounted the installation CD, unmount it now otherwise when you restart it’ll boot into that instead of your VM!
+</p>
+</li>
+<li>Hit <strong>Restart Now</strong>. Surprisingly for a Redmond product, this is an example of a voluntary restart.</li>
+</ol>
+<p>Now go grab yourself a 2.x series version of Winamp from OldVersions.com and relive the old days!</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.winnt4.sound.config.png" alt="" style="height:240px; width:500px;" /></p>
+<h3>Link arms, don’t make them</h3>
+<ul>
+<li><a href="http://www.virtualbox.org/">VirtualBox</a></li>
+<li><a href="https://www.microsoft.com/technet/archive/downloads/winnt.mspx">Microsoft Downloads for Windows NT</a></li>
+<li><a href="http://www.oldversion.com/download_Winamp_2.95.html">Winamp 2.95 from OldVersions</a></li>
+</ul>
+ 

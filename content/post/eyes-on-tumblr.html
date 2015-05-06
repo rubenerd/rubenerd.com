@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'Eyes, and scripting Tumblr posts to WordPress?' 
+date: "2010-05-19T12:52:26+10:00"
+categories: 
+- Thoughts 
+tags: 
+- curl
+- cute
+- excuses
+- eyes
+- python
+- scripting
+- thinking-out-loud
+- tumblr 
+---
+<p><img src="http://files.rubenerd.com/uploads/tumblr_l2kzub8BsB1qb8z85o1_400.jpg" style="height:342px; width:400px" /></p>
+<p>While I revel in this more traditional approach to blogging (when it works, looking at you WordPress), I do admit I&#39;m jealous of how it easy it is for people on Tumblr to re-post entries from other tumblogs (that is the term, right?). Say… <a href="http://savagemike.tumblr.com/post/609338148/cherrysmostwanted-fyeahkara-via-fykara#disqus_thread">this one</a>, for example!</p>
+<p><!--oldmore--></p>
+<h3>So here’s my idea</h3>
+<p>Usually I would start reading up on a site&#39;s API, but with so many things to do right now I decided to take the easy way out given I&#39;d only be using it in a personal context. Here&#39;s my idea:</p>
+<ol>
+<li>Write a crappy Python script that accepts the URL/URI/address for a Tumblr entry I’d like to re-post in true Tumblr-like fashion.</li>
+<li>Use curl to grab the page, or fetch, or… heaven forbid, wget.</li>
+<li>Extract the textual information from the post, including the links to the people who re-posted it.</li>
+<li>Download local copies of the image(s) in a post and use ImageMagick to scale and convert them.</li>
+<li>SFTP to my webserver and upload the image(s)</li>
+<li>Connect to my WordPress database, add all the stuff, done.</li>
+</ol>
+<h3>Of course things aren’t that simple!</h3>
+<p>How so? Ugh I hate rhetorical questions, mainly because I always need to consult a spell checker whenever I spell rhetorical.</p>
+<p>For example, the picture of the girl above whom I can&#39;t stop looking at for some reason <strong>was saved on Tumblr as a gigantic PNG</strong>. What?! I know it could be saved as a JPEG and save a ton of space and bandwidth, but ImageMagick can&#39;t tell that from a diagram that should be kept as a PNG. In other words, it couldn&#39;t be an entirely automated process. Perhaps I could specify along with the URL I&#39;m giving the script whether or not the images should be messed with. Ugh, but then it&#39;s not as automatic, which kinda defeats the purpose.</p>
+<p>Secondly, Tumblr allows people to share far more than just pictures. If someone embedded a YouTube video or something else, what do I do then? I prefer hosting my own copies of stuff with attributions becuase I don&#39;t like relying on third party sites to stay alive. Why am I hearing Bee Gees all of a sudden? Ha, ha, ha, ha, staying alive… staying alive. Ha, ha, ha, ha, staying aliiiiiiive!</p>
+<p>Thirdly, I shouldn&#39;t do this hack job and instead use the public APIs to get all the information I need and implement it in a WordPress plugin. It&#39;d mean I&#39;d have to actually <strong>learn</strong> PHP for real instead of just the hackish bits and pieces I&#39;ve picked up from my Perl days and from maintaining MediaWiki and WordPress installs.</p>
+<h3>Okay I admit it!</h3>
+<p>This entire post was an excuse to post that picture. I&#39;m a sucker for eyes, and I&#39;m lonely, shaddup.</p>
+ 

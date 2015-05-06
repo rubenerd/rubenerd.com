@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'VMware Fusion 2.0 beta2 with FreeBSD review' 
+date: "2008-08-18T09:26:47+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- linux
+- netbsd
+- slackware
+- virtualisation
+- vmware
+- vmware-fusion
+- x11 
+---
+<blockquote><p><strong>UPDATE:</strong> An abridged version of this review has been picked up by the fine folks over at <a href="http://bsdnews.com/?p=198">BSD News</a>. If you’ve arrived here from there, all my FreeBSD and NetBSD posts can be found in the aptly-named <a href="http://rubenerd.com/category/free-and-open-source/bsd/">BSD</a> category. Cheers :-)</p></blockquote>
+<p>I&#39;ve loved using virtualisation software ever since I had an early version of <a href="en.wikipedia.org/wiki/Connectix">Connectix Virtual PC</a> for my <a href="http://en.wikipedia.org/wiki/IMac_G3">iMac DV</a> back in the early 2000s, and later their Windows version before they were bought out by Microsoft. Virtual PC was mostly intended for people to use recent versions of Windows on Mac OS 8, but I preferred using it for resurrecting classic operating systems such as DOS/Windows 3.x which we had on our first home machine, and playing around with Linux distributions without going through tedious partitioning.</p>
+<p>My predictably unnecessarily verbose introduction aside, the latest virtualisation software I&#39;m using on a regular basis is <a href="http://www.vmware.com/products/fusion/">VMware Fusion for Mac OS X</a>, and I&#39;ve been very pleased with it. The <a href="http://www.vmware.com/landing_pages/fusion2_beta.html">second beta release for version 2.0</a> is out now, and I spent my Sunday afternoon trying out build 107508 with a handful of my most used operating systems, plus FreeDOS for fun!</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.fusion.20b2.png" alt="VMware Fusion 2.0 beta 2 Virtual Machine Library" style="height:327px; width:500px;" /><br />
+<cite>VMware Fusion 2.0 beta 2 Virtual Machine Library</cite></p>
+<p>The most noticeable difference initially between this latest beta and version 1 of Fusion is the redesigned Virtual Machine Library. Taking a cue from Virtual PC, the plain text listing of virtual machines has been revised to include screenshots for the suspended machines. While I think this is a extremely useful and welcome addition for quickly recognising machines visually, I think the Mac-like glossy finishes are a bit overdone. Also despite making the interface more Mac-like overall, I can&#39;t help but think the New, Open and Settings would better be served by a regular toolbar at the top of the window.</p>
+<p>The New Virtual Machine Assistant has been improved to allow for more boot and drive options. You&#39;re no longer limited to choosing from a physical or virtual optical disc; you can choose to use an existing virtual drive or even none at all: a VERY welcome addition! Before you run the machine the first time you&#39;re asked whether you want to modify settings too, which means you no longer have to start the machine at the end of the assistant and hastily shut it down to fine tune its configuration.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.fusion.20b2.new.png" alt="VMware Fusion 2.0 beta 2 New Virtual Machine Assistant" style="height:170px; width:500px;" /><br />
+<cite>VMware Fusion 2.0 beta 2 New Virtual Machine Assistant</cite></p>
+<p>Speaking of configuration, the Virtual Machine Settings window has been drastically redesigned to make it look much more like the Mac System Preferences application, and to make it easier to access all the new options and virtual devices you can configure. Amongst the new goodies are the ability to configure floppy drives, parallel ports, serial ports, and multiple virtual hard drives. When I saw these additions, I literally jumped out of my chair and screamed &quot;HELL YEAH!&quot;</p>
+<p>Fusion 2.0 beta 2 also allows you to visually scale and stretch live running virtual machine displays. Even just a little bit of scaling adversely affects the readability of text, but perhaps for other applications such as full screen gaming which needs to be scaled to fit to an unsupported resolution this might be useful.</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.fusion.20b2.scaling.png"><img src="http://files.rubenerd.com/uploads/screenie.fusion.20b2.scaling.thumb.jpg" alt="VMware Fusion 2.0 beta 2 New Virtual Machine Assistant" style="height:313px; width:500px;" /></a><br />
+<cite>Demonstration of the live visual scaling in beta 2. Both the NetBSD and Slackware virtual machines are set to 1024&#215;768 but the latter has been scaled down.</cite></p>
+<p>Now for the bad news. I&#39;m not sure if this is a temporary setback as a result of it being a beta version (I did disable debugging checks), but graphical performance in <a href="http://bsd.org/">BSD operating systems</a> on my original generation MacBook Pro is nothing short of abysmal. VMware provides welcome additions for <a href="http://freebsd.org/">FreeBSD</a>, but even installing these in <a href="http://www.freebsd.org/releases/6.3R/announce.html">FreeBSD 6.3 Release</a> and using them with the <a href="http://www.freebsd.org/cgi/cvsweb.cgi/ports/misc/compat6x">compat6x layer</a> in <a href="http://www.freebsd.org/releases/7.0R/announce.html">FreeBSD 7.0 Release</a> made no difference to the overall sluggishness. <a href="http://netbsd.org/releases/formal-4/NetBSD-4.0.html">NetBSD 4.0</a> was just as bad, without any additions.</p>
+<p><img src="http://files.rubenerd.com/uploads/bsd.daemon.png" alt="" style="height:182px; width:168px; float:right; margin:0 0 10px 20px;" /> This slow performance was most pronounced when I started <a href="http://www.freshports.org/x11/xorg/">Xorg</a> on FreeBSD or <a href="http://xfree86.org/">XFree86</a> on NetBSD. Typically starting an X11 environment in VMware Fusion 1.x takes less than a second followed by several seconds for loading the desktop environment or vanilla window manager. With Fusion 2.0 beta 2, both FreeBSD and NetBSD take over 5 minutes just to start X11, and another few minutes just to load something as lightweight as <a href="http://www.fluxbox.org/">Fluxbox</a>… if you want to load <a href="http://xfce.org/">Xfce</a> or <a href="http://kde.org/">KDE</a> it takes over a whopping 10 minutes.</p>
+<p>To check whether this was a problem with BSD, I tried <a href="http://slackware.com/">Slackware Linux 12.1</a> with the same versions of KDE, Xfce and Xorg; and while it still felt a little sluggish it still managed to load all three in a reasonable amount of time.</p>
+<p>Given I need to use FreeBSD for my studies I just can&#39;t use this beta release on a production machine, but if you primarily use Windows or Linux you could probably try it out.</p>
+ 

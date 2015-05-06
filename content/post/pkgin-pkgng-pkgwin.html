@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'pkgin and pkgng for pkgwin' 
+date: "2012-11-01T04:12:56+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- netbsd
+- pkgin
+- pkgng
+- sola 
+---
+<p><img src="http://files.rubenerd.com/uploads/pkgin-icon-new.png" alt="" style="width:150px; height:88px;" class="transparent" /></p>
+<p>I moved to Fedora as my desktop OS of choice largely because of yum, and some Red Hat Linux nostalgia. Pkgin and Pkgng on NetBSD and FreeBSD respectfully may be enough to win me back :)</p>
+<p><!--oldmore--></p>
+<h3># pkg_add -rv awesomeness</h3>
+<p>Back when I fickly used <a href="http://freebsd.org/">FreeBSD</a> then <a href="http://netbsd.org/">NetBSD</a> for my file server at home, the systems were so appealing I wanted to try them on the desktop. If you go back to the Rubenerd.com archives from a few years back, you&#39;ll see all my posts about BSD desktops, getting Xfce working on them, and how much I enjoyed using them.</p>
+<p>Leaving aside the issue of accelerated 3D graphics for now, the main issue with using the BSDs as desktop OSs is they tended to be heavily source-based. Binary packages were available, but generally speaking if you wanted current software and updates, you needed to use their respective port/package systems. Before the advent of freebsd-update, you also needed to rebuild the base system to upgrade it.</p>
+<p>For small applications or the ones you&#39;d typically run on a server, this was fine. Building Firefox or Xfce or KDE from sources each time they had an update would take hours, and was an incredibly tedious process. Sometimes they&#39;d break, or a dependency wouldn&#39;t build, and you&#39;d be stuck. It didn&#39;t make for a terribly pleasant desktop experience, especially when my Linux friends could enter yum update and be largely up to speed in minutes.</p>
+<p><a href="http://www.flickr.com/photos/rubenerd/3603100038/" title="Obconf, Nitrogen, urxvt on Openbox, my &quot;cloud&quot; theme :) by rubenerd, on Flickr"><img src="https://farm4.staticflickr.com/3343/3603100038_3bdf4cff52.jpg" width="500" height="375" alt="Obconf, Nitrogen, urxvt on Openbox, my &quot;cloud&quot; theme :)"></a></p>
+<h3>A NetBSD repo? You bet!</h3>
+<p>A lot has changed in the intervening years since I started using Linux again. Pkgng on FreeBSD and Pkgin on NetBSD offer repository-based binary package management systems akin to yum in the Red Hat world, or heaven forbid apt-get.</p>
+<p>From the <a href="http://pkgin.net/">NetBSD pkgin site</a>:</p>
+<blockquote><p>pkgin is aimed at being an apt / yum like tool for managing pkgsrc binary packages. It relies on pkg_summary(5) for installation, removal and upgrade of packages and associated dependencies, using a remote repository.</p>
+<p>Many so-called GNU/Linux distributions provide a convenient way of searching, installing and upgrading software by using binary archives found on &#8220;repositories&#8221;. NetBSD, and more widely, all operating systems relying on pkgsrc have tools like pkg_add and pkg_delete, but those are unable to correctly handle binary upgrades, and sometimes even installation itself.</p>
+<p>This is the purpose of pkgin, to provide the user a convenient way to handle binary packages, using the same working mechanisms than tools like apt-get.</p></blockquote>
+<p>And from the <a href="http://wiki.freebsd.org/pkgng/">FreeBSD pkgng wiki page</a>:</p>
+<blockquote><p>pkgng is built on top of libpkg, a new library to interface with package registration backends. It abstracts package management details such as registration, remote repositories, package creation, updating, etc.</p>
+<p>pkgng is: a replacement for pkg_* tools, a tool to query/manage installed packages, a tool to deal with binary packages, a tool to upgrade/install packages from a remote repository and a library that provides all the package management in a safe way so one can write a new frontend.</p></blockquote>
+<p>I moved from FreeBSD to NetBSD on my file server here, and so far I&#39;ve only played with pkgin, but I&#39;m genuinely excited about both. A method to reliably and consistently upgrade binary packages was arguably the main reason I went to Linux.</p>
+<p>I&#39;ll keep the penguin on at least one machine I own, but if these systems work well I may be on my way to using BSD on my laptops again, including maybe <a href="http://rubenerd.com/freebsd-booting-libretto/">even this one</a>! As much as I know about the Fedora ecosystem now, I&#39;m still far more at home with BSD. <code>/etc/rc.conf</code>, securelevels, jails [sic], the 2-clause BSD licence!</p>
+<p>I&#39;ll be playing with both after my latest round of assignments are handed in, and will report back ^_^</p>
+ 

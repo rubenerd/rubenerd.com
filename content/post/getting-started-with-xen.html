@@ -1,0 +1,103 @@
+---
+layout: post
+title: 'Getting started with Xen' 
+date: "2014-07-06T11:58:31+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- virtualisation
+- xen 
+---
+<p style="font-style:italic">(Since writing this, much of the syntax in Xen 4.4 is different. Debian Wheezy still ships with the older versions, but Ubuntu users will likely need to refactor some of this).</p>
+<p>Since first running Connectix Virtual PC on my childhood blueberry iMac DV, I&#39;ve been unhealthily obsessed with virtualisation. Long time readers of Rubénerd would have seen me post about the first beta releases of Parallels Desktop in 2006, VMware&#39;s consumer and enterprise fare, the versatile QEMU and the nostalgic DOSBox and ScummVM.</p>
+<p>Now that you&#39;ve cleared the pointless introduction, this post will be exploring <a href="http://xenproject.org/">Xen</a>, the system that powers much of the world&#39;s cloud infrastructure, and the more discerning Linux and NetBSD users&#39; personal virtual machine collections.</p>
+<h3>Definitions</h3>
+<p>Xen is a bare—metal hypervisor that runs virtual machines. Once you&#39;ve provided it with a configuration file, the system spins up your virtual machine which (by default) you can access with a serial console, VNC or a few other remote access protocols. Of course, once you&#39;ve enabled an SSH daemon and networking in your guests, you can access through that too.</p>
+<p>Broadly speaking, your Xen host is referred to as dom0, for domain 0. Guests are referred to as domU, and can be started either fully virtualisaed with HVM, or paravirtualised (PV) if the guest OS supports it. What&#39;s the friggen difference? More on that shortly.</p>
+<h3>Getting started</h3>
+<p>Once you&#39;ve decided to try Xen, the next step is finding a hypervisor-compatible OS. Those who know me wouldn&#39;t be surprised to know I first tried Xen on NetBSD; of all the (albeit limited) non-Linux options, NetBSD&#39;s dom0 Xen support is supurb. For most of you though, I&#39;m assuming you&#39;ll want to use Linux. Debian is what we use at the office and where I have most Xen experience, so that&#39;s what we&#39;ll be looking at here.</p>
+<p>At a bare minimum, you&#39;ll also need a system with Intel VT-x or AMD-v support. Most decent &quot;modern&quot; systems have these, but this website is a great resource for checking what your CPU supports. For full hardware assisted virtualisation (HVM), you can check Intel VMX or AMD XVM support by searching this:</p>
+<pre><code>egrep &#39;(vmx|svm)&#39; /proc/cpuinfo
+</code></pre>
+<p>Once you have your <a href="">OS of choice</a> installed, these are roughly the steps to get started quickly:</p>
+<ul>
+<li>Install Xen</li>
+<li>Define a network bridge</li>
+<li>Partition a drive, ideally with logical GPT. Otherwise, create a raw disk image</li>
+<li>Define your new VM</li>
+<li>Start your VM</li>
+<li>Access your VM</li>
+</ul>
+<h3>Installation and configuration</h3>
+<p>As a tinkerer myself, I appreciate the urge to try something quickly. This is arguably the bare minimum you&#39;ll need to do to get started; you&#39;ll want to tune your system after to get an optimum setup.</p>
+<p>To install Xen on Debian, grab the following:</p>
+<pre><code># apt-get install xen-linux-system
+</code></pre>
+<p>Next, define a network bridge in <code>/etc/network/interfaces</code> for your domUs to access. In this case, I&#39;m defining an unremarkable <code>xenbr0</code> on my <code>eth0</code> interface:</p>
+<pre><code># Ruben&#39;s Xen bridge
+auto xenbr0
+iface xenbr inet dhcp
+    bridge_ports eth0
+</code></pre>
+<h3>Storage</h3>
+<p>As with most hypervisors, you have the choice to use a partition or disk image for domU storage. Using GPT and logical volumes is beyond the scope of this post (aka, stay tuned), but seems to be the accepted standard.</p>
+<p>For now, we can create a disk image for our domUs with the following.</p>
+<pre><code>$ qemu-img create 5G guest.img
+</code></pre>
+<h3>How to run this sucker</h3>
+<p>Here&#39;s where we have to make a decision about how to run our VM. In Xen, we can run using paravirtualisation (PV) or HVM. Briefly:</p>
+<ul>
+<li>
+<p>PV uses some of the dom0&#39;s resources directly, including drivers and drive volumes. The benefit is far greater performance under some circumstances, though the domU needs kernel support. xen-tools can automate the installation of some PV domUs, but for others it can be quite a bit of work.</p>
+</li>
+<li>
+<p>HVM virtualises the entire hardware stack, meaning most OSs can run in it without modification. This is more like what you may be used to in other contemporary hypervisors on the desktop and otherwise. Recent OSs (such as FreeBSD 10) include so–called PVHVM drivers which will give it PV-like drivers for use in HVM, thereby giving you the best of both worlds.</p>
+</li>
+</ul>
+<h3>Post configuration</h3>
+<p>With that in mind, let’s make an HVM. In this basic example, I&#39;m creating a FreeBSD 10 domU config. You may need to adjust the Xen paths for your system.</p>
+<pre><code>## Ruben&#39;s freebsd.cfg file for FreeBSD HVM
+
+kernel       = &quot;/usr/lib/xen-4.1/boot/hvmloader&quot;
+device_model = &quot;/usr/lib/xen-4.1/bin/qemu-dm&quot;
+builder      = &quot;hvm&quot;
+memory       = &quot;256&quot;
+name         = &quot;freebsd&quot;
+
+## Enable VNC access
+vnc       = 1
+vnclisten = &quot;0.0.0.0&quot;
+
+## Virtual file devices
+## Attempt to boot from &quot;c&quot; (hard drive) first,
+## then boot &quot;d&quot; (cdrom). Same flags as QEMU
+boot = &#39;cd&#39;
+disk = [ &#39;file:/var/vm/freebsd.img,hda,w&#39;,
+         &#39;file:/var/vm/freebsd-10.iso,hdc:cdrom,r&#39; ]
+
+## Virtual network interface
+vif = [ &#39;bridge=xenbr0&#39; ]
+</code></pre>
+<h3>Launch</h3>
+<p>Now we can launch our new VM! Depending on your local install, you&#39;ll either want to use <code>xl</code> or the older <code>xm</code>:</p>
+<pre><code># xl launch freebsd.cfg
+# xm launch freebsd.cfg
+</code></pre>
+<p>You can confirm the machine is running</p>
+<pre><code># xm list
+=&gt; Name     ID   Mem  VCPUs [..]
+   Domain-0 0    8096 2     [..]
+   freebsd  0    256  1     [..]
+</code></pre>
+<p>If you have an X server locally running, you can now preview with:</p>
+<pre><code>$ vncviewer :0
+</code></pre>
+<p>To access VNC from another machine, one option is to use an SSH tunnel:</p>
+<pre><code>$ ssh -X &lt;your Xen machine IP&gt;
+$ vncviewer :0
+</code></pre>
+<h3>Done and done</h3>
+<p>And there you have it, your own Xen machine! Ideally, your next steps will be to install your domU guest as normal, then configure console access and/or SSH so you can access remotely without VNC. These will be discussed in future posts, and linked back to here.</p>
+<p>Initially configuring Xen can be time consuming, but it&#39;s a lot of fun and you&#39;ll be rewarded with a high performance platform to run your workloads.</p>
+ 

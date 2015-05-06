@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Mikuru, Fluxbox with ROX-Filer on FreeBSD' 
+date: "2007-02-28T04:05:23+10:00"
+categories: 
+- Software 
+tags: 
+- asahina-mikuru
+- bsd
+- fluxbox
+- freebsd
+- infocomm
+- mikuruism
+- pointless-anime-references
+- suzumiya-haruhi
+- unix
+- x11 
+---
+<p>In my continuing saga to find the perfect <a href="http://www.freebsd.org/">FreeBSD</a> desktop, I decided to set aside the fully fledged desktop environments (KDE, Gnome and Xfce) that I&#39;ve reviewed so far and instead focus on one of the most lightweight window managers: <a href="http://fluxbox.sourceforge.net/">Fluxbox</a>. I figured if I could get it to work, and liked using it, I could adapt it to fit on my boss&#39;s ThinkPad which can only just run IceWM or Windows 98 as it is ;).</p>
+<p>Here&#39;s my basic Fluxbox desktop running on FreeBSD on my MacBook Pro with <a href="http://www.getfirefox.com/">Mozilla Firefox</a> and <a href="http://dickey.his.com/xterm/">Xterm</a> with custom colours:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.mbp_freebsd_fluxbox.png"><img id="image687" src="http://files.rubenerd.com/uploads/mbp_freebsd_fluxbox_thumb.jpg" alt="Fluxbox on FreeBSD" /></a></p>
+<p>As you can see, it&#39;s very lightweight. On a machine like this it loads faster than you can lift your finger off the return key when you type <code>startx</code> to launch it, it&#39;s wild!</p>
+<p>Unlike the aformentioned desktop environments and like other vanilla window managers, Fluxbox does exactly what it&#39;s supposed to do; and that&#39;s it. It&#39;s entirely up to you to choose your web browser, email client, office suite, file maneger, terminal emulator and so forth which can take more time on your part but is very rewarding.</p>
+<p>The first snag I came across installing Fluxbox on FreeBSD is that the port in the ports collection called <em><a href="http://www.freshports.org/x11-wm/fluxbox/">fluxbox</a></em> is actually not the one we want, but rather the <em><a href="http://www.freshports.org/x11-wm/fluxbox-devel/">fluxbox-devel</a></em>. Despite the name, <em>fluxbox-devel</em> is the stable release. Caught me out the first time!</p>
+<p><img src="http://files.rubenerd.com/uploads/bsd_daemon.jpg" style="width:100px" alt="" /> <img id="image693" src="http://files.rubenerd.com/uploads/fluxbox.png" alt="fluxbox.png" /></p>
+<p>Once you have the base fluxbox window manager, just add <code>exec fluxbox</code> to your <code>~/.xinitrc</code> file, then type <code>startx</code> to fire her up.</p>
+<p>The configuration files are created in a new folder <code>~/.fluxbox</code> in your home directory. The customisable settings are in the <code>init</code> file, and you can customise the right-click desktop menu with the surprisingly titled <code>menu</code> file. Is good yah.</p>
+<p>To use your own custom desktop backgrounds, you need to install a seperate image viewing program, such as <a href="http://www.freebsd.org/cgi/ports.cgi?query=feh&#038;stype=all">feh</a> which can be found in the ports collection under graphics. After installing, just modify your <code>init</code> file so the line <code>rootCommands:</code> reads <code>rootCommands: fbdeskbg -f /path/to/your/image</code>. You can also pass images to feh on the command line to open them:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.mbp_freebsd_feh.png"><img id="image689" src="http://files.rubenerd.com/uploads/mbp_freebsd_feh_thumb.jpg" alt="Chuck Norris Llamas" /></a></p>
+<p>Chuck Norris and a Llama, what more do you need? :D ;)</p>
+<p>As for file managers I chose ROX-Filer because it&#39;s lightweight and zippy but still allows thumbnailing of images which is very impressive. Again, it&#39;s <a href="http://www.freshports.org/x11-fm/rox-filer/">in the ports collection</a>:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.mbp_freebsd_rox.png"><img id="image688" src="http://files.rubenerd.com/uploads/mbp_freebsd_rox_thumb.jpg" alt="ROX-Filer on Fluxbox" /></a></p>
+<p>The verdict? Even on slow machines Fluxbox whoops some serious arse, and on my MacBook Pro it works faster than I can type the commands! For many situations I&#39;ll definitely consider it, but I&#39;m a sucker for nice graphics so for my production machines I&#39;ll stick with the desktop environments for now; but I must admit Fluxbox + ROX-Filer is a very nice combination.</p>
+<p>Surprisingly the folks over at <a href="http://fluxbuntu.org/">Fluxbuntu</a> have had a very similar idea and are implementing Fluxbox and ROX-Filer over Ubuntu Linux. If it weren&#39;t for the fact it&#39;s not FreeBSD I&#39;d check it out, looks very intresting.</p>
+<p>My other *NIX desktop environment related posts:</p>
+<ul>
+<li><a href="http://rubenerd.com/kde-user-tries-gnome-after-8-years/">KDE user tries Gnome after 8 years!</a></li>
+<li><a href="http://rubenerd.com/windows-vista-yawn-xfce-440-is-out/">Windows Vista “Yawn”, Xfce 4.4.0 is out!</a></li>
+<li><a href="http://rubenerd.com/haruhi-suzumiya-dancing-on-freebsd-can-lah/">Haruhi Suzumiya dancing on KDE and FreeBSD?</a></li>
+</ul>
+ 

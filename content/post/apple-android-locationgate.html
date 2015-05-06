@@ -1,0 +1,58 @@
+---
+layout: post
+title: 'Apple Android locationgate whatnot' 
+date: "2011-04-28T06:15:53+10:00"
+categories: 
+- Internet 
+tags: 
+- apple
+- far-too-long
+- gigaom
+- google
+- infocomm
+- iphone
+- itelephone
+- location
+- postaday2011
+- privacy 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.map.apple.jpg" alt="" style="height:300px; width:500px" /></p>
+<p>Wait, so our mobile phones know where we’ve been!? This is such a shock!</p>
+<p><!--oldmore--></p>
+<h3>The shock is the jock</h3>
+<p>I’ve largely refrained from comment on this whole issue until now because everything that could be said probably has. Then again, by definition that’s true for pretty much everything we all blog, and its a lame excuse, so I’m going to write about it anyway ;).</p>
+<p>The issue here is the discovery of a location database in iPhone and Android devices, and what privacy concerns it introduces.</p>
+<p>Last year the whipping boy in privacy circles was Google for their Street View trucks. After it was uncovered Google engineers had unwittingly captured WiFi data packets from unencrypted WiFi networks on the routes they were photographing, lawmakers demanded Google be reprimanded. In <a href="http://rubenerd.com/googles-whitelists-exist/">early March I argued</a> the real issue wasn’t that Google was logging data (maliciously or otherwise) but that people were broadcasting their networks without any security, and that it was the fault of networking companies for not making that clear.</p>
+<p>In 2011 we have Apple’s logging of phone towers and WiFi locations on people’s iTelephones. Unlike the silly Antennagate issue I do believe Apple does have some real explaining to do and must address these issues, but as usual I also think the mainstream media have blown the story way out of proportion. Its so unlike them ;).</p>
+<h3>The bad news</h3>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.wireless.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right" class="transparent" /></p>
+<p>First to the bad news. Wait, I already said that. Located on every iTelephone with the iOS 4.0 software or above is a simple, unencrypted, easily readable SQLite database containing the locations of cell towers and WiFi networks that the device has been in proximity to. By using software like iPhoneTracker to visualise it, theses databases paint a chilling picture of where you’ve been.</p>
+<p>It gets worse. Unlike Android devices which routinely remove entries from their equivalent location databases over a certain age, it appears the iOS location database… just keeps getting bigger. Privacy experts realise the only thing more dangerous than knowing personally identifiable data is personally identifiable data over a long period of time that can be used to detect trends.</p>
+<p>With the increasing sophistication and complexity of these portable devices, its also feasible that at some point an exploit could be developed to download these unencrypted location files from the phone, or from iTunes on the desktop where backups of these location databases are stored.</p>
+<h3>Lets have a par-tay!</h3>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.news.crop.png" alt="Icon from the Tango Desktop Project" style="height:77px; width:127px; float:right" class="transparent" /></p>
+<p>The media have had a field day discussing these real problems, but as with the Google Street View issue their desire for sensationalism to sell their papers blinds them to stark realities.</p>
+<p><strong>1.</strong> These devices are mobile phones that connect to open (or may as well be with the broken encryption in GSM) wireless networks. These devices are constantly broadcasting their location to phone towers to get the best signal. This is nothing new, which is why those who don’t want to be found don’t carry a mobile phone with them in the first place!</p>
+<p><strong>2.</strong> If a person also has physical access to your device all bets are off with regards to your privacy, and where you’ve been would be the least of your worries. Encryption would go part of the way to solving this though.</p>
+<p><strong>3.</strong> Nobody has presented evidence that Apple is remotely downloading data from these devices. We are certain however that Google regularly polls this material from Adrnoid devices, presumably to improve the accuracy of Google Maps but we have no way of knowing for sure. Even if Apple was though, why aren’t the likes of the otherwise awesome Senator Al Franken asking for Google to explain things the way he has with Apple, or Microsoft now that we know Windows Mobile Cell Hand Phone Enterprise Corporate Home Edition Service Pack 7 is doing the same thing.</p>
+<p><strong>4.</strong> As I eluded to above, this isn’t just an issue with Apple but almost every smartphone maker. It was cute that the media hounded Apple for antenna issues when the same signal degradation could be reproduced on dozens of other phones, but singling out Apple again is getting old. I’d expect this from the Enderle Group and Molly Wood, but not the press in general ;).</p>
+<p><strong>5.</strong> Perhaps the funniest part of all of this: it’s not a new issue. Forensic analyst Alex Levinson wrote about this in a book months beforehand and already dismissed many of the security concerns that the Mr. Warden and Mr. Allan raised in their O’Reilly presentation. If you have time, his two blog posts about the issue are excellent:</p>
+<ul>
+<li><a href="https://alexlevinson.wordpress.com/2011/04/21/3-major-issues-with-the-latest-iphone-tracking-discovery/">3 Major Issues with the Latest iPhone Tracking &quot;Discovery&quot;</a></li>
+<li><a href="http://alexlevinson.wordpress.com/2011/04/23/3-new-thoughts-on-mobile-location/">3 New Thoughts on Mobile Location</a></li>
+</ul>
+<h3>Remedies</h3>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.cherry.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right" class="transparent" /></p>
+<p>From where I stand, these would be the four things Apple would need to do to resolve this issue.</p>
+<ul>
+<li>Making encrypted backups the default in iTunes</li>
+<li>Encrypting the location database on the devices</li>
+<li>Limiting their size and scope based on date/time</li>
+<li>Making them opt-in, or giving us a way to disable it</li>
+</ul>
+<p>I’m on the side of <a href="http://ihnatko.com/2011/04/20/hey-wonderful-theres-a-location-tracking-file-on-my-iphone/">Andy Inhatko</a> and <a href="http://daringfireball.net/">John Gruber</a> than <a href="http://www.roughlydrafted.com/2011/04/25/why-the-phony-locationgate-scandal-targets-fear-of-apples-ios-more-than-android/">Daniel Eran Dilger</a> on this… I love you Daniel, but what in the heck was that last post!? Apple isn’t the super evil overlord empire the tech media is [predictably] painting them to be, but they have made a serious mistake here and as users of their devices we deserve an explanation and action. Android users deserve the same.</p>
+<p>I hope, just as the Street View saga helped to expose just how pervasive unsecured WiFi networks are, that this issue helps to raise awareness of just how much data our phones are logging about us, and we get some affirmative action out of it.</p>
+<h3>UPDATE</h3>
+<p><a href="http://gigaom.com/apple/apple-responds-we-are-not-tracking-your-iphone/">GigaOm is reporting</a> that Apple has responded to tracking concerns with a combination of clarification and promises of a future patch to fix flaws. I’m not entirely appeased, but they took a step in the right direction and addressed my four bullet points.</p>
+<p>As far as I know, Google has yet to address concerns with tracking Android, or Microsoft with Windows Phone 7, though the mainstream media and most bloggers didn’t bat an eyelid when it was uncovered they have similar tracking databases.</p>
+ 

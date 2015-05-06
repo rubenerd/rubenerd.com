@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Work struggle between SQLite over MySQL' 
+date: "2009-09-25T01:22:01+10:00"
+categories: 
+- Software 
+tags: 
+- databases
+- infocomm
+- mysql
+- rant
+- sql
+- sqlite 
+---
+<p><img src="http://files.rubenerd.com/uploads/green_hummer.jpg" alt="A Green Hummer. I take that to mean just the colour!" style="height:315px; width:500px; display:inline; border:0px" /></p>
+<p>It seems as with many technologies, regardless of your own abilities or competency if you’re using the &quot;wrong&quot; implementation you’re perceived as an amateur, and vice versa.</p>
+<p><!--oldmore--></p>
+<p>For example, I&#39;ve read so many disparaging remarks by rude people on forums saying that people who run <a href="http://ubuntu.com/">Ubuntu</a> and <a href="http://fedoraproject.org/">Fedora</a> are amateurs, and while I admit to being a <a href="http://freebsd.org/">FreeBSD</a> and <a href="http://debian.org/">Debian</a> guy I still replied by asking them to prove the automatic connection they were alleging. The inventor of the Linux kernel uses Fedora, so clearly their blanket assumption was false!</p>
+<p>Anyway I&#39;m getting sidetracked, in this case I wanted to talk about databases. I was implementing a simple website for a client that only involved one editor and a limited number of pages, so I opted to use <a href="http://www.sqlite.org/">SQLite</a> instead of <a href="http://www.mysql.com/">MySQL</a> (or <a href="http://www.postgresql.org/">PostgreSQL</a>) because its far simpler to implement, doesn&#39;t require a client/server connection and under the limited loads they&#39;d be experiencing it could be faster.</p>
+<p>I was so impressed by how well it performed and how easy it was to use I&#39;ve started looking at other situations where it may be useful instead of just assuming everything should use MySQL. My blog here for example only has one editor and a limited number of tables with very simple foreign key relationships and a few thousand tuples. <a href="http://wordpress.org/">WordPress</a> doesn&#39;t support SQLite natively, but I&#39;ve been writing some basic blogging software of my own in <a href="http://www.djangoproject.com/">Django</a> and <a href="http://ruby-lang.org/en/">Ruby</a> for a long time and when I started using SQLite with them I was really impressed.</p>
+<p>But back to the client I was talking about before, no sooner had I proposed the solution and had a working prototype than someone working on another part of the project informed everyone I wasn&#39;t taking the task seriously because I was using SQLite which isn&#39;t a proper database. I didn&#39;t want to start a fight so I heaved a heavy sigh and rewrote the system in MySQL which I still maintain is far too heavy and has features that will never be needed for a database with only three tables and less than a hundred tuples each, but at least now I&#39;ve been told I&#39;ve corrected my childish approach.</p>
+<p>The person did have a point, SQLite does implement only a subset of the features and SQL commands of MySQL; for example it doesn&#39;t use static typing though it can be worked around by using constraints. I also concede the possibility that in the future their needs may necessitate a more feature complete SQL implementation. To me though that&#39;s akin to Microsoft claiming Vista was better than Mac OS X Leopard because it was more efficient when using nine trillion cores, or that a Hummer is better than a bicycle because you can haul drums of nuclear waste in it more easily.</p>
+<p>I guess I just like elegant systems that have a comfortable ceiling for growth but that at the same time are simpler and therefore easier to maintain and use. Einstein said &quot;Make everything as simple as possible, but not simpler&quot;, and then there&#39;s the adage of the &quot;right tool for the job.&quot;. Perhaps I just need to get used to eating humble pie more often and accepting that I&#39;m working with other people with their own needs and expectations. Still, it&#39;d be nice if people would stop assuming things just because of the tools you use.</p>
+<blockquote><p><strong>Aside:</strong> I’ve hacked together a way to post blog entries from the computer pools at the university, but it’s such a long and convoluted procedure I still won’t be doing many of them until I get our <a href="http://rubenerd.com/5261/">home internet connection fixed</a>.</p></blockquote>
+ 

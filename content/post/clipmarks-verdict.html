@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'My final verdict on Clipmarks' 
+date: "2009-05-15T07:09:10+10:00"
+categories: 
+- Internet 
+tags: 
+- blockquotes
+- clipmarks
+- cloud
+- google-reader
+- infocomm
+- reviews
+- weblog
+- xhtml 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3532496037/" title="My Clipmarks page by rubenerd, on Flickr"><img src="http://farm3.static.flickr.com/2105/3532496037_9dd98b0304.jpg" width="500" height="329" alt="My Clipmarks page" /></a></p>
+<p>Having <a href="http://clipmarks.com/clipper/rubenerd/">used Clipmarks for a few months now</a> I feel I can finally do a proper review of it. For those who don&#39;t know, Clipmarks uses a Firefox plugin to let you easily <em>&quot;clip&quot;</em> parts of a web page, then comment on them. Once you&#39;ve submitted a clipping to your profile page you can then submit it to your own blog or to a slew of other sites. Other people can vote on your comments or leave some of their own, and if they&#39;re interested in your stream they can subscribe.</p>
+<p>In a nutshell, the community is great and clipping parts of pages is very easy to do. For me Clipmarks has filled a nice niche between just bookmarking entire pages on Delicious, and commenting on stories in Google Reader.</p>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.click.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px;" />Where I&#39;ve had issues with Clipmarks is it&#39;s blog export feature. My idea was to use Clipmarks to generate the HTML for quotes I could easily import into my blog here and comment on instead of using <code>&lt;blockquote&gt;</code>. Unfortunately the code it generates and subsequently exports has several issues:</p>
+<ul>
+<li>It isn’t W3C XHTML 1.x compliant which breaks validation on pages here</li>
+<li>It uses tables and other inefficient presentation markup which results in a large mess of spaghetti code that’s an order of magnitude bigger than a simple <code>&lt;blockquote&gt;</code></li>
+<li>Because it’s derived verbatim from what you’ve clipped, if the site you’ve clipped uses invalid markup this results in errors being cross pollinated as it were</li>
+<li>The default colour scheme looks acceptable in sites with light backgrounds with dark text, but not on the default colour scheme here</li>
+</ul>
+<p>I think the problem isn&#39;t with Clipmarks, but how I tried to use it. While I was using it for text, Clipmarks can support any payload in it&#39;s container including images, Flash videos and the like. In this light, some of my criticisms above are moot.</p>
+<p>For now I&#39;ve worked around the problem by using Clipmarks to save text from pages, then simply import what I clipped here using <code>&lt;blockquote&gt;</code> tags. The result isn&#39;t reduced work which was what I wanted in the first place, but it still means others can comment on my clips over on their site.</p>
+ 

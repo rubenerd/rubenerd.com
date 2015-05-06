@@ -1,0 +1,15 @@
+Today I learned:
+
+Do you write MAC addresses with colons or hyphens? I've always used the former, but easily seen plenty of the latter. From the PostgreSQL documentation:
+
+<blockquote>
+<p>IEEE Std 802-2001 specifies the second shown form (with hyphens) as the canonical form for MAC addresses, and specifies the first form (with colons) as the bit-reversed notation, so that 08-00-2b-01-02-03 = 01:00:4D:08:04:0C.</p>
+</blockquote>
+
+Fascinating. But largely irrelevent now.
+
+<blockquote>
+<p>This convention is widely ignored nowadays, and it is only relevant for obsolete network protocols (such as Token Ring). PostgreSQL makes no provisions for bit reversal, and all accepted formats use the canonical LSB order.</p>
+</blockquote>
+
+

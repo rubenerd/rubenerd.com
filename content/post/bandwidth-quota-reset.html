@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Happy 1st of June, bandwidth quota reset' 
+date: "2009-06-01T11:02:05+10:00"
+categories: 
+- Internet 
+tags: 
+- hotlinking
+- infocomm
+- webhosting
+- weblog 
+---
+<p><img src='http://files.rubenerd.com/uploads/anime.shana.sword.hl.jpg' alt='Shakugan no Shana' style="height:306px; width:420px; display:inline; border:0px;" /></p>
+<p>Well it&#39;s official ladies and gents, now that it&#39;s the 1st of June this site&#39;s bandwidth quota has been reset and is now back in business! I&#39;ve gone ahead and signed up for a higher plan with my webhost that provides four times the bandwidth which is more than I need now, but allows for future growth.</p>
+<p>I could probably have left it at that, but I&#39;ve also been taking a closer look at my server logs to determine where all my bandwidth has been going. I&#39;ve had websites for over ten years but this is the first time I&#39;ve had a problem with traffic (says a lot really!) and I found it hard to believe a simple blog like this could chew through over 28 GiB in a month!</p>
+<p>To my surprise, over <strong><em>15GiB</em></strong> of bandwidth (yes, really!) was used in the month ending May this year on larger versons of the image shown above, and the one below, both of which I just put here in passing in posts back in 2007 (<a href="http://rubenerd.com/kmahjongg-and-gingerbread-at-0206am/">Kmahjongg and gingerbread at 0206am</a>, <a href="http://rubenerd.com/thinning-universal-binaries-with-ditto/">Thinning universal binaries with ditto</a>) because of my aversion to dry posts without images:</p>
+<p><img src="http://files.rubenerd.com/uploads/negima-yuletide-background-thumb.jpg" alt="Nodoka and friends from Negima festive wallpaper" style="height:216px; width:320px; display:inline; border:0px;" /></p>
+<p>Clearly the problem is <a href="http://en.wikipedia.org/wiki/Hotlinking">hotlinking</a>! As if this act isn&#39;t inconsiderate enough, many people used the image for backgrounds on their social networking pages which got refreshed hundreds of times of day, others put them on gallery pages and didn&#39;t even bother creating a thumbnail for people to click on first. I&#39;ve blocked these sites, and already I&#39;m seeing vastly reduced data usage. I blame myself for not picking this up sooner.</p>
+<p>On a traditional website a simple, blanket solution would be merely inserting code similar to this in your <code>.htaccess</code> file to return an access denied error if the referring address wasn&#39;t your own. An alternative would be to simply replace the hotlinked image with a smaller one, usually with a stern warning attached.</p>
+<pre>
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(.+.)?mysite.com/ [NC]
+RewriteCond %{HTTP_REFERER} !^$
+RewriteRule .*.(jpe?g|gif|bmp|png)$ - [F]
+</pre>
+<p>Right off the bat, if you&#39;re someone who knows about RSS feeds and the like, you can see a problem with this. Unfortunately if you implement this fix, people who read your blog posts using an external blog aggregator such as <a href="http://google.com/reader/">Google Reader</a> or <a href="http://bloglines.com/">Bloglines</a> will be denied access to images in your posts! I&#39;d rather not instigate a whitelist because I don&#39;t know what software people are using to read my posts and I don&#39;t want to give preferential treatment to some over others. It goes against the free nature of the internet, and I inhereted my late mum&#39;s hippy freedom beliefs ^_^.</p>
+<p>I&#39;ve also decided <em>not</em> to only include summaries in my RSS feeds instead of the entire post to save bandwidth. I can&#39;t stand it when others do it, and I won&#39;t do it. That said, I&#39;m giving some thought to filtering out anime and study related posts from the main RSS feed once I&#39;ve imported those sites into this blog, and allowing others to subscribe to them if they want using category feeds.</p>
+<p>As I said at the top, I&#39;ve never had a popular site before with material on it people want! It&#39;s been a learning experience.</p>
+ 

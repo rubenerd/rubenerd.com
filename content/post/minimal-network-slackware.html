@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'A minimal network enabled Slackware install' 
+date: "2014-06-24T05:19:00+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- linux
+- slackware 
+---
+<p>I haven’t used Slackware in a long time, but I was tasked with getting it working in a Xen VM. The details of PV versus HVM are for another post; suffice to say I was taken aback that even 14.1 still uses LILO. Unfortunately, as far as I can tell we need GRUB for PV.</p>
+<p>Rather than using the menu installer like an “expert”, I prefer installing the minimum required, then building it up after the fact. Perhaps its a vestige of borking installs, so I was always quick to get something booting to test. It also gives me a chance to script.</p>
+<p>After installing and booting, mount the install DVD/CD and go to the packages folder:</p>
+<pre><code># mount -t iso9660 -o ro /dev/cdrom /hdc
+# cd /dev/cdrom/slackware64
+</code></pre>
+<p>For applications:</p>
+<pre><code># cd ap
+# installpkg groff*txz man-pages*txz man*txz vim*txz
+</code></pre>
+<p>For networking:</p>
+<pre><code># cd ../n
+# installpkg curl*txz dhcpcd*txz htdig*txz iftop*txz iptables*txz 
+  iputils*txz lynx*txz mtr*txz ncftp*txz net-tools*txz nmap*txz 
+  network-scripts*txz openssh*txz rsync*txz tcpdump*txz wget*txz
+</code></pre>
+<p>The <code>iputils</code> package provides <code>arping</code>, <code>clockdiff</code>, <code>ninfod</code>, <code>ping</code>, <code>rarpd</code>, <code>rdisc</code>, <code>tracepath</code>, and <code>traceroute</code>.</p>
+ 

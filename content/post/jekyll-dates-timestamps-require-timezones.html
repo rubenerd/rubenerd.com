@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Jekyll dates, timestamps require timezones' 
+date: "2013-05-27T02:35:21+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- jekyll
+- timezones
+- yaml 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.voy29cent.jpg" alt="Crew from the USS Relativity, a timeship from Star Trek" /></p>
+<p>No, I’m not referring to dating <a href="http://jekyllrb.com/">Jekyll</a>, I’m already <a href="http://kirinyan.net/">taken</a>. I’m also not referring to those fruits that oddly enough I don’t care for.</p>
+<p>I couldn’t figure out why posts with a defined date weren’t appearing in my local Jekyll install. In the YAML matter, I’d written it as such:</p>
+<pre class="code" style="overflow-x:scroll;">
+date: "2005-01-24T12:00:36
+</pre>
+<p>Some more astute readers may already see the problem, but I was scratching my head late at night wondering why. Yes, it turns out you need to define the timezone.</p>
+<pre class="code" style="overflow-x:scroll;">
+date: "2005-01-24T12:00:36+1000
+</pre>
+<p>It makes sense. If my base is UTC, that time I defined above wouldn’t have happened yet, and I had configured Jekyll to not post items from the future. I mean, I’m not part of the <a style="font-style:italic" href="http://en.memory-alpha.org/wiki/USS_Relativity">USS Relativity’s</a> crew or anything.</p>
+<p>Now comes the task of editing my maintanence Perl script to add the appropriate timezones for thousands of entries, written in Singapore, Kuala Lumpuer, Adelaide and Sydney over the years. Fun times!</p>
+ 

@@ -1,0 +1,49 @@
+---
+layout: post
+title: 'Null Java data members versus methods' 
+date: "2009-10-13T11:29:41+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- infocomm
+- java
+- programming
+- studying 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.java.175.png" alt="Classic Java logo" style="height:305px; width:175px; display:inline; border:0em; padding:0em; background:transparent" /></p>
+<p>So I was working on my latest Java assignment for The Universities with my new Kyou Fujibayashi figure looking on (more on that later) when my seemingly natural instinct to create more work asserted itself. I could have fixed this problem with nulls and moved on, but I decided to create a little experiment.</p>
+<p><!--oldmore--></p>
+<p>When programming in object oriented languages I can&#39;t ever stand to access data members directly, I always have to use getter and setter methods regardless of how trivial. Problem is, in Java it&#39;s not simply a case of declaring data members as private and replacing any direct usage with a getter method later because we&#39;re dealing with fundamentally different structures (primitive and not).</p>
+<p>For example, in this crappy application we&#39;re creating a new NullTest object and directly testing if its nullObject data member is null. Java cheerfully replies with our &quot;<code>We&#39;ve got a null!</code>&quot; on the console.</p>
+<blockquote>
+<pre>
+public class NullTest {
+  Object grilledCheese; // &lt;-- null
+
+  public static void main(String[] args) {
+    NullTest x = new NullTest();
+
+    if (x.grilledCheese == null)
+      System.out.println("We've got a null!");
+  }
+}</pre>
+<p>Peachy. Now what if we try the same thing but we indirectly access the nullObject data member through a simple getter method. Same result?</p>
+<blockquote>
+<pre>
+public class NullTest {
+  Object grilledCheese; // &lt;-- null
+
+  public static void main(String[] args) {
+    NullTest x = new NullTest();
+
+    if (x.getNullObject().equals(null))
+      System.out.println("Getter method null!");
+  }
+
+  public Object getNullObject() {
+    return nullObject;
+  }
+}</pre>
+<p>Nope! If we try running this, we get a big ol&#39; <a href="http://java.sun.com/javase/6/docs/api/java/lang/NullPointerException.html">NullPointerException</a>. Our logic on the surface is pretty much the same, but when using objects returned from methods like this we&#39;d have to use a try and catch block. Even better, because we&#39;ve created a getter method to encapsulate the logic for that particular object anyway, we&#39;d probably do some conditional checks in there instead. I would think.</p>
+ 

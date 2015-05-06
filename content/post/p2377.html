@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Brief flirtation with FreeBSD on my MacBook Pro is over' 
+date: "2008-10-27T11:58:03+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- bsd
+- efi
+- freebsd
+- infocomm
+- mac-os-x
+- macbook-pro
+- refit 
+---
+<p><a href="http://files.rubenerd.com/uploads/screenie.mbp.xfce.freebsd.png"><img src="http://files.rubenerd.com/uploads/screenie.mbp.xfce.freebsd.jpg" alt="" style="height:313px; width:500px;" /></a><br />
+<cite>Screenshot of my short lived, high performance FreeBSD Xfce desktop :(</cite></p>
+<p><a href="http://rubenerd.com/p2352/">As I wrote in a previous post</a>, I was wildly exited that I had managed to get <a href="http://www.freebsd.org/">FreeBSD</a> booting side by side with Mac OS X Leopard on my original generation MacBook Pro. Not only that, but the performance was phenomenal: above and beyond anything graphically possible on a flimsy virtual machine. While this is true, a few more days of experimentation have led me to remove the FreeBSD partition again.</p>
+<p>Unfortunately despite my discovery of several more articles on triple booting Intel bases Mac laptops, I still haven&#39;t been able to get it right. Alas given university work I need a copy of Windows handy occasionally, and again virtual machines don&#39;t cut it. This means that any FreeBSD partition would have to share the drive with two other operating systems.</p>
+<p>The problem stems from an issue I keep running into with booting Windows once FreeBSD has been installed. If you know anything about partitions and multiple operating systems on Macs, these steps I took should make sense:</p>
+<ol>
+<li>Boot Leopard install DVD and use Disk Utility to create 3 partitions</li>
+<li>Install Mac OS X Leopard on the middle and larger partition</li>
+<li>Install the rEFIt boot loader and activate it</li>
+<li>Install Windows XP in the last partition</li>
+<li>Install FreeBSD in the first partition, converting the file system to UFS instead of deleting the partition and creating a new one as so often instructed</li>
+</ol>
+<p>Once this is done, I am left with a functional installation of Leopard and FreeBSD, but Windows flashes a blue screen of death and restarts every single time. If I install FreeBSD first then Windows, FreeBSD complains that it can&#39;t find a bootable volume.</p>
+<p>I&#39;ve recreated the partitions and started from scratch three times, I&#39;ve installed Leopard in the first partition instead of the second/middle partition, I&#39;ve attempted to use the rEFIt Partitioning Tool but it throws an error and doesn&#39;t solve the GPT and MBR differences.</p>
+<blockquote><p><strong>ASIDE:</strong> For what it’s worth, the folks who created rEFIt have done a phenomenal job with their tool; the boot menu is wildly convenient and it boots the right system every time. Now only if the operating systems would play nice!</p></blockquote>
+<p>I desperately want to get this right, but this is a production machine and I&#39;m running out of time. I suppose for now I&#39;ll just have to stick with Windows and Mac OS X on this machine, and FreeBSD on a virtual machine unless I can think of something else between now and Wednesday. Frankly I&#39;m just getting sick of watching the Leopard, XP and FreeBSD installers!</p>
+<p>This machine has won the battle, but the war is not over. Stay tuned.</p>
+ 

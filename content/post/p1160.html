@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'NTP primer on FreeBSD, NetBSD' 
+date: "2008-05-12T03:12:11+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- netbsd
+- ntp 
+---
+<p><em>This post was originally written for my university intranet blog this morning.</em></p>
+<p><img src="http://files.rubenerd.com/uploads/anime.clock.jpg" alt="" style="width:220px; height:370px; float:right; margin:0 0 10px 20px" />NTP stands for <span style="font-style:italic; text-decoration:line-through;">Ninja Tactical Peoples</span> <a href="http://support.ntp.org/bin/view/Main/WebHome">Network Time Protocol</a> and is a system you can use to keep your system clock accurate by synchronizing it with a time server.</p>
+<blockquote><p><strong>ASIDE:</strong> According to <a href="http://en.wikipedia.org/wiki/Network_time_protocol">Wikipedia</a> its one of the earliest internet protocols still being actively used, having been defined in the mid 1980s… only just a few years before I was come to think of it. Cool.</p></blockquote>
+<p>You&#39;ll probably want to use a time server that&#39;s geographically closer to you for better accuracy, but adding a few extra doesn&#39;t hurt and indeed the relevant NFS applications can determine which is more accurate. <a href="http://ntp.isc.org/bin/view/Servers/WebHome">This site</a> has a list of freely available time server addresses.</p>
+<p>NTP on <a href="http://freebsd.org/">FreeBSD</a> and <a href="http://netbsd.org/">NetBSD</a> makes use of two related tools:</p>
+<h3>ntpdate</h3>
+<p>ntpdate updates your system clock from a specified server, and is generally set to run when you boot your computer. Therefore if you shutdown and start your machine frequently it will be run more often and can provide sufficient time synchronisation.</p>
+<p>On either BSD append the following lines to <code>/etc/rc.conf</code>:<br />
+<strong>FreeBSD</strong>: <code>ntpdate<em>enable=&quot;YES&quot;</code>, <code>ntpdate</em>flags=&quot;servers…&quot;</code><br />
+<strong>NetBSD</strong>: <code>ntpdate=YES</code>, <code>ntpdate_hosts=&quot;servers…&quot;</code></p>
+<h3>ntpd</h3>
+<p>If your computer runs for longer that several days at a time, it&#39;s best to configure the <code>ntpd</code> daemon. It makes changes to your clock by comparing it&#39;s current value to a specified server or servers.</p>
+<p>Open your <code>/etc/rc.conf</code> file again and append the following lines:<br />
+<strong>FreeBSD</strong>: <code>ntpd_enable=&quot;YES&quot;</code><br />
+<strong>NetBSD</strong>: <code>ntpd=YES</code></p>
+<p>Then create a new <code>/etc/<a href="http://www.freebsd.org/cgi/man.cgi?query=ntp.conf&#038;sektion=5">ntp.conf</a></code> and fill in your server details, along with the location of a file to record the time drift <em>that you know won&#39;t be overwritten or changed by another process</em>, and if you prefer a line to prevent access to your NTP server from other computers:</p>
+<blockquote>
+<pre>server ntp.example.com prefer
+server ntp.example.org
+server ntp.example.net
+
+driftfile /var/db/ntp.drift (not needed for &gt; FreeBSD 6.2)
+restrict default ignore
+</pre>
+<pre>
+</pre>
+<h3>More information</h3>
+<p><img src="http://files.rubenerd.com/uploads/bsd.daemon.png" alt="" style="width:168px; height:182px; float:right; margin:0 0 10px 20px" />For more information and configuration options, consult the <a href="http://www.freebsd.org/cgi/man.cgi?query=ntpdate&#038;sektion=8">ntpdate</a> and <a href="http://www.freebsd.org/cgi/man.cgi?query=ntpd&#038;sektion=8">ntpd</a> manual pages, as well as the NTP chapters in the <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/network-ntp.html">FreeBSD Handbook</a>, and <a href="http://netbsd.org/docs/guide/en/chap-net-services.html#chap-net-services-ntp">NetBSD Guide</a>. BSD handbook documentation rocks!</p>
+<blockquote><p><strong>AFTERWORD:</strong> If you really need to run a version of FreeBSD prior to 5.x, replace <code>ntpd_enable</code> with <code>xntpd_enable</code>. </p></blockquote>
+ 

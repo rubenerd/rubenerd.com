@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'File `graphicsx.sty’ not found' 
+date: "2015-01-19T10:08:38+10:00"
+categories: 
+- Software 
+tags: 
+- latex
+- troubleshooting 
+---
+<p>Got this error when compiling a <span style="font-family:serif; letter-spacing:-2px;">L<span style="vertical-align:super">A</span>T<span style="vertical-align:sub">E</span>X</span> document this morning, like a gentleman:</p>
+<pre>
+mactex ! LaTeX Error: File `graphicsx.sty' not found.
+</pre>
+<p><em>That’s absurd</em>, I thought! I’ve done this a thousand times, with the standard <a href="https://tug.org/mactex/">MacTeX</a> distribution, and never <em>once</em> had that issue. The pertinent part of my source looked perfectly legitimate:</p>
+<pre>
+\usepackage{graphicsx}
+</pre>
+<p>And then the realisation hit me like so many bad cups of coffee.</p>
+<pre>
+\usepackage{graphicx}
+</pre>
+<p>For those who can’t see, there’s no plural for graphics.</p>
+<p>Adding for reference here, because I couldn’t find a <em>single</em> search result of someone else having this problem. Hopefully if you found this through a search, I’ve spared you the same frustration.</p>
+ 

@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'Access Virtualisation in the Kusnetzky Model' 
+date: "2013-11-19T12:10:00+10:00"
+categories: 
+- Internet 
+tags: 
+- cloud-computing
+- studies 
+---
+<p><img src="http://files.rubenerd.com/2013/model_of_virtualization.png" style="width:421px; height:301px" alt="The Kusnetzky Group Virtualisation Model diagram" /></p>
+<p>During our studies for the recently minted <a href="http://www.handbook.uts.edu.au/subjects/41891.html" title="UTS Handbook 2014">Cloud Computing Infrastructure</a> subject at <abbr title="The University of Technology, Sydney">UTS</abbr>, we studied the <a href="http://www.kusnetzky.net/virtualization.html">Kusnetzky Group Virtualisation Model</a>. Developed (surprising though it may seem) by the <a href="http://www.kusnetzky.net/">Kusnetzky Group</a>, it identifies several distinct layers of offerings beyond those of the somewhat overused <a href="http://csrc.nist.gov/publications/PubsSPs.html#800-145" title="NIST Computer Security Publications - NIST Special Publications - The NIST Definition of Cloud Computing">NIST Service as a Service</a> acronyms.</p>
+<h3>A terribly brief rundown</h3>
+<p>Most of the layers seemed pretty self explanatory:</p>
+<ul>
+<li>
+<p><strong>Application virtualisaion</strong>, where software is developed to be deployed on a common application framework. Through a bit of a logical stretch, I suppose the JVM could be included here too.</p>
+</li>
+<li>
+<p><strong>Processing virtualisation</strong>, where hardware and software are abstracted, divvied up and served independent of their physical implementation.</p>
+</li>
+<li>
+<p><strong>Storage virtualisation</strong>, where file systems, physical hardware and their interconnects are implemented to serve a pool of logical space. In the NIST definition, this and the preceding layer would be combined to form IaaS.</p>
+</li>
+<li>
+<p><strong>Network virtualisation</strong>, where networking hardware and software are abstracted. More specifically, where logical networks are independent of their physical implementation.</p>
+</li>
+</ul>
+<h3>These actually do run down, though</h3>
+<p>Intersecting these layers like syrup dripping and running down a lovely stack of soft pancakes, we have the management layers:</p>
+<ul>
+<li>
+<p><strong>Security for logical environment</strong>, where policies and technology serve to secure (surpsiring though it may seem) the virtualised infrastructure.</p>
+</li>
+<li>
+<p><strong>Management of logical environments</strong>, where the deployment of the virtualised services is automated and allowed to be served as a single pool of computing resources.</p>
+</li>
+</ul>
+<h3>Ruben, you missed out access virtualisation</h3>
+<p>Which brings me to the first and highest layer in the Kusnetzky Virtualisation Model. The other layers seemed to fit into place in my brain fairly easily. I did like how the management layers were articulated too, though I think a specific provisioning layer separate from management would make sense. </p>
+<p>What had me scratching my head was <strong>access virtualisation</strong>. I assumed it had little to do with virtualising a Microsoft consumer database. Oh Ruben, you so funny.</p>
+<p>From what I&#39;ve been able to research, access virtualisation has to do with the hosting of software on a server, and the rendering of said software on a separate client device. This client device is able to interface with the application, and determine how best to render it. In this way, it&#39;s similar to the NIST definition of SaaS, but with perhaps a little more logic on the client side.</p>
+<p>There could be circumstances where that distinction is important. In the case of phones, a user could choose to view a phone, tablet or desktop optimised version of a web application, or even use an installed thick client application that calls the server hosted software.</p>
+<p>I could be misunderstanding this distinction; I&#39;m certainly open to correction. If it turns out there is no such distinction, perhaps I should create a <a href="http://rubenerd.com/im-a-grilled-sandwich/" title="Rubénerd: I&#39;m a grilled sandwich">Ruben Sandwich of Virtualisation</a> model. That has a nice <a href="https://en.wikipedia.org/wiki/Burger_Rings" title="Burger Rings snack food article on Wikipedia">Burger Ring</a> to it.</p>
+ 

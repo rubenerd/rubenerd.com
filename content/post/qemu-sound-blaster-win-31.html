@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'QEMU Sound Blaster in Windows 3.1x' 
+date: "2011-06-17T01:17:47+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- nostalgia
+- postaday2011
+- qemu
+- retro
+- sound-blaster
+- windows-3-1 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.sbw31.04.png" alt="" style="height:200px; width:500px;" /></p>
+<p>I had feedback from a reader of my <a href="http://rubenerd.com/qemu-ad-lib-midi-win-31/">QEMU Ad Lib MIDI in Windows 3.1x</a> post asking how I got Sound Blaster working in it. I give people what they want! ^_^</p>
+<p><!--oldmore--></p>
+<h3>Execution Summary</h3>
+<p>Creative and Sound Blaster are from Singapore, I’ve been to their offices! I always liked their 1990s-tech logo :). But I digress.</p>
+<p>QEMU has Sound Blaster support in its default configuration, and Windows 3.1 has drivers that can be used by default, which makes our lives much easier.</p>
+<p>You can download drivers from the <a href="http://support.creative.com/Products/ProductDetails.aspx?catID=1&amp;subCatID=207&amp;prodID=1842&amp;prodName=Sound%20Blaster%2016&amp;subCatName=Others&amp;CatName=Sound+Blaster&amp;VARSET=prodfaq:PRODFAQ_1842,VARSET=CategoryID:1">Sound Blaster support website</a> which will give you a mixer, but I’m a fan of minimalism and I didn’t notice any real performance or quality benefit from doing so. If you elect to use these drivers instead, remember the installer needs to be run from DOS <strong>BEFORE</strong> you launch Windows.</p>
+<p>As a caveat, as I mentioned in my Ad Lib post, I’ve yet to find a way to allow both emulated sound cards to coexist in Windows 3.1. When Sound Blaster drivers are installed before or after Ad Lib, Sound Blaster assumes the roll of MIDI, which isn’t supported in QEMU (hence the use of Ad Lib in the first place). As soon as I know a solution to this, I’ll post about it.</p>
+<h3>Windows 3.1</h3>
+<p><strong>1.</strong> Fire up your QEMU DOS VM and start Windows 3.1. Launch <em>Control Panel</em> and choose <em>Drivers</em>. Have a sudden urge to play Wii golf. No wait, it would have to be Microsoft Golf 2.0 MME ;). Why do I bother blogging about anything else other than retro stuff? I missed my calling.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.02.png" alt="" style="height:170px; width:500px;" /></p>
+<p><strong>2.</strong> Click <em>Add…</em>, choose <em>Creative Labs Sound Blaster 1.5</em>, and hit <em>OK</em>. You’ll be prompted for your Windows 3.1 setup files.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.sbw31.02.png" alt="" style="height:160px; width:500px;" /></p>
+<p><strong>3.</strong> In the Sound Blaster Setup window, choose <em>Port 220</em> and <em>Interrupt 5</em>.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.sbw31.03.png" alt="" style="height:220px; width:500px;" /></p>
+<p><strong>4.</strong> Windows will tell you the driver is installed, however we should &quot;contact Creative Labs for a driver specific to your card&quot;. Just hit <em>OK</em>. How did people live without the WWW?! I suppose one could have got drivers from a BBS, right?</p>
+<p>Now you can go into <em>Sound</em> in <em>Control Panel</em> or launch <em>Sound Recorder</em> and play all the chiming chord dings that you want! :)</p>
+ 

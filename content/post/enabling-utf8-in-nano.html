@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'Enabling UTF8 in Nano' 
+date: "2007-07-30T01:51:45+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- darwinports
+- freebsd
+- guide
+- howto
+- infocomm
+- linux
+- mac-os-x
+- macports
+- nano
+- netbsd
+- unix
+- utf8 
+---
+<p><img id="image833" src="http://files.rubenerd.com/uploads/nanoutf8.png" alt="nanoutf8.png" /></p>
+<p>Everyone knows that vi and vim are better than emacs right? Well personally I prefer nano even over vi. It was the first text editor I ever learned (okay it was actually pico, the editor it was cloned from) on UNIX and even now I use it for almost everything: Ruby, Perl, HTML, XML, KitchenSink… even these weblog posts. It&#39;s a small world, so why not use a small editor? Hey, that&#39;s catchy.</p>
+<p>The problem though if you install Nano from <a href="http://macports.org/">MacPorts</a> is that it&#39;s not enabled with a number of what I would consider critical features. Aside from syntax highlighting support probably the most noticeable of which is the lack of <a href="http://en.wikipedia.org/wiki/UTF-8">UTF-8</a> support which means it spits out a series of question marks whenever you&#39;re editing files with katakana, kanji and kitchen-sink in it for example. Bummer.</p>
+<p>A cursory glance over at the <a href="http://darwinports.com/">DarwinPorts</a> website shows that in fact it&#39;s possible to <a href="http://nano.darwinports.com/">enable UTF-8</a>:</p>
+<blockquote><p>
+Variant: utf8 {<br />
+configure.args-append &#8211;enable-utf8<br />
+configure.args-delete &#8211;disable-utf8<br />
+depends_lib-append port:ncursesw<br />
+depends_lib-delete port:ncurses<br />
+}
+</p></blockquote>
+<p>The key is simply to add <code>+utf8</code> when you initially build the port, along with any other conditions you think are spiffy:</p>
+<pre>sudo port -v install nano +utf8 +color +no_wrap</pre>
+ 

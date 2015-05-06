@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<article id="archive">
+  <h1><a href="/{{ .Title | lower }}/">{{ .Title }} Tag Archive</a></h1>
+  <p></p>
+  <dl>{{ range .Data.Pages }}
+    <dt><a href="{{ .Permalink }}">{{ .Title }}</a></span></dt>
+    <dd><small><time>{{ .Date.Format "02 Jan 2006" }}</time></small></dd>
+  {{ end }}</dl>
+</article>
+
+{{ partial "footer.html" . }}

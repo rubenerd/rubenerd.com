@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Monday Postgres derp' 
+date: "2014-09-08T02:48:38+10:00"
+categories: 
+- Software 
+tags: 
+- databases
+- postgresql
+- troubleshooting 
+---
+<p>Reloading a test Postgres server:</p>
+<pre>
+# /etc/init.d/postgresql reload
+==>* Reloading PostgreSQL 9.3 database server
+==>* pg_ctl: PID file "/var/lib/postgresql/9.3/main/postmaster.pid" \
+==> does not exist  [fail]
+</pre>
+<p>The problem? Yes, I attempted to reload a service I hadn’t started.</p>
+<pre>
+# /etc/init.d/postgresql start
+==> * Starting PostgreSQL 9.3 database server    [ OK ] 
+</pre>
+<p>This is why people regard me as a professional.</p>
+ 

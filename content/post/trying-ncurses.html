@@ -1,0 +1,55 @@
+---
+layout: post
+title: 'An ncurses virgin installs it and tries it out' 
+date: "2010-02-16T10:05:04+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- c-programming
+- curses
+- dos
+- fedora
+- freebsd
+- infocomm
+- ncurses
+- nostalgia
+- programming
+- retro
+- rexx 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.ncurses.png" alt="http://files.rubenerd.com/uploads/screenie.ncurses.png" style="height:120px; width:500px; display:inline;" /></p>
+<p>Having dabbled in a ton of different languages lately, I felt the overwhelming urge this week just to get back to some good ol&#39; C, and what better and more productive way to do so that to mess around with <a href="http://www.gnu.org/software/ncurses/">ncurses</a>!</p>
+<p><!--oldmore--></p>
+<p>I have to come clean and admit this, but I&#39;ve never really used ncurses for anything other than some rudimentary crap, and what little I did I&#39;ve completely forgotten in a vast ocean of nested Java System.in streamreaders. I&#39;ve written a ton of scripts and basic applications to run in the shell (mostly for server admin tasks) but I&#39;ve never used ncurses to make more sophisticated shell interfaces, so I thought I&#39;d finally give it a shot.</p>
+<h3>Getting ncurses in the first place</h3>
+<p>The first thing that <strong>always</strong> trips me up is I forget having the ncurses binaries (which most free and open source OSs do) is different from having the development versions you can include in C code. Fortunately it&#39;s really simple to install on at least the systems I maintain.</p>
+<p>Here&#39;s a quiz: which is for FreeBSD and which is for Fedora? :)</p>
+<pre>
+# pkg_add -rv <a href="http://www.freshports.org/devel/ncurses-devel/">ncurses-devel</a>
+<strong>or</strong>
+# cd /usr/ports/devel/ncurses-devel
+# make install clean</pre>
+<pre>
+# yum install ncurses-devel
+</pre>
+<p>In either case, it works! Hallelujah! I can never spell that word.</p>
+<pre>
+#include &lt;stdarg.h&gt;
+#include &lt;ncurses.h&gt;
+
+int main(void) {
+    initscr();
+    printw("Grilled cheese sandwiches!");
+    refresh();
+    getch();
+    endwin();
+
+    return 0; /* Is all gooooood! */
+}
+</pre>
+<h3>The iPad has just come out!? Why ncurses?</h3>
+<p>Two reasons. First, I have a whole bunch of machines that just exist to run Folding@Home that don&#39;t have X on them at all, and I would love to create pretty little interfaces I could use with them.</p>
+<p>Secondly, and you&#39;ll probably think it&#39;s silly, but our first family computer was a DOS machine and I&#39;ve always wanted to write my own *nix versions of some of my favourite old DOS applications that I can run in FreeBSD or on my Mac Terminal. For example, my favourite editor of all time is still the IBM E Editor, and having a version of that with syntax highlighting would make me ditch Vim, nano and TextMate for good! I know, I know, it&#39;s sad and silly, but it&#39;d be so much fun! Do any open source implementations of REXX exist? That was a fun language :).</p>
+<p>My studies start again in two weeks, wonder how much of this I can do before then? At the very least I&#39;d like to have that old DOS menu system ported. Sounds like an alcoholic beverage.</p>
+ 

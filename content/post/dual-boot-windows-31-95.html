@@ -1,0 +1,92 @@
+---
+title: "Sharing DOS with Windows 95 and 3.1"
+date: "2015-04-12T09:09:00+10:00"
+categories:
+- Software
+tags:
+- retro
+---
+<p>In the process of clearing our junk for another house move, I've consolidated most of my ancient PC hardware into my first computer. I built this Pentium MMX tower during primary school in 1998, and delightfully it still works.</p>  
+
+<p>In a bout of nostalgia, it seemed fitting to retrofit this machine with the same OSs it originally ran. In the process, I discovered a feature of Windows 95 I never knew existed, which allowed both DOS/Windows 3.1 and 95 to share the same DOS partition.</p>
+
+<h3>Background</h3>
+
+<p>Dual booting DOS is complicated. MS-DOS (and PC DOS) require installation in a drive's first primary partition. If you're dual booting DOS and a flavour of Windows NT, this isn't an issue. With Windows 95 however, its DOS underpinnings require it. Manually installing DOS and setting active partitions is possible, but its messy and buggy with certain old applications.</p>
+
+<p>Initially, I figured I'd install Windows 95 first, boot into MS-DOS mode and install Windows 3.1. Unfortunately, 3.1 complained it couldn't verify the DOS version, and SETVER didn't work. Short of patching DOS with a third party tool, that was a dead end.</p>
+
+<p>The solution was to install DOS and Windows 3.1 first, then "upgrade" to 95. This presented a new problem though; AUTOEXEC.BAT and CONFIG.SYS loaded drivers optimised for DOS and 3.1 are either redundant or cause problems for 95.</p>
+
+<p>One could write a CHOICE.COM menu in AUTOEXEC.BAT, which would only load 16bit DOS drivers if you chose DOS/Windows 3.1, but <em>turns out</em> the retail edition of Windows 95 Upgrade has a menu like that already.</p>
+
+<h3>Steps</h3>
+
+<p>Broadly speaking, these are the steps:</p>
+
+<p>1. FDISK the target drive with a primary DOS partition, without large drive support. Set the partition active, reboot, format <code>C:</code> as per normal.</p>
+<p>2. Install DOS to <code>C:</code> using a custom directory, such as <code>C:\DOS6</code>. I'm fairly sure Windows 95 will overwrite what's in here otherwise.</p>
+<p>3. Install Windows 3.1 in a custom directory, such as <code>C:\WIN31</code>.</p>
+<p>4. From Windows 3.1, start the Windows 95 Upgrade installer. Set a custom target directory, such as <code>C:\WIN95</code>. Don't attempt this with an OEM or full release, or it will complain an OS already exists. This is what we want!</p>
+<p>5. Reboot into Windows 95, and unset read-only on <code>msdos.sys</code>, either from Windows Explorer, or an MS-DOS Prompt:
+
+<pre>
+C:\&gt; attrib +r +s +h msdos.sys
+</pre>
+
+<p>6. Open the file, and change/add the following lines:</p>
+
+<pre>
+BootDelay=2
+BootGUI=0
+Logo=0
+BootMenu=1
+BootMenuDefault=1
+BootMenuDelay=30
+</pre>
+
+<p>7. Reboot, and you'll see the following boot menu. Choose “Normal” for Windows 95, or “Previous version of MS-DOS” to boot into DOS and launch Windows 3.1.</p>
+
+<pre>
+Microsoft Windows 9x Startup Menu
+=================================
+
+   1. Normal
+   2. Logger (/BOOTLOG.TXT)
+   3. Safe mode
+   4. Step-by-step confirmation
+   5. Command prompt only
+   6. Safe mode command prompt only
+   7. Previous version of MS-DOS
+</pre>
+
+<h3>How it works</h3>
+
+<p>It's actually pretty clever. Windows 95 Upgrade maintains two sets of boot files:
+
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th><code>AUTOEXEC.BAT</code></th>
+<th><code>CONFIG.SYS</code></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DOS</td>
+<td><code>AUTOEXEC.DOS</code></td>
+<td><code>CONFIG.DOS</code></td>
+</tr>
+<tr>
+<td>Windows 95</td>
+<td><code>AUTOEXEC.A40</code></td>
+<td><code>CONFIG.A40</code></td>
+</tr>
+</tbody>
+</table>
+
+<p>When you choose your target system, boot files specific to it are renamed with their origianl extensions. For example, booting Windows 95 renames AUTOEXEC.A40 to AUTOEXEC.BAT.</p> 
+
+<p>Thus, both DOS and Windows 95 maintain their own boot options, and you can configure both sets regardless of which you've booted from. Very neat.</p>
+

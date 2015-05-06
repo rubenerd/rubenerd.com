@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'bsdtar and xz on one line' 
+date: "2013-11-28T11:15:24+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- compression
+- freebsd
+- guides
+- os-x
+- tar 
+---
+<p><img src="http://files.rubenerd.com/2013/anime.mikuruworried2013.jpg" alt="Asahina Mikuru worried at the prospect of compressing and archiving in the same line?" style="width:500px; height:280px;" /></p>
+<p>Starting with OS X Mavericks, we have bsdtar that allows for one line creation of tar.xz files, just as we have with bz2 and gz.</p>
+<p style="font-style:italic">Aside: In much the same way <a title="Rubénerd: My shiny new MikroTik 750GL!" href="http://rubenerd.com/mikrotik-750gl/">Nagato Yuki</a> began gracing computer hardware posts here, in 2007 <a title="Rubénerd: Rzip is absolutely incredible" href="http://rubenerd.com/rzip-is-absolutely-incredible/">Asahina Mikuru</a> began accompanying compression posts. I think I was implying her <em>Mikuru Beam</em> was more effective than regular file compression algorithms. She appears nervous; I can only asusme it’s due to her unfamiliarity with compressing and archiving in the one command</p>
+<p>Previously, to archive and compress a folder with xz, we would do this:</p>
+<pre class="code">% tar cvf archive.tar folder/
+% xz -9 archive.tar</pre>
+<p>Now we can just do this:</p>
+<pre class="code">% tar cJvf archive.tar.xz folder/</pre>
+<p>Boom! There’s just one catch. This uses xz with its default compression level, not the 9 I use for archiving purposes. Fortunately, we can also specify this:</p>
+<pre class="code">% tar cJvf --options xz:compression-level:9 archive.tar.xz folder/</pre>
+<p>Okay, I hear you say, what’s the point of this monsterous one liner? The two lines we had previously may have had <strong>fewer</strong> characters! Unlike my overworked pencils from my last round of exams, you have a point.</p>
+<p>Among many reasons why its great, it means we can create an alias in our shell. I still use tcshrc, so I went ahead and added this to my .tcshrc:</p>
+<pre class="code" style="overflow-x:scroll;">alias tz 'tar cvJf --options xz:compression-level=9'</pre>
+<p>My bash knowledge is as corroded as my overworked pencils (does fake graphite corrode?), but here’s the equivlient:</p>
+<pre class="code" style="overflow-x:scroll;">alias tz='tar cvJf --options xz:compression-level=9'</pre>
+<p>Now whenever I want to create an xz tar archive with its maximum compression ratio, I can just do this:</p>
+<pre class="code" style="overflow-x:scroll;">% tz archive.tar.xz folder/</pre>
+<p>Now we just need pax to support xz along with bzip2 and gz and we’ll be set.</p>
+ 

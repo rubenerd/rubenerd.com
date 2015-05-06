@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Shell TrueCrypt on OS X' 
+date: "2009-11-29T06:18:54+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- mac-os-x
+- privacy
+- truecrypt 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.mac.truecrypt.shell.png" alt="TrueCrypt Command Line Help window" style="height:165px; width:500px; display:inline;" /></p>
+<p>As I&#39;ve <a href="http://rubenerd.com/tag/truecrypt">discussed before</a> I&#39;m a very heavy <a href="http://truecrypt.org/">TrueCrypt</a> user because I have me some secrets (COUGH!), it makes available my favourite cipher, its simple to use and its cross platform. The graphic interface is a bit kludgey though, so <a href="http://rubenerd.com/mac-encrypted-disk-images/">as I do</a> with OS X&#39;s hdiutil I&#39;ve started getting used to using it on the command line.</p>
+<p><!--oldmore--></p>
+<p>The problem is, due to Mac OS X&#39;s unconventional Unix file system structure, to use it in its default state you have to enter this:</p>
+<pre>
+% cd /Applications/TrueCrypt.app/Contents/MacOS/
+# ./TrueCrypt [arguments and crap]
+</pre>
+<p>Ugh! Basically I can see three ways around this. Firstly you could copy the executable over to a location that’s in your shell’s $PATH variable, but that’d be less than ideal because you’d need to copy this every time you upgrade the original. Secondly, you could simply add the narly TrueCrypt application folder to the $PATH itself, but if you’ve formatted your Mac with a case sensitive file system you’d still need to remember to enter <code>TrueCrypt</code> not <code>truecrypt</code> which would take more effort.</p>
+<p>The easiest answer (which makes my question why I even bothered to mention the previous ones!) is just to use a symbolic link which can take care of future upgrades and case sensitivity.</p>
+<pre>% cd /usr/local/bin/
+# ln -s /Applications/TrueCrypt.app/Contents/MacOS/TrueCrypt truecrypt</pre>
+<p>Budda boom! Now you can just open a shell wherever you are and do things like this:</p>
+<pre>
+% sudo truecrypt --mount -k keyfile Thingy.tc
+</pre>
+<p>For more information on using TrueCrypt with the command line, shell or whatnot, take the above steps then run <code>truecrypt -h</code>.</p>
+ 

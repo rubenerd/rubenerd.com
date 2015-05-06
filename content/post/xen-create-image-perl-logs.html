@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'xen-create-image and Perl logs' 
+date: "2014-06-17T11:02:00+10:00"
+categories: 
+- Thoughts 
+tags: 
+- perl
+- troubleshooting
+- virtualisation
+- xen 
+---
+<p>A problem when loading xen-create-image</p>
+<pre>
+Log::Message will be removed from the Perl core distribution in the 
+next major release. Please install the separate liblog-message-perl 
+package. It is being used at /usr/share/perl5/Log/Message/Simple.pm,
+line 5.
+</pre>
+<p>Installing from apt-get:</p>
+<pre>
+apt-get install liblog-message-perl
+</pre>
+<p>New problem:</p>
+<pre>
+Package liblog-message-perl is not available, but is referred to by
+another package. This may mean that the package is missing, has been
+obsoleted, or is only available from another source
+However the following packages replace it:
+  perl-modules
+</pre>
+<p>Attempt 2:</p>
+<pre>
+apt-get install perl-modules
+
+==&gt; perl-modules is already the newest version.
+</pre>
+<p>Turns out, it’s a <a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=724532">bug</a>. Darn.</p>
+ 

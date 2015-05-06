@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Terminal capability &#8220;cm&#8221; required' 
+date: "2014-06-30T10:08:00+10:00"
+categories: 
+- Software 
+tags: 
+- freebsd
+- pvhvm
+- serial
+- virtualisation
+- xen 
+---
+<p>After configuring a PVHVM FreeBSD guest with serial console access, using vim resulted in:</p>
+<pre><code>E437: terminal capability "cm" required
+</code></pre>
+<p>The Xen PVHVM tutorial uses this for <code>/etc/ttys</code></p>
+<pre><code>ttyu0 "/usr/libexec/getty std.115200 dialup on secure
+</code></pre>
+<p>Using a more “modern”, capable console resolves this. For example:</p>
+<pre><code>ttyu0 "/usr/libexec/getty std.115200 vt100 on secure
+</code></pre>
+<p>Or theoretically for some colour:</p>
+<pre><code>ttyu0 "/usr/libexec/getty std.115200 vt102 on secure
+</code></pre>
+<p>As I’ve mentioned previously, now I want a DEC console.</p>
+ 

@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Investigating Python 3 support in Fedora' 
+date: "2010-05-22T05:09:32+10:00"
+categories: 
+- Software 
+tags: 
+- django
+- fedora
+- infocomm
+- linux
+- programming
+- python
+- the-spanish-inquisition 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.python.nudge.jpg" alt="height:260px; width:420px;" /></p>
+<p>Having got used to Python 3.0 development on my Mac through MacPorts, I was a little surprised to find it currently unavailable for Fedora, at least in Constantine (Fedora 12, the current stable release) without any third party RPM sources.</p>
+<p><!--oldmore--></p>
+<p>I suspected it may have had something to do with many of Fedora&#39;s tools depending on Python 2.x, so one solution would be to do what the MacPorts folks did and implement them as separate ports, or RPMs. I&#39;m still getting used to the lingo ;).</p>
+<p>According to the Fedora Wiki for Fedora 13, that seems to be their intention. From the <a href="https://fedoraproject.org/wiki/Features/Python3F13#Benefit_to_Fedora">Benefits to Fedora</a> subheading:</p>
+<blockquote><p>Fedora has long been a great platform for doing Python 2 development, but we don’t yet have Python 3. Having Python 3 available via rpms will extend our Python coverage.</p>
+<p>Note also:</p>
+<ul>
+<li>Python 3.0 was released almost 10 months ago, on 2008-12-03, and the latest release of the 3.* branch is 3.1.1, released on 2009-08-17.</li>
+<li>Other distros have python 3, though not necessarily with anything &#8220;on top&#8221; resembling the full python 2 stack.</li>
+<li>We have a working, valuable python 2 stack, which is used by critical system components (yum and anaconda): we must not destabilize the python 2 stack.</li>
+<li>Python 3 is sufficiently different from python 2 that we need them to be independent software stacks.</li>
+<li>The Spanish Inquisition. Spam spam spam. The knights who say… the soft cushions! The comfy chair!</li>
+</ul>
+</blockquote>
+<p>I can live with that. As far as Linux distributions go, I like how transparent the decision making process is in Fedora and enjoy reading their discussions, even if in this case they seem to be a bit behind.</p>
+<p>As for me, Django still uses Python 2.x but I&#39;d started moving some of my personal projects over to 3.x. I suppose I can keep using the <code>-3</code> flag with the Python 2.6.x interpreter to warn me of any deprecated features I may be inadvertently using.</p>
+ 

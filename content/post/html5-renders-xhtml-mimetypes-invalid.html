@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'HTML5 renders XHTML mimetypes invalid?' 
+date: "2014-03-20T10:44:23+10:00"
+categories: 
+- Internet 
+tags: 
+- mime-types
+- w3c
+- xhtml 
+---
+<p>I’ve configured my web server to return XHTML to good browsers, and HTML to crappy ones. You know which ones go into each camp.</p>
+<p>Running the XHTML version through the W3C Validator:</p>
+<pre>
+Line 12, Column 68: Bad value Content-Type for attribute http-equiv on XHTML element meta.
+
+<strong>&lt;meta http-equiv="Content-Type" content="application/xhtml+xml" /&gt;</strong>
+
+http://www.w3.org/TR/xhtml-media-types/
+
+</pre>
+<p>So I went to the prescribed page on XHTML media types.</p>
+<pre>
+I suppose you mean
+
+<strong>&lt;meta http-equiv="Content-Type" content="application/xhtml+xml" /&gt;</strong>
+
+(otherwise a different error message is issued).
+
+The message might be somewhat obscure, but it corresponds to the HTML5 
+draft. So any complaints should be directed to people working on HTML5 
+rather than to the validator. Reference:
+
+http://www.w3.org/TR/html5/the-meta-element.html#pragma-directives
+
+</pre>
+<p>Well, this is awkward.</p>
+<p>The good news is its the fault of HTML5, rather than the validator.</p>
+<p>HTML5 is billed as a living spec. I suppose that means its like kudzu, and grows onto other things. Or maybe it’s like water, and splashes onto other things. Either way, really not sure what that spec has to do with an already codified standard.</p>
+ 

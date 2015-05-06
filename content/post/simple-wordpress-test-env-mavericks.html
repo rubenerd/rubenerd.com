@@ -1,0 +1,98 @@
+---
+layout: post
+title: 'Simple Mavericks WordPress test environment' 
+date: "2014-02-14T11:12:00+10:00"
+categories: 
+- Software 
+tags: 
+- apache
+- guides
+- lamp
+- mac-os-x
+- mariadb
+- mavericks
+- mysql
+- php 
+---
+<p><img src="http://files.rubenerd.com/2014/ruben.misnamed.lamp.jpg" alt="PHP, Apache, MariaDB, SeaMonkey Broser, OS X Mavericks!" style="width:496px; height:151px" /></p>
+<p>There&#39;s <strong>more than one way to skin a grape</strong>, and so many other <a href="http://wiki.nginx.org/" title="NGINX">tools</a> <a href="http://dev.mysql.com/" title="MySQL">to</a> <a href="http://rubenerd.com/p2739/" title="Rubénerd: Roast beef sandwiches for underage cats">use</a>. If you want a quick WordPress test environment without installing a package like <a href="http://www.mamp.info/">MAMP</a> and <a href="http://www.apachefriends.org/%E2%80%8E">XAMPP</a>, you could do worse than follow what I did recently. How&#39;s that for an intro, and a cliché stack image? ^_^</p>
+<h3>Ingredients</h3>
+<ul>
+<li>Apache2 in OS X 10.9 Mavericks</li>
+<li>PHP 5.5 from Homebrew</li>
+<li>MariaDB from Homebrew</li>
+<li>WordPress from WordPress.org</li>
+</ul>
+<h3>Getting Homebrew and Developer Tools</h3>
+<p>Homebrew is a wonderful new package manager for Mac. Download it as per the <a href="http://brew.sh" title="Homebrew">site instructions</a>, or just run the following:</p>
+<pre>
+$ ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+</pre>
+<p>Then confirm and update all is working:</p>
+<pre>
+% brew doctor
+% brew update
+</pre>
+<p>During the process of installing Homebrew packages, OS X may ask you to download Developer Tools if you don&#39;t have them installed. Or you can just download them from the <a href="https://developer.apple.com/xcode/">Apple Developer</a> site.</p>
+<h3>Getting PHP</h3>
+<p>The lovely josegonzalez maintains a PHP repository we can use, which also requires the dupes repo.</p>
+<pre>
+% brew tap homebrew/dupes
+% brew tap josegonzalez/homebrew-php
+% brew install php55
+</pre>
+<p>If you&#39;d rather use nginx here, install php55 like this instead.</p>
+<pre>
+% brew install php55 --without-apache --with-fpm
+</pre>
+<p>Now we just add our new php install to OS X&#39;s Apache2 configuration. If you use TextMate, open it as such:</p>
+<pre>
+% sudo mate /etc/apache2/httpd.conf
+</pre>
+<p>And add the following line after the block of LoadModules:</p>
+<pre>
+LoadModule php5_module /usr/local/opt/php55/libexec/apache2/libphp5.so
+</pre>
+<h3>Getting MariaDB</h3>
+<p>MariaDB is an enhanced, drop in replacement for MySQL that is fully compatible with WordPress. It&#39;s where the community energy behind the platform seems to be thesedays, though all the installed tools still use the &quot;mysql&quot; moniker for now.</p>
+<pre>
+% brew install mariadb
+</pre>
+<p>After installing, copy the launch script, and start the server. Many other tutorial sites online have you copy the plist file instead; creating a symlink helps to ensures it will still work if you update your brews.</p>
+<pre>
+% ln -sfv /usr/local/opt/mariadb/*.plist ~/Library/LaunchAgents
+% launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mariadb.plist
+</pre>
+<h3>Setting up MariaDB for WordPress</h3>
+<p>Now we can set up our server and tables for WordPress! First, run the secure script and define a root password. You can safely remove the test tables and such:</p>
+<pre>
+% mysql_secure_installation
+</pre>
+<p>Next, we&#39;ll login with our new root credentials:</p>
+<pre>
+% mysql -uroot -p
+</pre>
+<p>Then create a WordPress database and user to access it. I used &quot;wordpress&quot; to keep things simple, though you should use a better passphrase!</p>
+<pre>
+MariaDB [(none)]> CREATE DATABASE wordpress;
+MariaDB [(none)]> GRANT ALL PRIVILEGES ON wordpress.* 
+TO 'wordpress' IDENTIFIED BY 'passphrase';
+MariaDB [(none)]> q
+</pre>
+<h3>Installing WordPress, starting Apache</h3>
+<p>Download and extract <a href="http://wordpress.org/">WordPress</a> into the document root, which is:</p>
+<pre>
+% cd /Library/WebServers/Documents/
+% sudo -s
+# curl -O 'http://wordpress.org/latest.tar.gz'
+# tar xzvf latest.tar.gz
+</pre>
+<p>This is optional, but so WordPress wouldn&#39;t ask us for FTP credentials when installing plugins or importing posts, I changed the owner of the document root to www:</p>
+<pre>
+% sudo chown -R www wordpress
+</pre>
+<p>Now we can run Apache, and install WordPress as we would on any web host. Done and done!</p>
+<pre>
+% sudo apachectl start
+</pre>
+ 

@@ -1,0 +1,72 @@
+---
+layout: post
+title: 'Java ArrayIndexOutOfBoundsException' 
+date: "2009-08-06T06:05:40+10:00"
+categories: 
+- Software 
+tags: 
+- code
+- errors
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3675153074/" title="Starbucks cups by rubenerd, on Flickr"><img src="http://farm3.static.flickr.com/2614/3675153074_cfb43a3f6d.jpg" width="500" height="335" alt="Starbucks cups" /></a></p>
+<p>Because I&#39;m studying full time again after having a leave of absence and studying part time, all my <strong>classes</strong> (get it!?) are out of whack. For example I&#39;ve started Java again this semester and I&#39;m hopelessly rusty! One problem I&#39;m having is creating an object array, assigning objects to it, then attempting to use methods from the objects in a loop.</p>
+<p>Simple, right? Whenever I try, I get the following error:</p>
+<blockquote>
+<pre>Exception in thread "main" 
+java.lang.ArrayIndexOutOfBoundsException: [x]</pre>
+</blockquote>
+<p>I&#39;m not attempting to access objects that don&#39;t exist in the array, I&#39;m using the array.count() method to only loop through the ones I know exist. Still, the error persists and it&#39;s driving me crazy!</p>
+<p>Here&#39;s the problem reproduced in a <strong>very basic</strong> example. I&#39;m creating a <strong>Market</strong> object, adding a series of <strong>Stall</strong> objects (which number to less than 10!), then attempting to read the toString() methods for each Stall in the Market.</p>
+<h3>Stall.java</h3>
+<pre>
+public class Stall {
+   String name = "Vacant";
+
+   public Stall(String name) {
+      this.name = name;
+   }
+
+   public String toString() {
+      return name;
+   }
+}
+</pre>
+<h3>Market.java</h3>
+<pre>
+public class Market {
+   private Stall stalls[] = new Stall[10];
+
+   public void addStall(Stall a) {
+      stalls[stalls.length] = a;
+   }
+
+   public String toString() {
+      String toReturn = "";
+      for (int count = 0; count &lt; stalls.length; count++) {
+         toReturn += (stalls[stalls.length] + " ");
+      }
+      return toReturn;
+   }
+}
+</pre>
+<h3>TestMarket.java</h3>
+<pre>
+public class TestMarket {
+  public static void main(String[] args) {
+    Stall coffeeBean = new Stall("Coffee Bean and Tea Leaf");
+    Stall starbucks = new Stall("Starbucks");
+    Market rundleMall = new Market();
+
+    rundleMall.addStall(coffeeBean);
+    rundleMall.addStall(starbucks);
+
+    System.out.println(rundleMall);
+  }
+}
+</pre>
+<p>The thing I&#39;m doing wrong is probably breathtakingly obvious, but I&#39;ve been staring at this for hours and can&#39;t figure it out. The only way I&#39;ve been able to fix it is to wrap the inside of each <strong>for loop</strong> in a <strong>try</strong> statement and catch <strong>ArrayIndexOutOfBoundsException</strong> which is hardly an ideal solution!</p>
+ 

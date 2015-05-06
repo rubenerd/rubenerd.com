@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Quick guide to burning CDs in FreeBSD' 
+date: "2009-02-02T04:34:25+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- cd-burning
+- freebsd
+- guide
+- howto
+- infocomm
+- iso
+- monty-python 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.driveoptical.png" style="width:384px; height:128px; display:inline; border:0px" alt="Spiffy somewhat related icons from the Tango Desktop Project" /></p>
+<p>An uncharacteristically short how-to post from me. It&#39;s probably because I&#39;m not Bill Kurtis.</p>
+<p>Burning a typical ISO image to CD, using the standard <code>/dev/acd0</code> CD drive device and where <code>johncleese.iso</code> is (surprisingly) the name of the image to burn:</p>
+<pre>
+# burncd -f /dev/acd0 data [johncleese.iso] fixate
+% echo Ruben is not Bill Kurtis
+</pre>
+<p>The <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/creating-cds.html">FreeBSD Handbook</a> has more details.</p>
+ 

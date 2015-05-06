@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'Few quick Mac Terminal TrueCrypt tips' 
+date: "2010-05-05T05:53:08+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- infocomm
+- mac-os-x
+- shell
+- terminal
+- truecrypt 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.truecrypt.mountvol.png" alt="TrueCrypt with filled in Volume combo box" style="height:160px; width:500px;" /></p>
+<p>For those of you like me who use TrueCrypt on Mac OS X, a few more quick tips I’ve picked up.</p>
+<p><!--oldmore--></p>
+<h3>Use encrypted volumes from the Terminal</h3>
+<p>Assuming <code>/usr/local/bin</code> is in your $PATH and TrueCrypt is installed in <code>/Applications</code>:</p>
+<pre>
+% cd /Applications/TrueCrypt.app/Contents/MacOS
+# ln -s TrueCrypt /usr/local/bin/tc
+</pre>
+<p>Now you can mount and unmount volumes without fuss:</p>
+<pre>
+% tc [volume]
+% tc -d [volume]
+</pre>
+<p>I suppose instead you could create an alias in your shell config file for <code>tc</code> to point to the full TrueCrypt application path, but the above will work from any user account.</p>
+<h3>Launch TrueCrypt GUI from the Terminal</h3>
+<p>This will launch the TrueCrypt graphical application with the complete path of the volume you want to mount conveniently entered into Volume combo box. You&#39;ll still need to choose a volume slot and click the Mount button.</p>
+<pre>% open -a TrueCrypt [volume]</pre>
+<h3>Explain yourself</h3>
+<p>Unlike Windows and most other *nix systems that spray required files all over the place, applications in Mac OS X are generally distributed in self contained packages which makes them easy to install and run from the Finder. From the Terminal, the true executables you’re interested in are located in the application’s <code>./Contents/MacOS/</code> folder, such as TrueCrypt.</p>
+ 

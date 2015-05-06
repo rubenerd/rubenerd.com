@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'W3C’s XHTML ordered list mistake' 
+date: "2009-02-05T10:21:38+10:00"
+categories: 
+- Internet 
+tags: 
+- data
+- formats
+- html
+- infocomm
+- ordered-lists
+- rant
+- standards
+- w3c
+- xhtml 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.list.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right; margin:0 0 10px 20px; display:inline; border:0px" />I was under the impression that newer web standards emphasised the separation of content from presentation markup. This was the reason for the creation of CSS and relegating the humble table back to displaying… tabular data.</p>
+<p>I&#39;ve been an unabashed and unapologetic supporter of the web standards themselves, even if in the past my interpretations of them weren&#39;t exactly correct ;-). I&#39;m attempting to correct this though because I see real value in everyone being on the same page on net as it were. That was a really clever and entirely unintended pun. I&#39;m not Bill Kurtis.</p>
+<p>What concerns me though is the removal of the <code>value</code> attribute from the humble <a href="http://www.w3schools.com/tags/tag_li.asp">ordered list element</a>. This attribute is vital for generating non-contiguous but ordered lists of items, or where selected items share the same value, such as this example of ranking some of the cities I grew up living in based on the amount of time I spent there:</p>
+<blockquote><p>
+&lt;ol&gt;<br />
+&lt;li value=&quot;1&quot;&gt;Singapore&lt;/li&gt;<br />
+&lt;li value=&quot;2&quot;&gt;Melbourne, Victoria, Australia&lt;/li&gt;<br />
+&lt;li value=&quot;3&quot;&gt;Adelaide, South Australia, Australia&lt;/li&gt;<br />
+&lt;li value=&quot;4&quot;&gt;Brisbane, Queensland, Australia&lt;/li&gt;<br />
+&lt;li value=&quot;4&quot;&gt;Kuala Lumpur, Malaysia&lt;/li&gt;<br />
+&lt;li value=&quot;6&quot;&gt;Sydney, New South Wales, Australia&lt;/li&gt;<br />
+&lt;li value=&quot;0&quot;&gt;Orion’s Belt, Far Far Away!&lt;/li&gt;<br />
+&lt;/ol&gt;
+</p></blockquote>
+<p>According to the <a href="http://www.w3schools.com/TAGS/tag_ol.asp">W3Schools list element</a> article, the value attribute was deprecated by the W3C for use in XHTML because you can <em>&quot;use styles instead&quot;</em>. There&#39;s just one problem with this line of reasoning: <strong><em>The value of a list item is NOT a style attribute, it&#39;s DATA.</em></strong></p>
+<p>By removing this so called <em>&quot;presentation information&quot;</em> we&#39;re also removing an integral part of the information itself which is absolutely unacceptable.</p>
+<p>If we were to take what they were saying as Gospel and represented these values in CSS (it is possible), then we rendered our now standards compliant document using another browser that didn&#39;t support CSS, we would be presented with a list <strong><em>without this data</em></strong>.</p>
+<p>I urge the W3C (in my very limited capacity!) to seriously reconsider the omission of this attribute in their specifications.</p>
+ 

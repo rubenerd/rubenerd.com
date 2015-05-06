@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'Reading and writing Windows drives on Mac' 
+date: "2009-04-25T05:38:21+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- fat32
+- file-systems
+- guide
+- howto
+- infocomm
+- mac-os-x
+- microsoft
+- ntfs
+- volumes 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.mac.bootcamp.png" style="height:256px; width:256px; display:inline; border:0px;" alt="" /></p>
+<p>One of the questions I&#39;m most often asked by people moving to Mac (the latest is my dad!) is whether or not their new Mac can read their external hard drives and memory keys. To save myself typing long responses every time, I&#39;m creating this post instead.</p>
+<p>The short answer is: <strong>YES</strong> your Mac can <strong>READ</strong> Windows formatted drives with no problems. The problem is <strong>writing</strong>.</p>
+<p>Modern versions of Windows format drives either as <code>FAT32</code> or <code>NTFS</code>:</p>
+<dl>
+<dt style="font-weight:bold">FAT32</dt>
+<dd>Can be <em>read</em> and <em>written</em> to by Macs but because it’s older it only supports drives up to a certain file size. Most USB memory keys use this.
+</p>
+</dd>
+<dt style="font-weight:bold">NTFS</dt>
+<dd>Is more robust and reliable and is used by most external hard drives now. Macs can <em>only read not write</em> such volumes out of the box, but if you download and install the <a href="http://macntfs-3g.blogspot.com/">NTFS-3G</a> project drivers you’ll be able to write without problems.
+</p>
+</dd>
+<dt style="font-weight:bold">Grilled Cheese Sandwich</dt>
+<dd>I’ve never been able to get Windows or Mac OS X read or write to a grilled cheese sandwich, but I intend to start a SourceForge project to accomplish this once I get a $50,000 grant to develop it. If anyone here is willing to sponsor me with this, feel free to contact me.</dd>
+</dl>
+ 

@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'FreeBSD and hardware random number generators' 
+date: "2013-12-15T11:17:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- bsd
+- economics
+- freebsd
+- globalisation
+- privacy
+- random-number-generators
+- security 
+---
+<p><img src="http://files.rubenerd.com/2013/screenie.freebsdgpg.png" alt="" style="width:500px; height:200px;" /></p>
+<p>Having just discussed my favourite (and widest deployed) *nix flavour at length over the last few days, FreeBSD has made headlines in the security community. According to their <a href="%22https://wiki.freebsd.org/201309DevSummit/Security">September 2013 DevSummit Security Report</a>, FreeBSD will not rely solely on internal hardware random number generators manufactured by Intel and VIA. Instead, their entropy will be fed into Yarrow, their existing software generator.</p>
+<p>In light of the Edward Snowden revelations, members of the project feel such devices can no longer be entirely trusted. I think this is a great idea, but first I think this is emblematic of a far larger issue.</p>
+<h3>Building block-ing important issues</h3>
+<p>Computer hardware is a fascinating example of globalisation. One part may be designed in one place, built in another, and assembled into a more complex device somewhere else. During each step of this process, changes can (and do) occur between the specification and delivered product. It can be accidental or otherwise within quality tolerances deemed acceptable, or it can be deliberate.</p>
+<p>When entire complex supply chains exist, it seems all but inevitable that these changes will occur. When one considers these parts are made under different governments and companies, state surveillance and industrial espionage are entirely feasible. Those of us labelled as paranoid suspected both, now we all know for sure.</p>
+<p style="font-style:italic">To the trolls who filled my old comment system with remarks that I wear a tinfoil hat, it’s all water off my back. Let’s just work together from now on, yes? ^_^</p>
+<p>To play devil&#39;s advocate, businesses and national economies are so interdependent, suppliers would dare not risk doing anything intentionally wrong by their customers, lest they lose valuable contracts. While true, they could be compelled to by law. The NSA is but one example.</p>
+<h3>But back to FreeBSD</h3>
+<p>That was some mice alliteration. Wait, nice alliteration. I think auto-correct is in itself a fabulous pseudo-random number generator. But I digest. Wait, <a href="https://en.wikipedia.org/wiki/Disgaea" title="Disagea on Wikipedia">Disagea</a>. No, digress.</p>
+<p>From a security standpoint, I think FreeBSD did the right thing here. While it&#39;s unlikely an individual could be singled out amd targeted through this specific weakness, the best approach in a potentially compromised environment is to source entropy from many different places. This way, you get the raw speed and true randomness of a physical chip, with the relative transparency of software pseudo-random number generators. Provided the mixing is done properly, the resulting randomness can be mathematically stronger than any of its constituent parts.</p>
+<p>I&#39;ve been interested in hardware random number generators for a long time. When you start seeing the world as a big, non-deterministic (at least, to us, currently) pool of high entropy randomness, it&#39;s quite humbling. Or perhaps that&#39;s just me.</p>
+ 

@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'FreeBSD verbose package installation' 
+date: "2007-04-07T04:48:05+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- kde
+- tmnet
+- x11 
+---
+<p>If you&#39;re a real <a href="http://www.freebsd.org/">FreeBSD</a> nerd you&#39;d know about this already, but for those like me who are just experimenting maybe you&#39;ll find this useful.</p>
+<p>If you find yourself installing packages a lot (say, <a href="http://freebsd.kde.org/">KDE</a>… ever tried compiling that from scratch? Wow!) and your internet connection isn&#39;t terribly reliable, if you enable to verbose output in the <code>pkg_add</code> command you can see exactly where the FreeBSD package manager is retrieving the files from and the success rate of transfers.</p>
+<blockquote><p># pkg_add -rv NAME_OF_PACKAGE</p></blockquote>
+<p>That way, if something goes wrong you can see exactly where it failed. Haven&#39;t had to do this when I&#39;m in Singapore but when I&#39;m transferring using TMnet StreamyX here in Malaysia or the TPG broadband in Australia, it really makes things clearer.</p>
+<p>As an added bonus as well, if you&#39;re doing this full screen on a desktop with code and transfer status lines flying across the screen in a green font, it looks as though you&#39;re in The Matrix. Swish.</p>
+<p><img src="http://files.rubenerd.com/uploads/sos-stack.png" alt="The SOS-Dan stack!" /></p>
+ 

@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Keeping MacPorts up to date' 
+date: "2007-07-03T03:11:13+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- darwinports
+- guide
+- howto
+- infocomm
+- mac-os-x
+- macports 
+---
+<p><img id="image831" src="http://files.rubenerd.com/uploads/macports_update.png" alt="macports_update.png" /></p>
+<p>There&#39;s really little point using <a href="http://macports.org/">MacPorts</a> if you don&#39;t keep it up to date. After all, that&#39;s the whole point of a package management system, right? <span class="emoticon">^^</span></p>
+<p>To keep MacPorts / DarwinPorts up to date, you just need to issue the <code>selfupdate</code> command. The problem I always saw with it though was it <strong>seemed as if it wasn&#39;t doing anything</strong>:</p>
+<pre>
+% sudo port -v selfupdate
+Downloaded MacPorts base version 1.442
+The MacPorts installation is not outdated and so was not updated
+selfupdate done!
+</pre>
+<p>In fact what I later discovered was that it was doing something. The <code>selfupdate</code> command actually does two tasks: it issues the <code>sync</code> command to update your ports tree (vis a vis <code><a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/ports-using.html">portsnap</a></code> on FreeBSD) and then updates the framework itself. The <code>not updated</code> message is referring to is the framework, <strong>it still updated your ports</strong>.</p>
+ 

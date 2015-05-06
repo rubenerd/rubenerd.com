@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'Modular Xorg on NetBSD from scratch' 
+date: "2007-08-23T03:43:16+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- fandn
+- guide
+- howto
+- infocomm
+- mai-hime
+- netbsd
+- pointless-anime-references
+- unix
+- virtualisation
+- vmware
+- vmware-fusion
+- x11
+- xorg 
+---
+<p><img src='http://files.rubenerd.com/uploads/final.jpg' alt='NetBSD Xorg Orange' /><br />
+<em>That&#39;s a lot of orange! That reminds me, I need more F&amp;N… Orange</em></p>
+<p><a href="http://www.netbsd.org/">NetBSD</a> is one of the last Unix-like operating systems still shipping by default with the XFree86 X Window Server as opposed to the new de facto <a href="http://www.x.org/">Xorg distribution</a>. From what I&#39;ve been able to find out doing a quick Google around is that given the system&#39;s strict requirement for portability it&#39;s going to take a lot of work to get Xorg working on every port. I respect that.</p>
+<p>So enter <a href="http://www.pkgsrc.org/">pkgsrc</a> and modular Xorg! Modular Xorg is an exciting new way of distributing Xorg because it allows you to cherry pick only the drivers, applications and other whatnot that you want instead of installing one huge package.</p>
+<p>For me, I&#39;m using a fresh install of <a href="http://www.netbsd.org/releases/">NetBSD 3.1</a> in a <a href="http://vmware.com/mac/">VMware Fusion</a> virtual machine, so you&#39;ll obviously have to take these steps as a <em>guide</em> for your own system.</p>
+<p>During the initial install I chose the <a href="http://netbsd.org/docs/guide/en/chap-exinst.html#inst-fullcustom">Custom Installation</a> option and de-selected the <a href="http://netbsd.org/docs/guide/en/chap-exinst.html#inst-distsets">X11 Distribution Set</a>. This means I avoided any mess right from the beginning, just as I did when I changed from Monolithic Xorg to Modular Xorg on FreeBSD.</p>
+<p>Once you&#39;ve installed NetBSD, do your usual configuration of <code>/etc/rc.conf</code> to enable your network, and add <code>X11_TYPE=modular</code> to your <code>/etc/mk.conf</code> file. <strong>DON&#39;T add a X11BASE line!</strong></p>
+<p>Then go <a href="http://netbsd.org/docs/pkgsrc/getting.html#getting-first">grab yourself the latest pkgsrc tree</a> and <a href="http://netbsd.org/docs/pkgsrc/getting.html#uptodate">update it</a>.</p>
+<p>Now it&#39;s just a matter of <code>make install clean clean-depends</code> -ing each package we want. If you really wanted to, you could just install all the meta-packages:</p>
+<ul>
+<li><a href="http://pkgsrc.se/x11/modular-xorg-server">x11/modular-xorg-server/</a></li>
+<li><a href="http://pkgsrc.se/meta-pkgs/modular-xorg-drivers">meta-pkgs/modular-xorg-drivers/</a></li>
+<li><a href="http://pkgsrc.se/meta-pkgs/modular-xorg-fonts">meta-pkgs/modular-xorg-fonts/</a></li>
+<li><a href="http://pkgsrc.se/meta-pkgs/modular-xorg-apps">meta-pkgs/modular-xorg-apps/</a></li>
+</ul>
+<p>… but that really defeats the purpose of going modular! For me, I installed the base server, the entire fonts meta-package, only the drivers I needed, and the minimum required apps:</p>
+<ul>
+<li><a href="http://pkgsrc.se/x11/modular-xorg-server">x11/modular-xorg-server/</a></li>
+<li><a href="http://pkgsrc.se/meta-pkgs/modular-xorg-fonts">meta-pkgs/modular-xorg-fonts/</a></li>
+<li><a href="http://pkgsrc.se/x11/xf86-input-keyboard">x11/xf86-input-keyboard/</a></li>
+<li><a href="http://pkgsrc.se/x11/xf86-input-mouse">x11/xf86-input-mouse/</a></li>
+<li><a href="http://pkgsrc.se/x11/xf86-video-vmware">x11/xf86-video-vmware/</a></li>
+<li><a href="http://pkgsrc.se/x11/xauth">x11/xauth/</a></li>
+<li><a href="http://pkgsrc.se/x11/xinit">x11/xinit/</a></li>
+</ul>
+<p>Obviously when I said <strong>minimal</strong> I wasn&#39;t kidding! These packages are enough to get an X session started, but that&#39;s about it. If you&#39;re installing a desktop environment such as KDE, Xfce or GNOME you can go right ahead and install their respective packages, but if you&#39;re using a vanilla window manager such as OpenBox you&#39;ll really need to install <strong>at the very least</strong> a terminal emulator. I like <a href="">urxvt</a>.</p>
+<p>It is defintely more work to install modular Xorg, and in many cases the default XFree86 distribution Is Good Enough&trade;, but I like the added control this gives me, plus then I have the added convenience of using similar software on my other BSD and Linux machines. Right Mai?</p>
+<p><img src='http://files.rubenerd.com/uploads/05032006-00.jpg' alt='' /></p>
+<p>Is she pissed off or <em>distracted</em> somehow? I don&#39;t know. Maybe she runs OpenBSD instead. It&#39;s 01:52, maybe I actually need to go to sleep now.</p>
+ 

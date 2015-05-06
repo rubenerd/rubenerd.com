@@ -1,0 +1,102 @@
+---
+layout: post
+title: 'Wikipedia Error' 
+date: "2006-09-03T04:27:50+10:00"
+categories: 
+- Internet 
+tags: 
+- errors
+- infocomm
+- mediawiki
+- simpletagged
+- wikipedia 
+---
+<p><a href="http://en.wikipedia.org/"><img style="background:#ffffff" src="http://files.rubenerd.com/uploads/media.wiki-en.png" alt="Wikipedia" /></a></p>
+<p>Is anyone else having trouble accessing articles in the <a href="http://en.wikipedia.org/">English Wikipedia</a>? Whenever I try accessing pages I get this long list of PHP errors:&lt;!&#8211;textarea rows=20 cols=60&#8211;&gt;</p>
+<pre>
+MediaWiki internal error.
+
+Original exception: exception 'MWException' with message 'Unstub loop detected on call of $wgUser->getOption from StubUserLang::_newObject
+' in /usr/local/apache/common-local/php-1.5/includes/StubObject.php:54
+Stack trace:
+#0 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('getOption', 5)
+#1 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(114): StubObject->_call('getOption', Array)
+#2 [internal function]: StubUser->__call('getOption', Array)
+#3 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(94): StubUser->getOption('language')
+#4 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(57): StubUserLang->_newObject()
+#5 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('getCode', 5)
+#6 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(87): StubObject->_call('getCode', Array)
+#7 [internal function]: StubUserLang->__call('getCode', Array)
+#8 /usr/local/apache/common-local/php-1.5/includes/MessageCache.php(423): StubUserLang->getCode()
+#9 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(462): MessageCache->get('readonly_lag', false, false)
+#10 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(421): wfMsgGetKey('readonly_lag', false, false, true)
+#11 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(393): wfMsgReal('readonly_lag', Array, false)
+#12 /usr/local/apache/common-local/php-1.5/includes/LoadBalancer.php(164): wfMsgNoDB('readonly_lag')
+#13 /usr/local/apache/common-local/php-1.5/includes/LoadBalancer.php(345): LoadBalancer->getReaderIndex()
+#14 /usr/local/apache/common-local/php-1.5/includes/DatabaseFunctions.php(52): LoadBalancer->getConnection(-1, true, Array)
+#15 /usr/local/apache/common-local/php-1.5/includes/User.php(851): wfGetDB(-1)
+#16 /usr/local/apache/common-local/php-1.5/includes/User.php(786): User->loadFromDatabase()
+#17 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(123): User->loadFromSession()
+#18 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(57): StubUser->_newObject()
+#19 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('getOption', 5)
+#20 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(114): StubObject->_call('getOption', Array)
+#21 [internal function]: StubUser->__call('getOption', Array)
+#22 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(94): StubUser->getOption('language')
+#23 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(57): StubUserLang->_newObject()
+#24 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('getCode', 5)
+#25 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(87): StubObject->_call('getCode', Array)
+#26 [internal function]: StubUserLang->__call('getCode', Array)
+#27 /usr/local/apache/common-local/php-1.5/includes/MessageCache.php(423): StubUserLang->getCode()
+#28 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(462): MessageCache->get('readonly_lag', false, false)
+#29 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(421): wfMsgGetKey('readonly_lag', false, false, true)
+#30 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(393): wfMsgReal('readonly_lag', Array, false)
+#31 /usr/local/apache/common-local/php-1.5/includes/LoadBalancer.php(164): wfMsgNoDB('readonly_lag')
+#32 /usr/local/apache/common-local/php-1.5/includes/LoadBalancer.php(345): LoadBalancer->getReaderIndex()
+#33 [internal function]: LoadBalancer->getConnection(-1, true, Array)
+#34 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(32): call_user_func_array(Array, Array)
+#35 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(40): StubObject->_call('getConnection', Array)
+#36 [internal function]: StubObject->__call('getConnection', Array)
+#37 /usr/local/apache/common-local/php-1.5/includes/DatabaseFunctions.php(52): StubObject->getConnection(-1, true, Array)
+#38 /usr/local/apache/common-local/php-1.5/includes/User.php(851): wfGetDB(-1)
+#39 /usr/local/apache/common-local/php-1.5/includes/User.php(786): User->loadFromDatabase()
+#40 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(123): User->loadFromSession()
+#41 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(57): StubUser->_newObject()
+#42 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('isAllowed', 5)
+#43 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(114): StubObject->_call('isAllowed', Array)
+#44 [internal function]: StubUser->__call('isAllowed', Array)
+#45 /usr/local/apache/common-local/php-1.5/includes/Title.php(1140): StubUser->isAllowed('read')
+#46 /usr/local/apache/common-local/php-1.5/includes/Wiki.php(109): Title->userCanRead()
+#47 /usr/local/apache/common-local/php-1.5/includes/Wiki.php(45): MediaWiki->preliminaryChecks(Object(Title), Object(StubObject), Object(WebRequest))
+#48 /usr/local/apache/common-local/php-1.5/index.php(47): MediaWiki->initialize(Object(Title), Object(StubObject), Object(StubUser), Object(WebRequest))
+#49 /usr/local/apache/common-local/live-1.5/index.php(3): require('/usr/local/apac…')
+#50 {main}
+
+Exception caught inside exception handler: exception 'MWException' with message 'Unstub loop detected on call of $wgLang->getCode from MessageCache::get
+' in /usr/local/apache/common-local/php-1.5/includes/StubObject.php:54
+Stack trace:
+#0 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(31): StubObject->_unstub('getCode', 5)
+#1 /usr/local/apache/common-local/php-1.5/includes/StubObject.php(87): StubObject->_call('getCode', Array)
+#2 [internal function]: StubUserLang->__call('getCode', Array)
+#3 /usr/local/apache/common-local/php-1.5/includes/MessageCache.php(423): StubUserLang->getCode()
+#4 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(462): MessageCache->get('internalerror', true, false)
+#5 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(421): wfMsgGetKey('internalerror', true, false, true)
+#6 /usr/local/apache/common-local/php-1.5/includes/GlobalFunctions.php(328): wfMsgReal('internalerror', Array, true)
+#7 /usr/local/apache/common-local/php-1.5/includes/Exception.php(37): wfMsg('internalerror')
+#8 /usr/local/apache/common-local/php-1.5/includes/Exception.php(96): MWException->getPageTitle()
+#9 /usr/local/apache/common-local/php-1.5/includes/Exception.php(63): MWException->htmlHeader()
+#10 /usr/local/apache/common-local/php-1.5/includes/Exception.php(82): MWException->reportHTML()
+#11 /usr/local/apache/common-local/php-1.5/includes/Exception.php(158): MWException->report()
+#12 /usr/local/apache/common-local/php-1.5/includes/Exception.php(192): wfReportException(Object(MWException))
+#13 [internal function]: wfExceptionHandler(Object(MWException))
+#14 {main}</pre>
+<p><!-- Old WordPress SimpleTags plugin</p>
+<div class="tags">[tags]wikipedia, error, errors, problems, server problem, server error[/tags]</div>
+<p> --></p>
+<p><a title="Favourite this blog on Technorati!" href="http://technorati.com/faves?sub=addfavbtn&amp;add=http://rubenerd.com"><img src="http://files.rubenerd.com/uploads/technorati-button.png" alt="Favourite this blog on Technorati!" style="width:80px; height:15px;" /></a><br />
+<a title="Technorati tag: wikipedia" href="http://technorati.com/tag/wikipedia">wikipedia</a>,<br />
+<a title="Technorati tag: error" href="http://technorati.com/tag/error">error</a>,<br />
+<a title="Technorati tag: errors" href="http://technorati.com/tag/errors">errors</a>,<br />
+<a title="Technorati tag: problems" href="http://technorati.com/tag/problems">problems</a>,<br />
+<a title="Technorati tag: server problem" href="http://technorati.com/tag/server-problem">server problem</a>,<br />
+<a title="Technorati tag: server error" href="http://technorati.com/tag/server-error">server error</a></p>
+ 

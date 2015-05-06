@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Recording screens with ffmpeg' 
+date: "2014-10-06T10:01:05+10:00"
+categories: 
+- Software 
+tags: 
+- ffmpeg
+- freebsd
+- guides
+- linux
+- screencasting
+- screenshots
+- video 
+---
+<p>On the Mac, we can record our screens with QuickTime. On other *nix, ffmpeg can be deployed in this fairly straight-forward manner:</p>
+<pre>
+% ffmpeg -f x11grab -s 1024x768 -r 30 :0.0 ~/out.mp4
+</pre>
+<p>Except in Debian now, we get this:</p>
+<blockquote>
+<p>The ffmpeg program is only provided for script compatibility and will be removed in a future release. It has been deprecated in the Libav project to allow for incompatible command line syntax improvements in its replacement called avconv (see Changelog for details). Please use avconv instead. Requested output format &#8216;x11grab’ is not a suitable output format</p>
+</blockquote>
+<p>Amongst the politics, I was surprised that &#8216;x11grab’ was not a suitable output format. I’d been doing it for years. In the schism between ffmpeg and the unfortunately named avconv, had this changed?</p>
+<p>Well, first step was to install avconv:</p>
+<pre>
+# apt-get install avconv
+==> Building dependency tree
+==> Reading state information... Done
+==> E: Unable to locate package avconv
+
+# apt-get install libav
+==> Building dependency tree
+==> Reading state information... Done
+==> E: Unable to locate package libav
+</pre>
+<p>Not having much luck here! Time to do a search.</p>
+<pre>
+# apt-cache search libav
+==> ffmpeg - Multimedia player, server, encoder and transcoder (transitional package)
+==> libav-tools - Multimedia player, server, encoder and transcoder
+</pre>
+<p>Yay for Linux naming consistency! Installing that and trying video recording:</p>
+<pre>
+# apt-get install libav-tools
+$ avconv -f x11grab -s 1024x768 -r 30 :0.0 ~/out.mp4
+</pre>
+<p>And now it works! Now then&#8230; how do we stop it recording? Last time I did this with ffmpeg, we’d use q. From Ubuntu, this doesn’t work:</p>
+<blockquote>
+<p>Newer versions of ffmpeg don’t use &#8216;q’ anymore, at least on Ubuntu Oneiric, instead they say to press Ctrl+C to stop them. So with a newer version you can simply use &#8216;killall -INT’ to send them SIGINT instead of SIGTERM, and they should exit cleanly.</p>
+</blockquote>
+<p>Now we can record and stop recording video. Phew.</p>
+ 

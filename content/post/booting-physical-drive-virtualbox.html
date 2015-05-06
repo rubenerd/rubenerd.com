@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Booting a physical drive in VirtualBox' 
+date: "2010-03-13T12:29:07+10:00"
+categories: 
+- Software 
+tags: 
+- boot-disks
+- guide
+- hard-drives
+- howto
+- infocomm
+- mac-os-x
+- virtualbox
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.vmdk.virtual.png" alt="" style="height:185px; width:500px;" /></p>
+<p>You can use a real, physical drive as a bootable hard disk in <span style="text-decoration:line-through;">Sun</span> Oracle <a href="http://virtualbox.org/">VirtualBox</a> using an undocumented feature, and it even works on Mac hosts!</p>
+<p><!--oldmore--></p>
+<p>First make sure the drive is unmounted (aka ejected), it won&#39;t cause errors if it&#39;s mounted when you attempt this, it simply won&#39;t work.</p>
+<pre>VBoxManage internalcommands createrawvmdk \
+-filename [NEW DRIVE NAME].vmdk \
+-rawdisk /dev/disk3</pre>
+<p>Replace the <code>/dev/disk3</code> with the block identifier that represents the physical drive you want to access, in my case USB and FireWire drives. You can right click any drive in <code>Disk Utility.app</code> to find out what that is on Mac OS X or your <code>fstab</code> file.</p>
+<p>This command essentially creates a pointer to the raw physical drive which you can then add to any virtual machine, just like any other virtual drive. As with creating it though, if it&#39;s mounted on the host it won&#39;t work. Also this command is <strong>undocumented and subject to change</strong>, so if the above syntax doesn&#39;t work they may have changed it since I wrote this up.</p>
+<p>Because it enables raw file access, I&#39;m assuming lower level tools like SpinRite can be used in a virtual machine this way, but I have to confirm this.</p>
+<p>For more information, I found <a href="http://forums.virtualbox.org/viewtopic.php?p=14118&amp;sid=f7c5eb8b11edef5be711c5f92deed9a6">this VirtualBox forum topic</a> insanely useful with plenty of relevant links.</p>
+ 

@@ -1,0 +1,9 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+                <strong>Blog Post Archive</strong>
+                <ul class="list-unstyled">
+                    {{ range .Data.Pages }}
+                       <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end}}
+                </ul>
+{{ partial "footer.html" . }}

@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Practical, private Dropbox use cases' 
+date: "2014-02-24T11:36:26+10:00"
+categories: 
+- Internet 
+tags: 
+- disk-images
+- dropbox
+- privacy
+- security
+- storage 
+---
+<p>I&#39;ve finally found ways to use for Dropbox, and in the process discovered its true strength. Spoiler, it&#39;s not capacity, upgrades or features.</p>
+<h3>Some pointless nostalgia to start</h3>
+<p>Shortly after we got home broadband at home (the location one would expect to have home broadband), I began looking into online storage. Only the newer computers at school had Zip drives, meaning any larger files I wanted to present for assignments had to be painfully split across floppies.</p>
+<p>The system I ended up using was Xdrive. Looking back on it now, it was poorly desined and insecure, but as a split floppy disk replacement it was faster, easier and more reliable. To be fair, your service would have to be pretty terrible not to have those benefits compared to floppies, but there you have it.</p>
+<p>Since then, I&#39;ve maintained a keen interest in online storage services. In Australia most people still have to contend with quoats and terrible upload speeds, but they&#39;re still an interesting service category.</p>
+<h3>Finally using Dropbox</h3>
+<p>With its own security and privacy issues, I abstained from using Dropbox long after it became the darling of the tech world. One the one hand, the idea of having my data stored on a remote server I didn&#39;t control didn&#39;t sit well with me. With a cheap VPS and rsync, I also thought it largely redundant.</p>
+<p>This changed when I started using sparsebundles and iOS apps with syncing. </p>
+<p>Sparsebundles are OS X disk images you mount like any other, but consist of fragments rather than one contiguous file. In the context of automatic syncing, only modified portions of the image need to be synced, rather than the entire image each time. If you configure a sparsebundle with AES encryption and host it on Dropbox, you have portable, private online storage even Dropbox can&#39;t decrypt.</p>
+<p style="font-style:italic">(My 2009 post on <a href="http://rubenerd.com/mac-encrypted-disk-images/">Mac Encrypted Disk Images</a> has been one of my most popular, with links from Stack Overflow and its ilk. Pity I can’t cash in on that for reputation or other gamified nonsense)!</p>
+<p>Perhaps closer to more typical use cases, the other thing that changed was my use of <a href="http://rubenerd.com/how-nvalt-changed-my-life/">nvALT</a> on my Mac, and Byword on iOS. I&#39;ve started keeping general study notes, blog drafts and images, grocery lists and such in nvALT notes. These files are located in a Drobox folder, which Byword on my iPhone and iPad accesses. It sounds fragile, but Byword has always prompted for which version I want to keep in the rare event of conflicts.</p>
+<h3>Conclusions</h3>
+<p>All this hasn&#39;t changed my preference for a simple VPS with rsync or webdav under most circumstances. Like all things though, it comes down to the right tool for the right job.</p>
+<p>There are certainly plenty of tools giving Dropbox competition, from the original Box, to SugarSync, to Microsoft&#39;s OneDrive. Many offer increased storage over Dropbox, greater referral incentives, more features. By those metrics, it should be a cut and dry issue.</p>
+<p>Which gets us to mindshare, arguably Dropbox&#39;s greatest asset. No matter the superiority of other services, Dropbox is adored by developers and demanded by users. A search on the iOS App Store will return hundreds, if not thousands, of productivity apps that use Dropbox as its back end, or as an export option. Dave Winer’s online <a href="http://smallpicture.com/">Small Picture</a> services use it.</p>
+<p>When <a href="http://rubenerd.com/use-cloud-as-tool/" title="Rubénerd: Don&#39;t be a cloud tool, use them as tools!">used appropriately and with the right considerations</a>, it&#39;s quite a flexible system. It&#39;s simple, ubiquitous, and works. It just took me seven years to figure it out.</p>
+<p>Just make sure you <a href="https://www.dropbox.com/?login=https://www.dropbox.com/arbitration_optout">opt out of that whole arbitration thing</a>, whatever little that matters to us living outside the US.</p>
+ 

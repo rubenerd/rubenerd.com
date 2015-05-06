@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'One hiccup using Tumblr as a blog platform' 
+date: "2014-04-23T10:52:49+10:00"
+categories: 
+- Internet 
+tags: 
+- tumblr
+- weblog 
+---
+<p>A few days ago, I talked about using Tumblr as a general blog publishing platform. The barrier to entry is far lower than “traditional” blogging software, and doesn’t seem to have too many downsides.</p>
+<p>We’ve since found a major sticking point. Tumblr’s permalinks can’t be changed, and use numeric IDs. This shouldn’t be an issue if you start there, but importing an existing blog will break your permalinks.</p>
+<p>The only solution we can think of is some server-side logic to translate potentially hundreds of exiting permalinks into Tumblr equivilents. This would involve either hundreds of handcoded rules with Tumblr numeric IDs and the original URL, or some simple Redis backed thing.</p>
+<p>Either way, this simpler blog platform just got much more complicated, and would still require you to maintain a webserver somewhere, thereby defeating the purpose.</p>
+<p>Of course, the other solution is not to care, and let your permalinks break. If you’re okay with that, no worries.</p>
+ 

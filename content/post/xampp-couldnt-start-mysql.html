@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'XAMPP: Couldn’t start MySQL' 
+date: "2012-10-20T02:07:11+10:00"
+categories: 
+- Software 
+tags: 
+- errors
+- guide
+- infocomm
+- mysql
+- xampp 
+---
+<p><img src="http://files.rubenerd.com/uploads/XAMPP_128x128x32.png" alt="" style="width:128px; height:128px; float:right; margin:0px 0px 10px 20px; display:inline" class="transparent" /></p>
+<p>Running a fresh XAMPP install on Fedora 17 this morning, I kept getting this error. I even <a href="http://www.apachefriends.org/en/xampp-linux.html" title="read the f-ing manual!">RTFM</a>!</p>
+<p>I can&#39;t guarantee if this will work for you, but I re-extracted the archive with the <code>-p</code> to preserve file permissions:</p>
+<pre># xvpfz xampp-linux-1.8.1.tar.gz -C /opt</pre>
+<p>Now MySQL in XAMPP starts:</p>
+<pre># /opt/lampp/lampp startStarting XAMPP for Linux 1.8.1…XAMPP: Starting Apache with SSL (and PHP5)…XAMPP: Starting MySQL…XAMPP: Starting ProFTPD…XAMPP for Linux started.</pre>
+<p>I&#39;m thinking I should have a separate blog for tips like this. My neglected university hosted site, perhaps?</p>
+<p>As an aside, the XAMPP icon in this post is by <a href="http://anekdamian.deviantart.com/art/XAMPP-icon-Freebie-178477603">anekdamian</a> on DeviantART. Much nicer than the default icon.</p>
+ 

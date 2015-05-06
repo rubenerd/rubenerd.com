@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'Defensive programming and system design' 
+date: "2014-04-15T10:53:11+10:00"
+categories: 
+- Software 
+tags: 
+- defensive-programming
+- programming
+- sysadmin 
+---
+<p>Of all the software and systems development methodologies I’ve been exposed to, I’m perhaps the biggest proponent of defensive programming. This includes exhaustive testing (I heard you like assertions), but in this context I’m referring specifically to code and system resiliency.</p>
+<p style="font-style:italic">(I started writing this post taking about programming, but it applies just as much to systems design).</p>
+<p>Is that a term? If its not, I mean allowing your code to survive even if used incorrectly. That’s the problem with software methodologies; they refer to concepts nerds use and finding a single, all–encompassing definition we can all agree on is like herding cats.</p>
+<p>Is this what people tune in for?</p>
+<p>I’ve heard the argument that you should allow your code to fail if used incorrectly, or inappropriately. If people use your class (or function, or whatever) in the wrong context with one wrong assumption, and you allow it to work, you’re setting up code further up the chain for a far larger explosion in the future. </p>
+<p>While I appreciate where this is coming from, I think writing robust code that survives in the real world is something to aspire to. This doesn’t mean you can’t spam standard out, the console or warning logs for people to check out later; in fact I think that’s a given. And pragmatically, if people using your code are the kind that use functions inappropriately, they’ve got far bigger issues.</p>
+<p>There are plenty more arguments in support of defensive programming. You’re not in control of the deployment environment, and it may be living on long after you’ve left. It encompasses good programming practice, which you should be doing anyway. It has a cool name. Do it.</p>
+ 

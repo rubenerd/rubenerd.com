@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'Why I publish a PGP public key' 
+date: "2014-02-03T09:11:23+10:00"
+categories: 
+- Internet 
+tags: 
+- email
+- pgp 
+---
+<p><img src="http://files.rubenerd.com/2014/gnupg01.gif" alt="Cartoon by Silvan Schmid of a safe that can only be locked with a public key, and unlocked with a private key" style="width:355px; height:240px;" /></p>
+<p>Since bringing my new site design online, I&#39;ve had dozens of responses from people asking why I publicly post an encryption key on my <a href="http://rubenerd.com/about/">About</a> page. It&#39;s a PGP public key, and you can use it to send me encrypted messages.</p>
+<p>In symmetric encryption, we use the same key to encrypt and decrypt data. If you symmetrically encrypted an email to me, you&#39;d also need to send me the key so I could decrypt it. Problem is, anyone else intercepting our traffic could decrypt it too, which would negate the purpose!</p>
+<p>To solve this problem, PGP uses asymmetric, public key cryptography. When we create a new PGP identity, the software generates two mathematically-related keys for us:</p>
+<ul>
+<li>a <strong>public key</strong> to share with people</li>
+<li>and a <strong>private key</strong> we keep a secret to ourselves</li>
+</ul>
+<p>If you want to send me an encrypted message, PGP will encrypt it using my public key. This message can then only be decrypted with my private key, which PGP uses when I receive your message. If I have your public key, I can then send you an encrypted reply.</p>
+<p>Another application of this is email signatures, which can be used to ensure the integrity of a message. Instead of encrypting the entire message, it only encrypts a hash of the message. When you receive my email, PGP will perform a hash of the message and compare it to the decrypted hash I sent you. If they match, the email wasn&#39;t tampered with.</p>
+<p>Those are the very basics. If you&#39;re interested, grab <a href="https://www.enigmail.net/home/index.php">Enigmail</a> for Thunderbird and SeaMonkey, or <a href="https://gpgtools.org/">GPGMail</a> for Apple Mail. I&#39;m nerdy enough to think sending encrypted messages is a lot of fun.</p>
+<p style="font-style:italic">Image is by <a href="http://www.silvanschmid.com/gnupg.php">Silvan Schmid</a>. His page has more detail on how PGP works, including the web of trust concept.</p>
+ 

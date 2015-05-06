@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content"><!-- for skip to content link -->
+
+<article id="post" property="blogPost" typeof="BlogPosting">
+  <h1 property="headline"><a property="sameAs url"
+    href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <small><time property="datePublished" 
+    datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "02 Jan 2006" }}</time></small>
+  <div property="articleBody">
+    {{ .Content }}</div>
+  <div class="tags" property="keywords">Filed under 
+    {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
+    {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
+  </div>
+</article>
+<hr role="separator" />
+
+<div class="secondary">
+  <h2>Liked this post?</h2>
+  <p>Feel free to throw me a
+    <a href="/buy-a-coffee/">cup of coffee</a> or an 
+    <a href="http://www.amazon.com/registry/wishlist/5QRTY3DN39AC/">Amazon Wish List</a> item. Cheers!</p>
+</div>
+<hr role="separator" />
+
+<div class="secondary">
+  <h2>Post chronology</h2>
+  <ul>
+    {{ if .Prev }}<li><a href="{{ .Prev.RelPermalink }}">&larr; {{ .Prev.Title }}</a></li>{{ end }}
+    {{ if .Next }}<li><a href="{{ .Next.RelPermalink }}">&rarr; {{ .Next.Title }}</a></li>{{ end }}
+  </ul>
+</div>
+
+</main>
+
+{{ partial "footer.html" . }}

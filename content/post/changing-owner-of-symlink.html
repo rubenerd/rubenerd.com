@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Changing the owner of a symlink' 
+date: "2014-09-08T04:32:27+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- chown
+- freebsd
+- gnu
+- guides
+- linux
+- netbsd 
+---
+<p>I’ve decided to start a new post series: <em>Ruben relearns obvious *nix things</em>. Today, we try changing the owner of a symlink, fail, then realise we forgot to use the &#8220;-h&#8221; flag.</p>
+<p>Trying to change the owner of a symlink this way doesn’t work:</p>
+<pre>
+# chown userX:groupX link
+</pre>
+<p>Now we use the <code>-h</code> flag:</p>
+<pre>
+# chown -h userX:groupX link
+</pre>
+<p>Now when we list:</p>
+<pre>
+# [permissions] userX userY [date] link
+</pre>
+<p>This works on <a href="https://www.freebsd.org/cgi/man.cgi?query=chown" title="FreeBSD manpage on chown">FreeBSD</a> and <a href="http://linux.die.net/man/1/chown" title="GNU manpage on chown, by the lovely die.net folks">GNU</a>. Thank you for your time.</p>
+ 

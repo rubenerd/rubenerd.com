@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Secure input blocking TextExpander' 
+date: "2014-03-24T11:34:00+10:00"
+categories: 
+- Software 
+tags: 
+- mac-os-x
+- productivity
+- smile-software
+- text-expander 
+---
+<p><img src="http://files.rubenerd.com/2014/screenie.textexpander.secureinput.png" alt="TextExpander reporting that secure input is preventing expansion" style="width:500px; height:220px;" /></p>
+<p>I <strong>swear</strong> by <a href="http://smilesoftware.com/TextExpander/">TextExpander</a>. Along with <a href="http://qsapp.com/" title="Quicksilver – Mac OS X at your Fingertips">Quicksilver</a> and <a href="brettterpstra.com/projects/nvalt/" title="Brett Terpstra's Notational Velocity fork">nvALT</a>, its functionality is now triggered from muscle memory. My beloved <code>;shortcuts</code> activate autocompletions, expansions, tedious code and markup boilerplate, forms and <a title="Rubénerd: Using TextExpander with Perl? Hell yes!" href="http://rubenerd.com/textexpander-perl/">even fire Perl scripts</a>. Without it, I feel like I’ve been thrust in front of a shell and asked to draw a picture.</p>
+<p style="font-style:italic">(As I wrote that, I could hear the voices of a thousand pedants shrieking that there are ways to draw in a shell window, from box characters to ASCII art to cowsay to figlet to launching graphical tools. Smart–arses may even decry shells don’t need further decorating, as the sea creatures already did such a beautiful job. And yet, I <strong>still wrote it</strong>. Maybe I’m a blogging masochist).</p>
+<h3>Trouble in paradise</h3>
+<p>Perhaps the most common error I get with the tool, besides occasional clipboard dumps, is <em>Disabled by Secure Input</em>. Unfortunately, what used to be a once–in–a–month occurrence has now been happening almost hourly.</p>
+<p>From the error message:</p>
+<blockquote><p>Secure event input is enabled when you type in a password field (&bullet;&bullet;&bullet;) and in other instances by certain applications. Secure input prevents key–logging malware from recording applications, but it also prevents snippet expansion.</p>
+</blockquote>
+<p>Fair enough, the benefit outweigh the potential inconvenience. In the last few days though, the application that has enabled this mode has become <code>loginwindow</code>. Smile’s <a title="TextExpander and Secure Input: loginwindow" href="http://smilesoftware.com/TextExpander/secureinput.html#loginwindow">online docs explain</a>:</p>
+<blockquote cite="http://smilesoftware.com/TextExpander/secureinput.html#loginwindow"><p>When TextExpander tells you the name of the application that has enabled secure input, it’s giving you a “best guess” that’s sometimes inaccurate. When TextExpander reports that “loginwindow” has enabled secure input, it’s likely that TextExpander can’t quite tell which application has enabled secure input, so instead it’s showing that application’s “ancestor, ” loginwindow. This can also happen when OS X itself has left secure input enabled after you’ve logged in, or after you’ve entered your password to wake the computer from sleep or from screensaver.</p>
+</blockquote>
+<h3>Where do I even begin?</h3>
+<p>In the <em>New Normal</em> where applications routinely update themselves in the background, Mac App Store updates occur overnight and others inform us they need updating upon launching, it could be almost any application on my machine that’s triggering this Secure Input mode and not gracefully turning it off again. I’m hoping its not one of the Important Programs people use; physically impaired people who use OS X’s accessibility options must be even more frustrated than me.</p>
+<p>For now, I’m learning to appreciate all that TextExpander saves me from doing. Typing all this stuff out manually again feels more archaic than using a shell to draw pictures.</p>
+ 

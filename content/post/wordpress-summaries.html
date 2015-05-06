@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'WordPress summaries on some posts' 
+date: "2009-09-01T01:16:24+10:00"
+categories: 
+- Internet 
+tags: 
+- guide
+- howto
+- infocomm
+- php
+- weblog
+- wordpress 
+---
+<p><img src="http://files.rubenerd.com/uploads/graphic.wordpress.icon.png" alt="" style="height:140px; width:380px; border:0px; display:inline;" /></p>
+<p>Every time I try to pry myself away from <a href="http://wordpress.org/">WordPress</a> which I&#39;ve been <a href="http://rubenerd.com/hello-world-2/">moved over to in 2005</a> after <a href="http://rubenerd.com/choosing-a-blogging-tool/">thinking for</a> <a href="http://rubenerd.com/wordpress-and-webserver-status/">far too long</a>, another feature comes along that makes the decision harder. I&#39;ll give you the attention you deserve one day <a href="http://www.djangoproject.com/">Django</a>!</p>
+<p>In this case, it&#39;s the ability to show a summary of a post with a link to read more, but <strong>only</strong> posts you elect it to happen to. Given I merged all my blogs into this one recently I&#39;ve decided to use this on <a href="http://rubenerd.com/anime/">anime reviews</a> which tend to have a ton more graphics and are much longer. It also means I can append a mild NSFW warning on some posts above the read more link when <a href="http://rubenerd.com/tag/bakemonogatari/">Her Senjougaharaness</a> insists on spending half an episode in the shower.</p>
+<p>To pull it off, make sure you have <a href="http://codex.wordpress.org/Customizing_the_Read_More">this code</a> within the <code>the<em>content()</code> method, NOT <code>the</em>summary()</code> as you may assume. Finally, wherever you want the more link to be inserted, add <code>&lt;!--more--&gt;</code>.</p>
+<p>Spiffyness.</p>
+ 

@@ -1,0 +1,62 @@
+---
+layout: post
+title: 'Main methods in Python, Ruby, Java stuff' 
+date: "2010-03-28T07:31:13+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- java
+- programming
+- python
+- ruby 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.mainstreet.png" alt="Main Street" style="height:99px; width:200px; background:transparent; padding:0em;" /></p>
+<p>I&#39;ve decided to put my <a title="Post: Launching my code snippet site… maybe…" href="http://rubenerd.com/launching-code-snippet-site/">code snippets blog idea</a> on hold because I don&#39;t have time to be maintaining a separate blog right now. Had I started it, this would have gone there.</p>
+<p><!--oldmore--></p>
+<p>Not having <code>main</code> methods never used to worry me, but since studying Java again I <strong>really like</strong> being able to have an application kick into action without having to create an instance of it manually.</p>
+<p>To illustrate what I mean, here&#39;s a crappy Java application that I merely have to execute from the command line for it to display Bender&#39;s favourite words.</p>
+<pre>
+<strong>MainInJava.java</strong>:
+public class MainInJava
+{
+  public static void main(String[] args)
+  {
+    System.out.println("Kiss my shiny metal arse");
+  }
+}
+</pre>
+<p>Now here are roughly equivalent applications written in Ruby (my formerly favourite scripting language) and Python (my formerly favourite scripting language, and now my favourite scripting language again!):</p>
+<pre>
+<strong>MainInRuby.rb:</strong>
+#!/usr/bin/env ruby -w
+
+class MainInRuby
+  def initialize()
+    puts("Hello, world!")
+  end
+end
+
+<strong>MainInPython.py:</strong>
+#!/usr/bin/env python -3t
+
+class MainInPython:
+    def __main__(self):
+        print("Hello, world!")
+</pre>
+<p>If you were to run either of these example applications, <strong>nothing</strong> would happen. The initialize and <strong>main</strong> methods aren&#39;t run because merely running the application doesn&#39;t do any instantiation. Ruby and Python expect you to create and run an instance of the application in the source.</p>
+<p>The proposed workarounds if you really want Java-ish main method equivalents in these languages are to write these lines of boilerplate outside the class.</p>
+<pre>
+<strong>MainInRuby.rb:</strong>
+if __FILE__ == $PROGRAM_NAME
+  # Put "main" code here
+end
+
+<strong>MainInPython.py:</strong>
+if __name__ == "__main__":
+    main()
+</pre>
+<p>I understand what these functions do, but for scripting languages that pride themselves on making life easier compared to heavy languages like Java, these don&#39;t seem all that intuitive or elegant.</p>
+<p>I suppose one could argue that I&#39;ve been corrupted into thinking I need a main method and that I haven&#39;t bothered to learn the Ruby or Python way of doing things. They may be onto something ^_^.</p>
+<pre>__EXIT__</pre>
+ 

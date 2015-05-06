@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Sourcing bash and Bourne shell scripts' 
+date: "2014-12-17T09:44:01+10:00"
+categories: 
+- Software 
+tags: 
+- bash
+- bourne-shell
+- scripting 
+---
+<p>I’ve seen a lot of interest in bash migrations since Shellshock; whether it be as a result of moving to FreeBSD or otherwise.</p>
+<p>Security aside, there are plenty of uses of bash out there where a simple Bourne Shell (sh) script would suffice. It also greatly helps with portability; not everyone has bash/dash installed by default.</p>
+<p>For a few of my own bash scripts, I had to relearn how to source the contents of one script, and all its associated variables, into another. For example:</p>
+<pre style="margin-bottom:0px !important">
+#!/usr/local/bin/bash
+
+WORD="Bird"
+SANDWICH="Grilled cheese"
+</pre>
+<div style="text-align:right; font-size:small"><a href="https://gist.github.com/RubenSchade/f614385b1eefc92eadca">Github Gist</a></div>
+<p>Then in your other bash script:</p>
+<pre style="margin-bottom:0px !important">
+#!/usr/local/bin/bash
+
+source ./first.sh
+echo $WORD
+</pre>
+<div style="text-align:right; font-size:small"><a href="https://gist.github.com/RubenSchade/f3256c08e8f7fef8c35d">Github Gist</a></div>
+<p>This will print Bird.</p>
+<p>The equivalent sh script is the innocuous dot. This is distinct from the dot used to denote the current working directory, as you can see here:</p>
+<pre style="margin-bottom:0px !important">
+#!/bin/sh
+
+. ./first.sh
+echo $WORD
+</pre>
+<div style="text-align:right; font-size:small"><a href="https://gist.github.com/RubenSchade/4c420ef79ea4a7c9d1ef">Github Gist</a></div>
+<p>The word &#8220;source&#8221; has some nice syntactic sugar to it, but I’d advise sticking to using the dot. Besides, one wouldn’t be writing shell scripts if one were concerned with syntactic sugar.</p>
+ 

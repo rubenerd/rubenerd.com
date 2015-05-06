@@ -1,0 +1,42 @@
+---
+layout: post
+title: 'Custom Java exceptions' 
+date: "2009-08-13T05:25:32+10:00"
+categories: 
+- Software 
+tags: 
+- exception-handling
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><img src="http://farm3.static.flickr.com/2614/3675153074_cfb43a3f6d.jpg" style="height:335px; width:500px; border:0px; display:inline;" alt="" /></p>
+<p>Well today in Java we learnt how to throw our own exceptions. Because <a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html">Exception</a> is an inherited object of <a href="http://java.sun.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a> rather than just a primitive or a pointer we can create our own Exception objects for circumstances where we want Java to treat an event in the same way as an error.</p>
+<blockquote>
+<pre>
+public class TrekError extends Throwable {
+  public TrekError() {
+    // pass to superclass (Throwable) constructor
+    super("Your logic is fatally flawed!");
+  }
+}
+</pre>
+</blockquote>
+<blockquote>
+<pre>
+public class TestTrekError {
+  public static void main(String[] args) throws TrekError {
+    boolean trekBetterThanWars = true;
+    if (trekBetterThanWars == false) {
+      throw new TrekError();
+    } else {
+      System.out.println("Live long and prosper!");
+    }
+  }
+}
+</pre>
+</blockquote>
+<p>As I think back to programs I&#39;ve written in the past in other languages this could have been quite useful! Do Ruby and Python offer similar capability?</p>
+<p>The main question I had that I didn&#39;t have time to ask in the lecture though was what the &quot;better&quot; or more correct way to use this in Java is. Are there circumstances where you could use such a technique but it would be a cheap shortcut rather than writing robust code? I suspect for all the usefullness that could be derived from this, it could also be easily abused.</p>
+ 

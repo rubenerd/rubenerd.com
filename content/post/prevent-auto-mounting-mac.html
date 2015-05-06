@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Prevent volumes auto-mounting on Mac OS X' 
+date: "2011-12-28T10:07:05+10:00"
+categories: 
+- Hardware 
+tags: 
+- guide
+- hard-drives
+- infocomm
+- mac-os-x
+- postaday2011
+- volumes 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.firewire.mac.png" alt="" style="height:128px; width:128px; float:right; margin:0px 0px 10px 15px" class="transparent" /></p>
+<p>Pretty sure this isn&#39;t the most elegant way to do it, but setting the /Volumes directory immutable prevents volumes from auto-mounting:</p>
+<pre>
+% sudo chflags uchg /Volumes
+</pre>
+<p>Then to revert back:</p>
+<pre>
+% sudo chflags nouchg /Volumes% echo The Bird is The Word
+</pre>
+<p>Despite being an OS X user since the first 10.0 betas, I know surprisingly little about how Macs handle volumes. Put me in front of a [purely!] FreeBSD, NetBSD or Linux box and I&#39;m set, but Mac has its own way of doing things. Of course ;).</p>
+ 

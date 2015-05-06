@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Mavericks on my first gen Mac Pro' 
+date: "2014-02-09T11:13:42+10:00"
+categories: 
+- Hardware 
+tags: 
+- dont-try-this-at-home
+- guides
+- mac-os-x
+- macvericks 
+---
+<p><img src="//farm8.staticflickr.com/7362/12358194695_347e3ce97b_b.jpg" alt="" style="width:500px; height:313px;" /></p>
+<p>Contrary to my outward obsession with the latest and greatest gadgets, computers and peripherals, I also revel in the challenge of maintaining older devices. That&#39;s fluff speak for <em>&quot;I&#39;m a nostalgic fool who sees no need to replace devices that continue to serve me so well&quot;</em>.</p>
+<p>I have a Mac Pro 1,1 <a href="http://www.flickr.com/photos/rubenerd/12358194695/" title="Photo of my Mac Pro running Mavericks on my other desk">pictured above</a> on my loungeroom desk (<a href="http://rubenerd.com/111213/" title="Rubénerd: 11/12/13 (2013.12.11)">not this one</a>). It&#39;s not particularly fast by today&#39;s standards, but it serves its purpose as a iTunes, file, print and scanner server admirably. I often delegate longer compression or build tasks to it to keep my MacBook Air from toasting itself. The simple hard drive sleds allow me to routinely swap out storage whenever we get a capacity boost. It&#39;s dependable, easy to administer and reminds me of my long lost PowerMac G5.</p>
+<p>If you can&#39;t tell by now, I absolutely adore this machine.</p>
+<p>Unfortunately, it also can&#39;t officially run anything past Lion. While otherwise being a 64–bit machine, it still requires a 32–bit boot loader which Mountain Lion and Mavericks no longer provide. It&#39;s rather ironic that my lower performing unibody MacBook is able to run an OS that my Mac Pro can&#39;t.</p>
+<h3>Or&#8230; can it?</h3>
+<p>While innocently searching for pictures of kittens, I saw a guide on MacRumours. The living legend tiamo has <a href="http://forums.macrumors.com/showthread.php?p=18411621#post18411621" title="MacRumors: there is a homebrew bootloader for OS X 10.9">posted a replacement 32–bit EFI</a> that lets you install and run Mavericks on these early generation Mac Pros. There&#39;s no need to use Chamelion or other &quot;hackintosh&quot; solutions, its otherwise a vanilla, legitimate install of OS X running on real Apple hardware.</p>
+<p>I won&#39;t say what I did and didn&#39;t do.</p>
+<p>For starters, I certainly didn&#39;t <a href="http://forums.macrumors.com/showpost.php?p=18599135&amp;postcount=388">follow these instructions</a> from the same thread to create a bootable Mavericks memory key. I didn&#39;t then replace the 64–bit boot loader in the two required places, add my Mac Pro&#39;s &quot;<code>Mac-F4208DC8</code>&quot; board–ID to the required plist files, then boot from the key and install it on my Mac Pro.</p>
+<p>I didn&#39;t then realise the key needed to be imaged on a <strong>partition</strong> of the key, rather than the key root. Which certainly didn&#39;t lead me to reimaging the Mavericks installer on a partition and rebooting to install again.</p>
+<p>And finally, I certainly wasn&#39;t overjoyed to see my venerable friend booting Mavericks, with performance and boot times I hadn&#39;t ever seen from this machine before! The new memory management in Mavericks is marvelous.</p>
+<h3>Disclaimers</h3>
+<p>A few things to note, if you attempt this. Firstly, I&#39;ve read mixed reports that such a setup doesn&#39;t work with iCloud or iMessages. I haven&#39;t had a chance to try, <strong>given I didn&#39;t do it (and neither should you, and if you do, I&#39;m not responsible)</strong>, but be aware of it.</p>
+<p>Mavericks has also since removed accelerated drivers for several of the graphics cards in the original Mac Pros, including the X1600. I was lucky enough that I upgraded to a cheap 8800 GT a few years ago, so I still have full hardware acceleration. I&#39;d almost swear performance is better, especially with Hi10P anime.</p>
+<p>And finally, there&#39;s no reason Apple couldn&#39;t change your lovingly replaced boot.efi with a future software update. You&#39;d be wise to keep a bootable memory key with the altered boot.efi available in case you ever need to boot with it and swap it back. I would think.</p>
+<p>Welcome to 2014, my aluminium friend.</p>
+ 

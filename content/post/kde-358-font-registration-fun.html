@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'KDE 3.5.8 font registration fun' 
+date: "2008-02-03T12:32:48+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- kde
+- netbsd
+- x11 
+---
+<p><img src="http://files.rubenerd.com/uploads/googleimages_kde_thumb.png" alt="" style="height:250px; width:400px" /></p>
+<p>If you&#39;ve just installed <a href="http://kde.org/">KDE</a> 3.5.8 from ports or packages on <a href="http://www.freebsd.org/">FreeBSD</a>, don&#39;t forget to do this. Why am I putting this here? Because I always forget to do this!</p>
+<p><a href="http://www.netbsd.org/">NetBSD</a> users will probably want to access <code>/etc/X11/XF86Config</code> instead.</p>
+<blockquote><p>Package kdebase-3.5.8 registered in <code>/var/db/pkg/kdebase-3.5.8</code></p>
+<p>This port has installed fonts into <code>/usr/local/share/apps/konsole/fonts</code></p>
+<p>You may want to add <code>/usr/local/share/apps/konsole/fonts</code> to your X font path by either:</p>
+<p><code>% xset fp+ /usr/local/share/apps/konsole/fonts% xset fp rehash</code></p>
+<p>or by adding it to your X-server configuration file (usually <code>/etc/X11/xorg.conf</code> or <code>/usr/local/lib/X11/xorg.conf</code>) and restarting the X-server.</p>
+<p>You also have to make the new path known to <code>fontconfig</code> by adding a <code>&lt;dir&gt;/usr/local/share/apps/konsole/fonts&lt;/dir&gt;</code> line to either <code>/usr/local/etc/fonts/local.conf</code> or <code>~/.fonts.conf</code> and running <code>fc-cache -f</code> (as root if you edited <code>local.conf</code>) afterwards.
+</p></blockquote>
+<p>I do have KDE 4.0 <em>mostly</em> running on an experimental system, but for the time being I&#39;m sticking to 3.5.8 on production machines.</p>
+ 

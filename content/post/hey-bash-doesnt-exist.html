@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Hey, bash doesn’t exist' 
+date: "2014-09-27T07:55:45+10:00"
+categories: 
+- Software 
+tags: 
+- bash
+- freebsd
+- tcsh 
+---
+<p>We <a href="https://openclipart.org/detail/202356/shellshock-logo---bash-vulnerability-by-bf5man-202356">have a logo for Shellshock</a>, as we did for Heartbleed. Thank you, <a href="https://openclipart.org/user-detail/bf5man">bf5man</a>.</p>
+<p>Just as a personal wrapup to bashgate (bashbleed, shellshock?), I uninstalled bash from my FreeBSD boxes. My scripts could all be run with sh anyway, and I hadn’t needed it for anything other than my cloud provider’s context system, but that’s for another post.</p>
+<p>In doing so, I made one of my FreeBSD systems so secure, neither <a rel="friend met co-worker kin muse crush date sweetheart" href="http://kirinyan.net/">Clara</a> or I could even log in! Tailing auth.log:</p>
+<pre>
+User X not allowed because shell /bin/bash does not exist
+User Y not allowed because shell /bin/bash does not exist
+</pre>
+<p>One would be well served running <code>chsh</code> before removing your shell.</p>
+<p>In any case, I’m using the system default tcsh again, and swapped it back on my Macs. Heck, I’ve even got it as my default shell on Debian (though isn’t bash on that system just dash anyway?). I can still write tcshrc from memory :).</p>
+ 

@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Initialising regrettable decisions with systemd' 
+date: "2014-09-03T11:37:27+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- centos
+- debian
+- freebsd
+- linux
+- systemd 
+---
+<p>Last month I moved the last of my Linux boxes from CentOS to Debian. Aside from being what work uses, a side benefit was not having to deal with systemd. Given Debian isn&#39;t just Linux, the chances of systemd being adopted by this last major holdout seemed unlikely.</p>
+<p>Well then, <a href="https://lists.debian.org/debian-ctte/2014/02/msg00405.html">here was a shocker</a> from February I should have know about:</p>
+<blockquote cite="https://lists.debian.org/debian-ctte/2014/02/msg00405.html">
+<p>We exercise our power to decide in cases of overlapping jurisdiction<br />
+(6.1.2) by asserting that the default init system for Linux<br />
+architectures in jessie should be systemd.</p>
+</blockquote>
+<p>There&#39;s still hope though, if you can parse this next paragraph of the vote announcment:</p>
+<blockquote cite="https://lists.debian.org/debian-ctte/2014/02/msg00405.html">
+<p>Should the project pass a General Resolution before the release of<br />
+&quot;jessie&quot; asserting a &quot;position statement about issues of the day&quot; on<br />
+init systems, that position replaces the outcome of this vote and is<br />
+adopted by the Technical Committee as its own decision.</p>
+</blockquote>
+<p>As a FreeBSD guy, I&#39;m used to over-engineered systems and decisions in the broader F/OSS community being made to benefit Linux instead of Unix. It forced my beloved Xfce desktop to only support a subset of features on the BSDs with its 4.10 release. systemd represents this for servers.</p>
+<p>I suppose as the dominant player in this space, it was inevitable. But here&#39;s an idea; suppose FreeBSD uses its lack of systemd as a competitive advantage? Quoting <a href="http://www.infoworld.com/d/data-center/you-have-your-windows-in-my-linux-249483">Paul Venezia in InfoWorld</a>:</p>
+<blockquote cite="http://www.infoworld.com/d/data-center/you-have-your-windows-in-my-linux-249483">
+<p>To pick another element out of the same comments, there&#39;s suddenly an uptick in interest in FreeBSD. I&#39;ve been a FreeBSD proponent for a long time, having run FreeBSD servers for two decades now. I&#39;ve heard more than a few rumblings of veteran admins exploring the possibility of migrating services over to FreeBSD instead of Linux due to systemd, and I believe this idea may find more legs as time passes.</p>
+</blockquote>
+<p>I&#39;d like to see the evidence for this uptick, but its an interesting situation. This push factor, comibined with the new <a href="http://rubenerd.com/pkgng-freebsd-handbook/">pkgng system</a> makes FreeBSD even more attractive as an alternative. And, just because I can quote this too:</p>
+<blockquote cite="http://www.infoworld.com/d/data-center/you-have-your-windows-in-my-linux-249483">
+<p>Especially now with all the fervor over Docker, if suddenly people discovered what FreeBSD jails have long been able to do, it might trigger industrial-size changes.</p>
+</blockquote>
+<p>I admire his optimism, even if I don&#39;t share it yet!</p>
+<p>Back in Linux, the one major distro not using systemd is Gentoo. I haven&#39;t used it on my <a href="http://rubenerd.com/linux-on-an-ibook-g3/">own hardware since 2005</a>, but my colleagues say <a href="https://wiki.gentoo.org/wiki/OpenRC">OpenRC</a> is rather lovely, and solves many of the problems people claim systemd is required for.</p>
+ 

@@ -1,0 +1,82 @@
+---
+layout: post
+title: 'Unix file compression basics' 
+date: "2010-03-29T03:07:30+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- bzip2
+- compression
+- freebsd
+- gnu
+- guide
+- gzip
+- howto
+- infocomm
+- linux
+- pax
+- tar
+- unix 
+---
+<p><img src="http://files.rubenerd.com/uploads/steamroller.short.jpg" alt="Dynapac photo by Jan Mehlich from Wikimedia Commons" style="height:220px; width:420px;" /></p>
+<p>A couple of years ago I wrote a post about rzip, and I&#39;m still getting emails and comments from people about it. I&#39;ve decided to dedicate this post to answering some of these questions so I can point people to it. Grilled cheese sandwiches contain tastyness.</p>
+<p><!--oldmore--></p>
+<p>For people coming from a Windows or classic Mac background, file compression on Unix-like operating systems (such as GNU/Linux and BSD) can seem a bit confusing. Unlike the ZIP format which can accept multiple files, most Unix compressors can only work on one file at a time, so we use an archiver to bundle up the files we want to compress first, then feed that archive to the compressor.</p>
+<h3>Step one: archive files</h3>
+<p>Overwhelmingly the most common file archiving tool on Unix-like systems is the tape archiver (<code>tar</code>). This command creates a new tar archive from a folder which may contain files and other folders:</p>
+<pre>
+% tar cvf NewArchive.tar ./FolderToArchive/
+</pre>
+<p>An alternative is <code>pax</code>, which I prefer because it tends to be more consistent, it archives symbolic links (aka Unix shortcuts or aliases) instead of following them, and it has a few nifty features like being able to specify files that fall within a certain date range.</p>
+<pre>
+% pax -wf NewArchive.pax ./FolderToArchive/
+</pre>
+<h3>Step two: compress the archive</h3>
+<p>The amount of time and CPU power you have will determine which compression algorithm you&#39;ll employ. On Unix systems the two most common are <code>gzip</code> which is fast, and <code>bzip2</code> which is slower but generally gets better compression ratios. Here are some examples of both compressing the archive we made in step 1:</p>
+<pre>
+% gzip -v NewArchive.tar
+% bzip2 -v NewArchive.tar
+</pre>
+<p>With both <code>gzip</code> and <code>bzip2</code> you can adjust how much compression they perform by specifying a numeric flag from 1-9. Specify <code>--help</code> for more information.</p>
+<h3>Step three: just do one step</h3>
+<p>Now that we know the difference between archiving and compressing, we can save ourselves some time and do them both in one step. Most versions of tar support an extra flag that tells it to compress an archive with the tool of your choice after its been made. &quot;z&quot; specifies gzip and &quot;j&quot; specifies bzip2:</p>
+<pre>
+% tar czvf NewArchive.tar.gz ./FolderToArchive/
+% tar cjvf NewArchive.tar.bz2 ./FolderToArchive/
+</pre>
+<h3>Step four: unarchiving</h3>
+<p>Basically the reverse of what we did before, and again tar can take care of it for us:</p>
+<pre>
+% tar xzvf NewArchive.tar.gz
+% tar xjvf NewArchive.tar.bz2
+</pre>
+<p>Recent versions of <a title="gnutar home page" href="http://www.gnu.org/software/tar/">gnutar</a> take this shorthand one step further with the &quot;a&quot; flag which automatically determines what compressor to use based on the file name you provide it; for example <code>NewArchive.tar.bz2</code> tells gnutar with the &quot;<code>a</code>&quot; flag to use bzip2. Unless you&#39;re running a very recent Linux distribution or have installed it specifically though, you probably don&#39;t have it.</p>
+<h3>Other compressors</h3>
+<p>There are many, many other compressors you can use. My current ones of choice are xz and rzip  which both achieve far higher compression ratios but require a fast machine with plenty of memory to run in a reasonable amount of time. I <a title="Post: Rzip is absolutely incredible" href="http://rubenerd.com/rzip-is-absolutely-incredible/">discussed rzip</a> back in 2007, but I&#39;ll be dedicating a new post on its and xz&#39;s use later this week.</p>
+<h3>Links</h3>
+<table style="border:0; border-collapse:collapse;">
+<tr>
+<th style="text-align:left; padding-right:1em;">Wikipedia</th>
+<td style="font-family:monospace; padding-right:1em"><a title="Wikipedia article on tar" href="http://en.wikipedia.org/wiki/tar_%28file_format%29">tar</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="Wikipedia article on pax" href="http://en.wikipedia.org/wiki/pax_%28Unix%29">pax</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="Wikipedia article on gzip" href="http://en.wikipedia.org/wiki/Gzip">gzip</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="Wikipedia article on gzip" href="http://en.wikipedia.org/wiki/bzip2">bzip2</a></td>
+</tr>
+<tr>
+<th style="text-align:left; padding-right:1em;">FreeBSD manpage</th>
+<td style="font-family:monospace; padding-right:1em"><a title="FreeBSD manpage on tar" href="http://www.freebsd.org/cgi/man.cgi?query=tar">tar</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="FreeBSD manpage on tar" href="http://www.freebsd.org/cgi/man.cgi?query=pax">pax</a></td>
+<td style="font-family:monospace; padding-right:1em;"><a title="FreeBSD manpage on gzip" href="http://www.freebsd.org/cgi/man.cgi?query=gzip">gzip</a></td>
+<td style="font-family:monospace; padding-right:1em;"><a title="FreeBSD manpage on gzip" href="http://www.freebsd.org/cgi/man.cgi?query=bzip2">bzip2</a></td>
+</tr>
+<tr>
+<th style="text-align:left; padding-right:1em;">GNU/Linux manpage</th>
+<td style="font-family:monospace; padding-right:1em;"><a title="GNU/Linux manpage on tar" href="http://linux.die.net/man/1/tar">tar</a></td>
+<td style="font-family:monospace; padding-right:1em;"><a title="GNU/Linux manpage on tar" href="http://linux.die.net/man/1/pax">pax</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="GNU/Linux manpage on gzip" href="http://linux.die.net/man/1/gzip">gzip</a></td>
+<td style="font-family:monospace; padding-right:1em"><a title="GNU/Linux manpage on gzip" href="http://linux.die.net/man/1/bzip2">bzip2</a></td>
+</tr>
+</table>
+<p>I hope this helps folks :).</p>
+ 

@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'CSS3’s new box-sizing property' 
+date: "2014-10-16T11:19:29+10:00"
+categories: 
+- Internet 
+tags: 
+- css
+- internet-explorer 
+---
+<p>In the darker days of the web, Microsoft decided their box model would include padding and borders within a box’s width and height. Thus, a box with 10px padding and a 1px border set to 100px wide would be 100px wide; for other browsers it would be 122px. Regardless of whether you agree, it was inconsistent behavior, and could result in really  messed up layouts depending on the client. Because floats and auto margins are just super swell, thanks CSS.</p>
+<p>CSS3 has a box-sizing property, which has three values:</p>
+<pre>
+-moz-box-sizing: content-box
+box-sizing: content-box
+</pre>
+<p>This is the default for everything other than old IE. It doesn’t count margins, padding or borders in width or height.</p>
+<pre>
+-moz-box-sizing: padding-box
+box-sizing: padding-box
+</pre>
+<p>This will include the padding in width and height.</p>
+<pre>
+-moz-box-sizing: border-box
+box-sizing: border-box
+</pre>
+<p>This includes padding and borders, but not margin. This is how old IE did it.</p>
+<p>Previously, one would overcome box model inconsistencies by simply not defining padding, margins, borders and widths within the same block. For example, an image of a defined size would be wrapped in a div, which would contain a border, padding or a margin. I think we’ve all basically internalised that.</p>
+<p>Personally, I couldn’t see myself changing things any time soon to accommodate this. Interesting that this has been explicitly defined, though.</p>
+ 

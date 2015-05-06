@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'A date with my invalid RDF feed' 
+date: "2013-08-24T10:41:34+10:00"
+categories: 
+- Internet 
+tags: 
+- jekyll
+- liquid
+- rdf
+- rss
+- troubleshooting 
+---
+<p><img src="http://files.rubenerd.com/2013/dublin.jpg" alt="Photo of Dublin I took in 2010" style="width:500px;" /></p>
+<p>Can you spot the syntax error in my RDF-generating Liquid markup?</p>
+<pre class="code" style="overflow-x:scroll;">
+&lt;item rdf:about="&#123;&#123; site.baseurl &#125;&#125;&#123;&#123; post.url &#125;&#125;"&gt;
+  &lt;title&gt;&#123;&#123; post.title &#125;&#125;&lt;/title&gt;
+  &lt;link&gt;&#123;&#123; site.baseurl &#125;&#125;&#123;&#123; post.url &#125;&#125;&lt;/link&gt;
+  &lt;dc:creator&gt;&#123;&#123; site.author.name &#125;&#125;&lt;/dc:creator&gt;
+  &lt;dc:date&gt;&#123;&#123; post.date | date_to_xml_schema &#125;&#125;&lt;/dc:date&gt;
+</pre>
+<p>Catch it? No? Well, what if I did this:</p>
+<pre class="code" style="overflow-x:scroll;">
+  &lt;dc:date&gt;&#123;&#123; post.date | date_to_xmlschema &#125;&#125;&lt;/dc:date&gt;
+</pre>
+<p>That’s right, it turns out my RDF/RSS 1.0 feed wasn’t showing the correct value in my <a href="http://purl.org/dc/elements/1.1/date">Dublin Core date attribute</a> because I <a title="Jekyll: Templates" href="http://jekyllrb.com/docs/templates/">had one too many underscores</a>. In my own defense, the use of underscores between each word had me believing they were supposed to appear with each and every word. A textbook definition of assumptions contradicting documentation.</p>
+<p>For the dozen or so people still subscribed to my RDF/RSS 1.0 feed, you have excellent taste. Also, I apologise for not spotting this error sooner.</p>
+<h3>Feeds without timestamps</h3>
+<p>As an aside, I’m rather intruiged by how different parsers and blog aggregators would handle [malformed] feeds without timestamps. Would they gracefully degrade and assign a date based on when the feed was last polled, or would they attach the current time, or would they just drop the post? I might have to try this; albeit on a specific test feed not my primary blog!</p>
+<p>And yes, the photo above is one I took during our trip to Dublin in 2010. The Dublin Core of the city, if you will. Thought I’d just throw that in there.</p>
+ 

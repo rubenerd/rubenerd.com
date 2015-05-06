@@ -1,0 +1,38 @@
+---
+layout: post
+title: 'Using QEMU for DOS on *nix' 
+date: "2011-01-01T08:27:25+10:00"
+categories: 
+- Software 
+tags: 
+- dos
+- guide
+- howto
+- infocomm
+- postaday2011
+- qemu
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.dos.png" alt="" style="height:220px; width:500px;" /></p>
+<p>While DOSBox is a great piece of kit, sometimes you may have more speciailised DOS needs that require the use of a VM. In my case, I use <a href="http://wiki.qemu.org/">QEMU</a> and so far things are working great.</p>
+<p><!--oldmore--></p>
+<h3>Getting it</h3>
+<p>The first step, surprising though it may seem, is to grab QEMU. Fortunately it’s well enough known that most package managers carry it, even MacPorts and Homebrew on OS X do. Its relatively small and builds quite fast.</p>
+<h3>Creating a disk image</h3>
+<p>For my needs, raw images work just fine, plus they have the added benefit that they can be easily mounted on the host to modify its contents later.</p>
+<p>QEMU comes with the qemu-img utility for creating disk images. This line will create a 500MiB raw disk image:</p>
+<pre>% qemu-img create -f raw dos.img 500M</pre>
+<h3>Booting a virtual machine</h3>
+<p>This will start qemu with an extravagent 8MiB of RAM, dos.img as the master drive on the first virtual IDE channel (as a regular machine would probably be configured) and with our bootable PCDOS.iso image in the virtual CD-ROM.</p>
+<pre>% qemu -m 8 -hda dos.img -cdrom pcdos.iso</pre>
+<p>From hereon in, its as if you’re installing DOS on a regular machine. Relive the glory days of frequent system crashes, conventional memory ceilings, three finger salutes and those dark blue setup screens!</p>
+<h3>Mount the disk image on the host</h3>
+<p>You’ll want to shut down QEMU first (no, really?), then as root mount the disk image to a mountpoint of your choosing. *nix systems would typically employ the loopback device for this.</p>
+<pre># mount -o loop,offset=32256 dos.img /mnt</pre>
+<p>Now you can access and transfer your precious DOS files :)</p>
+<h3>Justification</h3>
+<p>Why use QEMU over VirtualBox or other souped up virtualisation software?</p>
+<p>QEMU is simple, no messy GUIs to get in the way. It’s portable, and the disk images it uses can be easily mounted on the host just like a regular drive without having to convert it first, even on machines that don’t have QEMU. And finally, speed isn’t really an issue with DOS, so I’d rather have the convenience ;)</p>
+<h3>Why do you run DOS Ruben?</h3>
+<p>I seem to always attract troll comments on posts such as this! One of the things I moonlight as is a DOS and CP/M guy, setting up VMs for clients so they can access data locked into obscure file formats and/or abandonware applications. Also for  process control software that companies still depend upon but can’t use natively on modern hardware. And finally, Commander Keen. HAPPY?</p>
+ 

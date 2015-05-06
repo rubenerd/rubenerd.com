@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'GTK+ failing to build, Xcode 3.0 is the culprit' 
+date: "2009-06-08T12:47:03+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- gtk
+- infocomm
+- mac-os-x
+- macports
+- whoops
+- xcode 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.gtk.png" alt="GTK+" style="width:240px; height:240px; display:inline; border:0px" /></p>
+<p>I was having trouble compiling Gnumeric from MacPorts and Pan this evening. Turns out <a href="http://trac.macports.org/browser/trunk/dports/x11/gtk2/Portfile">gtk2</a> was failing to build because of a problem with the <a href="http://trac.macports.org/browser/trunk/dports/graphics/tiff/Portfile">tiff</a> port.</p>
+<blockquote style="font-family:monospace"><p>
+root# port -v install gtk2<br />
+&ndash;&ndash;&ndash;&gt;  Extracting tiff<br />
+On Mac OS X 10.5, tiff 3.8.2 requires Xcode 3.1 or later but you have Xcode 3.0.<br />
+Error: Target org.macports.extract returned: incompatible Xcode version<br />
+Warning: the following items did not execute (for tiff): org.macports.activate org.macports.extract org.macports.patch org.macports.configure org.macports.build org.macports.destroot org.macports.install<br />
+[…]<br />
+Error: Status 1 encountered during processing.
+</p></blockquote>
+<p>If you&#39;re being given this error message too, as the error suggests you need to grab yourself a newer version of <a href="http://developer.apple.com/technology/Xcode.html">Xcode</a>. Since I only just reinstalled Mac OS X Leopard on my MacBook Pro I installed the Xcode that came on the 10.5.6 DVD which as the error above shows is only Xcode 3.0.</p>
+<p>What&#39;s curious is the Apple Software Update has never told me about a newer Xcode. Is it because you need to <a href="https://connect.apple.com/">login as a ADC member</a> first perhaps?</p>
+<p>Anyway, lesson learned: make sure you have the latest Xcode before attempting to compile software or built ports on your Mac! It&#39;s not that it&#39;s darn obvious you should, but that we need reminding sometimes :).</p>
+ 

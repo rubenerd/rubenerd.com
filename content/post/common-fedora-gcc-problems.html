@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Common Fedora GCC problems' 
+date: "2010-05-19T12:12:24+10:00"
+categories: 
+- Software 
+tags: 
+- fedora
+- gcc
+- gnu
+- guide
+- howto
+- infocomm
+- linux 
+---
+<p><img src="http://files.rubenerd.com/uploads/fedora-logo-icon.png" alt="Fedora icon" style="height:96px; width:96px; padding:0em; background:transparent;" /></p>
+<p>It seems all I had to do was mention Fedora a few times and I started getting technical support emails :). I&#39;m still more of a FreeBSD guy, but I hope these help.</p>
+<p><!--oldmore--></p>
+<h3>Problem 1: No GCC Installed</h3>
+<pre>configure: error:no acceptable C compiler found in $PATH</pre>
+<p>This happens if you&#39;re attempting to build a C application and you don&#39;t have the GNU Compiler Collection installed. Most likely this was because you installed Fedora using the Live CD which (I think, feel free to correct me) doesn&#39;t have it, but it&#39;s easy enough to install:</p>
+<pre># yum install gcc</pre>
+<h3>Problem 2: No GCC-C++ installed</h3>
+<pre>configure: error:installation or configuration problemC++ compiler cannot create executables.</pre>
+<p>Similar problem as above:</p>
+<pre># yum install gcc-c++</pre>
+<h3>Problem 3: No grilled cheese sandwiches</h3>
+<p>The solution:</p>
+<pre>% echo Grilled cheese sandwiches</pre>
+ 

@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Where NetNewsWire 4.0 stores app data' 
+date: "2014-05-11T11:50:57+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- blog-aggregators
+- guides
+- netnewswire
+- os-x
+- rss
+- web-feeds 
+---
+<p>Every post I’ve read claims <a href="http://netnewswireapp.com">NetNewsWire</a> stores its data here:</p>
+<pre>
+~/Library/Application Support/NetNewsWire/
+</pre>
+<p>It does not. Or at least, the latest version installed <a title="homebrew-cask cask for NetNewsWire on Github" href="https://github.com/caskroom/homebrew-cask/blob/master/Casks/netnewswire.rb">from homebrew-cask</a> does not. Instead, it resides in a Mac <a title="Mac Developer Library: Migrating an App to a Sandbox" href="https://developer.apple.com/library/mac/documentation/security/conceptual/AppSandboxDesignGuide/MigratingALegacyApp/MigratingAnAppToASandbox.html">sandbox</a> here:</p>
+<pre>
+~/Library/Containers/com.blackpixel.netnewswire/
+</pre>
+<p>Putting here for reference, in case you were going crazy like me. Perhaps its to prepare for its <a title="NetNewsWire tweet: Final release is dependent on iOS and sync. We don't have a timeline to share for when they will be available" href="https://twitter.com/NetNewsWire/status/450713216335638528">sale on the App Store</a>?</p>
+ 

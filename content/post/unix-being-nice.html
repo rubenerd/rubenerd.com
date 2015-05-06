@@ -1,0 +1,50 @@
+---
+layout: post
+title: 'UNIX Being Nice' 
+date: "2006-08-05T04:44:37+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- unix 
+---
+<p><img src="http://files.rubenerd.com/uploads/media.picture4-87311-121-8.gif" alt="" /></p>
+<p>I had no idea as to the existance of this command, but as I was searching through my <code>/usr/bin/</code> directory trying to see what version of Perl I had, I saw the <code>nice</code> command.</p>
+<p>Typing <code>man nice</code> gave:</p>
+<blockquote><p>NAME<br />
+     nice &#8212; execute a utility with an altered scheduling priority</p>
+<p>SYNOPSIS<br />
+     nice [-n increment] utility [argument …]</p>
+<p>DESCRIPTION<br />
+     nice runs utility at an altered scheduling priority.  If an increment is<br />
+     given, it is used; otherwise an increment of 10 is assumed.  The super-<br />
+     user can run utilities with priorities higher than normal by using a neg-<br />
+     ative increment.  The priority can be adjusted over a range of -20 (the<br />
+     highest) to 20 (the lowest).</p>
+<p>     Available options:</p>
+<p>     -n increment<br />
+             A positive or negative decimal integer used to modify the system<br />
+             scheduling priority of utility.</p>
+<p>DIAGNOSTICS<br />
+     The nice utility shall exit with one of the following values:</p>
+<p>     1-125   An error occurred in the nice utility.</p>
+<p>     126     The utility was found but could not be invoked.</p>
+<p>     127     The utility could not be found.</p>
+<p>     Otherwise, the exit status of nice shall be that of utility.</p>
+<p>COMPATIBILITY<br />
+     The historic -increment option has been deprecated but is still supported<br />
+     in this implementation.</p>
+<p>SEE ALSO<br />
+     csh(1), getpriority(2), setpriority(2), renice(8)</p>
+<p>STANDARDS<br />
+     The nice utility conforms to IEEE Std 1003.2-1992 (&#8220;POSIX.2&#8221;).</p>
+<p>HISTORY<br />
+     A nice utility appeared in Version 6 AT&#038;T UNIX.</p>
+<p>BUGS<br />
+     nice is built into csh(1) with a slightly different syntax than described<br />
+     here.  The form `nice +10&#8242; nices to positive nice, and `nice -10&#8242; can be<br />
+     used by the super-user to give a process more of the processor.
+</p></blockquote>
+<p>As a long time previous DOS/Windows user that moved to Mac and BSD back in 2002, I guess its like assigning priority in the Task Manager in NT/2000/XP/2003?</p>
+<p>Who cares, I can say UNIX is being nice :)</p>
+ 

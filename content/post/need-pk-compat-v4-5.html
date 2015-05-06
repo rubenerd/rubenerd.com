@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'unzip need PK compat. v4.5 error thing' 
+date: "2010-03-04T11:39:47+10:00"
+categories: 
+- Software 
+tags: 
+- archiving
+- bsd
+- errors
+- freebsd
+- guide
+- howto
+- infocomm
+- linux
+- p7zip
+- pkzip
+- problems
+- unzip
+- zip 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.terminal.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; background:transparent; padding:0em;" /></p>
+<p>I tried to extract a ZIP file I was send this afternoon and got the following error with unzip…</p>
+<p><!--oldmore--></p>
+<pre>
+Archive: ARCHIVE.zip
+skipping: ARCHIVE.zip  need PK compat. v4.5 (can do v2.1)
+</pre>
+<p>Turns out this means it was compressed with a newer version of PKZIP to what unzip can handle, but <a href="http://sourceforge.net/projects/p7zip/">p7zip</a> can take care of it.</p>
+<p>Grab the latest build, then do the usual building and all is good. Sounds like a commercial for a construction company.</p>
+<pre>
+% make
+# make install
+% 7za x [ARCHIVE.ZIP]
+</pre>
+ 

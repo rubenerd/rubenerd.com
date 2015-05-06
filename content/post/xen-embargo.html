@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'Xen embargo' 
+date: "2014-09-29T12:04:07+10:00"
+categories: 
+- Software 
+tags: 
+- virtualisation
+- xen 
+---
+<p>I didn’t intend for this to become a security blog. Well okay, I didn’t mean for this to become an exclusively security blog.</p>
+<p>In the midst of <a href="http://rubenerd.com/bash-code-injection-vulnerability/">Shellshock</a>, Amazon announced they’d be rebooting a series of their EC2 instances. The company didn’t comment on why. Over the weekend, Rackspace followed suit. Infrastructure providers around the world proceeded to raise their collective eyebrows. One company doing this is unusual. Two without detail may be cause for concern.</p>
+<p>The consensus seems to be (<a href="https://duckduckgo.com/?q=xen+embargo+xsa-108">citation needed?</a>) its in response to a Xen hypervisor update. From the <a href="">XSA-108 advisory</a>:</p>
+<blockquote><p>(Prereleased, but embargoed).</p>
+</blockquote>
+<p>According to the <a href="http://www.xenproject.org/security-policy.html">Xen Project security policy page</a>, Amazon and Rackspace are among the companies with pre-release access to this information.</p>
+<p>Those are the facts. With some lovely conjecture, we can assume these teams have access to a patch which required a reboot. Both Amazon and Rackspace are known to run very old versions of Xen too, so perhaps this only affects such versions.</p>
+<p>We’ll all know more later this week.</p>
+ 

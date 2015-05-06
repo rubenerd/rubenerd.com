@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'Prevent [Ruby/]Tk window resizing' 
+date: "2009-12-14T07:09:51+10:00"
+categories: 
+- Software 
+tags: 
+- gui-design
+- guide
+- howto
+- infocomm
+- programming
+- ruby
+- tk 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.tk.noresize.png" style="height:130px; width:500px; display:inline;" /></p>
+<p>I had some trouble finding how to prevent Tk windows from being resized by users at runtime, so now that I&#39;ve found out how I&#39;m putting it here and passing it off as a legitimate post. Clever, right? :). Entirely pointless introductory paragraphs aside, simply set the <code>resizable</code> attribute of the <code>TkRoot</code> to <code>(0, 0)</code>. Looks like a guy with a crooked nose.</p>
+<p><!--oldmore--></p>
+<p>For example, if you&#39;re a Rubyist using a beautiful block to create your new TkRoot window:</p>
+<pre>
+rootMain = TkRoot.new |main| do
+  [..]
+  resizable 0, 0
+end
+</pre>
+<p>Or if you&#39;re doing it the more traditional way with hash parameters:</p>
+<pre>
+rootMain = tkRoot.new{ &#39;resizable&#39; =&gt; &#39;0, 0&#39;, [..] }
+</pre>
+<p>And because I used to be a Perl Guy and still use it for some stuff:</p>
+<pre>
+$rootMain->resizable(0, 0);
+</pre>
+<p>The next thing I need to find out is how to allow <strong>only</strong> horizontal resizing while vertical resizing is locked, and vica versa. Any ideas?</p>
+ 

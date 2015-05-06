@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'The mysterious little DFE-670TXD' 
+date: "2007-10-09T05:41:55+10:00"
+categories: 
+- Hardware 
+tags: 
+- bsd
+- dfe-670txd
+- dlink
+- freebsd
+- ibm
+- infocomm
+- lenovo
+- netbsd
+- openbsd
+- slackware
+- slackware-linux
+- thinkpad
+- unix 
+---
+<p><img src='http://files.rubenerd.com/uploads/dfe-670txd_main.gif' alt='DFE-670TXD' /></p>
+<p>The DFE-670TXD is a mysterious little ethernet card, because it&#39;s turned my old ThinkPad 600E into a very picky eater. With this card plugged into either of the PC Card slots:</p>
+<ul>
+<li>My beloved <strong><a href="http://www.freebsd.org/">FreeBSD</a></strong> installs, but throws errors upon booting despite the fact the very card is named and supported in <code>/etc/defaults/pccard.conf</code></li>
+<li><strong><a href="http://www.netbsd.org/">NetBSD</a></strong> not only refuses to install, but just reboots the machine before it’s even finished booting of the CD-ROM</li>
+<li>My Linux distro of choice <strong><a href="http://www.slackware.com/">Slackware</a></strong> detects and installs the card, but upon using it after installing the base system, the entire system hangs forcing a hard reset</li>
+</ul>
+<p>Curiously, the <strong>only</strong> operating system which installed and detected the card perfectly was… <strong><a href="http://www.openbsd.org/">OpenBSD</a></strong>! I have no idea what OpenBSD is doing differently, but booting of the CD and going through the installer the card is detected automatically. When I reboot the machine with OpenBSD installed, I can use the internet, share files on the local network and synchronise with time servers <strong>without any problems!</strong></p>
+<p>FreeBSD is my operating system of choice generally, but OpenBSD for some reason which completely baffles me right now is the only one that works. I&#39;m completely baffled. Did I mentioned I&#39;m baffled? Bamboozled? Anyone with knowledge on how OpenBSD drivers work know why or have any theories?</p>
+<p>In any case I guess I&#39;d better brush up on the OpenBSD FAQs, because I have an OpenBSD machine now!</p>
+ 

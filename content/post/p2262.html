@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Tips for compiling KDE 4.1 from FreeBSD ports' 
+date: "2008-10-21T12:05:45+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- glib
+- guide
+- howto
+- infocomm
+- kde
+- ports
+- x11 
+---
+<p><img src="http://files.rubenerd.com/uploads/kde4logo.png" alt="KDE" style="height:128px; width:128px; float:right; margin:0 0 10px 20px;" /> I&#39;m planning on doing a more comprehensive review of the <a href="http://kde.org/">KDE 4.1 desktop</a> for Unix-like systems at some point in the next few weeks, but I thought I&#39;d pass on a helpful hint to those trying to compile it from the <a href="http://www.freebsd.org/">FreeBSD</a> <a href="http://freshports.org/">ports system</a>. If you see the following within the lines of errors it halts with:</p>
+<pre>gmake: *** [libgiofam.la] Error 1*** Error code 2</code>
+
+<code>Stop in /usr/ports/devel/gio-fam-backend.</pre>
+<p>… it&#39;s probably a good indication you&#39;re running with an older version of glib installed; if you&#39;re running a system with the base ports system, this is quite normal. As far as I know, <code><a href="http://www.freshports.org/devel/gio-fam-backend/">gio-fam-backend</a></code> needs glib 1.6 or higher to build properly.</p>
+<p>To fix it, navigate to the latest version of the glib C libraries in <code><a href="http://www.freshports.org/devel/glib20/">/usr/ports/devel/glib20</a></code> and do the usual <code>make install clean</code>. Now you should be able to build KDE 4.1 without trouble.</p>
+ 

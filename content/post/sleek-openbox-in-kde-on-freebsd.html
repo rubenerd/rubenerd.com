@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'Sleek Openbox in KDE on FreeBSD' 
+date: "2008-03-19T08:32:33+10:00"
+categories: 
+- Software 
+tags: 
+- amarok
+- browsers
+- bsd
+- freebsd
+- gnome
+- guide
+- howto
+- indie-media
+- infocomm
+- kde
+- konqueror
+- netbsd
+- openbox
+- screenshots
+- solaris
+- whole-wheat-radio
+- x11
+- xfce 
+---
+<p>We all readily admit that <a href="http://freebsd.kde.org/">KDE</a> is the greatest desktop environment ever developed for BSD, Linux, Solaris and other Unix-like operating systems, but that&#39;s not to say it can be improved by, or complimented with, other software.</p>
+<blockquote><p><strong>ASIDE:</strong> Some people may not agree with my statement that KDE is the greatest desktop environment ever developed for Unix-like operating systems. I readily admit that <a href="http://xfce.org/">Xfce</a> is also very nice, especially when you’re using lots of <a href="http://www.gtk.org/">GTK+</a> applications.</p>
+<p>If you’re a <a href="http://gnome.org/">GNOME</a> person, well I guess we can’t all be perfect ;-)</p></blockquote>
+<p>Case in point, the <a href="http://openbox.org/">Openbox window manager</a>. Window managers draw the widgets, title bars, resize handles and other elements onto application windows. Desktop environments such as KDE, GNOME or Xfce <em>bundle their own window managers</em> along with software developed specifically for their environments, such as Konqueror for KDE.</p>
+<p>Despite this bundling, it it is possible to replace the default window manager with one that you choose. You may do this to reduce memory usage, change functionality, or even just for a different visual style.</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.openbox.kde.png"><img style="height:313px; width:500px" src="http://files.rubenerd.com/uploads/screenie.openbox.kde.thumb..jpg"  alt="Openbox running in KDE (with Amarok listening to Whole Wheat Radio!)" /></a><br />
+<cite>Openbox running in KDE (with Amarok listening to <a href="http://wholewheatradio.org/wiki/index.php/Main_Page">Whole Wheat Radio!</a>)</cite></p>
+<p>To use Openbox instead of Kwin in KDE on a FreeBSD (or similarly configured) machine:</p>
+<ol>
+<li>Update your ports tree, then<br /><code>cd /usr/ports/x11-wm/openbox/ &#038;&#038; make install clean</code>.<br />Alternatively, just install the package with <code>pkg_add -rv openbox</code></li>
+<li>Open the <code>.xinitrc</code> config file in your home directory</li>
+<li>Comment out <code># exec startkde</code> (add a pound sign / hash)</li>
+<li>Add <code>exec openbox-kde-session</code></li>
+</ol>
+<p><em>For NetBSD, you&#39;ll want to update pkgsrc then <code>/usr/pkgsrc/wm/openbox/ &amp;&amp; make install clean clean-depends</code> instead in step 1.</em></p>
+<p>To make it easier to change visual themes, the layout of the widgets and so forth, you might also want to install the <a href="http://icculus.org/openbox/index.php/ObConf:About">ObConf tool</a> which is also available in <a href="http://beta.freshports.org/x11-wm/obconf/">FreeBSD Ports</a> and in <a href="http://pkgsrc.se/wm/obconf">NetBSD&#39;s pkgsrc</a>.</p>
+ 

@@ -1,0 +1,56 @@
+---
+layout: post
+title: 'De-Chromeify Firefox 4.0' 
+date: "2011-04-07T03:48:55+10:00"
+categories: 
+- Software 
+tags: 
+- firefox
+- gui-design
+- guide
+- infocomm
+- mozilla
+- postaday2011
+- web-browsers 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.firefox4.png" alt="" style="height:253px; width:500px;" /></p>
+<p>Somewhere along the way, the Mozilla UI team must have figured the best way to make things simpler was to copy Chrome. Fortunately with a key extension and some UI tweaks <a href="http://getfirefox.com/">Firefox 4.0</a> can be be reconstructed :).</p>
+<p><!--oldmore--></p>
+<h3>The right is the bight</h3>
+<p>Firstly, to what the Mozilla team did right. Despite still being drawn in XUL (which I used to loathe but now love the flexibility!), Firefox 4.0 <strong>looks</strong> more like a Mac application. The toolbar buttons are smaller and look like Mac buttons, and the URL and search boxes respect Mac interface guidelines (square for the former, rounded for the latter).</p>
+<p>It could be attributed to a placebo effect or given I installed it from scratch, but the UI feels slightly more responsive too. It still takes more &quot;dock bounces&quot; to load than Safari, but less than before even with my trillions of extensions.</p>
+<p>Finally, I find this trend of remove menu bars to be extremely obnoxious, but fortunately the Linux versions didn’t follow Windows Vista/7 and Chrome’s lead!</p>
+<h3>Restoring tabs</h3>
+<p>The most striking UI change is the moving of tabs above the address bar. This distressed my sister no end, but fortunately they can be moved back to where they were before by choosing <strong>View</strong>, <strong>Toolbars</strong> then unchecking <strong>Tabs on Top</strong>.</p>
+<p>As you probably know by now, I strongly suggest you use an extension like <a href="https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/">Tree Style Tab</a> to put tabs on the side and save yourself from needless side scrolling, but do what you will ;)</p>
+<h3>Restoring the status bar</h3>
+<p>As with Chrome, Firefox no longer has a status bar. Extension icons are now relegated to an optional Extensions Bar which can be reenabled from the <strong>View</strong>, <strong>Toolbars</strong> menu. Problem is, even with this enabled we still have hovered URLs appearing in a silly transient bubble like what I’ve dubbed Chrome’s Foo-Foo bar. In my opinion, the Foo-Foo bar is a huge step backwards in usability.</p>
+<p>The solution is the <a href="https://addons.mozilla.org/en-us/firefox/addon/status-4-evar/">Status-4-Evar</a> extension which puts status messages back into the same readable place they were before alongside the extension icons. As an added perk, the extension also replaces the Fusion extension which never got a Firefox 4.0 update. Nice!</p>
+<h3>Removing fluff</h3>
+<p>Curiously, Firefox 4.0 doesn’t create a <code>./chrome/userChrome.css</code> folder and file in your profile folder anymore, but both can be recreated and Firefox will use them.</p>
+<p>These are some of the things I remove using that file:</p>
+<blockquote style="font-family:monospace">
+<p><strong>/* Required XUL namespace reference */</strong><br />
+/* @namespace url(&#8220;http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul&#8221;); */<br />
+/* UPADTE: No longer needed with Firefox 4! Schweet :)*/</p>
+<p><strong>/* Remove cruft from URL and search bars */</strong><br />
+#urlbar .autocomplete-history-dropmarker,<br />
+#star-button,<br />
+.search-go-button,<br />
+.tabs-newtab-button {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;display: none !important;<br />
+}</p>
+<p><strong>/* Remove favicons from bookmark bar links */</strong><br />
+toolbarbutton.bookmark-item > .toolbarbutton-icon {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;display: none;<br />
+}</p>
+<p><strong>/* Make bookmark bar folder icons stand out<br />
+&nbsp;&nbsp;&nbsp;by making them bold, regular links normal */</strong><br />
+toolbarbutton.bookmark-item {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;font-weight:normal !important;<br />
+}<br />
+toolbarbutton.bookmark-item[type=&#8221;menu&#8221;] {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;font-weight:bold !important;<br />
+}</p>
+</blockquote>
+ 

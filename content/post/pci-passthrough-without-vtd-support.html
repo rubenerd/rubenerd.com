@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'PCI passthrough without VT-d support' 
+date: "2014-06-30T02:33:00+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- troubleshooting
+- virtualisation
+- xen 
+---
+<p>In an attempt to build another home Xen tower, I configured a Dom0 on an older tower. Problem was, PCI passthrough wouldn’t work, despite the CPU supporting VT-x.</p>
+<p>From the <a href="https://unix.stackexchange.com/questions/37047/pci-passthrough-without-vt-d">Unix &amp; Linux Stack Exchange</a>:</p>
+<blockquote>
+<p>Since version 3.0, Xen has provided PCI passthrough to a paravirtual (PV) guest without VT-d CPU/Motherboard extensions.</p>
+</blockquote>
+<p>I’d noticed my PV instances not having this problem.</p>
+<blockquote>
+<p>Xen cannot provide PCI passthrough to a HVM (fully virtualized) guest without VT-d.</p>
+</blockquote>
+<p>And there’s the issue. My Core 2 Duo CPU has VT-x, but not VT-d. Bottom line, if we’re using PV, there may still be some life in our older towers. Otherwise, we’ll have to shell out for some newer hardware.</p>
+<p>Still hard to believe a machine I built in the Core 2 Duo days is already considered old. The march of progress…</p>
+ 

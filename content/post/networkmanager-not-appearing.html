@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'NetworkManager not appearing in Arch' 
+date: "2011-05-08T01:21:56+10:00"
+categories: 
+- Software 
+tags: 
+- arch-linux
+- dbus
+- guide
+- infocomm
+- linux
+- networkmanager
+- postaday2011
+- troubleshooting 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.archostan.jpg" alt="Arch OS-tan" style="height:280px; width:500px;" /></p>
+<p>So you&#39;ve set up <a href="http://projects.gnome.org/NetworkManager/">NetworkManager</a> on your <a href="http://archlinux.org/">Arch Linux</a> laptop to easily use wireless networks, but it doesn&#39;t appear in your desktop environment&#39;s notification tray, nor do the networks themselves work. You&#39;ve probably just been dumb like me ;).</p>
+<p><!--oldmore--></p>
+<p>First, to made sure it&#39;s not NetworkManager itself that&#39;s faulty, attempt to run it as root, including the camelCase.</p>
+<blockquote style="font-family:monospace;"><p>
+# NetworkManager
+</p></blockquote>
+<p>If you get a notification that it loaded successfully, chances are you loaded it in the <code>DAEMONS</code> line <strong>before</strong> <code>dbus</code> in <code>/etc/rc.conf</code>, as I stupidly did! Make sure they&#39;re in the right order:</p>
+<blockquote style="font-family:monospace;"><p>
+DAEMONS=([..] dbus networkmanager birdisword [..])
+</p></blockquote>
+<p>Finally, some Arch installations I&#39;ve used haven&#39;t needed this, but sometimes its worth adding <code>dbus-launch</code> to your <code>exec</code> line in <code>~/.xinitrc</code>, presuming you start X by typing <code>startx</code> because you have as little patience for GDM, SLiM and its ilk as I do. This also has the effect of silencing some permission issues with memory keys.</p>
+<blockquote style="font-family:monospace;"><p>
+exec ck-launch-session dbus-launch startxfce4
+</p></blockquote>
+<p>Thanks to <a href="http://juzo-kun.deviantart.com/gallery/73609">*juzo-kun</a> for Arch OS-Tan ^_^.</p>
+ 

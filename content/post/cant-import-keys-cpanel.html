@@ -1,0 +1,74 @@
+---
+layout: post
+title: 'Can’t import keys for cPanel users?' 
+date: "2011-04-09T11:27:37+10:00"
+categories: 
+- Internet 
+tags: 
+- cpanel
+- encryption
+- errors
+- guide
+- infocomm
+- postaday2011
+- sftp
+- webhosts 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.lock.crop.png" alt="Icon from the Tango Desktop project" style="height:125px; width:118px; padding:2px 0px 1px 0px;" class="transparent" /> <img src="http://files.rubenerd.com/uploads/icon.tango.terminal.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px;" class="transparent" /> </p>
+<p>So you have a webhost that accepts SFTP connections but not nessisarily SSH (it does happen). You&#39;ve got used to using cPanel to add new keys for your various systems, but the latest builds of cPanel complain that the <em>&quot;filename is invalid&quot;</em> whenever you attempt to import a new key. Here&#39;s one potential workaround I figured out this evening if you already have another machine authorised.</p>
+<p><!--oldmore--></p>
+<h3>The typical scenario</h3>
+<p>There are several different ways to do this on Mac OS X, Linux and other *nixes, but typically when I&#39;m setting up a webhost for a friend/client I go through roughly this process.</p>
+<ol>
+<li>Fire up a Terminal and create a new public/private keypair. Accept the default location for the key file, and enter a password when requested.</li>
+</ol>
+<blockquote style="font-family:monospace"><p>% ssh-keygen -b 1024 -t dsa</p></blockquote>
+<ol>
+<li>Navigate to your home folder&#39;s <code>~/.ssh</code> folder and display your new public key.</li>
+</ol>
+<blockquote style="font-family:monospace"><p>
+% cd ~/.ssh<br />
+% cat id_dsa.pub
+</p></blockquote>
+<ol>
+<li>
+<p>Copy the resulting key in all its pseudorandom glory to the clipboard.</p>
+</li>
+<li>
+<p>Log into your webhost&#39;s cPanel install. Under the <span style="font-weight:bold;">Security</span> heading, choose <span style="font-weight:bold; white-space:nowrap">SSH/Shell Access</span> then push the <span style="font-weight:bold; white-space:nowrap">Manage SSH Keys</span> button.</p>
+</li>
+<li>
+<p>Click <span style="font-weight:bold;">Import Key</span>. Choose a name for your key, paste your new public key into the second of the two large text boxes, and click <span style="font-weight:bold;">Import</span>.</p>
+</li>
+<li>
+<p>Under the <span style="font-weight:bold;">Public Keys</span> heading, click the <span style="font-weight:bold;">Manage Authoriszation</span> link that corresponds to your new key, then click the <span style="font-weight:bold;">Authorize</span> button.</p>
+</li>
+</ol>
+<p>Done! You can now more securely access your webhost&#39;s SFTP server from that machine.</p>
+<h3>The problem</h3>
+<p>Okay so here&#39;s where we had some trouble this afternoon. After we&#39;d gone through this process, cPanel choked after step 5 and refused to accept the new key, citing <span style="font-weight:bold;">Invalid Filename</span> as an error. Even if we left the key name as the default <code>is_dsa</code>, it would still return the same error.</p>
+<p>Fortunately, there&#39;s a way to bypass step 5 by uploading our new key manually.</p>
+<ol>
+<li>Create the new key as before.</li>
+</ol>
+<blockquote style="font-family:monospace"><p>% ssh-keygen -b 1024 -t dsa</p></blockquote>
+<ol>
+<li>Navigate to your home folder&#39;s  <code>~/.ssh</code> folder and duplicate the new public key file with the name you would have elected to give it in step 5.</li>
+</ol>
+<blockquote style="font-family:monospace"><p>
+% cd ~/.ssh<br />
+% cp id_dsa.pub your_custom_name.pub
+</p></blockquote>
+<ol>
+<li>Fire up an SFTP session and upload your new public key file into your remote <code>~/.ssh</code> folder.</li>
+</ol>
+<blockquote style="font-family:monospace"><p>
+% sftp -oPort=[PORT] username@host<br />
+sftp> cd ~/.ssh<br />
+sftp> put your_custom_name.pub
+</p></blockquote>
+<ol>
+<li>Now when you go into cPanel, you&#39;ll see your new key listed and can authorise it!</li>
+</ol>
+<p>According to a cursory Google search, this is a <a href="http://forums.cpanel.net/f5/case-47947-cant-create-ssh-keys-cpanel-user-197232.html">known problem</a> in recent builds of cPanel. Not sure when this will be fixed.</p>
+ 

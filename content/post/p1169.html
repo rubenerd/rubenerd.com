@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Zip and rar archives in Gnome' 
+date: "2008-05-18T12:48:48+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- gnome
+- guide
+- howto
+- infocomm
+- x11 
+---
+<p>It&#39;s been a few days since I started using <a href="http://gnome.org/">Gnome</a> on my primary desktop, and I think I&#39;m starting to get used to it. More on that will be in another post.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.gnome.archive.manager.png" alt="Gnome's archive manager" style="height:325px; width:500px;" /></p>
+<p>One problem I encountered after compiling <a href="http://www.freshports.org/x11/gnome2/">gnome2 from ports</a> on <a href="http://freebsd.org/">FreeBSD</a> is that <a href="http://fileroller.sourceforge.net/">File Roller</a> (labeled Archive Manager on the Gnome menu) has difficulty with zip and rar files. If you open one, it spits out an error message similar to this:</p>
+<blockquote><p>
+Could not open <strong>SpywareWriterForWindowsHehe.zip</strong><br />
+Archive type not supported
+</p></blockquote>
+<p>The problem stems from File Roller not being able to find the right command line utilities. Others may work, but I&#39;ve found success by installing the aptly-named <a href="http://www.freshports.org/archivers/unzip/">unzip</a> and <a href="http://www.freshports.org/archivers/unrar/">unrar</a> from ports:</p>
+<pre>
+# portsnap fetch update
+# cd /usr/ports/archivers/unzip 
+# make install clean
+# cd /usr/ports/archivers/unrar
+# make install clean
+% echo Burchfield Nines was one of his best albums
+</pre>
+<p>You can install the packages if you prefer, though honestly even my Pentium MMX machine was able to make light work of them.</p>
+<pre># pkg_add -rv unzip unrar</pre>
+<p>For what it&#39;s worth, you can just as easily use these command line tools on the… command line, to extract files from zip and rar archives:</p>
+<pre>
+% unzip -jv archive.zip
+% unrar -ev archive.rar
+</pre>
+ 

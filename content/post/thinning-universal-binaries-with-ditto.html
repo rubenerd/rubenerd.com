@@ -1,0 +1,155 @@
+---
+layout: post
+title: 'Thinning universal binaries with ditto' 
+date: "2007-09-09T08:36:51+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- darwin
+- disk-space
+- ditto
+- fat-binary
+- infocomm
+- lipo
+- mac-os-x
+- nextstep
+- pointless-anime-references
+- powerpc
+- ppc
+- revisited
+- shakugan-no-shana
+- table
+- terminal
+- universal-binary 
+---
+<p><img src="http://files.rubenerd.com/uploads/universal.png" alt="" /></p>
+<p>In November of 2006 I uploaded a post called <a href="http://rubenerd.com/a-closer-look-at-apples-universal-binaries/">A Closer Look At Apple’s Universal Binaries</a> where I tried to describe what UB&#39;s are and how to use the <code>lipo</code> command in the Terminal to remove unnecessary code. Since then I&#39;ve learned a bit more, and have found a slightly easier way to do it.</p>
+<p><span style="font-style:italic"><a href="http://rubenerd.com/a-closer-look-at-apples-universal-binaries/">Previous post</a> in a nutshell: If you&#39;ve used Mac computers at all since 2005 you&#39;re probably aware of Universal binaries, the fancy name Apple gave to applications that have native code for PowerPC and Intel processors. While they really simplify distribution, they store code on your machine you don&#39;t actually need.</span></p>
+<p>Fortunately in Tiger Apple bundled the <code>ditto</code> (and <code>lipo</code>) utility which you can use to create a <q>thin</q> version of a universal binary that only contains code for your processor.</p>
+<p><strong>TAKE NOTE! Some older applications that are only compiled for PowerPC CPUs require shared libraries or resources from other applications, some of which may have been updated as Universal. Therefore if you start deleting PowerPC code from them, you may start braking things. If you&#39;re not sure, <em>always keep the original universal binary</em> just in case you need to restore it!</strong></p>
+<pre>
+ditto --arch i386 FooBar.app ThinFooBar.app
+ditto --arch ppc FooBar.app ThinFooBar.app
+</pre>
+<p>The first line thins down <code>FooBar.app</code> to include only i386 code, the second preserves only PowerPC code.</p>
+<p><img src='http://files.rubenerd.com/uploads/anime.shana.sword.hl.jpg' alt='Shakugan no Shana' style="display:inline; border:0px" /><br />
+<cite>The use of an unnecessarily long sword to spit universal binaries is not recommended… unless you&#39;re a flame haze… I&#39;m sorry, but I can&#39;t stand dry weblog posts that don&#39;t have pictures. The thought of weblog posts without pictures keep me awake at night, as I&#39;m sure it does for you too.</cite></p>
+<p>Given my current obsession with tables, below is a selection of my favourite Mac open source applications I thinned down on my MacBook Pro to compare the difference between their universal and thin binaries:</p>
+<table style="border:0; border-collapse:collapse;">
+<tr style="height:32px">
+<th></th>
+<th style="padding-right:1em;">Application</th>
+<th style="padding-right:1em;">Version</th>
+<th style="padding-right:1em;">Fat universal</th>
+<th style="padding-right:1em;">Thin i386</th>
+<th style="padding-right:1em;">% original</th>
+<th style="padding-right:1em;">% saved &darr;</th>
+</tr>
+<tr>
+<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_vlc.png' alt='VLC' /></td>
+<td><a href="http://www.videolan.org/vlc/download-macosx.html">VLC</a></td>
+<td>0.8.6c</td>
+<td>75.2 MiB</td>
+<td>43.1 MiB</td>
+<td>57.31</td>
+<td><span style="font-style:italic">42.69</span></td>
+</tr>
+<tr>
+<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_camino.png' alt='' /></td>
+<td><a href="http://caminobrowser.org/">Camino</a></td>
+<td>1.5.1int</td>
+<td>53.7 MiB</td>
+<td>34.2 MiB</td>
+<td>63.69</td>
+<td><span style="font-style:italic">36.31</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_inkscape.png' alt='Inkscape' /></td>
+<td><a href="http://www.inkscape.org/">Inkscape</a></td>
+<td>0.45.1</td>
+<td>84.1 MiB</td>
+<td>56.4 MiB</td>
+<td>67.06</td>
+<td><span style="font-style:italic">32.94</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_iterm.png' alt='iTerm' /></td>
+<td><a href="http://iterm.sourceforge.net/">iTerm</a></td>
+<td>0.9.5.x</td>
+<td>4.1 MiB</td>
+<td>3.2 MiB</td>
+<td>78.05</td>
+<td><span style="font-style:italic">21.95</span></td>
+</tr>
+<tr>
+<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_gimpshop.png' alt='Gimpshop' /></td>
+<td><a href="http://www.plasticbugs.com/?page_id=294">Gimpshop</a></td>
+<td>2.2.11</td>
+<td>191.0 MiB</td>
+<td>149.3 MiB</td>
+<td>78.17</td>
+<td><span style="font-style:italic">21.83</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_smultron.png' alt='Smultron' /></td>
+<td><a href="http://smultron.sourceforge.net/">Smultron</a></td>
+<td>3.1</td>
+<td>10.1 MiB</td>
+<td>9.4 MiB</td>
+<td>93.06</td>
+<td><span style="font-style:italic">6.94</span></td>
+</tr>
+</table>
+<p>And here&#39;s a similar table looking at bundled Apple applications:</p>
+<table style="border:0; border-collapse:collapse;">
+<tr style="height:32px">
+<th></th>
+<th style="padding-right:1em;">Application</th>
+<th style="padding-right:1em;">Version</th>
+<th style="padding-right:1em;">Fat universal</th>
+<th style="padding-right:1em;">Thin i386</th>
+<th style="padding-right:1em;">% original</th>
+<th style="padding-right:1em;">% saved &darr;</th>
+</tr>
+<tr>
+<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_safari.png' alt='Safari' /></td>
+<td>Safari</td>
+<td>3.0b3</td>
+<td>6.5 MiB</td>
+<td>5.1 MiB</td>
+<td>78.46</td>
+<td><span style="font-style:italic">21.54</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_itunes.png' alt='iTunes' /></td>
+<td>iTunes</td>
+<td>7.4.1</td>
+<td>113.0 MiB</td>
+<td>98.8 MiB</td>
+<td>87.43</td>
+<td><span style="font-style:italic">12.57</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_terminal.png' alt='Terminal' /></td>
+<td>Terminal</td>
+<td>1.5</td>
+<td>5.0 MiB</td>
+<td>4.6 MiB</td>
+<td>92.00</td>
+<td><span style="font-style:italic">8.00</span></td>
+</tr>
+<tr>
+<td><img src='http://files.rubenerd.com/uploads/appicon_textedit.png' alt='' /></td>
+<td>TextEdit</td>
+<td>1.4</td>
+<td>2.2 MiB</td>
+<td>2.1 MiB</td>
+<td>95.45</td>
+<td><span style="font-style:italic">4.55</span></td>
+</tr>
+</table>
+<p>Some pretty interesting results, the most noticeable of which I would think is that none of the applications even approached a 50% reduction in file size by removing half their compiled instructions. This is due to applications having shared resources such as images, text files and whatnot that are used by both the PPC and Intel code.</p>
+<p>In this case, we can see that VLC, Camino and Safari had a sizable amount of specialised code, whereas the bulk of the TextEdit and Smultron applications consisted of shared resources. We can infer just by looking at these results that rendering video and webpages require more processor specific instructions compared to, say, a text editor.</p>
+<p>Plus it gave me the chance to show some Mac icons. I use KDE on FreeBSD and NetBSD and have used all the flavours of Windows at some point, and the Mac is still the prettiest ;).</p>
+ 

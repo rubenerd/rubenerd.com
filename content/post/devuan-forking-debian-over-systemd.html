@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Devuan forking Debian over systemd' 
+date: "2014-12-01T02:50:00+10:00"
+categories: 
+- Software 
+tags: 
+- debian
+- devuan
+- linux
+- systemd 
+---
+<p><img src="http://files.rubenerd.com/2014/anime.debian.yui.jpg" alt="Yui and Debian" style="width:500px;" /></p>
+<p>Much electronic ink has been spilled extolling the virtues and horrors of Linux’s new <em>de facto</em> manager systemd. As you could probably gather from <a href="http://rubenerd.com/initialising-regrettable-decisions-with-systemd/">my post on the subject</a>, I’m in the camp of the people who started the <a href="http://debianfork.org/">Debian Fork</a> site earlier this year:</p>
+<blockquote cite="http://debianfork.org/">
+<p>We are Veteran Unix Admins and we are concerned about what is happening to Debian GNU/Linux to the point we decided to fork the project.</p>
+<p>And why would you do that? Some of us are upstream developers, some professional sysadmins: we are all concerned peers interacting with Debian and derivatives on a daily basis.</p>
+<p>We don’t want to be forced to use systemd in substitution to the traditional UNIX sysvinit init, because systemd betrays the UNIX philosophy.</p>
+<p>We contemplate adopting more recent alternatives to sysvinit, but not those undermining the basic design principles of &#8220;do one thing and do it well&#8221; with a complex collection of dozens of tightly coupled binaries and opaque logs.</p>
+</blockquote>
+<p>I’d also add that systemd is emblematic of a larger shift from *nix to Linux-centric design. For those of us running BSD, Solaris and other *nix servers, it’s a regrettable (if not entirely unpredictable) trend. That said, I wouldn’t want systemd on my FreeBSD boxes anyway, so touché.</p>
+<p>But <a href="http://www.amazon.com/dp/0553384228?tag=rubenerdcom-20" title="My Point... And I Do Have One">back to the point</a> of this post. After threatening a fork, and with more high profile defections from the Debian project, <a href="https://devuan.org/">it’s happened</a>:</p>
+<blockquote cite="http://devuan.org/">
+<p>Devuan will derive its own installer and package repositories from Debian, modifying them where necessary, with the first goal of removing systemd, still inheriting the Debian development workflow while continuing it on a different path: free from bloat as a minimalist base distro should be. Our objective for the spring of 2015 is that users will be able to switch from Debian 7 to Devuan 1 smoothly, as if they would dist-upgrade to Jessie, and start using our package repositories.</p>
+</blockquote>
+<p>Jokes about the name aside, I’m cautiously relieved. We’ll have to see what kind of response this gets to assess its long term viability, but I wish them all the best.</p>
+ 

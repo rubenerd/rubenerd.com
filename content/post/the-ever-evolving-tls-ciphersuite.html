@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'The ever–evolving TLS ciphersuite' 
+date: "2013-11-06T04:59:49+10:00"
+categories: 
+- Software 
+tags: 
+- aes
+- ciphers
+- rsa
+- security
+- ssl
+- studies
+- tls
+- uts 
+---
+<p>Of all the subjects I’ve taken at UTS, Network Security has been one of the most fascinating. My mathematics and networking have never been great, but I’ve been keenly interested in ciphers and encryption for years, and have been tasked with applying them in various contexts.</p>
+<p>This semester, we were tasked with developing our own SSL implementation from scratch, and demoing it to the lecturer. This included writing functions for hashing (I chose SHA2), public key crypto (RSA for me), and symmetric key crypto (I wanted to do my beloved Twofish, but settled on AES).</p>
+<h3>The ever marching march of progress</h3>
+<p>Well, that subtitle was inspired. During the writing of the CipherSuite data structure for the client and server hello messages, I came up with something interesting. This is section 9 of the <a href="https://tools.ietf.org/html/rfc2246">TLS 1.0 RFC</a>:</p>
+<blockquote><p>In the absence of an application profile standard specifying otherwise, a TLS compliant application MUST implement the cipher suite TLS_DHE_DSS_WITH_3DES_EDE_CBC_SHA.</p>
+</blockquote>
+<p>And the <a href="https://tools.ietf.org/html/rfc4346">TLS 1.1 RFC</a>:</p>
+<blockquote><p>In the absence of an application profile standard specifying otherwise, a TLS compliant application MUST implement the cipher suite TLS_RSA_WITH_3DES_EDE_CBC_SHA.</p>
+</blockquote>
+<p>And the <a href="https://tools.ietf.org/html/rfc5246">TLS 1.2 RFC</a>:</p>
+<blockquote><p>In the absence of an application profile standard specifying otherwise, a TLS-compliant application MUST implement the cipher suite TLS_RSA_WITH_AES_128_CBC_SHA.</p>
+</blockquote>
+<p>This means we’ve seen a steady transition from Diffie-Helman to RSA for public key crypto, and from TripleDES to 128bit AES for symmetric crypto.</p>
+<h3>What this means</h3>
+<p>The implications are interesting, even if largely symbolic. I’d expect most parties to have a defined set of CipherSuites, meaning they’d never fall to what amounts to a default. Even if they did, precious few browsers mandate TLS 1.2 anyway (or even 1.1).</p>
+<p>Still, the switching of TripleDES to AES seems long overdue. There are practical reasons for still needing 3DES in certain circumstances, but for computers equipped with AES hardware acceleration and no backwards comparability requirements, they’re better served using it.</p>
+<p>What I’ve been most surprised about is the perpetual foot dragging of system administrators refusing to implement anything beyond SSL 3.0, let alone TLS 1.1 or 1.2. But that’s a topic for another day.</p>
+<p><strong>UPDATE:</strong> It’s due to shitty, outdated browsers with wide install bases. This is why we can’t have nice things.</p>
+ 

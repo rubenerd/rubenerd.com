@@ -1,0 +1,44 @@
+---
+layout: post
+title: 'Building MCrypt on Mac OS X' 
+date: "2011-04-21T01:47:49+10:00"
+categories: 
+- Software 
+tags: 
+- crypto
+- dr-hook
+- guide
+- infocomm
+- mac-os-x
+- mc-hammer
+- mcrypt
+- postaday2011 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.mcrypt.png" alt="MCrypt in action" style="height:190px; width:500px;" /></p>
+<p>As well as being a valuable library for web services, <a href="http://mcrypt.sourceforge.net/">MCrypt</a> is a simple tool for encrypting/decrypting files. As per a request from one of my <a href="http://rubenerd.com/buy-a-coffee/">coffee buying</a> supporters, here’s how to build it on Mac OS X!</p>
+<p><!--oldmore--></p>
+<h3>Dr Hook sang a song called <em>Levitate</em></h3>
+<p>Before we get into it, if you don’t remember how to build software on *nix, here’s the procedure for installing in <code>/usr/local</code> as root:</p>
+<blockquote style="font-family:monospace">
+<p>% sudo -s<br />
+# tar xzvf [app][version].tar.gz<br />
+# cd [app][version]<br />
+# ./configure<br />
+# make install clean</p>
+</blockquote>
+<h3>This is the way you do it ~ Dr Hook, <em>Levitate</em></h3>
+<p><strong>1.</strong> <a href="http://mhash.sourceforge.net/">Mhash</a> is the library MCrypt uses to generate hashes. Download the <a href="http://sourceforge.net/projects/mhash/files/">tarball</a> from its SourceForge page, and build to taste. You can also use cvs, their page has instructions.</p>
+<p><strong>2.</strong> MCrypt comes in two parts, the command interface and the libmcrypt library. Download the library <a href="http://sourceforge.net/projects/mcrypt/files/Libmcrypt/">tarball</a> from its SourceForge page, and build to taste. Alternatively you can install it from Homebrew with <code>brew install mycrypt</code> [sic].</p>
+<p><strong>3. </strong> Download the MCrypt <a href="http://sourceforge.net/projects/mcrypt/files/MCrypt/">tarball</a> from SourceForge, and build to taste!</p>
+<h3>Look at me taking off! ~ Dr Hook, <em>Levitate</em></h3>
+<p>MCrypt works in the shell by encrypting files with a cipher of your choice, and spitting out a name appended with mc, presumably because the programmer was a fan of MC Hammer and because encryption means bad guys can’t touch this. No wait, its short for MCrypt, never mind.</p>
+<p>For example, my favourite cipher is Twofish so here’s how we would encrypt a dodgy photo you wouldn’t want people to see. You’ll be prompted for a password.</p>
+<blockquote style="font-family:monospace">
+<p>% mcrypt -a twofish photo.jpg</p>
+</blockquote>
+<p>The procedure to decrypt is basically the same.</p>
+<blockquote style="font-family:monospace">
+<p>% mcrypt -d photo.jpg.mc</p>
+</blockquote>
+<p>Of course regular encryption recommendations apply. Decrypting files to a local drive or volume that isn’t itself encrypted could potentially allow future people to gain access to your plaintext. Use strong passwords. Employ liberal amounts of common sense. And so on :).</p>
+ 

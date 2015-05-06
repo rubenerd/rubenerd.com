@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Featured images' 
+date: "2014-08-26T05:16:23+10:00"
+categories: 
+- Internet 
+tags: 
+- design
+- weblog 
+---
+<p><strong>UPDATE:</strong> I’ve since reverted back to not using featured images. Too many drawbacks, trivial visual benefit. Not that I’m fickle.</p>
+<p>Yes, that&#39;s what my site looked like in 2006. I&#39;ll admit, I do miss dark themes terribly. But I suppose the public have spoken.</p>
+<p>Back on topic. The <a href="http://en.wikipedia.org/wiki/Dictionary.app">Apple Dictionary.app</a> defines “observant” as:</p>
+<blockquote>
+<p>a railway carriage with large windows designed to provide a good view of passing scenery.</p>
+</blockquote>
+<p>Wait, that was the definition of observation car. Never mind, point is I could change the letter spacing of my font here by 0.5 pixels, and @JamieJakov would notice.</p>
+<p>Since about 2008, I&#39;ve been including 500px wide images as the heading on each post. I&#39;d long wanted them to be the heading for posts, but I never had the time nor inclination to figure out how to achieve this in WordPress. Given the software had <a href="http://rubenerd.com/using-wordpress-categories-as-tags/">only just been given tag support</a>, let alone featured images, it seemed more trouble than it was worth.</p>
+<p>Jekyll and Liquid markup <strong>make this trivial</strong>. Using a terrible Perl script, I extracted each of the 500px image URLs, added them as a separate &quot;featured&quot; front-matter field, then defined the markup in Liquid to render the background headers with the aforementioned image.</p>
+<p>There are still some lingering bugs:</p>
+<ul>
+<li>
+<p>RSS doesn&#39;t show images anymore. Given this is also entirely defined with Liquid, it should be simple enough to include the post.featured field inline above post.content, as it would have been displayed on the site.</p>
+</li>
+<li>
+<p>The mobile layout doesn&#39;t scale properly anymore. This I&#39;m not sure how to fix; it&#39;ll probably involve even more inglorious CSS hacks. Yes HTML for layout was terrible, but CSS truly is an <a href="http://leonsbuddydave.tumblr.com/post/54879645535/today-css-is-the-worst-possible-way-to-describe">awful language</a>.</p>
+</li>
+</ul>
+<p>I&#39;m not sure the execution of featured images is great here, but just fun to experiment a little :).</p>
+ 

@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Host multiple blogs with default WordPress?' 
+date: "2010-04-06T04:11:06+10:00"
+categories: 
+- Internet 
+tags: 
+- apache
+- infocomm
+- php
+- too-simple
+- wordpress 
+---
+<p><img src="http://files.rubenerd.com/uploads/graphic.wordpress.icon.png" alt="" style="height:140px; width:380px; border:0px; display:inline;" /></p>
+<p>Vinícius Lira over in <a href="http://wpengineer.com/wordpress-3-multisite-settings/#comment-3291">this comments thread</a> has proposed a ridiculously elegant solution to using a default WordPress installation to host multiple blogs on different databases. If it works, it&#39;s genius.</p>
+<p><!--oldmore--></p>
+<p><strong>STEP ONE:</strong> Create a subdomain that points to your WordPress installation, such as &quot;<code>http://newblog.site.com/</code>&quot;</p>
+<p><strong>STEP TWO:</strong> Create a new database, such as &quot;<code>newblog</code>&quot;</p>
+<p><strong>STEP THREE:</strong> Edit the &quot;wp-config.php&quot; file and replace:</p>
+<pre>define('DB_NAME', 'wordpress');</pre>
+<p>with:</p>
+<pre>if($<em>SERVER[&#39;HTTP</em>HOST&#39;] == &quot;site.com&quot; or
+$<em>SERVER[&#39;HTTP</em>HOST&#39;] == &quot;www.site.com&quot;) {
+  define(&#39;DB<em>NAME&#39;, &#39;mysitedatabase&#39;);}
+elseif ($</em>SERVER[&#39;HTTP<em>HOST&#39;] == &quot;newblog.site.com&quot;) {
+define(&#39;DB</em>NAME&#39;, &#39;newblog&#39;);
+}</pre>
+</p>
+<p>Haven&#39;t tested it myself yet, but it seems too simple. It shouldn&#39;t work. If it does, it&#39;d be schweet.</p>
+ 

@@ -1,0 +1,65 @@
+---
+layout: post
+title: 'Basic Java linked list queue implementation' 
+date: "2009-10-01T08:25:35+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- infocomm
+- java
+- linked-lists
+- programming
+- studies 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/1310801073/" title="COMEX Singapore 2007 by rubenerd, on Flickr"><img src="http://farm2.static.flickr.com/1176/1310801073_ac6ca1fd6d.jpg" width="500" height="375" alt="COMEX Singapore 2007" /></a></p>
+<p>In a previous post I <a href="http://rubenerd.com/java-linked-list-stack/">implemented a basic stack</a> in Java using <a href="http://rubenerd.com/linked-list-theory/">linked lists</a>. In this post I&#39;ll be looking at implementing a rudimentary queue.</p>
+<p><!--oldmore--></p>
+<p>Unlike a stack where the first object to be added is the last to be taken off which results in an inversion of order, objects in a queue are taken off in the same order they were added. In the context of a linked list, this means the objects are added to the head like a stack, but they&#39;re removed from the end instead.</p>
+<p>In this case much of the code from the stack linked list is the same, all we need to change are the stack specific terms from <strong>pop</strong> and <strong>push</strong> to terms <strong>put</strong> and <strong>get</strong>, and change the remove method to pull objects from the end of the linked list not the beginning.</p>
+<pre>
+public class Queue {
+  Node head;
+
+  public Queue(Object payload) {
+    if (payload)
+      head = new Node(payload);
+  }
+
+  private class Node {
+    Object payload;
+    Node next;
+
+    public Node(Object payload) {
+      this.payload = payload;
+    }
+  }
+}
+</pre>
+<p>Aside from being renamed from <strong>push</strong>, the <strong>put</strong> method is unchanged from the Stack method other than the name.</p>
+<pre>
+public void put(Object payload) {
+  Node newNode = new Node(payload);
+  if (head == null)
+    head = newNode;
+  else {
+    newNode.next = head;
+    head = newNode;
+  }
+}
+</pre>
+<p>The <strong>pop</strong> method is changed to <strong>get</strong> the last link list element not the first. We find this by traversing the linked list until we find a <strong>Node</strong> that has <code>null</code> as its next <strong>Node</strong>.</p>
+<pre>
+public Object get() {
+  Node current = head;
+  Node previous = head;
+  while (current.next != null) {
+    previous = current;
+    current = current.next;
+  }
+  Object toReturn =  current.payload;
+  previous.next = null;
+  return toReturn;
+}
+</pre>
+ 

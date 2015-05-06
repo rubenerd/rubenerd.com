@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Preallocating qemu-img images' 
+date: "2012-07-10T04:59:13+10:00"
+categories: 
+- Software 
+tags: 
+- fallocate
+- fedora
+- file-systems
+- guide
+- infocomm
+- linux
+- p12
+- qemu
+- qemu-img
+- virtual-machines 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.hdd.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right; margin:0 0 10px 10px;" class="transparent" /></p>
+<p>To drastically improve virtual drive performance of qemu guests, create images with metadata preallocation:</p>
+<pre>% qemu-img create -f qcow2 -o size=2147483648,preallocate=metadata disk.qcow2</pre>
+<p>Then if you&#39;re on Linux, use <a href="http://linux.die.net/man/1/fallocate">fallocate</a> to preallocate space:</p>
+<pre>% fallocate -l 2147483648 disk.qcow2</pre>
+<p>Passing this on for what it may be worth, they both saved me a lot of time copying files this morning. :)</p>
+ 

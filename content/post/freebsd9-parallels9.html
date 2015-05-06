@@ -1,0 +1,58 @@
+---
+layout: post
+title: 'FreeBSD 9.2 with vesa in Parallels Desktop 9' 
+date: "2013-12-09T11:10:00+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- guide
+- parallels
+- parallels-desktop
+- virtualisation
+- virtualization
+- x11
+- xorg
+- xrandr 
+---
+<p><a href="https://secure.flickr.com/photos/rubenerd/11287829494/" title="Screenshot of FreeBSD 9.2 running in Parallels Desktop 9, on Flickr"><img src="https://farm8.staticflickr.com/7411/11287829494_0b978255b9.jpg" alt="FreeBSD 9.2 running in Parallels Desktop 9" style="height:333px; width:500px;"/></a></p>
+<p>In 2006, I started <a href="http://rubenerd.com/parallels-desktop-freebsd-issues/" title="Rubénerd: Parallels Desktop FreeBSD issues">running FreeBSD 6.2 in a beta release of Parallels Desktop</a>. It was quite the learning experience, and further cemented my love of this OS. Half a decade later, I find myself trying to run <a href="http://www.freebsd.org/releases/9.2R/announce.html" title="FreeBSD 9.2-RELEASE Announcement">FreeBSD 9.2</a> in <a href="http://www.parallels.com/products/desktop/" title="Parallels Desktop 9 for Mac">Parallels Desktop 9</a>.</p>
+<p>A lot has changed in FreeBSD; the workstation teams have done a terrific job. For one, we have the stunningly beautiful <a href="http://rubenerd.com/pkgng-freebsd-handbook/" title="Rubénerd: pkgng is now in the FreeBSD Handbook">pkgng system</a> which negates another reason why I stuck with Linux in several different settings. On the Xorg front, we no longer need to configure xorg.conf manually, and we don&#39;t need messy modelines to manually enable widescreen resolutions. It takes <a href="http://rubenerd.com/x11-freebsd-parallels/" title="Rubénerd: X11, FreeBSD, Parallels Desktop, xorg.conf">reading a post I wrote in 2007</a> to really appreciate this!</p>
+<h3>Enter xrandr</h3>
+<p>From an end-user perpective, we also now have xrandr. A simple front end to randr, it allows us to specifiy our screen resolution on the fly without rebooting X, and without root permissions. Install:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text"># pkg install xrandr
+</code></pre>
+</div>
+<p>Now we can specify our desired initial screen resolution in our .xinitrc along with our window manager and other such goodies. Below, we&#39;ve specified we want a resolution of 1024&#215;768 and the Xfce desktop when we start our graphical X server:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">xrandr -s 1024x768 &amp;&amp;
+exec startxfce4
+</code></pre>
+</div>
+<p style="font-style:italic">I remember reading somewhere that .xinitrc was depracated, but I can’t remember where. For now at least, it still works.</p>
+<h3>Why is this important for Parallels?</h3>
+<p>With the latest release of Parallels, this is very important. The vesa driver detects my humble MacBook Air is capable of driving a 1920&#215;1200 display, so it starts X at that resolution. On my internal 1366&#215;768 display, this means a lot of squishing and impossible to read text. Setting 1024&#215;768 as above offers native resolution, albeit with black letterboxing.</p>
+<p>This is where we hit a snag. Using the -q option, we can query which screen sizes are available and supported for our use. After changing on-the-fly to 1280&#215;800 to test widescreen operation, this was the output:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">% xrandr -q
+xrandr: Failed to get size of gamma for output default
+Screen 0: minimum 640x480, current 1280 x 800, maximum 1920x1200
+default connected 1280x800+0+0 0mm x 0mm
+1920x1200          0.0
+1600x1200          0.0
+1680x1050          0.0
+1400x1050          0.0
+1280x1024          0.0
+1440x900           0.0
+1280x960           0.0
+1280x800           0.0*
+1024x768           0.0
+800x600            0.0
+640x480            0.0
+</code></pre>
+</div>
+<p>Alas, the native 1366&#215;768 resolution of this MacBook Air is not among those listed. From what I&#39;ve been able to find, this is a limitation of the xf86-video-vesa driver.</p>
+<p>This was mostly an excercise in curiousity; I <a href="http://rubenerd.com/freebsd-gpt-thinkpad-x40/" title="Rubénerd: FreeBSD GPT works just fine on the ThinkPad X40">run FreeBSD on my ThinkPad hardware</a> natively. Still, it would be nice to re-creaate what I had on my original MacBook Pro all those years ago. The next step will be to see if the Parallels tools have been maintained for FreeBSD, and if there&#39;s a driver offering.</p>
+ 

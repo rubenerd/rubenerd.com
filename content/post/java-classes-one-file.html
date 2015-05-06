@@ -1,0 +1,54 @@
+---
+layout: post
+title: 'Multiple Java classes in one file' 
+date: "2009-09-08T10:21:02+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.java.175.png" alt="Classic Java logo" style="height:305px; width:175px; display:inline; border:0em; padding:0em; background:transparent" /></p>
+<p>I got so much helpful feedback from friendly people here with my last Java question I thought I&#39;d try again with another problem that&#39;s been gnawing at me for a few days. It&#39;s probably just a matter of scope, but I want to be sure!</p>
+<p><!--oldmore--></p>
+<p>Say for example I have a very basic <strong>Train</strong> class and within it I have <strong>Carriage</strong> objects. In this example the private <strong>Carriage</strong> class is within the class Train:</p>
+<blockquote>
+<pre>
+public class Train {
+  Carriage[] carriages = new Carriage[10];
+
+  public Train() {
+    // constructor stuff
+  }
+
+  private class Carriage {
+    public Carriage() {
+      // constructor stuff
+    }
+  }
+}
+</pre>
+</blockquote>
+<p>In this version Carriage is within the same file, but is a different class. This also compiles, but if I try to append a private keyword Java throws a <code>&quot;modifier not allowed here&quot;</code> error.</p>
+<blockquote>
+<pre>
+public class Train {
+  Carriage[] carriages = new Carriage[10];
+
+  public Train() {
+    // constructor stuff
+  }
+}
+
+class Carriage {
+  public Carriage() {
+    // constructor stuff
+  }
+}
+</pre>
+</blockquote>
+<p>Basically I need to know what the functional difference is between the two. Both compile and can be used; on my machine here I added a bunch of toString() methods and fleshed out their constructors and got identical output with each version. Is it simply a matter of scope? Is one approach more acceptable or preferred?</p>
+ 

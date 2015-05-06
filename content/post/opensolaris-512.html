@@ -1,0 +1,15 @@
+---
+layout: post
+title: 'OpenSolaris doesn’t like 512MiB of memory' 
+date: "2009-08-18T06:19:41+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.opensolaris.livecd.png" alt="OpenSolaris LiveCD" style="height:313px; width:500px; display:inline; border:0em" /></p>
+<p>It really seems I can&#39;t catch a break with <a href="http://opensolaris.org/">OpenSolaris</a>! Unfortunately after trying it on my <a href="http://rubenerd.com/thinkpad-x40/">ThinkPad X40</a> it turns out it has insufficient memory &#8212; not to run, but to install in the first place.</p>
+<p>The problem is, unlike FreeBSD and most GNU/Linux distributions OpenSolaris doesn&#39;t allow text based installations (to the best of my knowledge), which means you have to boot off the CD and load an entire live Gnome graphical environment into memory. I think this is a serious flaw and doesn&#39;t help to sway the rallying point that Jonathan Schwartz made in the early 2000s when he called it Slowlaris! But that&#39;s for another post when I have more information.</p>
+<p>Because I only have 512MiB of memory in this machine it means the optical drive is constantly thrashing to unload and reload that last 200MiB+ of data that doesn&#39;t fit. The result is the installer took over 1.5 hours just to reach the screen where I could enter the timezone information of all things. I gave up at this point, perhaps if I had persevered for another 3 or 4 hours I may have got it installed.</p>
+<p>As I said in my earlier post this machine supports up to 1.5GiB of memory so I intend to grab a Kingston 1GiB memory module (#KVR333X72C25-1G) as soon as I can afford AU$80, in which case I might be able to give OpenSolaris another try. For now it&#39;s back to my beloved FreeBSD or to Debian.</p>
+ 

@@ -1,0 +1,48 @@
+---
+layout: post
+title: 'Debian Wheezy backports' 
+date: "2014-08-26T10:23:45+10:00"
+categories: 
+- Software 
+tags: 
+- debian
+- guides 
+---
+<p>Well, here we are in another <a href="https://twitter.com/Rubenerd/status/504035631253557248/photo/1" title="Photo I took off the train at Milsons Point, Sydney">fine Tuesday morning in Sydney</a>! Such was the volume of water pouring down the stairs in Town Hall station, I stacked. For those of you not from Australia (or New Zealand?), this referrs to face planting. Or tripping, or falling over, or smashing one&#39;s self on a ground in an unfortunate pose.</p>
+<p>But enough of physical adventures. I&#39;ve got a few <a href="http://www.debian.org/">Debian</a> machines in production, having made the switch from <a href="http://www.centos.org/">CentOS</a> to line up with what work is using. Interestingly, I&#39;ve come fully around to the Debian/apt way of doing things, such that the Red Hat universe already feels a little foreign. Well, almost!</p>
+<p>Somewhat in lieu of <a href="https://fedoraproject.org/wiki/EPEL">EPEL</a> on my CentOS boxes, Debian has backports. According to the <a href="http://backports.debian.org/Instructions/">documentation</a>, we can add this:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">deb http://http.debian.net/debian wheezy-backports main
+</code></pre>
+</div>
+<p>This points to a redirector, which sends you to a closer geo and network mirror. Now you can install backported software with:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text"># apt-get -t wheezy-backports install &lt;SOMETHING&gt;
+</code></pre>
+</div>
+<p>So now that we&#39;ve done that, let&#39;s tread into troubleshooting territory. That&#39;s a nice, warm, fuzzy way of saying don&#39;t type the following lines. In fact, lets make this into a subheading.</p>
+<h3>Don&#39;t type the following</h3>
+<p>No, really. The number of times I&#39;ve accidently entered a command I saw on a girl or guy&#39;s site late at night before realising its an example of what <strong>not</strong> to type, is rather embarrasing. Consider yourself warned.</p>
+<p>Say for example, you have the following in your sources list, as I did:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">deb http://http.debian.net/debian-backports wheezy-backports main
+</code></pre>
+</div>
+<p>Looks good, right? Alas, it will give you this.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">E: The value &#39;wheezy-backports&#39; is invalid for APT::Default-Release as such a release is not available in the sources
+</code></pre>
+</div>
+<p>I scratched my head for hours trying to figure this out. I could ping the server, view it in my browser, what&#39;s up? If you&#39;ve arrived here via a web search, maybe you&#39;re asking the same question.</p>
+<p>The issue is confused syntax. For squeeze-backports, the URL is:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">deb http://http.debian.net/debian-backports squeeze-backports main
+</code></pre>
+</div>
+<p>To repeat the first line in this post, wheezy-backports is:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">deb http://http.debian.net/debian wheezy-backports main
+</code></pre>
+</div>
+<p>That&#39;s right, don&#39;t include &quot;<code>-backports</code>&quot; going forward with wheezy, and you&#39;ll be fine. Cue a reference to <a href="https://en.wikipedia.org/wiki/Brandy_%28You%27re_a_Fine_Girl%29">Looking Glass</a>. And speaking of pointless references, that image of Yui inexplicably with a Debian Gnome desktop background was by <a href="http://wilusironforge.deviantart.com/art/Debian-Yui-Wallpaper-395379597">WilusIronforge</a> on <del>DebianART</del> DeviantART. Oh Ruben, you so funny.</p>
+ 

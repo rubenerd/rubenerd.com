@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'ZFS on FreeBSD supporting TRIM' 
+date: "2013-12-09T11:35:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- freebsd
+- fusion-drive
+- hard-drives
+- ssd
+- zfs 
+---
+<p><img src="http://files.rubenerd.com/2013/logo-freebsd.png" alt="FreeBSD logo" style="width:242px; height:87px;" /></p>
+<p><a href="http://rubenerd.com/freebsd9-parallels9/" title="FreeBSD 9.2 with vesa in Parallels Desktop 9">Speaking of FreeBSD</a>, I initially missed the line in the <a href="http://www.freebsd.org/releases/9.2R/announce.html" title="FreeBSD 9.2-RELEASE Announcement">9.2 release announcement</a> that ZFS will now support TRIM on SSDs.</p>
+<p>For those who don&#39;t know, TRIM was one of the earlier technologies broadly designed to help limit the number of overwrite requests to a solid state drive. Traditional hard drives mark deleted sectors as free, which the file system can allocate to other files. For solid state drives, a sector must first be wiped before allocating new data. With TRIM, the OS can inform the SSD where deleted data is located, drastically improving performance and the lifespan of the hardware.</p>
+<p>From what I understand of contemporary solid state drives, this is less of a concern now than it was a few years ago. Drives internally handle overwrite requests more intelligently now, so having a set of files constantly changing won&#39;t chew up your precious write cycles to the same extent. That said, anything to reduce it from the supply side is a good thing.</p>
+<h3>For now, what would be the use cases?</h3>
+<p>What I&#39;m more interested about is the potential applications of this. ZFS is the only file system I currently trust for complete data integrity; my backup FreeBSD machine uses it. For many use cases, the limited capacity and steep cost of SSDs would prevent them being used for data archiving. ZFS also requires a disproportionately large amount of system memory, something which may impact where SSDs are mostly used in the consumer space: laptops.</p>
+<p><strong>Disproportionately is a disproportionately large word.</strong></p>
+<p>I suppose a larger use would be pooling this SSD with cheaper drives and using some intelligence to determine required service. In the enterprise this would work well for cloud infrastructure deployments; in the home it&#39;d be useful for something akin to Apple&#39;s Fusion Drive. That is, if OS X got off crusty HFS+.</p>
+ 

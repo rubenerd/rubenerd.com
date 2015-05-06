@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Twitter could fix URL shorteners' 
+date: "2011-01-20T01:29:46+10:00"
+categories: 
+- Internet 
+tags: 
+- ess
+- infocomm
+- postaday2011
+- social-networking
+- thinking-out-loud
+- twitter 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.twitter.bird.png" alt="The Twitter bird" style="height:151px; width:306px;" /></p>
+<p>This was originally going to be a part of my recent URL shortening critique (<a href="http://rubenerd.com/rubyurl-joins-urltea-parrots/">RubyURL joins urlTea, parrots</a>), but didn&#39;t get it done in time. My premise: Twitter could almost completely render URL shortening obsolete… if they wanted to.</p>
+<p><!--oldmore--></p>
+<h3>Vegetable shortening is good for baking, right?</h3>
+<p>Originally tweets consisted of short messages about what we were doing… remember when Twitter used to ask us that? Shortly thereafter people started sharing links, and using TinyURL to shrink them down short enough to fit into the character limit. I&#39;d hazard a guess that most tweets consist thesedays of either an <strong>@reply</strong> to another Twitter user, or a link prefaced with a short comment.</p>
+<p>I&#39;ve been saying since 2007 that Twitter and Identi.ca/StatusNet (oh and <a title="Rub&eacute;nerd entry from 14th May 2008: Using Twhirl with Jaiku" href="http://rubenerd.com/p1167/">Jaiku</a> and <a title="Rub&eacute;nerd entry from 02nd Dec 2008: Goodbye Pownce, I Hardly Used Thee" href="http://rubenerd.com/p3524/">Pownce</a>… bless &#39;em!) should provide the ability for tweeters to associate a URL with a tweet. This would mean:</p>
+<ul>
+<li>We would have the full 140 characters for the comment</li>
+<li>It would allow previewing of the full URL, not an obfuscated short URL</li>
+<li>More cheese steak jimmy’s, rock on</li>
+<li>It would clean up our twitter streams and make them more usable</li>
+<li>It would eliminate one of the two biggest need for the ever increasing list of URL shorteners almost overnight (the other being the ability to easily tell people long URLs over the telephone, et al).</li>
+</ul>
+<p><img src="http://files.rubenerd.com/uploads/domo.jpg" alt="Domo Domo Domo-kun" style="height:179px; width:215px;" class="transparent" /></p>
+<h3>Demo Demo Demo-kun</h3>
+<p>So how would this work in practice? Well this is what a tweet with the current system would look like currently. That sentence had a lot of currents. I like blackcurrents.</p>
+<blockquote><p>
+Did you read this post? That Ruben character is such an aartard. <a href="http://rubenerd.com/?p=7921">http://rubenerd.com/?p=7921</a>
+</p></blockquote>
+<p>It&#39;d be rendered on the Twitter site or in client software like this:</p>
+<blockquote><p>
+Did you read this post? That Ruben character is such an aartard.<br />
+<strong><a href="http://rubenerd.com/twitter-could-fix-url-shorteners/">Reference link</a></strong>
+</p></blockquote>
+<p>I&#39;d implement this on my own StatusNet server (aka my work stuff), but it&#39;d mean any updates exported to Twitter would still have to have the links shortened and the rest of the message truncated by enough characters.</p>
+ 

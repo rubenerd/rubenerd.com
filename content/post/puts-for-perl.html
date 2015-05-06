@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Puts for old versions of Perl?' 
+date: "2010-09-15T03:33:17+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- howto
+- infocomm
+- perl
+- too-easy 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.perl.gif" alt="" style="height:80px; width:80px; display:inline; padding:0em; background:transparent; margin:0 0 10px 20px; float:right;" />Ruby developer complaining to me today that Perl doesn&#39;t have a puts method.</p>
+<pre>#!/usr/bin/env/perl -w
+
+use strict;
+
+my $goto = "K-K-K-K-Kathmandu!";
+&#038;puts("I think I'm going to…", $goto);
+
+sub puts {
+    print "@_n";
+}</pre>
+<p>Problem solved! ^_^</p>
+ 

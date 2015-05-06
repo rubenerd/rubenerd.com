@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Steam doesn’t like case sensitive HFS+' 
+date: "2011-06-26T12:58:22+10:00"
+categories: 
+- Software 
+tags: 
+- file-systems
+- games
+- infocomm
+- mac-os-x
+- postaday2011
+- steam 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.steam.error1.png" alt="" style="width:474px; height:132px;" /></p>
+<p>I don&#39;t play many games, I prefer working on projects and blogging personally :). So when a friend of mine wanted to install Steam on my Mac Pro, it was more than willing to accommodate my wishes by not installing.</p>
+<p><!--oldmore--></p>
+<h3>The procedure on not working</h3>
+<p><strong>1.</strong> When installed in <code>/Applications</code>, complain when it discovers the file system is set to case-sensitive HFS+.</p>
+<p><strong>2.</strong> When installed in a virtual disk image formatted with case-insensitive HFS+, complain when it installs its Application Data files in the user&#39;s Library folder, which is of course located on the aforementioned case-sensitive HFS+ file system.</p>
+<p><strong>3.</strong> When a symbolic link is created between the Steam data folder and a folder on the disk image to accommodate these two problems:</p>
+<pre>
+% cd ~/Library/Application Data
+% ln -s /Volumes/SteamStuff/Steam ./Steam
+</pre>
+<p>… then take an age to load, and finally crash.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.steam.error2.png" alt="" style="width:439px; height:139px;" /></p>
+<h3>Verdict</h3>
+<p>So it seems Steam and most Adobe products <strong>refuse</strong> to run on case-sensitive file systems, and many of my *nix software either <strong>prefer</strong> or <strong>mandate</strong> they run on case-sensitive file systems. No prizes for guessing which I choose to accommodate!</p>
+<p>That&#39;s not to say I&#39;m not glad other Mac users with more orthodox file system and software choices are able to play games, just personal preference.</p>
+ 

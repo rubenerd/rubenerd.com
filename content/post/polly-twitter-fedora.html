@@ -1,0 +1,118 @@
+---
+layout: post
+title: 'Installing @PollyClient on Fedora 16 and 17' 
+date: "2012-07-02T04:12:52+10:00"
+categories: 
+- Software 
+tags: 
+- centos
+- fedora
+- gconf
+- gnome
+- gtk
+- guide
+- infocomm
+- linux
+- p12
+- polly
+- python
+- red-hat
+- twitter 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.polly.fedora17.png" alt="" style="width:500px; height:260px;" /></p>
+<p>While Polly is understandably optimised for Ubuntu, it runs well enough on Fedora to still be my favourite multi-column Twitter client! Here&#39;s the quickest way to get it running.</p>
+<p><!--oldmore--></p>
+<h3>Getting the source</h3>
+<p>Polly doesn&#39;t ship with an RPM, but we can install it ourselves without too much trouble. Head to their <a href="https://launchpad.net/polly/+download/">Launchpad download site</a> and download the latest source tarball. As of writing, the latest is: </p>
+<pre>Polly-0.93.4 (pre-alpha 3.4).tar.gz</pre>
+<h3>Dependencies</h3>
+<p>The tarball&#39;s README list dependencies for Ubuntu, but it didn&#39;t take long to find their Fedora equivilents.</p>
+<table>
+<thead>
+<tr>
+<th style="font-weight:bold; text-align:left;">Ubuntu</th>
+<th style="font-weight:bold; text-align:left;">Fedora</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>python-gtk2</code></td>
+<td><code>pygtk2</code></td>
+</tr>
+<tr>
+<td><code>python-dbus</code></td>
+<td><code>dbus-python</code></td>
+</tr>
+<tr>
+<td><code>python-xdg</code></td>
+<td><code>pyxdg</code></td>
+</tr>
+<tr>
+<td><code>python-notify</code></td>
+<td><code>notify-python</code></td>
+</tr>
+<tr>
+<td><code>python-oauth2</code></td>
+<td><code>python-oauth2</code></td>
+</tr>
+<tr>
+<td><code>python-gconf</code></td>
+<td><code>gnome-python2-gconf</code></td>
+</tr>
+<tr>
+<td style="padding-right:20px;"><code>python-socksipy</code></td>
+<td><code>python-SocksiPy</code></td>
+</tr>
+<tr>
+<td><code>python-httplib2</code></td>
+<td><code>python-httplib2</code></td>
+</tr>
+<tr>
+<td><code>python-pycurl</code></td>
+<td><code>python-pycurl</code></td>
+</tr>
+<tr>
+<td><code>python-numpy</code></td>
+<td><code>numpy</code></td>
+</tr>
+<tr>
+<td><code>python-keyring</code></td>
+<td><code>python-keyring</code></td>
+</tr>
+<tr>
+<td><code>python-gtkspell</code></td>
+<td><code>gnome-python2-gtkspell</code></td>
+</tr>
+</tbody>
+</table>
+<p>And here they are on a single line to make installing easier. Depending on which spin you’re running, you may already have most of these.</p>
+<pre>
+# yum install dbus-python \
+gnome-python2-gconf \
+gnome-python2-gtkspell \
+notify-python \
+numpy \
+pygtk2 \
+pyxdg \
+python-SocksiPy \
+python-httplib2 \
+python-keyring \
+python-oauth2 \
+python-pycurl
+</pre>
+<p>These also bring in several dependencies, including:</p>
+<pre>atlas, gnome-python2-extras, gtkspell, libgfortran, python-nose</pre>
+<h3>Installing</h3>
+<p>Now it’s just a matter of extracting the tarball, and running the install script.</p>
+<pre>
+% tar xzvf "Polly-0.93.4 (pre-alpha 3.4).tar.gz"
+% cd "Polly-0.93.4 (pre-alpha 3.4)"
+# ./install
+</pre>
+<h3>Restarting gconfd-2</h3>
+<p>If Polly works now, you&#39;re done! Add your accounts, and tweet away!</p>
+<p>
+<p>Even with the latest alpha versions, Polly still refuses to load on any of my Fedora machines unless I restart gconfd-2 before I run it the first time. According to the <a href="http://projects.gnome.org/gconf/">GConf site</a>, the safest way to do this (other than outright killing it) is:</p>
+<pre>gconftool-2 --shutdown</pre>
+<p>The friendly Polly developers I&#39;ve talked to on Twitter expressed surprise that this was still needed. This leads me to believe it&#39;s a localised Fedora issue, which means when I research this further I&#39;ll be filing a support ticket with them, and not Polly. We&#39;ll see.</p>
+ 

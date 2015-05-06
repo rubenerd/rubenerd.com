@@ -1,0 +1,68 @@
+---
+layout: post
+title: 'FreeBSD 10 PVHVM serial console' 
+date: "2014-06-30T11:16:06+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- pvhvm
+- serial
+- virtualisation
+- xen 
+---
+<p>[FreeBSD 10.0-RELEASE](http://www.freebsd.org/releases/10.0R/announce.html “”) now has Xen PV drivers compiled into the GENERIC kernel. Specifically:</p>
+<blockquote>
+<p>Major enhancements in virtualization, including the addition of bhyve(8), virtio(4), and native paravirtualized drivers providing support for FreeBSD as a guest operating system on Microsoft Hyper-V.</p>
+</blockquote>
+<p>This means we can run it as an HVM Xen DomU, but with the performance of a paravirtualised VM for drivers, etc. We can also have console access, provided we initially install with VNC.</p>
+<p>An example HVM configuration to get started:</p>
+<pre><code>## FreeBSD-10.cfg for Xen
+
+## Kernel + memory size
+kernel = '/usr/lib/xen-4.1/boot/hvmloader'
+builder = 'hvm'
+memory = '2048'
+
+## Hostname
+name = 'FreeBSD-10'
+
+## Disk devices
+boot = 'cd'
+disk = [ 'phy:/dev/vg1/FreeBSD-10,hda,w',
+         'file:/vm/ISO/fbsd10-amd64-d1.iso,hdc:cdrom,r' ]
+
+## Networking
+vif  = [ 'mac=&amp;lt;random mac&amp;gt;,bridge=xenbr0' ]
+
+## Features
+acpi = 1
+apic = 1
+
+## VNC + console
+sdl    = 0
+vnc    = 1
+stdvga = 0
+serial = 'pty'
+</code></pre>
+<p>Run the install as normal. After reboot, append this to <code>/etc/rc.conf</code>:</p>
+<pre><code>ifconfig_xn0="DHCP"
+</code></pre>
+<p>For console access, add the following to <code>/boot/loader.conf</code>:</p>
+<pre><code>boot_multicons="YES"
+boot_serial="YES"
+comconsole_speed="115200"
+console="comconsole,vidconsole"
+</code></pre>
+<p>Then for <code>/etc/ttys</code>, comment out ttyu0 and replace with:</p>
+<pre><code>ttyu0 "/usr/libexec/getty std.115200 vt100 on secure
+</code></pre>
+<p>Now you can reboot, and access the console. From your hypervisor:</p>
+<pre><code>xm console FreeBSD-10
+</code></pre>
+<p>Or if you’re using the newer toolchain:</p>
+<pre><code>xl console FreeBSD-10
+</code></pre>
+<p>Now I want a DEC console.</p>
+ 

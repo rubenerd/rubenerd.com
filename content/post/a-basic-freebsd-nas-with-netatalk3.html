@@ -1,0 +1,65 @@
+---
+layout: post
+title: 'A basic FreeBSD NAS with netatalk3' 
+date: "2014-01-25T06:25:01+10:00"
+categories: 
+- Thoughts 
+tags: 
+- bsd
+- file-servers
+- freebsd
+- guides
+- os-x 
+---
+<p>FreeNAS has run flawlessly on any vanilla hardware I&#39;ve thrown at it over the years. With the release of FreeBSD 10 however, I decided it might be fun to build a NAS from scratch. FreeBSD includes the new pkg manager by default and its ZFS support is rock solid; it&#39;s a great time to be a FreeBSD fan.</p>
+<h3>Deciding on a sharing protocol</h3>
+<p>What sharing protocol mix you choose to employ will obviously depend on the clients you&#39;re intending to access it with. For my household, we predominately run a mixture of Mac OS X Lion and Mavericks.</p>
+<p>Samba arguably would make sense given Apple even uses it to carry AFP on Mavericks. We don&#39;t have Windows production machines outside of VMs here, but it would be nice to have the ability to talk to potential ones in the future. Unfortunately, my venerable Mac Pro only runs Lion, and its spotty SMB support is the stuff of legend. It was therefore quickly ruled out.</p>
+<p>The next choice was NFS. Plenty of people I know use this in home environments, but I&#39;ve always been wary of its security issues related to user IDs. The latest release seemingly resolves many of these problems, but unfortunately we&#39;re back to Lion compatibility issues. I could dive into FUSE, but would rather not.</p>
+<p>The solution therefore was falling back to AFP.</p>
+<h3>Netatalk 3</h3>
+<p><a href="http://netatalk.sourceforge.net/">Netatalk</a> is a free and open source implementation of Apple&#39;s AFP. Frustratingly, nearly all the online examples and documentation I searched for discusses Netatalk 2. Netacad 3 is very different in many ways, with all the new AFP features and a simplified configuration file.</p>
+<p>By default on FreeBSD 10, we install it thusly: </p>
+<pre>
+# pkg update
+# pkg install netatalk3
+</pre>
+<p>The configuration file is beautifully simple, and now resides in the following location:</p>
+<pre>
+# vi /usr/local/etc/afp.conf
+</pre>
+<p>The file is split into Global, Homes and Shares. The default configuration shows you what to do, but here are the sections from mine:</p>
+<pre>
+[Global]
+  hosts allow = 10.0.1.0/24
+  mimic model = Xserve
+</pre>
+<p>Here we define which hosts we want to access. We can use CIDR notation for the subnet mask, which is rather nice. Alternatively, you can specific specific hosts. Mimic model determins which icon to show in the Finder when you connect to it; Xserve looks swish.</p>
+<pre>
+; [Homes]
+  ; basedir regex = /xxxx
+</pre>
+<p>Here we can define a default share based on the username of the client accessing. I can see it being a cool feature, but not one I&#39;ll be using so I&#39;ve left it commented out.</p>
+<pre>
+[MediaDrive]
+  path = /pool/media
+  valid users = shimapan sukumizu kiri
+</pre>
+<p>And here we define all the shares we want. Initially I was confused and thought we somehow had to define all our paths and users here. We can have multiple ones, with the name to appear in the Finder in the square brackets.</p>
+<p>For my use case, I defined several new users in FreeBSD for each family member, then used their respective names in the &#8220;valid users&#8221; option for different shares shares. That way, everyone can read and write to what they need to when backing up data or reading common files. I like how that works.</p>
+<h3>/etc/rc.conf</h3>
+<p>Now that we’ve configured it, we enable it for boot in the venerable rc.conf:</p>
+<pre>
+netatalk_enable="YES"
+afpd_enable="YES"
+cnid_metad_enable="YES"
+dbus_enable="YES"
+</pre>
+<p>And we&#39;re done! I didn&#39;t need/want autodiscovery, but if you want your FreeBSD VPS appearing in the Finder automatically, you&#39;ll want to enable Avahi next.</p>
+<h3>Useful posts elsewhere</h3>
+<ul>
+<li><a href="http://netatalk.sourceforge.net/3.0/htmldocs/">Netatalk 3 Manual</a></li>
+<li><a href="http://signalboxes.net/howto/freebsd-file-server-for-mac-clients/">FreeBSD file server for Mac clients, by Josh Beard</a></li>
+<li><a href="http://blog.stfu.se/setting-up-freebsd-as-a-fileserver-and-time-machine-target-in-mac-os-x/">Setting up FreeBSD as a fileserver and Time Machine on Mac OS X, by  taliz</a></li>
+</ul>
+ 

@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'A graphical Mac application package manager' 
+date: "2013-12-06T12:28:31+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- homebrew
+- homebrew-cask
+- os-x
+- package-managers 
+---
+<p>Since skeptically moving to it from MacPorts and NetBSD’s pkgsrc, I’ve become rather enamored with homebrew. The lack of modesty in the project description (MacPorts driving you to drink?) belies the nicest package manager on any platform.</p>
+<p>Which got me to thinking: could a similar package manager be created for binary graphical applications?</p>
+<h3>The process</h3>
+<p>When I thought about it, much of the process seemed to be the same:</p>
+<ol>
+<li>
+<p>You could create a formula pointing to Firefox’s latest dmg, with the same hashes and installation instructions in the ruby file.</p>
+</li>
+<li>
+<p>Once downloaded, the dmg (or other binary distribution method) could have their distributable hashed and verified, then parsed and extracted.</p>
+</li>
+<li>
+<p>Then you could do the same <code>brew link</code> we use for the few graphical apps that made their way to the mainline Homebrew system.</p>
+</li>
+<li>
+<p>Once installed, it would simply be a matter of running <code>brew update</code> to have all your graphical and shell applications updated.</p>
+</li>
+</ol>
+<p>Then finally, Mac users could be on an even footing with those Linux people who can just do a yum update.</p>
+<h3>2012 called, they want their idea back</h3>
+<p>Before last semester, I thought such a system would be really neat to implement. Like the fool I am though, such a system already exists that I could have been using!</p>
+<p>With this collaborative, open <a href="http://brew.sh/">Homebrew</a> and <a href="http://caskroom.io/">Homebrew Cask</a> package managers, Mac OS X finally feels as easy to administer (at least when it comes to installing software) as Linux.</p>
+ 

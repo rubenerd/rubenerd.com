@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Belkin F5D7010 works on Fedora and FreeBSD' 
+date: "2012-10-11T02:49:48+10:00"
+categories: 
+- Hardware 
+tags: 
+- belkin
+- bsd
+- fedora-linux
+- freebsd
+- infocomm
+- linux
+- wifi
+- wireless 
+---
+<p><img src="http://files.rubenerd.com/uploads/photo.belkin.g.jpg" alt="Photo of my ThinkPad X61s at a coffee shop with the wireless card in question" style="width:500px; height:313px;" /></p>
+<p>I can confirm it works brilliantly, and better than the stock internal wireless card on my ThinkPad X61s!</p>
+<p><!--oldmore--></p>
+<h3>You won’t let me connect?</h3>
+<p>The Intel PRO/Wireless 4965 card is an odd beast. It can connect to any wireless network I throw at it, enterprise or otherwise. That is, until I take my ThinkPad X61s to UTS (my university) and attempt to connect to their PEAP WPA2 network. Occasionally enough to be weird, it&#39;ll troll me and connect, otherwise I&#39;ll be prompted for my password four times, then it&#39;ll fail. It&#39;s like interfacing with a customer support hitline.</p>
+<p>I mistyped &quot;hotline&quot; as &quot;hitline&quot;. I think I&#39;ll leave it.</p>
+<p>I&#39;d all but given up and decided to start researching replacing the internal wireless card. As much as I&#39;m a fan of Apple&#39;s minimalism, I&#39;m also a fan of ThinkPads modular design with easily accessible bays for all the major components, and replacing the wireless card would be trivial.</p>
+<p>And then I remember I had an alternative. It came to me in a vision. Or a drawer, or something.</p>
+<h3>You’ll let me connect?</h3>
+<p>I bought this Belkin F5D7010 G wireless CardBus card originally when I ran FreeBSD on my Armada M300. The same card you see in the photo above can be seen in <a href="http://rubenerd.com/p1156/">this post from 2008</a>.</p>
+<p>As people who run FreeBSD and Linux can relate to, typically we have to be a bit more careful about what hardware we use to ensure compatibility with our more limited set of drivers. It had worked flawlessly on FreeBSD, so I thought I&#39;d give it a whirl on Fedora.</p>
+<p>I took it to UTS, and it&#39;s connected almost every single time, without trouble. Well, without any more trouble than we all face connecting to UTS wireless. Mmm-hiven-maven.</p>
+<p>The Belkin F5D7010 is based off the Broadcom bcm43xx chipset, which thanks to the tireless efforts of reverse engineers (sounds like people building a backwards bridge) and later Broadcom releasing more limited drivers, this card works flawlessly on Fedora (and FreeBSD). If you have an older laptop, buy this card with creamy, chocolate filled confidence.</p>
+ 

@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Yes, you can use qcow2 images with Xen' 
+date: "2014-11-03T05:55:56+10:00"
+categories: 
+- Software 
+tags: 
+- qemu
+- xen 
+---
+<p><img src="http://files.rubenerd.com/2014/Xen-Fu-Panda-500px.png" alt="Xen's Panda mascot" style="width:250px;" /></p>
+<p>Happy Monday everyone. Today I discovered we can mount QEMU qcow2 images, <strong>without</strong> converting them to raw first. For example, this would be a typical file based line in a Xen config:</p>
+<pre>
+disk = ['file:/path/disk.raw,xvda,w']
+</pre>
+<p>For qcow2 images, the syntax is:</p>
+<pre>
+disk = ['tap:qcow2:/path/images/disk.qcow2,xvda,w']
+</pre>
+<p>Alas, some Linux distros and FreeBSD fail in this configuration. Therefore, a gigantic <em>your mileage may vary</em> warning must be observed before running a test machine with this, even if you live in the rest of the world that <a href="http://chartsbin.com/view/d12">now uses the metric system</a>.</p>
+ 

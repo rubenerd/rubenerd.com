@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Default servers in nginx' 
+date: "2014-08-25T04:40:06+10:00"
+categories: 
+- Internet 
+tags: 
+- guide
+- nginx 
+---
+<p>Apache served me well from my teens till lighttpd, then in the last year I’ve moved all my own stuff to nginx. If you come from the perspective of someone learning to configure a webserver from scratch (without preconceived notions of how they should be configured from Apache), its rather lovely to configure and use.</p>
+<p>The cloud instance that runs this site also serves several others, so I have a series of virtual hosts, to borrow a term from Apache. Each domain has its own configuration within sites-available, then the servers I want active are symlinked into sites-enabled.</p>
+<p>For example:</p>
+<pre>
+ls -l /etc/nginx/sites-enabled
+    
+=> rubenerd -> /etc/nginx/sites-available/rubenerd
+=> tigerintherain -> /etc/nginx/sites-available/tigerintherain
+</pre>
+<p>If this server receives an http request without a header, or I’ve pointed a domain with my DNS server to it that doesn’t have a corresponding config, nginx will return the first defined server block. In this case, rubenerd. But what if we want to return tigerintherain?</p>
+<p>The first approach would be familar to those configuring GRUB: simply prepend 00 to the first virtual host file. I’ve tested this, and it works. It’s also a terrible hack, and it made me feel bad.</p>
+<p>The alternative is to append &#8220;default_server&#8221; to the listening port of the server you want nginx to default to. For example:</p>
+<pre>
+server {
+    listen 80 default_server;
+    server_name tigerintherain.com;
+    [..]
+}
+</pre>
+<p>I prefer this approach because it’s self documenting. The nginx docs point out you can use an invalid character and it’ll still work:</p>
+<pre>
+server {
+    listen 80 default_server;
+    server_name _;  ## resolves tigerintherain.com
+    [..]
+}
+</pre>
+<p>Now you can reboot nginx, and be on your way.</p>
+ 

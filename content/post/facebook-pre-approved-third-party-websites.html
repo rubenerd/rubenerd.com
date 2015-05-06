@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Uh oh, Facebook pre-approved third-party sites' 
+date: "2010-03-31T01:18:40+10:00"
+categories: 
+- Internet 
+tags: 
+- facebook
+- infocomm
+- privacy
+- scummy
+- security
+- social-networking
+- terms-of-service
+- xss 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.facebook.sad.smaller.png" alt="" style="height:120px; width:420px; display:inline;" /></p>
+<p>Facebook&#39;s constant terms of service changes almost seem designed to test the limits of what they can get away with, much like Microsoft in the 1990s. This is the creepiest part of their <a title="Facebook Site Governance" href="http://www.facebook.com/fbsitegovernance?_fb_noscript=1">proposed</a> privacy policy:</p>
+<p><!--oldmore--></p>
+<blockquote><p>Pre-Approved Third-Party Websites and Applications.</p></blockquote>
+<p>It&#39;s as if they took slides from a Security and Privacy 101 lecture and used the headings to construct a sentence.</p>
+<blockquote><p>In order to provide you with useful social experiences off of Facebook, we occasionally need to provide General Information about you to pre-approved third party websites and applications that use Platform at the time you visit them (if you are still logged in to Facebook).</p></blockquote>
+<p>In other words, they know many people will be using Facebook with other browser tabs open, so they&#39;ll be exploiting them using a &quot;legitimised&quot; kind of XSS. Oh well, I suppose I could run Facebook in a sandbox or a separate browser that deletes cookies and history each session. Wait, no, that won&#39;t work because…</p>
+<blockquote><p>Similarly, when one of your friends visits a pre-approved website or application, it will receive General Information about you so you and your friend can be connected on that website as well (if you also have an account with that website).</p></blockquote>
+<p>I already knew my less security and privacy conscious friends were making a worryingly large slice of my information available when they installed any application, but this means it&#39;ll extend to sites as well? Really?!</p>
+<p>Fortunately, we have nothing to fear because of all this stuff:</p>
+<blockquote><p>In these cases we require these websites and applications to go through an approval process, and to enter into separate agreements designed to protect your privacy. For example, these agreements include provisions relating to the access and deletion of your General Information, along with your ability to opt-out of the experience being offered. You can also remove any pre-approved website or application you have visited here [add link], or block all pre-approved websites and applications from getting your General Information when you visit them here [add link].</p></blockquote>
+<p>Malicious users who are able to exploit a bug in the implementation of this on a pre-approved third-party server don&#39;t sign agreements. They&#39;re also banking on the fact most users don&#39;t know or care about the technical workings of their Facebook accounts and won&#39;t do anything.</p>
+<blockquote><p>In addition, if you log out of Facebook before visiting a pre-approved application or website, it will not be able to access your information.</p></blockquote>
+<p>So you&#39;re admitting that as long as they&#39;re logged into Facebook in another tab in their browser you&#39;ll continue to perform your aforementioned suspect activities, while legitimising it by saying once they log out it&#39;ll all be peachy?</p>
+<blockquote><p>You can see a complete list of pre-approved websites on our About Platform page.</p></blockquote>
+<p>Whew, first good piece of news I read, I&#39;ll have some URIs to add to my DNS blacklist. Hope they&#39;re not sites I frequent otherwise I&#39;m stuffed.</p>
+<h3>Other sections</h3>
+<p>Other parts of this new Privacy Policy are dodgy, but not any more than usual. This one about cookies didn&#39;t seem right, though perhaps that&#39;s just because I&#39;ve never &quot;interacted&quot; with an advertisement before. <a title="Mozilla Firefox extensions: Targeted Advertising Cookie Opt-Out" href="https://addons.mozilla.org/en-US/firefox/addon/11073">TACO</a> might have something to do with that though :P.</p>
+<blockquote><p>We also use [cookies] to confirm that you are logged into Facebook, and to know when you are interacting with […] our advertisements.</p></blockquote>
+<h3>The final word(s)</h3>
+<p>As with many users, I&#39;m really torn when Facebook does crap like this. I already decided last year to stop updating my profile and delete all my applications, but if this goes through I&#39;ll delete all my data save for my email address and name (folks from high school still sometimes contact me through it). Surprising though it may seem, I haven&#39;t found any way to permanently (though even that&#39;s debatable) wipe a Facebook account short of deleting it and starting again.</p>
+<p>Sometimes I go to bed feeling great about humanity, most nights I don&#39;t.</p>
+ 

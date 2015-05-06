@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'SATA on QEMU' 
+date: "2014-09-24T09:44:28+10:00"
+categories: 
+- Software 
+tags: 
+- qemu
+- sata
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/2014/sata-plane.jpg" alt="" style="width:500px; height:260px" /></p>
+<p>Today’s featured image is of a Portuguese SATA aircraft, by <a href="https://commons.wikimedia.org/wiki/File:SATA_International_Airbus_A310-300_Verkuringen.jpg">Luc Verkuringen</a> on Wikimedia Commons. Because SATA. I’m highly-larious.</p>
+<p>By default, QEMU emulates an IDE interface for attached storage devices. For example, starting this VM will attach the hda drive as primary master, hdb as primary slave and hdc (or cdrom) as secondary slave.</p>
+<pre>
+#!/bin/sh
+
+qemu-system-x86_64 \
+    -hda first.img \
+    -hdb second.img \
+    -cdrom freebsd.iso
+</pre>
+<p>I needed a way to test if an OS operated correctly with a SATA AHCI controller. There is a way to emulate a SATA controller, by creating seperate devices and attaching your drive to it:</p>
+<pre>
+[..]
+-drive file=[YOUR IMAGE],if=none,id=[AN IMAGE ID] \
+-device ich9-ahci,id=ahci \
+-device ide-drive,drive=[AN IMAGE ID],bus=ahci.0 \
+[..]
+</pre>
+<p>Sure enough, <a href="http://www.intel.com/content/www/us/en/io/io-controller-hub-9-datasheet.html">ich9-ahci</a> is an Intel controller, which supports SATA. Boom. Booting a Linux system with this config:</p>
+<pre>
+[    1.518092] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+</pre>
+<p>Once again, kudos to the QEMU team for their amazing software.</p>
+ 

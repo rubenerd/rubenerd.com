@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'UFRaw on Mac OS X to open RAW, RAF files' 
+date: "2007-05-30T01:24:52+10:00"
+categories: 
+- Software 
+tags: 
+- adobe-photoshop
+- apple
+- fujifilm
+- gimp
+- infocomm
+- mac-os-x
+- photos
+- raw
+- terminal
+- ufraw 
+---
+<p>One of the features I love about my FinePix S9600 (yes, a <em>prosumer</em> one Julee, rrrrr) is the ability to save images in an uncompressed RAW file format. Only catch is the RAW format FujiFilm cameras exports is RAF, which my beloved open source photo editing <a href="http://plasticbugs.com/?page_id=294">GIMPShop</a> can&#39;t open, nor can the default <a href="http://en.wikipedia.org/wiki/Preview_%28software%29">Mac OS X Preview</a>. Adobe Photoshop can open them, but the GIMP does everything else I ever used Photoshop for, and it&#39;s a lot cheaper (read: free!).</p>
+<p>Fortunately as usual the open source world has come to the rescue in the form of <a href="http://ufraw.sourceforge.net/">UFRaw</a>, a GTK+ based RAW image manipulator and exporter.</p>
+<p>Assuming you already have <a href="http://trac.macosforge.org/projects/macports/browser/downloads/">MacPorts installed already</a>, fire up a Terminal and type in <code>sudo port -v install ufraw</code>. Go grab a cup of coffee or something while you&#39;re waiting, it will take a while.</p>
+<p><img id="image815" src="http://files.rubenerd.com/uploads/ufraw_term.png" alt="ufraw_term.png" /></p>
+<p>Because this is an X11 app and not a native Mac Aqua one you need to start it with X11 (obviously). So once the MacPorts install has finished, fire up X11 in <code>/Applications/Utilities</code>.</p>
+<p>At this point you could just open an X11 Terminal and start it, but I like having a neat menu item I can access from the X11 icon in the Dock. So go to the X11 Application menu and click <code>Customize Menu…</code>, click <code>Add</code> and fill in the command as <code>/opt/local/bin/ufraw</code> (assuming you&#39;re using the MacPorts defaults):</p>
+<p><img id="image816" src="http://files.rubenerd.com/uploads/ufraw_x11.png" alt="ufraw_x11.png" /></p>
+<p>Now you can open X11 and click UFRaw in the Applications menu whenever you need it <span class="smilie">^^</span>. It has a very nice set of features, or optionally you can just export to JPEG if you want as well.</p>
+<p>Here&#39;s UFRaw running on my MacBook Pro with a <em>crappy</em> RAF image I took outside my window this evening of an urban Singapore sunset:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.ufraw_singapore.png"><img src="http://files.rubenerd.com/uploads/screenie.ufraw_singapore_thumb.jpg" alt="Screenshot of UFRaw on Mac OS X" /></a></p>
+ 

@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'My belated review of VirtualBox for Mac' 
+date: "2009-04-27T08:08:56+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- dos
+- emm386
+- freebsd
+- infocomm
+- intel-vt-x
+- linux
+- mac-os-x
+- opensolaris
+- operating-systems
+- sun-microsystems
+- umbpci
+- virtualbox
+- virtualisation
+- windows 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3478894113/" title="FreeBSD, MS-DOS and Windows 2000 in VirtualBox by rubenerd, on Flickr"><img src="http://farm4.static.flickr.com/3384/3478894113_d5a41eeba2.jpg" width="500" height="313" alt="FreeBSD, MS-DOS and Windows 2000 in VirtualBox" style="display:inline; border:0px;" /></a><br /><cite>FreeBSD 7.1 with Xfce, MS-DOS with XTreeGold and Windows 2000</cite></p>
+<p>In my quest to find the most useful <a href="http://rubenerd.com/mac-vm/">virtualisation software for Mac</a> I&#39;ve so far used Parallels Desktop, VMware Fusion and <a href="http://rubenerd.com/review-of-q/">Q.app</a> in various capacities. Today I decided to take a closer look at <a style="font-weight:bold" href="http://virtualbox.org/">VirtualBox</a>, the free and open source virtualisation software by Sun Microsystems.</p>
+<p>Firstly the good news: VirtualBox is <strong><em>fast</em></strong>. Because it can take advantage of <a href="http://www.intel.com/technology/itj/2006/v10i3/1-hardware/6-vt-x-vt-i-solutions.htm">VT-x in the Intel processors</a> of modern Macs the performance is in an entirely different league to QEMU based applications and much closer in performance to expensive (at least in the eyes of a university student!) commercial products from VMware and Parallels.</p>
+<p>Because of it&#39;s higher performance, VirtualBox can run all current flavours of BSD, Linux and Windows that I&#39;ve thrown at it just beautifully. Creating machines is a snap, and the shortcut keys for commands such as hard reset (command-R) are the best of any Mac virtualisation product I&#39;ve used.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.virtualbox.main.png" alt="The main VirtualBox graphical control window" style="height:260px; width:500px; display:inline; border:0px;" /></p>
+<p>Unfortunately for me there have been some problems. For starters, considering it&#39;s a Sun product I found it disheartening to find <a href="http://opensolaris.org/">OpenSolaris</a> 08.11 can&#39;t pass the initial boot stage to install without giving an error which is a shame. <a href="http://freebsd.org/">FreeBSD</a> has difficulty using the emulated optical drive which in practical usage is fine but it means you need to initally install over a network, no easy install of an ISO is possible. And for my electronic nostalgia, VirtualBox crashes whenever I attempt to load either the <a href="http://support.microsoft.com/kb/78557">EMM386</a> or <a href="http://www.uwe-sieber.de/umbpci_e.html">UMBCPI</a> upper memory managers in MS-DOS 6.22 or PC DOS 2000 despite exhaustive attempts to map the correct memory addresses.</p>
+<p>As I said on my Q.app review, my first generation Core Duo MacBook Pro seems to be a very quirky machine for virtualisation: it seems to have troubles than most Apple people don&#39;t seem to have! Keeping this in mind I&#39;m ready to chalk these problems up to my eccentric machine, but it&#39;s still a bit disheartening.</p>
+<p>VirtualBox has the potential to be an amazing product, and certainly for Windows and Linux it does the job beautifully &#8212; especially for the price! Unfortunately for my own current needs though I&#39;m going to have to give it a pass; while it does run Windows 2000 amazingly well I&#39;d prefer not to have to use several higher end virtualisation products for different things.</p>
+ 

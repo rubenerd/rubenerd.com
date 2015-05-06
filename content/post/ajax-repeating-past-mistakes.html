@@ -1,0 +1,17 @@
+---
+layout: post
+title: 'AJAX: repeating past mistakes' 
+date: "2007-04-27T03:05:21+10:00"
+categories: 
+- Thoughts 
+tags: 
+- ajax 
+---
+<p>One of the biggest fads of the Web 1.0 days was the use of embedded Macromedia/Adobe Flash for web content. It made the websites that utilised it render painfully slowly, it prevented people with disabilities from accessing content, it completely stuffed up the bookmarking, text highlighting, back and forward functionality of web browsers, it made saving local and legally legitimate copies of online content next to impossible… I could go on all day. Today it’s largly been relegated to the displaying of videos and animation, which in my mind was what it was actually designed for in the first place!</p>
+<p>Now in the Web 2.0 days I fear we’re making the same mistakes with AJAX.</p>
+<p>AJAX stands for <em>Asynchronous JavaScript and XML</em> and in the simplest terms allows websites to send and receive data from a server when a web page has finished loading. Unlike Flash though which requires a third party, proprietary plugin (I’m on FreeBSD, when are you going to support me Adobe?) it uses the built in XMLHttpRequest API of compatible browsers, and displays the results as regular xHTML.</p>
+<p>Problem is, with all these improvements AJAX is still really just an elaborate hack that twists the web to work in a way in which it was not intended. While it addresses many of the problems we had with Flash in the Web 1.0 days (any website using Flash for navigation or primary content display these days is just a joke, plain and simple), it still has many painful shortcomings.</p>
+<p>I strongly believe the primary strength of AJAX; the ability to re-render web pages on the fly without a page reload; is also it’s greatest weakness. By removing the idea of a <strong>fixed, predictably reproducible state</strong> from a web page, it makes indexing, searching and bookmarking of pages infinity more difficult, if not completely impossible. As with Flash it also makes it much harder for people who use screen readers to access content, it stuffs up on the fly language translation services (which already have enough trouble as it is), not to mention all the work involved in creating pages that gracefully fall back to plain xHTML when an incompatible browser is detected.</p>
+<p>Perhaps these problems can be addressed, perhaps they already have been and I’m just typing garbage here, but the point I’m trying to make is that AJAX by its own definition introduces some of the same usability problems as Flash and makes what should be simple tasks on websites that much more complicated to create and maintain.</p>
+<p>So for the time being, my websites will be using tried-and-true CGI generated XHMTL with hyperlinks, you know, the stuff web browsers and us mere mortals know how to use!</p>
+ 

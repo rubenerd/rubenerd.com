@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'When force umount doesn’t even work' 
+date: "2014-07-04T03:43:17+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- linux
+- troubleshooting
+- volumes 
+---
+<p style="font-weight:bold">DISCLAIMER: Your Linux box won’t normally prevent you unmounting something without a reason. Run these commands at your own risk&#8230; to data integrity.</p>
+<p>If you’re attempting to unmount a volume (such as /mnt), and it refuses&#8230;</p>
+<pre>
+# umount /mnt
+
+==> umount: /mnt: device is busy.
+==>        (In some cases useful info about processes that use
+==>         the device is found by lsof(8) or fuser(1))
+</pre>
+<p>&#8230;there’s a chance a process is still accessing it. You can use lsof to see:</p>
+<pre>
+bash  14115  root  cwd  DIR  202,16  4096  2  /mnt
+</pre>
+<p>Great, in this case the only thing using it is our shell, and we’re not even in the directory. In that case, time to force:</p>
+<pre>
+# umount -f /mnt
+
+==> umount2: Device or resource busy
+==> umount: /mnt: device is busy.
+==>         (In some cases useful info about processes that use
+==>          the device is found by lsof(8) or fuser(1))
+==> umount2: Device or resource busy
+</pre>
+<p>For more persistent errors, its time to kill the process using it with <code>fsuer</code>.</p>
+<pre>
+# fuser -km /mnt
+==> /mnt:                14115c
+# umount /mnt
+</pre>
+<p>Then the volume should unmount. Now would also be a good time to re–read the disclaimer at the beginning of this post.</p>
+ 

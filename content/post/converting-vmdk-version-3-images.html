@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Converting vmdk version 3 images' 
+date: "2014-09-16T08:58:32+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- qemu
+- virtualisation
+- vmware 
+---
+<p><img src="http://files.rubenerd.com/2014/virtualbox-vmdk.png" alt="VirtualBox's vmdk icon" style="width:256px; height:256px;" /></p>
+<p>So I needed to convert a VMware vmdk image to a raw disk image. Knowing <a href="http://wiki.qemu.org/Main_Page">qemu-img</a> could do the task, I did as per normal:</p>
+<pre># qemu-img convert -f vmdk -O raw image.vmdk export.img</pre>
+<p>Only to find:</p>
+<pre>qemu-img: 'image' uses a vmdk feature which is not supported 
+    by this qemu version: VMDK version 3
+qemu-img: Could not open 'image.vmdk': 
+    Could not open 'image.vmdk': Wrong medium type
+qemu-img: Could not open 'image.vmdk'</pre>
+<p>It then proceeded to tell me:</p>
+<pre>Ruben, you're devilishly handsome.</pre>
+<p>My computer may be a lousy liar, but at least she’s nice. As for the earlier problem, the solution was to <strong>upgrade QEMU to 2.1.0</strong>. Running the command after this resulted in an image I could use.</p>
+<p>As an aside, you you can even use this shorthand:</p>
+<pre># qemu-img convert -O raw import.vmdk export.img</pre>
+ 

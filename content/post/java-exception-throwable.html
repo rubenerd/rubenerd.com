@@ -1,0 +1,54 @@
+---
+layout: post
+title: 'Exception and Throwable Java classes' 
+date: "2009-09-17T06:00:46+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- exception-handling
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.java.175.png" alt="Classic Java logo" style="height:305px; width:175px; display:inline; border:0em; padding:0em; background:transparent" /></p>
+<p>A few weeks ago I talked about how you can <a href="http://rubenerd.com/custom-java-exceptions/">throw custom exceptions in Java</a> which can be extremely useful for dealing with certain events. The problem a few people raised with my example though was my use of <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a></code> instead of <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html">Exception</a></code>, so this afternoon I wanted to briefly explore the error in my ways!</p>
+<p><!--oldmore--></p>
+<p>While using <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a></code> in the context of throwing custom error messages technically works, the <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html">Exception</a></code> class inherits directly from Throwable and is on the same level as the exceptions Java throws itself (surprising given the name!) which makes it a more correct choice.</p>
+<p>The reason why my lecturer and I were using <code>Throwable</code> instead of Exception was because we wanted access to the <code>printStackTrace()</code> method which provides valuable feedback. It turns out given <code>Exception</code> is a subclass of Throwable it also implements it! Sometimes the most obvious things are the most elusive.</p>
+<p>To test that <code>Exception</code> did indeed implement the <code>printStackTrace()</code> method I wrote a basic Java application called Nonsense in which I created custom <code>Throwable</code> and <code>Exception</code> errors, triggered them with some dummy methods and finally handled them in try and catch blocks which printed the results.</p>
+<blockquote>
+<pre>
+public class Nonsense {
+  public static void main(String[] args) {
+    try { testThrowable(); }
+    catch(throwableError e) { e.printStackTrace(); }
+    try { testException(); }
+    catch(exceptionError e) { e.printStackTrace(); }
+  }
+
+  static void testThrowable() throws throwableError {
+    throw new throwableError();
+  }
+
+  static void testException() throws exceptionError {
+    throw new exceptionError();
+  }
+}
+
+class throwableError extends Throwable {
+  public throwableError() {
+    super("Whoops! THROWABLE error!");
+  }
+}
+
+class exceptionErr extends Exception {
+  public exceptionError() {
+    super("Whoops! EXCEPTION error!");
+  }
+}</pre>
+</blockquote>
+<p>Aside from the line numbers the <code>printStackTrace()</code> method reports in both, <strong>the output is identical</strong>. Lesson learned, if I want to specifically throw my own <code>Exception</code>, I&#39;ll use the <code>Exception</code> class!</p>
+<p>I restrained myself, I didn&#39;t end up making the lame comment that &quot;I take exception to all these Exceptions!&quot; until the last line. I&#39;m proud of myself.</p>
+ 

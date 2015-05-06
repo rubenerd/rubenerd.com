@@ -1,0 +1,35 @@
+---
+layout: post
+title: 'Disable moused on a FreeBSD Xen guest' 
+date: "2014-09-11T03:33:44+10:00"
+categories: 
+- Software 
+tags: 
+- drivers
+- freebsd
+- guides
+- mouses
+- virtualisation
+- xen 
+---
+<p>I run FreeBSD instances on a cloud running Xen. Compared to the Linux instances, it performs better with less memory and has a better mascot, surprising nobody.</p>
+<p>Looking through memory usage though, I saw this:</p>
+<pre>
+653 root 1 20 0 16628K 1940K select 0:00 0.00% moused    
+</pre>
+<p>I have a mouse, on a cloud instance? Sure enough, grepping dmesg:</p>
+<pre>
+ums0 &lt;Endpoint1 Interrupt Pipe&gt; on usbus0
+ums0: 3 buttons and [Z] coordinates ID=0
+</pre>
+<p>From what I can tell, the hypervisor this instance is running on provides the default Xen USB mouse. This makes sense, after all you can run Windows instances or X11. FreeBSD detected this, and loaded moused.</p>
+<p>Interestingly, adding the following to <code>/etc/rc.conf</code> had no effect:</p>
+<pre>
+echo moused_enable=&quot;NO&quot;
+</pre>
+<p><a href="http://geektivities.wordpress.com/2008/07/07/freebsd-starts-moused-even-when-its-disabled-in-rcconf/">This post on geektivities</a> had the answer, by specifying the interface:</p>
+<pre>
+moused_ums0_enable=&quot;NO&quot;
+</pre>
+<p>Now the mouse doesn&#39;t load and use memory, however small that may have been. If you don&#39;t need it, may as well not load it.</p>
+ 

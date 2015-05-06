@@ -1,0 +1,21 @@
+---
+layout: post
+title: 'Restoring posts since February finally done!' 
+date: "2009-04-18T03:48:49+10:00"
+categories: 
+- Internet 
+tags: 
+- infocomm
+- perl
+- weblog
+- wordpress 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.perl.saveposts.png" alt="My workspace from this evening. Now all I have open is this browser window :)" style="height:312px; width:500px; display:inline; border:0px" /><br /><cite>My workspace from this evening. Now all I have open is this browser window :)</cite></p>
+<p>Well after several long hours of debugging, cursing and several tall cups of coffee, my Perl script to import static pages from Google&#39;s cache, convert them to a WordPress WXR/RSS file and import here worked! This means <a href="http://rubenerd.com/archive/">all the blog posts</a> from February 2009 to April 2009 that <a href="http://rubenerd.com/we-are-back/">weren&#39;t part of my last good backup</a> are now available again.</p>
+<p>Had it not been for Google&#39;s cache, over 120 posts would have been lost.</p>
+<p>I&#39;ve started a cron job to make automatic backups every evening in both WXR/RSS and SQL formats and send them to a secret email address so this mess never happens again. I&#39;ll also be looking into checksumming/hashing said files before and after their transfer so I don&#39;t end up with the same invalid, messed up export files I had to deal with and piece back together this time around.</p>
+<p>Aside from the changed webhost and URI, everything is now back to the way it was before. The only things missing are comments; if you left a comment on a post over the last two months feel free to write another if you could be bothered.</p>
+<p>Next step is to finally implement my new theme I&#39;ve been kicking around for a few months. As I said in the last post I&#39;ve tried my best to set up correct redirects for search engines and people subscribed, as well as changing the URIs on all the posts here to speed things up. If you see something amiss, feel free to leave a comment.</p>
+<blockquote><p><strong>UPDATE:</strong> If you see repeated posts in Google Reader, Bloglines or other blog readers, I’m sorry for bombarding you! I attempted to maintain the permalinks so this wouldn’t happen, but clearly Google Reader and Bloglines still thought they were new posts.</p></blockquote>
+<blockquote><p><strong>UPDATE:</strong> It seems a couple of posts are still missing because they were uploaded too recently to have been put into Google’s cache. Tomorrow morning I’ll go to trusty Google Reader and copy them back here. Google has been a real pal over these last few days!</p></blockquote>
+ 

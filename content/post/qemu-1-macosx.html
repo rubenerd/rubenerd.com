@@ -1,0 +1,61 @@
+---
+layout: post
+title: 'Building and running QEMU 1.0 on Mac OS X' 
+date: "2011-12-05T02:13:54+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- postaday2011
+- qemu
+- shakugan-no-shana
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu1.jpg" alt="Screenshot showing Windows 2000, Windows 3.11 and FreeBSD 8.2 running in QEMU 1.0!" style="height:312px; width:500px;" /></p>
+<p>After eight years of continuous development, <a href="http://wiki.qemu.org/">QEMU 1.0</a> came out on the first of December. After assembling our Christmas tree this afternoon, I set to work building it on my Mac :). </p>
+<p><!--oldmore--></p>
+<p style="font-style:italic;"><a href="http://www.flickr.com/photos/rubenerd/6452427769/in/photostream">Screenshot</a> of my venerable MacBook Pro running Windows 2000, Windows 3.11 for Workgroups under PC DOS 2000 and FreeBSD 8.2 in the all new QEMU 1.0 :). All fully licenced I might add, I don’t run pirated software thank you very much!</p>
+<h3>My build environment</h3>
+<ul>
+<li>I like to build my own sources in the default <code>/usr/local</code> like a good FreeBSD-heritage guy, its one of the reasons I went back to MacPorts from Homebrew. Use &#8211;build-target during the <code>./configure</code> stage to change the default.
+</p>
+</li>
+<li>To save myself time and only install what I need, I generally only build i386 and alpha. Don’t specify any and you’ll build them all by default.
+</p>
+</li>
+<li>I can’t get enough of that authentic retro adlib sound, so I build the optional support for this too, along with the widely supported (and also optional) AC97. You can safely ignore these and it will build with default Sound Blaster 16.
+</p>
+</li>
+<li>If you’re attempting to build QEMU on a case-insenstive file system, you may run into an error with softfloat.h. I’ve <a title="Tuesday 06th December 2011: QEMU 1.0 failing to build on Mac OS X?" href="http://rubenerd.com/qemu-1-failing-macosx/">since written a post</a> about how to fix this.
+</ul>
+<h3>Installing from source</h3>
+<ol>
+<li>Log in as root (or the closest we can get to it on OS X):<br />
+<blockquote style="font-family:monospace"><p>
+% sudo -s
+</p></blockquote>
+</li>
+<li>Grab and extract the <a href="http://wiki.qemu.org/Download">latest sources</a>, in this case the glorious 1.0! I put mine in <code>/usr/local/src</code> to keep things tidy.
+</p>
+</li>
+<li>Configure with the options you want, for all the available options, use the <code>--help</code> flag. In my case:<br />
+<blockquote style="font-family:monospace"><p>
+# ./configure<br />
+<span>-</span>-enable-cocoa<br />
+<span>-</span>-target-list=i386-softmmu,alpha-softmmu<br />
+<span>-</span>-audio-drv-list=coreaudio<br />
+<span>-</span>-audio-card-list=ac97,adlib,sb16<br />
+<span>-</span>-disable-vnc
+</p></blockquote>
+</li>
+<li>Now build:<br />
+<blockquote style="font-family:monospace"><p>
+# make<br />
+# make install<br />
+# make clean distclean
+</p></blockquote>
+</ol>
+<h3>All done</h3>
+<p>Huge amount of thanks to Fabrice Bellard and all the QEMU committers for their incredible amount of wok over these 8 years. I use your software on a daily basis for work and play.</p>
+<p>Now all we need is isapc support back ;).</p>
+ 

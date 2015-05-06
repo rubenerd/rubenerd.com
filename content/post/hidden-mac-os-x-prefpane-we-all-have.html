@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'Hidden Mac OS X .prefPane We All Have!' 
+date: "2006-04-29T12:14:39+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- infocomm 
+---
+<p><img src="http://files.rubenerd.com/uploads/media.system-prefs.png" alt="Presentation edited Friday 28th July 2006 due to word-wrapping issue"/></p>
+<p>Did you know the disk image mounting preference pane is on your Mac right now waiting to be installed?</p>
+<p>Just go to this folder and double click to install!:</p>
+<blockquote><p>/System/Library/PrivateFrameworks/DiskImages.framework/<br />
+Versions/A/Resources/DiskImages.prefPane</p></blockquote>
+<p>Alternatively, you can just make a link, no need for two copies of the one file:</p>
+<blockquote><p>ln -s /System/Library/PrivateFrameworks/DiskImages.framework/<br />
+Versions/A/Resources/DiskImages.prefPane ~/Library/PreferencePanes/</p></blockquote>
+<p>Done :)</p>
+ 

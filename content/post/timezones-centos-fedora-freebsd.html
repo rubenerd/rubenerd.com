@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'Changing timezones in CentOS, Fedora, FreeBSD, Yuki' 
+date: "2012-11-25T03:19:34+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- centos
+- fedora
+- freebsd
+- guide
+- infocomm
+- linux
+- timezones
+- travel 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.timezones.nix.png" alt="" style="width:500px; height:165px;" /></p>
+<p>I knew how this worked in FreeBSD, and fortunately it works in the Red Hat world as well. First, make a backup of your existing timezone file, the create a symbolic link to your timezone. I&#39;ve seen people copying the file instead, but I feel safer linking.</p>
+<pre># mv /etc/localtime /etc/localtime.back# ln -s /usr/share/zoneinfo/Singapore /etc/localtime</pre>
+<p>I&#39;m tempted to set my timezone to Reykjavík, it&#39;s <a href="http://www.bom.gov.au/nsw/forecasts/sydney.shtml">HOT</a> in Sydney today. Nagato Yuki has the right idea. <em>A-heh-hem.</em></p>
+<p><strong>UPDATE:</strong> <a href="https://mobile.twitter.com/dai1313/status/272534522862657536">@dai1311</a> on Twitter says that this also works on Arch Linux. Incidentally, his avatar is of Yuki!</p>
+ 

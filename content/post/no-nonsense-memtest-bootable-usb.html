@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'No-nonsense MemTest86 bootable USB keys' 
+date: "2014-11-27T11:46:00+10:00"
+categories: 
+- Software 
+tags: 
+- ram
+- testing 
+---
+<p>No need for nasty GUI-based bootable memory key generators or other convoluted 15 step processes, you can just dd <a href="http://www.memtest86.com/download.htm">MemTest86’s USB image</a>:</p>
+<pre style='color:#000000;'>
+<span style="color:#06f;font-style:italic">#!/bin/sh</span>
+
+key=<span style="color:#093">"/dev/sdb"</span> <span style="color:#06f;font-style:italic">## TRIPLE CHECK this drive location first</span>
+
+curl -OL <span style="color:#093">"http://www.memtest86.com/downloads/memtest86-usb.tar.gz"</span>
+tar xzvf memtest86-usb.tar.gz
+
+sudo dd <span style="color:#00f">if</span>=memtest86-usb.tar.gz of=${key} bs=10240 conv=sync
+</pre>
+<p>And for the obligatory caveats:</p>
+<ul>
+<li>Triple check the destination for your key. Easy hack, run <code>dmesg</code> immediately after plugging in your key. I won’t be held responsible for lost data.</li>
+<li><a href="http://www.memtest86.org/">memtest86+</a> may have an equivilent generic bootable image, I haven’t checked. Last time I tried to, it required converting an ISO which I’m not interested in doing.</li>
+<li>As an alternative, many live bootable Linux distros also have memtest86+ in their boot options.</li>
+</ul>
+ 

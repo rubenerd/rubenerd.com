@@ -1,0 +1,26 @@
+---
+layout: post
+slug: 'installing-php-apc-html'
+title: 'Installing PHP APC' 
+date: "2014-06-10T04:29:12+10:00"
+categories: 
+- Internet 
+tags: 
+- guides
+- php 
+---
+<p>Having got used to the Debian package naming conventions, I thought I’d install APC with this:</p>
+<pre>
+# apt-get install php5-apc
+</pre>
+<p>Turns out, it’s actually this:</p>
+<pre>
+# apt-cache search apc  
+==&gt; php-apc - APC (Alternative PHP Cache) module for PHP 5
+</pre>
+<p>Install, and reload:</p>
+<pre>
+# apt-get install php-apc
+# /etc/init.d/php-fpm reload
+</pre>
+ 

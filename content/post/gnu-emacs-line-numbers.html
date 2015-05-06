@@ -1,0 +1,20 @@
+---
+layout: post
+title: 'Line numbers in GNU Emacs' 
+date: "2012-10-04T09:30:02+10:00"
+categories: 
+- Software 
+tags: 
+- emacs
+- gnu-emacs
+- guide
+- infocomm
+- lisp 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.emacs.png" alt="Emacs icon" style="width:128px; height:128px; float:right; margin:0px 0px 10px 15px" class="transparent" /></p>
+<p>In my quest to finally give <a href="http://www.gnu.org/s/emacs/">GNU Emacs</a> a try, the first thing I encountered was a lack of line numbers. Easiest way to have them appear persistently is to add this to your <code>~/.emacs</code>:</p>
+<pre>(global-linum-mode t)</pre>
+<p>Alternatively, you can load <code>linum-mode</code> at runtime:</p>
+<pre>M-x linum-mode</pre>
+<p>The <a href="http://www.emacswiki.org/">EmacsWiki</a> has a ridiculously <a href="http://www.emacswiki.org/LineNumbers">exhaustive list</a> of other options, including more Emacs lisp that I&#39;d care to throw a stick at.</p>
+ 

@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Running ServerBear' 
+date: "2014-06-24T05:29:54+10:00"
+categories: 
+- Software 
+tags: 
+- benchmarks
+- guides
+- serverbear 
+---
+<p>A task today was performing some ServerBear benchmarks on VMs. ServerBear is a comparison site for cloud, VPS and other platform infrastructure providers that displays the results of user run benchmark scripts. </p>
+<p>Running on an instance, without publishing the results:</p>
+<pre><code>wget -N https://raw.github.com/Crowd9/Benchmark/master/sb.sh &amp;&amp; 
+bash sb.sh '[Server name]' '[Server plan]' '[email]' '[price]' private
+</code></pre>
+<p>Running it on stock Debian without sudo, the script failed. sudo either needs to be installed and enabled for the current user, or you can just run as root.</p>
+<p>It also takes the liberty of updating apt-get, then installing the following if they’re not found:</p>
+<ul>
+<li>build-essential</li>
+<li>libaio-dev</li>
+<li>curl</li>
+</ul>
+<p>I’ll admit, that was a little unsettling. For further tests, I’ll be installing these myself first.</p>
+<p>Outside the package manager, it downloads:</p>
+<ul>
+<li>FIO</li>
+<li>IOPing</li>
+<li>UnixBench</li>
+</ul>
+<p>The reported steps:</p>
+<pre><code>Running dd I/O benchmark...
+Running IOPing I/O benchmark...
+Running FIO benchmark...
+Running bandwidth benchmark...
+Running traceroute...
+Running ping benchmark...
+Running UnixBench benchmark...	
+</code></pre>
+<p>Be prepared to wait an hour or so, depending on the performance of the infrastructure. When complete, check your inbox shortly after for the results.</p>
+ 

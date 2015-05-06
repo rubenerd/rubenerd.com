@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Fixing an old, broken WordPress page' 
+date: "2011-01-06T09:14:22+10:00"
+categories: 
+- Internet 
+tags: 
+- guide
+- howto
+- infocomm
+- postaday2011
+- troubleshooting
+- weird
+- wordpress 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.wp.blue.png" alt="" style="height:150px; width:150px;" class="transparent" /></p>
+<p>I got quite a rude shock recently to discover the <a href="http://rubenerd.com/archive/">archive page</a> wasn&#39;t working! if you&#39;ve been using WordPress for a long time and suddenly a custom page of yours is rendering blank, maybe this might come in handy.</p>
+<p><!--oldmore--></p>
+<h3>Explanation sounds like an expired &quot;planation&quot;</h3>
+<p>When I first started using WordPress in 2005 I created a custom page template for the archive page, because I didn&#39;t like the way WordPress didn&#39;t (and still doesn&#39;t!) have a basic index feature.</p>
+<p>The problem is, you can&#39;t call the WordPress API within a regular post or page because WordPress (for good reason) sanitises any code. The workaround is to create a custom page template in your theme that displays what you want, then selecting it from the &quot;template&quot; drop down box for the page you want to change in the WP admin interface.</p>
+<p>For example, I had <code>nicearchive.php</code> in my theme folder which called the code to render the list of posts. It was called Nice Archive List, and I had it selected as a template for my Archive page which was otherwise blank.</p>
+<p>I remember doing this for my archive page five years ago, but I&#39;d noticed starting around WordPress 2.x that the template drop down menu didn&#39;t reference anything for the archive page. I didn&#39;t really care, because it still worked. Somehow!</p>
+<h3>Smite and solution to being smite-ed</h3>
+<p>Maybe it was the latest WordPress update that did it, but suddenly the archive page stopped working and instead rendered a blank, generic page. Obviously the voodoo association between page and the custom page template file was finally severed.</p>
+<p>Going into the custom template file for that page I noticed it didn&#39;t have any template header code at all.</p>
+<blockquote style="font-family:monospace"><p>
+&lt;?php /*<br />
+Template Name: Nice Archive List<br />
+*/ ?&gt;
+</p></blockquote>
+<p>After adding this to the page template file, I was able to go to the archive page in the WP admin screen and choose the template from the template drop down box. Now the page renders properly again.</p>
+<p>This raises several questions! First, how did the template work before without those necessary lines? Did older versions of WordPress handle page templates differently? Did the animators of K-On expect otaku to obsess over Mugi&#39;s eyebrows to the extent they did, or did it catch them off guard? If so, they&#39;re smart for using it as a plot device later XD. I haven&#39;t got around to reading the manga.Mi</p>
+ 

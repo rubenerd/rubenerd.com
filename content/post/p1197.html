@@ -1,0 +1,58 @@
+---
+layout: post
+title: 'Fun with Xfce part 4: Using Openbox' 
+date: "2008-07-06T03:47:53+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- code-geass
+- freebsd
+- guide
+- howto
+- infocomm
+- linux
+- netbsd
+- obconf
+- openbox
+- x11
+- xfce 
+---
+<blockquote><p>What started as a mini series on the Xfce Desktop Environment on my university intranet has evolved into an open ended exploration on my public blog, and I’m having lots of fun doing it! Scroll down to the end of this post to view links to the previous posts in the series.</p></blockquote>
+<p>&lt;!&#8211; Xfce is a fantastic desktop environment to use on Linux, BSD and other Unix-like operating systems because it provides an attractive, fast, cohesive experience that&#39;s a pleasure to use, while being much more lightweight than the de-facto standard GNOME and KDE desktops. &#8211;&gt;Part of the <a href="http://www.xfce.org/">Xfce desktop environment</a> is <a href="http://www.xfce.org/projects/xfwm4/">Xfwm</a>, the Xfce window manager. Xfwm provides sophisticated and pretty composting effects such as drop shadows and alpha transparency on windows and menus, while still using less memory and power than competing desktop window managers. Despite this, for much slower machines even Xfwm can be overkill.</p>
+<blockquote><p><strong>ASIDE:</strong> &quot;Window managers&quot; draw the widgets, title bars, resize handles and other elements onto application windows. &quot;Desktop environments&quot; such as <a href="http://kde.org/">KDE</a>, <a href="http://gnome.org/">GNOME</a> and Xfce bundle their own window managers along with software developed specifically for their environments, such as <a href="http://thunar.xfce.org/">Thunar</a> for Xfce.</p></blockquote>
+<p>Enter <a href="http://icculus.org/openbox/index.php/Main_Page">Openbox</a>, again! Openbox is an extensible, standards compliant, <em>very</em> minimalistic window manager that can be used by itself or in place of a desktop environment&#39;s default window manager to further reduce memory and processor resources. The separate <a href="http://icculus.org/openbox/index.php/ObConf:About">obconf</a> utility provides a nice graphical control panel you can use to switch themes and adjust settings.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.openbox.png" alt="The Obconf window and Xfce Settings menu entry" style="height:300px; width:500px;" /><br />
+<cite>Openbox running in Xfce with the bundled &quot;Mikachu&quot; theme</cite></p>
+<p>Most reputable package managers carry both Openbox and obconf, check your distribution&#39;s repositories. To install them on FreeBSD ports:</p>
+<pre>
+# cd <a href="http://www.freshports.org/x11-wm/openbox">/usr/ports/x11-wm/openbox</a> # make install clean
+# cd <a href="http://www.freshports.org/x11-wm/obconf/">/usr/ports/x11-wm/obconf</a>
+# make install clean
+</pre>
+<p>Or from FreeBSD packages:</p>
+<pre>
+# pkg_add -rv openbox# pkg_add -rv obconf
+</pre>
+<p>Or NetBSD’s pkgsrc:</p>
+<pre>
+# cd <a href="http://pkgsrc.se/wm/openbox">/usr/pkgsrc/wm/openbox</a>
+# make install clean clean-depends
+# cd <a href="http://pkgsrc.se/wm/obconf">/usr/pkgsrc/wm/obconf</a>
+# make install clean clean-depends
+</pre>
+<p>Now we want to kill the active Xfwm process in Xfce and open our glorious Openbox replacement. Fire up your Terminal and enter:</p>
+<pre>% killall xfwm4 ; openbox &#038; exit</pre>
+<p>It really is smaller in every sense of the word isn&#39;t it? To make sure Openbox is used by default whenever you start Xfce, quit Xfce and check <em>&quot;Save sessions for future login&quot;</em>.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.obconf.png" alt="The Obconf window and Xfce Settings menu entry" style="height:326px; width:500px;" /><br />
+<cite>Don&#39;t worry, CC looks pretty confused herself!</cite></p>
+<p>You&#39;ll also notice that the <em>&quot;Openbox Configuration Manager&quot;</em> has added itself to the <a href="http://www.xfce.org/projects/xfce-mcs-manager/">Xfce Settings menu</a>! Click on it and have fun with all the different themes, button positions, font sizes and arrangement settings.</p>
+<h3>Related posts</h3>
+<ul>
+<li><a href="http://rubenerd.com/p1191/">Long live the Cobind Desktop</a> 2008.06.21</li>
+<li><a href="http://rubenerd.com/p1188/">Fun with Xfce part 3: Themes</a> 2008.06.18</li>
+<li><a href="http://rubenerd.com/p1187/">Fun with Xfce part 2: Setting up</a> 2008.06.17</li>
+<li><a href="http://rubenerd.com/p1185/">Fun with Xfce part 1: Introduction</a> 2008.06.15</li>
+<li><a href="http://rubenerd.com/sleek-openbox-in-kde-on-freebsd/">Sleek Openbox in KDE on FreeBSD</a> 2008.03.19</li>
+</ul>
+ 

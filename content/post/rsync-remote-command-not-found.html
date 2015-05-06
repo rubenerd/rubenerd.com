@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'rsync remote command not found' 
+date: "2013-10-19T12:16:30+10:00"
+categories: 
+- Software 
+tags: 
+- freebsd
+- guide
+- mac-os-x
+- netbsd
+- rsync
+- ssh
+- vps 
+---
+<p><img src="http://files.rubenerd.com/2013/newrsynclogo.jpg" alt="rsync's rather fabulous retro logo" style="width:125px; height:61px" /></p>
+<p>Since <a title="Rubénerd: Goodbye GitHub Pages" href="http://rubenerd.com/goodbye-github-pages/">moving back</a> from Github Pages, I’ve been deploying Jekyll sites with <a href="https://rsync.samba.org/" title="rsync homepage">rsync</a>. It’s fast; doesn’t transfer unchanged assets; the usual qualities we’ve all come to expect from this excellent tool. I’m serious; from my hourly backups to site deployments and everything in between, I couldn’t imagine my life without it.</p>
+<p>But I digress. Here’s my rsync deployment command for Jekyll, sent from my site’s Rakefile:</p>
+<pre class="code" style="overflow-x:scroll;">
+rsync -e 'ssh -i [private key]' --checksum --compress 
+--delete --itemize-changes --recursive _site/
+[user]@[machine]:[folder]
+</pre>
+<p>This hasn’t been a problem with my primary web host, but it generated the following error when attempting to push a Jekyll tree to our VPS:</p>
+<pre class="code" style="overflow-x:scroll;">
+bash: rsync: command not found
+rsync: connection unexpectedly closed (0 bytes received so far) [sender]
+rsync error: remote command not found (code 127) at io.c(605) [sender=3.0.9]
+rake aborted!
+Command failed with status (127)
+</pre>
+<p>I believe the word &#8220;derp&#8221; would adequately describe the issue. CentOS (and NetBSD) don’t ship with rsync by default. Installing it did the trick.</p>
+<p>I’ve since read this doesn’t solve the problem for some people. <a title="rsync: command not found error even though rsync installed in local &amp; remote server (Solaris) " href="http://siddesh-bg.blogspot.com.au/2009/02/rsync-command-not-found-error-even.html">According to Siddesh BG</a>, the solution is to provide an absolute path to rsync on the destination host:</p>
+<pre class="code" style="overflow-x:scroll;">rsync [..] --rsync-path=/usr/local/bin/rsync [..]
+</pre>
+<p>Now if only I could use rsync to transfer a cake from the pastry shop down the road to my table now.</p>
+ 

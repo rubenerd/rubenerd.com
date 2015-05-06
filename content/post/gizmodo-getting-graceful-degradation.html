@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Gizmodo Getting Graceful deGradation?' 
+date: "2011-02-08T05:15:52+10:00"
+categories: 
+- Internet 
+tags: 
+- design
+- engadget
+- gizmodo
+- infocomm
+- javascript
+- postaday2011
+- rant
+- ujs
+- website-design 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.newgizmodo.png" alt="Gizmodo: Top Story, Latest" style="height:215px; width:500px;" /></p>
+<p>I don&#39;t read Gawker sites since they decided <a title="Entry: Buying stolen property is Apple's fault?" href="http://rubenerd.com/gizmodo-iphone-apples-fault/">buying stolen property</a> was journalism, but when I was informed of Gizmodo&#39;s latest site redesign, I was quick to check out how their latest mess compares to mine. I can&#39;t design sites either, you see. Anyway, is this a joke?!</p>
+<p><!--oldmore--></p>
+<h3>Ruben can’t design stuff</h3>
+<p>Now as you can see from my site here, I know nothing about web design myself, I just created what I thought was the simplest thing I could get away with. Still, as a user I could spend my time critiquing the slow rendering, awkwardly designed new version of Gizmodo, but there are plenty of <a href="http://daringfireball.net/linked/2011/02/07/gizmodo-redesign">other people</a> doing that for me right now…</p>
+<blockquote><p>
+This Is the New Gizmodo ★<br />
+Terrible.
+</p></blockquote>
+<p>…and I don&#39;t even read Gizmodo! Instead, here&#39;s a rant about <strong>graceful degradation</strong>.</p>
+<h3>No, its just un-graceful degradation!</h3>
+<p>Its a very simple concept, when you develop a site (or even software) you provide for an alternative version[1] when dynamic content, cross site requests, cookies and other media are either not accepted by a security concious user, or for when the client software doesn&#39;t provide the capability to render or use them.</p>
+<p style="font-style:italic;">[1] If you’re really talented you don’t even provide an alternative version, you simply design it in such a way that clients can render at least some of it when they can’t render it all, and still make it usable and visually appealing. If you’ve got a designer who can do that, pay them well and do everything you can to keep them!</p>
+<p>It doesn&#39;t just make your site more accessible for people using screen readers, text browsers and the like, but makes sites easier to crawl by search engines and those daddy long legs spiders that sometimes make their way into my computer room that I&#39;m okay with because they eat insects and they&#39;ve never scared me. But I digress.</p>
+<p><img src="http://files.rubenerd.com/uploads/rubenerd.digression.png" alt="You've just read another pointless Rubenerd Digression!" style="height:35px; width:500px;" /></p>
+<h3>Aww, but it’s too much work!</h3>
+<p>Gawker media sites have long used JavaScript to load in fundamental parts of their sites such as comments which obviously isn&#39;t good for <a title="Entry: Don't use JavaScript to compose pages" href="http://rubenerd.com/javascript-page-compose/">usability</a> or <a title="Posts discussing Cross Site Security (XSS) exploits" href="http://rubenerd.com/tag/xss-exploits/">security</a>, but this time if you don&#39;t have cross site requests enabled by default it doesn&#39;t load anything other that what I can only imagine was an early prototype for the site. A VERY early prototype, there&#39;s no content whatsoever, and the navigation bar contains only two entries, neither of which link to anything!</p>
+<p><img src="http://files.rubenerd.com/uploads/icon.requestpolicy.png" alt="Request Policy extension for Firefox" style="height:124px; width:118px; margin-left:10px; float:right" class="transparent" />There may be legitimate reasons for them to be loading in content from five million places and nothing from their host domain (load balancing, performance), but the fact that their site exists in such a way that under certain circumstances[2] it doesn&#39;t display <strong>anything</strong> should be a concern, perhaps even moreso than the fact that they&#39;re current design when being rendered <strong>properly</strong> isn&#39;t terribly attractive at best, and is painfully slow at worst.</p>
+<p style="font-style:italic;">[2] Well, I mean Rubenerd AND Gizmodo don’t render anything when your computer is turned off (another potential certain circumstance), but I can hardly be blamed for that ;).</p>
+<p>And in case you think I&#39;m being unreasonable, Gizmodo&#39;s arch rival <a href="http://www.engadget.com/">Engadget</a> loads most of their content just fine even with all my archaic, paranoia-induced Firefox extensions, and in a site design I&#39;d argue is infinitely more usable. <strong>It is possible folks!</strong></p>
+<p>Perhaps it simply attests to the kind of people that read Gizmodo.</p>
+ 

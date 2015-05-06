@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Why I’m sticking with RSS' 
+date: "2013-07-19T02:11:21+10:00"
+categories: 
+- Internet 
+tags: 
+- dave-winer
+- infocomm
+- rss
+- web-feeds
+- xml 
+---
+<p><img src="http://files.rubenerd.com/2013/rss-buttons.png" alt="" /></p>
+<p>When I first started blogging in the early 2000s, the web was alive with discussion about the RSS version wars. Dave Winer’s RSS 2.0 broke from RDF in its acronym and implementation. Various other versions derived from Netscape’s earlier work were also still pushing posts.</p>
+<p>For a web developer, you had to decide which flavour of RSS you were going to make available. For software developers, it meant detecting a veritable smorgasbord of differing, incompatible RSS versions all with their own features and undocumented quirks. Do description attributes contain HTML, or escaped HTML? It was the wild, wild west.</p>
+<p>Indecisive people like me exposed RSS 2.0 and RDF/RSS 1.0 in our weblog HTML headers. More still would expose one, then change.</p>
+<h3>Into this world, Atom was born</h3>
+<p>As a stickler for metadata and document formats, Atom appealed to my perfectionist side with its strict XML syntax and mandatory GUIDs. Still, the more I saw the ecosystem around it evolve, the less impessed my inner pragmatist was.</p>
+<p>Marco Arment’s <a href="http://www.marco.org/2013/07/03/lockdown">recent blog post about Google Reader’s closure</a> summarised some my thoughts at the time:</p>
+<blockquote><p>Then you spend twice as much time figuring out how to deal with poorly crafted feeds, ambiguities, and edge cases — especially for Atom, which is a huge, overengineered pain in the ass that, as far as I can tell, exists mostly because people always argue with Dave Winer and do their own contrarian things even when he’s right, because they can’t stand when he’s right.</p>
+</blockquote>
+<p>As Atom predictably failed to supplant RSS, we were left with the cruel irony of having to support and parse <strong>yet another</strong> incompatible feed format. Worse still, for a period of time in the early 2000s, those of us in WordPress and other CMSs were even exporting Atom 0.3 and 1.0. Appreciate the irony of that for a moment.</p>
+<p>For all the proported benefits and noble aspirations for the standard, Atom was another example of <em>not being able to live in good intentions</em>, to abuse a quote from Ned Flanders. For my blog, I stuck with exporting RSS 2.0 and RDF/RSS 1.0, and left it at that.</p>
+<p><img src="http://files.rubenerd.com/2013/screenie.rssliquid.png" alt="" /></p>
+<h3>Why Rubenerd.com won’t have Atom</h3>
+<p>Today in 2013, I find myself writing template files for the <a href="http://jekyllrb.com/">Jekyll</a> iteration of Rubenerd.com. Unlike full-featured CMSs, Jekyll is a wonderful LEGO set that requires you to code the templates for even the web feeds yourself. Its been quite a learning experience, rediscovering all the syntax and attribute information that go into creating RSS feeds.</p>
+<p>Once again, I considered implementing Atom. <a href="http://octopress.org/">Octopress</a>&mdash;perhaps the most common way Jekyll is used today&mdash;includes an Atom template by default. All the Jekyll tutorials I’ve come across include Atom in their examples. Atom is what all the cool people use; so I’ve been told repeatedly.</p>
+<p>And yet, I’m sticking with RSS. It’s parsed (hah) the test of time. The toolchain I’ve developed over 10 years in Perl and Ruby still sing with it. A decade of blog reading with RSS feeds has shown its versatility.</p>
+<p>For my Jekyll site, I created an RSS 2.0 template using pretty much the same metadata the Atom feeds were being created with. Despite not publishing an alternative link to my RDF/RSS 1.0 link for over five years, I still have 15-20 requests an hours for that feed, so I even wrote one for those people too.</p>
+<p>If I were really adventurous, I could retire my RSS feeds and point them to a new Atom feed, but I’ve seen far too many parsers choke on data streams in an alternative format to what they were expecting for a subscribed feed. Even if I were on board with Atom, this would give me enough pause to think long and hard about the value it provides, versus losing some of my dear and wonderful readers like you.</p>
+ 

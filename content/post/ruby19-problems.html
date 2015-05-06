@@ -1,0 +1,44 @@
+---
+layout: post
+title: 'Ruby.conspriracy?' 
+date: "2009-12-12T10:38:55+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- conspiracy-theories
+- infocomm
+- mac-os-x
+- macports
+- package-managers
+- ruby
+- ruby19 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.matz.down.png" alt="" style="height:205px; width:500px; display:inline;" /></p>
+<p>Perhaps my internet connection has been a bit spotty, but building the <a href="http://www.ruby-lang.org/en/news/2009/12/07/ruby-1-9-1-p376-is-released/">latest version</a> of Ruby 1.9 <a href="http://trac.macports.org/browser/trunk/dports/lang/ruby19/Portfile">from MacPorts</a> has been failing on me with a checksum error all afternoon.</p>
+<p><!--oldmore--></p>
+<pre>
+---&gt;  Verifying checksum(s) for ruby19
+--->  Checksumming ruby-1.9.1-p376.tar.bz2
+Error: Checksum (md5) mismatch for ruby-1.9.1-p376.tar.bz2
+
+Portfile checksum: 
+ruby-1.9.1-p376.tar.bz2 md5 e019ae9c643c5efe91be49e29781fb94
+Distfile checksum: 
+ruby-1.9.1-p376.tar.bz2 md5 3e4ea40c2639880bfe5355c17cf91363
+
+The correct checksum line may be:
+checksums 
+md5 3e4ea40c2639880bfe5355c17cf91363 
+sha1 5178cb0e1007ee839316206ee3aaeed49059cf0d 
+rmd160 191e2be8c7817f9efab9f72ebb692ca33375d14a
+
+Error: Target org.macports.checksum returned: 
+Unable to verify file checksums
+</pre>
+<p>Might need to download the file manually, or if worst comes to worst build it manually. Package managers spoil me :).</p>
+<p>In other news, as you can see from the screenshot above I haven’t been able to access <a href="http://www.rubyist.net/~matz/">Matz’s blog</a> either, though <a href="http://www.python.org/~guido/">Guido van Rossum’s</a> comes up just fine. I’m starting to think there’s a Ruby conspiracy going on.</p>
+<h3>Update!</h3>
+<p><img src="http://files.rubenerd.com/uploads/screenie.macports.ruby19.12k.png" alt="" style="height:55px; width:500px; display:inline;" /></p>
+<p>Well there’s the problem Sherlock! Despite improvements in efficiency with the Ruby 1.9 stream, I doubt they’ve managed to fit the entire language runtime in 12 kilobytes ;).</p>
+ 

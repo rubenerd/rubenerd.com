@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'UTS site defaced with plaintext passwords' 
+date: "2012-09-25T08:11:44+10:00"
+categories: 
+- Internet 
+tags: 
+- infocomm
+- news
+- passwords
+- security
+- uts 
+---
+<p><img src="http://files.rubenerd.com/uploads/photo.mine.utsimac.jpg" alt="" style="height:285px; width:500px;" /></p>
+<p>Over the weekend, a subdomain at the University of Technology Sydney was defaced, and with it the names and passwords of several staff members. What isn&#39;t being talked about much is: it was bound to happen.</p>
+<p><!--oldmore--></p>
+<p><cite>Image of computers in UTS Building 10 taken by <a href="http://rubenerd.com/late-night-imac-uts/">me in 2011</a>.</cite></p>
+<h3>Well, bother</h3>
+<p>According to <a href="http://www.zdnet.com/au/hackers-deface-old-uts-system-dump-user-database-7000004694/">Michael Lee of ZDNet Australia</a>, the breach affected an older content management system (CMS) backend used to deliver news. Once the system was compromised, the information of staff members was published including their names, email addresses and their passwords as plaintext.</p>
+<p>The site also had an ASCII art picture of <a href="http://rubenerd.com/tag/professor-zoidberg/">Zoidberg from Futurama</a> added, performing his trademark roar of exasperation. I see what they did there.</p>
+<p>The good news is this breach did not affect the primary site, though it exposes a far larger issue.</p>
+<h3>The claws of the problem</h3>
+<p>When I first enrolled at UTS, I was surprised at how easy it was to choose subjects, set up my timetable and get started. Some of my fellow students may scoff at this, but having studied in several places, UTSs system is far superior. They may use Blackboard for everything else, but at least they had the common sense to keep clear of it for enrollment. But I digress.</p>
+<p>The one part of the process that gave me pause was when I was prompted for a password. I proceeded to type in a unique passphrase that I&#39;d be using for logging into UTS, only to be told it was too long.</p>
+<p>Warning bells.</p>
+<p>I&#39;ve blogged at length about the risks of accessing sites with password character limits, and why they&#39;re technically unnecessary in a securely designed site. You can <a title="<br />
+Sunday 05th August 2012: Are sites storing your passwords securely?" href="http://rubenerd.com/online-password-hashes/">read about it here</a>.</p>
+<p>In a nutshell, passwords that are stored securely as a cryptographic hash have no technical reason to be limited in length. When a site informs you of a length limit, it&#39;s a fairly sure sign they&#39;re storing your password insecurely as plaintext, which means when there&#39;s a breach, your password is viewable. Like they were here.</p>
+<p>UTS uses student passwords for administration, student email, the Blackboard Learn environment, WPA2 passwords for wireless access, Faculty of Engineering and IT access to student servers, login access to shared computers and many more places. I can appreciate the challenge of keeping all these the same, as students are unlikely to be willing to remember different passwords for each of these.</p>
+<p>Still, for an institution of higher learning, I can&#39;t help but think they could solve this challenge securely. It dismays me when action is taken <a href="http://rubenerd.com/why-banks-wakeup-call/">only as a result of a breach</a>. I hope UTS uses this as an opportunity to revise their security policies.</p>
+ 

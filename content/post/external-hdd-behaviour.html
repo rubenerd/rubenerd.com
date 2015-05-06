@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Why must external drives behave this way?' 
+date: "2009-10-14T05:20:09+10:00"
+categories: 
+- Hardware 
+tags: 
+- bsd
+- freebsd
+- hard-drives
+- infocomm
+- mac-os-x
+- rant
+- windows 
+---
+<p><img src="http://files.rubenerd.com/uploads/diagram.powered.drives.png" alt="" style="height:220px; width:400px; display:inline; border:0em; background:transparent; padding:0em;" /></p>
+<p><!--oldmore--></p>
+<p>One of the banes of my existence now that I&#39;m predominately a notebook computer user is external hard drives. I <a href="http://rubenerd.com/arm-leg-drobo/">can&#39;t afford</a> to shell out a small fortune for an integrated solution such as a Drobo, so (to shamelessly borrow a phrase I&#39;ve already used here!) I have to make do with a veritable Stonehenge of external hard drives, each with their own space on the desk, individual data and power cables and a huge padded bag to carry them in when I go back to Singapore, Adelaide and so on.</p>
+<p>This tangled spaghetti mess that will probably morph into an intelligent being and take over the world one day <strong>isn&#39;t the main problem</strong> for me though.</p>
+<p>I think the problem stems with the way contemporary operating systems deal with them in two tiny yet painfully irritating ways that I think are the result of historically not having so many drives attached to a single personal computer. This happens on Windows and Mac OS X, but curiously not on my FreeBSD machines.</p>
+<p>When I go to save or open a file with a application&#39;s modal dialog box, the OS insists on powering up and checking each external drive before it will let me do anything. This means every time I open a dialog box like this it can take upwards of 30 seconds before I can do anything! Leaving aside the issue of sleeping hard drives entirely (a possible future post topic) I just can&#39;t understand why a 2009 operating system can&#39;t determine that by opening a dialog box focused on an internal drive that I don&#39;t want to use the external ones, and even if I did I would only be saving a file to ONE of them not to all six!</p>
+<p>As an addendum, why must external hard drives be awoken from sleep one at a time? Surely a modern, multi tasking operating system has the ability to process a few status check threads for separate hardware devices concurrently. I can understand the idea of minimising peak loads when we&#39;re dealing with server farms with hundreds of drives, but I just need my six to wake up in a reasonable time, and combined they&#39;d still only draw a fraction of the power that, say, a refrigerator or grilled cheese sandwich iron would.</p>
+<p>I&#39;m a computer science student not a engineer so perhaps there are reasonable, logical reasons for why hardware like this behaves in this manner, but as it stands I can&#39;t see why the logic can&#39;t follow the second diagram above instead of the first. Feel free to correct me if I&#39;m wrong, in fact I encourage it!</p>
+ 

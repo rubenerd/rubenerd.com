@@ -1,0 +1,16 @@
+---
+layout: post
+title: 'Perl print on closed filehandle' 
+date: "2013-06-14T12:24:11+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- perl 
+---
+<p>This is a common problem I come across when writing:</p>
+<pre class="code" style="overflow-x:scroll;">
+print() on closed filehandle OUTFILE at ./something.pl line 24, &lt;INFILE&gt; line 46.
+</pre>
+<p>99% of the time for me, the problem is attempting to load a file in a directory that doesn’t exist.</p>
+ 

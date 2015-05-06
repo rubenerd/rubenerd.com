@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'Fedora gem can’t find header files' 
+date: "2013-12-10T01:59:12+10:00"
+categories: 
+- Software 
+tags: 
+- development
+- fedora
+- guides
+- linux
+- ruby
+- scripting
+- troubleshooting 
+---
+<p>Installing ruby in Fedora this afternoon, I got a funky error when attempting to do a gem update.</p>
+<pre>
+# yum install -y ruby
+# gem update
+
+Building native extensions. This could take a while...
+ERROR:  Error installing shimabowl:
+        ERROR: Failed to build native gem extension.
+        
+    /usr/bin/ruby extconf.rb
+shimabowl.rb can't find header files for ruby at /usr/share/include/ruby.h
+</pre>
+<p>For a split second, I thought maybe my username was in conflict with a ruby directory. My name is Ruben, and some of my usernames are&#8230; well, yeah.</p>
+<p><em>Turns out</em>, Fedora doesn’t pull in the <code>ruby-devel</code> package as a dependency for rubygems, despite it clearly being required for most (many?) gems. So it’s just a matter of getting those as well:</p>
+<pre>
+# yum install -y ruby-devel
+# gem update
+Updating installed gems
+Updating shimabowl
+Fetching shimabowl-1.0.0.gem (100%)
+Building native extensions. This could take a while...
+Successfully installed shimabowl-1.0.0
+Parsing documentation for simapan-1.0.0
+Installing ri documentation for shimabowl-1.0.0
+Done installing documentation for shimabowl after 2 seconds
+</pre>
+<p>Done and done.</p>
+ 

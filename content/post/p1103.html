@@ -1,0 +1,44 @@
+---
+layout: post
+title: 'The Internet Explorer Q Continuum' 
+date: "2008-03-30T01:16:21+10:00"
+categories: 
+- Software 
+tags: 
+- browsers
+- formats
+- html
+- infocomm
+- microsoft
+- q
+- star-trek
+- w3c
+- xhtml
+- xml 
+---
+<p>As you may have gathered from reading previous posts, I&#39;m a <a href="http://rubenerd.com/category/apple/mac-os-x/">Mac OS X</a> user on laptops and a hopeless <a href="http://rubenerd.com/category/open-source/bsd/">FreeBSD</a> fanboy on desktops. Therefore it probably wouldn&#39;t surprise you to find out I&#39;m not a fan of <a href="http://channel9.msdn.com/">Internet Explorer</a>, or Windows Internet Explorer, or Chuck Norris Explorer or whatever they&#39;re calling it at the moment.</p>
+<p>Why though? Is it the fact that it successfully and demonstrably held back innovation on the intertubes for so many years? Is it the <a href="http://meiert.com/en/blog/20070115/internet-explorer-7-is-unusable-on-unwise-button-orders-and-hidden-menus/">silly user interface in version 7</a> which I get calls from people constantly asking me how they get to the menu bar? Is it the fact their CSS support is so patchy and inconsistent it makes a part of my work even more difficult than it has to be? Is it because it was bundled with a monopolistic operating system? Is it because the e logo just looks plain silly?</p>
+<p>No. It&#39;s for one simple fact: <strong>Internet Explorer doesn&#39;t support the <code>&lt;q&gt;</code> tag!</strong></p>
+<p><img src="http://files.rubenerd.com/uploads/q-tapestry.jpg" alt="Look at that browser Jean Luc, it doesn't support my existence!" style="height:240px; width:500px" /><br />
+<cite>Look at that browser Jean Luc, it doesn&#39;t support my existence!</cite></p>
+<p>You could be forgiven for not knowing about this tiny little tag; it was included by the W3C back in the <a href="http://www.w3.org/TR/REC-html40-971218/struct/text.html#h-9.2.2">HTML 4.0 specification</a> in <strong><em>1997</em></strong> to delimitate small inline quotations which are not large enough to justify the use of a block level element, but current versions of IE are the only browsers <strong><em>even in 2008</em></strong> not to support it, despite every other game in town having no trouble with them.</p>
+<p>For example, one of the sentences below is enclosed in <code>&lt;q&gt;</code> tags. If you&#39;re using Internet Explorer they will look exactly the same:</p>
+<blockquote><p><q>Ruben Schade is an incredibly smart, devilishly attractive and very self deluded person.</q></p>
+<p>Ruben Schade is an incredibly smart, devilishly attractive and very self deluded person.</p>
+</blockquote>
+<p>But why is the lack of support for a seemingly insignificant and easily replaceable tag my number one gripe with Internet Explorer? Because of its stupefying simplicity! How difficult would it have been for Microsoft to have added full support <strong><em>for such a simple tag?</em></strong> It’s mind blowing!</p>
+<pre>
+&lt;q&gt;This is an inline quote, complete with CSS support!&lt;/q&gt;
+
+&lt;span class=&quot;quote&quot;&gt;Here's another inline quote, but with support for IE &lt;/span&gt;</pre>
+<p>I guess until Internet Explorer 12 comes out some time after 2095, I&#39;ll have to stick with using the latter example above. What a mess!</p>
+<blockquote><p><strong>FOOTNOTE:</strong> For what it’s worth, <a href="http://opera.com/">Opera</a>, <a href="http://mozilla.com/">Mozilla Firefox</a>, <a href="http://netscape.com/navigator">Netscape Navigator</a> (rest in peace), <a href="http://apple.com/safari/">Apple’s Safari</a>, <a href="http://konqueror.kde.org/">KDE’s Konqueror</a> and even zippy little <a href="http://www.dillo.org/">dillo</a>, <a href="http://links.sourceforge.net/">links</a> and <a href="http://lynx.isc.org/">lynx</a> support the <code>&lt;q&gt;</code> tag. Obviously it’s not hard!</p></blockquote>
+<h3>Further Reading</h3>
+<ul>
+<li><a href="http://www.w3.org/TR/REC-html40-971218/struct/text.html#h-9.2.2">HTML 4.0 specification: BLOCKQUOTE and Q elements</a></li>
+<li><a href="http://www.w3schools.com/tags/tag_q.asp">W3Schools: The Q Tag</a></li>
+<li><a href="http://webdesign.about.com/od/htmltags/a/aa050307.htm">About.com: What is the Q Tag and Why Should We Use It?</a></li>
+<li><a href="http://www.alistapart.com/articles/qtag">A List Apart: Long Live the Q Tag!</a></li>
+<li><a href="http://channel9.msdn.com/ShowPost.aspx?PostID=247249#247249">Internet Explorer Team Blog: Rowan points out lack of support for the simple tag!</a></li>
+</ul>
+ 

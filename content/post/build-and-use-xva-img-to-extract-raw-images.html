@@ -1,0 +1,47 @@
+---
+layout: post
+title: 'Build and use xva-img to extract raw images' 
+date: "2015-02-11T06:39:46+10:00"
+categories: 
+- Software 
+tags: 
+- disk-images
+- guides
+- virtualisation
+- xen 
+---
+<p>Prior to <a href="https://support.citrix.com/proddocs/topic/xencenter-61/xs-xc-vms-exportimport-about.html" title="Share VMs with versions of XenServer earlier than 6.0.">version 6.0</a>, one of the export options for XenServer was the XVA format. It’s essentially a tar archive with disks stored as 1MiB stripes.</p>
+<p>Among others, the <a href="https://github.com/eriklax/xva-img">xva-img</a> tool by eriklax can be used to convert images from XVA to raw. It’s not in any major package manager, so we need to build it.</p>
+<h3>Building</h3>
+<pre>
+$ svn checkout https://github.com/eriklax/xva-img.git
+$ cmake .
+# make install clean
+</pre>
+<p>Which returned this:</p>
+<pre>
+fatal error: openssl/sha.h: No such file or directory
+ #include &lt;openssl/sha.h&gt;
+                         ^
+</pre>
+<p>Well then, I don’t have the OpenSSL developer libraries. I had to <a href="https://unix.stackexchange.com/questions/87458/make-fatal-error-openssl-sha-h-no-such-file-or-directory">look this up</a> for Debian/Ubuntu, but it’s: </p>
+<pre>
+# apt-get install libssl-dev
+</pre>
+<p>Now you should be able to build and install as normal. If you’re interested, I’ve thrown together a <a href="https://gist.github.com/RubenSchade/1e5b7e355f73075bf37f">quick gist</a>.</p>
+<h3>Usage</h3>
+<p>Xen xva files are tar files, with the original images spliced into 1MiB files. So the first step is to extract it:</p>
+<pre>
+# tar -xf [image].xva
+</pre>
+<p>You’ll see a series of referenced image folders, such as &#8220;Ref:2154&#8243;. So to use the tool to convert to a raw image:</p>
+<pre>
+root@apt-yum:~# xva-img -p disk-export Ref\:2154/ disk.raw
+</pre>
+<p>I got the following error:</p>
+<pre>
+Exporting: |=====================                                        \ ERROR
+xva-img: cannot add empty chunk to disk.raw
+</pre>
+<p>Because xva image is <a href="https://en.wikipedia.org/wiki/Sparse_image">sparse</a>, converting to raw expands it to the full size. I accounted for double the size of the original image, but I really needed space for the entire uncompressed image.</p>
+ 

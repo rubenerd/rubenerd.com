@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Hidden messages in HTML email' 
+date: "2014-01-21T02:01:16+10:00"
+categories: 
+- Internet 
+tags: 
+- email
+- html 
+---
+<p>Like the curmudgeon posing as a 20-something that I am, I don’t use HTML email. I don’t send it, I don’t read it. It’s mere existence is a bane upon the internet world; its responsible for so much malware and obfuscated links to malware, to say nothing about the taste (or lack thereof) of such email stationary! But I digress.</p>
+<p>Well formed email with HTML will generally offer a plain text version in the same message, so it can gracefully degrade. Others don’t, forcing me to decipher the message in a sea of markup.</p>
+<p>When that happens, you sometimes see some fun stuff. A message from a disgruntled sysadmin reminding writers not to mess with the tag, lest they get blamed for the email not looking right on phones?</p>
+<pre>
+&lt;head&gt;
+&lt;!-- If you delete this meta tag, Half Life 3 will never be released. --&gt;
+&lt;meta name="viewport" content="width=device-width" /&gt;
+</pre>
+<p>And here was another one:</p>
+<pre>
+Copyright [redacted company]
+&lt;-- html sucks, please stop using it!--&gt;
+</pre>
+ 

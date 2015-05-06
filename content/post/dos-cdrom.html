@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Enabling CD-ROMs in DOS with generic drivers' 
+date: "2009-04-22T08:34:07+10:00"
+categories: 
+- Software 
+tags: 
+- dos
+- drivers
+- guide
+- howto
+- infocomm
+- nostalgia
+- retro 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.dos.cdrom.png" alt="DOS messages after a successful boot with generic CD-ROM drivers" style="height:222px; width:500px; display:inline; border:0px;" /><br /><cite>DOS messages after a successful boot with generic CD-ROM drivers</cite></p>
+<p>Time for another eccentric, pointless how-to post concerning a topic probably nobody cares about! Once I&#39;ve installed DOS in a virtual machine for some ridiculously fun nostalgia, the first thing I usually want to do is get the virtual CD-ROM drive working so I can more easily load in my ridiculous collection of old software from my childhood.</p>
+<p>If you have a Windows 98 or Windows Millennium Edition boot disk, you&#39;re already half way there. If not, the easiest thing to do is grab yourself a <a href="http://www.allbootdisks.com/download/98.html">pre-made disk image</a>.</p>
+<blockquote><p><strong>ASIDE:</strong> I’m not sure as to the legality of downloading old Microsoft disk images; to play it safe I suggest you have a legal licence for Windows 98. I am not a lawyer though, so don’t take this as legal advice!</p></blockquote>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.floppy.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px; background:transparent;" />Boot your MS-DOS guest, then mount the virtual disk image. You&#39;ll need to copy over <code>A:\MSCDEX.EXE</code> and <code>A:\OAKCDROM.SYS</code>. I like to keep my file system organised so I copy them to <code>C:\DOSDRIVERS</code>.</p>
+<p>Now we need to edit <code>C:\AUTOEXEC.BAT</code> and add a line to load the driver with an 8 digit identifier and available drive letter. If you don&#39;t have a high memory manager installed, drop the <code>LOADHIGH</code>/<code>LH</code> command.</p>
+<pre>LH C:\DOSDRIVERS\MSCDEX.EXE /D:LISAONO</pre>
+<p>Then edit <code>C:CONFIG.SYS</code> and add the new device driver with the same identifier you used before. Again, if you don&#39;t have a high memory manager, swap <code>DEVICEHIGH</code> to <code>DEVICE</code>. You&#39;ll also need a LASTDRIVE command so there&#39;s a free drive letter to use:</p>
+<pre>
+LASTDRIVE=Z
+DEVICEHIGH=C:\DOSDRIVERS\OAKCDROM.SYS /D:LISAONO
+</pre>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.optical.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px; background:transparent;" /></p>
+<p>Unmount your disk image and reboot… and enjoy a CD-ROM on DOS! Most people didn&#39;t have CD-ROMs at the time of DOS, so consider yourself lucky!</p>
+<p>Since the older DOS days there have been some more memory efficient device drivers developed than these Oak and Microsoft ones, but generally these are a good pair to start with because they&#39;re the most compatible. In a future post I&#39;ll be talking about alternative drivers.</p>
+ 

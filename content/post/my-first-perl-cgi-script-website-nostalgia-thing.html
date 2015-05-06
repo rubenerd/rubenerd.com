@@ -1,0 +1,45 @@
+---
+layout: post
+title: 'My first Perl CGI script website nostalgia thing!' 
+date: "2012-12-06T12:54:25+10:00"
+categories: 
+- Internet 
+tags: 
+- cgi
+- fastcgi
+- infocomm
+- nostalgia
+- perl 
+---
+<p><img src="http://files.rubenerd.com/uploads/photo.newbooks.jpg" alt="Happiness is a stack of new interesting computer books!" style="height:375px; width:500px" /></p>
+<p>If you&#39;ve been on the net for a while, chances are your development history roughly follows mine! I&#39;ve had people asking about my Perl script that I&#39;ve lovingly referred to here over the years, so here&#39;s something :).</p>
+<p><!--oldmore--></p>
+<h3>Ah the innocence of youth…</h3>
+<p>Before we go any further, yes that was my bedroom back in Singapore. I still have that lava lamp, that MacBook Pro and my beloved O&#39;Reilly books :)</p>
+<p>After graduating from GeoCities and the like to my own web server, I wrote a fairly simple Perl CGI script to run my site before finally moving over to dedicated CMSs including RapidWeaver, MediaWiki, WordPress and TextPattern. Since then, I&#39;ve dabbled in Ruby/eRuby/eRubis, Ruby on Rails, Django and PHP, though admittedly my biggest strengths still lie in the back end with running and building VPSs or uni servers with FreeBSD, CentOS, Solaris, Apache, Lightty, *SQL and the like.</p>
+<p>While not the most high performing or scalable systems, my Perl CGI script was a lot of fun! In a nutshell, it worked like this.</p>
+<ol>
+<li>Each of my blog posts was stored as a text file with the name of file corresponding to its stub, such as &#8220;shimapan.txt&#8221;. The files themselves were simply formatted as post name, date, category and content, with newlines delineating each. No fancy markdown, just HTML sans paragraph tags!
+</p>
+</li>
+<li>When a page was requested, the script would attempt to open its corresponding file. If this operation failed, a 404.txt file was returned in its place.
+</p>
+</li>
+<li>The script would pull the text, wrap each paragraph in &lt;p&gt; tags, open a rudimentary &#8220;template&#8221; text file and insert it between two HTML comments.
+</p>
+</li>
+<li>For example, when using the teal Hatsune Miku theme, going to http://rubenerd.com/?get=shimapan would put shimapan.txt into the mikutheme.txt file, then display a result any otaku would be proud of.</li>
+</ol>
+<p>It just occurred to me this was also coded before Miku&#39;s time. Or even Akiyama Mio. I should have made a joke about Haruhi Suzumiya and bunny girls instead. You live and learn.</p>
+<h3>Processing and such fun</h3>
+<p>I eschewed (gesundheit) the CGI.pm module, mostly because I found it easy enough to create the standard &quot;Content-type: text/html&quot; and other headers myself. I was (and still am) a fan of minimalism, and my C training at the time made me adverse to using third party modules and APIs, especially when it was easy enough to do something myself.</p>
+<p>The theme files and the posts themselves were uploaded to the server using SVN; they were &quot;committed&quot;. To this day, I still think that was a really nifty way to do it. I&#39;ve seen some people doing that with Git now.</p>
+<p><img src="http://files.rubenerd.com/uploads/akiyamamio.infamous.ahehhem.jpg" alt="Not showing any more than this, sheesh!" style="height:250px; width:500px" /></p>
+<h3>Learning from bad example?</h3>
+<p>I learned a lot from that site. Shortly after going live, I noticed thousands of hits to the 404.txt file. Obviously, bots had found my URL, and were filling random junk into it. I wrote in some rules that a stub could only be up to 24 characters long, and only contain alphanumeric characters. Any requests that didn&#39;t meet that criteria were automatically dropped.</p>
+<p>I also learned about FastCGI. Unbeknownst to me in my fresh-out-of-high-school innocence, each time someone accessed my poor web server, Apache was spawning an entirely new CGI process to handle their request. Admittedly my site only started to get traction long after I ditched the script and moved onto dedicated CMSs, but had I kept using it I&#39;m sure I would have been in for a nasty surprise!</p>
+<p>There were also other performance issues. I never quantified how much of a hit my server was taking by having to open and close theme and data files each time, though I suppose I could have written a simple SQLite backend and compared it.</p>
+<p>I also wasn&#39;t doing any caching; ideally once a post was completed and the theme set in stone, the script could have generated pages upon the post being uploaded, and served those instead. IIRC, this is how MovableType operated back in the mean old days. There weren&#39;t any dynamic parts to the site such as comments systems, tags and so on, so they would only need to be updated if the theme changed.</p>
+<h3>Justification!</h3>
+<p>Why am I posting about this, years from now? Because after writing a fairly basic Ruby on Rails install, playing with Django for a university assignment last semester, and my obsessive Wikipedia editing, I&#39;ve decided to trial running Rubenerd.com off TextPattern! But as all infuriating entries end: that&#39;s for another post.</p>
+ 

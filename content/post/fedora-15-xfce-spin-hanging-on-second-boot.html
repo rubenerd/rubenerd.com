@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Fedora 15 Xfce spin hanging on second boot?' 
+date: "2011-06-18T02:25:27+10:00"
+categories: 
+- Software 
+tags: 
+- errors
+- fedora
+- gnu
+- guide
+- infocomm
+- linux
+- postaday2011
+- problems
+- xfce 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.xfce48.png" alt="" style="height:100px; width:500px;" /></p>
+<p>Two machines I&#39;ve installed the Xfce spin of Fedora 15 on hang after logging in with GDM after the second boot. I haven&#39;t the foggiest idea why, but creating a new account fixes it.</p>
+<p><!--oldmore--></p>
+<p>In a nutshell, after logging in with GDM on the second boot, the Xfce desktop loads including the panels, but then the system freezes. The cursor can still be moved, but all clicks are ignored.</p>
+<h3>On a hunch, I…</h3>
+<ol>
+<li>used the classic CTRL+ALT+F2 just before GDM starts to bypass xorg</li>
+<li>logged in as root</li>
+<li>created a new account separate from the one created during installation</li>
+<li>rebooted and logged in with the new account in GDM</li>
+</ol>
+<p>Multiple restarts later, and Xfce is working just fine.</p>
+<p>This leads me to believe that for some reason on my hardware (a homebrew MSI system and a ThinkPad X40) the Xfce preference files are somehow corrupted when being installed. By creating a new account those files are necessarily recreated when Xfce is started from that account, and those files are free of the bugs. I have no proof of this, but its all I can think of right now.</p>
+<p>I use FreeBSD and Arch Linux on some systems because I like building things from scratch, but for getting up and running with full drive encryption, SELinux and [generally] graphics hardware, nothing gets up and running quicker than Fedora, from my experience. Of course by seeding design decisions to someone else, it also means tracking down the reason for bugs like this is harder, though I suppose one could level the same arguments against Mac OS X or Windows even more so.</p>
+ 

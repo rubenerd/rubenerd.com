@@ -1,0 +1,49 @@
+---
+layout: post
+title: 'QEMU Ad Lib MIDI in Windows 3.1x' 
+date: "2011-06-14T10:19:08+10:00"
+categories: 
+- Software 
+tags: 
+- ad-lib
+- adlib
+- guide
+- infocomm
+- midi
+- nostalgia
+- postaday2011
+- qemu
+- retro
+- sound
+- virtualisation
+- windows-3-1 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.05.png" alt="" style="height:155px; width:500px;" /></p>
+<p>After much head scratching, I finally got retro MIDI sound working in Windows 3.11 and PC DOS 7 in QEMU! Wow, that was a mouthful. Here’s how you do it, with a caveat.</p>
+<p><!--oldmore--></p>
+<h3>Execution Summary</h3>
+<p>In its default <code>./configure</code>-ation, QEMU emulates a Sound Blaster 16 card which can be detected and used in Windows 3.1 with the bundled Windows Sound Blaster 1.5 drivers. Unfortunately, with MPU401 disabled this means no MIDI support, on any guest OS. As of writing this post, there’s no way around this.</p>
+<p>Fortunately, QEMU also emulates Ad Lib, that early generation sound system that pre-dated SoundBlaster and has rudimentary MIDI support. Like SoundBlaster, Windows 3.11 can also use it out of the box without additional drivers.</p>
+<p>As a caveat: if you install any drivers for Sound Blaster before or after doing this, Ad Lib apparently loses control of MIDI and subsequently you don’t hear anything. I’ve yet to find a workaround for this, but as soon as I do, I’ll post it here.</p>
+<h3>Building QEMU with Ad Lib support</h3>
+<p>For what I&#39;ve been told are performance reasons, QEMU doesn&#39;t include Ad Lib support by default. Browsing the hundreds of pages of duplicated documentation online, I was told the solution to this was to build QEMU with the following option:</p>
+<pre>./configure --with-adlib</pre>
+<p>This no longer works. This does:</p>
+<pre>./configure --audio-card-list=sb16,adlib</pre>
+<p>I use QEMU exclusively for older OSs and have no need for the other sound cards it supports; if you want others you’ll want to add them there.</p>
+<h3>Windows 3.1</h3>
+<p>This should be a blast from the past for those of you who did this back in 1992… I was 6 at the time! My earliest memories of our first home computer were with a Sound Blaster card, so this was new to me :).</p>
+<p><strong>1.</strong> Fire up your QEMU DOS VM (that’s a lot of acronyms), then launch Windows 3.1. If you needed to be told that, how did you build your own custom version of QEMU?</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.01.png" alt="" style="height:152px; width:500px;" /></p>
+<p><strong>2.</strong> Go to <em>Control Panel</em>, then <em>Drivers</em>.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.02.png" alt="" style="height:170px; width:500px;" /></p>
+<p><strong>3.</strong> Click <em>Add…</em>, choose <em>Ad Lib</em> from the <em>List of Drivers</em>, and hit <em>OK</em>. You’ll be prompted for a Windows 3.1 install disk, or you can put in a different path. I tend to keep setup files on the virtual drive C for this purpose; it’s not like I don’t have space for it!</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.03.png" alt="" style="height:150px; width:500px;" /></p>
+<p><strong>4.</strong> Quit Windows, then launch it again. Ah the days when rebooting your &quot;OS&quot; was that simple!</p>
+<p><strong>5.</strong> Go back to Control Panel and choose MIDI Mapper. Choose <em>Ad Lib general</em> from the Name list box, then hit <em>Close</em>.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qemu.adlib.04.png" alt="" style="height:150px; width:500px;" /></p>
+<p>All done! Now you can launch Media Player and play <code>CANYON.MID</code> in all its electronic, MIDI glory!</p>
+<h3>Why are you running Windows 3.1?</h3>
+<p>While its come in incredibly handy for a few paid jobs (spur of the moment things that earn some serious brownie points, then later more seriously!), our first family home computer ran Windows 3.0 and later 3.1.</p>
+<p>My ultimate goal is to recreate that first system with all our classic software and games on my modern hardware. I’ve got all the original disks, made images of them, and am ready to go! I’m a sucker for nostalgia :’)</p>
+ 

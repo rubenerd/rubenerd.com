@@ -1,0 +1,25 @@
+---
+layout: post
+title: 'Lessons from Jekyll and Github pages' 
+date: "2013-08-09T04:21:43+10:00"
+categories: 
+- Internet 
+tags: 
+- git
+- github
+- jekyll 
+---
+<p>It’s been about a week now since I moved from WordPress to Jekyll/Github, and I’m overjoyed with the results. The site is faster on the front end, simpler on the back end, and has made it a pleasure for me to blog again. I live in code revision systems, and the novely still hasn’t worn off that I’m even blogging in one now!</p>
+<p>That said, I’ve learned a couple of lessons:</p>
+<ul>
+<li>
+<p>If you’re migrating from WordPress to Jekyll, be prepared to get comments from people that you’re spamming their aggregators. Unfortuantely, despite my best efforts to ensure the same <abbr title="globally unique identifier">GUID</abbr> for each post (<em>aka:</em> the post permalink), some aggregators still saw them as new entries. Perhaps these don’t trust GUIDs and calculate their own identifier for posts based on a hash or some other derived value. Lesson learned: warn your readers before any major structural changes, such as changing from a <abbr title="content management system">CMS</abbr> to staic pages!</p>
+</li>
+<li>
+<p>Do a <code>jekyll build</code> locally before committing any template changes. I realised the reasons why my blog wasn’t updating over the last few days was due to a stray Liquid for loop that was preventing the pages from being rebuilt. Fortunately, Github also emailed me letting me know my site wasn’t building, which was rather nice.</p>
+</li>
+<li>
+<p>I’ll admit, I do miss tag archives, just a little. For me, the convenience and fun with Jeykll more than outweighs it, and my server logs suggested almost nobody used them anyway. Still, if I continue to miss them, I’ll eventually add another thing to my toolchain to generate them locally before pushing the whole site. We’ll see.</p>
+</li>
+</ul>
+ 

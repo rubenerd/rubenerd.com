@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Shell work at 01:15 in the morning != smart' 
+date: "2009-02-10T06:45:47+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- mac-os-x
+- macports
+- scripting 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.night.jpg" alt="" style="width:500px; height:283px; display:inline; border:0px" /><br /><cite>It still doesn&#39;t work… it still doesn&#39;t work… it still doesn&#39;t work…</cite></p>
+<p>I&#39;ve heard it said by many programmers I respect that you spend 10% of your time coding, 90% debugging. I would argue it&#39;s closer to 5% coding, 95% debugging, but the point stands. It also stands true that the more tired you get, the less obvious basic mistakes appear to be.</p>
+<p>Case in point, this evening I decided to update my MacPorts collection on my iBook and install <a href="http://www.gnome.org/gnumeric/">Gnumeric</a> (I&#39;ve so far only <a href="http://rubenerd.com/p2595/">switched to pkgsrc</a> on my MacBook Pro). For the life of me I couldn&#39;t figure out why this single line wasn&#39;t working:</p>
+<pre>
+% sudo port -v selfupdate &#038;&#038; \
+port -v install gnumeric
+</pre>
+<p>If you&#39;ve worked in UNIX for more than 5 seconds you&#39;d be able to tell me in an instant what I did wrong, but for the last 10 minutes I just couldn&#39;t figure it out. It was driving me crazy! When I did I promptly hit my forehead on the table causing a glass of cold water I had placed on it to jiggle its way off the table and with an almighty crash land in a million pieces on the floor.</p>
+<blockquote><p><strong>ASIDE:</strong> That glass thing didn’t really happen, but doesn’t it sound like something that could?</p></blockquote>
+<p>Lesson learned, don&#39;t do any programming, scripting or shell work when you&#39;re half asleep or not feeling well. You just don&#39;t get much done!</p>
+<p>As for the mistake, I only used one <code>sudo</code> command. Using <code>&amp;&amp;</code> doesn&#39;t carry over the higher user privileges! Simple, obvious, glaring mistake that was staring me in the face the entire time and I couldn&#39;t see it.</p>
+ 

@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Interpreting ipmitool ser list memory errors' 
+date: "2014-09-02T06:24:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- ipmi
+- ram
+- server-fault
+- servers 
+---
+<p style="font-style:italic;">(This <a href="http://serverfault.com/questions/613225/interpreting-ipmitool-ser-list-memory-errors">originally appeared on Server Fault</a>. I like to keep my own local copies of stuff like this, not least because all social networks are transient).</p>
+<h3>Question</h3>
+<p>I’m purchasing some second hand servers, which the seller has given me remote access to. Running ipmitool [..] ser list, they seem clean other than these repeated a few months ago on each:</p>
+<pre>
+ [..] | System Firmware Error | Unspecified | Asserted
+ [..] | Memory | Configuration Error | Asserted | CPU 11 DIMM 1
+ [..] | Memory | Configuration Error | Asserted | CPU 11 DIMM 1
+ [..] | Memory | Configuration Error | Asserted | CPU 3 DIMM 1
+ [..] | Memory | Configuration Error | Asserted | CPU 11 DIMM 1
+ [..] | Memory | Configuration Error | Asserted | CPU 11 DIMM 1
+ [..] | Memory | Configuration Error | Asserted | CPU 3 DIMM 1
+</pre>
+<p>I’m completely new to using ipmi. From a daily usage perspective, should the presence of these errors be concerning?</p>
+<h3>Answer</h3>
+<p>From <a href="http://serverfault.com/users/118086/baruch-even">Baruch Even</a>:</p>
+<p>From the <a href="https://extras.csc.fi/mgrid/docs/IPMI_v1.5_spec.pdf">ipmi spec version 1.5</a> in page 375 (about sensor 0x0C/0X07):</p>
+<blockquote>
+<p>Configuration error. Indicates a memory configuration error for the entity associated with the sensor. This can include when a given implementation of the entity is not supported by the system (e.g., when the particular size of the memory module is unsupported) or that the entity is part of an unsupported memory configuration (e.g. the configuration is not supported because the memory module doesn’t match other memory modules)</p>
+</blockquote>
+ 

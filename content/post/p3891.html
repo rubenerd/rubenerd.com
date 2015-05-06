@@ -1,0 +1,37 @@
+---
+layout: post
+title: 'Changing folders in the Terminal on Mac OS X' 
+date: "2009-03-15T01:45:30+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- howto
+- infocomm
+- mac-os-x
+- terminal-app
+- unix 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.terminal.cd.png" alt="Demonstrating the different ways to change folders" style="height:210px; width:500px; display:inline; border:0px;" /></p>
+<p>I think one of the great things about Mac OS X is it lets people learn Unix commands in a familiar setting, and I’ve been encouraging people to do so. When you mess around in Terminal.app, almost all the commands work the same in the other BSDs, and in a similar fashion to Linux, Solaris etc.</p>
+<p>One of the most common questions I’m asked by people learning Unix commands from scratch on the Mac is how to change folders/directories that have spaces or punctuation characters.</p>
+<p>There are three ways, the simplest of which is just to enclose the name of the directory in double quotes:</p>
+<blockquote><p>
+<code>% cd "/Users/rubenerd/Folder With Spaces"</code>
+</p>
+</blockquote>
+<p>An alternative which you may be more familar with if you’ve done scripting in Perl for example is to &quot;escape&quot; the characters with backslashes:</p>
+<blockquote><p>
+<code>% cd /Users/rubenerd/Folder With Spaces</code>
+</p>
+</blockquote>
+<p>The third way is to escape the characters in the directory name, but let the computer do it for you: the default shells in Mac OS X allow tab filename completion. In this case, start typing the name of the directory you want to change to, then hit <code>[TAB]</code>.</p>
+<blockquote><p>
+<code>% cd /Users/rubenerd/Fold[TAB]</code><br />
+becomes…<br />
+<code>% cd /Users/rubenerd/Folder With Spaces</code>
+</p>
+</blockquote>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.terminal.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px;" />If you have several directories with the same first few characters the shell will either beep at you or show you a list of the folders (and sometimes files, symbolic links etc) that match your criteria. In this case, just keep filling the name of the directory until you have enough of it that’s unique.</p>
+<p>These three methods are also used if you need to reference files with spaces and other characters in the Terminal too. Personally since I’ve started living in Terminals I choose not to name my files with spaces any more to save myself some time, but if you’re mostly a graphical desktop user that’s dabbling in this stuff, these work just fine.</p>
+ 

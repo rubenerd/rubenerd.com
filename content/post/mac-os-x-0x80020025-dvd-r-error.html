@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Mac OS X 0x80020025 blank DVD and CD error' 
+date: "2006-08-05T06:57:17+10:00"
+categories: 
+- Hardware 
+tags: 
+- apple
+- errors
+- guide
+- infocomm
+- mac-os-x
+- optical-discs 
+---
+<p><img src="http://files.rubenerd.com/uploads/media.apple-dvdr.png" class="transparent" alt="An Apple DVDR" /></p>
+<p>If you&#39;re trying to burn a data DVD or CD in Mac OS X Tiger (<em>or later, see the comments for this post!</em>) and you get the following error when you insert a blank disc:</p>
+<blockquote style="font-family:monospace"><p><code>0x8002002</pre>
+<p>… the Finder might be having a caching issue and forgetting a drive is attached, according to <a style="font-weight:bold" href="http://www.frozennorth.org/C2011481421/E1617705938/">FrozenNorth</a>. Fortunately there is an easy enough solution: eject the offending disc, Force Quit the Finder then try again.</p>
+<p>For those who don&#39;t know how:</p>
+<ul>
+<li>Click the Apple Menu in to top left hand corner</li>
+<li>Click &quot;<span style="font-family:monospace">Force Quit…</span>&quot;</li>
+<li>Choose &quot;<span style="font-family:monospace">Finder</span>&quot; from the list, then click &quot;<span style="font-family:monospace">Restart</span>&quot;</li>
+<li>Eject the blank disc, then reinsert and try burning again.</li>
+</ul>
+<p>Alternatively you can do it from the Terminal:</p>
+<blockquote style="font-family:monospace"><p>$ killall Finder</p></blockquote>
+<p>Surprisngly enough, this is the #1 result for doing searches on this topic in Google, for some reason. That surprises me no end, though perhaps its a sign this issue isn&#39;t very widespread. Unfortunately, that also means it may be sticking around for a while. Here&#39;s hoping it&#39;s fixed in the next release of OS X. </p>
+<p>In the meantime, hope this was useful!</p>
+ 

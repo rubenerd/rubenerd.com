@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Jekyll GitHub gists' 
+date: "2014-10-18T06:03:32+10:00"
+categories: 
+- Software 
+tags: 
+- github
+- guides
+- jekyll 
+---
+<p><img src="http://files.rubenerd.com/2014/xibit.gist.jpg" alt="Yo dawg, I heard you render gists. So I linked your gist in a gist you see nothing with NoScript" style="width:250px" /></p>
+<p>Given its origins, I should have known <a href="http://jekyllrb.com/">Jekyll</a> would let you render gists with some simple syntax. To get all meta, I rendered this gist  using the gist liquid markup:</p>
+<div class="codeblock">
+<pre>
+{&#37; gist RubenSchade/3f8e385647c1ded6bfe6 &#37;}
+</pre>
+<div style="text-align:right;"><a href="https://gist.github.com/RubenSchade/3f8e385647c1ded6bfe6">Github Gist</a></div>
+</div>
+<p>Well, almost. That’s using my own styling for a plain pre tag, and a link to the gist. Inline gists rely on JavaScript, without graceful degradation. Land on this page with NoScript (or an equivalent security tool), and you’ll see <a href="http://www.youtube.com/watch?v=MR5XUED-czc">absolutely nothing</a>.</p>
+<p>Oh well, sounded like a nice idea.</p>
+ 

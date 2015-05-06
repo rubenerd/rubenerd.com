@@ -1,0 +1,58 @@
+---
+layout: post
+title: 'Notes on using NetBSD’s pkgsrc on Mac OS X' 
+date: "2008-11-06T10:25:43+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- guide
+- howto
+- infocomm
+- mac-os-x
+- netbsd
+- pkgsrc 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.leopard.pkgsrc.png" alt="pkgsrc on Mac OS X" style="height:288px;width:500px;" /><br />
+<cite>I&#39;m a kid in a chocolate shop! Look at all this stuff!</cite></p>
+<p>While there is an abundance of above average quality applications for Mac OS X, many tend to be more expensive and less feature complete than similar free and open source applications available on Linux, FreeBSD and the like. On Mac OS X we have the fantastic and easy to use MacPorts and Fink package managers, but if you&#39;re really serious about running said software you can&#39;t beat <a href="http://pkgsrc.se/">pkgsrc</a>.</p>
+<p>The pkgsrc system is the mature, elegant, sophisticated (can you tell I like it yet?) and cross platform package manager developed and used by the folks over at the <a href="http://www.netbsd.org/">NetBSD</a> project. It&#39;s also used as the default package manager on <a href="http://www.dragonflybsd.org/">DragonFly BSD</a> and <a href="http://www.dracolinux.org/">Draco GNU/Linux</a> amongst others. I use it on my Macs, my <a href="http://www.slackware.com/">Slackware Linux</a> machine and even on a <a href="http://www.freebsd.org/">FreeBSD</a> box, and I <em>love</em> it.</p>
+<p>In this post I&#39;ll be describing what I&#39;ve found to be the quickest and simplest way to get it up and running on Mac OS X. There are hundreds of other ways, but I&#39;ve never gone wrong with this.</p>
+<h3>Case sensitivity!</h3>
+<p>The only caveat with pkgsrc is that you really need to run it on a <strong>case sensitive file system</strong> which OS X does not use by default. If reformatting isn&#39;t an option, might I suggest using Leopard&#39;s new Disk Utility to shrink your current boot volume and creating a separate, case sensitive HFS+ volume.</p>
+<blockquote><p><strong>ASIDE:</strong> Some of the NetBSD documentation describes creating virtual disk images and running pkgsrc from them if case sensitivity is an issue. While it is technically possible, I wouldn’t recommend it; from experience I’ve found them to be more trouble than they’re worth. If you’d like to give it a go though, the <a href="http://www.netbsd.org/docs/pkgsrc/platforms.html#darwin">Darwin platform notes on the pkgsrc user guide</a> details the procedure.</p></blockquote>
+<h3>Installing pkgsrc</h3>
+<p>Firstly, open your Terminal, navigate to <code>/usr/</code> (or your new case sensitive volume you created earlier) and download a pkgsrc snapshot. This may take a while.</p>
+<pre>
+% cd /usr/
+% sudo env CVS_RSH=ssh 
+% cvs -d anoncvs@anoncvs.NetBSD.org:/cvsroot checkout pkgsrc
+</pre>
+<p>Next, launch the bootstrap procedure which will create the required directories and install the utilities to build the packages:</p>
+<pre>% cd pkgsrc/bootstrap &#038;&#038; sudo ./bootstrap</pre>
+<p>Congratulations, you now have pkgsrc installed on your Mac! The next step is to modify your shell&#39;s $PATH variable to point to the new binary directories, by default pkgsrc installs software in <code>/usr/pkg</code>. If you use the Tiger and Leopard default bash shell, your PATH line in your <code>.profile</code> should something like this:</p>
+<pre>export PATH=/usr/pkg/bin:/usr/pkg/sbin:$PATH</pre>
+<p>You&#39;ll also want to add these lines to make it easier to update your pkgsrc tree:</p>
+<pre>
+export CVS_RSH=ssh
+export CVSROOT=anoncvs@anoncvs.netbsd.org:/cvsroot
+</pre>
+<p><img style="height:312px; width:500px;" alt="" src="http://files.rubenerd.com/uploads/anime.netbsd.mai.colour.thumb.jpg" /><br />
+<cite>Very quick background I created for a fellow MBP user who started with pkgsrc on their Mac and since moved over entirely to NetBSD, will be the subject of a future post. <a href="http://en.wikipedia.org/wiki/My_HiME">Mai Tokiha</a> was the only character we could really find who wears lots of orange :).</cite></p>
+<h3>Using pkgsrc</h3>
+<p>From this point forward, using pkgsrc is basically the same as using it on any other platform, the only difference is you use the <code>bmake</code> tool instead of <code>make</code> to build packages. If you haven&#39;t used pkgsrc before, below is a very quick crash course using Alpine as an example.</p>
+<dl>
+<dt>Browsing available packages</dt>
+<dd>You can browse the <code>/usr/pkgsrc/</code> directory, but the easiest way is to go to <a href="http://pkgsrc.se">http://pkgsrc.se</a> and either search for a specific piece of software, or browse the categories.</dd>
+<dt>Building and installing a package</dt>
+<dd>
+<pre>% cd /usr/pkgsrc/mail/alpine% sudo bmake install clean clean-depends</pre>
+</dd>
+<dt>Updating your pkgsrc tree</dt>
+<dd>
+<pre>% cd /usr/pkgsrc
+% sudo cvs update -dP</pre>
+</dd>
+</dl>
+<p>That&#39;s enough to get your started; once you&#39;ve got the hang of it dive into the comprehensive and easy to follow <a href="http://www.netbsd.org/docs/pkgsrc/">pkgsrc guide</a> by Alistair Crooks, Hubert Feyrer and the pkgsrc developers to learn all the cool things you can do with this package manager. I need a Rubenerd Seal of Approval or something :-)</p>
+ 

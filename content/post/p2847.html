@@ -1,0 +1,80 @@
+---
+layout: post
+title: 'Windows 3.x on Mac OS X using DOSBox' 
+date: "2008-11-13T01:50:37+10:00"
+categories: 
+- Software 
+tags: 
+- dos
+- dosbox
+- dosonmac
+- infocomm
+- mac-os-x
+- retro
+- windows
+- windows-3-x 
+---
+<p><a href="http://rubenerd.com/tag/dosonmac/"><img src="http://files.rubenerd.com/uploads/logo.retrodos.intelmac.png" alt="Windows 3.1 on Mac OS X: DOS Nostalgia on Intel Mac Hardware!" style="height:150px; width:500px;" /></a></p>
+<p>As I mentioned in the previous post in this mini-series, one of the options for running Windows 3.x on Mac OS X is using the excellent little <a href="http://www.dosbox.com/">DOSBox</a> DOS emulator. While it is akin to comparing minnows to sharks in features, the latest Mac build of DOSBox (0.72) weighs in at 10MiB, compared to <a href="http://www.virtualbox.org/">VirtualBox</a> 2.0.4&#39;s 34.6MiB or <a href="http://vmware.com/mac/">VMware Fusion&#39;s</a> 247.6MiB.</p>
+<p>DOSBox also has some distinct advantages other than filesize if you just want to run DOS. You don&#39;t need to worry about setting up your own copy of DOS from scratch, saving you the trouble of configuring <code>AUTOEXEC.BAT</code> and <code>CONFIG.SYS</code>, and all the graphics and audio for a huge slew of devices is already set up. For people interested in running Windows 3.x, DOSBox provides generic emulated hardware that you can easily install software for.</p>
+<h3>Setting it up</h3>
+<ol>
+<li>Grab yourself a <a href="http://www.dosbox.com/download.php?main=1">copy of DOSBox</a> and install it.
+</p>
+</li>
+<li>Create a folder in your home directory that will serve as you <code>C:</code> drive in DOSBox. Alternatively if you want to keep things neat and tidy, you can create a dedicated disk image using Disk Utility.
+</p>
+</li>
+<li>Create another folder within your dosbox folder or your disk image called <code>setup</code> for example, then copy the contents of each Windows 3.x floppy disk into it.
+</p>
+</li>
+<li>If you created a disk image, mount it in Mac OS X, then fire up DOSBox and map your image to <code>c:</code>. Obviously if you created a folder, reference that instead:
+<pre>mount c /Volumes/[NAME OF IMAGE]</pre>
+</li>
+<li>Now you can navigate to your Windows installation files and start the setup process:
+<pre>
+z:\> c:\ 
+c:\> cd setup
+c:\setup\>setup.exe
+</pre>
+</li>
+</ol>
+<h3>Installing Windows</h3>
+<p><img src="http://files.rubenerd.com/uploads/screenie.dosbox.wininstall.png" alt="When you see this, you're home free!" style="height:329px; width:420px;" /><br />
+<cite>When you see this, you’re home free!</cite></p>
+<p>The Windows 3.x installation process is fairly self explanatory, but just a few helpful pointers:</p>
+<ol>
+<li>Choose <em>&quot;Custom Installation&quot;</em> with your arrow keys during the DOS-based part of the installation.</li>
+<li>When you&#39;re asked, don&#39;t worry about using the option to search your drive for existing applications, there aren&#39;t any! Leave the option to install printers checked though.</li>
+<li>When you&#39;re asked about virtual memory, leave it with the default <em>&quot;Temporary&quot;</em> option. Because we&#39;re dealing essentially with a folder not a real file system, <em>&quot;Permanent&quot;</em> virtual memory won&#39;t work.</li>
+<li>You&#39;ll be asked if you want to make any changes to <code>AUTOEXEC.BAT</code> and <code>CONFIG.SYS</code>. Choose <em>&quot;Let you make the modifications later&quot;</em>, because DOSBox won&#39;t use any boot files Windows creates anyway.</li>
+<li>When you get to the printer installation step, click the <em>&quot;Generic / Text Only&quot;</em> option and hit <code>[Install…]</code>. Windows in the day needed a printer, any printer, to display some fonts properly.</li>
+</ol>
+<h3>Creating a preferences file</h3>
+<p>To save yourself the trouble of writing out that nasty <code>mount</code> line each time you start DOSBox, and to allow yourself to tweak some performance options it&#39;s best to create a preferences file.</p>
+<ol>
+<li>Within DOSBox, enter the following (in one line):
+<pre>config -writeconf "/Users/[YOUR-USER-NAME]/Library/Preferences/DOSBox Preferences" </pre>
+</p>
+</li>
+<li>Quit DOSBox then open the file you just created in your favourite text editor. At the very end of the file is where your custom <code>AUTOEXEC.BAT</code> code can be written. Enter the  exact line you entered above to map your disk image or folder to drive <code>c:</code>.
+</p>
+</li>
+<li>Under this, enter the following line to help Windows and DOSBox locate files:
+<pre>SET PATH=%PATH%;C:WINDOWS</pre>
+</p>
+</li>
+<li>If you intend to use DOSBox just to run Windows 3.x, add these lines right after your mount line so Windows starts when you start DOSBox, and DOSBox quits when Windows does:
+<pre>
+WIN
+EXIT
+</pre>
+</li>
+</ol>
+<h3>Starting Windows 3.x</h3>
+<p>Now you have a basic Windows 3.x installation running on your Mac! It&#39;s somewhat of a surreal sight:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.dosbox.macosx.png"><img src="http://files.rubenerd.com/uploads/screenie.dosbox.macosx.jpg"  alt="Windows 3.1 on Mac OS X" style="height:312px; width:500px;" /></a><br />
+<cite>Windows 3.1 on Mac OS X!</cite></p>
+<h3>Drivers</h3>
+<p>It is possible to drivers to get better performance, graphics, sound etc. DOSBox emulates a generic SoundBlaster card and a custom S3 Trio graphics card. The VOGONS (Very Old Games On New Systems) forum has a <a href="http://vogons.zetafleet.com/viewtopic.php?t=9405">thread dedicated to this</a>. If I have time this week I&#39;ll elaborate further in a separate post, keep an eye on the <a href="http://rubenerd.com/tag/dosonmac/">dosonmac</a> tag.</p>
+ 

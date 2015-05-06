@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Ultra super secure invalid passphrases' 
+date: "2014-12-03T05:09:24+10:00"
+categories: 
+- Internet 
+tags: 
+- passphrases 
+---
+<p>I still use Twofish on a pool of pseudo-random entropic fun to generate long ASCII filled passphrases with alphanumeric characters, punctuation and such. Most sites today behave properly, but it still trips up a few.</p>
+<p>WordPress:</p>
+<blockquote>
+<p>ERROR: Passwords may not contain the character &#8220;\&#8221;.</p>
+</blockquote>
+<p>Fastmail:</p>
+<blockquote>
+<p>Too long: Use at most 50 characters</p>
+</blockquote>
+<p><a href="https://www.quantcast.com/user/signup">Signing up to Quantcast</a>:</p>
+<blockquote cite="https://www.quantcast.com/user/signup">
+<p>Password must be less than 50 characters long.</p>
+</blockquote>
+<p>Dashzen&#8230; doesn’t show anything.</p>
+<p>But the winner is the NSW OneGov site:</p>
+<blockquote cite="https://www.licence.nsw.gov.au/gls_portal/Account.mvc/LogOn?ReturnUrl=%2Fgls_portal%2FLicenceForm.mvc%2FNewApplication%3FformId%3D58a17626-142b-499c-a135-4f431402c1d1%26agencyID%3D100b72a0-8081-4801-a80f-d9703d871510">
+<p>The characters Spaces, @, &#8216;, ?, +, : are not allowed</p>
+</blockquote>
+<p>There may be some data sanitising going on here, or an attempt to reduce support queries from people forgetting increasingly longer passphrases. Still, there’s absolutely no technical reason why a site in 2014 can’t salt and hash exactly what you give it.</p>
+ 

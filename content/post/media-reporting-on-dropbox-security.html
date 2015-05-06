@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Media reporting on Dropbox security, privacy' 
+date: "2014-07-07T11:29:22+10:00"
+categories: 
+- Internet 
+tags: 
+- dropbox
+- encryption
+- file-sharing
+- privacy
+- security 
+---
+<p>In an article for the Australian Business IT site, Dave Stevenson details some <a href="http://www.bit.com.au/Guide/313558,do-you-use-dropbox-here-are-some-clever-tricks.aspx">Dropbox tricks</a>. Most of it is the usual stuff about its operation, how you’re able to increase your account space, and sharing documents between users.</p>
+<p>Under security, we get the first tales of caution:</p>
+<blockquote><p>
+Dropbox is terrifically convenient for sharing personal documents and professional projects – but is it safe for sharing sensitive documents?
+</p></blockquote>
+<p>He goes on to discuss Dropbox’s previous security breaches, their use of 256-bit AES SSL, and their new (in 2012) two factor authentication, which he explains as:</p>
+<blockquote><p>
+a new code is created for you every time you log in. The idea is that even if someone gets hold of your password, they won’t be able to access your Dropbox without the code.
+</p></blockquote>
+<p>Smooth sailing so far. But then we get into the specifics of account access, versus file access.</p>
+<blockquote><p>
+If you’re running a Dropbox for a client, you should still tread carefully. By default, Dropbox’s employees can’t access the contents of your files, but they can read file metadata (such as filenames, file sizes and the EXIF data attached to images).
+</p></blockquote>
+<p>Unfortunately, that’s not true. While there may be some business logic or rules preventing employees from accessing your files, there’s no technical reason why others in the company couldn’t. In transit, your files are protected with TLS (SSL), but after this they’re stored in the clear. The only way you can be sure people can’t access your files is by performing client–side encryption, either on individual files or disk images.</p>
+<p style="font-style:italic">(It’s not enough to do server-site encyrption, as the server would necessarily have to keep the key. This means it could be handed over to anyone, thereby rendering your encryption moot).</p>
+<p>I admit, I’ve been letting pedants have it of late, and now I’m being picky about a journalists phrasing. Still, this is a critically important distinction for user’s privacy that I’m surprised doesn’t get much coverage. It has real world implications for people.</p>
+<p>I use Dropbox for notes, draft blog posts, and other material I wouldn’t mind people seeing. Its utility more than pays for the sacrifice I make for privacy. But be under no illusion that your data can’t be viewed.</p>
+ 

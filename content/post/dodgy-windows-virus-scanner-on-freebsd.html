@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Dodgy Windows virus scanner on FreeBSD!' 
+date: "2008-03-24T02:49:27+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- javascript
+- kde
+- microsoft
+- screenshots
+- security
+- spam
+- viruses
+- windows
+- windows-xp
+- x11 
+---
+<p>For some reason this evening while searching for information about how to grate cheese using only rubber bands MacGyver style (or maybe while I was searching for SQlite information for Ruby, I don&#39;t remember) a random message box popped up:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.xpvirusonbsd.png"><img src="http://files.rubenerd.com/uploads/screenie.xpvirusonbsd.thumb.png" alt="Your Windows installation could be infected with viruses!" style="height:118px; width:500px" /></a></p>
+<p>Given I&#39;m on <a href="http://freebsd.org/">FreeBSD</a> (they didn&#39;t even check whether their victim was running Windows?!), just for a laugh I decided to click OK and see what they showed!</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.xpvirusonbsd.page.png"><img src="http://files.rubenerd.com/uploads/screenie.xpvirusonbsd.page.thumb.png" alt="Really dodgy fake Windows virus scanner" style="height:312px; width:500px" /></a></p>
+<p>I was expecting the usual silly looking website with affiliate links for piles of overpriced and unnecessary security software, but instead a new fake web software screen appeared, complete with animated progress bars and an evolving list of &quot;infections&quot; that the &quot;software&quot; had &quot;detected&quot;. When it was done another fake message appeared which linked to an executable file to download, presumably containing spyware or a virus. Taking a look at the source on the page itself, each button triggered the same JavaScript download function.</p>
+<blockquote><p><strong>ASIDE:</strong> The JavaScript code took up more space than any of the HTML. I’ve never seen that before, quite eye opening. Scams like this need more 1337 programming skills than I thought. And all the more reason to disable JavaScript except for trusted sites!</p></blockquote>
+<p>I must say, despite the fact the Windows logo is different in four different places and the grammar is terrible, the animations and fake scan results are pretty well done. For most savvy and intermediate computer users the flaws would be pretty obvious and they&#39;d probably laugh them off, but the scary thing is I&#39;m sure there are plenty of people who would find this whole shameless charade convincing. Just like all these hoaxes, they seem to target this group; heck if they can net one person out of a few thousand, the whole exercise has been… how does Richard Quest put it… profitable.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.xpvirusonbsd.th.png" alt="Malware distributor, I stick my tongue out at thee!" style="height:249px; width:500px;" /><br />
+<em>Malware distributor, I stick my tongue out at thee!</em></p>
+<p>For what it&#39;s worth though, and on the bright side, it was really hilarious seeing this whole thing act itself out… in <a href="http://freebsd.kde.org/">KDE</a> on a FreeBSD machine where the windows look completely different, the colours don&#39;t match, the fonts aren&#39;t even the same and the <code>.exe</code> file it tried to download to the machine wouldn&#39;t have been able to run itself even if it did make it to the hard drive to start off with!</p>
+<p>Sorry guys, there&#39;s no Microsoft Windows code to exploit on <em>this</em> machine!</p>
+ 

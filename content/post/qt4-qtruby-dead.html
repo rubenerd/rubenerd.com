@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'Can’t work Qt4-QtRuby on Snow Leopard' 
+date: "2009-12-17T05:07:25+10:00"
+categories: 
+- Software 
+tags: 
+- gui-design
+- infocomm
+- programming
+- python
+- qt
+- ruby 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.mac.qtfolder.png" alt="" style="height:255px; width:500px; display:inline;" /></p>
+<p>Yesterday I <a href="http://rubenerd.com/rubytk-or-java-swing/">wrote a longwinded post</a> about choosing Ruby/Tk or Java Swing to create a silly Monopoly clone for the family. Alex reminded me of <a href="http://qt.nokia.com/downloads/downloads#lgpl">Qt</a> which is still just as easy as ever to install on Mac, but I still haven&#39;t got the <a href="http://rubyforge.org/projects/korundum/">Qt4-QtRuby</a> bindings working because of a problem with Smoke.</p>
+<p><!--oldmore--></p>
+<p>First I got the <a href="http://qt.nokia.com/downloads/downloads#lgpl">latest complete Qt SDK</a> from Nokia/Trolltech, then built <a href="http://www.cmake.org/">cmake</a> from MacPorts:</p>
+<pre>
+# port -v selfupdate
+# port -v install cmake
+</pre>
+<p>Then downloaded a copy of Qt4-QtRuby and was able to get passed the cmake stage:</p>
+<pre>
+# tar xzvf qt4-qtruby-2.0.3.tgz
+# cd qt4-qtruby-2.0.3
+# cmake -DENABLE_QTWEBKIT_SMOKE=off 
+-DENABLE_QTWEBKIT_RUBY=off .
+</pre>
+<p>But when I got to the make stage it reported an error in smokedata.cpp and proceeded to print a laundry list of errors.</p>
+<pre>
+Writing smokedata.cpp…
+FATAL ERROR "com.trolltech.Qt.QGraphicsItem") inline void 
+QGraphicsItem::setPos(qreal 
+"com.trolltech.Qt.QGraphicsItem") 
+inline void QGraphicsItem::setPos(qreal 
+"com.trolltech.Qt.QGraphicsItem") 
+inline void QGraphicsItem::setPos(qreal isn't a known type 
+(type="com.trolltech.Qt.QGraphicsItem") inline void 
+QGraphicsItem::setPos(qreal)
+</pre>
+<p>This was the reason why I was going to stick with Tk with Ruby because it comes bundled with the language and you don&#39;t need to go through all these hoops. <a href="http://www.pyside.org/downloads/">Python works great with Qt</a> though, so I might give that a shot instead. Or I&#39;ll just keep soldiering on with Swing.</p>
+ 

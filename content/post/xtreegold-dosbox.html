@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Alas, XTreeGold and DOSBox don’t tango' 
+date: "2009-10-07T10:18:13+10:00"
+categories: 
+- Software 
+tags: 
+- dos
+- dosbox
+- infocomm
+- nostalgia
+- retro
+- xtreegold 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.dosbox.xtg.png" alt="XTreeGold" style="height:290px; width:500px; display:inline" /></p>
+<p>I&#39;ve been doing so much work in <a href="http://dosbox.org/">DOSBox</a> for <a href="http://rubenerd.com/dosbox-to-rescue/">other people</a> and myself over the last few weeks again I thought I&#39;d do some more posts about it. I know you&#39;re all intensely fascinated by my <a href="http://rubenerd.com/tag/dos/">DOS nostalgia</a>! Unfortunately I&#39;ve finally come across an application that DOSBox doesn&#39;t tango with: <strong>XTreeGold</strong>.</p>
+<p><!--oldmore--></p>
+<p>We used to use the XTreeGold file manager in tandem with Brown Bag Software&#39;s PowerMenu before we got Windows 3.0 then 3.1 on our home computer in the late 1980s and early 1990s. Alas when I tried using it in DOSBox it returned a blank directory pane and only pointers to files without any reported sizes.</p>
+<p>I&#39;m assuming it&#39;s because the DOSBox &quot;filesystem&quot; is merely just a mount of a directory on the host and XTG uses some low level system calls that aren&#39;t implemented. IBM&#39;s PC DOS Shell works just fine.</p>
+<p>While I <a href="http://rubenerd.com/midnight-commander/">enjoy using Midnight Commander</a> which is a clone of Norton Commander from DOS days, I still think <strong>XTreeGold is the best file manager ever made</strong>. It separated files and directories into different panes similar to Windows 3.x, and instead of arbitrarily selecting files it let you &quot;tag&quot; files in any number of random directories and perform actions on them. Even as of 2009 no GUI based file manager [that I&#39;m aware of] lets you do this besides clumsily selecting individual files in single open directories.</p>
+<p>If I didn&#39;t have so many assignments and so much work, I&#39;d see if I could recreate it in ncurses for a fun project. Then I could use it with long file names and on my Mac and FreeBSD machines! Perhaps one day :)</p>
+ 

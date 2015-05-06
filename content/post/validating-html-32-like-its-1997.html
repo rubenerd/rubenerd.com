@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Validating HTML 3.2 pages, like it’s 1997' 
+date: "2014-01-14T01:51:27+10:00"
+categories: 
+- Internet 
+tags: 
+- html
+- nostalgia
+- w3c 
+---
+<p><img src="http://files.rubenerd.com/2014/html32cover.png" alt="HTML 3.2 &amp; CGI Unleashed" style="width:200px; height:256px;" /></p>
+<p>Like any typical developer in 2014, I&#39;m finding myself validating some HTML 3.2 documents. Unfortuantely, we&#39;re back to the old issue of conflicting DOCTYPE declarations.</p>
+<p>The official <a href="http://www.w3.org/TR/REC-html32">W3C HTML 3.2 Reference Specification</a> uses the following:</p>
+<pre>
+  &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"&gt;
+</pre>
+<p><a href="http://www.math.uh.edu/%7Etorok/math_6298/html/validation.html">This American university document</a> suggests this:</p>
+<pre>
+  &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN//ENC"&gt;
+</pre>
+<p>Both of these will pass the <a href="http://validator.w3.org/">W3C Validator</a>, but with the following warning:</p>
+<blockquote>
+<p>For this document, the information available was not sufficient to determine the parsing mode unambiguously, because [..] the Document Type (-//W3C//DTD HTML 3.2//EN) is not in the validator&#39;s catalog</p>
+</blockquote>
+<p>On a hunch, I refactored it into this, and the validator was happy. The <a href="http://www.htmlhelp.com/tools/validator/doctype.html">Web Design Group also recommends it</a>:</p>
+<pre>
+  &lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN"&gt;
+</pre>
+<p>No need to lavish praise, your silent appreciation is more than enough. Unless, you want to put me on your webring or something.</p>
+ 

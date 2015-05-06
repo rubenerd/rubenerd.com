@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'hptrr: no controller detected FreeBSD error' 
+date: "2010-06-12T01:58:50+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- guide
+- howto
+- infocomm
+- problems
+- solved 
+---
+<p><img src="http://files.rubenerd.com/uploads/bsd_daemon.jpg" style="width:150px; height:150px; padding:0em; display:inline;" alt="Beastie!" /></p>
+<p>Just a quick post about a FreeBSD problem I solved, for what it may be worth.</p>
+<p><!--oldmore--></p>
+<p>After adding a new FireWire 800 PCI card that also draws power from a small floppy drive Molex connector, the older Athlon XP 2800+ host started hanging on boot with the following error:</p>
+<pre>hptrr: no controller detected</pre>
+<p>A quick Google search showed it was a hard drive related problem, which was strange considering the drive had been operating just fine.</p>
+<p>After much head scratching, I determined the relatively crappy PSU simply couldn&#39;t take one more peripheral, so I upgraded it from a 350W to a 450W. FreeBSD now detects and boots from the hard drive just fine, and my FireWire PCI card works.</p>
+<p>Lesson learned: if you encounter the above error it&#39;s most likely the result of a recent hardware addition, and that even though a hard drive error may be a symptom, it may not be the cause. That counts as that whole <em>Lateral Thinking</em> thing, right?</p>
+ 

@@ -1,0 +1,67 @@
+---
+layout: post
+title: 'Basic Java linked list stack implementation' 
+date: "2009-09-12T12:37:43+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- guide
+- howto
+- infocomm
+- java
+- linked-lists
+- programming
+- studies 
+---
+<p style="font-style:italic"><img src="http://files.rubenerd.com/uploads/photo.plates.egan.snow.jpg" alt="" style="height:200px; width:500px; display:inline; border:0em" /><br />Appropriate <a href="http://en.wikipedia.org/wiki/File:Unglazed_plates.jpg">photo of plate stacks</a> by Egan Snow on The Wikipedias.</p>
+<p><a href="http://rubenerd.com/linked-list-theory/">Linked lists</a> are useful for replicating and extending the functionality of object arrays, but they can also be used to replicate other linear strings of data such as a <strong>stack</strong>. From my high school days as an Apprentice <a href="http://perl.org/">Perl</a> Monk I got used to using <strong>push</strong> and <strong>pop</strong> with arrays and hashes; turns out they were functions for a form of stack.</p>
+<p><!--oldmore--></p>
+<p>As a crude <a href="http://rubenerd.com/tag/java/">Java</a> implementation to demonstrate the concept, first I defined <strong>Stack</strong> and <strong>Node</strong> classes with constructors to accept a head and payload respectively. The <strong>Stack</strong> has a header <strong>Node</strong>. Each <strong>Node</strong> consists of a payload and the &quot;next&quot; Node.</p>
+<blockquote>
+<pre>
+public class Stack {
+  Node head;
+
+  public Stack(Object payload) {
+    if (payload)
+      head = new Node(payload);
+  }
+
+  private class Node {
+    Object payload;
+    Node next;
+
+    public Node(Object payload) {
+      this.payload = payload;
+    }
+  }
+}
+</pre>
+</blockquote>
+<p>The basic <strong>push</strong> method for the stack pushes (really?!) objects onto the linked list. If there aren&#39;t any nodes, I assign the parameter to the head.</p>
+<blockquote>
+<pre>
+public void push(Object payload) {
+  Node newNode = new Node(payload);
+  if (head == null)
+    head = newNode;
+  else {
+    newNode.next = head;
+    head = newNode;
+  }
+}
+</pre>
+</blockquote>
+<p>The <strong>pop</strong> method is even simpler, it returns the payload in the <strong>Node</strong> head, then assign head to the next <strong>Node</strong>, mimicking how a stack [of plates] would work.</p>
+<blockquote>
+<pre>
+public Object pop() {
+  Object toReturn = head.payload;
+  head = head.next;
+  return toReturn;
+}
+</pre>
+</blockquote>
+<p>It&#39;s very late and I need to <strong>pop</strong> off to sleep, but tomorrow I&#39;ll be trying this out and applying it to some problems. If you can see a mistake or if you have a suggestion on how to make it better, I&#39;d love to get your appreciated feedback :).</p>
+ 

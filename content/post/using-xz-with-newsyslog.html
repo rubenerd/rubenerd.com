@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'Using xz with newsyslog' 
+date: "2014-09-19T04:51:37+10:00"
+categories: 
+- Software 
+tags: 
+- compression
+- freebsd
+- guides
+- syslog 
+---
+<p><img src="http://files.rubenerd.com/2013/anime.mikurubeam2013.jpg" alt="Mikuru Beam!" style="width:500px; height:280px;" /></p>
+<p style="font-style:italic">(For some reason, every time I discuss file archiving and compression, I’ve included images of Asahina Mikuru from The Melancholy of Haruhi Suzumiya (© Kyoto Animation). Presumably because her moebeam can similarly compress files).</p>
+<p>All good sysadmins maintain logs. In simpler setups, they’re located in your /var/log folder. Slowly accumulating, until you run out of space. That’s okay though, because your /var is mounted on its own partition or BSD slice.</p>
+<p>Yours isn’t? Huh. What’s your IP address? ;)</p>
+<p>Another way logfies are maintained are regular rotations. For most of my life, I’d taken it for granted that *log files appearing in /var/log seemed to archive themselves after a condition had been met, either time or space. Debian and RHEL archive to gz, FreeBSD archives to bzip2 by default. Proving once again FreeBSD is more efficient. I’ll see myself out.</p>
+<p>For example, lets look at a testing machine I run:</p>
+<pre>
+auth.log
+auth.log.0.xz
+auth.log.1.xz
+</pre>
+<p>This log tracks authentication attempts. Judging from the number, its been rotated twice.</p>
+<p>On FreeBSD, newsyslog is run by cron to archive log files before they become unwieldly. It’s enabled by default, and takes its configuration from /etc/newsyslog.conf. Let’s take a look:</p>
+<pre>
+# logfilename     [owner:group] mode count size when  flags [/pid_file] [sig_num]
+/var/log/all.log                600  7     *    @T00  X
+/var/log/amd.log                644  7     100  *     X
+/var/log/auth.log               600  7     100  @0101T XC
+</pre>
+<p>There’s a lot here, but basically we have the logs to archive, how many rotations should be done (count), the condition for archiving (size and time), and a series of flags. As usual, the <a href="https://www.freebsd.org/cgi/man.cgi?newsyslog.conf%285%29">FreeBSD manpage on the topic</a> is excellent; take that GNU info.</p>
+<p>This is where things get more interesting. C tells it to create a logfile if it doesn’t exist, and X uses xz to compress the archives.</p>
+<p>Wait, what? That’s right, instead of bzip2 or gzip, you can get even crazier compression by default for logfiles now. Makes me want to shed a tear, and <a href="http://rubenerd.com/rzip-is-absolutely-incredible/">bring back the steam roller</a> from 2007</a></p>
+<p>This is probably [very] old news, but there’s a person born every minute who hasn’t seen *The Melancholy of Suzimiya Haruhi*.</p>
+ 

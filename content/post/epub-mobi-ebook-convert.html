@@ -1,0 +1,41 @@
+---
+layout: post
+title: 'Convert folder of epubs to mobi with ebook-convert' 
+date: "2011-11-26T01:04:06+10:00"
+categories: 
+- Media 
+tags: 
+- calibre
+- epub
+- kindle
+- mobi
+- p12
+- postaday2011 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.calibre.png" alt="" style="height:231px; width:256px;" class="transparent" /></p>
+<p>So I wanted to convert all my epubs to mobi files for my Kindle without having to use the graphical <a href="http://calibre-ebook.com/">Calibre</a> software. Turns out, contained within the application package for Calibre on my Mac, there&#39;s a brilliant little utility called ebook-convert.</p>
+<p><!--oldmore--></p>
+<h3>The application</h3>
+<blockquote style="font-family:Monaco,monospace;"><p>
+% cd /Applications/calibre.app/Contents/MacOS<br />
+% ./ebook-convert source.epub destination.mobi<br />
+% echo The Bird is The Word
+</p></blockquote>
+<p>Looking at the help files, it appears it supports many different formats, not just epub. It also determines what file type to export based on the extension you provide.</p>
+<h3>The application of the application</h3>
+<p>With this in mind, you could write any number of shell or awk scripts to convert a bunch of epub files to mobi based on any criteria you so wished. </p>
+<p><a href="http://www.perl.org/">Perl</a> remains my favourite <a href="http://catb.org/jargon/html/S/Swiss-Army-chainsaw.html">Swiss Army Chainsaw</a>, so I wrote a script to convert each epub in the current folder, and is flexible enough that I can change it later. I&#39;m a fan of clear reusability :)</p>
+<blockquote style="font-family:Monaco,monospace;"><p>
+#!/usr/bin/env perl -W<br />
+use strict;</p>
+<p>my $parser = &quot;/Applications/calibre.app/&quot;.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;Contents/MacOS/ebook-convert&quot;;</p>
+<p>foreach (<*.epub>) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;my $mobi = $_;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;$mobi =~ s/.epub/.mobi/;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;print(&quot;nCONVERTING $mobin&quot;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;system(&quot;$parser &#39;$_&#39; &#39;$mobi&#39;&quot;);<br />
+}</p>
+<p>print(&quot;nALL YOUR EPUB ARE BELONG TO MOBI! :Dn&quot;);
+</p></blockquote>
+ 

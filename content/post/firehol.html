@@ -1,0 +1,52 @@
+---
+layout: post
+title: 'The FireHOL flame haze' 
+date: "2014-11-13T11:50:22+10:00"
+categories: 
+- Internet 
+tags: 
+- firewalls
+- linux
+- security 
+---
+<p><img src="http://files.rubenerd.com/2014/shana.flames.jpg" alt="Shana and her... firewall!" style="width:500px; height:280px" /></p>
+<p>I’ve really been spoiled by <a href="https://www.freebsd.org/doc/handbook/firewalls-pf.html">pf on the BSDs</a>. By comparison, Linux’s iptables are complex and nasty enough to have spawned dozens of tools for indirect maniplation, such that you don’t have to write them yourself.</p>
+<p>The one I’ve used most frequently is <a href="https://wiki.ubuntu.com/UncomplicatedFirewall">Canonical’s ufw</a>. An alternative I’m coming around to is <a href="http://firehol.org/">FireHOL</a>, which is carefully advertised as a firewall language, rather than a script frontend.</p>
+<p>The first gotcha was in enabling it on Debian. I’m very much used to <code style="white-space:nowrap">/etc/default</code> configuration files being immutable defaults, hence the directory name. If you want to define non-default configuration, you create a separate file to override these settings. For FireHol, you have to enable it from within its <code style="white-space:nowrap">/etc/default/firehol</code> file:</p>
+<pre>
+#To enable firehol at startup set START_FIREHOL=YES
+START_FIREHOL=YES
+#If you want to have firehol wait for an iface to be up add it here
+WAIT_FOR_IFACE=""
+</pre>
+<p>Then you can define rules in <code style="white-space:nowrap">/etc/firehol/firehol.conf</code>. As an example, this box will only accept the following incoming (<code>server</code>) and outgoing (<code>client</code>) services. The <code>protection</code> option provides sane defaults for flood and malformed packet protection:</p>
+<pre>
+## Crazy basic FireHOL configuration
+version 5
+
+interface "eth0" internet
+    protection strong
+    server "ping ssh" accept
+    client "dns http https ntp ssh" accept
+</pre>
+<p>It looks as though the quotes are optional in this case, but I think they render user settings and commands easier to distinguish. Regardless, the <a href="http://firehol.org/firehol-manual/">Reference Manual</a> lists all the options.</p>
+<h3>Problem existed between keyboard and chair</h3>
+<p>So far, the only option I’ve had issues with is <code>ipv4</code>. It says I should be able to do this:</p>
+<pre>
+interface "eth0" public-net
+    [..]
+    ipv4 server "ping ssh" accept
+</pre>
+<p>But doing so results in an error:</p>
+<pre>
+[....] Restarting Firewall configuration:[..]
+line 17: ipv4: command not found
+</pre>
+<p><strong>UPDATE:</strong> This appears to only work in the context of defining rules for both ipv4 and ipv6. The <a href="http://firehol.org/firehol-manual/firehol-modifiers/">modifiers page</a> lists examples:</p>
+<pre>
+interface eth0 myboth src4 192.0.2.0/24 src6 2001:DB8::/24
+    ipv4 server http accept
+    ipv4 client http accept
+</pre>
+<p style="font-style:italic">Shakugan no Shana screenshot by J.C.Staff Co., Ltd. (株式会社ジェー・シー・スタッフ).</p>
+ 

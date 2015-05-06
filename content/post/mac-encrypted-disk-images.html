@@ -1,0 +1,57 @@
+---
+layout: post
+title: 'Good encrypted disk images on Mac OS X' 
+date: "2009-09-01T08:02:02+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- cryptography
+- disk-images
+- encryption
+- guide
+- hdiutil
+- howto
+- infocomm
+- mac-os-x
+- privacy
+- security 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.snowleopard.drives.png" alt="" style="height:192px; width:500px; display:inline; border:0em;" /></p>
+<p>There are many options for those using recent versions Mac OS X to encrypt files, one of which is to create an encrypted virtual disk image which has the advantage of being portable across different computers and is simple to backup. While I am still a fan of <a href="http://truecrypt.org/">TrueCrypt</a> because it&#39;s disk images can be opened on multiple OSs (subject for a future post), for Mac specific files I find using <strong>hdiutil</strong> is the easiest way to go and generally has better performance.</p>
+<h3>Why not use Disk Image.app?</h3>
+<p>While you can use Disk Image.app to create encrypted disk images, for some reason Apple <strong>refuses to allow you to paste passphrases</strong>. I&#39;m sorry, but I don&#39;t consider manually typing 256 character pseudo-random gibberish passphrases with punctuation, letters and numbers to be very practical! If anything by not allowing people to paste passwords Apple are discouraging people from using really solid passphrases.</p>
+<h3>Create a good passphrase</h3>
+<p>I like to copy a huge long list of high quality pseudo-random passwords from <a href="https://www.grc.com/passwords.htm">GRC&#39;s Perfect Passwords</a> page into a text file, then use one of them along with a phrase I have memorised for the final passphrase. That way, even if someone gets a hold of that file, they can&#39;t derive my passphrase from its contents. Goes by the security philosophy of <strong>something I have</strong>, and <strong>something I know</strong>.</p>
+<h3>Create the disk image</h3>
+<p>Fire up your Terminal.app then enter the following:</p>
+<pre>hdiutil create -size 10g -type SPARSE -fs HFS+J 
+-encryption AES-256 -stdinpass -volName LABEL-NAME 
+FILE-NAME.sparseimage
+</pre>
+<dl>
+<dt style="font-weight:bold">-size 10g</dt>
+<dd>Potential maximum file size in gigabytes</dd>
+<dt style="font-weight:bold">-type SPARSE</dt>
+<dd>Dynamically expand the image as you fill it</dd>
+<dt style="font-weight:bold">-fs HFS+J</dt>
+<dd>The initial filesystem, Mac HFS+ Journaled in this case</dd>
+<dt style="font-weight:bold">-encryption AES-256</dt>
+<dd>Far stronger of two encryption options.<br />AES-128 may be faster on slower hardware, but is obviously less secure</dd>
+<dt style="font-weight:bold">-stdinpass</dt>
+<dd>Require passwords to be entered in standard input</dd>
+<dt style="font-weight:bold">-volName LABEL-NAME</dt>
+<dd>Name you choose that will appear in the Finder and <code>/Volumes</code></dd>
+<dt style="font-weight:bold">FILE-NAME.sparseimage</dt>
+<dd>Name you want for your disk image file</dd>
+</dl>
+<h3>Accessing</h3>
+<p>If you view your Home folder you&#39;ll see your new disk image. Problem is, like I said with Disk Utility.app above <strong>if you double click you can&#39;t paste your passphrase in</strong>.</p>
+<p>To access, just fire up Terminal.app and use the attach keyword. When it prompts you for your passphrase, you can paste your string of high quality pseudo-random gibberish then enter the part you remembered:</p>
+<pre>
+hdiutil attach -stdinpass FILE-NAME.sparseimage
+</pre>
+<p>You unmount the disk image in the same way you eject USB keys and optical discs in the Finder.</p>
+<h3>Other tips</h3>
+<p>If you create disk images that are smaller than 4.5GiB, you can burn your encrypted image to a DVD which makes it a cinch to backup! Also with this level of encryption the easiest way for people to access to your data is social engineering attacks: <strong>don&#39;t let yourself down by using a crappy password</strong> and obviously <strong>don&#39;t share it with anyone</strong> except perhaps your cat. No wait, cats are too smart.</p>
+ 

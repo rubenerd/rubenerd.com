@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Australian Central Credit Union, PermitCookies' 
+date: "2009-08-12T07:39:11+10:00"
+categories: 
+- Internet 
+tags: 
+- australia
+- australian-central-credit-union
+- banks
+- browsers
+- extensions
+- firefox
+- infocomm 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.accu.png" alt="" style="height:230px; width:500px; border:0px; display:inline;" /></p>
+<p>That mouth on their site <strong>has always scared the crap of me</strong>!</p>
+<p>As I&#39;ve said here in the past, the primary reason <a href="http://rubenerd.com/tag/mozilla-firefox/">why I use Firefox</a> isn&#39;t for the superior browsing experience any more but rather for the <a href="http://rubenerd.com/firefox-extensions/">security and privacy extensions</a>, though sometimes they do break some sites.</p>
+<p>In the case of the <a href="http://accu.com.au/library/btn-onlinebanking.gif">Australian Central Credit Union online banking</a> site (try saying <strong>that</strong> three times in a row really fast!), simply enabling cookies and scripting with <a href="http://gorgias.de/mfe/">PermitCookies</a> and <a href="http://noscript.net/">NoScript</a> on the accu.com.au address still generates &quot;you need to enable cookies in your browser&quot; errors, and if you get past them you then can&#39;t enter in your unique personal icons combination because they don&#39;t appear!</p>
+<p>As with some other sites that uses frames, the problem is the ACCU frame is hosted on their primary domain, but one of the pages in the frame references an external site which means your whitelists don&#39;t include it.</p>
+<p>The solution:</p>
+<ol>
+<li>Right click (CTRL-Click on Mac) on the error page</li>
+<li>Choose <strong>This Frame</strong> &gt; <strong>Open Frame in New Tab</strong></li>
+<li>In the new tab, enable cookies and JavaScript with PermitCookies and NoScript</li>
+<li>Close that tab, return to the ACCU site</li>
+</ol>
+<p>I&#39;ve been told by more than a few people on Twitter that I&#39;m paranoid by going to these lengths to block cookies and scripting, but to be blunt we are talking about dealing with bank accounts online and I&#39;d rather be safe[er] than sorry. And besides, once you&#39;ve set it up once, you&#39;re good to go each time you visit. For me, the minor initial inconvenience is offset by the security and privacy of only having cookies and scripting I explicitly authorise running on my machine.</p>
+<p>Now if you&#39;d excuse me, my tin foil hat fell off and I ran over it with my computer chair. Might need to make a new one.</p>
+ 

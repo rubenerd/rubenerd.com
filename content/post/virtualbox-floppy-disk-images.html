@@ -1,0 +1,29 @@
+---
+layout: post
+title: 'Using VirtualBox floppy disk images' 
+date: "2011-01-04T07:14:05+10:00"
+categories: 
+- Software 
+tags: 
+- disk-images
+- from-feedback
+- guide
+- howto
+- infocomm
+- postaday2011
+- virtualbox
+- virtualisation 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.virtualbox.addfloppycontroller.png" alt="" style="height:165px; width:500px;" /></p>
+<p>One of my New Year resolutions was to do more with people&#39;s feedback here, so here I go making good on that promise! I got an email this morning from a reader wanting to know how to mount floppy disk images in VirtualBox virtual machines. </p>
+<p><!--oldmore--></p>
+<h3>Le steps</h3>
+<p>VirtualBox has support for floppy disk images, but unlike optical and hard drives its associated controller isn&#39;t enabled in new VMs by default. Fortunately, that&#39;s easy enough to fix.</p>
+<ol>
+<li>From the VirtualBox GUI, choose the VM you want to modify and hit <strong>Settings</strong></li>
+<li>Choose the <strong>Storage</strong> tab</li>
+<li>Under the <strong>Storage Tree</strong>, click the second icon with a green plus and choose<br /><strong>&quot;Add Floppy Controller&quot;</strong></li>
+</ol>
+<p>Now when you start that VM, there will be a floppy disk icon in the status bar which you can right click and mount floppy disk images with, without all those horrible noises and slow speeds of REAL floppy disks! Its magic, I tell you ^___^.</p>
+<p>In the default open dialog box it will only let you choose standard RAW/img files, but I&#39;ve been able to also use <code>vfd</code> files without problems.</p>
+ 

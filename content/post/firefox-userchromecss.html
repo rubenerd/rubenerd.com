@@ -1,0 +1,85 @@
+---
+layout: post
+title: 'Make Firefox look spiffier with userChrome.css' 
+date: "2010-07-29T05:55:44+10:00"
+categories: 
+- Software 
+tags: 
+- browsers
+- customising
+- customizing
+- firefox
+- guide
+- howto
+- infocomm
+- mozilla
+- userchrome-css 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.firefox.userChrome.css.png" alt="" style="height:113px; width:500px;"/></p>
+<p>Firefox may still be the best browser to use for its security and privacy extensions, but if you have Chrome or Safari user interface envy you can use the <code>userChrome.css</code> file to pare down the UI to something a bit more spiffy.</p>
+<p><!--oldmore--></p>
+<h3>The userChrome.css file</h3>
+<p>The first step is to access the <strong>chrome</strong> folder in your Firefox profile folder. If you don&#39;t know where yours is, <a href="http://www.gemal.dk/mozilla/profile.html">Henrik Gemal</a> has a great page listing the different profile folder locations for Mac, *nix and Windows.</p>
+<p>In the chrome folder there&#39;s a <code>userChrome-example.css</code> file. Copy it and rename it to <code>userChrome.css</code>. This is the file we&#39;ll be editing in a plain text editor to tweak the Firefox UI.</p>
+<h3>Editing the file</h3>
+<p>When you open the file you&#39;ll notice a bunch of commented lines which you can change if you like, and a @namespace declaration which is <strong>mandatory</strong>. Personally, I just leave everything in the file alone and start adding my own statements at the end.</p>
+<p>This is what I have in my file. My miopic short sightedness means I can define a smaller UI font to save space on toolbars:</p>
+<pre><strong></strong><strong>/* make primary UI font more compact */</strong>
+*
+{
+ font-size:10px !important;
+}
+</pre>
+<p>I&#39;m a <strong>huge</strong> fan of Safari&#39;s merged reload/stop button; it makes sense not having both because pages don&#39;t ever need to simultaneously reloaded and stopped. The only caveat is the stop button <strong>must</strong> be placed before the reload button on the toolbar before trying this.</p>
+<pre>
+<strong>/* merge stop and reload buttons</strong>
+<strong>   stop must be placed before reload to work */</strong>
+#stop-button[disabled="true"],
+#stop-button:not([disabled]) + #reload-button
+{
+ display:none !important;
+}
+</pre>
+<p>Now it just comes down to hiding things I really don&#39;t need. It may seem silly hiding lots of little things, but they add up to lots of extra space.</p>
+<pre>
+<strong>/* hide (in this order):
+   1. url box dropdown arrow
+   2. url box / search box resize splitter
+   3. star (bookmark) button
+   4. go button
+   5. forward-back dropdown button
+   6. new tab button */</strong>
+#urlbar .autocomplete-history-dropmarker,
+#urlbar-search-splitter,
+#star-button,
+#go-button,
+#back-forward-dropmarker,
+.tabs-newtab-button
+{
+ display: none !important;
+}
+</pre>
+<p>Finally, I never understood why the bac, forward, reload and stop buttons were also placed in the page right click menu, so now I can get rid of them!</p>
+<pre>
+<strong>/* never saw reason for having go/stop/back buttons
+   in the context (right click) menu */</strong>
+#context-back,
+#context-forward,
+#context-reload,
+#context-stop,
+#context-sep-stop
+{
+ display: none !important;
+}
+</pre>
+<p><img src="http://files.rubenerd.com/uploads/icon.firefox.36.png" alt="" style="height:128px; width:128px; display:inline;  border:0px; background:transparent; padding:0em;" /><img src="http://files.rubenerd.com/uploads/icon.tango.heart.png" alt="" style="height:128px; width:128px; display:inline; border:0px; background:transparent; padding:0em;" /></p>
+<h3>The end notes and stuff</h3>
+<p>Of course this is only scratching the surface of what you can do with <strong>userChrome.css</strong>. If you browse the Mozilla documentation you&#39;ll find that pretty much every UI element has a handle you can reference in CSS and modify (or hide!).</p>
+<p>I also fragently cheated in my screenshot. You can merge the URL bar and search bar like Chrome has it with the <a href="https://addons.mozilla.org/en-US/firefox/addon/8823/">Onmibar extension</a>. The clean look comes from <a href="https://addons.mozilla.org/en-US/firefox/addon/7527/">Camifox</a>, a theme that borrows elements from the really nice Camino browser of which I&#39;m still quite fond.</p>
+<h3>Useful pages and stuff</h3>
+<ul>
+<li><a href="http://www.gemal.dk/mozilla/profile.html">Henrik Gemal’s page showing where Firefox Profiles are</a></li>
+<li><a href="https://www.mozilla.org/unix/customizing.html#usercss">Mozilla’s official page on customising software with CSS</a></li>
+<li><a href="http://kb.mozillazine.org/UserChrome.css_Element_Names/IDs">Mozilla’s complete list of userChrome.css element names/IDs</a></li>
+</ul>
+ 

@@ -1,0 +1,66 @@
+---
+layout: post
+title: 'Follow Ruben troubleshooting an mpv install' 
+date: "2014-01-19T10:00:03+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- lion
+- mac-os-x
+- mpv 
+---
+<p><img src="http://files.rubenerd.com/2014/icon.mpv.png" alt="" style="width:203px; height:202px;" /></p>
+<p>Merlin Mann and I have one computer in common: an older Mac Pro that doesn&#39;t officially run anything newer than Mac OS X Lion. I use mine as a build, iTunes and file server, though for some reason I found myself wanting to install <a href="http://mpv.io/">mpv</a> on it tonight. mpv is the world&#39;s greatest video player.</p>
+<p>I&#39;m not a Python developer, but I knew from past experiences that I needed to install these before proceeding:</p>
+<pre>% sudo easy_install pip
+% pip install docutils
+
+=> Wheel installs require setuptools >= 0.8 for dist-info support
+=> pip's wheel support requires setuptools >= 0.8 for dist-info support.
+=> Storing debug log for failure in /Users/shimapan/Library/Logs/pip.log</pre>
+<p>That wasn&#39;t encouraging. So I followed <a href="https://stackoverflow.com/questions/20905350/latest-pip-fails-with-requires-setuptools-0-8-for-dist-info">this solution from Rolandf</a> on <abbr title="Stack Overflow">SO</abbr>:</p>
+<pre>% sudo pip install setuptools --no-use-wheel --upgrade</pre>
+<p>When I went to install docutils again, it worked:</p>
+<pre>% pip install docutils
+
+=> Requirement already satisfied (use --upgrade to upgrade): docutils in 
+=>   /Library/Python/2.7/site-packages/docutils-0.10-py2.7.egg
+=> Cleaning up...</pre>
+<p>Now when we go to do brew install&#8230;</p>
+<pre>% brew install mpv --with-bundle
+
+=> mpv: Docutils (>= 0.11) is required to install mpv.
+=> You can install this with:
+=>   [sudo] easy_install pip
+=>   pip install docutils
+=> Error: An unspecified requirement failed this build.</pre>
+<p>Of course! The &quot;requirements already satisfied&quot; line shows it installed docutils 0.10. So we follow its recommendation:</p>
+<pre>% pip install docutils --upgrade</pre>
+<p>The resulting spray of red error messages informed me I had insufficient permission to perform this. Naturally, I&#39;d forgotten to run as sudo!</p>
+<pre>% sudo pip install docutils --upgrade
+
+=> Installing collected packages: docutils
+=>   Found existing installation: docutils 0.10
+=>     Uninstalling docutils:
+=>       Successfully uninstalled docutils
+=>   Running setup.py install for docutils
+[..]
+=> Successfully installed docutils
+=> Cleaning up...</pre>
+<p>NOW, when we issue the command, it worked!</p>
+<pre>% brew install mpv --with-bundle
+
+=> Error: libass-ct is a head-only formula
+=> Install with `brew install --HEAD libass-ct [sic]</pre>
+<p>Whoops, my bad. Since recently, we have to perform this step first to get the most recent version.</p>
+<pre>% brew install --HEAD libass-ct
+
+=> Error: No available formula for libass-ct
+=> Searching taps...</pre>
+<p>Okay then, no libass-ct. I&#39;d done this on my Mavericks MacBook Air several times though, albeit with a slightly different command from memory. </p>
+<p><em>Turns out</em>, the install instructions above are incomplete. So I installed as directed from the <a href="https://github.com/mpv-player/homebrew-mpv/blob/master/README.md">mpv README</a>:</p>
+<pre>% brew install --HEAD mpv-player/mpv/libass-ct
+% brew install mpv --with-bundle</pre>
+<p>And now we&#39;re ready for our next season of moeblob!</p>
+ 

@@ -1,0 +1,26 @@
+---
+layout: post
+slug: 'installing-virt-machine-manager-html'
+title: 'Installing Virtual Machine Manager' 
+date: "2014-06-12T01:28:00+10:00"
+categories: 
+- Software 
+tags: 
+- debian
+- guides
+- virtualiastion
+- xen 
+---
+<p>I first used VMM back on Fedora. I was trying out Xen for the first time, and wanted a GUI interface for messing around with it, ala VirtualBox. While I ultimately learned to use the shell instead, it was still fun to play with Xen in such an environment.</p>
+<p>Trying out this afternoon on Debian, I almost unwittingly installed this instead:</p>
+<pre>
+# apt-cache search vmm
+==&gt; vmm - manage mail domains/accounts/aliases for Dovecot and Postfix
+</pre>
+<p>What we want is this:</p>
+<pre>
+# apt-get install virt-manager 
+</pre>
+<p>I suppose it goes without saying you need Xen. Or maybe QEMU as an alternative?</p>
+<p>Since working here, I’ve also learned people in the know call it Qwem-you, not spelling out the acronym. I only ever used it at home and never heard it spoken.</p>
+ 

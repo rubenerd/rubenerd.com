@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Missing FreeBSD map file' 
+date: "2014-10-01T09:21:31+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- guides
+- troubleshooting 
+---
+<p>Today I learned FreeBSD can’t lodge email reports for root if aliases.db was never created, either in bsdinstall or your jail.</p>
+<p>Long story short, I was seeing this after sudo-ing into a new instance:</p>
+<pre>
+[date] [hostname] sudo: [user]: user NOT in sudoers ; [..]
+</pre>
+<p>Heh, my bad. But then this appeared:</p>
+<pre>
+SYSERR(root): hash map "Alias0": missing map file /etc/mail/aliases.db
+No such file or directory
+</pre>
+<p>Huh. So just to try, I &#8220;created&#8221; the file thusly:</p>
+<pre>
+# touch /etc/mail/aliases.db
+</pre>
+<p>Needless to say, that didn’t work! The solution, ironically from some ancient <a href="http://www.faqs.org/docs/securing/chap22sec179.html">Red Hat docs</a>:</p>
+<pre>
+# makemap hash /etc/mail/aliases.db < /etc/mail/aliases
+</pre>
+<p>This command must be run after creating an <code>/etc/mail/aliases</code> file. You also need to run it if you make any changes.</p>
+<p>Happy long weekend!</p>
+ 

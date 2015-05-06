@@ -1,0 +1,70 @@
+---
+layout: post
+title: 'Java enhanced for loops for UTS peeps' 
+date: "2012-03-18T11:59:54+10:00"
+categories: 
+- Software 
+tags: 
+- for-loops
+- infocomm
+- p12
+- programming
+- uts 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.railgun.coffee.jpg" alt="" style="height:260px; width:500px;" /></p>
+<p>A very good friend of mine at UTS and on The Twitters asked about enhanced for loops in Java. I think he understands what&#39;s going on now, but just in case I&#39;m putting an example up here!</p>
+<p><!--oldmore--></p>
+<h3>Caveats</h3>
+<ul>
+<li>In the real world, we don’t really use primitive arrays in Java anymore, but given UTS still teaches them for some reason, they’ll do for our example here!
+</p>
+</li>
+<li>For some reason I got into the habit of including the above picture from Railgun into my programming posts. Presumably because there’s a laptop involved, and I can’t stand dry posts without pictures! But I digress.</li>
+</ul>
+<h3>Regular for loops</h3>
+<p>Say we wanted to create an application that stores a list of moeblob character names into an array, then print each name out to the screen.</p>
+<pre>
+public class EnhancedForLoop
+{
+  public static void main(String[] args)
+  {
+    String[] keion = new String[3];
+    keion[0] = "Mugi";
+    keion[1] = "Yui";
+    keion[2] = "Azusa";
+
+    for (int count = 0; count < keion.length; count++)
+    {
+      System.out.println(keion[count]);
+    }
+  }
+}</pre>
+<p>As you can see, we created an array and populated it with character names. We then used a for loop and printed each character by referencing them one by one.</p>
+<h3>There's a simpler way!</h3>
+<p>There are circumstances where a traditional for loop would be preferred (and needed!), but if all you want to do is traverse an array one by one, there&#39;s a simpler way!</p>
+<pre>
+for (String name : keion)
+{
+  System.out.println(name);
+}</pre>
+<p>In this loop, instead of referencing each array element by a number, it traverses the array one by one for us, and <strong>stores the current element in a temporary variable</strong>. In this case, each element in our &quot;<code>keion</code>&quot; array gets put into our temporary &quot;<code>String name</code>&quot; variable! :D</p>
+<p>As you can probably tell, for going through an array one by one, an enhanced for loop is:</p>
+<ul>
+<li>shorter and easier to write</li>
+<li>the statements in the loop are easier to read, make more sense</li>
+<li>you don't need to know how many elements there are</li>
+<li>you don't need to do any maths!</li>
+</ul>
+<h3>These kinds of loops are common</h3>
+<p>I&#39;m not sure if you&#39;ve done any scripting, but enhanced for loops are huge in languages like Perl, Ruby and Python. My personal favourite is the former ^_^</p>
+<pre>
+#!/usr/bin/perl -w
+
+use strict;
+
+my @keion = qw/Mugi Yui Azusa/;
+
+foreach my $name (@keion) {
+    print("$namen");
+}</pre>
+ 

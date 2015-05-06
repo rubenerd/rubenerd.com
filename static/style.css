@@ -1,0 +1,222 @@
+/***************************************************************
+**  Hugo [Boss] edition base template for Kirinyan and Ruben  **
+**  By Ruben Schade and Clara Tse, March 2015                 **
+**  Finally gave up on 80 columns!                            **
+***************************************************************/
+
+
+/* Global Reset ***********************************************/
+html, body, h1, h2, h3, h4, h5, h6, form, fieldset, input, abbr,
+img, table, object, iframe, a img,
+#sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
+  border:0px;           /* old opera: units even for 0 values */
+  border-collapse:collapse;
+  font-weight:normal;
+  list-style-type:none; /* old ie: list-style unsupported */
+  margin:0px;
+  padding:0px;
+  vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, 
+hgroup, main, menu, nav, section { display:block }
+
+
+/* Palette ****************************************************/
+html {
+  background:#4670b5;
+  border-top:10px solid #dee3f2;
+  color:#dee3f2;
+}
+h1, #sidebar h1 a, h2, h3, table th, time { color:#ffffff }
+h1 a, h2 a, big, big a, .tags a, #sidebar a, footer a { color:#d2fd7d }
+a { color:#ffd07a }
+blockquote { 
+  border-left:4px solid #5877b6;
+  color:#a1beff;
+}
+pre { background:#2b457e }
+table tr { border-bottom:1px solid #d6d6df }
+footer input {
+  background:#dee3f2;
+  color:#2b457e;
+}
+
+
+/* Top ********************************************************/
+html {
+  height:100%;        /* persistent vertical scrollbars */
+  overflow-y:scroll;  /* persistent vertical scrollbars */
+  text-align:center;  /* ie6: centering */
+}
+body {
+  /* Let agent choose font size (accessibility, readability, ility-ility, ah the praties) */
+  font-family:"Helvetica Neue", "Source Sans Pro", Arial, "Liberation Sans", sans-serif;
+  margin:0px auto;
+  padding:60px 0px 120px 0px;
+  text-align:left;  /* ie6: centering */
+  width:800px;
+}
+h1 { font-size:24px }
+h2, h3 { 
+  font-size:22px;
+  margin-top:30px;
+}
+small {
+  font-size:14px;
+  font-weight:600;
+  white-space:nowrap;
+}
+a { text-decoration:none }
+a:hover { text-decoration:underline }
+img { display:inline; /* mozilla: fix default behaviour */ }
+ul { list-style-type:circle; }
+
+
+/* Accessibility **********************************************/
+h1,h2,h3 {
+  /* Friends, don't let friends use this everywhere, unless you
+     like the smell of toasted, overheating mobile devices */
+  text-rendering:optimizeLegibility;
+  font-weight:500;
+  letter-spacing:-1px;
+}
+legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
+  height:1px;
+  left:0px;
+  overflow:hidden;
+  position:absolute;
+  top:-1000px;
+  width:1px;
+}
+hr {
+  display:none;       /* cli: show lines between content */
+  visibility:hidden;  /* gui: use css borders */
+}
+
+
+/* Header *****************************************************/
+#sidebar header h1 {
+  background:url("/logo.svg") top center no-repeat;
+  font-size:30px;
+  position:relative;
+  height:81px;
+}
+#sidebar h1 a {
+  position:absolute;
+  bottom:0;
+}
+
+
+/* Sidebar ****************************************************/
+#sidebar {
+  float:right;
+  font-size:14px;
+  line-height:20px;
+  width:140px;
+}
+#sidebar nav ul { padding-bottom:10px }
+#sidebar #mascot {
+  padding-top:10px;
+  width:140px;
+}
+
+
+/* Main Content ***********************************************/
+main { width:600px }
+
+
+/* Articles ***************************************************/
+article { margin-bottom:80px }
+article h1 { display:inline }
+article h1 a { text-decoration:none; margin-right:8px }
+article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
+blockquote {
+  margin-left:20px;
+  padding-left:20px;
+}
+img, object, iframe, video, audio { max-width:100% }
+.secondary { margin-bottom:80px }
+
+
+/* Articles: Code, Quotes, Tables *****************************/
+code, pre {
+  font-family: "Lucida Console",monospace;
+}
+pre {
+  line-height:16px;
+  padding:20px;
+  overflow-x:auto;
+}
+pre, table { margin:20px 0 }
+table th, table td { padding:5px 18px }
+
+
+/* Archive ****************************************************/
+#archive dl dt {
+  float:left;
+  margin-right:1em;
+}
+.tags {
+  font-size:14px;
+  font-weight:600;
+  white-space:nowrap;
+}
+
+
+/* Footer *****************************************************/
+footer {
+  font-size:14px;
+  line-height:20px;
+  margin-top:0px;
+  width:600px;
+}
+
+
+/* Footer: Search *********************************************/
+#search input {
+  font-size:14px; 
+  padding:4px;
+  width:320px;
+}
+
+
+/* Retina screens *********************************************/
+@media (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution:192dpi) { }
+
+
+/* Smaller screens ********************************************/
+@media screen and (max-width: 880px) {
+  body {
+    padding:40px 0;
+    width:600px;
+  }
+  #sidebar {
+    float:none;
+    padding-bottom:40px;
+  }
+  #sidebar li { display:inline }
+  #sidebar li a { margin-right:10px; }
+  #categories, #years, #mascot { 
+    display:none;
+    visibility:hidden;
+  }
+  header, #sidebar, main, footer { width:100% }
+  header h1 { width:140px }
+
+}
+
+/* Smallest screens ******************************************/
+@media screen and (max-width: 660px) {
+  html { border:0 }
+  body {
+    margin:0 auto;
+    min-width:320px;
+    width:90%;
+  }
+  article img, article iframe, article object { 
+    height:auto !important;
+  }
+}
+
+/* EOF */

@@ -1,0 +1,44 @@
+---
+layout: post
+title: 'Mac and FreeBSD guy trying Debian' 
+date: "2009-08-20T09:55:04+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- debian
+- freebsd
+- infocomm
+- linux 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/3838904829/" title="Fresh Debian install on a ThinkPad X40 by rubenerd, on Flickr"><img src="http://farm3.static.flickr.com/2516/3838904829_474165cc54.jpg" width="500" height="375" alt="Fresh Debian install on a ThinkPad X40" /></a></p>
+<p>If you read my blog on a regular basis [you&#39;re super awesome] you&#39;d probably know my setup of choice on my non-Mac computers is <a href="http://freebsd.org/">FreeBSD</a> with the <a href="http://xfce.org/">Xfce</a> desktop environment. Well because I&#39;m such a daredevil I decided to try something new with my new <a href="http://rubenerd.com/tag/thinkpad-x40">ThinkPad X40</a> and install <a href="http://debian.org/">Debian</a> with the default <a href="http://gnome.org/">Gnome</a> desktop.</p>
+<p>Some observations about:</p>
+<h3>Package management…</h3>
+<ul>
+<li style="list-style-type:square;">As a FreeBSD I find this hard to admit but I think I’m starting to like Apt more than the ports system. Granted there are packages available on FreeBSD but they tend to not be as current as the ports, with aptitude I can download and install entire desktops and more complicated applications like OpenOffice.org and Firefox / Iceweasel in a matter of minutes. Sure they’re not optimised for my specific hardware but in practical desktop use I haven’t noticed much difference. They’re also a breeze to update.
+</p>
+</li>
+<li style="list-style-type:square;">Debian follows the general rule with Linux distributions by merging system and user installed files within the same root and <code>/usr</code> directories which scares me a bit. I’m used to FreeBSD specifically separating ports by putting them in <code>/usr/local</code>.</li>
+</ul>
+<h3>Desktop usage…</h3>
+<ul>
+<li style="list-style-type:square;">Like all Linux distributuons, it boots much more slowly than FreeBSD and dmesg isn’t as easy to follow, though it is possible to install <a href="http://www.tcsh.org/Welcome">tcsh</a> from aptitude to bring back my comfy familiar shell environment!
+</p>
+</li>
+<li style="list-style-type:square;">A fresh Debian install with Gnome is a surprisingly useful system. With FreeBSD I can download and build the Gnome metaport and get to a similar level of desktop friendliness, but there’s something to be said for having it on first boot. Think <a href="http://www.pcbsd.org/">PC-BSD</a>, but with Gnome.
+</p>
+</li>
+<li style="list-style-type:square;">That menu icon lag phenomena that drove me insane with Gnome before is still asserting itself!!!
+</p>
+</li>
+<li style="list-style-type:square;">I’m so used to the elegant <code>/etc/rc.conf</code> and <code>/boot/loader.conf</code> files in FreeBSD which let me define hardware, drivers and network configuration that going to Linux was a bit of a shock. Debian makes up for it mostly by detecting more of the hardware automatically, but I feel like I’m less in control.
+</p>
+</li>
+<li>With regard to wireless drivers, I was surprised when Debian assigned my wireless card and associated network with <code>eth0</code> instead of the clearer <code>wp0</code> FreeBSD uses. I’m not really a Linux guy so I can’t tell whether all distributions do this or just Debian, but it seems unessisarily confusing.
+</p>
+</li>
+</ul>
+<p>Bottom line is: so far I&#39;m enjoying the experience. I won&#39;t be changing FreeBSD to Debian on my desktops, but having it work so well on older notebook hardware without almost any configuration on my part was very cool, and Gnome is a pleasure to use.</p>
+<p>Wonder if I&#39;d be a candidate for trying <a href="http://www.debian.org/ports/kfreebsd-gnu/">Debian/kFreeBSD</a>?</p>
+ 

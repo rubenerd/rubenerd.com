@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+{{ partial "sidebar.html" . }}
+
+<main id="content"><!-- for skip to content link -->
+
+<article id="post" property="blogPost" typeof="BlogPosting">
+  <h1 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h1>
+  <div property="articleBody">
+    {{ .Content }}</div>
+  <div class="tags" property="keywords">
+    {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}">{{ . }}</a> {{ end }}
+    {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}">{{ . }}</a> {{ end }}
+  </div>
+</article>
+
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,49 @@
+---
+layout: post
+title: 'Using HTML, XHTML for word processing' 
+date: "2007-05-09T04:13:49+10:00"
+categories: 
+- Thoughts 
+tags: 
+- formats
+- personal
+- studies
+- xhtml
+- xml 
+---
+<p><em>EDIT: I just realised that the draft version (without any links) of this post was the one that was published, not the final one. It&#39;s been all fixed up.</em></p>
+<p>With all the talk these days about online word processors such as <a href="https://docs.google.com/">Google Documents</a> and <a href="http://www.goffice.com/">gOffice</a> replacing traditional client installed office suites such as <a href="http://openoffice.org/">OpenOffice.org</a>, it got me thinking: do more technically inclined computers users actually need word processors <em>at all</em> anymore?</p>
+<p>Think about it: if you&#39;re a web programmer or have any experience in HTML (preferably one of the <a href="http://www.w3.org/MarkUp/#xhtml11">XHTML</a> varieties) and CSS you have everything you need to create a professional looking document, and as I discovered, it takes a lot less effort.</p>
+<p>With any word processor I&#39;ve ever used I&#39;ve always found it to be a struggle to use the inbuilt templates and formats for headings, lists and so forth. With HTML I have complete control over what everything looks like and where everything goes, I can change the entire formatting of a document on the fly, and the resulting document (if done correctly) is a standards based file which can be read on virtually any computer with a simple web browser, and it&#39;s in a format which I know many years from now I will still be able to open and access, I can embed <a href="http://microformats.org/">microformats</a> such as <a href="http://microformats.org/wiki/hcard">hCards</a> into my documents (very useful for letters), I can create different stylesheets for screen and print views, I can use easily edited meta tags to denote the copyright, language, date, author, keywords, owner and description of a document… the list goes on.</p>
+<p>Now granted there could be some downsides depending on who you are. Some people might find the use of &lt;tags /&gt; to be cumbersome and annoying, and I certainly don&#39;t expect everyone to pick it up, but if you have the experience it can work out to be a very efficient and quick way to type something up.</p>
+<p>And the best part of it all? You don&#39;t need a fancy word processing programme with bucket loads of features you&#39;ll never use: all you need is a lightweight text editor, and maybe a PDF exporting programme to help with creating separate, printable pages if you run a flavour of Windows.</p>
+<p>So how do I use HTML to create documents? Argh, two rhetorical questions in the one post. This is no good. I now have a file called <code>master.html</code> sitting in my home directory that I use as a template for new documents; I simply copy the file, change the meta data and write up the document.</p>
+<blockquote style="font-size:80%">
+<p>&lt;?xml version=&#8221;1.0&#8243; encoding=&#8221;UTF-8&#8243;?&gt;<br />
+&lt;!DOCTYPE html PUBLIC &#8220;-//W3C//DTD XHTML 1.1//EN&#8221;<br />
+&#8220;http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd&#8221;&gt;</p>
+<p>&lt;html xmlns=&#8221;http://www.w3.org/1999/xhtml&#8221; xml:lang=&#8221;en-AU&#8221;&gt;<br />
+&lt;head profile=&#8221;http://www.w3.org/2006/03/hcard&#8221;&gt;<br />
+&lt;title&gt;DOCUMENT NAME By Ruben Schade&lt;/title&gt;</p>
+<p>&lt;meta http-equiv=&#8221;Content-Language&#8221; content=&#8221;en-AU&#8221; /&gt;<br />
+&lt;meta http-equiv=&#8221;Content-Type&#8221; content=&#8221;text/html; charset=UTF-8&#8243; /&gt;<br />
+&lt;meta name=&#8221;author&#8221; content =&#8221;Ruben Schade&#8221; /&gt;<br />
+&lt;meta name=&#8221;copyright&#8221; content=&#8221;http://creativecommons.org/licenses/by/3.0/&#8221; /&gt;<br />
+&lt;meta name=&#8221;description&#8221; content=&#8221;DOCUMENT DESCRIPTION&#8221; /&gt;<br />
+&lt;meta name=&#8221;owner&#8221; content=&#8221;Ruben Schade&#8221; /&gt;</p>
+<p>&lt;style type=&#8221;text/css&#8221; media=&#8221;all&#8221;&gt;<br />
+body {<br />
+&nbsp;&nbsp;font-family: Georgia, Antiqua, &#8220;Times New Roman&#8221;, Times, sans-serif;<br />
+&nbsp;&nbsp;line-height : 1.6em;<br />
+&nbsp;&nbsp;padding: 2em;<br />
+&nbsp;&nbsp;text-align:justify;<br />
+}<br />
+&lt;/style&gt;<br />
+&lt;/head&gt;</p>
+<p>&lt;body&gt;<br />
+&lt;!&#8211; DOCUMENT GOES HERE &#8211;&gt;<br />
+&lt;/body&gt;</p>
+<p>&lt;/html&gt;
+</p></blockquote>
+<p>How does the McDonald&#39;s theme song go? &quot;I&#39;m loving it!&quot;</p>
+ 

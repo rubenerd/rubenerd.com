@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Cutting Mono out of GNOME on FreeBSD' 
+date: "2008-04-13T11:17:56+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- csharp
+- exaile
+- freebsd
+- gnome
+- infocomm
+- microsoft
+- mono
+- ports
+- python
+- rms
+- scripting
+- x11 
+---
+<p>Despite many people <a href="http://jeffreystedfast.blogspot.com/2008/02/lots-of-gnomemono-fud-lately.html">writing up detailed, phone-book length blog posts</a> vehemently saying <a href="http://www.mono-project.com/">Mono</a> isn&#39;t a necessary or an integrated part of <a href="http://gnome.org">GNOME</a> (who are they trying to convince, us or themselves?), the simple reality is that most package managers do treat it as such, including <a href="http://www.freshports.org/">FreeBSD&#39;s ports system</a>.</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.mono.png"><img src="http://files.rubenerd.com/uploads/screenie.mono.thumb.png" alt="GNOME Terminal running in FreeBSD showing the removal of Mono" style="height:185px; width:500px" /></a></p>
+<p>If you installed GNOME either with the <a href="http://www.freshports.org/x11/gnome2/">gnome2</a> metaport or metapackage you&#39;ll get <a href="http://www.freshports.org/lang/mono/">Mono</a> and <a href="http://www.freshports.org/devel/monodoc/">Monodocs</a>, which if you have a problem with Microsoft&#39;s patent litigation or just don&#39;t like seeing Microsoft get their claws into free software, you can remove (albeit with a warning you have to supress with the <code>-f</code> switch):</p>
+<ol>
+<li><code># pkg_info | grep mono</code></li>
+<li><code># pkg_delete -f mono-x.x.x.x</code></li>
+</ol>
+<p>I&#39;m mostly a KDE and Xfce person trying out GNOME as my DE for a week, so I&#39;m by no means an authority on its package requirements. That said though, having removed Mono on Friday and using the bundled applications I haven&#39;t had any issues at all. Obviously I won&#39;t be using Banshee or Tomboy, but I didn&#39;t need them anyway!</p>
+<p><img src="http://files.rubenerd.com/uploads/richardstallman.jpg" alt="Richard Stallman at the launch of the GPL v3" style="height:213px; width:320px" /><br />
+<cite>Richard Stallman at the launch of the GPL v3</cite></p>
+<p>For those who don&#39;t know, Mono is an open source implementation of Microsoft&#39;s .Net framework. I don&#39;t agree with a few of the things Richard Stallman says, but his summary of why Mono is problematic hits the issue right on the head:</p>
+<blockquote><p>
+Mono is a free implementation of Microsoft’s language C#. Microsoft has declared itself our enemy and we know that Microsoft is getting patents on some features of C#. So I think it’s dangerous to use C#, and it may be dangerous to use Mono. There’s nothing wrong with Mono. Mono is a free implementation of a language that users use. It’s good to provide free implementations. We should have free implementations of every language. But, depending on it is dangerous, and we better not do that.
+</p></blockquote>
+<p>And my own argument can be described in three words and a phrase: <em>embrace, extend, extinguish</em>, and <em>those who don&#39;t learn from history are destined to make the same mistakes</em>.</p>
+<p>I guess it just bothers me that more people aren&#39;t bothered by Mono. It would be useful if people were using it to migrate existing software they had spent time and money on over on Windows, but creating software from scratch with it just doesn&#39;t sit well with me.</p>
+<p>All this said though, this is another great thing about the free and open source software world on the desktop, if I don&#39;t like a particular application or the language/framework it&#39;s been written in, I can slot in an alternative free application that I prefer. For example, who needs Mono-encumbered Banshee when there&#39;s the gorgeously designed <a href="http://www.exaile.org/">Exaile</a> written in Python!</p>
+ 

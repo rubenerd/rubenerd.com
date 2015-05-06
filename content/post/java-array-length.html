@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'When NOT to use Java’s array.length method!' 
+date: "2009-08-10T06:09:26+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- java
+- programming
+- studies 
+---
+<p><img src="http://farm3.static.flickr.com/2614/3675153074_cfb43a3f6d.jpg" width="500" height="335" alt="Starbucks cups" /></p>
+<p>I know it&#39;s cliche using <a href="http://www.flickr.com/photos/rubenerd/3675153074/" title="Starbucks cups by rubenerd, on Flickr">my coffee cup photo here</a> because I&#39;m talking about Java, but I hate blog posts without at least one picture you must understand. Thank you.</p>
+<p>A few days ago I <a href="http://rubenerd.com/java-arraybounds/">posted a beginners problem</a> I was having with Java related to counting how many elements there are in an array; seems basic right?</p>
+<p>Here&#39;s an example of what I was doing:</p>
+<blockquote>
+<pre>
+for (count = 0; count &lt; arrayThing.length; count++) {
+   grandTotal += arrayThing[count].getAmount;
+}
+</pre>
+</blockquote>
+<p>As Mark <a href="http://rubenerd.com/java-arraybounds/comment-page-1/#comment-1217">so graciously pointed out for me</a>, I was guilty of a logic error by incorrectly using the <code>length</code> method to determine how many elements there were in the array. The <code>length</code> method returns the entire length of the array that was previously instantiated, NOT up until the index where there have stopped being values entered!</p>
+<p>A way to get around this is to use a counter whenever you add a new item to array in a similar fashion to below, then using the counter in place of the length method whenever you need to loop through the values.</p>
+<blockquote>
+<pre>
+public void addToArray(int e) {
+   this.arrayThing[nArrayThing] = e;
+   nArrayThing++;
+}
+</pre>
+</blockquote>
+<p>I was under the impression Java&#39;s <a href="http://java.sun.com/j2se/1.5.0/docs/guide/language/foreach.html">for each statement</a> could also have been used, but that&#39;s for use in collections not arrays.</p>
+<p>Thanks to Mark for helping with my rusty Java knowledge :).</p>
+ 

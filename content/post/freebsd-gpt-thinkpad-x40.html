@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'FreeBSD GPT works just fine on the ThinkPad X40' 
+date: "2012-11-13T08:06:54+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- ibm
+- infocomm
+- k-on
+- keion
+- lenovo
+- pointless-anime-references
+- thinkpad
+- thinkpad-x40 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.kon.table.jpg" alt="" style="width:500px; height:310px;" /></p>
+<p>I&#39;d abstained from using the GUID partition tables (get it… tables?) on my ThinkPads after reading warnings on the Fedora mailing lists. Inadvertently I installed FreeBSD with GPT on my ThinkPad X40 this afternoon though, and it worked just fine! </p>
+<p><!--oldmore--></p>
+<p><cite>The K-On! girls eating sushi &copy; Kyoto Animation.</cite></p>
+<h3>Fedora</h3>
+<p>From Pádraig Brady on the <a href="http://lists.fedoraproject.org/pipermail/devel/2012-February/162233.html">mailing lists in February</a>:</p>
+<blockquote><p>In Fedora 16 we changed to using GPT as the default disklabel for new installs. In a few cases, mostly limited to Lenovo hardware, we found that some BIOS’s would not boot from GPT. We blacklisted Lenovo, falling back to msdos labels in order to solve this.</p>
+<p>Thanks to Matthew Garrett we found that switching on the boot flag of the GPT’s protective MBR these BIOS’s would then boot from GPT. Matthew wrote a patch for parted to allow controlling this flag using the disk_set pmbr_boot command in parted. This is in parted-3.0-7</p></blockquote>
+<p>I can&#39;t find them right now (of course) but I also recall the release notes or installation guide for Fedora 16 and 17 detailing the use of <code><a href="https://fedoraproject.org/wiki/Anaconda_Boot_Options?rd=Anaconda/Options#nogpt">nogpt</a></code> and how Lenovo machines were blacklisted for using GPT.</p>
+<p>So I avoided it, and used extended partitions to overcome the 4 partition limitations of MBR that we all remember.</p>
+<h3>FreeBSD</h3>
+<p>With the release of the 9.0 series, FreeBSD defaults to GPT instead of MBR. While installing, I explicitely created an MBR table instead of using GPT in the initial disk step of bsdinstall. Curiously, doing this resulted in a string of those notorious <code>&quot;g<em>vfs</em>done() error=5&quot;</code> errors when I first booted. The same results occurred when I used gpart manually from the shell.</p>
+<p>Just to see what would happen, I let bsdinstall create GPT partitions instead, and FreeBSD has since booted flawlessly. No joke!</p>
+<p>Granted, this is with <a href="http://www.freebsd.org/platforms/i386.html">FreeBSD i386</a> on a 32bit Pentium M ThinkPad X40. My next experiment will be to use GPT with <a href="http://www.freebsd.org/platforms/amd64.html">FreeBSD amd64</a> on my Core 2 Duo ThinkPad X61s.</p>
+ 

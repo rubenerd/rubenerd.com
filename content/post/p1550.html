@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'A revisited MacVim editor review' 
+date: "2008-08-27T12:35:57+10:00"
+categories: 
+- Software 
+tags: 
+- infocomm
+- mac-os-x
+- macvim
+- vim 
+---
+<p>About a week ago I posted (amongst other ramblings) that I had successfully moved over to the <a href="http://vim.org">Vim</a> text editor for most of my day to day… editing. I mentioned how I loved the syntax highlighting and how much it improved the readability of code, and how I had got used to the two mode operation and most of what I would consider to be the basic and intermediate commands.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.macvim.icons.jpg" alt="MacVim icon" style="height:230px; width:500px" /><br />
+<cite>MacVim in the <code>/Applications</code> folder</cite></p>
+<p>Unfortunately I also said that I had installed <a href="http://trac.macports.org/browser/trunk/dports/editors/vim/Portfile">Vim from MacPorts</a> on my MacBook Pro to use in the Terminal and that I failed to see what the point would be of installing the dedicated graphical <a href="http://code.google.com/p/macvim/">MacVim</a> application. I&#39;ve since been proven wrong and have even started using MacVim as my primary editor for everything I do on this machine, and I love it!</p>
+<blockquote><p><strong>ASIDE:</strong> Despite what you may think, I was not paid any money to create this post. Isn’t it a sad state of affairs these days when you have to go on record saying that you’re not being paid off? Sheez Lousie!</p></blockquote>
+<p>My incorrect assessment stemmed from my own misunderstanding of what MacVim was capable of; I assumed that it was just an Aqua version of GVim, or in English a Mac OS X native version of graphical Vim that didn&#39;t need X11. While this is true, it does have features that put it far ahead of the simple Terminal based Vim I was advocating before.</p>
+<p>Firstly, the syntax highlighting which what made me fall in love with Vim from the beginning is far richer in MacVim because it supports full 16bit colour, not 16 colours. Below is a comparison of a simple Ruby script I wrote shown in MacVim and Vim:</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.macvim.compare.png"><img src="http://files.rubenerd.com/uploads/screenie.macvim.compare.thumb.png" alt="Vim (left) compared to MacVim (right)" style="height:231px; width:500px" /></a><br />
+<cite>Vim (left) compared to MacVim (right)</cite></p>
+<p>Now obviously I could go into my Terminal.app preferences to get the same background colour and font size, but the colours definitely look nicer in MacVim. I&#39;m one of those fruitjobs who sees their code as poetry, and as with all art it looks far nicer when presented in a nice frame :-).</p>
+<p>Another feature of MacVim given that it&#39;s a native Mac OS X Aqua application is that along with the regular <code>[esc]+[:]+command</code> Vim commands, it also supports native Mac shortcuts. This means to open a file I can enter <code>:<span></span>o ~/Documents/MyFile.rb</code> or just as easily enter <code>[Command]+[O]</code> and use a regular Mac OS X dialog box.</p>
+<p>Then there are the little things that perhaps don&#39;t improve usability in the traditional sense, but make the program nicer to use such as native, Safrai like tabs, the utilisation of the Mac menu bar and a native Mac toolbar you can collapse. It also throws errors using native Mac windows:</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.macvim.maclikeerror.png" alt="Mac-like error message" style="height:95px; width:500px" /><br />
+<cite>Mac-like error message</cite></p>
+<p>My final concern with using a graphical MacVim application instead of the command line Vim was that I spend most of my life in the Terminal and would hate to have to move to the Dock, click the application icon and navigate to the file I want when I might already be there in the Terminal. Fortunately in the MacVim archive you download there&#39;s also a small <code>mvim</code> script you can put in any folder in your shell&#39;s $path which will automagically launch the MacVim application whenever you enter <code>mvim filename</code> from the Terminal, just as with TextMate. I chose to put my <code>mvim</code> file in <code>/usr/local/bin</code> given I&#39;m also a FreeBSD guy.</p>
+<p>Having used MacVim for just over a week now, I can confidently say it has really made my life much easier. If you&#39;re on the hunt for a text editor for Mac OS X and don&#39;t like the idea of shelling out an arm and a leg for shareware that isn&#39;t even as good anyway, give it a try! I love it so much I&#39;m going to make a donation this afternoon: after all I would think paying for something you don&#39;t need to pay for is much higher praise than being told you have to pay or it will cease to work, right?</p>
+<p>MacVim is available from it&#39;s <a href="http://code.google.com/p/macvim/">Google Code</a> project page.</p>
+ 

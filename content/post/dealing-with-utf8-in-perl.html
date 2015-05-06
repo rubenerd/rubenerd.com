@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Dealing with UTF8 in Perl' 
+date: "2013-05-15T12:11:10+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- perl
+- utf8 
+---
+<p><img src="http://files.rubenerd.com/2013/perl.japanese.png" alt="" style="width:140px; height:181px" /></p>
+<p>If you have Perl warnings enabled (like a good developer), chances are you’ve seen something like this when executing your script:</p>
+<pre class="code" style="overflow-x:scroll;">
+Wide character in print at ./[file].pl line [x].
+</pre>
+<p>As with everything in Perl, there are Many Ways&trade; to deal with this.</p>
+<p>The first is to include the following line along with your regular Perl boilerplate. I always write my scripts and text files in UTF8, so this merely enforces UTF8 output.</p>
+<pre class="code" style="overflow-x:scroll;">
+binmode(STDOUT, ":utf8");
+</pre>
+<p>This will deal with those warnings, and let you get on with your work.</p>
+<p>An alternative is to enforce UTF8 for STDIN and STDERR, as well as STDOUT with this line.</p>
+<pre class="code" style="overflow-x:scroll;">
+use open qw/:std :utf8/;
+</pre>
+<p>And of course, there’s always a trusty environment variable.</p>
+<pre class="code" style="overflow-x:scroll;">
+export PERL_UNICODE=SDL
+</pre>
+ 

@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Caution: filename not matched unzip error' 
+date: "2010-05-20T01:32:09+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- guide
+- howto
+- infocomm
+- linux
+- mac-os-x
+- netbsd
+- terminal
+- unrar
+- unzip 
+---
+<p><img src="http://files.rubenerd.com/uploads/Torchlight_zip.png" alt="Torchlight ZIP icon" style="height:128px; width:128px; background:transparent; padding:0em" /></p>
+<p>Quick tip I picked up this afternoon. If you try to extract a series of archives with unrar or unzip and you get this error:</p>
+<pre>% unzip *zipcaution: filename not matched</pre>
+<p>… you can get around it by escaping the asterisk.</p>
+<pre>% unzip *zip</pre>
+<p>I wonder why it works like this when virtually nothing else does?</p>
+ 

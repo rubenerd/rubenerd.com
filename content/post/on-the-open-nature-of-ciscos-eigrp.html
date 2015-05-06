@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'On the open nature of Cisco’s EIGRP' 
+date: "2013-05-16T12:51:48+10:00"
+categories: 
+- Internet 
+tags: 
+- cisco
+- eigrp
+- infocomm
+- standards 
+---
+<p><img src="http://files.rubenerd.com/2013/eigrp.jpg" alt="" style="width:500px; height:320px" /></p>
+<p>It started like any other day in my CCNA course. We sat down, were presented with some Cisco slides, and our lecturer started discussing the concepts we’d be exploring in the following lab. I’m a fan of this format; for IT courses there’s really no point having us sit in a two hour lecture, then have us go home without actually doing anything with it. But I digress.</p>
+<p>When we got to the slide introducing EIGRP, it mentioned the proprietary nature of the protocol. With enthusiasm though, our lecturer overlayed a bubble over the slide, proudly announcing this was no longer true!</p>
+<p>Sure enough, on the Cisco website, <a href="http://www.cisco.com/en/US/prod/collateral/iosswrel/ps6537/ps6554/ps6599/ps6630/qa_C67-726299.html">EIGRP has been submitted as a draft informational RFC</a>:</p>
+<blockquote cite="http://www.cisco.com/en/US/prod/collateral/iosswrel/ps6537/ps6554/ps6599/ps6630/qa_C67-726299.html"><p>Cisco is opening up its EIGRP routing protocol as an open standard in order to help companies operate in a multi-vendor environment. Customers should be able to pick the best protocol that works for them, based on technical merits. Any networking vendor can now freely implement EIGRP on their equipment, and interoperate with thousands of networks running EIGRP today.</p>
+</blockquote>
+<p>&#8220;Based on technical merits&#8221; are strong words. Clearly Cisco believes other protocols were being adopted because EIGRP wasn’t open, not because of any technical superiority. A shot across the bow at the likes of OSPF!</p>
+<p>For some reason though, I couldn’t shake the feeling there must be a catch. It didn’t seem right to suddnly compare EIGRP to open, standard protocols like OSPF, based on a draft proposal.</p>
+<p>Sure enough, in the second paragraph:</p>
+<blockquote cite="http://www.cisco.com/en/US/prod/collateral/iosswrel/ps6537/ps6554/ps6599/ps6630/qa_C67-726299.html"><p>Cisco is releasing the basic EIGRP to the IETF as an Informational RFC. This includes all the information needed to implement EIGRP, and its associated features, including High Availability (HA).</p>
+</blockquote>
+<p>The key word being &#8220;basic&#8221;. I’m not a networking engineer, but this reads to me like if you want more of the advanced features of EIGRP, you’ll still need Cisco gear.</p>
+<p>And then we have this:</p>
+<blockquote cite="http://www.cisco.com/en/US/prod/collateral/iosswrel/ps6537/ps6554/ps6599/ps6630/qa_C67-726299.html"><p>EIGRP is being released as an &#8220;Informational RFC&#8221;, and that allows Cisco to retain control of the EIGRP protocol in order to preserve the customer experience and deployment investments. The EIGRP protocol will not be changed.</p>
+</blockquote>
+<p>If I were a third party network hardware manufacturer looking to implement EIGRP, some key phrases there would give me pause.</p>
+<p>So, not to go against my CCNA teacher, Cisco should be applauded for making steps in the right direction, but at best EIGRP could be considered a &#8220;partly-open&#8221; at this stage.</p>
+<p><cite>Art of Tsugumi modifying what could be a routing table, by <a href="http://www.pixiv.net/member_illust.php?amp;mode=medium&amp;illust_id=23134623">okitakung</a> on Pixiv.</cite></p>
+ 

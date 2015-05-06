@@ -1,0 +1,39 @@
+---
+layout: post
+title: 'Writing code that ends cleanly without breaks' 
+date: "2009-10-22T12:04:50+10:00"
+categories: 
+- Software 
+tags: 
+- computer-science
+- ideas
+- infocomm
+- java
+- programming
+- super-detailed-diagram
+- theory 
+---
+<p><img src="http://files.rubenerd.com/uploads/diagram.programming.order.png" alt="Super detailed diagram!" style="height:328px; width:416px; display:inline; padding:0em; border:0em; background:transparent" /></p>
+<p>You&#39;d think transitioning back to university studies after working would mean I&#39;d be learning more about so called &quot;correct&quot; programming techniques, but I&#39;ve actually found the opposite is true! Apparently I&#39;m also incapable of writing catchy titles for programming posts.</p>
+<p><!--oldmore--></p>
+<p>It&#39;s hard to describe, but in high school programming classes I learned its important to bring programming logic that may have strayed off in different directions back to a single point so a method can cleanly exit. In this way, each block has a clearly defined beginning and end.</p>
+<p>This can be demonstrated using a loop. In this completely pointless Java example we&#39;re traversing a linked list of &lt;Strings&gt; looking for an awesome anime character. To preempt any comments, yes I could have used a for each loop, but that&#39;s not the point I&#39;m trying to make.</p>
+<pre>
+while (linkList.hasNext()) {
+  if (linkList.next().equals("Her Senjougharaness")) {
+    break;
+  }
+}
+</pre>
+<p>In the above case we have one entry point, but we&#39;re breaking out of the loop instead of allowing it to cleanly finish (in fact in this case it never will finish!). This works, but a more elegant solution is to modify the condition of the loop itself:/p></p>
+<pre>
+boolean found = false;
+while (!found &#038;&#038; linkList.hasNext()) {
+  if (linkList.next().equals("Her Senjougharaness")) {
+    found = true;
+  }
+}
+</pre>
+<p>In this case, once we&#39;ve found what we&#39;re looking for the loop isn&#39;t merely broken out of with a break statement, but is allowed to cleanly finish and gracefully return control to the parent because the condition of the loop has been changed and it terminates itself.</p>
+<p>Funnily enough I&#39;ve been told by people marking my assignments I&#39;ve been creating unnecessary extra work for myself demanding my loops and methods be structured like this, and they&#39;re probably right. Nevertheless I&#39;ve been wired to not accept any other way; unclean exits just look ugly as sin from a design standpoint to me, and I know it&#39;s not the &quot;correct&quot; thing to do. I think!</p>
+ 

@@ -1,0 +1,38 @@
+---
+layout: post
+title: 'Dual-booting OpenSolaris on a MacBook Pro' 
+date: "2009-08-01T09:52:11+10:00"
+categories: 
+- Software 
+tags: 
+- bootcamp
+- errors
+- infocomm
+- macbook-pro
+- opensolaris
+- operating-systems
+- solaris
+- sun-microsystems
+- unix 
+---
+<p><a href="http://blogs.sun.com/pnarayan/entry/communityone"><img src="http://files.rubenerd.com/uploads/photo.opensolaris.jpg" alt="OpenSolaris being introduced to the world by Rich Green" style="height:375px; width:500px; display:inline; border:0px" /></a></p>
+<p>Given I&#39;m working almost exclusively with <strong>Java</strong> and <strong>Oracle</strong> software this semester at university in three of my four courses I thought it&#39;d be fun and worthwhile dual-booting <a href="http://opensolaris.org/">OpenSolaris</a> with Mac OS X Leopard on my MacBook Pro and use them both in a more &quot;native&quot; environment. You can <a href="http://www.opensolaris.org/os/downloads/">download the ISOs for free</a> from their servers, <a href="http://dlc.sun.com/torrents/info/osol-0906-x86.iso.torrent">via bittorrent</a> or you can even <a href="https://oscd.sun.com/">order a CD</a> to be sent to you gratis. Pretty cool.</p>
+<p>Problem is, I&#39;m stuck. I&#39;m attempting to install OpenSolaris 2009.06 which is the latest version at the time this post is going live. These were the steps I took:</p>
+<ol>
+<li>Ran Leopard Bootcamp</li>
+<li>Rebooted with the OpenSolaris disc in the drive</li>
+<li>Chose the default LiveCD option from the Grub menu</li>
+<li>Arrived at the desktop, connected to Wireless network</li>
+<li>Plugged in USB mouse because internal trackpad wasn’t detected</li>
+<li>Launched installer</li>
+<li>Chose the FAT32 partition Bootcamp generated, selected &quot;Solaris&quot;</li>
+</ol>
+<p>Barely a few seconds into file copying stage, the installer #fails (uh oh I&#39;ve started inadvertently using Twitter hashtags in regular blog entries, this does not bode well for my mental state!). When I clicked the log file button these were the last few errors:</p>
+<pre>&gt;&gt; Could not crate VTOC target&gt;&gt; TI process failed.</pre>
+<p>I thought it could have had something to do with ZFS specifically, but doing some research online I came across <a href="http://mail.opensolaris.org/pipermail/indiana-discuss/2008-December/013316.html">this discussion thread</a> where Basant suggests <strong>the problem is with the EFI partitioning scheme employed by Bootcamp</strong>.</p>
+<blockquote>
+<p>Prime cause why it was failing was because of EFI partition. After I reset the partition id of EFI partition (#1) using &quot;setpid 1to AF&quot; and rebooted, my problem went away and opensolaris installed and booted just fine. I had also marked the partition as Active from Linux fdisk command so I didn’t need to do the fdisk.real hack.</p>
+</blockquote>
+<p>The <strong>fdisk.real hack</strong> being referred to turns out to be <a href="http://bugs.opensolaris.org/view_bug.do?bug_id=6413235">this official workaround</a> in response to a recognised bug in OpenSolaris.</p>
+<p>Going to take another plunge, here&#39;s hoping one of these tricks does the… trick.</p>
+ 

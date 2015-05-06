@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Testing the site in IE 10' 
+date: "2013-08-08T07:16:51+10:00"
+categories: 
+- Internet 
+tags: 
+- internet-explorer
+- microsoft
+- weblog 
+---
+<p><img src="http://files.rubenerd.com/2013/screenie.rubenerd.ie9.png" alt="Rubenerd.com in IE9" style="width:500px;" /></p>
+<p>It used to be that you’d develop a site to work the way you want, then you’d load it in Internet Explorer and spend the rest of your development time fixing all the differences.</p>
+<p>I’ll admit, this is the first time I’ve deployed a rewritten site without testing it in IE first. If it were for a client it’d be another story, but for my personal site it’s got to the stage where it doesn’t bother me as much any more.</p>
+<p>This evening, I had a few hours at UTS, and decided to use one of the Windows lab computers to test my site here in Internet Explorer. The lab machines run Windows 7 with Windows Internet Explorer 9; not the latest version but I was hoping it’d treat me kindly. I loaded the page, gritted my teeth and crossed my fingers.</p>
+<p>Micraculously, the page looked and worked surprisingly well. During the time I stopped using Windows in any production capacity, IE seems to have improved a great deal.</p>
+<p>Of course, there were still a few outliers:</p>
+<ul>
+<li>
+<p>Images in anchors still display a thick, ugly border around them. One of the first things I used to do when writing CSS would be to set the border width to 0 for images in anchors, and looks as though I’ll still have to do so.</p>
+</li>
+<li>
+<p>Some scaled images I set up to look good on Apple’s Retina displays look blockly and pixellated. This is unfortunate; I’ll have to figure out another way to do this.</p>
+</li>
+<li>
+<p>The placeholder attribute for the Search box didn’t display anything. Fortunately, I was prepared for this, so the IE inline HTML comment if statement with a &#8220;Search:&#8221; label appeared.</p>
+</li>
+<li>
+<p>The text was thin and pixellated, though that’s more of an issue with how Windows renders fonts.</p>
+</li>
+</ul>
+<p>Internet Explorer 10 might resolve some of these issues further. For now, I’ll just write a small IE specific CSS file and fix these bugs. <strong>TL;DR</strong> I’m cautiously impressed with how it turned out.</p>
+ 

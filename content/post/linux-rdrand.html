@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'Linux RdRand' 
+date: "2013-12-18T12:03:53+10:00"
+categories: 
+- Hardware 
+tags: 
+- freebsd
+- intel
+- linux
+- random-number-generators
+- security 
+---
+<p>The FreeBSD project making headlines again:</p>
+<blockquote>
+<p>According to their <a href="https://wiki.freebsd.org/201309DevSummit/Security">September 2013 DevSummit Security Report</a>, FreeBSD will not rely solely on internal hardware random number generators manufactured by Intel and VIA. Instead, their entropy will be fed into Yarrow, their existing software generator.</p>
+</blockquote>
+<p>Around the same time, debate was also raging within the Linux community. A petition site was developed urging the removal of support for these random number generators. <a href="http://www.theregister.co.uk/2013/09/10/torvalds_on_rrrand_nsa_gchq/">The Register</a> reported on his usual diplomatic response:</p>
+<blockquote cite="http://www.theregister.co.uk/2013/09/10/torvalds_on_rrrand_nsa_gchq/">
+<p>Torvalds argued in his mild outburst [as he’s wont to do] that the values from RdRand are combined with other sources of randomness, which would thwart any attempts to game the processor’s output &#8211; but it’s claimed that mix is trivial (involving just an exclusive OR) and can be circumvented by g-men</p>
+</blockquote>
+<p>As I’ve said here many times, ideally you want a pool of high entropy sourced from disparate places. RdRand may have been compromised, but it could still be used with others. If this allegation of weak mixing using XOR was true though, that did represent a potential issue.</p>
+ 

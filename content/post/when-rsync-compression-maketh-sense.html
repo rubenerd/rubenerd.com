@@ -1,0 +1,46 @@
+---
+layout: post
+title: 'When rsync compression maketh sense' 
+date: "2013-10-08T07:02:01+10:00"
+categories: 
+- Software 
+tags: 
+- asahina-mikuru
+- guides
+- rsync 
+---
+<p><img src="http://files.rubenerd.com/2013/anime.mikurubeam2013.jpg" alt="Mikuru Beam!" style="width:500px; height:280px;" /></p>
+<p>I use and rely upon rsync so much for my backups and general file transfers, its not even a joke anymore. Well, it could still be a joke if I were the funny type. I type rsync commands, does that count?</p>
+<p style="font-style:italic">Aside: In much the same way <a title="Rubénerd: My shiny new MikroTik 750GL!" href="http://rubenerd.com/mikrotik-750gl/">Nagato Yuki</a> began gracing computer hardware posts here, in 2007  <a title="Rubénerd: Rzip is absolutely incredible" href="http://rubenerd.com/rzip-is-absolutely-incredible/">Asahina Mikuru</a> began accompanying compression posts. I think I was implying her <em>Mikuru Beam</em> was more effective than regular file compression algorithms. I’ve long since switched to xz from rzip that I mentioned in that linked post, though I admit discussing rzip in a post about rsync is <a title="Andrew Tridgell" href="https://www.samba.org/~tridge/">rather awesome</a>.</p>
+<h3>Making rsync s/faster/slower with compression</h3>
+<p>One feature rsync has over traditional cp is temporary compression. Files are automatically compressed before transfer, then extracted at the destination. Under certain circumstances, it works a treat.</p>
+<p>As I failed to realise last night however, rsync with compression <strong>obviously</strong> has the same limitations as compressing regular files. Check out the table below showing some transfers I ran late last night over USB 2.0:</p>
+<table>
+<tr>
+<th style="text-align:left;">Data type</th>
+<th style="text-align:left;">with -z</th>
+<th style="text-align:left;">without -z</th>
+<th style="text-align:left;">Diff</th>
+</tr>
+<tr>
+<td style="padding-right:1em">Anime video</td>
+<td style="padding-right:1em">13.45MB/s</td>
+<td style="padding-right:1em">29.41MB/s</td>
+<td style="padding-right:1em">- 45.73%</td>
+</tr>
+<tr>
+<td style="padding-right:1em">Assignment PDFs</td>
+<td style="padding-right:1em">43.12MB/s</td>
+<td style="padding-right:1em">28.13MB/s</td>
+<td style="padding-right:1em">+153.29%</td>
+</tr>
+</table>
+<p>Even when using gz, the impact on performance when using compression on losslessly compressed multimedia (do people still use that term?) files and textual data was rather jaw dropping. Lesson learned: if your data can be compressed well before transmission, and your bandwidth is more of a constraint than disk IO, memory or CPU, rsync with compression will yield great results. Otherwise, you may risk making your transfer run even slower!</p>
+<h3>For general usage</h3>
+<p>I’ve aliased <code>rsync</code> in my <a title="TCSH" href="http://tcsh.org/">tcshrc</a> twice, once to issue when dealing strictly with data that I know will compress well, and another for everything else:</p>
+<pre class="code" style="overflow-x:scroll;">
+  alias ry 'rsync -ahv --progress --stats'
+  alias ryc 'rsync -ahv --compress --progress --stats'
+</pre>
+<p>I’m also looking into this <code>--skip-compress</code> option, which lets you define extensions that it won’t compress. This could be useful for defining losslessly compressed media we want ignored, and could negate the need for my two separate aliases. We’ll see!</p>
+ 

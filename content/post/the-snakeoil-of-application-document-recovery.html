@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'The snake oil of application document recovery' 
+date: "2014-05-23T08:50:49+10:00"
+categories: 
+- Software 
+tags: 
+- development
+- microsoft
+- visual-studio
+- windows 
+---
+<p><!--
+<p><img src="http://files.rubenerd.com/2014/photo.vsbotch.jpg" alt="" style="width:500px; height:323px;" /></p>
+<p>--></p>
+<p>I can emphatise with Microsoft. Their operating system is used on most personal computers around the world and, partly as a result, they’re an incredibly huge target for nasties. Making sure this huge userbase is patched and updated must be an incredible challenge.</p>
+<p>Auto restarts though? Not cool.</p>
+<p>This evening, I was putting the finishing touches on a C# assignment. While I’ve long since relegated Windows to sparingly used virtual machines on my Mac and Linux boxes, I still harbour a soft spot for Visual Studio. Going back to the ancient versions of Visual Basic (VBENV300 anyone?) and Visual C++, the interface brings back happy memories from my childhood.</p>
+<p>I’d also say, Eclipse, NetBeans and Xcode have improved over the years, but Visual Studio is still possibly the best IDE, if you can tolerate Windows font rendering. Did I just lose some hipster cred?</p>
+<p>But I digress. While typing away, quite literally on the last few lines of a current project, the Windows 7 virtual machine <a title="Windows Update just rebooted my VM, without warning, and with 5 mins of unsaved document changes" href="https://twitter.com/Rubenerd/status/469737145259675649">rebooted</a> to perform a system update. Without warning, my environment began melting around me, first with Notepad and a few other utilities, then finally Visual Studio. No questions whether I wanted to save my work, no confirmation message boxes. Just ZAP, off like a puff of smoke.</p>
+<p>People on <a title="My Twitter profile" href="https://twitter.com/Rubenerd/">Twitter</a> saw what happened next. After the machine rebooted, Visual Studio asked if I <a title="After forced Windows Update reboot. FFS." href="https://twitter.com/Rubenerd/status/469738222109470721">wanted to restore</a> my unsaved project. Having seen how terrible restore features are on Microsoft Office, LibreOffice and too many other applications to mention, I should have known not to click yes. <strong>Yet, I did</strong>.</p>
+<p>After that, the fun really began. When I tried loading my botched project, <a title="Performed document recovery in Visual Studio. Now getting this error." href="https://twitter.com/Rubenerd/status/469738525814837248">cryptic error messages</a> appeared. I tried moving my Visual Studio directory in the hope of creating a fresh environment, to no avail. I tried launching the solution file directly from Windows Explorer, which <a title="Yup, Windows 7 update and Visual Studio recover HOSED MY PROJECT. FFS." href="https://twitter.com/Rubenerd/status/469738774474137600">crashed Visual Studio</a>.</p>
+<p>Of course I had backups and a commit history, but not for the last hour of work I’d done at the coffee shop I was sitting. Though I was wounded, perhaps that would help to restore my hipster cred. If I wanted to be a hipster, how mainstream.</p>
+<p>Suffice to say, the volume of results from a search indicated it was a common problem. Fortunately, <a href="http://stackoverflow.com/questions/17596543/no-exports-were-found-that-match-the-constraint-contract-name">StackExchange had the answer</a>, which suggested I clear my cache and reboot Visual Studio.</p>
+<p>So what’s the take away from all of this? First, don’t trust document recovery in anything. It almost never works, and invariably makes things <em>worse</em>. If you’re on a notebook, turn auto reboot off on Windows.</p>
+<p>That reminds me, I need to figure out how to turn auto reboot off on Windows.</p>
+ 

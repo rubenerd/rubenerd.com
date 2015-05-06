@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'S/MIME in Mac Outlook' 
+date: "2014-06-11T02:40:00+10:00"
+categories: 
+- Internet 
+tags: 
+- crypto
+- email
+- microsoft-office
+- outlook
+- pgp
+- privacy
+- smime 
+---
+<p>An ongoing work task has been to research options for email encryption. We want to be able to share sensitive information, without transmitting in the clear or later being retrieved by a MITM.</p>
+<p>The initial option was to use PGP. It’s simple, and I have years of experience using it. Unfortunately, while Apple Mail, Thunderbird and Evolution support it either natively or with free extensions, Outlook for Mac 2011 does not. Exhaustive searches online and in newsgroups returned nothing, as previously explained.</p>
+<p>So the solution was to research S/MIME. Outlook for Mac supports it, and from my previous experiments I was able to create a self-signed internal certificate authority, generate a private key and issue myself a cert. </p>
+<p>I generated a key for my supervisor, and imported the CA and key into Keychain Access on his Mac. He was able to send me an encrypted message without problems.</p>
+<p>Problem was, I couldn’t decrypt it on either Evolution or Mac Outlook. Despite importing his cert into my Mac keychain, Outlook appeared to not make the connection between the imported key and his email.</p>
+<p>On a hunch, I figured if he send me a signed but unencrypted message, Outlook would see his cert. Sure enough, I was able to verify his signed email and click “Add Encryption Certificate to Contacts”. Once that was done, we could exchange encrypted messages.</p>
+<p>This setup works. Next step is to research issuing genuine-CA signed messages to everyone in the company, among other options.</p>
+ 

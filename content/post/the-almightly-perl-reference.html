@@ -1,0 +1,46 @@
+---
+layout: post
+title: 'The almightly Perl reference' 
+date: "2013-10-29T02:09:28+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- perl 
+---
+<p><img src="https://farm8.staticflickr.com/7369/10549087343_e8bd93104a_b.jpg" style="width:500px; height:335px;" alt="Sasara serving up Perl and C" /></p>
+<p>Perl is one of those languages that defies classification. Or at least, to me. Here we have what’s clearly an interpreted scripting language with all the ease of automatically scaling arrays, but that also has lower level features you’d expect from the likes of C. One such feature is the almighty reference.</p>
+<p style="font-style:italic">The <a href="http://www.flickr.com/photos/rubenerd/10549087343/" title="Sasara serving up Perl and C by rubenerd, on Flickr">image above</a> is of the lovely Sasara anime figure <a rel="friend met co-worker kin muse crush date sweetheart" href="http://kirinyan.net/">Clara</a> bought me. She’s wearing an apron, on a Perl Cookbook. That makes sense, right? ^^;</p>
+<h3>I didn’t even make an Inception Xzibit joke</h3>
+<p>If you come from C, Objective-C, C++ and the like, you can think of a Perl reference like a pointer. Rather than storing a value, a Perl reference stores a reference (that was inspired!) to a scalar, array, hash and the like.</p>
+<p>To store a reference to a scaler, we would do this:</p>
+<pre class="code" style="overflow-x:scroll;">
+#!/usr/bin/env perl -w
+
+use utf8;
+use strict;
+use warnings FATAL => 'all';
+
+my $chitanda = "kininarimasu";
+my $chitanda_ptr = $chitanda;
+
+print("$chitanda_ptrn");
+</pre>
+<p>Running this code will give us this:</p>
+<pre class="code" style="overflow-x:scroll;">
+SCALAR(0x7f8161830198)
+</pre>
+<p>As we would dereference in C, we can print the value of the scalar we’ve referenced by doing this:</p>
+<pre class="code" style="overflow-x:scroll;">
+print("$$chitanda_ptrn");
+</pre>
+<p>Which will return:</p>
+<pre class="code" style="overflow-x:scroll;">
+kininarimasu
+</pre>
+<p>Did I just blow your mind? Probably not, but when I first came across that in Perl I squeaked with as much delight as my teeth do when eating a slice of <a href="https://en.wikipedia.org/wiki/Halloumi" title="Halluoumi article on Wikipedia">Halloumi</a>. You know, that squeaky cheese? That stuff is dope. But I digress; think of the possibilities of this.</p>
+<h3>Okay cool, why bother?</h3>
+<p>I got into a conversation with someone at UTS about Perl references. Their response was a mixture of surprise and laugher, followed by a question as to why you would ever want to use references in what’s traditionally known as a scripting language. He probably didn’t eat Halloumi either.</p>
+<p>There are some situations where passing a reference to a variable would be preferable to passing its value. If you’ve developed a complicated or long data structure, it can take time and memory to reproduce. There are also times where its necessary; a potentially confusing limitation for people starting out with Perl is arrays can only contain scalars. Akin to a C array, Perl stores arrays of arrays (or hashes) as references to other arrays. Perl hides this somewhat, but there are times when you’re modifying arrays (or hashes) where knowledge of this can really help.</p>
+<p>Array and hash references in Perl are something I’ve recently had to reacquaint myself with in more detail, and will be the subject of a future post. When I’ve written it, I’ll reference it here. Heh.</p>
+ 

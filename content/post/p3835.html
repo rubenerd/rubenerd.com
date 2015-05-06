@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'An Optus phone billing adventure' 
+date: "2009-03-01T11:44:11+10:00"
+categories: 
+- Internet 
+tags: 
+- australia
+- bills
+- infocomm
+- optus
+- phones
+- telcos 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.optus.javascript.png" alt="Optus website telling me I need JavaScript to view their site" style="height:120px; width:500px; display:inline; border:0px;" /><br /><cite>Lesson one of website design: never create sites that only work with JavaScript or Flash. ALWAYS provide alternatives if they’re not available.</cite></p>
+<p><a href="http://www.optus.com.au/">Optus</a> has sunk to a new low with me. Despite having much better coverage than <a href="http://www.vodafone.com.au/">Vodafone</a> who I was with previously here in Australia, their 3G coverage still woefully bad outside the <a href="http://maps.google.com/maps?f=q&#038;source=s_q&amp;hl=en&amp;geocode=&amp;q=adelaide&amp;sll=37.0625,-95.677068&amp;sspn=43.664131,61.962891&amp;ie=UTF8&amp;t=h&amp;z=14">Adelaide CBD <span style="font-size:x-small;">[Google Maps]</span></a>. Coming from <a href="http://www.singtel.com.sg/">Singapore</a> where I can even use my phone in most lifts I come across and <a href="http://rubenerd.com/p1122/">onboard ferries</a> between Singapore and Batam, Indonesia this definitely takes some time to adjust to when I come back here to study.</p>
+<p>My latest adventure with Optus involves paying a bill online. I’ve never understood why companies go out of their way to make their online billing services so cumbersome, it’s so much cheaper for them to let their customers interface directly with their payment systems with their computer than paying somebody at one of their retail stores or over the phone to take payments. But I digress.</p>
+<p>I went to <a href="http://www.optus.com.au/">Optus.com.au</a> and clicked the conspicuous <a href="https://secure.optus.com.au/smartpay/index.jsp">Pay a bill</a> link. It took me to a secure page that fortunately <a href="http://rubenerd.com/protect-yourself-against-md5-certificates/">doesn’t use MD5</a> and contains a few simple fields for credit card information and the amount owed. So far so good.</p>
+<p>The problems started when I attempted to click some of the important information links in the page’s description. When I clicked on the Payments link which I was instructed to do to learn about their rich 1% credit card surcharge, I was told such a page doesn’t exist.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.optus.404.png" alt="Optus telling me their Payments link redirects to a page that doesn't exist" style="height:240px; width:500px; display:inline; border:0px;" /></p>
+<p>When I clicked the Privacy Collection Statement, nothing happened at all. As it turns out the hyperlink consisted of some JavaScript which <a href="http://noscript.net/">NoScript</a> in my <a href="http://getfirefox.com/">Firefox</a> browser had blocked. Why does a website need to use JavaScript to <em>link</em> to another page?</p>
+<p>The most frustrating bug with the page though was its help system. When you click on any of the question mark links next to the form fields, you’re redirected to an explanation on another page. I didn’t know what they meant by a Card ID, so I clicked the question mark. Because it loaded another page in the same window, my 16 digit credit card number and my almost as huge 14 digit Customer Account Number were reset!</p>
+<p>The fun didn’t end when I clicked the Pay Bill button though, for instead of processing my request I was tersely thrown back a 1990s era error page:</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.optus.http11.png" alt="Optus telling me their Payments link redirects to a page that doesn't exist" style="height:190px; width:500px; display:inline; border:0px;" /></p>
+<p>The question is, did my payment go through? I don’t want to enter my details again if I did because I’d be paying twice and from experience I know phone companies never give you money back they owe despite sending threatening letters to you when you reciprocate their lack of respect by not paying a bill.</p>
+<p>We really need WiMax or city wide WiFi systems so we can get rid of these phone company peoples.</p>
+ 

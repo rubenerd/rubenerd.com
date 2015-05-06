@@ -1,0 +1,38 @@
+---
+layout: post
+title: 'Picking up an MSI P43T-C51 for peanuts!' 
+date: "2010-05-17T04:57:41+10:00"
+categories: 
+- Hardware 
+tags: 
+- bsd
+- dq35jo
+- fedora
+- freebsd
+- fun
+- infocomm
+- intel
+- motherboards
+- msi
+- p43t-c51
+- upgrades 
+---
+<p><img src="http://files.rubenerd.com/uploads/photo.msi.p43t.c51.jpg" alt="" style="height:310px; width:500px; background:transparent; padding:0em" /></p>
+<p>After over a year of trials and tribulations (something to do with an infestation of Tribbles) I finally gave up on the <a href="http://www.intel.com/products/desktop/motherboards/dq35jo/dq35jo-overview.htm">Intel DQ35JO</a> motherboard and replaced it with the <a href="http://www.msi.com/index.php?prod_no=1839&#038;func=proddesc&#038;maincat_no=1">MSI P43T-C51</a> in my main DIY machine. The difference is stunning!</p>
+<p><!--oldmore--></p>
+<h3>Initial</h3>
+<p>When I first built this machine in late 2008, I envisioned a headless server I could call from my <a href="http://rubenerd.com/universal-binaries-for-mozilla-software/">aging MacBook Pro</a> to do CPU intensive tasks such as file compression, video conversion and compiling large ports. I would SFTP into <a href="http://freebsd.org/">FreeBSD</a> on it, send it the files and depending on which folder they were sent to, a cron job would either convert, compress or compile them automatically, then put them in an outbox folder I could pick up. It was pretty sweet.</p>
+<p>I bought the Intel DQ35JO &quot;Executive&quot; motherboard because it was relatively affordable and it had onboard graphics; Intel graphics are universally terrible but I was using it as a server and it wouldn&#39;t even be plugged into a monitor most of the time! I used the money I saved from buying a graphics card to splurge on a Intel Core 2 Duo <a href="http://processorfinder.intel.com/details.aspx?sSpec=SLAPL">E8400</a> 3GHz CPU and 6GB of DDR2 memory which at the time were still pretty pricey.</p>
+<p>If you do a Google Image search for DQ35JO, I&#39;m on the first page ;).</p>
+<p><img src="http://files.rubenerd.com/uploads/photo.intel.DQ35JO.jpg" alt="" style="height:360px; width:275px; background:transparent; padding:0em" /></p>
+<h3>Problems problems problems problems…</h3>
+<p>As I <a href="http://rubenerd.com/faulty-intel-dq35jo-motherboard-fun/">blogged about in detail</a> in 2008, things didn&#39;t always go so smoothly. From the outset the motherboard seemed to be plagued with problems, so much so that I had it replaced twice. It wouldn&#39;t recognise any of the keys to enter the BIOS, it would ignore drives, drives it didn&#39;t ignore would report serious errors, the system clock would sporadically change to something that made no sense. I had an 800W PSU with just one optical drive and two hard disks so I didn&#39;t think it was due to a lack of power.</p>
+<p>Software was also very touchy. <a href="http://www.netbsd.org/">NetBSD</a>, FreeBSD, <a href="http://www.slackware.com/">Slackware</a> and Windows 2000 installed without major problems, but the Anaconda installer on <a href="http://fedoraproject.org/">Fedora</a> 11 and 12 would report a crash before it even finished loading, <a href="http://partedmagic.com/">PartedMagic</a> and <a href="http://www.knoppix.net/">Knoppix</a> would get stuck while booting, and <a href="http://debian.org/">Debian</a> refused to recognise any drives at all. Finally, <a href="http://grc.com/">SpinRite</a> would get stuck on the screen where it waits to access drives.</p>
+<p><img src="http://files.rubenerd.com/uploads/photo.msi.p43t.c51.side.jpg" alt="" style="height:235px; width:320px; background:transparent; padding:0em" /></p>
+<h3>MSI saves my arse</h3>
+<p>With most of the world moving to the Intel Core iX line of CPUs, I reckoned I could pick up a replacement motherboard for the Core 2 Duo for less, and I was right! Going to <a href="http://www.cybermind.com.sg/">Cybermind</a> at <a href="http://en.wikipedia.org/wiki/Sim_Lim_Square">Sim Lim Square</a> I was able to snag the last of their compatible boards with a nice discount. They&#39;re really nice people there, been buying stuff from them since I was a kid.</p>
+<p>I swapped the Intel DQ35JO board with the MSI P43T-C51 and the difference is amazing. Despite having the same RAM, drives and CPU as the last board, FreeBSD boots in a fraction of the time and Fedora didn&#39;t chuck a hissy fit when installing. To borrow a phrase from Steve Jobs, the entire machine just feels more snappy.</p>
+<p>As with the Intel board it comes with gigabit ethernet, a hugely generous number of USB ports (especially compared to the two lousy ports I get on my MacBook Pro!) and passable Realtec sound. As a bonus, unlike the Intel board it also comes with a decent number of PCI slots (owing to the fact it&#39;s not MiniATX) and a legacy floppy drive controller so I can use my 5.25&quot; floppy drive! Yes I still have several, shaddup.</p>
+<p>The only downsides other than a complete lack of FireWire ports (d&#39;oh) is it doesn&#39;t have onboard graphics, so I had to harvest an old PCI Express card from a older machine which I hope to replace. It&#39;s my hope to use this machine as a proper desktop now instead of just a server, so I&#39;ll be on the lookout for more basic cards that FreeBSD and Fedora can support accelerated graphics on.</p>
+<h3>Photos of my new baby coming soon ^_^</h3>
+ 

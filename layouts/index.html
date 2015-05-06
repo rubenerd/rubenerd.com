@@ -1,0 +1,27 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content"><!-- for skip to content link -->
+{{ range .Paginator.Pages }}
+  <article resource="{{ .Permalink }}#post" property="blogPost" 
+    typeof="BlogPosting">
+    <h1 property="headline"><a property="sameAs url" 
+      href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    <small><time property="datePublished" 
+      datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "02 Jan 2006" }}</time></small>
+    <div property="articleBody">{{ .Content }}</div>
+  </article>
+<hr />
+{{ end }}
+</main>
+
+<nav role="secondary" class="secondary">
+  <h1>You're on page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}. Where to now?</h1>
+  <ul>
+    {{ if .Paginator.HasPrev }}<li><a href="{{ .Paginator.Prev.Url }}">&larr; Previous page</a></li>{{ end }}
+    {{ if .Paginator.HasNext }}<li><a href="{{ .Paginator.Next.Url }}">&rarr; Next page</a></li>{{ end }}
+  </ul>
+</nav>
+
+{{ partial "footer.html" . }}
+

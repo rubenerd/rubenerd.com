@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Fun with graphical Links browser' 
+date: "2010-01-24T01:56:51+10:00"
+categories: 
+- Software 
+tags: 
+- browsers
+- bsd
+- freebsd
+- guide
+- howto
+- infocomm
+- links-browser
+- linux
+- mac-os-x
+- macports
+- saturday-night
+- x11 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.links.i2yh.png" alt="IntoYourHeadPodcast.com in Links -g" style="height:265px; width:500px; display:inline;"/></p>
+<p>I love the <a href="http://links.sourceforge.net/">Links</a> text web browser and have been using it on FreeBSD, Linux and OS X shells, terminals and whatnot for years but I&#39;ve never once felt the need to customise any builds because it Just Works&reg; so gosh darn well. Checking out the variants (<code>-v</code>) for the <a href="http://trac.macports.org/browser/trunk/dports/www/links/Portfile">Links port</a> in <a href="http://macports.org/">MacPorts</a> on a whim I noticed something interesting:</p>
+<pre>
+links has the variants:
+   universal: Build for multiple architectures
+   gcs: Grilled cheese sandwich headers
+   x11: Include X11 interface
+</pre>
+<p><!--oldmore--></p>
+<p>Aside from the one obviously fabricated option (universal), the thing that caught my eye was X11. Being a curses application (I think) it didn’t strike me as intuitively obvious how an X11 interface would work, but it piqued my interest and it was a Saturday night so anything goes!</p>
+<p>Entering <code>links</code> (then cursing, entering <code>rehash</code> and entering <code>links</code> again, one downside to <a href="http://www.tcsh.org/">tcsh</a>!) I got the bog standard curses links interface I was used to, but consulting the man page there is a flag for graphical mode:</p>
+<pre>
+<strong>-g</strong>
+Run Links in graphics mode. If not given, Links will run in text mode.   
+
+Running in graphics mode means that Links will probe all compiled-in graphics devices and run on the first found. If none found, links  will not run in text mode. This option works only if <strong>--enable-graphics</strong> was given to <strong>./configure</strong>.
+
+<strong>-no-g</strong>
+Run in text mode (overrides previous <strong>-g</strong>).
+</pre>
+<h3>And it works!</h3>
+<p>And it works! <strong>I just said that.</strong> Of course if you&#39;d been to their <a href="http://links.sourceforge.net/">home page</a> or <a href="http://en.wikipedia.org/wiki/Links_(web_browser)">Wikipedia</a> recently you&#39;d know this, but as I said at the beginning I&#39;d never felt the need to.</p>
+<p>What&#39;s really amazing is Links 2.0 with it&#39;s new graphics stack can (depending on the system) even display graphics on terminals without X! The layout of pages is a bit iffy, but I&#39;ve got to admit that&#39;s gosh darn impressive.</p>
+<p>I&#39;ll be sticking to using links in it&#39;s capacity as a lightning fast, easy to use text based browser, but it&#39;s been a fun experience, especially with this half pint glass of Kilkenny poured from one of those cans with the widgets. As I say, I have wild Saturday nights.</p>
+<pre>
+--->  Installing links @2.2_2+x11+gcs
+--->  Activating links @2.2_2+x11+gcs
+--->  Cleaning links
+--->  Removing build directory for links
+</pre>
+<h3>Why not Lynx or eLinks?</h3>
+<p>Because links is a delicious pun, having one big cat on my Mac is enough, and elinks imposes its own colour scheme over my carefully chosen Terminal colours of which I’m rather partial.</p>
+ 

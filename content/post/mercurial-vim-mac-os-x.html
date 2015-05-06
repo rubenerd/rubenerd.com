@@ -1,0 +1,42 @@
+---
+layout: post
+title: 'Mercurial Vim-ness on Mac OS X' 
+date: "2011-04-17T08:31:47+10:00"
+categories: 
+- Software 
+tags: 
+- editors
+- guide
+- infocomm
+- mac-os-x
+- postaday2011
+- vim 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.vim73161.png" alt="Vim 7.3.161" style="height:257px; width:500px;" /></p>
+<p>Vim is better than <a href="https://secure.wikimedia.org/wikipedia/en/wiki/EMac">Emacs</a>.</p>
+<p><!--oldmore--></p>
+<h3>Homebrew laying it down</h3>
+<p>Unlike some other package managers, Homebrew attempts to use Mac OS X’s default userland software where it can. While most of the time this is advantageous (<abbr style="border-bottom:1px dotted" title="don't repeat yourself">DRY</abbr> but for software), it also means sometimes you’re stuck with a prior version until Apple decides to update, such as Vim.</p>
+<blockquote style="font-family:monospace"><p>% brew search vim<br />
+macvim vimpager</p>
+<p>If you meant `vim’ precisely:</p>
+<p>Apple distributes vim with OS X, you can find it in /usr/bin.</p>
+</blockquote>
+<p>I&#39;ve reviewed MacVim here before and like it very much, but often I prefer not having to leave the terminal for certain tasks. Also, (at the time of writing this) the version of Vim bundled with Snow Leopard is 7.2.108 (over six months old), whereas the latest version is 7.3.161 which fixes several critical issues and adds features.</p>
+<p>Fortunately, I went against the Homebrew developer&#39;s advice (<a href="http://rubenerd.com/homebrew-mac-os-x/">Playing with Homebrew on Mac OS X</a>) and installed it in <code>/opt/local</code>, leaving <code>/usr/local</code> for software I build myself!</p>
+<h3>Grabbing the source, building, etc</h3>
+<p>The easist way to install and keep Vim current is using Mercurial which Vim&#39;s developers have recenty swtiched to using, very cool! Of course you&#39;ll need Mercurial first, and using the Python <a href="http://packages.python.org/distribute/easy_install.html">easy_install</a> system is (IMHO) the easiest way to get it in OS X. Its right there in the name!</p>
+<blockquote style="font-family:monspace"><p>
+# easy_install Mercurial
+</p></blockquote>
+<p>As I said, I build my own stuff in <code>/usr/local/</code>, so I clone the Vim source into that, then build it. Mac OS X doesn&#39;t come with a <code>/usr/local/</code> tree by default, so you may need to create that first.</p>
+<blockquote style="font-family:monospace"><p>
+# mkdir -p /usr/local/src<br />
+# cd /usr/local/src<br />
+# hg clone https://vim.googlecode.com/hg/ vim<br />
+# cd vim<br />
+# ./configure<br />
+# make install clean
+</p></blockquote>
+<p>And budda-boom! The editor that&#39;s better than Emacs. I would know, because I&#39;m using a Mac Pro that doesn&#39;t have a built in CRT. See what I did there? The Bird is The Vim.</p>
+ 

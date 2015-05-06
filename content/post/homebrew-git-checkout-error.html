@@ -1,0 +1,31 @@
+---
+layout: post
+title: 'Homebrew git checkout error' 
+date: "2011-05-10T09:43:13+10:00"
+categories: 
+- Software 
+tags: 
+- errors
+- git
+- guide
+- homebrew
+- infocomm
+- mac-os-x
+- postaday2011
+- troubleshooting 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.gnome3.terminal.128x93.png" alt="Icon from the Gnome desktop project" style="height:93px; width:128px;" class="transparent" /><br />Homebrew giving you grief when attemting to perform a <code>brew update</code>?</p>
+<p><!--oldmore--></p>
+<blockquote style="font-family:monospace"><p>Aborting<br />
+Error: Failure while executing: git checkout -q master
+</p></blockquote>
+<p>You&#39;re <a href="https://github.com/mxcl/homebrew/issues/5128">not alone</a>. Fortunately <a href="https://github.com/mxcl/homebrew/issues/5128#issuecomment-1070962">jacknagel&#39;s</a> solution fixes the problem.</p>
+<blockquote style="font-family:monospace"><p>
+cd `brew &#8211;prefix`<br />
+git remote add origin <br />
+https://github.com/mxcl/homebrew.git<br />
+git fetch origin<br />
+git reset -<span>-</span>hard origin/master
+</p></blockquote>
+<p>Allegedly there have been changes with git <a href="https://github.com/mxcl/homebrew/issues/5128#issuecomment-1071050">after 1.7.4.4</a>. Presumably the Homebrew folks will update their default installer, but this works in the meantime.</p>
+ 

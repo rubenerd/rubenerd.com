@@ -1,0 +1,30 @@
+---
+layout: post
+title: 'Cisco Discovery Protocol, eventually' 
+date: "2013-06-21T11:46:00+10:00"
+categories: 
+- Hardware 
+tags: 
+- cisco
+- infocomm
+- routers
+- uts 
+---
+<p><a class="transparent" href="http://www.flickr.com/photos/rubenerd/9101234260/" title="GNS3 showing CDP by rubenerd, on Flickr"><img src="https://farm6.staticflickr.com/5337/9101234260_82835ab33c_b.jpg" style="width:500px;" alt="GNS3 showing CDP" /></a></p>
+<p>This evening, I find myself doing some last minute studying for my Routing and Internetworks CCNA exam scheduled to take place at UTS tomorrow. I don’t plan on being a network engineer, but it’s a prerequisite requirement for some interesting visualisation and security subjects. How’s that for an endorsement?</p>
+<p>Of all the topics I’ve covered this evening, there are a few interesting tidbits that I’ve learned, which I’ve decided to pass on here for what they’re worth.</p>
+<h3>Continuous Data Protection</h3>
+<p>In the context of Cisco networking, and from my own personal experience, CDP refers to Continuous Data Protection. Unlike more traditional forms of backup that rely on taking snapshots of data at certain times, CDP systems write multiple copies of data to differing locations as its being changed. While this can potentially introduce latency, the promise is a backup that is continuously made current.</p>
+<p>For a time in the early 2000s, I used a system similar in function to a CDP. I want to say it was a PowerQuest product, but I can’t recall. Never mind, point was each time I made a change to Drive C on my Windows 2000 tower, it made a duplicate copy on another hard drive. Rather than just being client software, it introduced a mass storage driver that made the copy transparently. It was pretty neat.</p>
+<p>Such a system isn’t without its own unique set of challenges. If data is corrupted on the original source, these changes will be reflected in the backup. I experienced this personally, whoops. More sophisticated, &#8220;true&#8221; CDP software can deal with this.</p>
+<p>I’m sorry, I’m being told by my publicist that CDP isn’t CDP. I’ll try this again.</p>
+<h3>Content Delivery Platform</h3>
+<p>In the context of Cisco networking, CDP refers to Content Delivery Platform. Unlike content delivery networks which are used to deliver largely static content around the world, CDPs are PaaS systems that rely on client side technologies such as JavaScript to dynamically load assets into pages.</p>
+<p>My <a href="http://kirinyan.net/" rel="friend met date">publicist</a> is now threatening me with hammerspace. I will attempt to correct this.</p>
+<h3>Cisco Discovery Protocol</h3>
+<p>In the context of Cisco networking, CDP is the <a href="http://www.cisco.com/en/US/tech/tk648/tk362/tk100/tsd_technology_support_sub-protocol_home.html">Cisco Discovery Protocol</a>. Network engineers realised their profession was lacking in acronyms, and settled upon one not used by others in the industry.</p>
+<p>As the name suggests, CDP allows for the discovery of Cicso (and a few select other) devices on a chosen network. CDP frames can include the sending device’s hardware and software platform, hostname, addresses of connected networks and other identifying information, such that a topology of connected devices can be built up. </p>
+<p>Notice I used the term &#8220;frame&#8221;? A unique aspect of the protocol that piqued my interest was its operation on the data link layer of the TCP/IP stack. By not using layer three packets, CDP can exchange information between devices using IP, IPX, NetWare… I’m going to take a stab in the dark and say Token Ring as well. I made a Token Ring network out of old computers out of interest in high school, with a few other nerds and Mr Dunham’s assistance. Is that something you should admit?</p>
+<p>Unfortunately, <a href="http://rubenerd.com/on-the-open-nature-of-ciscos-eigrp/">as with EIGRP</a>, CDP is a Cisco proprietary protocol. The very idea of a network company releasing a proprietary protocol seems so weird and foreign, but there you have it. Curiously, alternatives aren’t covered in the CCNA course material, how odd ;).</p>
+<p>The security conscious side of me was also more than a little disturbed at the prospect of such information being broadcast, though the same CCNA course material claims it can be disabled. An exploit that could remotely turn on this feature against the wishes of a network administrator would be a <span style="text-decoration:line-through;">fun hack</span> problem.</p>
+ 

@@ -1,0 +1,24 @@
+---
+layout: post
+title: 'Wheel group for FreeBSD visudo' 
+date: "2014-09-02T11:39:44+10:00"
+categories: 
+- Software 
+tags: 
+- freebsd
+- guides 
+---
+<p>Despite my pronounced departure from CentOS to Debian for most system tasks, FreeBSD is still my primary server OS of choice. Partly because I’ve loved the OS since at least 2006, partly as a hedge for when that <a href="http://rubenerd.com/tag/systemd/">ridiculous systemd</a> takes down Debian with Jessie.</p>
+<p>No, really, systemd really is that bad.</p>
+<p>But I digress, as I always do. One of the first tasks I perform when setting up a FreeBSD box from scratch is install sudo, and enable access for my separated administration account.</p>
+<p>If you read forum discussions, Stack Exchange answers and blog posts, its likely you’ve been told to use visudo, and add the following line:</p>
+<pre>
+username ALL=(ALL) ALL
+</pre>
+<p>While that works, FreeBSD has had the wheel user for this specific task for as long as I can remember. Much like Debian’s sudo user, just adding yourself to this:</p>
+<pre>
+# pw groupmod wheel -m username
+</pre>
+<p>Then you can run visudo, and uncomment the first %wheel line.</p>
+<p>For finer grain permissions and control, you’ll want to configure for individual users. At least to start though, this is the simplest way to go.</p>
+ 

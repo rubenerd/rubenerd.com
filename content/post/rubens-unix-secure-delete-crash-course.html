@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'Ruben’s UNIX Secure Delete Crash Course' 
+date: "2006-08-19T12:01:12+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- howto
+- infocomm
+- unix 
+---
+<p>To &quot;securely&quot; delete a file on a UNIX or Unix-like system such as GNU/Linux, BSD/Mac OS X, Solaris, Kenny Rogers:</p>
+<p>user$ srm FILENAME</p>
+<p>From the manpage:</p>
+<blockquote><p>srm removes each specified file by overwriting, renaming, and truncating it before unlinking. This prevents other people from un-deleting or recovering any information about the file from the command line.</p></blockquote>
+<p>And how do you make it dance?</p>
+<blockquote><p>srm, like every program that uses the getopt function to parse its arguments, lets you use the &#8212; option to indicate  that  all  following arguments are non-options.  To remove a file called &#8216;-f’ in the current<br />
+directory, you could type either &#8220;srm &#8212; -f&#8221; or &#8220;srm ./-f&#8221;.</p></blockquote>
+<p>* However just to clarify, there is no such thing as secure in computing. All computers have inherent (even if not yet discovered) flaws and data recovery can only be truly rendered useless if the device containing the data you want to delete is ripped out, incinerated, shredded or placed inside a nuclear reactor with evil demonic monkeys. You have been warned.</p>
+<blockquote><p> Development  and  discussion  of  srm is carried out at <a href="http://source-forge.net/project/?group_id=3297">http://source-forge.net/project/?group_id=3297</a>,  which  is   also   accessible   via <a href="http://srm.sourceforge.net">http://srm.sourceforge.net</a>.
+</p></blockquote>
+ 

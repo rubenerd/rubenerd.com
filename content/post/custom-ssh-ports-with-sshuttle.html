@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'Custom SSH ports with sshuttle' 
+date: "2011-04-06T04:48:22+10:00"
+categories: 
+- Internet 
+tags: 
+- infocomm
+- networking
+- postaday2011
+- proxies
+- python
+- ssh
+- sshuttle 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.lock.crop.png" alt="Icon from the Tango Desktop project" style="height:125px; width:118px; padding:2px 0px 1px 0px;" class="transparent" /> <img src="http://files.rubenerd.com/uploads/icon.tango.terminal.png" alt="Icon from the Tango Desktop project" style="height:128px; width:128px;" class="transparent" /> </p>
+<p>I’d tried 0.1 back in the day, but @OliYoung reminded me this morning of <a href="https://github.com/apenwarr/sshuttle">sshuttle</a>, the poor man’s VPN that’s just too much fun!</p>
+<p><!--oldmore--></p>
+<h3>On Soviet Internets, sshuttle proxies you</h3>
+<p>For <span style="text-decoration:line-through">most</span> all of my SSH connections, I use custom ports. Security through obscurity is a dangerous misnomer if only used by itself, but it helps to lower the chances of a roaming bot scanning on port 22 from finding it.</p>
+<p>With a regular SSH connection you define a port with -p, though fancy alliteration is not necessarily required:</p>
+<blockquote style="font-family:monospace;"><p>
+% ssh -p 60000 username@SuperSexySSHServer
+</p></blockquote>
+<p>Sshuttle doesn&#39;t have a -p option, so you merely append the port old school style:</p>
+<blockquote style="font-family:monospace;"><p>
+# sshuttle -r username@SuperSexySSHServer:60000 <br />
+0.0.0.0/0 -vv
+</p></blockquote>
+<p>This then gets converted into a -p option when sshuttle initiates the required SSH connection.</p>
+<blockquote style="font-family:monospace;">
+<p>Starting sshuttle proxy.<br />
+Binding: 12300<br />
+Listening on (&#8216;127.0.0.1&#8242;, 12300).<br />
+firewall manager ready.<br />
+c : connecting to server…<br />
+c : executing: [&#8216;ssh’, &#8216;-p’, &#8216;60000’, &#8216;username@SuperSexySSHServer’, &#8216;&#8211;&#8216;, &#8221;python’ -c &#8216;import sys; skip_imports=1; verbosity=2; exec compile(sys.stdin.read(764), &#8220;assembler.py&#8221;, &#8220;exec&#8221;)&#8221;]</p>
+</blockquote>
+<p>I would know, because I’m using it to write this blog post! Very cool :)</p>
+ 

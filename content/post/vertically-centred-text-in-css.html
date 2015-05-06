@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'Vertically centred text in CSS' 
+date: "2011-07-28T10:41:58+10:00"
+categories: 
+- Internet 
+tags: 
+- css
+- guide
+- infocomm
+- kyary-pamyu-pamyu
+- ponponpon
+- postaday2011
+- web-design 
+---
+<div style="background:#940094;color:#ffffff;width:128px;height:128px;float:right; margin:0 0 10px 10px;text-align:center;border-radius:10px;line-height:128px;">PonPonPon!</div>
+<p>As a guy who knows zippo about web design, I just discovered something incredible. If you want to vertically centre a line of text in a block level element, simply define the line-height equal to the height of the container.</p>
+<pre>#SomeContainer {
+  display:block:
+  height:128px;
+  line-height:128px; /* vertical */
+  text-align:center; /* horizontal */
+  width:128px;
+}
+</pre>
+<p>Assuming you’re not parsing this in a blog aggregator that strips out <abbr style="border-bottom:1px dotted" title="Cascading Style Sheets">CSS</abbr> from <abbr style="border-bottom:1px dotted" title="Really Simple Syndication">RSS</abbr> feeds (how’s that for some <abbr style="border-bottom:1px dotted" title="Three Letter Acronym">TLA</abbr> <abbr title="The Learning Company" style="border-bottom:1px dotted">TLC</abbr>) you should see an example of it on the right.</p>
+ 

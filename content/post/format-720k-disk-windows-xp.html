@@ -1,0 +1,19 @@
+---
+layout: post
+title: 'Format 720K floppy disk in Windows XP' 
+date: "2010-06-28T01:00:39+10:00"
+categories: 
+- Thoughts 
+tags: 
+- floppy-disks
+- guide
+- howto
+- retro
+- windows
+- windows-xp 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.format.720.png" alt="" style="height:223px; width:500px;" /></p>
+<p>Helping my dad today with some old disks, we realised that in XP Microsoft removed the 720K option from the GUI format tool, and the <code>/F:720</code> flag is gone from <code>FORMAT</code> on the command line! Fortunately if you specify the tracks and sectors manually it recognises the 720K disk and formats it.</p>
+<pre>FORMAT A: /T:80 /N:9</pre>
+<p>I don&#39;t have any machines with floppy drives running Vista or 7, but I <strong>assume</strong> this still works in later versions.</p>
+ 

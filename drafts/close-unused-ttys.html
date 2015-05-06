@@ -1,0 +1,10 @@
+---
+title: "Log out of unused ttys"
+---
+<p>Say you have several open ttys on a machine, and you've since SSH'd in remotely and need to "close" them. You can log out of them with deallocvt, such as this for /dev/ttys3:</p>
+
+<pre>
+deallocvt 3
+</pre>
+
+<p>If you have any running processes in these, you'll need to close them first.</p>

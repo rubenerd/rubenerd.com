@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Messing around with YAML and Ruby' 
+date: "2009-12-13T10:35:04+10:00"
+categories: 
+- Software 
+tags: 
+- data
+- infocomm
+- programming
+- ruby
+- thinking-out-loud
+- yaml 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.ruby.160.png" alt="The Ruby Programming Language" style="height:160px; width:140px; display:inline; padding:0em" /></p>
+<p>Having studied Java almost exclusively at uni for a while, I decided while I had a holiday break I&#39;d mess around with some <a href="http://ruby-lang.org/">Ruby</a> goodness. Today was all about messing with YAML for a potential project thingy, to use technical terms.</p>
+<p><!--oldmore--></p>
+<p>To get started, the spiffy (though unfortunately named) dump method lets us see how a simple Ruby hash would look in YAML:</p>
+<pre>#!/opt/local/bin/ruby1.9 -w
+require "yaml"
+tsundere = {
+  'Bakemonogatari' => 'Senjoughara Hitagi',
+  'Clannad' => 'Fujibayashi Kyou'
+}
+puts YAML.dump(tsundere)
+
+==>---
+Clannad: Fujibayashi Kyou
+Bakemonogatari: Senjoughara Hitagi
+</pre>
+<p>Seems simple enough. What if we created a hash of hashes and exported that? Would we get some nesting going on that makes semantic sense?</p>
+<pre>moeness = {
+  'SOSDan' => 'Asahina Mikuru',
+  'K-On!' => 'Akiyama Mio'
+}
+animegirls = {
+  'Tsundere' => tsundere,
+  'moeness' => moeness
+}
+puts YAML.dump(animegirls)
+
+==>---
+Tsundere:
+  Clannad: Fujibayashi Kyou
+  Bakemonogatari: Senjoughara Hitagi
+moeness:
+  K-On!: Akiyama Mio
+  SOSDan: Asahina Mikuru
+</pre>
+<p>Shiny :). I suppose the next step is taking an existing YAML file and import it back. I imagine some nested blocks would be in order, no?</p>
+<p>I&#39;ve written some basic YAML flat file databases for myself before, but not with Ruby in mind. I&#39;ve been told its excellent for object serialisation that&#39;s still human readable, but I&#39;m more interested in being able to read/write preformatted data.</p>
+<p>Where are you __why, we need your awesomeness back.</p>
+ 

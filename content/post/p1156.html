@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'FreeBSD on an Armada M300 rocks' 
+date: "2008-05-10T09:37:18+10:00"
+categories: 
+- Hardware 
+tags: 
+- armada-m300
+- bsd
+- compaq
+- freebsd
+- gnome
+- infocomm
+- macbook-air
+- subnotebook
+- x11 
+---
+<p>If you remember back a few weeks ago I posted that I had <a href="http://rubenerd.com/p1119/">inherited a Compaq Armada M300 subnotebook</a>. It&#39;s no MacBook Air in the design department, but without optical and floppy disk drives, it&#39;s very lightweight and small. It&#39;s also several years old and has very conservative specs (600MHz Mobile PIII from 2002!) though, so it certainly won&#39;t be running Windows Vista any time soon… which is just fine because my favourite OS (for non-Apple hardware of course!) is <a href="http://freebsd.org/">FreeBSD</a>.</p>
+<p><img src="http://files.rubenerd.com/uploads/photo.armada.jpg" alt="My new (at least to me!) Compaq Armada M300 subnotebook" style="height:375px; width:500px" /></p>
+<p>Before I go any further I have to say this right up front: FreeBSD in the mobile space <strong><em>has come a long way</em></strong>. Despite my preference for the BSDs I always told people up until recently that they were better off running a flavour of Linux such as <a href="http://slackware.com/">Slackware</a> or <a href="http://gentoo.org/">Gentoo</a> (my two preferred distributions) if they wanted to run a free OS that was a bit more technical and capable on their laptops.</p>
+<p>Not any more! I popped in a home burned CD of the latest release of FreeBSD (7.0-RELEASE) and booted the installer and was absolutely blown away by the hardware support. Not only did it detect the internal 10/100 ethernet port and the ATI graphics but the PCMCIA wireless card which has always been iffy in past experiences. After installing, booting for the first time, updating the base system, installing <a href="http://www.freshports.org/x11/gnome2-lite/">Gnome2-lite</a> from ports and configuring Xorg I had a slick and completely usable desktop (rearranged to resemble Leopard of course!):</p>
+<p><a href="http://files.rubenerd.com/uploads/screenie.armada.m300.png"><img src="http://files.rubenerd.com/uploads/screenie.armada.m300.thumb.jpg" alt="Gnome on FreeBSD on an Armada M300" style="height:375px; width:500px;" /></a></p>
+<p>What also really blows me away is how <em>responsive</em> all the applications are, especially on a fully fledged DE like Gnome (which itself only takes a few seconds to start) and on such conservative hardware: granted I almost tripled the amount of built in memory from 128MiB to 320MiB and installed a new hard drive with a much larger cache than the previous stock!</p>
+<p>I can really see myself using this instead of my MacBook Pro in settings such as coffee shops or for lectures where I&#39;m only running a local wiki for note taking, editing source code and using email; the marketing for the Asus EeePC and the MacBook Air is starting to sink in it seems! I could have used Xfce, Fluxbox or the like, but I&#39;m so impressed with Gnome&#39;s performance as is, currently I don&#39;t see the need.</p>
+<p>I&#39;m still in the early stages of setting this machine up with its new OS and DE, but I&#39;ll post more information as I find out. On my current to do list: figure out if and how the &quot;soft buttons&quot; above the regular keyboard can be used somehow, getting high resolution console support compiled into the kernel and figuring out how to adjust the screen brightness on the fly. I haven&#39;t tested the built-in modem yet as I haven&#39;t needed it, but potentially getting that set up to send faxes would be useful too.</p>
+ 

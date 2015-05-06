@@ -1,0 +1,61 @@
+---
+layout: post
+title: 'The Adobe Flash of the comments world' 
+date: "2008-08-09T05:07:24+10:00"
+categories: 
+- Internet 
+tags: 
+- comment-systems
+- disqus
+- exploits
+- infocomm
+- javascript
+- security
+- weblog
+- worrying
+- xss 
+---
+<p>Disqus is an external blog commenting system that seems to be all the rage thesedays, so much so that even veteran blogger Dave Winer has <a href="http://www.scripting.com/stories/2008/08/09/disconnectingTheAnnex.html">just started using it</a> on <a href="http://scripting.com/">Scripting News</a>. While the concept seems like a great idea, the implementation leaves a lot to be desired.</p>
+<p>Firstly, instead of relying on accessible web forms for users to submit their comments, Disqus uses a JavaScript hook which dynamically loads comments onto the page. I can&#39;t begin to describe what a bad idea this is, so perhaps some bullet points will help me out!</p>
+<dl>
+<dt style="font-weight:bold">It makes page slower</dt>
+<dd>Because you’re making two database calls, one to your own blogging system and another to the external Disqus servers, the resulting page takes far longer to load than what a regular commenting form would. It’s so bad on some blogs I read that I’ve simply given up posting comments on them.
+</p>
+</dd>
+<dt style="font-weight:bold">It makes pages far less secure</dt>
+<dd>The idea of running JavaScript from a third party on my own site scares the heck out of me, but in this case we’re not talking about a potential attack vector to display photos from a Flickr page or something similar, we’re talking about critical parts of your blog’s infrastructure being loaded by an external server each time a page is loaded. XSS exploits are exploding, as well as any exploit discovered for Disqus with its larger surface area will affect your site. It also means security conscious people like me who use NoScript can’t leave comments.
+</p>
+</dd>
+<dt style="font-weight:bold">It makes pages less accessible</dt>
+<dd>For people who use audible or visual aids to access content, this approach to comments is just as bad as Flash. It also means certain browsers wont be able to render the comment field at all, such as lower powered computers and mobile phones which increasingly have web browsing capabilities. Disqus provides a link to their website for such people, but it’s a lousy compromise when other comment systems can work inline while adhering to web standards and accessibility.
+</p>
+</dd>
+<dt style="font-weight:bold">It’s a legal pickle</dt>
+<dd>To quote Webby’s World in their article on <a href="http://joeanderson.co.uk/blog/2008/07/22/10-reasons-you-shouldnt-use-disqus/">8 reasons you shouldn’t use Disqus</a>: &quot;surely it can’t be good to subject users to another privacy policy with servers in another jurisdiction. Who would be liable for any breaches in data protection?&quot;
+</p>
+</dd>
+<dt style="font-weight:bold">Comments are no longer associated with the page</dt>
+<dd>This makes local and search engine per-site querying impossible because the comments are disconnected from the content they were regarding.
+</p>
+</dd>
+<dt style="font-weight:bold">Comments are no longer in your database</dt>
+<dd>For some people that may be fine, but I prefer having such critical parts of my blog running locally. If in the future a plugin comes along that can do something really fun or interesting with comments left by people, you’re also completely out of luck.
+</p>
+</dd>
+<dt style="font-weight:bold">It locks your comments into a silo</dt>
+<dd>The Disqus team seem like honest people, but their service is closed and proprietary, and as of now there’s no way to reliably and easily export comments out of it, then import them back into your blog if you change or mind. If they start charging for their services or start embedding ads in the future, you’re completely at their mercy.
+</p>
+</dd>
+<dt style="font-weight:bold">It makes pages less predictable</dt>
+<dd>Because it uses JavaScript to fetch data after the page has already appeared to finish loading, you may already have started scrolling to a part on the page before everything changes. This is really, REALLY irritating!
+</p>
+</dd>
+<dt style="font-weight:bold">Ultimately, it’s unnecessary</dt>
+<dd>Twitter integration, threaded comments, better spam blocking, they’re all available with existing plugins that don’t have any of these problems. In fact Dave Winer needs to use Disqus exactly because his Radio software doesn’t include commenting systems or plugins to do these things.</dd>
+</dl>
+<p>This is why, dear readers, for your benefit and mine (our collective sanity as it were!) I will not be putting Disqus on my own blog here. I suspect it&#39;s a fad anyway, and will start disappearing in a few years when the Next Big Thing comes along. Disqus is to comments what Adobe Flash is to web pages, a little extra convenience for the target audience at a grave expense.</p>
+<p>That&#39;s not to say the existence of services like Disqus is a complete disaster. What developers at WordPress, Movable Type and so on should be taking away from this is that some people aren&#39;t happy with existing commenting systems in their blogs, and that they&#39;ll implement self destructive plugins like this to get the features they want! I hope this means we see more innovation in the comments space.</p>
+<blockquote><p><strong>UPDATE, 2009:</strong> Some good news, it seems the tide is beginning to turn on Disqus and other such dynamically loading comment systems. Matt Mullenwag, the head developer of WordPress, has publicly stated they’re a bad idea in a post bluntly titled <a href="http://ma.tt/2009/08/kill-your-community/">6 Ways To Kill Your Community</a>.</p>
+<p>I hope this represents a wider trend (from the looks of it, <a href="http://www.google.com/search?q=disqus%20sucks">it has</a>) and will encourage others to leave the service for alternatives… though as I stated in the original post, for people who have got hooked to the service this might be impossible or extremely difficult.
+</p></blockquote>
+ 

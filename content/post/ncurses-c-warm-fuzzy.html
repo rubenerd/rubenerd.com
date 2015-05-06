@@ -1,0 +1,68 @@
+---
+layout: post
+title: 'Ncurses makes C all warm and fuzzy' 
+date: "2010-03-01T11:37:41+10:00"
+categories: 
+- Software 
+tags: 
+- bad-pun
+- c
+- cc
+- code-geass
+- gnu
+- infocomm
+- ncurses
+- programming 
+---
+<p><img src="http://files.rubenerd.com/uploads/anime.cc.cheesekun.jpg" alt="CC from Code Geass" style="height:270px; width:500px; display:inline;" /></p>
+<p>Get it? <a href="http://rubenerd.com/tag/code-geass/">CC</a> cuddling <a href="http://images.google.com/images?q=cheese-kun">cheese-kun</a>? Warm and fuzzy? <a href="http://en.wikipedia.org/wiki/C_%28programming_language%29">C</a>? Get it? When I first started messing around with <a href="http://www.gnu.org/software/ncurses/">GNU ncurses</a> I was under the impression it was a simple framework to create interactive, windowed console applications…</p>
+<p><!--oldmore--></p>
+<p>In reality it&#39;s a complete, really polished environment that extends C in some really nice ways; so much so that I would argue it would be a misnomer to say you&#39;re simply writing &quot;C&quot; code any more. It&#39;s to C what <a href="http://cream.sourceforge.net/">Cream</a> is to <a href="http://www.vim.org/">Vim</a>. It&#39;s CC with Cheese Kun. I could go on.</p>
+<p><!--oldmore--></p>
+<h3>Header files</h3>
+<p>The first sign you get that ncurses is something special is that importing it&#39;s single header file gives you all these below header files automatically.</p>
+<pre>
+#include &lt;ncurses.h&gt;
+
+#include &lt;stdio.h&gt;
+#include &lt;stdarg.h&gt;
+#include &lt;stddef.h&gt;
+#include &lt;unctrl.h&gt;
+</pre>
+<p>In fact you&#39;re actively encoraged <strong>not</strong> to import any of these usual suspects because you&#39;d needlessly inflate your compiled applications. I assume it&#39;s doing some clever tricks to only use what&#39;s nessisary. It also adds a bunch of it&#39;s own functions that provide similar functionality, more on that below.</p>
+<h3>Booleans</h3>
+<p>Most people start with C and move on to C++, I went the other way… you can probably see where this is going! When you import <ncurses.h> you get a boolean data type for C for free. Paroozing the header file it seems to cleverly make sure it doesn&#39;t conflict with the C++ bool if that&#39;s the language you&#39;re using, pretty cool.</p>
+<pre>
+#undef TRUE
+#define TRUE    1
+
+#undef FALSE
+#define FALSE   0
+
+typedef unsigned char NCURSES_BOOL;
+
+#if defined(__cplusplus) /* __cplusplus, etc. */
+
+/* use the C++ compiler's bool type */
+#define NCURSES_BOOL bool
+
+#else /* c89, c99, etc. */
+[…]
+</pre>
+<h3>Alternatives to standard in/output</h3>
+<p>This is what I mean by ncurses almost being like an entire environment for C, it makes so much stuff easier and more fun. As well as supporting the basic C output functions such as printf(), ncurses comes with a bunch of extras that make sense when dealing with GUI-like interfaces in a terminal.</p>
+<pre>
+addch();  /* add character to the &quot;window&quot; */
+addstr(); /* add string of characters */
+printw(); /* equivilent to C's printf() */
+</pre>
+<p>What&#39;s also really cool though are the functions for reading in data from the keyboard which is much nicer than vanilla C:</p>
+<pre>
+getch()   /* get character */
+getstr()  /* get string of characters */
+getnstr() /* same as above, but measured */
+scanw()   /* equivilent to scanf(); */
+</pre>
+<h3>Why?</h3>
+<p>I&#39;m surprised by the number of people asking me why, in 2010, I&#39;m interested in writing console applications, because we all know console applications are passe and unsexy. I&#39;m hoping in the coming weeks when I start writing code for a few projects (and am hopefully allowed to publish some of it) you&#39;ll see why. There&#39;s still a ton of life in this environment and I&#39;m really excited to see what I can accomplish in it.</p>
+ 

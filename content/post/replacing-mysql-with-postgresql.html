@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Replacing MySQL with PostgreSQL in php-fpm' 
+date: "2014-06-10T03:57:59+10:00"
+categories: 
+- Software 
+tags: 
+- databases
+- guides
+- linux
+- mariadb
+- mysql
+- php
+- postgresql 
+---
+<p>On autopilot, I generated a web server stack with nginx, PHP and MySQL. The company uses Postgres everywhere though, so I took that as a long, overdue excuse to use it myself.</p>
+<pre>
+# apt-get remove mysql-server mysql-client  
+# apt-get install postgresql postgresql-client php5-pgsql
+</pre>
+<p>Then the requisite PHP packages:</p>
+<pre>
+# apt-get install php5-pgsql  
+# apt-get remove 
+</pre>
+<p>The classic &lt;?php phpinfo() ?&gt; will still show MySQL capabilities though, so we need to remove the MySQL conf files from php-fpm:</p>
+<pre>
+$ ls /etc/php5/mods-available  
+==&gt; apc.ini  intl.ini  mysqli.ini  mysql.ini  pdo.ini  
+==&gt; pdo_pgsql.ini  pgsql.ini  
+# rm mysql*ini
+</pre>
+ 

@@ -1,0 +1,46 @@
+---
+layout: post
+title: 'Running XAMPP on Fedora x86_64' 
+date: "2012-10-06T01:16:31+10:00"
+categories: 
+- Software 
+tags: 
+- apache
+- errors
+- fedora
+- guide
+- infocomm
+- lamp
+- linux
+- mysql
+- php
+- xampp 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.xampp.png" alt="" style="width:500px; height:285px;" /></p>
+<blockquote><p>XAMPP is currently only availably as 32 bit application. Please use a 32 bit compatibility library for your system.</p></blockquote>
+<p>Aaaaaaaah!</p>
+<p><!--oldmore--></p>
+<h3>The problem</h3>
+<p>We&#39;ve all seen that famously misspelled error message when attempting to install XAMPP on our 64 bit desktop Linux machines. I wonder how many people using XAMPP are still on 32 bit? I suppose enough to justify keeping it 32 bit. Speaking of which, this Kingston biscuit is falling to bits. Munch munch.</p>
+<p>Here&#39;s the install scenario that will result in that error.</p>
+<pre>
+# tar xzvf xampp-linux-[version].tar.gz -O /opt
+# cd /opt
+# ./lampp start
+</pre>
+<h3>Chemists have solutions</h3>
+<p>Other guides I&#39;ve come across ask you to install a slew of things, and changing the launch script. For me on Fedora 17 x86_64, I was able to run it just by installing this:</p>
+<pre># yum install glibc.i686</pre>
+<p>This also pulls in <code>nss-softokn-freebl.i686</code>.</p>
+<p>Now you can run XAMPP without modification:</p>
+<pre>
+# tar -C /opt
+sudo ./lampp start
+XAMPP: SELinux is activated. Making XAMPP fit SELinux…
+Starting XAMPP for Linux 1.8.1…
+XAMPP: Starting Apache with SSL (and PHP5)…
+XAMPP: Starting MySQL…
+XAMPP: Starting ProFTPD…
+XAMPP for Linux started.
+</pre>
+ 

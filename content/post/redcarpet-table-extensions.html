@@ -1,0 +1,49 @@
+---
+layout: post
+title: 'Redcarpet table extensions' 
+date: "2013-01-10T12:19:58+10:00"
+categories: 
+- Software 
+tags: 
+- guides
+- html
+- jekyll
+- markdown
+- redcarpet 
+---
+<p>Here’s something cool I didn’t realise. With the table extension in the redcarpet markdown parser, you can write tables thusly:</p>
+<pre>
+| Header1 | Header2 | Header3 |
+|---------|---------|---------|
+| Cell1   | Cell2   | Cell3   |
+| Cell34  | Cell5   | Cell6   |
+</pre>
+<p>When interpreted, the table is translated into the one below, complete with proper &lt;th&gt;, &lt;thead&gt; and &lt;tbody&gt; tags. I’ve noticed even people hardcoding HTML don’t usually bother doing this!</p>
+<table>
+<thead>
+<tr>
+<th>Header1</th>
+<th>Header2</th>
+<th>Header3</th>
+</tr>
+<tbody>
+<tr>
+<td>Cell1</td>
+<td>Cell2</td>
+<td>Cell3</td>
+</tr>
+<tr>
+<td>Cell4</td>
+<td>Cell5</td>
+<td>Cell6</td>
+</tr>
+</tbody>
+</table>
+<p>You can enable it in your Jekyll config script as below, making sure NOT to use tabs!</p>
+<pre>
+markdown: redcarpet
+redcarpet:
+    extensions: ['tables']
+</pre>
+<p>It’s a nice idea, and certainly great for quick mockups. Given Markdown doesn’t let you define inline styles though (important for web feeds), I’ll probably stick to generating them manually.</p>
+ 

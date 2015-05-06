@@ -1,0 +1,23 @@
+---
+layout: post
+title: 'nano 2.2.2 having issues with UTF-8' 
+date: "2010-02-09T07:28:48+10:00"
+categories: 
+- Thoughts 
+tags: 
+- editors
+- errors
+- mac-os-x
+- nano
+- problems
+- snow-leopard 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.editor.92.png" alt="Icon from the Tango Desktop Project" style="height:92px; width:92px; display:inline; background:transparent; padding:0em;" /></p>
+<p>Running the <code>./configure</code> script from the latest <a href="http://www.nano-editor.org/">nano</a> tarball on a virgin Snow Leopard machine (my dad&#39;s) I keep running into a problem with UTF-8 support.</p>
+<blockquote style="font-family:monospace"><p>Using ncurses as the curses library<br />
+checking for use_default_colors in -lncurses… yes<br />
+configure: error:</p>
+<p>UTF-8 support was requested, but insufficient UTF-8 support was detected in your curses and/or C libraries.  Please verify that your slang was built with UTF-8 support or your curses was built with wide character support, and that your C library was built with wide character support.</p></blockquote>
+<p>I&#39;ve built the latest ncurses and slang libraries from MacPorts and have confirmed they were built with UTF-8 support. Only thing I can think of is it&#39;s using the outdated ncurses from the system instead of MacPorts, but other ports such as Midnight Commander are using it. Will keep digging.</p>
+<p>For what it&#39;s worth, it builds just fine without UTF-8, but it&#39;s a feature I&#39;d rather have.</p>
+ 

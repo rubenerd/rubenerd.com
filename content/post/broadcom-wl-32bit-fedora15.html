@@ -1,0 +1,33 @@
+---
+layout: post
+title: 'Failing broadcom-wl on 32 bit Fedora 15?' 
+date: "2011-06-24T01:03:49+10:00"
+categories: 
+- Hardware 
+tags: 
+- broadcom-wl
+- drivers
+- fedora
+- guide
+- infocomm
+- kmod-wl
+- linux
+- postaday2011
+- troubleshooting
+- wifi 
+---
+<p><img src="http://files.rubenerd.com/uploads/logo.broadcom.png" alt="Broadcom" style="width:120px; height:59px;" class="transparent" /></p>
+<p>If you&#39;ve attempted to get your <a title="RPM resource broadcom-wl" href="http://rpmfind.net/linux/rpm2html/search.php?query=broadcom-wl">broadcom-wl</a> device working on 32bit Fedora 15 and NetworkManager subsequently hides wireless connections completely, you may be running a PAE kernel. In which case, you need something else :)</p>
+<p><!--oldmore--></p>
+<h3>Whoops</h3>
+<p>First, check your uname to confirm you&#39;re running a PAE kernel. If PAE doesn&#39;t appear in the string, you aren&#39;t. If it does, you are. Cheese Steak Jimmys.</p>
+<pre>% uname -a</pre>
+<p>I&#39;m not a full time Fedora user so I can&#39;t confirm whether all 32 bit builds of Fedora 15 (or previous) had physical address extensions, but installing it on an older Athlon machine this afternoon with less than 4GB of memory still installed a PAE kernel. Interesting.</p>
+<h3>Installing</h3>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.wireless.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px;" class="transparent" /></p>
+<p>Make sure you&#39;ve enabled the rpmfusion free and non-free repositories <a href="http://rpmfusion.org/Configuration/">as per their FAQ</a>. If you&#39;ve installed kmod-wl already, remove it first:</p>
+<pre>% su -# yum remove kmod-wl</pre>
+<p>Then install the PAE enabled version.</p>
+<pre># yum install kmod-wl-PAE</pre>
+<p>This will pull across the broadcom-wl dependency. Restart, and you should have working wireless, assuming you have a BCM(4311, 4312, 4321 or 4322) based wireless card and that broadcom-wl is what you need.</p>
+ 

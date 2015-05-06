@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'addons.mozilla.org compromised, with anecdotes' 
+date: "2010-12-29T04:26:35+10:00"
+categories: 
+- Internet 
+tags: 
+- infocomm
+- mozilla
+- passwords
+- privacy
+- security 
+---
+<p><img class="transparent" src="http://files.rubenerd.com/uploads/logo.mozilla.png" alt="" style="height:218px; width:328px;" /></p>
+<p>And here be the reason why I use my disposable Gmail instead of my regular mail account to register for websites! </p>
+<p><!--oldmore--></p>
+<p>I, along with a ton of other people, got sent this email a couple of days ago.</p>
+<blockquote><p>Dear addons.mozilla.org user,</p>
+<p>The purpose of this email is to notify you about a possible disclosure of your information which occurred on December 17th. On this date, we were informed by a 3rd party who discovered a file with individual user records on a public portion of one of our servers.</p></blockquote>
+<p>OUCH!</p>
+<blockquote><p>We immediately took the file off the server and investigated all downloads. We have identified all the downloads and with the exception of the 3rd party, who reported this issue, the file has been download by only Mozilla staff.  This file was placed on this server by mistake and was a partial representation of the users database from addons.mozilla.org. The file included email addresses, first and last names, and an md5 hash representation of your password.</p></blockquote>
+<p>Scary stuff. I&#39;d be interested to know who comprises &quot;Mozilla staff&quot; in this case, and for how long it was public.</p>
+<blockquote><p>The reason we are disclosing this event is because we have removed your existing password from the addons site and are asking you to reset it by going back to the addons site and clicking forgot password. We are also asking you to change your password on other sites in which you use the same password. Since we have effectively erased your password, you don’t need to do anything if you do not want to use your account. It is disabled until you perform the password recovery.</p></blockquote>
+<p>Done and done. Yikes.</p>
+<blockquote><p>We have identified the process which allowed this file to be posted publicly and have taken steps to prevent this in the future. We are also evaluating other processes to ensure your information is safe and secure.</p>
+<p>We apologize for any inconvenience this has caused.</p>
+<p>Chris Lyon<br />
+Director of Infrastructure Security</p></blockquote>
+<p>To their credit, at least they disclosed this issue to their users instead of sweeping it under the rug. I hope lessons have been learned, and this doesn&#39;t happen again.</p>
+<h3>Amusing anecdotes</h3>
+<p>This whole thing reminds me of a time I was doing a week&#39;s work for a relatively large IT firm that will remain anonymous, and their ticket system were validating users with <strong><em>plain text versions of their passwords</em></strong>. My first thought was <em>&quot;didn&#39;t people stop doing this in the 80s?&quot;</em> and secondly, that I was glad I didn&#39;t have an account with them.</p>
+<p>Then there are time times I&#39;ve forgotten my passwords for sites, but instead of sending me an email with a reset token or the like, they send me my password, indicating they have it stored in a database. Last time that happened it was something trivial like a creaky old forum, but suffice to say I left there quicker than that strip club I was tricked into going to for my 19th birthday by my room mates at the time. Hey shaddup, I was scared.</p>
+<p>You don&#39;t need a degree in cryptography to know you <strong><em>never</em></strong> store people&#39;s passwords! Kudos to Mozilla for not doing this too ;).</p>
+ 

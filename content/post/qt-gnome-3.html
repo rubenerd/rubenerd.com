@@ -1,0 +1,53 @@
+---
+layout: post
+title: 'Make Qt applications match Gnome 3' 
+date: "2012-04-20T03:26:41+10:00"
+categories: 
+- Software 
+tags: 
+- fedora
+- freebsd
+- gnome
+- gnome-3
+- guide
+- infocomm
+- linux
+- p12
+- qt 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.qt4config.vbox.png" alt="" style="width:500px; height:200px;" /></p>
+<p>Qt applications look acceptable in Gnome 3, but with the Qt4 Configure utility you can change the colours and fonts to match their GTK+ brethren.</p>
+<p><!--oldmore--></p>
+<h3>Installing Qt4 Configure</h3>
+<p>This is a potential gotcha; depending on your distribution you may have to specify qt4, or not. For example, in Fedora:</p>
+<pre># yum install qt-config</pre>
+<p>And FreeBSD:</p>
+<pre>
+# cd /usr/ports/misc/qt4-config
+# make install clean
+</pre>
+<p>Once you&#39;ve installed it, a beautifully large Qt4 Configure icon should appear in the &quot;Other&quot; category of your Gnome 3 Shell. Given many of my GTK+ applications still have crappy icons, having the Qt4 Configure app fit in so well was a pleasant surprise!</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qt4config.icon.png" alt="" style="width:500px; height:240px;" /></p>
+<h3>Colours</h3>
+<p>The default GTK+ theme for Qt looks passable, but Gnome 3 uses a whiter shade of pale. This is most noticeable between the title and menu bar in Qt applications.</p>
+<p>You can correct this by clicking &quot;Button Background&quot; and &quot;Window Background&quot; under &quot;Build Palette&quot;, and slotting in the following values:</p>
+<ul>
+<li>Red: 239</li>
+<li>Green: 235</li>
+<li>Blue: 231</li>
+</ul>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qt4config.appearance.png" alt="" style="width:500px; height:190px;" /></p>
+<p>To get the right shade of blue for selected menu items, click &quot;Tune Palette…&quot; under &quot;Build Palette&quot;, then choose &quot;Highlight&quot; under &quot;Central color roles&quot;. Slot in the following values:</p>
+<ul>
+<li>Red: 74</li>
+<li>Green: 144</li>
+<li>Blue: 217</li>
+</ul>
+<p>I derived these colours from using the GColor2 utility, so they may be approximations. I can&#39;t tell the difference!</p>
+<h3>Fonts</h3>
+<p>For better or worse, Gnome 3 uses Cantarell for its default font. To get Qt applications to match, set the font to &quot;Cantarell&quot; on the &quot;Family&quot; dropdown box under the &quot;Fonts&quot; tab.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.qt4config.fonts.png" alt="" style="width:500px; height:200px;" /></p>
+<h3>Update</h3>
+<p>Curiously, I had to go through this rigmarole on my Fedora 16 x86_64 tower, but on my MacBook Pro running Fedora 16 i686, Qt had the right colours set for Gnome 3 by default. </p>
+<p>I&#39;ve since discovered it has to do with installation order. If you install Qt4 Configure <strong>before</strong> any Qt applications such as VirtualBox, Amarok or Opera, the Gnome 3 colours will be included by default. Interesting!</p>
+ 

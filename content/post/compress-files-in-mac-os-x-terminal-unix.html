@@ -1,0 +1,32 @@
+---
+layout: post
+title: 'Compress Files in Mac OS X Terminal, UNIX' 
+date: "2006-08-01T08:50:34+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- howto
+- infocomm
+- unix 
+---
+<p><img src="http://files.rubenerd.com/uploads/media.picture4-87311-121-8.gif" alt="" /></p>
+<blockquote><p>This post has been superseded by an updated one I wrote in 2010:<br />
+<a style="font-weight:bold;" href="http://rubenerd.com/unix-file-compression-basics/">Unix file compression basics</a></p></blockquote>
+<h3>Original Post</h3>
+<p>Quick way to compress files using the command line in Mac OS X (and most *nix).</p>
+<ol>
+<li>Open Terminal, <code>cd</code> to the required directory</li>
+<li>For multiple files, use <code>tar -cf [destination name].tar [source file(s)]</code></li>
+<li>Then Gzip the sucker! <code> gzip [source file]</code>.
+</li>
+<li>Optionally, for maximum compatibility, use uuencoding on the Gzip file:<br />
+<code>uuencode [source file] [source file] > [destination name].uu. Yes, type the file name twice.</code></li>
+</ol>
+<p>Also, for a quick way to zip hundreds of files individually, just <code>cd</code> to the directory, then just <code>gzip *</code>.</p>
+<p>Footer Notes:</p>
+<ul>
+<li>UNIX is awesome :D. And yes I know Mac OS X isn&#39;t UNIX, let me have my fun.</li>
+<li>This is one of the reasons I can never go back to Windows.</li>
+</ul>
+ 

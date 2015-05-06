@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Playing with iSCSI, ESXi with @ShengYeo' 
+date: "2013-08-14T08:12:21+10:00"
+categories: 
+- Software 
+tags: 
+- centos
+- iscsi
+- openfiler
+- vm
+- vmware
+- vmware-fusion
+- vsphere 
+---
+<p><img src="http://files.rubenerd.com/2013/screenie.iscsi.esxi.jpg" alt="CentOS running on ESXi with iSCSI from Openfiler through vSphere on Windows XP in VMware Fusion on my Mac" style="width:500px;" /></p>
+<p>Once again, my cloud infrastructure class was fortunate enough to have <a href="https://mobile.twitter.com/ShengYeo">@ShengYeo</a> of <a href="http://orionvm.com/">OrionVM</a> show us the ropes. <a href="http://rubenerd.com/an-esxi-iaas-evening-with-shengyeo/">Last week we got an ESXi instance running</a>, and a CentOS VM provisioned via a vSphere client on a Windows XP VM. This week, we dealt with iSCSI:</p>
+<ol>
+<li>VMware ESXi, Windows XP, Openfiler running in a VMware Fusion VM</li>
+<li>Logging into Openfiler management console in Firefox on Windows XP</li>
+<li>Creating a new LVM iSCSI volume in Openfiler</li>
+<li>Detecting the iSCSI volume in VMware vSphere on Windows XP</li>
+<li>Creating new CentOS VM on the ESXi VM through vSphere with Openfiler iSCSI</li>
+</ol>
+<p>I’ve dealt with iSCSI tinkering around with machines at home, but not through such infrastructure before. It was quite the learning experience.</p>
+<p>One of Sheng’s talking points throughout the evening was &#8220;at first its complicated, but when you understand it, its really quite simple&#8221;. I think the same could be said of any IT endeavour, not least virtualisation. Storage virtualisation continues to be one of my primary areas of interest, so I’ll be researching it further.</p>
+<p>Thanks to Sheng for his slides, the labs, and his patient and comprehensive answers to my questions! It was much appreciated. ^_^</p>
+ 

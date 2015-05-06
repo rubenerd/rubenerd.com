@@ -1,0 +1,131 @@
+---
+layout: post
+title: 'Thinking of @CaseyLiss when learning C#' 
+date: "2014-06-15T10:57:09+10:00"
+categories: 
+- Software 
+tags: 
+- c-sharp
+- development
+- java
+- microsoft
+- nostalgia
+- programming
+- visual-studio 
+---
+<p>With potentially my last C# project at university wrapping up, I thought I&#39;d share some &quot;outsider&quot; experiences with the language before bidding it farewell.</p>
+<h3>Skip this nostalgia crap</h3>
+<p>My first experience with C# was in high school. At my weird <a href="http://www.ais.com.sg/">Australian International School</a> in Singapore, a bunch of us did accelerated <a href="http://www.boardofstudies.nsw.edu.au/syllabus_hsc/software-design-development.html">Software Design and Development</a>. Unfortunately, the course should have been called <em>Software Algorithms</em>, as there was no officially mandated <em>development</em> in the silly-bus. VB had been used to demo ideas, which I translated to VB.NET at home, then made the leap to C#. It seemed oddly familiar, almost like VB.NET expressed with C syntax. I was about to learn there was far more to it!</p>
+<p>My dad bought me <a href="http://charlespetzold.com/pwcs/index.html" title="Programming Microsoft Windows with C#, by Charles Petziod">The Petzoid Book</a> at the time. I&#39;ve since learned it&#39;s the Perl Camel or Ruby Pickaxe of the C# world. Even as a Mac and *nix guy now, I do like how the book flows, and many pages have been folded and spilled with coffee. Good times.</p>
+<p>But I digress. Sitting at <a href="http://uts.edu.au/%20University%20of%20Technology,%20Sydney">UTS</a> this year, I couldn&#39;t help but smile as all this nostalgia washed over me. In some ways C# has changed markedly since I moved off Windows in the 2000s, but in other ways it was its old familiar self. In fact, it was almost&#8230; too familiar; doing Java and C# in the same semester was a recipe for confusion and misplaced syntax.</p>
+<h3>Data types</h3>
+<p>In Java and C#, Strings are reference data types. In C#, lowercase &quot;string&quot; is a keyword alias, so we can use both interchangeably.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">string Greeting = &quot;Nyanpasu~&quot;;
+String strcopy = &quot;Look ma, no pointers!&quot;;
+</code></pre>
+</div>
+<p>Simpler data types such as int are actually <code>structs</code>. Remember those from C? More on those shortly.</p>
+<h3>Auto-implemented properties</h3>
+<p>An interesting, <a href="http://www.rubyist.net/%7Eslagell/ruby/accessors.html" title="Ruby User&#39;s Guide: Accessors">almost Ruby-esque feature</a> is auto-implemented properties. There&#39;s insufficient for complex classes, but if you&#39;re mostly encapsulating simple properties, you can avoid all that nasty Java getter/setter boilerplate. For example:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">class Character {
+    private string name;
+
+    public string Name {
+       get { return name; }
+       set { name = value; }
+    }
+}
+</code></pre>
+</div>
+<p>That I had seen. <a href="http://www.youtube.com/watch?v=R7UrFYvl5TE">Since I was gone</a>, C# further simplified it:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">class Character {
+    private string name { get; set; }
+
+    public Character(string name) {
+        this.name = name;
+    }
+
+    static void main(string[] args) {
+        Character ryuuji = new Character(&quot;Ryuuji&quot;);
+        Console.WriteLine(&quot;Hello, {0}!&quot;, ryuuji.name);
+    }
+}
+</code></pre>
+</div>
+<h3>Brackets and evil</h3>
+<p>I like K+R C brackets, but Visual Studio defaults to newlines, and most documentation uses them. To each their own, but I feel they just add tedious scrolling. Though we can all agree they&#39;re far nicer than the <a href="https://www.gnu.org/prep/standards/html_node/Formatting.html">hideous GNU recommendations</a>.</p>
+<p>C# also allows eschewing (gesundheit) brackets for single line conditional statements and loops. If you think that&#39;s bad enough, they also allow GOTO lines.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">if (true)
+    goto hammerspace;
+</code></pre>
+</div>
+<p><a href="http://myanimelist.net/character/28926/Serizawa_Fumino" title="The protagonist from Mayoi Neko Overrun and her catchphrase!">Die twice, already!</a></p>
+<p><img src="http://files.rubenerd.com/2014/fuminomad.gif" alt="" style="width:250px; height:138px;" /></p>
+<h3>enums</h3>
+<p>Compared to Java 5+, enums in C# are limited to just representing named constants. This reduces overhead, but you&#39;ll need to break out a new class for anything more.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">private enum Scale {
+    Tsundere,
+    Yandere,
+    Kuudere
+};
+
+static void main(string[] args) {
+    Scale tiger = Scale.Tsundere;
+    if (tiger == Scale.Tsundere) {
+        Console.WriteLine(&quot;It&#39;s not like I wanted to be an example...&quot;);
+    }
+}
+</code></pre>
+</div>
+<h3>structs</h3>
+<p>One of the first questions I had when learning Java regarded all the syntax errors my structs were generating. In C#, they&#39;re still a part of the language, and are encouraged over fully blown classes for simple data structures due to their lower overhead. The primary practical difference (I can see) is they don&#39;t support inheritance.</p>
+<h3>const and readonly</h3>
+<p>By now I was starting to realise C# was a little more like C than Java, at least in some ways. My <code>const</code>-antly appearing friend is here, and she brought an initialise-at-runtime companion in the form of <code>readonly</code>:</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">public const OVER = 9000;
+private readonly bool nice;
+
+public Character(bool isNice) {
+    nice = isNice; // daijoubu~
+    OVER = 2000;   // oh no, you didn&#39;t
+}
+</code></pre>
+</div>
+<h3>out and ref</h3>
+<p>I have mixed feelings about these. Broadly speaking, they allow you to pass value types by reference. With <code>out</code>, you must pass it an uninitialized variable, which must then be given a value within the function.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">void Process(ref int x, out int y) {
+    x = 10;
+    y = 20;
+}
+
+static void main(string[] args) {
+    int x = 1;
+    int y;
+    Characters.Process(ref x, out y)
+    Console.WriteLine(&quot;x is {0}, y is {1}&quot;, x, y);
+}
+
+==&gt; x is 10, y is 20
+</code></pre>
+</div>
+<h3>Namespaces</h3>
+<p>In most languages I&#39;ve encountered, we declare the namespace for a class in the source head. In C#, namespaces contain the class within brackets. I can see the pros and cons for both approaches.</p>
+<div class="highlight">
+<pre><code class="language-text" data-lang="text">namespace Animu {
+    class Characters {
+        // put methods and attributes here, desu
+    }
+}
+</code></pre>
+</div>
+<h3>Conclusions</h3>
+<p>So, that&#39;s the end of part one. I have another post queued up with a comparison of Java and C# generics, anonymous and delegate functions, some other random pieces like coalesced nulls, sealed classes, and a brief look at reflections and Linc. No wait, Linq. Clearly I need to <a href="https://www.udemy.com/blog/linq-select/">select</a> my words more carefully. GET IT!?!? AAAAA&#8230; nevermind.</p>
+<p>I don&#39;t see myself ever writing C# professionally, though I&#39;ve found the trip fascinating and can see why the <a href="http://www.caseyliss.com/">Casey Lisses</a> (Casey Lissii?) of the world like the language. At the risk of alienating some of my readers here, I would prefer it to Java. Should I be cowering in a bunker somewhere now?</p>
+<p>That said, I aspire to have more Swift and Ruby in my immediate future. And <code>$perl</code>, because it was my first love. Shaddup.</p>
+ 

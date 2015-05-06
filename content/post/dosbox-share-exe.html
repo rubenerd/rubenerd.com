@@ -1,0 +1,38 @@
+---
+layout: post
+title: 'DOSBox doesn’t support SHARE.EXE' 
+date: "2011-04-16T06:24:32+10:00"
+categories: 
+- Software 
+tags: 
+- abandonware
+- dos
+- dosbox
+- errors
+- infocomm 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.dosbox.share.png" alt="You must exit Windows and load SHARE.EXE in order to run Microsoft Excel." style="height:190px; width:500px;" /></p>
+<p>I may have finally pushed the limits of <a href="http://www.dosbox.com/">DOSBox’s</a> capabilities! For what its worth, it performed admirably up until this point :).</p>
+<p><!--oldmore--></p>
+<p>Upon installing Microsoft Office 4.3 in Windows 3.11 to allow my old man access to some old files he’d created from the mid 1990s, Word and Excel both return a <code>SHARE.EXE</code> error.</p>
+<p>The virtual <code>Z:</code> drive contains no such utility, but I was able to copy SHARE.EXE from my PC DOS 2000 qemu machine into DOSBox’s mounted directory. Problem is, it didn’t like its new environment:</p>
+<blockquote style="font-family:monospace;">
+<p>C:>C:DOSSHARE.EXE<br />
+Incorrect DOS version.</p>
+</blockquote>
+<p>I did some quick research and ascertained the reported version can be altered by using the <code>VER</code> command, in a similar way to <code>SETVER</code> in retro DOS.</p>
+<blockquote style="font-family:monospace;">
+<p>C:>VER<br />
+DOSBOX version 0.74. Reported DOS version 5.00<br />
+C:>VER SET 7.0<br />
+C:>VER<br />
+DOSBox version 0.74. Reported DOS version 7.00</p>
+</blockquote>
+<p>Then I was able to launch <code>SHARE.EXE</code>:</p>
+<blockquote style="font-family:monospace;">
+<p>C:>C:DOSSHARE.EXE<br />
+SHARE installed</p>
+</blockquote>
+<p>After loading this in DOS, then firing up Windows 3.11 however, it made no difference. Both Excel and Word from Office 4.3 returned the same errors. According to the DOSBox devs, this higher end DOS functionality is not currently supported.</p>
+<p>Oh well, I suppose it’d be easier to just use one qemu VM than using it and relegating DOSBox to some tasks. Better install <a href="http://rubenerd.com/homebrew-mac-os-x/">Homebrew</a> on my dad’s Mac ;)</p>
+ 

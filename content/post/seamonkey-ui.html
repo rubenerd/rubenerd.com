@@ -1,0 +1,72 @@
+---
+layout: post
+title: 'Tweaking the SeaMonkey UI' 
+date: "2012-01-07T11:34:31+10:00"
+categories: 
+- Software 
+tags: 
+- guide
+- infocomm
+- mozilla
+- p12
+- seamonkey
+- userchrome-css 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.seamonkey.png" alt="" style="height:128px; width:128px;" class="transparent" /></p>
+<p>I&#39;ve had a surprising number of emails and tweets from people asking about my move to SeaMonkey, so I&#39;ve decided to write a few posts about how I tweaked it to work for me. This is the first, on messing around with the interface :).</p>
+<p><!--oldmore--></p>
+<h3>Simplifying the interface</h3>
+<p>Despite its modern core based on Firefox, SeaMonkey&#39;s user interface is still derived largely from Netscape Communicator. It can be easily tweaked to resemble contemporary browsers such as Firefox and Chrome though if you prefer.</p>
+<ol>
+<li>Right click the Navigation toolbar and choose <em>Customise…</em></li>
+<li>Click <em>Use Small Icons</em></li>
+<li>Choose <em>Icons</em> from the <em>Show</em> listbox.</li>
+<li>Drag the <em>Search button</em> off the toolbar</li>
+<li>Drag on the <em>Search box</em></li>
+<li>Boom!</li>
+</ol>
+<p>If you&#39;re a Chrome user, you can skip step 5 and use SeaMonkey&#39;s shortcuts for search! You can either type &quot;g [terms]&quot; into the navigation box for a Google search, or enter any terms and choose the &quot;Search Google for [terms]&quot; that appears.</p>
+<p><img src="http://files.rubenerd.com/uploads/screenie.seamonkey.simple.png" alt="" style="height:145px; width:500px;" /></p>
+<h3>Modern theme</h3>
+<p>Aside from having retro appeal that you&#39;d be a fool to not take advantage of, I think <em>SeaMonkey Modern</em> it still has real class, particularly in the mail application.</p>
+<ol>
+<li>Go to the <em>View</em> menu</li>
+<li>Choose <em>SeaMonkey Modern</em> under <em>Apply Theme</em></li>
+<li>Restart, boom!</li>
+</ol>
+<p><img src="http://files.rubenerd.com/uploads/screenie.seamonkey.mail.modern.png" alt="" style="height:145px; width:500px;" /></p>
+<h3>Using userChrome.css</h3>
+<p>Many of the userChrome.css tricks I <a title="Thursday 29th July 2010: Make Firefox look spiffier with userChrome.css" href="http://rubenerd.com/firefox-userchromecss/">blogged about for Firefox</a> back in 2010</a> work with SeaMonkey too. If you haven&#39;t made a userChrome.css file yet and really want to customise SeaMonkey to an extreme:</p>
+<ol>
+<li>Open your SeaMonkey profile folder</li>
+<li>Create a folder called <em>chrome</em> (ironically enough!)</a></li>
+<li>Create a file within <em>chrome</em> called <em>userChrome.css</em></li>
+</ol>
+<p>Below is my file. I err on the side of minimalism, so you may want to adjust to your own tastes!</p>
+<blockquote>
+<p><code><span style="font-weight:bold">/* RENDER PRIMARY FONT MORE COMPACT */</span><br />
+* {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;font-size: 10px !important;<br />
+}</code></p>
+<p><code><span style="font-weight:bold">/* MONOSPACE FONT FOR LOCATION BOX */</span><br />
+#urlbar {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;font-family: monospace !important;<br />
+}</code></p>
+<p><code><span style="font-weight:bold">/* MERGE STOP AND RELOAD BUTTONS<br />&nbsp;&nbsp;&nbsp;STOP MUST BE PLACED BEFORE RELOAD TO WORK */</span><br />
+#stop-button[disabled="true"],<br />
+#stop-button:not([disabled]) + #reload-button {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;display:none !important;<br />
+}</code></p>
+<p><code><span style="font-weight:bold">/* HIDE SUPERFLUOUS ELEMENTS */</span><br />
+.autocomplete-history-dropmarker,<br />
+.search-go-button,<br />
+#star-button,<br />
+.tabs-closebutton,<br />
+.tabs-newbutton,<br />
+.toolbarbutton-menubutton-dropmarker,<br />
+tooltip {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;display:none !important;<br />
+}</pre>
+<h3>All done!</h3>
+<p>Part two I&#39;ll be tacking importing and extensions, stay tuned! ^_^</p>
+ 

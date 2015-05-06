@@ -1,0 +1,40 @@
+---
+layout: post
+title: 'One step ISO creation from folders in OS X' 
+date: "2013-09-23T04:45:13+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- disk-utility
+- guide
+- hdiutil
+- iso
+- mac-os-x 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.driveoptical.png" alt="Icons from the Tango Desktop Project" class="transparent" /></p>
+<p>Here’s a great little trick I discovered this afternoon. Previously, if I wanted to create an ISO image to either burn or mount in a <abbr title="virtual machine">VM</abbr>, I’d do this:</p>
+<ol>
+<li>Create <em>&#8220;CD/DVD master&#8221;</em> from a folder using hdiutil or Disk Utility.app</li>
+<li>Convert to a <em>&#8220;hybrid image&#8221;</em></li>
+<li>Rename the file from *cdr to *iso</li>
+</ol>
+<p>I’m not sure how long we’ve been able to do this, but you can specify it <strong>with just one command now</strong>, using the <em>&#8220;UNIV&#8221;</em> flag. For example:</p>
+<pre>
+% hdiutil create 
+    -volname MSDOS6 
+    -srcfolder EN_MSDOS60 
+    -ov -format UNIV 
+    image.dmg
+% mv image.dmg image.iso
+</pre>
+<p>Okay I cheated, there are two commands there. Still, now I have a way to create an ISO image I can mount in virtual machines (or burn) without a conversion step.</p>
+<p>If you’ve found that useful, feel free to bankroll me an upgrade to the latest VMware Fusion on the <a href="http://rubenerd.com/coffee/">Buy me a Coffee</a> page. Hey, one can dream, right? ^_^</p>
+<p><cite>The rather retro set of icons above are from the <a href="http://tango.freedesktop.org/">Tango Desktop Project</a>, originally assembled for <a href="http://rubenerd.com/p3722/">this FreeBSD post in 2009</a>.</cite></p>
+<h3>Update: The other way</h3>
+<p>I had a few people ask me what I meant by <em>&#8220;convert to a hybrid image&#8221;</em> in my original procedure above. In a nutshell, if you’re created a &#8220;CD/DVD master image&#8221; and have a <em>something.cdr</em> file, you can convert it by doing this:</p>
+<pre>
+% hdiutil makehybrid -iso -joliet -o image.iso image.cdr
+</pre>
+<p>Creating a hybrid image from the start negates this step, though perhaps there are circumstances where this approach may be preferable. Happy imaging!</p>
+ 

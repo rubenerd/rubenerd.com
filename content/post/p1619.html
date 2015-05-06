@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Networking issue to blame for poor VMware Fusion BSD performance?' 
+date: "2008-09-03T10:38:04+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- freebsd
+- infocomm
+- mac-os-x
+- netbsd
+- startx
+- virtualisation
+- vmware
+- vmware-fusion
+- x11 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.vmwarefusion.20rc1.png" alt="Screenshot of VMware Fusion 2.0 Release Candidate 1" style="height:313px; width:500px" /></p>
+<p>A few days ago I mentioned that the first Release Candidate for VMware Fusion 2.0 for the Mac was made available, and I listed some of the issues I had with running the previous beta releases, with the hope the RC would fix them.</p>
+<p>The RC didn&#39;t fix the most nagging issue I&#39;ve been having, but I may be onto something.</p>
+<p>As you know I primarily run FreeBSD in VMware Fusion: I know I&#39;m a niche user but VMware does state FreeBSD is a supported OS, and it&#39;s the reason I went ahead and purchased a licence for their product instead of Parallels Desktop. In the version 1.x series, both FreeBSD and NetBSD performed flawlessly and I was extremely pleased with the purchase!</p>
+<p>In the Betas for version 2.0 however, both FreeBSD and NetBSD have been suffering from appaulingly slow X11 performance. Both Xorg and Xfree86 take many minutes to load on these systems as opposed to the almost instantaneous load times in the version 1.x series of Fusion.</p>
+<blockquote><p><strong>ASIDE:</strong> Before you get too scared, X11 performance in OpenSolaris and GNU/Linux distributions seem to be just fine!</p></blockquote>
+<p>The first Release Candidate seemed to make no difference to performance, until I was sitting at a coffee shop with my WiFi connection turned off. For some reason, without a network connection, typing <code>startx</code> in both FreeBSD and NetBSD caused their respective X11 environments to start instantaneously once again. Back home and plugged into the wired network, both virtual machines returned to sluggish performance.</p>
+<p>The next step was to determine if I could reproduce the conditions back at the coffee shop and get back regular performance. Clicking the Network Adaptor icon in the status bar in the VMs and disabling the network completely eliminated the painfully long <code>startx</code> waiting time.</p>
+<p>I&#39;m hoping the final release of Fusion 2.0 will solve this problem, otherwise I&#39;m back to using 1.0. Not to mind, Unity and the other more advanced features are Windows only anyway. It&#39;s a shame though that they&#39;re marketing it as a solution for running Windows on your Mac, not a solution for running different OSs on your Mac.</p>
+ 

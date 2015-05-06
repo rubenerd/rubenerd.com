@@ -1,0 +1,36 @@
+---
+layout: post
+title: 'CSRF, snooping, RequestPolicy for Firefox' 
+date: "2011-01-25T12:00:33+10:00"
+categories: 
+- Software 
+tags: 
+- csrf
+- extensions
+- firefox
+- infocomm
+- mozilla
+- postaday2011
+- privacy
+- reviews
+- security
+- xss 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.requestpolicy.mugi.png" alt="Mugi on RequestPolicy" style="height:275px; width:500px;"  /></p>
+<p>Having been an avid user of NoScript, PermitCookies, Ghostery and AdBlock Plus to whitelist site elements and improve security and privacy, <a href="https://www.requestpolicy.com/">RequestPolicy</a> has me really excited :).</p>
+<p><!--oldmore--></p>
+<h3>Only the paranoid survive ~ Andrew S. Grove</h3>
+<p>RequestPolicy is an extension for Firefox and other compatible Mozilla browsers that helps to address the growing issue of cross-site request forgery (CSRF/XSRF) attacks which are actively being used by nefarious users to track which sites you visit, use existing session data and (to put it simply) masquerade as you. This allows them to perform actions on your behalf, which one can imagine would be catastrophic if we were talking about a bank or a voting page for our favourite K-On character.</p>
+<p>What makes such attacks particularly worrying is unlike cross-site scripting attacks (XSS) which require a dynamic content vector such as ECMAScript or Flash, CSRF attacks can be executed simply by an unsuspecting user clicking a link, or <strong>even worse</strong> loading a page with a static element such as an image with a request in place of its source <abbr title="URL">Earl</abbr>.</p>
+<p>Content loaded from an external source can also potentially be used to track the sites you visit, how often you visit them, and what specific pages you frequent. The behavioural advertising value of this data practically guarantees companies are performing this kind of activity. One could say they&#39;re <em>Phorming</em> ideas as we speak. Hey come on, that was funny, why aren&#39;t any of you laughing? Don&#39;t answer that.</p>
+<p>For those of us with tin foil hats stapled to our heads (hey, we all have our reasons), these two issues are rather terrifying. A large percentage of sites predominantly consist of modifiable content loaded from other sites now, and all a CSRF attack would take is a single static element that even a seasoned internet user could be forgiven for missing. What&#39;s more worrying still is that this problem is potentially its old as the net itself, and the current trend towards decentralised sites will only make it worse. Mmm, cookies. And sunfish.</p>
+<p><img src="http://files.rubenerd.com/uploads/mugi-and-the-ocean-sunfish.jpg" alt="Mugi on RequestPolicy" style="height:310px; width:500px;"  /></p>
+<h3 id="theplugin">This RequestPolicy extension thingy</h3>
+<p>In what has become the de facto accepted standard for Firefox security extensions, RequestPolicy places an icon in your statusbar (or the extensions bar in Firefox 4.x) which lets you allow certain cross-site requests temporarily, add them permanently to your whitelist, or keep them blocked (the default). This can aid in preventing some CSRF attacks, as well as potentially blocking images or other elements that are loaded externally to track your activities without your permission or knowledge, such as analytic or advertising tools.</p>
+<p>As with the other extensions I described at the top of the post, RequestPolicy becomes more useful the longer you have it active given you&#39;re populating its whitelist over time. To help with the initial configuration, the developer includes a list of suggested sites which you can add once the extension is first installed.</p>
+<p>I&#39;ve been using 0.5.16 in Firefox 3.6.13 (version number soup) for close to a week with no issues :).</p>
+<p><img src="http://files.rubenerd.com/uploads/icon.tango.heart.png" alt="" style="height:128px; width:128px;" class="transparent" /><img src="http://files.rubenerd.com/uploads/icon.firefox.36.png" alt="" style="height:128px; width:128px;" class="transparent" /></p>
+<h3>Link arms, don’t make them</h3>
+<p>Robert Auger has a page on CSRF attacks and some proof of concept code for those interested in learning the details: <a href="http://www.cgisecurity.com/csrf-faq.html">The Cross-Site Request Forgery (CSRF/XSRF) FAQ</a>. <a href="https://secure.wikimedia.org/wikipedia/en/wiki/Cross-site_request_forgery">Wikipedia&#39;s page</a> is surprisingly lacking in this case, but still useful for a summary. Surprise surprise, my page here is not the be all, end all authority on this subject and I don&#39;t have all the details! ;D</p>
+<p>The extension is available from the <a href="https://www.requestpolicy.com/">developer&#39;s website</a>, or from <a href="https://addons.mozilla.org/en-US/firefox/addon/requestpolicy/">Mozilla&#39;s addon page</a>. The images are of Mugi-chan from K-On because… just because.</p>
+ 

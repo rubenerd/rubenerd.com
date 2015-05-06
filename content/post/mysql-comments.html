@@ -1,0 +1,27 @@
+---
+layout: post
+title: 'MySQL comments' 
+date: "2014-09-25T10:28:10+10:00"
+categories: 
+- Software 
+tags: 
+- databases
+- mariadb
+- mysql 
+---
+<p>Made two quick comments today. I’d be a hypocrite disabling blog comments here, then encouraging people to blog their responses instead&#8230;. then not doing so for these. So here they are.</p>
+<p><a href="http://www.debian-tutorials.com/how-to-fix-error-innodb-the-innodb-memory-heap-is-disabled">From Debian-Tutorials.net</a>:</p>
+<blockquote cite="http://www.debian-tutorials.com/how-to-fix-error-innodb-the-innodb-memory-heap-is-disabled">
+<p>Apologies for commenting on an old post, but you’re on the first page of results on Google and just wanted to give everyone a heads up.</p>
+<p>This isn’t really an error, just an indication that InnoDB is using the system’s internal memory allocator instead of its own. The default is yes/1, and is acceptable for production.</p>
+<p>According to the docs, this command is deprecated, and will be removed in MySQL versions above 5.6 (and I assume MariaDB):</p>
+<p>http://dev.mysql.com/doc/refman/5.6/en/innodb-performance-use_sys_malloc.html</p>
+<p>Cheers :)</p>
+</blockquote>
+<p><a href="http://ecmarchitect.com/archives/2013/05/31/1830">And ECM Architect</a>:</p>
+<blockquote>
+<p>&#8220;I have no idea why [skip-networking] is turned on by default&#8221;</p>
+<p>I’d say its a prudent security measure, especially for a package manager like MacPorts where users are generally creating stacks for personal local development. You don’t want to be exposing network services you weren’t expecting.</p>
+<p>That said, if the default for MySQL/MariaDB is to enable it, it may be a cause of confusion, as it was for you here. Any deviations from the default should probably be documented somewhere.</p>
+</blockquote>
+ 

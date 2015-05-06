@@ -1,0 +1,34 @@
+---
+layout: post
+title: 'Protect yourself against MD5 certificates' 
+date: "2009-01-12T05:07:02+10:00"
+categories: 
+- Software 
+tags: 
+- browsers
+- firefox
+- guide
+- howto
+- infocomm
+- md5
+- mozilla
+- networking
+- rapidssl
+- reviews
+- security
+- security-now
+- sha1
+- ssl
+- ssl-blacklist 
+---
+<p><img src="http://files.rubenerd.com/uploads/screenie.sslblacklist.png" alt="SSL Blacklist showing that Gmail doesn't use the vulnerable MD5 algorithm." style="display:inline; border:0px; width:494px; height:237px;" /><br /><cite>SSL Blacklist showing that Gmail doesn&#39;t use the vulnerable MD5 algorithm, and that it&#39;s certificate issuer isn&#39;t on their black list.</cite></p>
+<p>I&#39;m typing this post this evening on my beautiful 2002-vintage iBook with Mac OS X Tiger. Still going strong, definitely the most reliable and dependable system I&#39;ve ever owned.</p>
+<p>To be serious now though: it&#39;s official folks, there is now awareness of weaknesses of the <a href="http://en.wikipedia.org/wiki/MD5">MD5 algorithm</a> used to sign secure certificates online. Sites that use the more secure SHA1 algorithm are safer, and RapidSSL is now offering it in place of MD5. Still, some are still using MD5, meaning if you connect to them you&#39;re not really using a secured connection.</p>
+<p>From <a href="http://www.codefromthe70s.org/sslblacklist.aspx">CodeFromThe70s.org</a>:</p>
+<blockquote><p>An <a href="http://www.win.tue.nl/hashclash/rogue-ca/">attack has been demonstrated yesterday</a> that highlights the practicality of the <a href="http://www.win.tue.nl/hashclash/On%20Collisions%20for%20MD5%20-%20M.M.J.%20Stevens.pdf">well-publicized</a> <a href="http://www.springerlink.com/content/m4ye44cbfjfemuk0/">weaknesses</a> of the MD5 algorithm. Essentially, any certificate signed with the MD5 algorithm may be counterfeit.</p>
+<p>There is […] a large number of CAs out there, and it is certain that some of them will continue to use MD5 for one reason or another.</p>
+<p>Therefore it may be prudent to avoid, or, at the very least, not place much trust in websites that authenticate themselves with the help of MD5. After all, there is no way to automatically distinguish between a chain with a genuine MD5-based certificate signature and a chain with a counterfeit certificate.</p></blockquote>
+<p>A solution to this is a <a href="http://getmozilla.com/">Mozilla Firefox</a> plugin called <a href="http://www.codefromthe70s.org/sslblacklist.aspx">SSL Blacklist</a> which places a small certificate notice in the bottom right hand side of your browser that indicates whether a page is secured with SHA1 or not secure with MD5. This allows you to make informed decisions when using secured sites, and to let existing web hosts know that they should upgrade.</p>
+<p>Even before this vulnerability was demonstrated this plugin was a useful addition to the security conscious internet user&#39;s toolkit, but this lastest release makes it indispensable. If you don&#39;t have it in other words, grab it now! This is an order!</p>
+<blockquote><p><strong>UPDATE:</strong> Steve Gibson also goes into great detail about the exploit and the plugin to protect yourself in <a href="http://www.grc.com/securitynow.htm">Security Now 177</a>.</p></blockquote>
+ 

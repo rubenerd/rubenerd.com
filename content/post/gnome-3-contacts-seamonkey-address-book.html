@@ -1,0 +1,26 @@
+---
+layout: post
+title: 'Point Gnome 3 Contacts to SeaMonkey Address Book' 
+date: "2012-08-11T07:42:35+10:00"
+categories: 
+- Software 
+tags: 
+- bsd
+- fedora
+- freebsd
+- gnome-3
+- guide
+- infocomm
+- linux
+- mozilla
+- seamonkey 
+---
+<p><img src="http://files.rubenerd.com/uploads/icon.seamonkey.png" alt="" style="height:128px; width:128px; float:right; margin:0px 0px 10px 20px;" class="transparent" /></p>
+<p>A silly little hack I devised this afternoon if you run Gnome 3 and have the pretty (but unused) Contacts icon in your Applications menu. Open this as root:</p>
+<pre>/usr/share/applications/mozilla-seamonkey.desktop</pre>
+<p>And replace this:</p>
+<pre>Exec=gnome-contacts</pre>
+<p>With this:</p>
+<pre>Exec=seamonkey -addressbook</pre>
+<p>One of these days I&#39;ll fulfill my dream of writing an entirely XUL desktop environment. And it&#39;ll use the <a href="https://addons.mozilla.org/en-us/seamonkey/addon/walnut-for-seamonkey/">Walnut theme</a> by default. Oh, you&#39;d better believe it.</p>
+ 

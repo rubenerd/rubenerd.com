@@ -1,0 +1,43 @@
+---
+layout: post
+title: 'Security changes in Mac OS X Leopard' 
+date: "2007-10-29T10:01:15+10:00"
+categories: 
+- Software 
+tags: 
+- apple
+- infocomm
+- leopard
+- mac-os-x
+- security
+- ssh 
+---
+<p><a href="http://www.flickr.com/photos/rubenerd/1761887006/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2161/1761887006_47e031fceb.jpg" width="500" height="313" alt="New wallpaper in Leopard!" /></a></p>
+<p>Having used Mac OS X Leopard (<a href="http://www.apple.com.sg/macosx/">Singapore</a>, <a href="http://www.apple.com/au/macosx/">Australia</a>) for the last few days on my MacBook Pro I&#39;ve discovered many changes in security from OS X Tiger and earlier releases including some genuine surprises that threw me off guard! I&#39;m posting what I&#39;ve discovered here in the hopes it may be useful to other people.</p>
+<dl>
+<dt>NetInfo Manager is gone</dt>
+<dd>A cursory glance at the Utilities folder will show NetInfo Manager has ceased to exist, like a certain Monty Python parrot. Some of the user specific features have been relegated to a very sneakily hidden menu in the Users panel of System Preferences.
+</p>
+<p><img src='http://files.rubenerd.com/uploads/netinfomanagerisgone.png' alt='NetInfo Manager is gone' />
+</p>
+<p>If you want to change the UID or default shell assigned to a user for example, right click or CTRL click on the name of the user and click &#8220;Advanced Options&#8221; in the popup menu.
+</p>
+<p><a href="http://www.flickr.com/photos/rubenerd/1797748525/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2098/1797748525_b5cdd863b2_m.jpg" width="240" height="191" alt="NetInfo Manager is gone" /></a></dd>
+<dt>Firewall has moved</dt>
+<dd>The Firewall has been moved in System Preferences from the “Sharing” panel to the “Security” panel. Reading comments on forums a lot of people are angry about this, but to me it makes perfect sense!</dd>
+<dt>Firewall has been dumbed down</dt>
+<dd>Aside from a crude menu that lets you add generic “.app” programs, there is no way now to create your own custom rules, port number assignments, UDP/TCP or anything whatsoever. I guess it’s back to the command line to configure these things.</dd>
+<dt>Higher SSH encryption by default</dt>
+<dd>If you open the <code>/private/etc/sshd_config</code> configuration file, Leopard ships with level 2 SSH security and <em>without the option of falling back to level 1</em> like previous versions. This is a welcome change.</dd>
+<dt>Graphically impossible to change your SSH port</dt>
+<dd>But therein lies a problem! If you change your SSH listening port in your aforementioned <code>sshd_config</code> for obfuscation reasons, in the Leopard Firewall System Preferences pane there is no way whatsoever to open that SSH port because you’re limited to only creating generic rules based on .app’s and the Services you start in the “Sharing” panel; which will turn on port 22.</dd>
+</dl>
+<p>So some welcome security changes in Leopard, and you&#39;ve got to hand it to Apple for trying to make configuring security more streamlined, but I&#39;m disappointed that in doing so so much functionality has been lost. Hopefully Apple (or perhaps even a third party) will address the legitimate need to create custom Firewall permissions soon.</p>
+<p><a href="http://www.flickr.com/photos/rubenerd/1762022431/" title="Photo Sharing"><img src="http://farm3.static.flickr.com/2279/1762022431_e864adb5d5.jpg" width="500" height="375" alt="My machines with Leopard MacBook Pro!" /></a></p>
+<p>If I&#39;ve made any mistakes or you have anything to add, please post a comment. Cheers ^^.</p>
+<h3>Related Posts</h3>
+<ul>
+<li><a href="http://rubenerd.com/mac-os-x-leopard-launch-in-singapore/">Mac OS X Leopard Launch in Singapore!</a></li>
+<li><a href="http://rubenerd.com/making-camino-look-like-a-leopard-app/">Making Camino look like a Leopard app</a></li>
+</ul>
+ 

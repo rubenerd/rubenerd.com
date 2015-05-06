@@ -1,0 +1,22 @@
+---
+layout: post
+title: 'Jekyll dates' 
+date: "2014-06-11T03:49:00+10:00"
+categories: 
+- Internet 
+tags: 
+- dates
+- formatting
+- jekyll 
+---
+<p>I wasn’t happy with the default dates in Jekyll’s liquid markup. It’s been so long since I’ve messed with them, since my site has been running largely unaltered for a few years now.</p>
+<p>The <a href="http://docs.shopify.com/themes/liquid-basics/output#date">original Shopify docs</a> have all the date formats. For this site, I changed it to:</p>
+<pre>
+{{ post.date | date: "%A, %d %B, %Y" }}
+</pre>
+<p>This renders:</p>
+<blockquote>
+<p>Wednesday, 11 June 2014.</p>
+</blockquote>
+<p>Incidently, I also had to remember how to escape liquid markup using <a href="http://stackoverflow.com/questions/3426182/how-to-escape-liquid-template-tags">raw tags</a>, instead of being interpreted!</p>
+ 
