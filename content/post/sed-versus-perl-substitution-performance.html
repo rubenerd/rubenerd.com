@@ -1,0 +1,45 @@
+---
+title: "sed versus Perl substitution performance"
+date: "2015-05-07T16:45:00+10:00"
+categories:
+- Software
+tags:
+- perl
+- sed
+- unix
+- freebsd
+- bsd
+- os-x
+- linux 
+---
+<p>Rubénerd is now generated with <a href="http://gohugo.io">Hugo</a>. The performance difference over Jekyll is <em>stunning</em>, though it does take more post-processing to get things the way I want. One task is replacing certain blocks of exported text from each post.</p>
+
+<p>This is the <code>sed</code> command run over all 4000+ posts:</pre>
+
+<pre>sed -i '' -e 's/something/else/g' ${post}</pre>
+
+<p>Note the empty string. BSD userland sed (FreeBSD, OS X, etc) requires this for inline replace. GNU sed in your Linux of choice does not.</p>
+
+<p>Using <code>time</code>, I consistently get these numbers:</p>
+
+<pre>
+real	0m18.889s
+user	0m8.388s
+sys	0m10.470s
+</pre>
+
+<p>Not the end of the world, but still significant considering Hugo generates the entire site in only roughly double this time. So what could we do to improve this?</p>
+
+<p>It's still my favourite language, so I tried a Perl substitution:</p>
+
+<pre>perl -pe "s/something/else/g $POST &gt; ./TEMP</pre>
+
+<p>Perhaps unsurprisingly, a dynamic language writing to a temporary file didn't improve things:</p> 
+
+<pre>
+real	0m47.647s
+user	0m19.730s
+sys	0m20.112s
+</pre>
+
+<p>Needless to say, I'm seriously considering learning Go as my next hobby project.</p>
