@@ -10,8 +10,8 @@ rsync='/usr/local/bin/rsync'
 virtual_root='rubenerdcom'
 
 echo 'Building/verifying empty directories Hugo needs...'
-mkdir ./archetypes
-mkdir ./data
+[ ! -d ./archetypes ] && mkdir ./archetypes
+[ ! -d ./data ] && mkdir ./data
 
 echo 'Removing previously generated content (if any)...'
 rm -rf ./public/*
