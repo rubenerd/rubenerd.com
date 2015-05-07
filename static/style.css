@@ -159,8 +159,8 @@ table th, table td { padding:5px 18px }
 .tags {
   font-size:14px;
   font-weight:600;
-  white-space:nowrap;
 }
+.tags a { white-space:nowrap }
 
 
 /* Footer *****************************************************/
