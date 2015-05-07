@@ -34,6 +34,8 @@ mv -f ./public/tags/ ./public/tag/
 
 echo 'Fixing category and tag URLs in generated pages (may take a few moments)...'
 for post in ./public/*/*\.html; do
+#    perl -pe "s/\/categories\///g" ${post} > TEMP
+#    perl -pe "s/\/tags\///g" ${post} > TEMP
     sed -i '' -e 's/\/categories\//\//g' ${post}
     sed -i '' -e 's/\/tags\//\/tag\//g' ${post}
 done
