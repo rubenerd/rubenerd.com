@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>{{ .Title }}</title>
+  <title>{{ .Title }} – {{ .Site.Title }}</title>
   <link rel="stylesheet" href="/style.css" type="text/css" />
-  <link rel="alternate" href="{{ .Site.BaseUrl }}/feed/" type="application/rss+xml" />
+  <link rel="alternate" href="{{ .Site.BaseUrl }}/feed/" type="application/rss+xml" title="{{ .Site.Title }} RSS feed" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ .Site.Params.subtitle }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
