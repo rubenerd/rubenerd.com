@@ -10,6 +10,7 @@
   <meta name="description" content="{{ .Site.Params.subtitle }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
+  {{ .Hugo.Generator }}
   {{ .Site.Params.html5shim | safeHtml }}
   {{ .Site.Params.respect | safeHtml }}
 </head>
