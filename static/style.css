@@ -174,16 +174,14 @@ footer {
 
 /* Footer: Search *********************************************/
 #search input {
-  font-size:14px; 
   padding:4px;
-  width:320px;
+  width:260px;
 }
 
 
 /* Retina screens *********************************************/
 @media (-webkit-min-device-pixel-ratio: 2),
   (min-resolution:192dpi) { }
-
 
 /* Smaller screens ********************************************/
 @media screen and (max-width: 880px) {
@@ -201,18 +199,21 @@ footer {
     display:none;
     visibility:hidden;
   }
-  header, #sidebar, main, footer { width:100% }
+  header, #sidebar, main, footer { width:auto }
   header h1 { width:140px }
-
 }
 
 /* Smallest screens ******************************************/
 @media screen and (max-width: 660px) {
   html { border:0 }
   body {
-    margin:0 auto;
+    margin:0;
     min-width:320px;
-    width:90%;
+    width:auto;
+  }
+  #sidebar, article, .secondary, footer h1, footer p, footer form {
+    margin-left:15px;
+    margin-right:15px;
   }
   article img, article iframe, article object { 
     height:auto !important;
