@@ -1,0 +1,66 @@
+---
+title: "git-lite on FreeBSD"
+date: "2015-05-11T15:05:00"
+summary: "Reducing dependencies with the FreeBSD git-lite package"
+categories:
+- Software
+tags:
+- guides
+- git
+- bsd
+- freebsd
+---
+<p>I've been moving my <a href="https://subversion.apache.org/">svn</a> and <a href="http://mercurial.selenic.com/">hg</a> repos to git, to force personal familiarity with its <a href="https://gist.github.com/incompl/3819571">arcane syntax</a>. Installing the <a href="https://www.freshports.org/devel/git/">package</a> on a FreeBSD 10.1 box:</p>
+
+<pre>
+# pkg install git
+</pre>
+
+<p>... returns this package list.</p>
+
+<pre>
+New packages to be INSTALLED:
+        git: 2.3.7
+        expat: 2.1.0_2
+        p5-Authen-SASL: 2.16_1
+        perl5: 5.18.4_14
+        p5-Digest-HMAC: 1.03_1
+        p5-Net-SMTP-SSL: 1.02
+        p5-IO-Socket-SSL: 2.012
+        p5-Mozilla-CA: 20141217
+        p5-Net-SSLeay: 1.68
+        p5-Socket: 2.019
+        p5-IO-Socket-IP: 0.37
+        python27: 2.7.9_1
+        libffi: 3.2.1
+        p5-Error: 0.17023
+        curl: 7.42.1
+        ca_root_nss: 3.18.1
+        cvsps: 2.1_1
+
+The process will require 140 MiB more space.
+</pre>
+
+<p><strong>Holy dependencies, Batman.</strong> And here I was thinking git was written in C(and wouldn't be written <a href="">any other way</a>).</p>
+
+<p>Fortunately, a quick search returned <a href="https://www.freshports.org/devel/git-lite/">git-lite</a>. In keeping with FreeBSD conventions, the generic named package is compiled with most of the expected includes, with -lite being the minimum required (vim-lite being one other that comes to mind).</p> 
+
+<p>So we install...</p>
+
+<pre>
+# pkg install git-lite 
+</pre>
+
+<p>... with the following package list:</p>
+
+<pre>
+New packages to be INSTALLED:
+        git-lite: 2.3.7
+        expat: 2.1.0_2
+        curl: 7.42.1
+        ca_root_nss: 3.18.1
+
+The process will require 21 MiB more space.
+</pre>
+
+<p>This has worked so far for work, personal, GitHub and BitBucket over SSH. As my imperial unit utilising friends are wont to say though, your mileage may vary.</p>
