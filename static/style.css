@@ -120,6 +120,10 @@ hr {
   padding-top:10px;
   width:140px;
 }
+#sidebar nav #topics { 
+  display:none;
+  visibility:hidden;
+}
 
 /* Navigation *************************************************/
 #sidebar nav ul { padding-bottom:10px }
@@ -224,6 +228,14 @@ footer {
   #sidebar, article, .secondary, footer h1, footer p, footer form {
     margin-left:15px;
     margin-right:15px;
+  }
+  #sidebar #category-nav {
+    display:none;
+    visibility:hidden;
+  }
+  #sidebar nav #topics {
+    display:inline;
+    visibility:visible;
   }
   article img, article iframe, article object { 
     height:auto !important;
