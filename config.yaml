@@ -16,26 +16,33 @@ stepAnalysis: true
 author:
   name: "Ruben Schade"
 menu:
-  categories:
-    - Name: anime
+  main:
+    - Name: "Anime"
+      Identifier: "anime"
       Description: "Angmoh posts about moeblob/scifi anime, manga and desu"
       Url: "/anime/"
-    - Name: hardware
+    - Name: "Hardware"
+      Identifier: "hardware"
       Description: "Posts on Apple, phones, mechanical keyboards and such"
       Url: "/hardware/"
-    - Name: internet
+    - Name: "Internet"
+      Identifier: "internet"
       Description: "Posts on browsers, web standards, security and privacy"
       Url: "/internet/"
-    - Name: media
+    - Name: "Media"
+      Identifier: "media"
       Description: "Posts with photos, music and other things"
       Url: "/media/"
-    - Name: show
+    - Name: "Rubenerd Show"
+      Identifier: "show"
       Description: "My 2005-2009 nerdy slice of life podcast"
       Url: "/show/"
-    - Name: software
+    - Name: "Software"
+      Identifier: "software"
       Description: "Posts on Mac, *nix and virtualisation, where I work and spend my free time"
       Url: "/software/"
-    - Name: thoughts
+    - Name: "Thoughts"
+      Identifier: "thoughts"
       Description: "Posts on multifarious ruminations"
       Url: "/thoughts/"
 ---
