@@ -16,7 +16,7 @@ stepAnalysis: true
 author:
   name: "Ruben Schade"
 menu:
-  main:
+  categories:
     - Name: anime
       Description: "Angmoh posts about moeblob/scifi anime, manga and desu"
       Url: "/anime/"
