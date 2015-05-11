@@ -68,7 +68,9 @@ small {
 }
 a { text-decoration:none }
 a:hover { text-decoration:underline }
-img { display:inline; /* mozilla: fix default behaviour */ }
+img { 
+  border-radius:4px; 
+  display:inline; /* mozilla: fix default behaviour */ }
 ul { list-style-type:circle; }
 
 
@@ -114,11 +116,17 @@ hr {
   line-height:20px;
   width:140px;
 }
-#sidebar nav ul { padding-bottom:10px }
 #sidebar #mascot {
   padding-top:10px;
   width:140px;
 }
+
+/* Navigation *************************************************/
+#sidebar nav ul { padding-bottom:10px }
+#sidebar #category-nav li {
+  display:inline;
+  margin-right:4px;
+} 
 
 
 /* Main Content ***********************************************/
@@ -141,9 +149,11 @@ img, object, iframe, video, audio { max-width:100% }
 /* Articles: Code, Quotes, Tables *****************************/
 code, pre {
   font-family: "Lucida Console",monospace;
+  font-size:14px;
 }
 pre {
   line-height:16px;
+  border-radius:5px;
   padding:20px;
   overflow-x:auto;
 }
