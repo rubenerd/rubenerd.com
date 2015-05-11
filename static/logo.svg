@@ -17,6 +17,28 @@
   <defs
      id="defs4">
     <linearGradient
+       id="linearGradient3780">
+      <stop
+         id="stop3782"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3784"
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3770">
+      <stop
+         id="stop3772"
+         style="stop-color:#dee3f2;stop-opacity:0.66666669"
+         offset="0" />
+      <stop
+         id="stop3774"
+         style="stop-color:#dee3f2;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
        id="linearGradient3806">
       <stop
          id="stop3808"
@@ -75,6 +97,23 @@
        y2="4.1559639"
        id="linearGradient3812"
        xlink:href="#linearGradient3806"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(2.0569227e-6,-80)" />
+    <linearGradient
+       x1="46.48526"
+       y1="40.780045"
+       x2="34.589573"
+       y2="22.712019"
+       id="linearGradient3776"
+       xlink:href="#linearGradient3770"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       x1="33.80249"
+       y1="4.9273582"
+       x2="3.492979"
+       y2="-15.675415"
+       id="linearGradient3786"
+       xlink:href="#linearGradient3780"
        gradientUnits="userSpaceOnUse" />
   </defs>
   <metadata
@@ -94,7 +133,7 @@
         </dc:creator>
         <dc:rights>
           <cc:Agent>
-            <dc:title>All Rights Reserved</dc:title>
+            <dc:title>© Ruben Schade, All Rights Reserved</dc:title>
           </cc:Agent>
         </dc:rights>
         <dc:publisher>
@@ -114,7 +153,13 @@
     </rdf:RDF>
   </metadata>
   <path
-     d="M 68.21875,0 A 29.372822,30 0 0 0 38,30 29.375,30.002225 0 0 0 96.75,30 29.372822,30 0 0 0 68.21875,0 z M 73.0625,2.15625 71.46875,19.46875 89.03125,17.5 74.5,27.0625 87,39.53125 70.46875,34.15625 68.5,51.71875 62.40625,35.4375 47.4375,44.8125 56.375,29.90625 39.71875,24.0625 56.9375,21.75 51.09375,5.09375 l 12.5625,12 9.40625,-14.9375 z"
-     id="path2985"
-     style="fill:url(#linearGradient3812);fill-opacity:1;fill-rule:evenodd;stroke:none" />
+     d="m 63.061224,35.510204 a 17.55102,16.938776 0 1 1 -35.102039,0 17.55102,16.938776 0 1 1 35.102039,0 z"
+     transform="matrix(1.7093024,0,0,1.7710843,-10.790701,-32.775917)"
+     id="path3000"
+     style="fill:url(#linearGradient3776);fill-opacity:1;stroke:none" />
+  <path
+     d="M 64.285715,59.999997 41.883051,32.67157 19.613907,60.108906 27.012299,25.554802 -8.3236589,25.250984 23.304649,9.4911482 1.5105752,-18.325044 33.552038,-3.4231332 41.71123,-37.805539 50.037973,-3.4633248 82.006392,-18.521291 60.348207,9.4008386 92.052983,25.006267 56.718926,25.482379 z"
+     transform="matrix(0.47382023,0.15369374,-0.15369374,0.47382023,46.124538,12.885823)"
+     id="path2998"
+     style="fill:url(#linearGradient3786);fill-opacity:1;stroke:none" />
 </svg>
