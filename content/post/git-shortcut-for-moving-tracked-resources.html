@@ -17,9 +17,13 @@ $ git add ./new
 $ git commit -m 'moved original to new'
 </pre>
 
-<p>Not to get all Malcolm Gladwell on you, but <em>turns out</em>, there's a <code>mv</code> command instead:</p>
+<p>As an aside, you can also do <code>git rm</code> to remove the file and tracking, or use <code>-f</code> to just do the latter. I'm old fashioned, and prefer my source control just track stuff, rather than manipulating stuff directly. Stuff being the operative word. But I digress.</p>
+
+<p>Not to get all Malcolm Gladwell on you (and stuff), but <em>turns out</em>, there's a <code>mv</code> command instead:</p>
 
 <pre>
 $ git mv ./original ./new
 $ git commit -m 'moved original to new'
 </pre>
+
+<p>This way, the files are also associated, and stuff.</p>
