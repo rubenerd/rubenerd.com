@@ -7,10 +7,17 @@
   <link rel="stylesheet" href="/style.css" type="text/css" />
   <link rel="alternate" href="{{ .Site.BaseUrl }}/feed/" type="application/rss+xml" title="{{ .Site.Title }} RSS feed" />
   <meta name="author" content="{{ .Site.Author.name }}" />
-  <meta name="description" content="{{ .Site.Params.subtitle }}" />
+  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
-  {{ .Hugo.Generator }}
+  {{ .Site.Params.html5shim | safeHtml }}
+  {{ .Hugo.Generator }}{{ if .Params.summary }}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@Rubenerd_blog" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{ .Params.summary }}" />
+  <meta name="twitter:image" content="http://rubenerd.com/twitter.png" />
+  <meta name="twitter:url" content="{{ .Permalink }}" />{{ end }}
   {{ .Site.Params.html5shim | safeHtml }}
   {{ .Site.Params.respect | safeHtml }}
 </head>
