@@ -1,0 +1,36 @@
+---
+title: "Empty plist input with Homebrew Cask"
+date: "2015-05-13T11:03:00+10:00"
+summary: "If you get this error, upgrade cask."
+categories:
+- Software
+tags:
+- guides
+- homebrew
+- os-x
+---
+<p>I'd been having this issue whenever installing <a href="http://caskroom.io/">casks</a>:</p>
+
+<pre>
+$ brew cask install macvim
+
+==&gt; This subcommand requires root privileges: bsexec
+Error: Empty plist input
+</pre>
+
+<p>This was a <a href="https://github.com/caskroom/homebrew-cask/issues/10731">known bug</a>, and has been addressed with a newer version.</p>
+
+<pre>
+$ brew update
+$ brew upgrade caskroom/cask/brew-cask
+</pre>
+
+<p>Be prepared for this to take a while.</p>
+
+<pre>
+==> Checking out tag v0.54.0
+[..] 10M, built in 7.0 minutes
+</pre>
+
+<p>I've had mixed to positive success with Homebrew Cask, but it’s just useful enough to keep it around for installing Mac applications. XQuartz, Tunnelblick and a few others are still tricky, as they require admin access or wizard installs.</p>
+
