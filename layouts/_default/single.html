@@ -29,13 +29,13 @@
 </div>
 <hr role="separator" />
 
-<div class="secondary">
+<nav class="secondary" role="navigation">
   <h2>Post chronology</h2>
   <ul>
     {{ if .Prev }}<li><a href="{{ .Prev.RelPermalink }}">&larr; {{ .Prev.Title }}</a></li>{{ end }}
     {{ if .Next }}<li><a href="{{ .Next.RelPermalink }}">&rarr; {{ .Next.Title }}</a></li>{{ end }}
   </ul>
-</div>
+</nav>
 
 </main>
 
