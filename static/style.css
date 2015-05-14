@@ -1,6 +1,7 @@
 /***************************************************************
 **  Hugo [Boss] edition base template for Kirinyan and Ruben  **
 **  By Ruben Schade and Clara Tse, March 2015                 **
+**  http://rubenerd.com/  http://kirinyan.net/                **
 **  Finally gave up on 80 columns!                            **
 ***************************************************************/
 
@@ -29,10 +30,10 @@ html {
 }
 h1, #sidebar h1 a, h2, h3, table th, time { color:#ffffff }
 h1 a, h2 a, big, big a, .tags a, #sidebar a, footer a { color:#d2fd7d }
-a { color:#ffd07a }
+a { color:#f0aaff; /* mustard yellow version: #ffd07a */}
 blockquote { 
   border-left:4px solid #5877b6;
-  color:#a1beff;
+  color:#b1ceff;
 }
 pre { background:#2b457e }
 table tr { border-bottom:1px solid #d6d6df }
