@@ -24,15 +24,15 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html {
-  background:#4670b5;
+  background:#4670b5; /* +4 */
   border-top:10px solid #dee3f2;
   color:#dee3f2;
 }
 h1, #sidebar h1 a, h2, h3, table th, time { color:#ffffff }
-h1 a, h2 a, big, big a, .tags a, #sidebar a, footer a { color:#d2fd7d }
-a { color:#f0aaff; /* mustard yellow version: #ffd07a */}
+h1 a, h2 a, big, big a, .tags a, nav a, footer a { color:#d2fd7d }
+a { color:#f3a6ff; /* mustard: #ffd07a */}
 blockquote { 
-  border-left:4px solid #5877b6;
+  border-left:4px solid #718ebf;
   color:#b1ceff;
 }
 pre { background:#2b457e }
@@ -67,8 +67,9 @@ small {
   font-weight:600;
   white-space:nowrap;
 }
-a { text-decoration:none }
-a:hover { text-decoration:underline }
+a { text-decoration:underline }
+h1 a, a:hover { text-decoration:none }
+h1 a:hover { color:#ffffff }
 img { 
   border-radius:4px; 
   display:inline; /* mozilla: fix default behaviour */ }
