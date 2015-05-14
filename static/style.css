@@ -30,7 +30,7 @@ html {
 }
 h1, #sidebar h1 a, h2, h3, table th, time { color:#ffffff }
 h1 a, h2 a, big, big a, .tags a, nav a, footer a { color:#d2fd7d }
-a { color:#f8c6ff; } /* purple color:#f3a6ff; mustard: #ffd07a */
+a { color:#ffd07a }
 blockquote { 
   border-left:4px solid #718ebf;
   color:#b1ceff;
