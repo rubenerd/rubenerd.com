@@ -4,6 +4,7 @@ title: "Rubénerd"
 languageCode: "en-SG"
 disableLiveReload: true
 editor: "mvim"
+metaDataFormat: "yaml"
 paginate: 10
 params:
   subtitle: "By Ruben Schade in s/Singapore/Sydney/"
