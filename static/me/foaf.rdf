@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF 
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:contact="http://www.w3.org/2000/10/swap/pim/contact#"
+  xmlns:air="http://www.daml.org/2001/10/html/airport-ont#"
+  xmlns:wn="http://xmlns.com/wordnet/1.6/"
+  xmlns:pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:admin="http://webns.net/mvcb/">
+  
+  <!-- Description of file -->
+  <rdf:Description rdf:about="http://rubenschade.com/foaf.rdf">
+    <admin:generatorAgent rdf:resource="http://macromates.com/" />
+    <dc:title>FOAF for Ruben Schade</dc:title>
+    <dc:description>Friend-of-a-Friend description for Ruben Schade</dc:description>
+    <dc:format>application/rdf+xml; charset=UTF-8</dc:format>
+    <dc:identifier>http://rubenschade.com/foaf.rdf</dc:identifier>
+    <dc:language>en-SG</dc:language>
+    <dcterms:created>2004-12-21</dcterms:created>
+    <dcterms:modified>2012-06-21</dcterms:modified>
+    <dcterms:replaces rdf:resource="http://rubenschade.com/foaf.xml" />
+  </rdf:Description>
+
+  <foaf:Person rdf:about="http://rubenschade.com/" rdf:id="me">
+
+    <!-- General bio -->
+    <foaf:title>Mr</foaf:title>
+    <foaf:name>Ruben Schade</foaf:name>
+    <foaf:givenName>Ruben</foaf:givenName>
+    <foaf:surname>Schade</foaf:surname>
+    <foaf:nic>Rubénerd</foaf:nic>
+    <foaf:birthday>03-27</foaf:birthday>
+    <foaf:gender>male</foaf:gender>
+    <foaf:dnaChecksum>9cabc3d91e8a2f51b848eb65c2945f018738240a</foaf:dnaChecksum>
+    <foaf:mbox_sha1sub>f18e1d4ddfb14c54126578cadfcf76916c82c48f</foaf:mbox_sha1sub>
+    <foaf:pubkeyAddress rdf:resource="http://rubenschade.com/public.asc" />
+    <foaf:myersBriggs>ISTJ</foaf:myersBriggs>
+    <foaf:status>Happy</foaf:status>
+  
+    <!-- Sites -->
+    <foaf:homepage rdf:resource="http://rubenschade.com/" />
+    <foaf:weblog rdf:resource="http://rubenerd.com/" />
+    <foaf:schoolHomepage rdf:resource="http://uts.edu.au/" />
+    <foaf:schoolHomepage rdf:resource="http://www.ais.com.sg/" />
+  
+    <!-- Assets -->
+    <foaf:img rdf:resource="http://rubenschade.com/me3.jpg" />
+    <foaf:logo rdf:resource="http://rubenerd.org/assets/logo.png" />
+    <foaf:plan rdf:resource="http://rubenschade.com/plan" />
+    <foaf:tipjar rdf:resource="http://rubenerd.org/buy-coffee/" />
+    <foaf:thumbnail rdf:resource="https://pbs.twimg.com/profile_images/378800000029424896/65332f59318b54b02c28b994351df156.jpeg" />
+
+    <!-- Online accounts -->
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://twitter.com/Rubenerd" />
+        <foaf:accountName>@Rubenerd on Twitter</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://secure.flickr.com/photos/rubenerd" />
+        <foaf:accountName>Rubenerd on Flickr</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>  
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="http://dbpedia.org/page/User:RubenSchade" />
+        <foaf:accountName>User:RubenSchade on the English Wikipedia</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+    <foaf:account>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage rdf:resource="https://www.amazon.com/registry/wishlist/5QRTY3DN39AC/" />
+        <foaf:accountName>Ruben's Aptly-Named Amazon Wish List</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:account>
+
+    <!-- Tech interests -->
+    <foaf:topic_interest rdf:resource="http://www.apple.com/" />
+    <foaf:topic_interest rdf:resource="http://www.centos.org/" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Cryptography" />
+    <foaf:topic_interest rdf:resource="http://www.freebsd.org/" />
+    <foaf:topic_interest rdf:resource="http://java.com/" />
+    <foaf:topic_interest rdf:resource="http://www.netbsd.org/" />
+    <foaf:topic_interest rdf:resource="http://www.perl.org/" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/RDF" />
+    <foaf:topic_interest rdf:resource="http://ruby-lang.org/" />
+    <foaf:topic_interest rdf:resource="http://unicomp.com/" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Virtualization" />
+
+    <!-- Anime interests -->
+    <foaf:topic_interest rdf:resource="http://myanimelist.net/" />
+    <foaf:topic_interest rdf:resource="http://myfigurecollection.net/" />
+    <foaf:topic_interest rdf:resource="http://www.gainax.co.jp/wp/" />
+    <foaf:topic_interest rdf:resource="http://www.kyotoanimation.co.jp/" />
+    <foaf:topic_interest rdf:resource="http://www.shaft-web.co.jp/" />
+
+    <!-- Podcast interests -->
+    <foaf:topic_interest rdf:resource="http://atp.fm/" />
+    <foaf:topic_interest rdf:resource="http://5by5.tv/b2w/" />
+    <foaf:topic_interest rdf:resource="http://coreint.org/" />
+    <foaf:topic_interest rdf:resource="http://5by5.tv/criticalpath/" />
+    <foaf:topic_interest rdf:resource="http://5by5.tv/frequency/" />
+    <foaf:topic_interest rdf:resource="http://intoyourheadpodcast.com/" />
+    <foaf:topic_interest rdf:resource="http://www.abc.net.au/tv/programs/media-watch/" />
+    <foaf:topic_interest rdf:resource="http://theovernightscape.com/" />
+  
+    <!-- General interests -->
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Art_deco" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Cinema_of_Hong_Kong" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Coffee" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Jazz" />
+    <foaf:topic_interest rdf:resource="http://michaelfranks.com/" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Science_fiction" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Tea" />
+
+    <!-- Countries I've lived in / want to visit -->
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Singapore" /> 
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Australia" />  
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Hong_Kong" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Japan" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Korea" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Malaysia" />
+    <foaf:topic_interest rdf:resource="http://dbpedia.org/page/Taiwan" />
+  
+    <!-- Geolocation -->
+    <foaf:based_near>
+      <pos:Point>
+        <pos:lat>-33.9461</pos:lat>
+        <pos:long>151.1772</pos:long>
+      </pos:Point>
+    </foaf:based_near>
+    <contact:nearestAirport> 
+      <wn:Airport>
+        <air:name>Sydney Airport</air:name>
+        <air:iataCode>SYD</air:iataCode>
+        <air:icaoCode>YSSY</air:icaoCode>
+        <air:sameIndividualAs rdf:resource="http://dbpedia.org/page/Sydney_Airport" />
+        <air:location>Sydney, New South Wales, Australia</air:location>
+        <air:latitude>-33.94611</air:latitude>
+        <air:longitude>151.17722</air:longitude>
+        <air:elevation>1636</air:elevation>
+       </wn:Airport>
+       <foaf:homepage rdf:resource="http://www.sydneyairport.com.au/" />
+    </contact:nearestAirport>
+  
+  </foaf:Person>
+</rdf:RDF>
