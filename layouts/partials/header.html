@@ -5,10 +5,11 @@
   <meta charset="utf-8" />
   <title>{{ if eq .Url "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/style.css" type="text/css" />
-  <link rel="alternate" href="{{ .Site.BaseUrl }}/feed/" type="application/rss+xml" title="{{ .Site.Title }} RSS feed" />
+  <link rel="alternate" href="{{ .Site.BaseUrl }}feed/" type="application/rss+xml" title="{{ .Site.Title }} RSS feed" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseUrl }}apple.icon.png" />  
   <link rel="profile" href="http://microformats.org/profile/specs" />
   {{ .Site.Params.html5shim | safeHtml }}
   {{ .Hugo.Generator }}{{ if .Params.summary }}
@@ -16,7 +17,7 @@
   <meta name="twitter:site" content="@Rubenerd_blog" />
   <meta name="twitter:domain" content="rubenerd.com" />
   <meta property="og:type" content="website" />
-  <meta name="og:image" content="{{ .Site.BaseUrl }}/apple-touch-icon.png" />
+  <meta name="og:image" content="{{ .Site.BaseUrl }}apple-touch-icon.png" />
   <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
   <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
   <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />{{ end }}
