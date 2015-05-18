@@ -14,9 +14,12 @@
   {{ .Hugo.Generator }}{{ if .Params.summary }}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@Rubenerd_blog" />
-  <meta name="twitter:title" content="{{ .Title }}" />
-  <meta name="twitter:description" content="{{ .Params.summary }}" />
-  <meta name="twitter:url" content="{{ .Permalink }}" />{{ end }}
+  <meta name="twitter:domain" content="rubenerd.com" />
+  <meta property="og:type" content="website" />
+  <meta name="og:image" content="{{ .Site.BaseUrl }}/apple-touch-icon.png" />
+  <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
+  <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
+  <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />{{ end }}
   {{ .Site.Params.respect | safeHtml }}
 </head>
 
