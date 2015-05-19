@@ -15,7 +15,8 @@
   {{ .Hugo.Generator }}
 
   {{ .Site.Params.html5shim | safeHtml }}
-  {{ .Site.Params.respect | safeHtml }}{{ if .Params.summary }}
+  {{ "<!-- Hey, where are all the giant JS libraries and fonts? You're welcome -->" | safeHtml }}
+  {{ if .Params.summary }}{{ "<!-- Also, social network owners: read our metadata! We shouldn't need this extra junk: -->" | safeHtml }}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@Rubenerd_blog" />
@@ -24,8 +25,8 @@
   <meta property="og:image image primaryImageOfPage" content="{{ .Site.BaseUrl }}apple-touch-icon.png" />
   <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
   <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
-  <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />{{ end }}
-
+  <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
+{{ end }}
 </head>
 
 <body>
