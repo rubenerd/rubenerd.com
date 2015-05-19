@@ -1,0 +1,28 @@
+---
+title: "When git fatal pathspec's you"
+date: "2015-05-19T11:35:00+10:00"
+summary: "The file may exist, but you never tracked it"
+categories:
+- Software
+tags:
+- guides
+- git
+---
+<p>I've been trying to do more things the git way. Lately, I've been using git to perform file actions directly, rather than from the shell first then updating git's state. For example, using git rm will stop tracking a file, remove it from the repo and delete it locally:</p>
+
+<pre>
+$ git rm content/post/fate-stay-night.html
+</pre>
+
+<p>I'll admit, I'm still a little uncomfortable giving a tool this much power. But I balance this with the idea that I'm manipulating git's state to affect files, which may be more resilient?</p>
+
+It did highlight a specific use case though: 
+
+<pre>
+git rm content/post/fate-stay-night.html
+=> fatal: pathspec 'content/post/fate-stay-night.html
+</pre>
+
+<p>The file did exist, but I hadn't started tracking it. By removing the file normally, git was never made aware of its existance.</p>
+
+<p style="font-style:italic">As an aside, I used to feel embarassed posting rudumentary discoveries like this, for fear trolls would laugh at me. Now, I don't give a shit. It's quite liberating :).</p>
