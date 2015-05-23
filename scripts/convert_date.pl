@@ -19,19 +19,20 @@ sub main {
     open(my $fout, ">./OUT/$file") || die "Can't open output file";
     
     ## Strip out date from permalink
-    my @name_with_date = split(m/-/, $file);
-    my $permalink = $name_with_date[3];
-    for (my $i = 4; $i < @name_with_date; $i++) {
-      $permalink = $permalink. "-". $name_with_date[$i];
-    }
-    $permalink =~ s/\.html//;
-    print($permalink);
+    #my @name_with_date = split(m/-/, $file);
+    #my $permalink = $name_with_date[3];
+    #for (my $i = 4; $i < @name_with_date; $i++) {
+    #  $permalink = $permalink. "-". $name_with_date[$i];
+    #}
+    #$permalink =~ s/\.html//;
+    #print($permalink);
 
     foreach my $line (<$fin>) {
       $line =~ s/^--- /---/;                    ## Remove spaces after frontmatter marker
       $line =~ s/category: /categories: \n- /;  ## Change single category to list
 
-      $line =~ s/layout: post/layout: post\npermalink: $permalink/;
+      ## Add this line back to add a permalink field
+      ## $line =~ s/layout: post/layout: post\npermalink: $permalink/;
 
       if ($line =~ m/^date:/) {
         $line =~ s/: /:"/;         ## Add start quote, remove space
