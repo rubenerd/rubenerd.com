@@ -9,7 +9,6 @@ paginate: 10
 params:
   subtitle: "By Ruben Schade in s/Singapore/Sydney/"
   html5shim: '<!--[if lt IE 9]><script src="/please-dont-use-ie.js"></script><![endif]-->'
-  respect: "<!-- Where are the massive, dynamically loaded JS libraries and fonts?! You're welcome -->"
 permalinks:
   page: "/:filename/"
   post: "/:filename/"

@@ -1,0 +1,51 @@
+---
+title: "CentOS 7 symlinking ALL the bins"
+date: "2015-05-19T16:23:00+10:00"
+summary: "Now even /bin is symlinked to /usr/bin"
+categories:
+- Software
+tags:
+- centos
+- linux
+- file-systems
+---
+<p>I got quite the surprise on CentOS 7 today. While attempting to move a file (let's call it file x), I got the strangest error.</p>
+
+<pre>
+$ mv /sbin/x /usr/sbin/x
+==&gt; mv: cannot move ‘x/’ to a subdirectory of itself.
+</pre>
+
+<p>Wait, what? Did I type that right?</p>
+
+<p>Not to get all Malcolm Gladwell on you (again), but <em>turns out</em>, CentOS 7 introdues this file system structure.</p>
+
+<pre>
+$ ls -l /
+==&gt; bin -&gt; usr/bin
+==&gt; lib -&gt; usr/lib
+==&gt; lib64 -&gt; usr/lib64
+==&gt; sbin -&gt; usr/bin
+</pre>
+
+<p>That's right, <code>/{s}bin</code> and <code>/lib{64}</code> are symlinked to their respective <code>/usr</code>.</p>
+
+<p>Huh!</p>
+
+<p>As a <a href="http://rubenerd.com/freebsd-boleh/">BSD user first</a> (here we go), it took me <strong><em>this long</em></strong> to feel okay having Linux mix userland and system utitilies. Now, we're further collapsing these directories into one place. I'd be interested to hear their justification; on the surface it seems short sighted.</p>
+
+<p>By comparison, BSD documents clear separations between these. FreeBSD's hier(7) manpage defines them as:</p>
+
+<blockquote>
+<p><strong>/bin</strong>: 
+user utilities fundamental to both single-user and multi-user environments</p>
+<p><strong>/usr/bin</strong>:
+common utilities, programming tools, and applications</p>
+<p><strong>/usr/local</strong>:
+local executables, libraries, etc. Also used as the default destination for the FreeBSD ports framework.</p>
+</blockquote>
+
+<p>Granted, the distinction between system and package manager maintained assets is moot on Linux distros, as they're all updated from apt-get, yum and so on. Whether this is a good idea or not is beyond the scope of this post.</p>
+
+<p>But still, it's interesting these distinctions are no longer deemed relevent to CentOS (or perhaps <del>Prominent North American Enterprise Linux vendor</del> Red Hat). Mixing bash with your gcc? Sure, you're tangling all your stuff with systemd anyway.</p>
+

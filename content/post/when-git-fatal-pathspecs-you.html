@@ -8,19 +8,19 @@ tags:
 - guides
 - git
 ---
-<p>I've been trying to do more things the git way. Lately, I've been using git to perform file actions directly, rather than from the shell first then updating git's state. For example, using git rm will stop tracking a file, remove it from the repo and delete it locally:</p>
+<p>I've been trying to do more things the git way. Lately, I've been using git to perform file actions directly, rather than from the shell first then updating git's state. For example, using <code>git rm</code> will stop tracking a file, remove it from the repo and delete it locally:</p>
 
 <pre>
 $ git rm content/post/fate-stay-night.html
 </pre>
 
-<p>I'll admit, I'm still a little uncomfortable giving a tool this much power. But I balance this with the idea that I'm manipulating git's state to affect files, which may be more resilient?</p>
+<p>I'll admit, I'm still a little uncomfortable giving a tool this much power. But I balance this with the idea that I'm manipulating git's state to affect files rather than the reverse, which may be more resilient?</p>
 
-It did highlight a specific use case though: 
+<p>It did highlight a specific <abbr title="problem exists between keyboard and chair">PEBKAC</abbr> issue though:</p>
 
 <pre>
 git rm content/post/fate-stay-night.html
-=> fatal: pathspec 'content/post/fate-stay-night.html
+==&gt; fatal: pathspec 'content/post/fate-stay-night.html' [..]
 </pre>
 
 <p>The file did exist, but I hadn't started tracking it. By removing the file normally, git was never made aware of its existance.</p>
