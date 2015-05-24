@@ -18,7 +18,7 @@ sub main {
         "tags:\n".
         "- from-jaiku\n".
         "---\n".
-        "<p>These originally appeared on <a href="http://rubenerd.jaiku.com/">Jaiku</a>, which Google bought and shut down.</p>\n".
+        "<p>These originally appeared on <a href=\"http://rubenerd.jaiku.com/\">Jaiku</a>, which Google bought and shut down.</p>\n".
         "<dl>\n\n";
 
     foreach my $file (<*html>) {
