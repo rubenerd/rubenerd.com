@@ -24,19 +24,18 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html {
-  background:#4670b5; /* +4 */
-  border-top:10px solid #dee3f2;
-  color:#dee3f2;
+  background:#fcfcfc; /* +4 */
+  border-top:10px solid #9c56b8;
+  color:#404040;
 }
-h1, #sidebar h1 a, h2, h3, table th, time { color:#ffffff }
-h1 a, h2 a, big, big a, .tags a, nav a, footer a { color:#d2fd7d }
-a { color:#ffd07a }
+a, time { color:#227ffb }
+h1,h1 a, h2, h3, table th { color:#9c56b8 }
 blockquote { 
-  border-left:4px solid #718ebf;
-  color:#b1ceff;
+  border-left:4px solid #dee3f2;
+  color:#617e9f;
 }
-pre { background:#2b457e }
-table tr { border-bottom:1px solid #d6d6df }
+pre { background:#dee3f2 }
+table tr { border-bottom:1px solid #dee3f2 }
 footer input {
   background:#dee3f2;
   color:#2b457e;
@@ -51,7 +50,7 @@ html {
 }
 body {
   /* Let agent choose font size (accessibility, readability, ility-ility, ah the praties) */
-  font-family:"Helvetica Neue", "Source Sans Pro", Arial, "Liberation Sans", sans-serif;
+  font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
   margin:0px auto;
   padding:60px 0px 120px 0px;
   text-align:left;  /* ie6: centering */
@@ -67,9 +66,8 @@ small {
   font-weight:600;
   white-space:nowrap;
 }
-a { text-decoration:underline }
+a, h1 a:hover { text-decoration:underline }
 h1 a, a:hover { text-decoration:none }
-h1 a:hover { color:#ffffff }
 img { 
   border-radius:4px; 
   display:inline; /* mozilla: fix default behaviour */ }
@@ -114,8 +112,8 @@ hr {
 /* Sidebar ****************************************************/
 #sidebar {
   float:right;
-  font-size:14px;
-  line-height:20px;
+  font-size:13px;
+  line-height:18px;
   width:140px;
 }
 #sidebar #mascot {
@@ -245,3 +243,4 @@ footer {
 }
 
 /* EOF */
+
