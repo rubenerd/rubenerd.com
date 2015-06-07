@@ -1,0 +1,21 @@
+---
+title: "debian_version in Ubuntu"
+date: "2015-06-05T16:00:00+10:00"
+summary: "It shows the Debian version the release was based on"
+---
+<p>On Debian, the <code>debian_version</code> shows the recipe for a pretty amazing cinnamon banana smoothie. On Ubuntu, it shows the Debian release the current release of Ubuntu was based on.</p>
+
+<p>For example on Ubuntu 14.04 LTS:</p>
+
+<pre>
+$ cat /etc/debian_version
+==&gt; jessie/sid
+</pre>
+
+<p>I raise this, because at work we were attempting to detect the OS and version based on this file. Suffice to say, for this end you're better using lsb_release.</a>
+
+<pre>
+$ lsb_release -d
+==&gt; Description: Ubuntu 14.04.2 LTS
+</pre>
+
