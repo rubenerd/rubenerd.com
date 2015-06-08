@@ -28,8 +28,8 @@ html {
   border-top:10px solid #9c56b8;
   color:#404040;
 }
-a, time { color:#227ffb }
-h1,h1 a, h2, h3, table th { color:#9c56b8 }
+h1 a, h2 a, h3 a, table th, nav a { color:#9c56b8 }
+#sidebar nav a,a, time { color:#227ffb }
 blockquote { 
   border-left:4px solid #dee3f2;
   color:#617e9f;
@@ -101,7 +101,7 @@ hr {
   background:url("/logo.svg") top center no-repeat;
   font-size:30px;
   position:relative;
-  height:81px;
+  height:80px;
 }
 #sidebar h1 a {
   position:absolute;
@@ -112,8 +112,8 @@ hr {
 /* Sidebar ****************************************************/
 #sidebar {
   float:right;
-  font-size:13px;
-  line-height:18px;
+  font-size:14px;
+  line-height:20px;
   width:140px;
 }
 #sidebar #mascot {
