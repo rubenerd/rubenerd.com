@@ -24,18 +24,29 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html {
-  background:#fcfcfc; /* +4 */
-  border-top:10px solid #9c56b8;
-  color:#404040;
+  background:#000066; /* +4 */
+  border-top:10px solid #0099ff;
+  color:#ccccff;
 }
-h1 a, h2 a, h3 a, table th, nav a { color:#9c56b8 }
-#sidebar nav a,a, time { color:#227ffb }
+h1 a, h2 a, h3 a, table th, nav a { color:#ffffff }
+#sidebar nav a,a, time { color:#0099ff }
 blockquote { 
-  border-left:4px solid #dee3f2;
-  color:#617e9f;
+  border-left:4px solid #333399;
+  color:#aaaacc;
 }
-pre { background:#dee3f2 }
+pre { background:#000044 }
 table tr { border-bottom:1px solid #dee3f2 }
+.mp3 { 
+  background:#0099ff;
+  color:#ffffff;
+  margin:20px 0;
+  padding:5px 20px;
+  text-decoration:none;
+  border-radius:3px;
+}
+.mp3:hover {
+  background:#000044;
+}
 footer input {
   background:#dee3f2;
   color:#2b457e;
@@ -101,7 +112,7 @@ hr {
   background:url("/logo.svg") top center no-repeat;
   font-size:30px;
   position:relative;
-  height:80px;
+  height:76px;
 }
 #sidebar h1 a {
   position:absolute;
