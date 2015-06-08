@@ -28,7 +28,7 @@ html {
   border-top:10px solid #0099ff;
   color:#ccccff;
 }
-h1 a, h2 a, h3 a, table th, nav a { color:#ffffff }
+h1 a, h2 a, h3 a, table th, nav a, #archive a { color:#ffffff }
 #sidebar nav a,a, time { color:#0099ff }
 blockquote { 
   border-left:4px solid #333399;
