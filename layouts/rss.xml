@@ -1,24 +1,23 @@
 <rss version="2.0"
   xml:base="http://rubenerd.com/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
+  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
 
 <channel>
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
-  <link>{{ .Permalink }}</link>
+  <link>{{ .Permalink}}{{ if eq .Title "Show" }}show/{{ end }}</link>
   <description>{{ if eq .Title "Show" }}Slice-of-life podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
   <copyright>Copyright © 2004–2015 Ruben Schade.</copyright>
   <language>{{ .Site.LanguageCode }}</language>
-  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</lastBuildDate>
-  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
+  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
   <dc:creator>Ruben Schade</dc:creator>
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
-
   {{ if eq .Title "Show" }}
   <itunes:subtitle>A slice-of-life podcast by Ruben Schade</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
@@ -27,22 +26,24 @@
     <itunes:name>Ruben Schade</itunes:name>
     <itunes:email>podcast@rubenschade.com</itunes:email>
   </itunes:owner>
-  <itunes:keywords>australia,singapore,life,tech,anime,thoughts,ruben,schade</itunes:keywords>
+  <itunes:keywords>australia,sydney,singapore,life,tech,anime,thoughts,time,jazz,ruben,schade</itunes:keywords>
   <itunes:image href="http://rubenerd.com/itunes-cover.png" />
-  <itunes:category text="Philosophy" />
+  <itunes:category text="Society &amp; Culture">
+    <itunes:category text="Philosophy" />
+    <itunes:category text="Personal Journals" />
+  </itunes:category>
   <itunes:category text="Technology" />
-  <itunes:category text="Society &amp; Culture" />
+  <itunes:explicit>no</itunes:explicit>
   {{ end }}
-
   <image>
     <url>http://rubenerd.com/logo.rss.png</url>
-    <title>{{ .Site.Title }}</title>
-    <link>http://rubenerd.com/</link>
+    <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
+    <link>{{ .Permalink }}{{ if eq .Title "Show"}}show/{{ end }}</link>
     <width>144</width>
     <height>72</height>
-    <description>{{ "<![CDATA[" | safeHTML }}By Ruben Schade in s/Singapore/Sydney/.{{ "]]>" | safeHTML }}</description>
+    <description>{{ if eq .Title "Show" }}Slice-of-life podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
   </image>
-{{ range first 30 .Data.Pages }}
+{{ range first 50 .Data.Pages }}
 <item>
   <title>{{ .Title }}</title>
   <link>{{ .Permalink }}</link>
@@ -50,7 +51,7 @@
   <dc:creator>{{ .Site.Author.name }}</dc:creator>
   {{ range .Params.categories }}<category>{{ . | lower }}</category>{{ end }}
   {{ range .Params.tags }}<category>{{ . | lower }}</category>
-  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
+  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
   {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
   <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</itunes:summary>
@@ -58,9 +59,7 @@
   <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ if .Params.summary }}
   <itunes:subtitle>{{ .Params.summary }}</itunes:subtitle>{{ end }}{{ end }}
 </item>
-
 {{ end }}
-
 </channel>
 </rss>
 
