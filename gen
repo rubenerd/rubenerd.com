@@ -19,9 +19,16 @@ rm -rf ./public/*
 echo '☕  Building site with Hugo (may take a few moments)...'
 hugo
 
+echo '☕  Moving podcast feed to /show/feed/...'
+mkdir -p ./public/show/feed/
+mv -f ./public/categories/show/index.xml ./public/show/feed/
+
 echo '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
 mv -f ./public/index.xml ./public/feed/index.xml
+
+## echo '☕  Move Whole Wheat Radio feed so is not deleted...'
+## mv -f ./public/tags/whole-wheat-radio/index.xml 
 
 echo '☕  Removing all other generated feeds...'
 rm -rf ./public/categories/*/index.xml
@@ -29,6 +36,8 @@ rm -rf ./public/tags/*/index.xml
 
 echo '☕  Removing /categories/ from permalink, and /tags/ --> /tag/...'
 rm -rf ./public/categories/index.*
+mv -f ./public/categories/show/* ./public/show/
+rm -rf ./public/categories/show/
 mv -f ./public/categories/* ./public/
 mv -f ./public/tags/ ./public/tag/
 
@@ -43,3 +52,4 @@ ${rsync} --recursive --verbose --times --compress --rsh=ssh --checksum --delete 
     ./public/ chitanda:${virtual_root}/
 
 echo '☕  Site changes now LIVE.'
+
