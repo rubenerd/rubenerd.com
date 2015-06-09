@@ -1,21 +1,39 @@
 <rss version="2.0"
   xml:base="http://rubenerd.com/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html">
+  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
+  xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://www.rssboard.org/media-rss"{{ end }}>
 
 <channel>
-  <title>{{ .Site.Title }}</title>
+  <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
   <link>{{ .Permalink }}</link>
   <description>By Ruben Schade in s/Singapore/Sydney/.</description>
   <copyright>Copyright © 2004–2015 Ruben Schade.</copyright>
   <language>{{ .Site.LanguageCode }}</language>
-  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHtml }}</lastBuildDate>
-  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHtml }}</pubDate>
+  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</lastBuildDate>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
   <dc:creator>Ruben Schade</dc:creator>
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
+
+  {{ if eq .Title "Show" }}
+  <itunes:subtitle>A slice-of-life podcast by Ruben Schade</itunes:subtitle>
+  <itunes:author>Ruben Schade</itunes:author>
+  <itunes:summary>A slice-of-life podcast by Ruben Schade</itunes:summary>
+  <itunes:owner>
+    <itunes:name>Ruben Schade</itunes:name>
+    <itunes:email>podcast@rubenschade.com</itunes:email>
+  </itunes:owner>
+  <itunes:keywords>australia,singapore,life,tech,anime,thoughts,ruben,schade</itunes:keywords>
+  <itunes:image href="http://rubenerd.com/itunes-cover.png" />
+  <itunes:category text="Philosophy" />
+  <itunes:category text="Technology" />
+  <itunes:category text="Society &amp; Culture" />
+  {{ end }}
 
   <image>
     <url>http://rubenerd.com/logo.rss.png</url>
@@ -23,7 +41,7 @@
     <link>http://rubenerd.com/</link>
     <width>144</width>
     <height>72</height>
-    <description>{{ "<![CDATA[" | safeHtml }}By Ruben Schade in s/Singapore/Sydney/.{{ "]]>" | safeHtml }}</description>
+    <description>{{ "<![CDATA[" | safeHTML }}By Ruben Schade in s/Singapore/Sydney/.{{ "]]>" | safeHTML }}</description>
   </image>
 {{ range first 30 .Data.Pages }}
 <item>
@@ -33,8 +51,10 @@
   <dc:creator>{{ .Site.Author.name }}</dc:creator>
   {{ range .Params.categories }}<category>{{ . | lower }}</category>{{ end }}
   {{ range .Params.tags }}<category>{{ . | lower }}</category>
-  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHtml }}</pubDate>
-  <description>{{ "<![CDATA[" | safeHtml }}{{ .Content }}{{ "]]>" | safeHtml }}</description>
+  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
+  <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
+  {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
+  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ end }}
 </item>
 
 {{ end }}
