@@ -3,13 +3,12 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:media="http://www.rssboard.org/media-rss"{{ end }}>
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
 
 <channel>
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
   <link>{{ .Permalink }}</link>
-  <description>By Ruben Schade in s/Singapore/Sydney/.</description>
+  <description>{{ if eq .Title "Show" }}Slice-of-life podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
   <copyright>Copyright © 2004–2015 Ruben Schade.</copyright>
   <language>{{ .Site.LanguageCode }}</language>
   <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</lastBuildDate>
@@ -54,7 +53,10 @@
   {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
   {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
-  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ end }}
+  <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</itunes:summary>
+  <itunes:author>Ruben Schade</itunes:author>
+  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ if .Params.summary }}
+  <itunes:subtitle>{{ .Params.summary }}</itunes:subtitle>{{ end }}{{ end }}
 </item>
 
 {{ end }}
