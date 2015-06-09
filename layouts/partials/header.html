@@ -6,8 +6,9 @@
   <meta charset="utf-8" />
   <title>{{ if eq .Url "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/style.css" type="text/css" />
-  <link rel="alternate" href="{{ .Site.BaseUrl }}feed/" type="application/rss+xml" title="{{ .Site.Title }} RSS feed" />
   <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseUrl }}apple-touch-icon.png" />  
+  <link rel="alternate" href="{{ .Site.BaseUrl }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
+  <link rel="alternate" href="{{ .Site.BaseUrl }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
