@@ -1,0 +1,51 @@
+---
+title: "When nginx add_header don't appear"
+date: "2015-06-10T10:09:00+10:00"
+summary: "nginx only processes the deepest add_header directives"
+categories:
+- Internet
+tags:
+- nginx
+- troubleshooting
+- guides
+- freebsd
+- bsd
+- linux
+---
+<p>A project I'm working on requires the addition of custom http headers. As with so much of nginx's (refreshingly simple) syntax, this is trivial to achieve with the <a href="http://wiki.nginx.org/NginxHttpHeadersMoreModule">NginxHttpHeadersMoreModule</a>:</p>
+
+<pre>
+http {
+  add_header X-Backend-Server 'Windows for Workgroups 3.11';
+  add_header X-Content-Type-Options 'nosniff';
+}
+</pre>
+
+<p>Problem was, I'd reboot nginx as below, then even tried restarting, but the headers wouldn't appear.</p>
+
+<pre>
+# /usr/local/etc/rc.d/nginx reload
+# /usr/local/etc/rc.d/nginx restart
+</pre>
+
+<p>The first thing to check is whether our nginx has the aforementioned module. If a test of our configs returns clean with the above directives, we do.</p>
+
+<pre>
+# nginx -t
+</pre>
+
+<p>Despite the configs being reported clean, the headers <strong><em>still</em></strong> didn't appear. I was about ready to start hitting my own head–er against the wall–er.</p>
+
+<p>Not to get all Malcolm Gladwell on you again, but <strong><em>turns out</em></strong> nginx only processes the deepest directives. Because I'd defined a header in a lower block, the higher ones weren't appearing. An example illustrates this:</p>
+
+<pre>
+http { 
+  add_header X-Wont-Appear 'sadface';
+  server {
+    add_header X-Will-Appear 'yay!';
+  }
+}
+</pre>
+
+<p>I heard you like logic errors, so I put a directive in your directive so the original is discarded. It would be useful if nginx reported this; maybe <a href="http://nginx.com/products/">NGINX Plus</a> does ;).</p>
+
