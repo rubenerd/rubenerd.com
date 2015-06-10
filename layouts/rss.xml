@@ -21,15 +21,14 @@
   {{ if eq .Title "Show" }}
   <itunes:subtitle>A slice-of-life podcast by Ruben Schade</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
-  <itunes:summary>A slice-of-life podcast by Ruben Schade</itunes:summary>
+  <itunes:summary>Ruben Schade's long-running slice-of-life podcast from Singapore, Kuala Lumpur and/or Sydney.</itunes:summary>
   <itunes:owner>
     <itunes:name>Ruben Schade</itunes:name>
-    <itunes:email>podcast@rubenschade.com</itunes:email>
+    <itunes:email>tubes@rubenschade.com</itunes:email>
   </itunes:owner>
   <itunes:keywords>australia,sydney,singapore,life,tech,anime,thoughts,time,jazz,ruben,schade</itunes:keywords>
   <itunes:image href="http://rubenerd.com/itunes-cover.png" />
   <itunes:category text="Society &amp; Culture">
-    <itunes:category text="Philosophy" />
     <itunes:category text="Personal Journals" />
   </itunes:category>
   <itunes:category text="Technology" />
