@@ -7,7 +7,7 @@
 
 <channel>
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
-  <link>{{ .Permalink}}{{ if eq .Title "Show" }}show/{{ end }}</link>
+  <link>{{ .Permalink }}{{ if eq .Title "Show" }}show/{{ end }}</link>
   <description>{{ if eq .Title "Show" }}Slice-of-life podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
   <copyright>Copyright © 2004–2015 Ruben Schade.</copyright>
   <language>{{ .Site.LanguageCode }}</language>

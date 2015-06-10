@@ -18,8 +18,8 @@
 <nav role="navigation" class="secondary">
   <h1>You're on page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}. Where to now?</h1>
   <ul>
-    {{ if .Paginator.HasPrev }}<li><a href="{{ .Paginator.Prev.Url }}">&larr; Previous page</a></li>{{ end }}
-    {{ if .Paginator.HasNext }}<li><a href="{{ .Paginator.Next.Url }}">&rarr; Next page</a></li>{{ end }}
+    {{ if .Paginator.HasPrev }}<li><a href="{{ .Paginator.Prev.URL }}">&larr; Previous page</a></li>{{ end }}
+    {{ if .Paginator.HasNext }}<li><a href="{{ .Paginator.Next.URL }}">&rarr; Next page</a></li>{{ end }}
   </ul>
 </nav>
 

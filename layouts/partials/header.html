@@ -4,26 +4,26 @@
 <head>
 
   <meta charset="utf-8" />
-  <title>{{ if eq .Url "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  <title>{{ if eq .URL "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/style.css" type="text/css" />
-  <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseUrl }}apple-touch-icon.png" />  
-  <link rel="alternate" href="{{ .Site.BaseUrl }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
-  <link rel="alternate" href="{{ .Site.BaseUrl }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
+  <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseURL }}apple-touch-icon.png" />  
+  <link rel="alternate" href="{{ .Site.BaseURL }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
+  <link rel="alternate" href="{{ .Site.BaseURL }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   {{ .Hugo.Generator }}
 
-  {{ .Site.Params.html5shim | safeHtml }}
-  {{ "<!-- Hey, where are all the giant JS libraries and fonts? You're welcome -->" | safeHtml }}
-  {{ if .Params.summary }}{{ "<!-- Also, social network owners: read our metadata! We shouldn't need this extra junk: -->" | safeHtml }}
+  {{ .Site.Params.html5shim | safeHTML }}
+  {{ "<!-- Hey, where are all the giant JS libraries and fonts? You're welcome -->" | safeHTML }}
+  {{ if .Params.summary }}{{ "<!-- Also, social network owners: read our metadata! We shouldn't need this extra junk: -->" | safeHTML }}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@Rubenerd_blog" />
   <meta name="twitter:domain" content="rubenerd.com" />
   <meta property="og:type" content="website" />
-  <meta property="og:image image primaryImageOfPage" content="{{ .Site.BaseUrl }}apple-touch-icon.png" />
+  <meta property="og:image image primaryImageOfPage" content="{{ .Site.BaseURL }}apple-touch-icon.png" />
   <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
   <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
   <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
