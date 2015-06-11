@@ -7,7 +7,7 @@
 
 
 /* Global Reset ***********************************************/
-html, body, h1, h2, h3, h4, h5, h6, form, fieldset, input, abbr,
+html, body, h1, h2, h3, h4, h5, h6, form, fieldset, footer input, abbr,
 img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
   border:0px;           /* old opera: units even for 0 values */
@@ -198,7 +198,9 @@ footer {
 
 
 /* Footer: Search *********************************************/
-#search input {
+input[type=text] {
+  border-radius:4px;
+  border:1px solid #000066;
   padding:4px;
   width:260px;
 }
