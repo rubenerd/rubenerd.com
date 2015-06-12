@@ -1,0 +1,29 @@
+---
+title: "OpenSSL now at 1.0.2b"
+date: "2015-06-12T10:04:00+10:00"
+summary: "Six CVEs addressed."
+categories:
+- Software
+tags:
+---
+<p>It includes fixes and mitigations for six CVEs, rated from low to moderate. From the security advisory:</p>
+
+<ol>
+<li>The Logjam man-in-the-middle attack</li>
+<li>Malformed ECParameters causes infinite loop (CVE-2015-1788)</li>
+<li>Exploitable out-of-bounds read in X509_cmp_time (CVE-2015-1789)</li>
+<li>PKCS7 crash with missing EnvelopedContent (CVE-2015-1790)</li>
+<li>CMS verify infinite loop with unknown hash function (CVE-2015-1792)</li>
+<li>Race condition handling NewSessionTicket (CVE-2015-1791)</li>
+<li>Invalid free in DTLS (CVE-2014-8176)</li>
+</ol>
+
+<p>As usual, patch and so on. Binary packages aren't yet available for FreeBSD, but y
+
+<pre>
+portsnap fetch update
+cd /usr/ports/security/openssl
+make reinstall
+</pre>
+
+
