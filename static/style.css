@@ -74,7 +74,6 @@ h2, h3 {
 }
 small {
   font-size:14px;
-  font-weight:600;
   white-space:nowrap;
 }
 a, h1 a:hover { text-decoration:underline }
@@ -150,6 +149,7 @@ main { width:600px }
 
 /* Articles ***************************************************/
 article { margin-bottom:80px }
+article small time { font-weight:600; }
 article h1 { display:inline }
 article h1 a { text-decoration:none; margin-right:8px }
 article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
