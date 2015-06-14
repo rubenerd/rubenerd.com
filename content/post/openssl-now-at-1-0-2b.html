@@ -5,8 +5,13 @@ summary: "Six CVEs addressed."
 categories:
 - Software
 tags:
+- security
+- https
+- ssl
+- tls
+- openssl
 ---
-<p>It includes fixes and mitigations for six CVEs, rated from low to moderate. From the security advisory:</p>
+<p>It includes fixes and mitigations for six CVEs, rated from low to moderate. From the <a href="https://openssl.org/news/secadv_20150611.txt">security advisory</a>:</p>
 
 <ol>
 <li>The Logjam man-in-the-middle attack</li>
@@ -18,12 +23,7 @@ tags:
 <li>Invalid free in DTLS (CVE-2014-8176)</li>
 </ol>
 
-<p>As usual, patch and so on. Binary packages aren't yet available for FreeBSD, but y
+<p>All are rated moderate or low. Therefore, none worthy of their own website (well, maybe other than Logjam?). As usual, patch and so on.</p>
 
-<pre>
-portsnap fetch update
-cd /usr/ports/security/openssl
-make reinstall
-</pre>
-
+<p>Or, you could take your chances (as so many have told me to) and use a fork. If this software continues to have issues despite being entrenched and a <em>de facto</em> standard, I'm sure your offshoot with huge swaths of code changes and far less testing will be more secure.</p>
 
