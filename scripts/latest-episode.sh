@@ -1,32 +1,35 @@
 #!/bin/sh
 
 ######
-## Script to take the latest podcast episode and add to sidebar
+## Script to add latest podcast episode to sidebar
 ## before Hugo does its thang.
 ## Created 2015-06-12
 
 set -e
 
-show_directory="content/post/show/"
-latest_file="layouts/partials/latest.html"
+_show_directory="content/post/show/"
+_latest_file="layouts/partials/latest.html"
+_pre_link='<a style="font-weight:bold" href="http://rubenerd.com/show"'
 
 ## Get latest episode
-latest=`ls ${show_directory} | tail -n 1`
+_latest=`ls ${_show_directory} | tail -n 1`
 
 ## Get second line, with title
-title=`sed '2q;d' ${show_directory}${latest}`
+_title=`sed '2q;d' ${_show_directory}${_latest}`
 
 ## Get episode number
-episode=`echo ${title} | awk -F ' ' '{ print $4 }'`
+_episode=`echo ${_title} | awk -F ' ' '{ print $4 }'`
 
 ## Get date
-date=`echo ${title} | awk -F  ' ' '{ print $5 }' | tr -d '"'`
+_date=`echo ${_title} | awk -F  ' ' '{ print $5 }' | tr -d '"'`
 
 ## Print string
-output="<a style=\"font-weight:bold\" href=\"http://rubenerd.com/show${episode}/\">Latest Podcast: #${episode}, ${date}</a>"
-echo ${output} > ${latest_file}
+_output="${_pre_link}${_episode}/\">Latest Podcast: #${_episode}, ${_date}</a>"
+echo ${_output} > ${_latest_file}
 
-echo "      Added show #${episode} to sidebar successfully"
+## And that's a wrap
+echo "      Added show #${_episode} to sidebar successfully"
+exit
 
 ## EOF
 
