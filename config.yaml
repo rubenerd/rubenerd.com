@@ -16,4 +16,7 @@ log: false
 stepAnalysis: true
 author:
   name: "Ruben Schade"
+taxonomies:
+  category: "category"
+  tags: "tags"
 ---
