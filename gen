@@ -19,6 +19,8 @@ rm -rf ./public/*
 
 echo '☕  Print out latest podcast episode to sidebar...'
 ./scripts/latest-episode.sh
+git add ./layouts/partials sidebar.html
+git commit -m 'updated with latest episode'
 
 echo '☕  Building site with Hugo (may take a few moments)...'
 hugo
