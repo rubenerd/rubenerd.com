@@ -27,7 +27,7 @@ hugo
 
 echo '☕  Moving podcast feed to /show/feed/...'
 mkdir -p ./public/show/feed/
-mv -f ./public/categories/show/index.xml ./public/show/feed/
+mv -f ./public/category/show/index.xml ./public/show/feed/
 
 echo '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
@@ -37,19 +37,19 @@ mv -f ./public/index.xml ./public/feed/index.xml
 ## mv -f ./public/tags/whole-wheat-radio/index.xml 
 
 echo '☕  Removing all other generated feeds...'
-rm -rf ./public/categories/*/index.xml
+rm -rf ./public/category/*/index.xml
 rm -rf ./public/tags/*/index.xml
 
-echo '☕  Removing /categories/ from permalink, and /tags/ --> /tag/...'
-rm -rf ./public/categories/index.*
-mv -f ./public/categories/show/* ./public/show/
-rm -rf ./public/categories/show/
-mv -f ./public/categories/* ./public/
+echo '☕  Removing /category/ from permalink, and /tags/ --> /tag/...'
+rm -rf ./public/category/index.*
+mv -f ./public/category/show/* ./public/show/
+rm -rf ./public/category/show/
+mv -f ./public/category/* ./public/
 mv -f ./public/tags/ ./public/tag/
 
 echo '☕  Fixing category and tag URLs in generated pages (may take a few moments)...'
 for _post in ./public/*/*\.html; do
-    sed -i '' -e 's/\/categories\//\//g' ${_post}
+    sed -i '' -e 's/\/category\//\//g' ${_post}
     sed -i '' -e 's/\/tags\//\/tag\//g' ${_post}
 done
 
