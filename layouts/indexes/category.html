@@ -2,7 +2,9 @@
 {{ partial "sidebar.html" . }}
 
 <article id="archive">
-  <h1><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h1>
+  <h1><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h1>{{ if eq .Title "Show" }}
+  {{ partial "podcast.html" . }}
+  {{ end }}
   <p></p>
   <dl>{{ range .Data.Pages }}
     <dt><a href="{{ .Permalink }}">{{ .Title }}</a></span></dt>
