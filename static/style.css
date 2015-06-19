@@ -177,10 +177,10 @@ table th, table td { padding:5px 18px }
 
 
 /* Archive ****************************************************/
-#archive dl dt {
+/*#archive dl dt {
   float:left;
   margin-right:1em;
-}
+}*/
 .tags {
   font-size:14px;
   font-weight:600;
