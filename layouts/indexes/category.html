@@ -7,14 +7,18 @@
   {{ if eq .Title "Show" }}
   <h1><a href="/{{ .Title | lower }}/">Rubénerd Show</a></h1>
   {{ partial "podcast.html" . }}
+  <dl>{{ range .Data.Pages }}
+    <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
+    {{ if .Params.summary }}<dd>{{ .Params.summary }}</dd>{{ end }}
+  {{ end }}</dl>
   {{ else }}
   <h1><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h1>
   <p></p>
-  {{ end }}
   <dl>{{ range .Data.Pages }}
-    <dt><a href="{{ .Permalink }}">{{ .Title }}</a></span></dt>
+    <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
     <dd><small><time>{{ .Date.Format "02 Jan 2006" }}</time></small></dd>
   {{ end }}</dl>
+  {{ end }}
 </article>
 
 </main>
