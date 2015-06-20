@@ -18,5 +18,5 @@ author:
   name: "Ruben Schade"
 taxonomies:
   category: "category"
-  tags: "tags"
+  tag: "tag"
 ---
