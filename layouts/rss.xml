@@ -48,8 +48,8 @@
   <link>{{ .Permalink }}</link>
   <guid>{{ .Permalink }}</guid>
   <dc:creator>{{ .Site.Author.name }}</dc:creator>
-  {{ range .Params.categories }}<category>{{ . | lower }}</category>{{ end }}
-  {{ range .Params.tags }}<category>{{ . | lower }}</category>
+  <category>{{ .Params.category | lower }}</category>
+  {{ range .Params.tag }}<category>{{ . | lower }}</category>
   {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
   {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
