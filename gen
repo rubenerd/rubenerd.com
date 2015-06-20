@@ -46,7 +46,7 @@ mv -f ./public/category/show/* ./public/show/
 rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
 
-echo '☕  Fixing category and tag URLs in generated pages (may take a few moments)...'
+echo '☕  Fixing category URLs in generated pages (may take a few moments)...'
 for _post in ./public/*/*\.html; do
     sed -i '' -e 's/\/category\//\//g' ${_post}
 done
