@@ -38,19 +38,17 @@ mv -f ./public/index.xml ./public/feed/index.xml
 
 echo '☕  Removing all other generated feeds...'
 rm -rf ./public/category/*/index.xml
-rm -rf ./public/tags/*/index.xml
+rm -rf ./public/tag/*/index.xml
 
-echo '☕  Removing /category/ from permalink, and /tags/ --> /tag/...'
+echo '☕  Removing /category/ from permalink...'
 rm -rf ./public/category/index.*
 mv -f ./public/category/show/* ./public/show/
 rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
-mv -f ./public/tags/ ./public/tag/
 
 echo '☕  Fixing category and tag URLs in generated pages (may take a few moments)...'
 for _post in ./public/*/*\.html; do
     sed -i '' -e 's/\/category\//\//g' ${_post}
-    sed -i '' -e 's/\/tags\//\/tag\//g' ${_post}
 done
 
 echo '☕  Compressing (with rsync -z) and pushing to server...'
