@@ -12,7 +12,7 @@
     {{ .Content }}</div>
   <div class="tags" property="keywords">Filed under 
     {{ range .Params.categories }}<a href="/categories/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
-    {{ range .Params.tags }}<a href="/tags/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
+    {{ range .Params.tag }}<a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
   </div>
 </article>
 <hr role="separator" />
