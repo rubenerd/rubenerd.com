@@ -1,9 +1,9 @@
 <rss version="2.0"
   xml:base="http://rubenerd.com/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"
+  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
 
 <channel>
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
@@ -19,14 +19,14 @@
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
   {{ if eq .Title "Show" }}
-  <itunes:subtitle>A slice-of-life podcast of esoteric interests by Ruben Schade</itunes:subtitle>
+  <itunes:subtitle>A slice-of-life podcast of esoteric interests by Ruben Schade.</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
   <itunes:summary>A long-running slice-of-life podcast of esoteric interests from Singapore, Kuala Lumpur and Sydney. You have been warned.</itunes:summary>
   <itunes:owner>
     <itunes:name>Ruben Schade</itunes:name>
     <itunes:email>tubes@rubenschade.com</itunes:email>
   </itunes:owner>
-  <itunes:keywords>australia,sydney,singapore,life,esoteric,tech,anime,thoughts,time,jazz,ruben,schade</itunes:keywords>
+  <itunes:keywords>australia,sydney,singapore,life,esoteric,nostalgia,tech,anime,thoughts,time,jazz,ruben,schade,onsug,overnightscape underground</itunes:keywords>
   <itunes:image href="http://rubenerd.com/itunes-cover.png" />
   <itunes:category text="Society &amp; Culture">
     <itunes:category text="Personal Journals" />
@@ -37,7 +37,7 @@
   <image>
     <url>http://rubenerd.com/logo.rss.png</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
-    <link>{{ .Permalink }}{{ if eq .Title "Show"}}show/{{ end }}</link>
+    <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
     <width>144</width>
     <height>72</height>
     <description>{{ if eq .Title "Show" }}A slice-of-life podcast of esoteric interests by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
