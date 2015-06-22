@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ######
-## Ruben's Hugo Post Install Script of Doom
+## Ruben's Hugo Post-Generate Script of Doom
 ## April 2015
 
 set -e
@@ -33,12 +33,11 @@ echo '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
 mv -f ./public/index.xml ./public/feed/index.xml
 
-## echo '☕  Move Whole Wheat Radio feed so is not deleted...'
-## mv -f ./public/tags/whole-wheat-radio/index.xml 
-
 echo '☕  Removing all other generated feeds...'
 rm -rf ./public/category/*/index.xml
 rm -rf ./public/tag/*/index.xml
+
+exit
 
 echo '☕  Removing /category/ from permalink...'
 rm -rf ./public/category/index.*
