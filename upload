@@ -37,8 +37,6 @@ echo '☕  Removing all other generated feeds...'
 rm -rf ./public/category/*/index.xml
 rm -rf ./public/tag/*/index.xml
 
-exit
-
 echo '☕  Removing /category/ from permalink...'
 rm -rf ./public/category/index.*
 mv -f ./public/category/show/* ./public/show/
