@@ -46,11 +46,6 @@ mv -f ./public/category/show/* ./public/show/
 rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
 
-echo '☕  Fixing category URLs in generated pages (may take a few moments)...'
-for _post in ./public/*/*\.html; do
-    sed -i '' -e 's/\/category\//\//g' ${_post}
-done
-
 echo '☕  Compressing (with rsync -z) and pushing to server...'
 ${_rsync} --recursive --verbose --times --compress --rsh=ssh --checksum --delete \
     ./public/ ${_server}:${_virtual_root}/

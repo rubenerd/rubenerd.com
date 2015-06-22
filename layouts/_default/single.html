@@ -11,7 +11,7 @@
   <div property="articleBody">
     {{ .Content }}</div>
   <div class="tags" property="keywords">Filed under 
-    {{ if .Params.category }}<a href="/category/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a>{{ end }}
+    {{ if .Params.category }}<a href="/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a>{{ end }}
     {{ range .Params.tag }}<a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
   </div>
 </article>
