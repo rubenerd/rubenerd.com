@@ -177,15 +177,15 @@ table th, table td { padding:5px 18px }
 
 
 /* Archive ****************************************************/
-/*#archive dl dt {
-  float:left;
-  margin-right:1em;
-}*/
 .tags {
   font-size:14px;
   font-weight:600;
 }
 .tags a { white-space:nowrap }
+
+
+/* Podcast ****************************************************/
+.show-licence, .show-subscribe { font-style:italic }
 
 
 /* Footer *****************************************************/
