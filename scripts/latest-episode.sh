@@ -7,15 +7,15 @@
 
 set -e
 
-_show_directory="content/post/show/"
+_show_directory="./content/post/show/"
 _latest_file="layouts/partials/latest.html"
 _pre_link='<a style="font-weight:bold" href="http://rubenerd.com/show'
 
 ## Get latest episode
-_latest=`ls ${_show_directory} | tail -n 1`
+_latest=`ls ${_show_directory}show*html | tail -n 1`
 
 ## Get second line, with title
-_title=`sed '2q;d' ${_show_directory}${_latest}`
+_title=`sed '2q;d' ${_latest}`
 
 ## Get episode number
 _episode=`echo ${_title} | awk -F ' ' '{ print $4 }'`
