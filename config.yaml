@@ -13,7 +13,7 @@ permalinks:
   page: "/:filename/"
   post: "/:filename/"
 log: false
-stepAnalysis: true
+stepAnalysis: false
 author:
   name: "Ruben Schade"
 taxonomies:
