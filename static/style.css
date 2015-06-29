@@ -171,7 +171,10 @@ table th, table td { padding:5px 18px }
 
 
 /* Podcast ****************************************************/
-.show-licence, .show-release, .show-subscribe { font-style:italic }
+.show-licence, .show-release, .show-subscribe {
+  font-size:14px;
+  font-style:italic;
+}
 
 
 /* Footer *****************************************************/
