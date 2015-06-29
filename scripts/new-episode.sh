@@ -21,6 +21,7 @@ _new_episode="show${_new_number}.html"
 
 ## Create new episode file, using previous show as template
 cp -f ${_archive}${_previous_episode} ${_archive}${_new_episode}
+#cp -f ${_previous_episode} ${_new_episode}
 
 ## Get current date with Hugo formatting
 _time=`date +"${_time_fmt}"`
