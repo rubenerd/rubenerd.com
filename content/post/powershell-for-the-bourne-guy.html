@@ -1,0 +1,63 @@
+---
+title: "PowerShell for the Bourne guy"
+date: "2015-06-27T09:42:00+10:00"
+summary: ""
+category: Software
+tag:
+- shell-script
+---
+<p>As I'm sure was the case for many of you, the first scripts I wrote growing up were DOS batch files (with some nice PIFs to create icons in Program Manager, oh god I'm almost 30 and feeling every year already). Then I was introduced to the world of Linux, BSD and Mac OS X, and I left the Windows scripting world behind.</p>
+
+<p>Suffice to say, a lot has changed since. I read a rumour somewhere that an internal team were so frustrated with CMD.EXE and Microsoft's insistence that it couldn't be changed, that they came up with an entirely separate interpreter. That turned into Windows PowerShell, a .NET framework interface you can script with some eerily familar UNIX shortcuts.  
+
+<p>To help a friend out, I wrote my first PowerShell script today. The plan was to download a text file containing a URL on each line, then downloading each one individually.</p>
+
+<p>In Bourne shell style on BSD or OS X, I'd fire off something like this:
+
+<pre>
+#!/bin/sh 
+
+set -e
+
+_list = "http://SOMEWHERE/urls.txt"
+_urls = `curl -OL "${_list}"`
+
+for (_url in ${_urls}); do
+    echo "Downloading ${_url} ..."
+    curl -OL "${_url} 
+    sleep 10
+done;
+</pre>
+
+<p>PowerShell scripts use .NET framework classes to achieve similar things. If you've done any C#, these should be pretty familiar.</p>
+
+<p>First, the equivilent to Bourne shell's <code>set -e</code> which will stop execution when an operation returns a fail. Note that this often <strong>won't work</strong> if you're relying on external DOS or Windows tools, as their return values are... inconsistent at best.</p> 
+
+<pre>
+$ErrorActionPreference = "STOP"
+</pre>
+
+<p>To download our text file with URLs, we create a new web client, and use the <code>DownloadFile()</code> method. This silently fails when given a relative path (henefenegeneschmenem), so we have to find the current working directory and append the destination filename.</p>
+
+<pre>
+$List = "https://SOMEWHERE/urls.txt"
+$URLs = [System.IO.Path]::Combine($pwd.Path, "urls.txt")
+
+$Client = New-Object System.Net.Webclient
+$Client.DownloadFile($List, $URLs)
+</pre>
+
+<p>Now we can download each line. <code>Get-Content</code> returns each line.</p>
+
+<pre>
+foreach ($URL in Get-Content $URLs) {
+    $Filename = [System.IO.Path]::GetFileName($URL)
+    $File = [System.IO.Path]::Combine($pwd.Path, $Filename)
+    $Client.DownloadFile($URL, $File)
+
+    $Start-Sleep -s 10
+}
+</pre>
+
+<p>Learning new programming languages and tools massages my brain like a good brain massage. I'm by no means a PowerShell expert, and I'd still far prefer writing *nix scripts, but this was a really fun exercise.</p>
+
