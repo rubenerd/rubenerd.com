@@ -151,7 +151,7 @@ img, object, iframe, video, audio { max-width:100% }
 /* Articles: Code, Quotes, Tables *****************************/
 code, pre {
   font-family: "Lucida Console",monospace;
-  font-size:14px;
+  font-size:13px;
 }
 pre {
   line-height:16px;
