@@ -1,0 +1,51 @@
+---
+title: "Say what, Perl?"
+date: "2015-07-03T17:28:00+10:00"
+summary: "Since Perl 5.10, say will print strings with newlines."
+category: Software
+tag:
+- guides
+- perl
+---
+<p><a href="https://www.flickr.com/photos/rubenerd/10549087343"><img src="https://farm8.staticflickr.com/7369/10549087343_e8bd93104a_b.jpg" alt="" style="width:500px;" /></a></p>
+
+<p>Unlike in other languages, Perl's default print function doesn't print newlines by default. This is often desirable, such as in this case:</p>
+
+<pre>
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+print("Please enter your name: ");
+my $name = &lt;STDIN&gt;;
+</pre>
+
+<p>The resulting prompt will have the user type their name on the same line.</p>
+
+<pre>
+Please enter your name: Tousaka Rin
+</pre>
+
+<p>In situations where you want a newline, you use the standard <code>\n</code>:</p>
+
+<pre>
+print("Zettai Ryouiki FTW\n");
+print("Tousakaaaaaa!\n");
+</pre>
+
+<p>This was the subject of ridicule from my Ruby development friends in the past, so in 2010 I <a href="http://rubenerd.com/puts-for-perl/">presented a function</a> that did the same thing. Recent Perl versions have an even shorter function name, with the say command. The following will print the same as the above:
+
+<pre>
+say("Zettai Ryouiki FTW");
+say("Tousakaaaaaaa!")
+</pre>
+
+<p>You can use this in your scripts today by requiring at least Perl 5.10, or explicitly enabling the feature:</p>
+
+<pre>
+use 5.010;
+use feature qw(say);
+</pre>
+
+<p>Done, and done.</p>
