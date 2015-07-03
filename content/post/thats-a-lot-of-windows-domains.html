@@ -12,39 +12,39 @@ tag:
 
 <p>According to <a href="https://technet.microsoft.com/en-au/library/cc708605%28v=ws.10%29.aspx">this Technet article</a>, the following domains are required for successful Windows Updates:</p> 
 
-<ul>
-<li><code>http://windowsupdate.microsoft.com</code></li>
-<li><code>http://*.windowsupdate.microsoft.com</code></li>
-<li><code>https://*.windowsupdate.microsoft.com</code></li>
-<li><code>http://*.update.microsoft.com</code></li>
-<li><code>https://*.update.microsoft.com</code></li>
-<li><code>http://*.windowsupdate.com</code></li>
-<li><code>http://download.windowsupdate.com</code></li>
-<li><code>http://download.microsoft.com</code></li>
-<li><code>http://*.download.windowsupdate.com</code></li>
-<li><code>http://wustat.windows.com</code></li>
-<li><code>http://ntservicepack.microsoft.com</code></li>
-</ul>
+<pre>
+http://windowsupdate.microsoft.com
+http://*.windowsupdate.microsoft.com
+https://*.windowsupdate.microsoft.com
+http://*.update.microsoft.com
+https://*.update.microsoft.com
+http://*.windowsupdate.com
+http://download.windowsupdate.com
+http://download.microsoft.com
+http://*.download.windowsupdate.com
+http://wustat.windows.com
+http://ntservicepack.microsoft.com
+</pre>
 
 <p>And according to <a href="https://support.microsoft.com/en-us/kb/921471">this knowledgebase article</a>, these URLs are required to be bypassed if you're running a proxy server, otherwise Windows Activation will fail:</p>
 
-<ul>
-<li><code>http://go.microsoft.com/</code></li>
-<li><code>https://sls.microsoft.com/</code></li>
-<li><code>https://sls.microsoft.com:443</code></li>
-<li><code>http://crl.microsoft.com/pki/crl/products/MicrosoftRootAuthority.crl</code></li>
-<li><code>http://crl.microsoft.com/pki/crl/products/MicrosoftProductSecureCommunications.crl</code></li>
-<li><code>http://www.microsoft.com/pki/crl/products/MicrosoftProductSecureCommunications.crl</code></li>
-<li><code>http://crl.microsoft.com/pki/crl/products/MicrosoftProductSecureServer.crl</code></li>
-<li><code>http://www.microsoft.com/pki/crl/products/MicrosoftProductSecureServer.crl</code></li>
-<li><code>https://activation.sls.microsoft.com</code></li>
-</ul>
+<pre>
+http://go.microsoft.com/
+https://sls.microsoft.com/
+https://sls.microsoft.com:443
+http://crl.microsoft.com/pki/crl/products/MicrosoftRootAuthority.crl
+http://crl.microsoft.com/pki/crl/products/MicrosoftProductSecureCommunications.crl
+http://www.microsoft.com/pki/crl/products/MicrosoftProductSecureCommunications.crl
+http://crl.microsoft.com/pki/crl/products/MicrosoftProductSecureServer.crl
+http://www.microsoft.com/pki/crl/products/MicrosoftProductSecureServer.crl
+https://activation.sls.microsoft.com
+</pre>
 
 <p>And finally, these URLs are required for your daily dose of nostalgially bad web design:</p>
 
-<ul>
-<li><code>http://rubenerd.com/</code></li>
-</ul>
+<pre>
+http://rubenerd.com/
+</pre>
 
 <p>It reminds me of all the <a href="http://rubenerd.com/owa-and-noscript/">domains I had to whitelist</a> in NoScript to access my student email in Outlook Web Access. As much as I dislike and not trust Google thesedays, I only needed <strong>one</strong> domain for Gmail to work back then.</p>
 
