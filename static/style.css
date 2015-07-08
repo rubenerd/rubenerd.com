@@ -24,9 +24,12 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html {
-  background:#000066; /* +4 */
-  border-top:10px solid #0099ff;
+  background:#000066;
   color:#ccccff;
+}
+#skyline {
+  background:#0099ff url("sydney.png") top center no-repeat;
+  height:100px;
 }
 h1 a, h2 a, h3 a, table th, nav a, #archive a { color:#ffffff }
 #sidebar nav a,a, time { color:#0099ff }
@@ -42,19 +45,29 @@ input {
 }
 
 
+/* Palette for Retina displays ********************************/
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    #skyline {
+        background:#0099ff url("sydney2x.png") top center no-repeat;
+        background-size:472px 100px;
+    }
+
+}
+
 /* Top ********************************************************/
 html {
   height:100%;        /* persistent vertical scrollbars */
   overflow-y:scroll;  /* persistent vertical scrollbars */
-  text-align:center;  /* ie6: centering */
 }
 body {
   /* Let agent choose font size (accessibility, readability, ility-ility, ah the praties) */
   font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
-  margin:0px auto;
-  padding:60px 0px 120px 0px;
-  text-align:left;  /* ie6: centering */
-  width:800px;
+  text-align:center;  /* ie6: centering */
 }
 h1 { font-size:24px }
 h2, h3 { 
@@ -69,6 +82,15 @@ a, h1 a:hover { text-decoration:underline }
 h1 a, a:hover { text-decoration:none }
 img { display:inline; /* mozilla: fix default behaviour */ }
 ul { list-style-type:circle; }
+
+
+/* Sandwich Wrapper *******************************************/
+#sandwich-wrapper {
+  margin:0px auto;
+  padding:50px 0px 120px 0px;
+  text-align:left;  /* ie6: centering */
+  width:800px;
+}
 
 
 /* Accessibility **********************************************/
@@ -196,13 +218,9 @@ input[type=text] {
 }
 
 
-/* Retina screens *********************************************/
-@media (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution:192dpi) { }
-
 /* Smaller screens ********************************************/
 @media screen and (max-width: 880px) {
-  body {
+  #sandwich-wrapper {
     padding:40px 0;
     width:600px;
   }
@@ -223,7 +241,7 @@ input[type=text] {
 /* Smallest screens ******************************************/
 @media screen and (max-width: 660px) {
   html { border:0 }
-  body {
+  #sandwich-wrapper {
     margin:0;
     min-width:320px;
     width:auto;
