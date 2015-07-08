@@ -1,5 +1,5 @@
 <rss version="2.0"
-  xml:base="http://rubenerd.com/"
+  xml:base="{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
@@ -31,7 +31,6 @@
   <itunes:category text="Society &amp; Culture">
     <itunes:category text="Personal Journals" />
   </itunes:category>
-  <itunes:category text="Technology" />
   <itunes:explicit>no</itunes:explicit>
   {{ end }}
   <image>
