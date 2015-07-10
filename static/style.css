@@ -25,7 +25,7 @@ hgroup, main, menu, nav, section { display:block }
 /* Palette ****************************************************/
 html {
   background:#000066;
-  color:#ccccff;
+  color:#ccccee;
 }
 #skyline {
   background:#0099ff url("sydney.png") top center no-repeat;
