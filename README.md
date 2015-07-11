@@ -28,7 +28,7 @@ Broadly speaking, don't be a dick!
 
 Shell scripts are released under the [BSD 3-Clause Licence](http://opensource.org/licenses/BSD-3-Clause). They're fairly specialised for what I need, but you may find something useful.
 
-Referenced podcast audio files are licenced under [Creative Commons Attribution Share-Alike 2.5](https://creativecommons.org/licenses/by-sa/2.5/) or later, in your jurisdiction.
+Referenced podcast audio files are licenced under [Creative Commons Attribution Share-Alike 3.0](https://creativecommons.org/licenses/by-sa/3.0/) or later, in your jurisdiction.
 
 By violating any of the above, you legally agree for me to mock you publicly :).
 
