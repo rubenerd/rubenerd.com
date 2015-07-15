@@ -1,0 +1,57 @@
+---
+title: "Renaming files with invalid characters"
+summary: "Using the file's inode and find command to rename instead."
+date: "2015-07-13T17:56:00+10:00"
+category: Software
+tag:
+- linux
+- bsd
+- freebsd
+- netbsd
+---
+<p style="font-style:italic"><strong>WARNING:</strong> Messing with inodes should be seen as a last resort for end users, not least seasoned sysadmins. <strong>Be extremely careful</strong>. Measure ten times, then ten more times, then cut once. I won't be held responsible for data loss, and by reading this post, you agree.</p>
+
+<p>Whew. So I thought I was being all clever with my regex and batch processing foo. Unfortunately, I ended up with a stupid file named this:</p>
+
+<pre>
+$ ls
+==&gt; Ruben\ Baka
+</pre>
+
+<p style="font-style:italic">(For the pedants, this is a contrived example. The original file I had contained a smorgasboard of characters; and not in a good way).</p>
+
+<p>While an accurate name, the backslash prevents renaming it with traditional tools, because the shell expands them. The road to infinity is paved with escaping escaped characters and vain attempts at wrapping quotes and such.</p>
+
+<pre>
+$ mv 'Ruben\ Baka' NewName 
+==&gt; mv: cannot stat 'Ruben\\ Stupid': No such file or directory
+</pre>
+
+<p>We can keep going down the rabbit hole of escaping characters, or we can rename the file using its inode. For those who don't know what these are, Linux Magazine ran an <a href="http://www.linux-mag.com/id/8658/">excellent article</a> on them. The -i flag for ls identifies the inode for a file:</p>
+
+<pre>
+$ ls -i
+==&gt; 101010 Ruben\ Baka
+</pre>
+
+<p>Using this inode, we can rename the file thusly:</p>
+
+<pre>
+$ find . -inum 101010 Ruben\ Baka -exec mv {} NewName \;
+</pre>
+
+<p>Running this on Debian produced no output. FreeBSD and NetBSD's find commands note that they can no longer find the file under the original name:</p>
+
+<pre>
+==&gt; find: ./Ruben\\ Baka: No such file or directory
+</pre>
+
+<p>And now we can confirm the rename was successful.</p>
+
+<pre>
+$ ls
+==&gt; NewName
+</pre>
+
+<p>Now all that's left is to tell you that inode 101010 is 42 in binary, even though inode numbers are expressed in decimal. Must you pedants ruin all the things?</p>
+
