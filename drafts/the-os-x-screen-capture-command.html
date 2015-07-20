@@ -1,0 +1,24 @@
+---
+title: "The OS X screen capture command"
+date: "2015-07-20T12:01:00+10:00"
+summary: "When something is about to change, it takes its time!"
+category: Software
+tag:
+- os-x
+- screenshots
+---
+<p>Somewhere in the OS X source, there must be something like this.</p>
+
+<pre>
+#include &lt;stdio.h&gt;
+#include &lt;unistd.h&gt;
+#include &lt;urgency.h&gt;
+
+int main(int argc, const char **argv) {
+    if (argc == 1 &amp;&amp; argv[0] == EPHEMERAL) {
+        sleep(5);
+    }
+    screenshot();
+    return 0;
+}
+</pre>
