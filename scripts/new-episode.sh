@@ -36,7 +36,7 @@ sed -i '' -e "s/^date.*/date: \"${_date}T${_time}\"/" \
     ${_archive}${_new_episode}
 
 ## Replace title
-sed -i '' -e "s/^title.*/title: \"Rubénerd ${_new_number} ${_date}\"/" \
+sed -i '' -e "s/^title.*/title: \"Rubénerd Show ${_new_number} ${_date}\"/" \
     ${_archive}${_new_episode}
 
 echo "New episode ${_new_number} created, opening editor..."
