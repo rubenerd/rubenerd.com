@@ -8,7 +8,7 @@ tag:
 - scripting
 - bourne-shell
 ---
-<p>I've always relied on Perl for sysadmin tasks, but I've been trying to get better at Bourne shell scripting. One operation I did constantly in Perl was searching for substrings:</p>
+<p>I’ve always relied on Perl for sysadmin tasks, but I’ve been trying to get better at Bourne shell scripting. One operation I did constantly in Perl was searching for substrings:</p>
 
 <pre>
 #!/usr/bin/env perl
@@ -22,7 +22,7 @@ my $sub  = "ryouiki"
 print "Tousaka!" if ($line =~ m/substring);
 </pre>
 
-<p>Until now I'd just been using grep, like a gentleman. If you're network–bound and have a limited number of comparisons, it's fine. Otherwise, its slow enough that even an i5 MacBook Air takes a moment between each operation.</p>
+<p>Until now I’d just been using grep, like a gentleman. If you’re network–bound and have a limited number of comparisons, it’s fine. Otherwise, it’s slow enough that even an i5 MacBook Air takes a moment between each operation.</p>
 
 <pre>
 #!/bin/sh
