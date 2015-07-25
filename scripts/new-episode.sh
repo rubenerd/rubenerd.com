@@ -2,47 +2,46 @@
 
 ######
 ## Script to generate new podcast episode file
-## Uses previous episode as template
-## It should use a Hugo archetype; and we should also exercise more 
-## Created 2015-06-12
+##
+## 2015-07-26: Added Onsug date, fixed hugo frontmatter date
+## 2015-06-12: Created
 
 set -e
 
-_archive="content/post/show/"
-_time_fmt="%H:%M:%S%z"
-_date_fmt="%Y-%m-%d"
-_editor="mvim"
+_archive="content/post/show/"  ## Where show files are located
+_template="drafts/show.html"   ## Template to generate new show files
+_time_fmt="%H:%M:%S%z"         ## Time format for Hugo frontmatter
+_date_fmt="%Y-%m-%d"           ## Date format for Hugo frontmatter
+_onsug_date_fmt="%B %Y"        ## For "Released July 2015 on Onsug" date 
+_editor="mvim"                 ## Editor to launch after
 
 ## Get latest episode file and number
-_previous_episode=`ls -1 ${_archive} | tail -n 1`
-_previous_number=`echo ${_previous_episode} | sed 's/\.html//' | sed 's/show//'`
-_new_number=`expr ${_previous_number} + 1`
-_new_episode="show${_new_number}.html"
+_last_episode=`ls -1 ${_archive} | tail -n1 | sed 's/show//' | sed 's/\.html//'`
+_new_number=`expr ${_last_episode} + 1`
+_new_episode="${_archive}show${_new_number}.html"
 
-## Create new episode file, using previous show as template
-cp -f ${_archive}${_previous_episode} ${_archive}${_new_episode}
-#cp -f ${_previous_episode} ${_new_episode}
+## Create new episode file using template
+cp -f ${_template} ${_new_episode}
 
-## Get current date with Hugo formatting
-_time=`date +"${_time_fmt}"`
+## Get current date with required Hugo formatting
+_time=`date +"${_time_fmt}" | sed -e 's/00$/:00/'`
 _date=`date +"${_date_fmt}"`
+_onsug_date=`date +"${_onsug_date_fmt}"`
 
 ## Replace episode number
-sed -i '' -e "s/${_previous_number}/${_new_number}/g" \
-    ${_archive}${_new_episode}
+sed -i '' "s/SHOWNUM/${_new_number}/g" ${_new_episode}
 
-## Replace date
-sed -i '' -e "s/^date.*/date: \"${_date}T${_time}\"/" \
-    ${_archive}${_new_episode}
+## Replace dates
+sed -i '' "s/^date.*/date: \"${_date}T${_time}\"/" ${_new_episode}
+sed -i '' "s/ONSUGDATE/${_onsug_date}/" ${_new_episode}
 
 ## Replace title
-sed -i '' -e "s/^title.*/title: \"Rubénerd Show ${_new_number} ${_date}\"/" \
-    ${_archive}${_new_episode}
+sed -i '' "s/^title.*/title: \"Rubénerd Show ${_new_number} ${_date}\"/" \
+    ${_new_episode}
 
 echo "New episode ${_new_number} created, opening editor..."
-`${_editor} ${_archive}${_new_episode}` &
+`${_editor} ${_new_episode}` &
 
 exit
 
 ## EOF
-
