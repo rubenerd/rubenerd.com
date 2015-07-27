@@ -2,7 +2,7 @@
 
 set -e
 
-_files="./ia/"
+_meta_files="./ia/"
 _id="RubenerdShow281"
 
 echo "Checking if eyeD3 is installed..."
@@ -11,8 +11,9 @@ command -v eyeD3 >/dev/null 2>&1 || {
   exit 1
 }
 
+cp "~/Music/${_id}/${_id}.mp3" "~/Music/${_id}/onsug_${_id}.mp3"
+
 eyeD3 \
-  --fs-encoding "utf-8" \
   --artist "${_creator}" \
   --album "${_series}" \
   --album-artist "${_creator}" \
@@ -23,7 +24,7 @@ eyeD3 \
   --add-lyrics "${_files}${_id}_lyrics.txt" \
   --remove-all-images \
   --add-image "${_files}${_id}.png:FRONT_COVER" \
-  --encoding "utf-8" \
+  --encoding "utf8" \
   --preserve-file-times \
   "${_file}{$_id}.mp3"
 
@@ -31,7 +32,6 @@ eyeD3 \
 
 onsug() {
 eyeD3 \
-  --fs-encoding "utf-8" \
   --artist "${_creator}" \
   --album "Overnightscape Underground ${_series}" \
   --album-artist "${_creator}" \
