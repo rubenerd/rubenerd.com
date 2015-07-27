@@ -22,7 +22,7 @@ eyeD3 \
   --release-year ${_year} \
   --add-lyrics "${_files}${_id}_lyrics.txt" \
   --remove-all-images \
-  --add-image "${_files}${_id}.png" \
+  --add-image "${_files}${_id}.png:FRONT_COVER" \
   --encoding "utf-8" \
   --preserve-file-times \
   "${_file}{$_id}.mp3"
