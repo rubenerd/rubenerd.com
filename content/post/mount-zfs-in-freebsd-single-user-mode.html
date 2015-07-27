@@ -1,0 +1,37 @@
+---
+title: "Mount ZFS in FreeBSD single user mode"
+date: "2015-07-27T14:46:00+10:00"
+summary: "Using mount -a -t zfs."
+category: Software
+tag:
+- bsd
+- disks
+- freebsd
+- guides
+- zfs
+---
+<p>I've had a decent amount of experience with ZFS for data volumes, but it wasn't till FreeBSD 10 that I've been using it for my boot volume. In the process, I've found myself relearing a lot of tooling.</p>
+
+<p>A mistake BSDers are all too familiar with is an rc.conf typo, which results in this after a reboot:</p>
+
+<pre>
+/etc/rc.conf: 19: Syntax error: Unterminated quoted string
+Enter full pathname of shell or RETURN for /bin/sh:
+</pre>
+
+<p>In the case of UFS2+, you'd mount read-write and edit the file. With a ZFS pool however, you get this:</p>
+
+<pre>
+# mount -w /
+==&gt; mount: /: unknown special file or file system.
+</pre>
+
+<p>Instead, you mount the following:</p>
+
+<pre>
+# mount -u /
+# mount -a -t zfs
+</pre>
+
+<p>Now you can correct your mistake and be on your way.</p>
+
