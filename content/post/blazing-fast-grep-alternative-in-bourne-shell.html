@@ -1,0 +1,44 @@
+---
+title: "Blazing fast grep alternative in Bourne shell"
+date: "2015-07-25T11:49:00+10:00"
+summary: "Because grep and pipes are slow as."
+category: Software
+tag:
+- guides
+- scripting
+- bourne-shell
+---
+<p>I’ve always relied on Perl for sysadmin tasks, but I’ve been trying to get better at Bourne shell scripting. One operation I did constantly in Perl was searching for substrings:</p>
+
+<pre>
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my $string = "Zettai ryouiki"
+my $sub  = "ryouiki"
+
+print "Tousaka!" if ($line =~ m/substring);
+</pre>
+
+<p>Until now I’d just been using grep, like a gentleman. If you’re network–bound and have a limited number of comparisons, it’s fine. Otherwise, it’s slow enough that even an i5 MacBook Air takes a moment between each operation.</p>
+
+<pre>
+#!/bin/sh
+_string="Zettai ryouiki"
+_sub="ryouiki"
+
+[ `echo ${_string} | grep '${_sub}'` ] &amp;&amp; echo "Tousaka!"
+</pre>
+
+<p>We can do better. An alternative is this neat trick, proposed by <a href="http://stackoverflow.com/a/8811800">Matt Day</a> on Stack Overflow:</p>
+
+<pre>
+if test "${_string#*$_sub}" != "${_string}"; then
+    echo "Tousaka!"
+fi
+</pre>
+
+<p>No pipes, no grep, just speed. <em>Sugoi!</em></p>
+
