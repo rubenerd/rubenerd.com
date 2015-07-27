@@ -16,16 +16,18 @@ tag:
 use strict;
 use warnings;
 
-my $string = "Zettai ryouiki"
-my $sub  = "ryouiki"
+my $string = "Zettai ryouiki";
+my $sub    = "ryouiki";
 
-print "Tousaka!" if ($line =~ m/substring);
+print "Tousaka!" if ($line =~ m/substring/);
 </pre>
 
 <p>Until now I’d just been using grep, like a gentleman. If you’re network–bound and have a limited number of comparisons, it’s fine. Otherwise, it’s slow enough that even an i5 MacBook Air takes a moment between each operation.</p>
 
 <pre>
 #!/bin/sh
+set -e
+
 _string="Zettai ryouiki"
 _sub="ryouiki"
 
