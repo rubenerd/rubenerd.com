@@ -18,8 +18,9 @@ _date_fmt='%Y-%m-%dT%H:%M:%S%z';
 
 ## Default show attributes (will be asked for)
 _show='Rubénerd Show'
-_host='Ruben Schade';
-_licence='http://creativecommons.org/licenses/by/3.0/';
+_host='Ruben Schade'
+_licence='http://creativecommons.org/licenses/by/3.0/'
+_location='Sydney, Australia'
 
 ## Individual episode attributes (will be asked for)
 _number=0;
