@@ -35,6 +35,19 @@ _onsug_title_date=''    ## "Show 21 (7/12/15)"
 
 
 ###########################################################
+## Function to ask question, compare to default
+
+function ask() {
+    _question=$1
+    _default=$2
+
+    read -p "$_question ($_default): " _in
+    [ -n "$_in" ] && _default=$_in
+    echo $_default
+    return 0
+}
+
+###########################################################
 ## Script
 
 ## Splash screen!
@@ -47,19 +60,14 @@ echo
 _date=`date +"$_date_fmt" | sed 's/00$/:00/'`
 
 ## Ask for details
-read -p "Name of the show ($_show): " _in
-[ -n "$_in" ] && _show=$_in
+_show=`ask "Name of the show" "$_show"`
+_host=`ask "Host of the show" "$_host"`
+_number=`ask "Episode number" "$_number"`
+_date=`ask "Release date" "$_date"`
+_location=`ask "Location" "$_location"`
+_licence=`ask "Licence" "$_licence"`
+read -p "Show description, in one line: " _description 
 
-read -p "Host of the show ($_host): " _in
-[ -n "$_in" ] && _host=$_in
+###########################################################
 
-read -p "Episode number ($_number): " _in
-[ -n "$_in" ] && _number=$_in
-
-read -p "Release date ($_date): " _in
-[ -n "$_in" ] && _date=$_in
-
-read -p "Description: " _description
-
-read -p "Licence ($_licence): " _in
-[ -n "$_in" ] && _licence=$_in
+exit 0
