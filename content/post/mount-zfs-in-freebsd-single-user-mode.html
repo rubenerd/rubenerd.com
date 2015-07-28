@@ -10,6 +10,8 @@ tag:
 - guides
 - zfs
 ---
+<p><img src="http://files.rubenerd.com/2015/icon.freebsd.png" alt="FreeBSD" style="width:87px; height:87px; float:right; margin:0 0 10px 20px" /></p>
+
 <p>I've had a decent amount of experience with ZFS for data volumes, but it wasn't till FreeBSD 10 that I've been using it for my boot volume. In the process, I've found myself relearing a lot of tooling.</p>
 
 <p>A mistake BSDers are all too familiar with is an rc.conf typo, which results in this after a reboot:</p>
@@ -19,7 +21,7 @@ tag:
 Enter full pathname of shell or RETURN for /bin/sh:
 </pre>
 
-<p>In the case of UFS2+, you'd mount read-write and edit the file. With a ZFS pool however, you get this:</p>
+<p>In the case of UFS2, you'd mount read-write and edit the file. With a ZFS pool however, you get this:</p>
 
 <pre>
 # mount -w /
