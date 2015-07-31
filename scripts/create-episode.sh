@@ -10,7 +10,7 @@ set -e
 
 
 ###########################################################
-## Configuration and variables
+## User-editable configuration 
 
 ## Locations to find things
 _home="/Users/`whoami`"
@@ -21,43 +21,59 @@ _episode_prefix='show'
 ## Episode details (will be asked for)
 _show='Rubénerd Show'
 _host='Ruben Schade'
+_url='http://rubenerd.com/show/'
 _licence_url='http://creativecommons.org/licenses/by/3.0/'
 _licence_title='Creative Commons Attribution 3.0'
 _location='Sydney, Australia'
 _title='';          ## The something episode!
-_number='283';
+_number='300';
 _description='';
+
+## Frame URLs
+_WPUB='http://rubenerd.com/show'
+
+## Onsug details
+_onsug_abbr='rs'  ## Onsug abbreviation onsug_DATE_rs000.mp3
 
 ## Internet Archive details
 _collection='rubenerdshow'      ## such as "community-audio"
 _email='rubenschade@gmail.com'  ## username
 _subject='rubenerd'             ## gets added as a tag
 
-## These are automatically generated
+
+###########################################################
+## Automatically-generated configuration
+
+## Text
 _id=''                  ## eg "RubenerdShow218"
+_description_text=''    ## without html
+_size=0;                ## -> from mp3
+_duration='00:00';      ## -> from mp3
+
+## Dates
 _date_time='';          ## for Hugo frontmatter
 _date='';               ## for Hugo title
 _date_time_utc='';      ## for Internet Archive
 _date_utc='';           ## for Internet Archive
 _year_utc='';           ## for Internet Archive
-_size=0;                ## -> from mp3
-_duration='00:00';      ## -> from mp3
-_onsug_folder_date=''   ## eg "onsug.com/Jul15/file.mp3"
+_onsug_file_date=''     ## eg "onsug.com/Jul15/file.mp3"
 _onsug_release_date=''  ## eg "Released July 2015 on Onsug.."
 _onsug_title_date=''    ## eg "Rubenerd Show 200 (7/12/15)"
 
 ## Formats for processing dates
-_date_time_fmt='%Y-%m-%dT%H:%M:%S%z';
+_date_time_tz_fmt='%Y-%m-%dT%H:%M:%S%z';
+_date_time_fmt='%Y-%m-%d %H:%M:%S';
 _date_fmt='%Y-%m-%d';
 _year_fmt='%Y';
 _onsug_folder_date_fmt='%b%y';
 _onsug_release_date_fmt='%B %Y';
 _onsug_title_date_fmt='(%-m/%-d/%y)';
 
+
 ###########################################################
 ## Helper functions
 
-## Print standard string
+## Print standard string nicely
 function say() { 
     printf "%s\n" "$1"
 }
@@ -72,7 +88,7 @@ function ask() {
     echo $_default
 }
 
-## Verifies file exists, and lets user know
+## Verifies file exists, otherwise exit script
 function find() {
     _file=$1
     printf "%s" "$1... "
@@ -85,8 +101,14 @@ function find() {
     fi
 }
 
+## Strips out HTML tags
+function strip() {
+    echo "$1" | sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
+}
+
+
 ###########################################################
-## Script
+## SCRIPT START 
 
 ## Splash screen!
 clear
@@ -94,25 +116,39 @@ say "Ruben's and Clara's Podcast Generator 5000!"
 say "==========================================="
 say ""
 
+
+###########################################################
 ## Check dependencies
-[ -f "$_home/.netrc" ] && command -v eyeD3 >/dev/null || {
-    say "~/.netrc not found, or eyeD3 not installed."
+
+[ -f "$_home/.netrc" ] && \
+    command -v eyeD3 >/dev/null && \
+    command -v convert >/dev/null || {
+    say "~/.netrc, eyeD3 or ImageMagick/GraphicsMagick not found."
+    say "Check they exist or are installed and try again."
     exit 1
 }
 
+
+###########################################################
 ## Get curent date and time (time is messy)
-_date_time=`date +"$_date_time_fmt" | sed 's/00$/:00/'`
+
+_date_time=`date +"$_date_time_tz_fmt" | sed 's/00$/:00/'`
 _date=`date +"$_date_fmt"`
-_date_time_utc=`date -u +"$_date_time_fmt" | sed 's/00$/:00/'`
+_year=`date +"$_year_fmt"`
+_date_time_utc=`date -u +"$_date_time_fmt"`
 _date_utc=`date -u +"$_date_fmt"`
 _year_utc=`date -u +"$_year_fmt"`
-_onsug_folder_date=`date -u +"$_onsug_folder_date_fmt"`
+_onsug_file_date=`date -u +"$_onsug_folder_date_fmt"`
 _onsug_release_date=`date -u +"$_onsug_date_fmt"`
 _onsug_title_date=`date -u +"$onsug_title_date_fmt"`
 
-## Ask for details
+
+###########################################################
+## Ask show host for details
+
 _show=`ask "Name of the show" "$_show"`
 _host=`ask "Host of the show" "$_host"`
+_url=`ask "URL of site hosting show" "$_url"`
 _number=`ask "Episode number" "$_number"`
 _date_time=`ask "Release date and time" "$_date_time"`
 _location=`ask "Location" "$_location"`
@@ -121,30 +157,130 @@ _licence_title=`ask "Licence URL" "$_licence_title"`
 read -p "Episode title (The ... episode!): " _title
 read -p "Episode description, in one line: " _description 
 
+
+###########################################################
+## Derive text 
+
+say ""
+say "Creating show ID and plain text description for MP3..."
+
 ## Convert show into id (removing spaces, etc)
 _id=`printf "%s" "$_show$_number" | sed 's/ //g' | sed 's/é/e/'`
 
-## Search for source MP3 and cover art files
+## Make plain text description for MP3 id3 tags, IA
+_description_text=`strip "$_description"`
+
+
+###########################################################
+## Verify source MP3 and cover art, quit if we can't find
+
 say ""
 say "Will now search for the following assets:"
+
 find "$_bucket/$_id.mp3"
 find "$_bucket/$_id.png"
 
-## Copy mp3 for onsug
 
-## eyed3 tags for ia
+###########################################################
+## Prepare filenames, images for onsug
 
-## eyeD3 tags for onsug 
+say ""
+say "Creating Onsug MP3 and image copies..."
 
-## Get size of episode
+cp "$_bucket/$_id.mp3" \
+    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
+
+convert -resize 288x288 "$_bucket/$_id.png" \
+    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
 
 
-############################################################
+###########################################################
+## Create JPG cover art version for IA thumbnail
+
+say ""
+say "Creating JPG cover art for Internet Archive thumbnail..."
+
+convert -quality 98 "$_bucket/$_id.png" "$_bucket/$_id.jpg"
+
+
+###########################################################
+## Create lyrics file for MP3
+
+say ""
+say "Creating lyrics file for MP3 from description..."
+
+cat > "$_bucket/${_id}_lyrics.txt" <<EOF
+$_title
+
+$_duration – $_description_text
+
+Recorded in $_location. Licence for this track: $_licence_title. Attribution: $_host.
+
+Released $_onsug_release_date on The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
+
+EOF
+
+
+###########################################################
+## Tag Internet Archive mp3 with id3tags
+
+eyeD3 \
+    --remove-all \
+    --artist "$_host" \
+    --album "$_show" \
+    --album-artist "$_host" \
+    --title "$_show $_number $_date" \
+    --track $_number \
+    --genre "New Time Radio" \
+    --release-year $_year \
+    --add-lyrics "$_bucket/${_id}_lyrics.txt" \
+    --add-image "$_bucket/${_id}.png:FRONT_COVER" \
+    --encoding "utf8" \
+    --url-frame "WOAF:http://archive.org/download/$_id/$_id.mp3"
+    --url-frame "WOAS:http://rubenerd.com/show$_number.mp3"
+    --url-frame "WCOP:$_licence_url" \
+    --url-frame "WPUB:$_url" \
+    --preserve-file-times \
+    "$_bucket/$_id.mp3"
+
+
+###########################################################
+## Tag Onsug mp3 with id3tags
+
+eyeD3 \
+    --remove-all \
+    --artist "$_host" \
+    --album "Overnightscape Undeground - $_onsug_release_date" \
+    --title "$_show $_description ($_onsug_title_date)" \
+    --genre "New Time Radio" \
+    --release-year $_year \
+    --add-lyrics "$_bucket/${_id}_lyrics.txt" \
+    --add-image "$_bucket/${_id}.png:FRONT_COVER" \
+    --encoding "utf8" \
+    --url-frame "WCOP:$_licence_url" \
+    --url-frame "WPUB:$_url" \
+    --preserve-file-times \
+    "$_bucket/$_id.mp3"
+
+
+###########################################################
+## Get episode duration and size with cover art and lyrics
+
+_size=`stat -f %z $_bucket/$_id.mp3`
+
+_duration=`eyeD3 "$_bucket/$_id.mp3" | awk '/Time/ { print substr($2,0,length($2)) }'`
+
+echo "DURATION: $_duration"
+
+###########################################################
 ## Generate podcast episode for Hugo
+
+say ""
+say "Writing Hugo file to $_episodes/show$_number.html..."
 
 cat > "$_episodes/$_id.html" <<EOF
 ---
-title: "$_show $_num"
+title: "$_show $_number $_date"
 date: "$_date_time"
 summary: "$_title"
 enclosure_file: "http://archive.org/download/$_id/$_id.mp3"
@@ -177,7 +313,13 @@ EOF
 ###########################################################
 ## Generate Internet Archive metadata and file manifests
 
+say ""
+say "Writing IA file manifest to $_bucket/${_id}_files.xml..."
+
 printf "%s" '<files/>' > $_bucket/${_id}_files.xml
+
+say ""
+say "Writing IA meta file to $_bucket/${_id}_meta.xml..."
 
 cat > $_bucket/${_id}_meta.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -209,6 +351,7 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <coverage>$_location</coverage>
 </metadata>
 EOF
+
 
 ###########################################################
 
