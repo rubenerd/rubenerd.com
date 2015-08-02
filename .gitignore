@@ -1,3 +1,6 @@
 .DS_Store
 public/
 *.swp
+bucket/*mp3
+bucket/*png
+bucket/*jpg
