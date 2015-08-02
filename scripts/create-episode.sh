@@ -171,7 +171,6 @@ _description_text=`strip "$_description"`
 ## Get city from full location (for Hugo recorded-in-CITY tag)
 _city=`echo "$_location" | sed 's/,//g' | awk '{ print tolower($1) }'`
 
-
 ###########################################################################
 ## Prepare filenames, images for Onsug and Internet Archive
 
@@ -221,6 +220,7 @@ eyeD3 \
     --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
+    --publisher "$_host" \
     --url-frame "WOAF:http\://archive.org/download/$_id/$_id.mp3" \
     --url-frame "WOAS:http\://rubenerd.com/show$_number/" \
     --url-frame "WCOP:`escape $_licence_url`" \
@@ -236,18 +236,19 @@ eyeD3 \
     --remove-all \
     --artist "$_host" \
     --album "Overnightscape Underground - $_onsug_release_date" \
-    --title "$_show #$_number: $_title $_onsug_title_date" \
+    --title "$_show $_number: $_title $_onsug_title_date" \
     --genre "New Time Radio" \
     --release-year $_year \
     --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
+    --publisher "$_host" \
     --url-frame "WOAF:http\://archive.org/download/$_id/$_id.mp3" \
     --url-frame "WOAS:http\://rubenerd.com/show$_number/" \
     --url-frame "WCOP:`escape $_licence_url`" \
     --url-frame "WPUB:http\://onsug.com/" \
     --preserve-file-times \
-    "$_bucket/$_id.mp3"
+    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
 
 
 ###########################################################################
