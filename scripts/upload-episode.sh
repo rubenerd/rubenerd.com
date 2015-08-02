@@ -16,7 +16,9 @@ _netrc="/Users/`whoami`/.netrc"
 _shows="/Users/`whoami`/Repositories/rubenerd-hugo/content/post/show"
 _internet_archive_email="rubenschade@gmail.com"
 
-_episode_prefix='show'       ## http://rubenerd.com/show222/
+_hugo_prefix='show'        ## eg http://rubenerd.com/show222/
+_ia_prefix='RubenerdShow'  ## eg http://archive.org/details/RubenerdShow20/
+_onsug_prefix='rs'         ## eg onsug_Aug15_rs300.mp3
 
 ###########################################################################
 ## Check depedendencies
@@ -27,16 +29,21 @@ _episode_prefix='show'       ## http://rubenerd.com/show222/
 }
 
 ###########################################################################
-## Get latest episode filename (eg: "show282.html")
+## Get latest episode number
 
-_latest="$_shows/`ls -1 $_shows | tail -n1`"
+## -> "path/to/folder/show200.html"
+_latest_file="$_shows/`ls -1 $_shows | tail -n1`"
 
-###########################################################################
-## Get show ID
+## -> "show200"
+_id=`echo $_latest_file | sed 's/\.html//' | tr '/' ' ' | awk '{print $NF}'`
 
-_id=`echo $_latest | sed 's/\.html//' | tr '/' ' ' | awk '{print $NF}'`
+## -> "200"
+_number=`echo $_id | sed "s/$_local_prefix//"`
 
-exit
+## -> "RubenerdShow200"
+_id="$_ia_prefix$_number"
+
+echo $_id
 
 ###########################################################################
 ## Upload files to archive org
@@ -45,11 +52,11 @@ ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
 cd "$_id"
-put "$_bucket/${_id}.mp3"
-put "$_bucket/${_id}.png"
-put "$_bucket/${_id}.jpg"
-put "$_bucket/${_id}_files.xml"
-put "$_bucket/${_id}_meta.xml"
+put "$_id/${_id}.mp3"
+put "$_id/${_id}.png"
+put "$_id/${_id}.jpg"
+put "$_id/${_id}_files.xml"
+put "$_id/${_id}_meta.xml"
 ls
 quit
 EOF
@@ -58,23 +65,24 @@ EOF
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
 
-
-## Commit manifest files to Git
-#git add "./ia/${_id}_files.xml"
-#git add "./ia/${_id}_meta.xml"
-#git commit -m "internet archive meta xml for show${_episode_number}"
-#git push origin master
-
 ###########################################################################
 ## Upload to Onsug
 
 ftp onsug.com <<EOF
 binary
 cd "$_onsug_date"
-mput "onsug*"
+mput "onsug*$_number*"
 ls
 quit
 EOF
+
+###########################################################################
+## Commit manifest files to Git
+
+git add "./bucket/*"
+git add "./ia/${_id}_meta.xml"
+git commit -m "internet archive meta xml for show${_episode_number}"
+git push origin master
 
 exit 0
 
