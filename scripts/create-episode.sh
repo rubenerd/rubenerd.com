@@ -280,7 +280,7 @@ tag:
 - recorded-in-$_city
 - the-overnightscape-underground
 ---
-<p class="show-cover"><a href="http://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="http://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></p>
+<p class="show-cover"><a href="http://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="http://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
 
 <p class="show-summary" style="font-weight:bold">$_title</p>
 
@@ -290,7 +290,9 @@ tag:
 
 <p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
 
-<p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p>
+<p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+
+<p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="http://rubenerd.com/show/feed/">this feed</a> to your podcast client. For all Overnightscape Underground shows, subscribe in <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=289419611">iTunes</a>, <a href="http://pca.st/GfWi">Pocket Casts</a> or add <a href="http://onsug.com/feed/">this feed</a> to your podcast client. More clients are available on the <a href="http://rubenerd.com/subscribe/">subscribe</a> page.</p>
 
 EOF
 

@@ -38,7 +38,7 @@ _latest_file="$_shows/`ls -1 $_shows | tail -n1`"
 _id=`echo $_latest_file | sed 's/\.html//' | tr '/' ' ' | awk '{print $NF}'`
 
 ## -> "200"
-_number=`echo $_id | sed "s/$_local_prefix//"`
+_number=`echo $_id | sed "s/$_hugo_prefix//"`
 
 ## -> "RubenerdShow200"
 _id="$_ia_prefix$_number"
@@ -52,11 +52,12 @@ ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
 cd "$_id"
-put "$_id/${_id}.mp3"
-put "$_id/${_id}.png"
-put "$_id/${_id}.jpg"
-put "$_id/${_id}_files.xml"
-put "$_id/${_id}_meta.xml"
+lcd "$_bucket"
+put "${_id}.mp3"
+put "${_id}.png"
+put "${_id}.jpg"
+put "${_id}_files.xml"
+put "${_id}_meta.xml"
 ls
 quit
 EOF
@@ -64,6 +65,8 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
+
+exit
 
 ###########################################################################
 ## Upload to Onsug
