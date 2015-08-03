@@ -48,23 +48,23 @@ echo $_id
 ###########################################################################
 ## Upload files to archive org
 
-ftp items-uploads.archive.org <<EOF
-binary
-mkdir "$_id"
-cd "$_id"
-lcd "$_bucket"
-put "${_id}.mp3"
-put "${_id}.png"
-put "${_id}.jpg"
-put "${_id}_files.xml"
-put "${_id}_meta.xml"
-ls
-quit
-EOF
+#ftp items-uploads.archive.org <<EOF
+#binary
+#mkdir "$_id"
+#cd "$_id"
+#lcd "$_bucket"
+#put "${_id}.mp3"
+#put "${_id}.png"
+#put "${_id}.jpg"
+#put "${_id}_files.xml"
+#put "${_id}_meta.xml"
+#ls
+#quit
+#EOF
 
 ## Ping Archive.org to get them to check for episode
 
-curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
+#curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
 
 exit
 
@@ -82,10 +82,10 @@ EOF
 ###########################################################################
 ## Commit manifest files to Git
 
-git add "./bucket/*"
-git add "./ia/${_id}_meta.xml"
-git commit -m "internet archive meta xml for show${_episode_number}"
-git push origin master
+#git add "./bucket/*"
+#git add "./ia/${_id}_meta.xml"
+#git commit -m "internet archive meta xml for show${_episode_number}"
+#git push origin master
 
 exit 0
 
