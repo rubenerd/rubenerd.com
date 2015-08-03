@@ -1,0 +1,64 @@
+---
+title: "Those mysterious ID3 URL frames"
+date: "2015-07-31T14:49:00+10:00"
+summary: "Four letter constants must be used."
+category: Media
+tag:
+- audio
+- guides
+- podcasting
+---
+<p>To render (hah) podcasting less tedious, I've been writing a series of shell scripts to automate as much of the post-production as possible. The eyeD3 utility does a great job of inserting ID3 tags; throw it some strings, a local path for cover art and show notes (well, lyrics) and you're on your way.</p>
+
+<p>This option caught my eye when reading its inline help:</p>
+
+<pre>
+--url-frame FID:URL   Set the value of a URL frame. To remove the frame,
+                      specify an empty value. e.g., --url-frame='WCOM:'
+</pre>
+
+<p>On a whim, I tried setting a field with an FID called "WEBSITE".</p>
+
+<pre>
+Uncaught exception: Invalid URL frame-id
+</pre>
+
+<p>Well, then. Other than the example WCOM, the help didn't have a list of acceptable FIDs for this field. The <a href="http://id3.org/Frames">ID3 website</a> listed what they could be, but not the identifiers themselves.</p> 
+
+<blockquote>
+<p>It is also possible to include various links to webpages and other on line resources. These are the predefined URL frames':</p>
+
+<ul>
+<li>Commercial information</li>
+<li>Copyright/Legal information</li>
+<li>Official audio file webpage</li>
+<li>Official artist/performer webpage</li>
+<li>Official audio source webpage</li>
+<li>Official internet radio station homepage</li>
+<li>Payment</li>
+<li>Publishers official webpage</li>
+<li>User defined URL link frame</li>
+</ul>
+</blockquote>
+
+<p>As is so often the case, <a href="http://eyed3.nicfit.net/_modules/eyed3/id3/frames.html">go to the source</a> and get the answer. These are the defined constants:</p>
+
+<pre>
+URL_COMMERCIAL_FID = "WCOM"
+URL_COPYRIGHT_FID  = "WCOP"
+URL_AUDIOFILE_FID  = "WOAF"
+URL_ARTIST_FID     = "WOAR"
+URL_AUDIOSRC_FID   = "WOAS"
+URL_INET_RADIO_FID = "WORS"
+URL_PAYMENT_FID    = "WPAY"
+URL_PUBLISHER_FID  = "WPUB"
+</pre>
+
+<p>With the exception of "User defined URL link frame", these line up with the predefined URL frames. So if you want to define a publisher:</p>
+
+<pre>
+eyeD3 $_mp3 --url-frame "WPUB:http://url.tld/"
+</pre>
+
+<p>I'm not sure which clients use these frames for anything, but I suppose it can't hurt setting them.</p>
+
