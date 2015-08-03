@@ -1,0 +1,28 @@
+---
+title: "Stop -webkit-font-smooting: antialiased"
+date: "2015-07-31T10:45:00+10:00"
+summary: "Lowering resolution isn't a viable design decision."
+category: Media
+tag:
+- css
+- fonts
+- safari
+- typeography
+- webkit
+---
+<p>There was a CSS statement that was very much in vogue a few years ago, and we're still dealing with vestiges of it today:</p>
+
+<pre>
+-webkit-font-smoothing: antialiased;
+</pre>
+
+<p>It was (ab)used in a misguided attempt to render thinner fonts, but all it did was lower their effective resolution. When you start messing with how an operating system renders fonts, you get into serious accessibility (and aesthetic) problems.</p>
+
+<p>I was reminded of this today. Compare this screenshot from Twilio.com, taken with Safari (ala Webkit) and Firefox on my non–retina desktop monitor. No prizes for guessing which is which.</p>
+
+<p><img src="http://files.rubenerd.com/2015/webkitantialias.png" alt="Safari and Firefox showing font rendering with webkit-font-smoothing" style="width:500px; height:200px;" /></p>
+
+<p>Using lighter font weights is fine, provided you can still make out the shapes. Using a narrow, poorly defined font with thin weight and abusing the webkit-font-smoothing property is a bad typeface trifecta.</p>
+
+<p>If you ever find yourself asking <em>"should I use this CSS property?"</em>, the answer is no. Ditto infinite scrolling, but that's for another post.</p>
+
