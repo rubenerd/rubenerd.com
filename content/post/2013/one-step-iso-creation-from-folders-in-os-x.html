@@ -20,10 +20,10 @@ tag:
 </ol>
 <p>I’m not sure how long we’ve been able to do this, but you can specify it <strong>with just one command now</strong>, using the <em>&#8220;UNIV&#8221;</em> flag. For example:</p>
 <pre>
-% hdiutil create 
-    -volname MSDOS6 
-    -srcfolder EN_MSDOS60 
-    -ov -format UNIV 
+% hdiutil create \
+    -volname MSDOS6 \
+    -srcfolder EN_MSDOS60 \
+    -ov -format UNIV \
     image.dmg
 % mv image.dmg image.iso
 </pre>
