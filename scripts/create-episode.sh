@@ -196,7 +196,7 @@ _duration=`eyeD3 "$_bucket/$_id.mp3" 2> /dev/null | \
 cat > "$_bucket/${_id}_lyrics.txt" <<EOF
 $_title
 
-$_duration – $_description_text
+$_duration – Topics include $_description_text
 
 Recorded in $_location. Licence for this track: $_licence_title. Attribution: $_host.
 
@@ -286,7 +286,7 @@ tag:
 
 <p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="http://archive.org/download/$_id/$_id.mp3">Play in new window</a> | <a style="font-weight:bold;" href="http://archive.org/download/$_id/$_id.mp3">Download</a></p>
 
-<p class="show-description"><span class="show-duration"><strong>$_duration</strong> – $_description</p>
+<p class="show-description"><span class="show-duration"><strong>$_duration</strong> – Topics include $_description</p>
 
 <p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
 
@@ -303,7 +303,7 @@ EOF
 cat > "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.html" <<EOF
 <p><img class="alignleft" src="http://onsug.com/shows/$_onsug_file_date/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png" alt="" style="width:144px; height:144px;" /></p>
 
-<p class="show-description"><strong>$_duration</strong> – $_description</p>
+<p class="show-description"><strong>$_duration</strong> – Topics include $_description</p>
 
 <p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
 
@@ -337,7 +337,9 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <title>$_show $_number $_date</title>
   <creator>$_host</creator>
   <date>$_date_utc</date>
-  <description>$_description</description>
+  <description><![CDATA[
+    <p>$_description</p>
+  ]]></description>
   <language>eng</language>
   <duration>$_duration</duration>
   <licenseurl>$_licence_url</licenseurl>
