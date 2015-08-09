@@ -28,7 +28,7 @@ html {
   color:#ccccee;
 }
 #skyline {
-  background:#0099ff url("sydney.png") top center no-repeat;
+  background:#0099ff url("sydney-singapore.png") top center no-repeat;
   height:100px;
 }
 h1 a, h2 a, h3 a, table th, nav a, #archive a { color:#ffffff }
@@ -53,7 +53,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 
     #skyline {
-        background:#0099ff url("sydney2x.png") top center no-repeat;
+        background:#0099ff url("sydney-singapore2x.png") top center no-repeat;
         background-size:472px 100px;
     }
 
