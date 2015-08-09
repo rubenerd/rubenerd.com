@@ -1,12 +1,18 @@
+---
+title: "Seamonkey on retina screens"
+---
+
 <p>I've had a Retina MacBook Pro for half a year now. Dangerously, the quality of the screen has gone from dazzling to normal; non-retina screens look awful now.</p>
 
 <p>Most applications take advantage of the screen just fine, though there are a few holdouts. The latest versions of SeaMonkey still render their entire XUL interface at half the resolutuon, which results in jarringly bad text. 
 
-<p>Open /Applications/SeaMonkey.app/Contents/Info.plist</p>
+<p>Open /Applications/SeaMonkey.app/Contents/Info.plist, and update the last lines to reflect this:</p>
 
-234         <key>NSSupportsAutomaticGraphicsSwitching</key>
-235         <true/>
-236         <key>NSPrincipalClass</key>
-237         <string>GeckoNSApplication</string>
+<pre>
+&lt;key&gt;NSSupportsAutomaticGraphicsSwitching&lt;/key&gt;
+&lt;true/&gt;
+&lt;key&gt;NSPrincipalClass&lt;/key&gt;
+&lt;string&gt;GeckoNSApplication&lt;/string&gt;
+</pre>
 
-
+<p>UI elements will still be pixelated, but at least text is legible again.</p>
