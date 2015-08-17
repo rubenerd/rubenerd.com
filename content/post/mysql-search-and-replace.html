@@ -1,0 +1,16 @@
+---
+title: "MySQL/MariaDB search and replace"
+date: "2015-08-17T10:05:00+10:00"
+summary: "Getting the syntax of REPLACE() right."
+---
+<p>This is one of those things I'm constantly forgetting, especially since I use Postgres for most of my work.</p>
+
+<p>To replace the occurance of a string in a field with another, use the following. This replaces the value of the field with the value of the field where a text substitution has taken place:</p>
+
+<pre>
+MariaDB [DB]&gt; UPDATE table 
+    -&gt; SET field=REPLACE(field,'original','replacement');
+</pre>
+
+<p><a href="https://mariadb.com/kb/en/mariadb/replace/">The MariaDB site</a> lists further details.</p>
+
