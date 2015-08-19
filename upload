@@ -7,7 +7,7 @@
 set -e
 
 _rsync='/usr/local/bin/rsync'
-_server='chitanda'
+_server='lifeboat'
 _virtual_root='rubenerdcom'
 
 echo '☕  Building/verifying empty directories Hugo needs...'
