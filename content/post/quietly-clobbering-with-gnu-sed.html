@@ -1,0 +1,49 @@
+---
+title: "Quietly clobbering with GNU sed"
+date: "2015-08-19T16:16:00+10:00"
+summary: "Don't use the --quiet flag."
+category: Software
+tag:
+- gnu
+- linux
+- sed
+- troubleshooting
+---
+<p><img src="http://files.rubenerd.com/2015/gnu.png" alt="" style="width:128; height:125px; float:right; margin:0 0 10px 20px" />
+
+<p>Here's something fun my boss and I discovered today. Say you have this file:</p>
+
+<pre>
+$ cat test.txt
+==&gt; Zettai ryouiki in all the examples
+</pre>
+
+<p>And you want to replace a word with sed. You see GNU sed has a quiet flag, so thinking it means surpress warning messages and such (useful in scripts), you run this:</p>
+
+<pre>
+$ sed --quiet -i -e 's/all/some/g'
+</pre>
+
+<p>Checking the file again, you’re astonished to find:</p>
+
+<pre>
+$ cat test.txt
+==&gt; *crickets*
+</pre>
+
+<p>There’s nothing there. Kaput. It has ceased to exist, like a legendary feathered creature. Exactly what you’d expect for a function called quiet?</p>
+
+<p>Not to get all Malcom Gladwell on you, but <em>turns out</em> the GNU folks decided quiet would be <a href="https://www.gnu.org/software/sed/manual/sed.html">used in this context</a>:</p>
+
+<blockquote>
+<p><code>-n</code><br />
+<code>--quiet</code><br />
+<code>--silent</code></p>
+
+<p>By default, sed prints out the pattern space at the end of each cycle through the script (see How sed works). These options disable this automatic printing, and sed only produces output when explicitly told to via the p command.</p>
+</blockquote>
+
+<p>A perfectly reasonable, useful function. But I feel anything with the capability to clobber a file should be given a command with a less innocuous name.</p>
+
+<p>sed on my beloved BSDs doesn’t have a quiet flag, and therefore there’s no such convenience/confusion.</p>
+
