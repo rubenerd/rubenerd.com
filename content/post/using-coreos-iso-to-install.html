@@ -1,0 +1,76 @@
+---
+title: "Using CoreOS ISO to install"
+date: "2015-08-21T16:41:00+10:00"
+summary: "Because the official docs are typical Linux fare."
+category: Software
+tag:
+- coreos
+- docker
+- guides
+- linux
+---
+<p>This morning I posted how CoreOS <a href="http://localhost:1313/coreos-needs-a-gig-of-memory/">needed more memory</a> than its name implied. I also had an adventure with the installer.</p>
+
+<p>If you look at the <a href="https://coreos.com/os/docs/latest/installing-to-disk.html">official install docs</a> for CoreOS, you install from ISO with this command:</p>
+
+<pre>
+$ sudo su - root
+# coreos-install -d /dev/sda
+</pre>
+
+<p>Except you can't. The ISO doesn't contain the production image. Or if it did, it wasn't made clear and/or I couldn't find it.</p>
+
+<p>So I update my networking, to allow it to download.</p>
+
+<pre>
+# ifconfig eth0 &lt;ethernet-ip/24&gt;
+# route add default gw &lt;gateway-ip&gt;
+</pre>
+
+<p>Still no dice, it complained it couldn't resolve the address. Shoot yes, I didn't have an entry in resolv.conf.</p>
+
+<pre>
+cat "echo 208.67.220.220 &gt;&gt; /etc/resolv.conf"
+</pre>
+
+Still nothing. As John Cleese said of a certain gentleman's walk, this was getting rather silly.
+
+<p>Reading the documentation, you define networking in the following horrible systemd path. So I edited the file:</p>
+
+<pre>
+vim /etc/systemd/network/static.network
+</pre>
+
+<p>And added the following:</p>
+
+<pre>
+[Match]
+Name=eth0
+
+[Network]
+Address=&lt;ethernet-ip&gt;
+Gateway=&lt;gateway-ip&gt;
+DNS=208.67.220.220
+</pre>
+
+<p>Then it was simply a matter of restarting networking:</p>
+
+<pre>
+# service network restart
+==&gt; -su: service: command not found
+</pre>
+
+<p>Then it was simply a matter of restarting networking, using systemd's more streamlined syntax:</p>
+
+<pre>
+# systemctl restart systemd-networkd
+</pre>
+
+<p>And finally we were cooking with gas.</p>
+
+<pre>
+==&gt; Downloading, writing and verifying coreos_production_image.bin.bz2...
+</pre>
+
+<p>You'll also want to specify a cloud-config as well.</p>
+
