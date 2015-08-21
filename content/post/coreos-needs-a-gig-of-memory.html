@@ -1,0 +1,26 @@
+---
+title: "CoreOS needs a gig of memory"
+date: "2015-08-21T09:39:00+10:00"
+summary: "Because it's just a 'Core' OS?"
+category: Software
+tag:
+- coreos
+- linux
+---
+<p>I’ve been looking at CoreOS at work. Specifically, at its error messages.</p>
+
+<pre>
+[FAILED] Failed to start Switch Root.
+See 'systemctl status initrd-switch-root.service' for details.
+</pre>
+
+<p>After booting from the ISO, it got as far as this, and dropped to an emergency shell. My heart sank a little when I saw systemctl; throwing systemd into the mix would surely make this problem even more complicated to diagnose and correct.</p>
+
+<p>Turns out, CoreOS has a 1GiB memory floor, and I’d only allocated it 512MiB. I only knew this through <a href="https://stackoverflow.com/questions/30926950/coreos-on-hyper-v-failed-to-start-switch-root">this Stack Overflow</a> answer; the CoreOS site makes no mention of this anywhere obvious, as far as I can tell.</p>
+
+<p>For an OS professing to be a “Core”, it’s regrettable it doesn’t support a very common memory size, particulary in the very cloud environments it’s targeted at. Perhaps containers introduce such overhead as to require it?</p>
+
+<p>And while I’m ranting, why is it that everything from software appliances, to speciailised Linux distributions with specific requirements don't do a simple memory check before exploding in spectacular fashion?</p>
+
+<p>If you’ll excuse me, I'm going to use my FreeBSD boxes for a bit.</p>
+
