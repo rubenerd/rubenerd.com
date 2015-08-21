@@ -49,6 +49,7 @@ echo $_id
 ###########################################################################
 ## Upload files to archive org
 
+function ia() {
 ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
@@ -68,13 +69,14 @@ EOF
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
 
 exit
+}
 
 ###########################################################################
 ## Upload to Onsug
 
 ftp onsug.com <<EOF
 binary
-cd "$_onsug_date"
+cd "Aug15"
 lcd "$_bucket"
 mput "onsug*$_number.mp3"
 mput "onsug*$_number.png"
@@ -85,13 +87,14 @@ EOF
 ###########################################################################
 ## Commit manifest files to Git
 
+function git() {
 git add "$_bucket/${_id}*xml"
 git add "$_bucket/onsug_*${_number}.html"
 git add "$_bucket/${_id}_lyrics.txt"
 git add "$_shows/show${_number}.html"
 git commit -m "metadata for show ${_number}"
 git push origin master
-
+}
 exit 0
 
 ## EOF
