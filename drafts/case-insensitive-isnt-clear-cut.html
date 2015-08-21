@@ -1,0 +1,30 @@
+---
+title: "Case-insensitive file systems aren't clear cut"
+date: "2015-08-20T17:48:00+10:00"
+summary: "Means different things in different contexts"
+category: Software
+tag:
+- bsd
+- file-systems
+- freebsd
+- linux
+- netbsd
+- os-x
+- samba
+- windows
+---
+<p>Case-sensitive file systems are a thorny issue. *nix servers of all stripes defualt to case-sensitive file systems, but desktop OSs have long preferred case-insensitive to make life easier for end users.</p>
+
+<p>When I'm building a file server primary for use by Mac clients (for example), I employ case-insensitive file systems on the target server if I can. It avoids a lot of pain, such as users attempting to copy cheese.txt and CHEESE.txt and getting confused when the OS says they'll be overwriting a file.</p>
+
+<p>This does highlight one other issue, however. While case-sensitive is straight forward, case-insensitivty can mean different things depending on the file system, OS, shell, or other interface. Worse still, there seems to be little consistency to the nomenclature. Fun times!</p>
+
+<p>There seem to be several different types.</p>
+
+<ol>
+<li><p>Files can be stored in any case, but can't be referenced or auto-completed in any case. This is what usually happens on Linux file systems formatted with case-insensitivity.</p></li>
+
+<li><p>Files can be stored in any case, and can be referenced and auto-completed in any case. This is how Mac OS X and Windows deal with files.</p>
+
+<li><p>Files are limited to one case. This is like DOS, CP/M and GEOS running on your Commodore 128. They came out one year before I was born, and I still feel old knowing about these systems.</p></li>
+</ol>
