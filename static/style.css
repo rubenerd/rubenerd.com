@@ -12,7 +12,7 @@ img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
   border:0px;           /* old opera: units even for 0 values */
   border-collapse:collapse;
-  font-weight:normal;
+  font-weight:500;
   list-style-type:none; /* old ie: list-style unsupported */
   margin:0px;
   padding:0px;
@@ -87,9 +87,9 @@ ul { list-style-type:circle; }
 /* Sandwich Wrapper *******************************************/
 #sandwich-wrapper {
   margin:0px auto;
-  padding:50px 0px 120px 0px;
+  padding:80px 0px 120px 0px;
   text-align:left;  /* ie6: centering */
-  width:800px;
+  width:860px;
 }
 
 
@@ -130,7 +130,7 @@ hr {
 
 /* Sidebar ****************************************************/
 #sidebar {
-  float:right;
+  float:left;
   font-size:14px;
   line-height:20px;
   width:140px;
@@ -153,11 +153,11 @@ hr {
 
 
 /* Main Content ***********************************************/
-main { width:600px }
+main { margin-left:220px; width:600px }
 
 
 /* Articles ***************************************************/
-article { margin-bottom:80px }
+article { margin-bottom:120px }
 article small time { font-weight:600; }
 article h1 { display:inline }
 article h1 a { text-decoration:none; margin-right:8px }
@@ -167,7 +167,7 @@ blockquote {
   padding-left:20px;
 }
 img, object, iframe, video, audio { max-width:100% }
-.secondary { margin-bottom:80px }
+.secondary { margin:0px 0px 120px 220px; }
 
 
 /* Articles: Code, Quotes, Tables *****************************/
@@ -205,6 +205,7 @@ footer {
   font-size:14px;
   line-height:20px;
   margin-top:0px;
+  margin-left:220px;
   width:600px;
 }
 
@@ -219,11 +220,12 @@ input[type=text] {
 
 
 /* Smaller screens ********************************************/
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 900px) {
   #sandwich-wrapper {
     padding:40px 0;
     width:600px;
   }
+  main { margin:0; }
   #sidebar {
     float:none;
     padding-bottom:40px;
