@@ -12,12 +12,12 @@ tag:
 - vmware
 - vmware-fusion 
 ---
-<p><img src="http://files.rubenerd.com/2013/screenie.nt4.sound.vmware.png" alt="Blasting CANYON.MID" /></p>
-<p>Happy Friday night folks! In 2011, I delightfully reported <a href="http://rubenerd.com/vmware-fusion-313-winnt-4/">VMware fixed their Windows NT 4.0 Additions</a>. Unfortunately, they still didn’t come with sound drivers, and a solution eluded me.</p>
+<p><img src="//rubenerd.com/files/2013/screenie.nt4.sound.vmware.png" alt="Blasting CANYON.MID" /></p>
+<p>Happy Friday night folks! In 2011, I delightfully reported <a href="//rubenerd.com.com/vmware-fusion-313-winnt-4/">VMware fixed their Windows NT 4.0 Additions</a>. Unfortunately, they still didn’t come with sound drivers, and a solution eluded me.</p>
 <p>I’m not sure if this was a change in the interim, but I’ve since learned VMware Fusion emulates Sound Blaster PCI128 cards in their older VMs. From the &#8220;What is Sound Blaster PCI128&#8243; help file:</p>
 <blockquote><p>Legacy game compatibility was originally a problem when considering a PCI-based audio card since existing software and games for the personal computer had been designed to run on ISA-based audio cards. To function properly, those cards must write directly to the inherently slow ISA Direct Memory Access (DMA) controller. These signals are not present in the PCI bus. Sound Blaster PCI128, thus, allows legacy software to function as if the ISA signals are present, while using the faster speed of the PCI bus.</p>
 </blockquote>
-<p>In practical terms, this means VMware can offer sound support to older OSs that require legacy ISA support. Compared to VirtualBox which I’ve <a href="http://rubenerd.com/nt4-sound-virtualbox/">also blogged about</a>, this also means VMware guests also have full MIDI support. Yes, you heard me.</p>
+<p>In practical terms, this means VMware can offer sound support to older OSs that require legacy ISA support. Compared to VirtualBox which I’ve <a href="//rubenerd.com.com/nt4-sound-virtualbox/">also blogged about</a>, this also means VMware guests also have full MIDI support. Yes, you heard me.</p>
 <p>To enable this card in a Windows NT 4.0 guest, make sure you’ve installed Service Pack 6a and the latest VMware Additions. Then simply head to <a href="http://support.creative.com/Products/ProductDetails.aspx?catID=1&amp;prodID=1864&amp;prodName=Sound%20Blaster%20PCI%20128&amp;CatName=Sound+Blaster">Creative’s product page for the card</a>, choose <em>&#8220;Windows NT 4.0&#8243;</em> from the second dropdown box, and download the latest driver from the page. Once installed, you’ll have full sound support.</p>
-<p>If you were born in the late 1980s like me, may I suggest playing <code>CANYON.MID</code> in Media Player (or a classic version of WinAmp) to drown out those buzzkills asking <a href="http://rubenerd.com/why/">why</a> you want sound in a Windows NT VM. And have fun!</p>
+<p>If you were born in the late 1980s like me, may I suggest playing <code>CANYON.MID</code> in Media Player (or a classic version of WinAmp) to drown out those buzzkills asking <a href="//rubenerd.com.com/why/">why</a> you want sound in a Windows NT VM. And have fun!</p>
  

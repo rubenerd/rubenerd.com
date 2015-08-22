@@ -15,14 +15,14 @@ tag:
 - ruby
 - scripting 
 ---
-<p><img src="http://files.rubenerd.com/uploads/anime.crazy.jpg" alt="Directly referencing your interpreter? Crazy…" style="height:298px; width:500px; border:0px; display:inline" /><br /><cite>Directly referencing your interpreter? Crazy…</cite></p>
+<p><img src="//rubenerd.com/files/uploads/anime.crazy.jpg" alt="Directly referencing your interpreter? Crazy…" style="height:298px; width:500px; border:0px; display:inline" /><br /><cite>Directly referencing your interpreter? Crazy…</cite></p>
 <p>I haven&#39;t written any geeky programming technical posts for a long time. Christmas Eve seems like just as good a time as any. Funny how Perl programming specifically always reminds me of Christmas because I got my first proper job after high school in 2004 writing Perl/MySQL code around Christmas time so I could buy people presents. Happiest time of my life then because I had purpose, direction and optimism.</p>
 <p>This morning I&#39;m talking about using <strong><code>env</code></strong> in the shebang line of scripting language source files (<a href="http://www.freebsd.org/cgi/man.cgi?query=env">FreeBSD man reference</a>). Quite frankly I&#39;m surprised that as of 2008 the majoraty of files I download and look through still reference hard links to the interpreters such as the examples below:</p>
 <pre>
 #!/usr/bin/perl -w
 #!/usr/local/bin/ruby</pre>
 <p>The problem with hard/specific referencing is that you can&#39;t assume your system will have a filesystem configured in the same way as another. While us users of Unix-like systems are fortunate that our said systems have so much in common, there are still enough subtle differences between Unix-like OSs and even distributions of the same OS to cause problems.</p>
-<p><img src="http://files.rubenerd.com/uploads/bsd.daemon.png" alt="" style="height:182px; width:168px; float:right; margin:0 0 10px 20px; display:inline" /></p>
+<p><img src="//rubenerd.com/files/uploads/bsd.daemon.png" alt="" style="height:182px; width:168px; float:right; margin:0 0 10px 20px; display:inline" /></p>
 <p>For example, most GNU/Linux systems place <em>all</em> non system critical files in the <code>/usr/bin</code> directory. As a FreeBSD user I shivver in terror at the mere thought of this; on the BSDs we&#39;re even more specific and seperate non system critical files that come as part of the core system in <code>/usr/bin</code>, and files we later install ourselves in <code>/usr/local/bin</code> or <code>/usr/local/pkg</code> depending on our package manager. Much stricter, cleaner and easier to maintain… but that&#39;s for another post.</p>
 <p>The solution to this is to call our scripting language using env which checks your system for the desired interpreter and executes. This means Linux users can share with BSD users can share with Mac OS X users etc without worrying about how said systems are configured. You can even pass regular options, very nice.</p>
 <pre>#!/usr/bin/env ruby -w</pre>

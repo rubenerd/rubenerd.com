@@ -13,30 +13,30 @@ tag:
 - windows
 - windows-7 
 ---
-<p><img src="http://files.rubenerd.com/uploads/logo.windows7.png" alt="Windows 7 logo" style="height:104px; width:160px; display:inline; border:0px; background:transparent; padding:0em;" /></p>
+<p><img src="//rubenerd.com/files/uploads/logo.windows7.png" alt="Windows 7 logo" style="height:104px; width:160px; display:inline; border:0px; background:transparent; padding:0em;" /></p>
 <p>This is an epic tale of tragedy and frustration, starring <em>Ruben Schade</em> as <em>Ruben Schade</em> and a newly student licenced copy of <em>Windows 7 Professional</em> as <em>The Windows That Wouldn&#39;t Install</em>. There will be no intermission, despite its length warranting one.</p>
 <p><!--oldmore--></p>
 <p>After further problems running some university software on my Windows 2000 Professional virtual machine on my Mac, I finally decided to give Windows 7 a shot. Fortunately the student pricing for Windows 7 Upgrade was still AU$49 until the end of the month. Now if only it would accept my serial number.</p>
 <h3>Here’s an ISO… wait, it’s not <em>that</em> easy!</h3>
-<p><img src="http://files.rubenerd.com/uploads/screenie.win7fail.iso.png" alt="Windows 7 download page" style="height:160px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.win7fail.iso.png" alt="Windows 7 download page" style="height:160px; width:500px;" /></p>
 <p>To Microsoft&#39;s credit, the initial purchase of the Windows 7 licence went through without a hitch; I used my university email account to verify that I was a student, then paid with a credit card. Within a few minutes I was presented with a screen that gave me the choice to download an ISO, or an executable. Being on my Mac, I elected to download the ISO.</p>
 <p>Of course, things weren&#39;t that simple. Instead of downloading an ISO as the button stated, my browser downloaded a tiny 300kb Windows exe file. It turns out this exe is a stub which needs to be run on a Windows machine to download the ISO.</p>
 <p>I had already rzipped [sic] and archived my Windows 2000 VM, so I had to extract it out, then free up some space, then re-login from Firefox in the VM, then download the stub, then download the file which I then dragged back onto my Mac desktop.</p>
 <h3>What optical drive?</h3>
-<p><img src="http://files.rubenerd.com/uploads/screenie.win7fail.drivers.png" alt="Windows 7 installer asking from drivers" style="height:188px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.win7fail.drivers.png" alt="Windows 7 installer asking from drivers" style="height:188px; width:500px;" /></p>
 <p>Next I created a new virtual machine and used the ISO I downloaded to boot it. The Windows 7 installer booted fine, then started asking questions about CD-ROM drivers. Of course this has never happened to me on Mac OS X, and on FreeBSD I would simply fire up an emergency shell and manually mount the drive, but on Windows 7 I was stumped. Fortunately all I had to do was restart the virtual machine and it booted just fine. I was The Confuse.</p>
 <h3>[Insert terrible product key pun here]</h3>
-<p><img src="http://files.rubenerd.com/uploads/screenie.win7fail.productkey.png" alt="Windows 7 installer saying product key is invalid" style="height:90px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.win7fail.productkey.png" alt="Windows 7 installer saying product key is invalid" style="height:90px; width:500px;" /></p>
 <p>Here&#39;s where I got stuck, and where I currently remain. After booting Windows 7 a second time and inserting my Windows 2000 retail CD-ROM to verify my eligibility for the upgrade, Windows 7 went ahead and installed without a hitch.</p>
 <p>Upon rebooting, I was prompted for the product key I registered for. I entered it verbatim, and after what seemed like an age, the installer tersely informed me my serial number was invalid. I rewrote it and clicked Next again, but this time it didn&#39;t do anything. Rewriting it another half dozen times and pressing Next didn&#39;t do anything, other than showing that spinning cursor for a few minutes.</p>
 <h3>Spin spin spin…</h3>
-<p><img src="http://files.rubenerd.com/uploads/screenie.win7fail.spin.png" alt="Windows 7 installer showing spinning cursor" style="height:150px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.win7fail.spin.png" alt="Windows 7 installer showing spinning cursor" style="height:150px; width:500px;" /></p>
 <p>It&#39;s after 5pm which I&#39;m assuming means the Microsoft technical support lines are closed, so first thing tomorrow morning I&#39;ll give them a call and ask them what&#39;s going on. I&#39;ve got plenty of other work to do by tomorrow anyway.</p>
 <p>I remember reading late last year that people had been having troubles with their student downloads of Windows 7, but I naturally assumed these problems would have been ironed out by now. For the sake of others, I hope I&#39;m an anomaly.</p>
 <p>So close and yet so far…</p>
 <h3>Update</h3>
-<p><img src="http://files.rubenerd.com/uploads/screenie.win7fail.upgrade.png" alt="" style="height:230px; width:413px;" /></p>
-<p>I think figured out why my student licence for Windows 7 was <a title="Post: Ruben’s Windows 7 student adventures" href="http://rubenerd.com/windows-7-student/">rejecting my product key</a>. Talking to <a title="Nick Hodge's blog" href="http://www.nickhodge.com/blog/">Nick Hodge</a> I found out I could continue the install without entering a product key, so I finished then went to the Product Activation screen when Windows 7 booted. When I entered the product key, I got the above error.</p>
+<p><img src="//rubenerd.com/files/uploads/screenie.win7fail.upgrade.png" alt="" style="height:230px; width:413px;" /></p>
+<p>I think figured out why my student licence for Windows 7 was <a title="Post: Ruben’s Windows 7 student adventures" href="//rubenerd.com.com/windows-7-student/">rejecting my product key</a>. Talking to <a title="Nick Hodge's blog" href="http://www.nickhodge.com/blog/">Nick Hodge</a> I found out I could continue the install without entering a product key, so I finished then went to the Product Activation screen when Windows 7 booted. When I entered the product key, I got the above error.</p>
 <p>The dialog is correct, I did a clean install, but I was under the impression <a title="Microsoft.com: Windows 7 Upgrade Considerations" href="http://www.microsoft.com/Windows/windows-7/get/upgrade-considerations.aspx">I was allowed to</a>.</p>
 <p>Next step is to try installing Windows 2000, then doing an advanced install and deleting it. Windows installs are fun.</p>
  

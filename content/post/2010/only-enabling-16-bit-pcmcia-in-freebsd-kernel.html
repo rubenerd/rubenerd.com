@@ -14,8 +14,8 @@ tag:
 - pcmcia
 - retro 
 ---
-<p><img src="http://files.rubenerd.com/uploads/photo.xircom.jpg" alt="A retro Xircom Ethernet PCMCIA card" style="padding:0em; width:320px; height:240px;" /></p>
-<p>As you’re probably aware by now, my current pet project is installing <a href="http://www.freebsd.org/">FreeBSD</a> on my new (a relative term!) <a href="http://rubenerd.com/tag/libretto/">Libretto 70CT</a>, and on today’s agenda is building a custom kernel with the right PCMCIA card support.</p>
+<p><img src="//rubenerd.com/files/uploads/photo.xircom.jpg" alt="A retro Xircom Ethernet PCMCIA card" style="padding:0em; width:320px; height:240px;" /></p>
+<p>As you’re probably aware by now, my current pet project is installing <a href="http://www.freebsd.org/">FreeBSD</a> on my new (a relative term!) <a href="//rubenerd.com.com/tag/libretto/">Libretto 70CT</a>, and on today’s agenda is building a custom kernel with the right PCMCIA card support.</p>
 <p><!--oldmore--></p>
 <p>This is the part I’m concerning myself with:</p>
 <pre>
@@ -33,7 +33,7 @@ device    cardbus     # CardBus (32-bit) bus
 </pre>
 <p>The Libretto only has 16bit PCMCIA card support which means the Cardbus line can be safely commented out, but I’m not so sure about the bridge. This machine is so… <em>retro</em> that I’d like to slash and burn <strong>all</strong> the device support I don’t need (USB, FireWire, SCSI, RAID, TLA…), but on the other hand I’d hate to wait for this thing to compile for an age and then no be able to use PC cards.</p>
 <p>One of the great things about FreeBSD is how trivially easy it is to build and install a custom kernel (and world!) to remove unessisary hardware support and make the machine boot faster, run faster, use less memory and potentially be more secure. Or perhaps it just seems really easy after doing it on certain other free operating systems ;).</p>
-<p><img src="http://files.rubenerd.com/uploads/bsd_daemon.jpg" style="width:150px; height:150px; padding:0em; display:inline; float:right;" alt="Beastie!" /></p>
+<p><img src="//rubenerd.com/files/uploads/bsd_daemon.jpg" style="width:150px; height:150px; padding:0em; display:inline; float:right;" alt="Beastie!" /></p>
 <h3>The hardware itself</h3>
 <p>The other thing to think about is what kind of networking card I can actually use with this machine! I have plenty of 16bit 10/100 PCMCIA cards back home in Singapore that I inherited from my dad’s numerous dead computers which all work fine (maybe), but I’m assuming I won’t be able to get a 16bit non-Cardbus Gigabit Ethernet card, or a 16-bit 802.11g wireless card that supports WPA encryption. Just a hunch.</p>
 <p>One thing that piqued my interest though was this line from the kernel confiuguration file:</p>

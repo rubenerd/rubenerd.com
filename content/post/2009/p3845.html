@@ -13,7 +13,7 @@ tag:
 - pict
 - quicktime 
 ---
-<p><img src="http://files.rubenerd.com/uploads/screenie.gimp.pict.01.png" alt="Error message from The Gimp when I tried to open an exported QuickTime pro image" style="height:212px; width:484px; display:inline; border:0px" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.gimp.pict.01.png" alt="Error message from The Gimp when I tried to open an exported QuickTime pro image" style="height:212px; width:484px; display:inline; border:0px" /></p>
 <p><a href="http://www.apple.com/quicktime/pro/">QuickTime Pro</a> is a strange little application; I’ve been using it for many years and it still manages to catch me out in quirky ways!</p>
 <p>This afternoon I was attempting to capture frames from a presentation using QuickTime Pro and importing them into <a href="http://www.gimp.org/">The Gimp</a> to process them. In a nutshell, the steps were:</p>
 <ol>
@@ -25,9 +25,9 @@ tag:
 <p>Unfortunately when I tried to open the resulting image in The Gimp, it gave me the above error message, which I thought was strange given Preview.app was able to open it without any problems whatsoever.</p>
 <p>It turns out the file type I was exporting wasn’t the same as I thought it was. Even though if you click the <em>Options</em> button in the <em>Export</em> dialog box and check that the type is indeed set to <em>Photo &#8211; JPEG</em>, the file you’re actually exporting is an Apple PICT file. Very weird.</p>
 <p>The plot thickens though, because if you drop the <code>.jpg</code> extension from the image file and replace it with the default PICT <code>.pct</code> extension, The Gimp still can’t open it:</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.gimp.pict.02.png" alt="Error message from The Gimp when I tried to open a .pct image" style="height:198px; width:415px; display:inline; border:0px" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.gimp.pict.02.png" alt="Error message from The Gimp when I tried to open a .pct image" style="height:198px; width:415px; display:inline; border:0px" /></p>
 <p>If you append <code>.pict</code> instead though, it can.</p>
 <p>Lesson learned (and it only took an hour!): if you export images from QuickTime Pro, append the <code>.pict</code> extension because that’s the file you’re actually saving it as. For Unix-like applications it also seems to be more compatible than <code>.pct</code>.</p>
-<p><img src="http://files.rubenerd.com/uploads/icon.tango.coffee.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right; margin:0 0 10px 20px; display:inline; border:0px" />As a final curious observation, ImageMagick from MacPorts, pkgsrc and from the FreeBSD Ports collection on my Armada M300 can convert images that end in both <code>.pct</code> and <code>.pict</code> that have been exported from QuickTime Pro.</p>
+<p><img src="//rubenerd.com/files/uploads/icon.tango.coffee.png" alt="Icon from the Tango Desktop Project" style="height:128px; width:128px; float:right; margin:0 0 10px 20px; display:inline; border:0px" />As a final curious observation, ImageMagick from MacPorts, pkgsrc and from the FreeBSD Ports collection on my Armada M300 can convert images that end in both <code>.pct</code> and <code>.pict</code> that have been exported from QuickTime Pro.</p>
 <p>I need a strong cup of coffee.</p>
  

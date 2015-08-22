@@ -11,9 +11,9 @@ tag:
 - terminal
 - umount 
 ---
-<p><img src="http://files.rubenerd.com/uploads/screenie.finder.noeject.png" alt="This device could not be ejected" /><br />
+<p><img src="//rubenerd.com/files/uploads/screenie.finder.noeject.png" alt="This device could not be ejected" /><br />
 <cite>But Finder… I don&#39;t have any other applications open!</cite></p>
-<p>One of the things I can appreciate about <a href="http://rubenerd.com/category/free-and-open-source/bsd/">learning how to use FreeBSD</a> is that a lot of the knowledge can can also be used to work more productively in <a href="http://rubenerd.com/category/apple/mac-os-x/">Mac OS X</a> too because the commands are either identical or very similar. In many ways OS X and BSD are more similar than BSD and GNU/Linux.</p>
+<p>One of the things I can appreciate about <a href="//rubenerd.com.com/category/free-and-open-source/bsd/">learning how to use FreeBSD</a> is that a lot of the knowledge can can also be used to work more productively in <a href="//rubenerd.com.com/category/apple/mac-os-x/">Mac OS X</a> too because the commands are either identical or very similar. In many ways OS X and BSD are more similar than BSD and GNU/Linux.</p>
 <p>One such function that Mac OS X shares with BSD is the <strong><code>umount</code></strong> command (<a href="http://developer.apple.com/documentation/Darwin/Reference/ManPages/man8/umount.8.html">Darwin man page</a>, <a href="http://www.freebsd.org/cgi/man.cgi?query=umount&#038;apropos=0&#038;sektion=0&#038;manpath=FreeBSD+7.0-RELEASE&#038;format=html">FreeBSD man page</a>) which you can use to unmount drives that the Finder refuses to because it claims the drive is in use. Once you unmount a drive, you can safely unplug it.</p>
 <p>To unmount a drive so you can eject it when the Finder refuses, launch Terminal.app from the <code>/Applications/Utilities/</code> folder, then enter the following command including the quotation marks. Replace <code>[DRIVE LABEL]</code> with the name of the drive as you see it on your desktop including any spaces.</p>
 <pre>% umount "/Volumes/[DRIVE LABEL]"</pre>
@@ -24,5 +24,5 @@ tag:
 <p>You should only forcibly unmount a volume as an absolute last resort.</p>
 <h3>Troubleshooting</h3>
 <p>If you attempt to use umount and you get a &quot;<code>not currently mounted</code>&quot; error, then the name that Finder shows for the drive might not be the same name Mac OS X mounted it with. To check your drive volume names, fire up the Terminal again, then enter <code>ls /Volumes/</code></p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.mounteddrives.png" alt="Using the Terminal to display a list of mounted drives" style="height:224px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.mounteddrives.png" alt="Using the Terminal to display a list of mounted drives" style="height:224px; width:500px;" /></p>
  

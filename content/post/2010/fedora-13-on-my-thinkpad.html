@@ -15,7 +15,7 @@ tag:
 - red-hat
 - reviews 
 ---
-<p><img src="http://files.rubenerd.com/uploads/screenie.fedora13.desktop.png" alt="" style="height:230px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.fedora13.desktop.png" alt="" style="height:230px; width:500px;" /></p>
 <p>I&#39;ve been running <a href="https://fedoraproject.org/wiki/F13_one_page_release_notes">Fedora 13 Goddard</a> on my ThinkPad X40 for the last few days. Aside from some rendering and install issues, things are pretty smooth sailing.</p>
 <p><!--oldmore--></p>
 <p>Fedora 13 is the latest version of the <a href="http://fedoraproject.org/">Fedora operating system</a> sponsored by <a href="http://redhat.com/">Red Hat</a> that I switched over to from Slackware as my Linux of choice last year. On the whole I prefer it to Ubuntu because they keep more of the original Gnome interface in tact, and I&#39;ve grown to like YUM for installing packages. Pkgsrc works great on Slackware, but being able to simply enter &quot;yum update&quot; is a real boon.</p>
@@ -26,7 +26,7 @@ tag:
 <h3>Interface nastyness</h3>
 <p>A fresh install and a yum update later, Fedora 13 was booting just fine on my ThinkPad X40, the mouse had even been detected which Anaconda couldn&#39;t do. The document icons look suspiciously Mac-like, but that&#39;s okay because I&#39;m also a Mac user and find them rather fetching!</p>
 <p>Now for the bad news. I&#39;m not sure whether it&#39;s the new open intel X11 video drivers (with otherwise work beautifully), but unfortunately the interface looks terrible. Icons displayed in menus and toolbars are either poorly rendered with jaggered, ill defined edges or in some cases not even existent. All the default Gnome icon sets and icon sets I&#39;ve installed myself (I like Nimbus and Tango) look this way.</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.fedora13.crappyicons.png" alt="" style="height:145px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.fedora13.crappyicons.png" alt="" style="height:145px; width:500px;" /></p>
 <p>On a Windows machine I would diagnose this problem as being caused by a low colour depth, but photos and Metacity render gradients and colour just fine, so I&#39;m thinking it must be a GTK issue. Lending support to this theory is that icons in Firefox look the way they should too, which means (I&#39;m assuming) Cairo is okay but plain GTK isn&#39;t.</p>
 <p>These visual artefacts are not present on the FreeBSD 8.0 partition on this machine, nor were they there in Fedora 12. To make sure the installer didn&#39;t do anything funky or forget to install a package, I reinstalled Fedora 13 from a DVD and a USB key from different sources with the same results.</p>
 <p>Oh yeah, and Metacity <strong>still</strong> can&#39;t handle double width characters in window titles. I suppose this is an issue with the Gnome folks and not Fedora though, so I&#39;ll leave it at that.</p>

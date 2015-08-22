@@ -12,14 +12,14 @@ tag:
 - windows-nt
 - windows-nt-3-51 
 ---
-<p><img src="http://files.rubenerd.com/uploads/screenie.winnt351.sp5.pkzip.png" alt="PKSFX: (W18) Warning! OEMNADAP.INF already exists. Overwrite (y/n)?" style="height:142px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.winnt351.sp5.pkzip.png" alt="PKSFX: (W18) Warning! OEMNADAP.INF already exists. Overwrite (y/n)?" style="height:142px; width:500px;" /></p>
 <p>The least you need to know: if you receive the above error when extracting Windows NT 3.51 Service Pack 5, use the <code>/b</code> flag while extracting.</p>
 <p><!--oldmore--></p>
 <h3>More detail</h3>
 <p>For those of you running Windows NT 3.51 (the last version of Windows that separated the kernel and UI subsystems), running the self-extracting <code>SP5_351I.EXE</code> file in a temporary directory from the likes of File Manager will result in the following error:</p>
 <pre>PKSFX: (W18) Warning! OEMNADAP.INF already exists. Overwrite (y/n)?</pre>
 <p>Typing <code>Y</code> here will extract the rest of the files, though when you run <code>UPDATE.EXE</code> you&#39;ll be given the following error.</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.winnt351.sp5.error.png" alt="An error has occurred: Unable to open the file OEMNADAP.INF" style="height:280px; width:500px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.winnt351.sp5.error.png" alt="An error has occurred: Unable to open the file OEMNADAP.INF" style="height:280px; width:500px;" /></p>
 <p>The solution is to use the /b flag, which extracts files into a tree of directories, rather than just putting them all into one place:</p>
 <pre>SP5_351I.EXE /b</pre>
 <p>Why Microsoft decided to use software that doesn&#39;t extract in this fashion by default for archives that clearly have files with the same name in different places is nothing short of baffling.</p>

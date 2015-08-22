@@ -8,7 +8,7 @@ tag:
 - mac-os-x
 - os-x 
 ---
-<p><img src="http://files.rubenerd.com/2014/anime.killlait.jpg" alt="By saya556 on Pixiv" style="width:500px; height:371px;" /></p>
+<p><img src="//rubenerd.com/files/2014/anime.killlait.jpg" alt="By saya556 on Pixiv" style="width:500px; height:371px;" /></p>
 <p>This evening I had to repair a family external hard drive. To run a few of my repair and recovery tools, I needed to give QEMU raw disk access to the drive on my Mac. Usually, this is a fairly easy task:</p>
 <ol>
 <li>Plug in the external drive</li>
@@ -16,7 +16,7 @@ tag:
 <li>Unmount with “<code>hdiutil unmount /dev/diskX</code>”</li>
 <li>Launch QEMU with “<code>-hda /dev/diskX</code>”</li>
 </ol>
-<p>The same could be done in <a href="http://rubenerd.com/booting-physical-drive-virtualbox/">VirtualBox using raw disk images</a>.</p>
+<p>The same could be done in <a href="//rubenerd.com.com/booting-physical-drive-virtualbox/">VirtualBox using raw disk images</a>.</p>
 <p>In this case though, the volume was so badly corrupted that OS X got caught in a loop trying to mount it when the drive was plugged in. Manually mounting and unmounting didn’t work, and the system maintained a lock on the device.</p>
 <p>There were several possible solutions, but I chose just to prevent that particilar drive automounting. First, find the UUID of the affected drive partition in question, where X is the drive and Y is the partition number:</p>
 <pre>

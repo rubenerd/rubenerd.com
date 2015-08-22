@@ -25,7 +25,7 @@ tag:
 </blockquote>
 <p>Case in point, my sister and I had a problem in our new house in Adelaide. Before I left Singapore, I bought a gigabit ethernet <a href="http://www.westerndigital.com/en/products/products.asp?driveid=347">Western Digital MyBook 1GB World Edition</a> NAS drive and loaded it up with all our media: movies, shows, music, podcasts, BSD disk images, ebooks. By using a simple network drive, we spared ourselves having to bring a separate computer down with us.</p>
 <p>Our makeshift home network consists of each of our laptops and the aformentioned network drive which are all connected through short Cat-6 ethernet cables to a <a href="http://www.dlink.com.au/products.aspx?sec=1&#038;sub1=14&#038;sub2=24&#038;pid=139">5 port gigabit Ethernet switch</a>. To compensate for the lack of a router, I assigned my sister’s MacBook and my MacBook Pro static IP addresses and I knew the network drive could also be assigned one. Very cool.</p>
-<p><img src="http://files.rubenerd.com/uploads/photo.dhcp.jpg" alt="Our very fancy new home network" style="height:375px; width:500px" /><br /><cite>Our very fancy new home network.</cite></p>
+<p><img src="//rubenerd.com/files/uploads/photo.dhcp.jpg" alt="Our very fancy new home network" style="height:375px; width:500px" /><br /><cite>Our very fancy new home network.</cite></p>
 <p>Now here’s the kicker: for some reason in their infinite wisdom Western Digital decided not to ship the MyBook with a default IP address. This means it <strong>requires</strong> a DHCP server (<a href="http://en.wikipedia.org/wiki/DHCP">Wikipedia link</a>) to initally provide it with an address. I realised that without a router with a built in DHCP server, this network drive wouldn’t get an address, and therefore there’d be no way for me to log into it to assign it a static IP! Catch 22, chicken and the egg, a Bruce Schneier fact, call it what you will.</p>
 <p>So within a few minutes I had configured a home network with two laptops and an inaccessible, address-less network drive. It seemed not having a router with a built in DHCP server would make this setup impossible. A quick Perl script determined that indeed only the two laptops were in our subdomain range:</p>
 <pre>#!/usr/bin/env perl -w
@@ -38,7 +38,7 @@ print &quot;Western Digital engineers love DHCP it seemsn&quot;
 </pre>
 <p>At this point I had to make a tough decision. To access our media network drive I could either be patient and wait a week until we got our new broadband modem with a built in router, or I could be impatient. Grilled cheese sandwich. Grilled cheese sandwich?</p>
 <p>I decided to do the latter and give it what it wanted: a DHCP server! In place of a router, I would configure a one-time use FreeBSD virtual machine with a software DHCP server which would assign the address to the network drive, so I could log into it remotely and assign it a static IP.</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.freebsd.dhcp.png" alt="My FreeBSD virtual machine showing the DHCP server coming online" /><br /><cite>My FreeBSD virtual machine showing the DHCP server coming online</cite></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.freebsd.dhcp.png" alt="My FreeBSD virtual machine showing the DHCP server coming online" /><br /><cite>My FreeBSD virtual machine showing the DHCP server coming online</cite></p>
 <p>After setting up a generic VMware Fusion virtual machine on my MacBook Pro, I mounted a FreeBSD 7.0-RELEASE ISO I had on already had on my hard drive and installed it with all the default options. I skipped configuring everything in the system installer except than the network card. I declined to use DHCP when it asked, and assigned it a static IP.</p>
 <p>After rebooting the VM, I logged in as root and installed the <code><a href="http://freshports.org/net/isc-dhcp3-server/">isc-dhcp3-server</a></code> package from ports.</p>
 <p> I didn’t bother adding anything fancy to the <code>/usr/local/etc/dhcpd.conf</code> other than defining the pool of addresses and required options:</p>
@@ -69,9 +69,9 @@ dhcpd_ifaces="le0"
   client-hostname "RubenerdNAS";
 }</pre>
 <p>… and automagically the Finder on my MacBook Pro reported it had found a new samba share (with it’s irreverent sense of humour)! My network drive had been resurrected from the dead!</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.nasfound.png" alt="My Western Digital MyBook in the Finder" /><br /><cite>My Western Digital MyBook in the Finder</cite></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.nasfound.png" alt="My Western Digital MyBook in the Finder" /><br /><cite>My Western Digital MyBook in the Finder</cite></p>
 <p>Finally, after all of that I was able to go to my web browser and log into the damned network drive’s configuration page and change the IP address to a static one.</p>
 <p>I still can’t help but wonder why Western Digital decided not to include a default address.</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.wdnas.config.png" alt="Western Digital NAS config screen, and the FreeBSD DHCP virtual machine" /><br /><cite>Western Digital NAS config screen, and the FreeBSD DHCP virtual machine</cite></p>
+<p><img src="//rubenerd.com/files/uploads/screenie.wdnas.config.png" alt="Western Digital NAS config screen, and the FreeBSD DHCP virtual machine" /><br /><cite>Western Digital NAS config screen, and the FreeBSD DHCP virtual machine</cite></p>
 <p>And now if you’d excuse me, I’m off to watch an episode of <a href="http://crankygeeks.com/">Cranky Geeks</a>. From my network drive. PHEW!</p>
  

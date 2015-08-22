@@ -15,14 +15,14 @@ tag:
 - wxr
 - xml 
 ---
-<p><img src='http://files.rubenerd.com/uploads/wxr.png' alt='WXR' /></p>
+<p><img src='//rubenerd.com/files/uploads/wxr.png' alt='WXR' /></p>
 <p>I haven&#39;t been having much luck with technology this week, but this seems to be the icing on the cake so to speak. The problem is no matter how hard I try I just can&#39;t get WXR working.</p>
 <p>WXR is of course the WordPress eXtended RSS format which allows you to quickly export the entire written contents of your weblog including posts, pages, categories, tags and kitchen sinks. It means you can pick up the guts of your weblog, then do a backup of your wp-content folder which contains all your uploaded media, plugins and themes, then import them somewhere else.</p>
 <p>Only problem is, this is the seventh time and I still can&#39;t get it to work on one WordPress installation. I have a local web server running on my MacBook Pro which I&#39;ve set up to test new themes and plugins I&#39;m working on, and on this local installation of WordPress I can import my Rubenerd Show material without any trouble at all, but I&#39;ve had no end of trouble when I try to do the same thing from the Rubenerd Blog.</p>
 <p>The curious thing is that there&#39;s no consistency to the errors. On Thursday I tried importing from this weblog and WordPress silently failed; the import page just stopped rendering after it had uploaded the file. Then yesterday I tried again and it was able to import posts but only up to September 2006 when it decided to stop.</p>
 <p>The only things I can think of that could be causing this problem is the WXR export php file in WordPress wasn&#39;t uploaded to the server correctly, or the file (2.2MiB) is too big somehow for my local web server to handle, or maybe there&#39;s some malformed HTML in one of my posts which breaks the resulting XML file it&#39;s contained in… maybe it&#39;s just gremlins.</p>
 <p>One clue though showed itself when I tried to open the exported WXR file in Smultron:</p>
-<p><img src='http://files.rubenerd.com/uploads/picture-3.png' alt='' /></p>
+<p><img src='//rubenerd.com/files/uploads/picture-3.png' alt='' /></p>
 <p>So perhaps it&#39;s an encoding issue? Or does WordPress not output UTF-8? Could it be failing because some of my posts have East Asian characters which need UTF-8?</p>
 <p>Whatever this blasted problem is, it looks like this is going to be a very, very, very long Saturday.</p>
  

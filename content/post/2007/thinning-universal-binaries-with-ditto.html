@@ -22,9 +22,9 @@ tag:
 - terminal
 - universal-binary 
 ---
-<p><img src="http://files.rubenerd.com/uploads/universal.png" alt="" /></p>
-<p>In November of 2006 I uploaded a post called <a href="http://rubenerd.com/a-closer-look-at-apples-universal-binaries/">A Closer Look At Apple’s Universal Binaries</a> where I tried to describe what UB&#39;s are and how to use the <code>lipo</code> command in the Terminal to remove unnecessary code. Since then I&#39;ve learned a bit more, and have found a slightly easier way to do it.</p>
-<p><span style="font-style:italic"><a href="http://rubenerd.com/a-closer-look-at-apples-universal-binaries/">Previous post</a> in a nutshell: If you&#39;ve used Mac computers at all since 2005 you&#39;re probably aware of Universal binaries, the fancy name Apple gave to applications that have native code for PowerPC and Intel processors. While they really simplify distribution, they store code on your machine you don&#39;t actually need.</span></p>
+<p><img src="//rubenerd.com/files/uploads/universal.png" alt="" /></p>
+<p>In November of 2006 I uploaded a post called <a href="//rubenerd.com.com/a-closer-look-at-apples-universal-binaries/">A Closer Look At Apple’s Universal Binaries</a> where I tried to describe what UB&#39;s are and how to use the <code>lipo</code> command in the Terminal to remove unnecessary code. Since then I&#39;ve learned a bit more, and have found a slightly easier way to do it.</p>
+<p><span style="font-style:italic"><a href="//rubenerd.com.com/a-closer-look-at-apples-universal-binaries/">Previous post</a> in a nutshell: If you&#39;ve used Mac computers at all since 2005 you&#39;re probably aware of Universal binaries, the fancy name Apple gave to applications that have native code for PowerPC and Intel processors. While they really simplify distribution, they store code on your machine you don&#39;t actually need.</span></p>
 <p>Fortunately in Tiger Apple bundled the <code>ditto</code> (and <code>lipo</code>) utility which you can use to create a <q>thin</q> version of a universal binary that only contains code for your processor.</p>
 <p><strong>TAKE NOTE! Some older applications that are only compiled for PowerPC CPUs require shared libraries or resources from other applications, some of which may have been updated as Universal. Therefore if you start deleting PowerPC code from them, you may start braking things. If you&#39;re not sure, <em>always keep the original universal binary</em> just in case you need to restore it!</strong></p>
 <pre>
@@ -32,7 +32,7 @@ ditto --arch i386 FooBar.app ThinFooBar.app
 ditto --arch ppc FooBar.app ThinFooBar.app
 </pre>
 <p>The first line thins down <code>FooBar.app</code> to include only i386 code, the second preserves only PowerPC code.</p>
-<p><img src='http://files.rubenerd.com/uploads/anime.shana.sword.hl.jpg' alt='Shakugan no Shana' style="display:inline; border:0px" /><br />
+<p><img src='//rubenerd.com/files/uploads/anime.shana.sword.hl.jpg' alt='Shakugan no Shana' style="display:inline; border:0px" /><br />
 <cite>The use of an unnecessarily long sword to spit universal binaries is not recommended… unless you&#39;re a flame haze… I&#39;m sorry, but I can&#39;t stand dry weblog posts that don&#39;t have pictures. The thought of weblog posts without pictures keep me awake at night, as I&#39;m sure it does for you too.</cite></p>
 <p>Given my current obsession with tables, below is a selection of my favourite Mac open source applications I thinned down on my MacBook Pro to compare the difference between their universal and thin binaries:</p>
 <table style="border:0; border-collapse:collapse;">
@@ -46,7 +46,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <th style="padding-right:1em;">% saved &darr;</th>
 </tr>
 <tr>
-<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_vlc.png' alt='VLC' /></td>
+<td style="padding-right:1em;"><img src='//rubenerd.com/files/uploads/appicon_vlc.png' alt='VLC' /></td>
 <td><a href="http://www.videolan.org/vlc/download-macosx.html">VLC</a></td>
 <td>0.8.6c</td>
 <td>75.2 MiB</td>
@@ -55,7 +55,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">42.69</span></td>
 </tr>
 <tr>
-<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_camino.png' alt='' /></td>
+<td style="padding-right:1em;"><img src='//rubenerd.com/files/uploads/appicon_camino.png' alt='' /></td>
 <td><a href="http://caminobrowser.org/">Camino</a></td>
 <td>1.5.1int</td>
 <td>53.7 MiB</td>
@@ -64,7 +64,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">36.31</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_inkscape.png' alt='Inkscape' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_inkscape.png' alt='Inkscape' /></td>
 <td><a href="http://www.inkscape.org/">Inkscape</a></td>
 <td>0.45.1</td>
 <td>84.1 MiB</td>
@@ -73,7 +73,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">32.94</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_iterm.png' alt='iTerm' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_iterm.png' alt='iTerm' /></td>
 <td><a href="http://iterm.sourceforge.net/">iTerm</a></td>
 <td>0.9.5.x</td>
 <td>4.1 MiB</td>
@@ -82,7 +82,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">21.95</span></td>
 </tr>
 <tr>
-<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_gimpshop.png' alt='Gimpshop' /></td>
+<td style="padding-right:1em;"><img src='//rubenerd.com/files/uploads/appicon_gimpshop.png' alt='Gimpshop' /></td>
 <td><a href="http://www.plasticbugs.com/?page_id=294">Gimpshop</a></td>
 <td>2.2.11</td>
 <td>191.0 MiB</td>
@@ -91,7 +91,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">21.83</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_smultron.png' alt='Smultron' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_smultron.png' alt='Smultron' /></td>
 <td><a href="http://smultron.sourceforge.net/">Smultron</a></td>
 <td>3.1</td>
 <td>10.1 MiB</td>
@@ -112,7 +112,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <th style="padding-right:1em;">% saved &darr;</th>
 </tr>
 <tr>
-<td style="padding-right:1em;"><img src='http://files.rubenerd.com/uploads/appicon_safari.png' alt='Safari' /></td>
+<td style="padding-right:1em;"><img src='//rubenerd.com/files/uploads/appicon_safari.png' alt='Safari' /></td>
 <td>Safari</td>
 <td>3.0b3</td>
 <td>6.5 MiB</td>
@@ -121,7 +121,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">21.54</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_itunes.png' alt='iTunes' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_itunes.png' alt='iTunes' /></td>
 <td>iTunes</td>
 <td>7.4.1</td>
 <td>113.0 MiB</td>
@@ -130,7 +130,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">12.57</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_terminal.png' alt='Terminal' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_terminal.png' alt='Terminal' /></td>
 <td>Terminal</td>
 <td>1.5</td>
 <td>5.0 MiB</td>
@@ -139,7 +139,7 @@ ditto --arch ppc FooBar.app ThinFooBar.app
 <td><span style="font-style:italic">8.00</span></td>
 </tr>
 <tr>
-<td><img src='http://files.rubenerd.com/uploads/appicon_textedit.png' alt='' /></td>
+<td><img src='//rubenerd.com/files/uploads/appicon_textedit.png' alt='' /></td>
 <td>TextEdit</td>
 <td>1.4</td>
 <td>2.2 MiB</td>

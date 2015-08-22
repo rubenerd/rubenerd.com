@@ -19,7 +19,7 @@ tag:
 - xquartz 
 ---
 <p>As I increasingly use and rely upon Unix-like operating systems such as FreeBSD (and GNU/Linux) on desktops, I tend to forget at times that I&#39;m using a sophisticated <em>server</em> installed locally to generate my graphical environments, namely <a href="http://www.x.org/">X11</a>. And just as with any server I can call it up from another machine and use its services.</p>
-<p><img src="http://files.rubenerd.com/uploads/icon.x11.png" alt="X11.app" style="height:128px; width:128px; float:right; margin: 0 0 10px 20px;" /></p>
+<p><img src="//rubenerd.com/files/uploads/icon.x11.png" alt="X11.app" style="height:128px; width:128px; float:right; margin: 0 0 10px 20px;" /></p>
 <p>X11 was built specifically to serve graphical applications over networks, and can still be used in this way by employing SSH on the client, and installing the desired applications on the server. My primary desktop is a DIY running FreeBSD 7.0 (more on my debacle with Debian GNU/Linux in a later post!), and my primary mobile machine is an original generation MacBook Pro.</p>
 <blockquote><p><strong>USELESS ASIDE:</strong> Given the fact it’s about time for my half-yearly move back to Adelaide, Australia I’ve been contemplating how best to access my desktop machines here in Singapore using my MacBook Pro which I’ll be taking with me. These are the things that keep my up at night.</p></blockquote>
 <p>To access desktop applications on a remote Unix-like machine on your Mac, fire up your Terminal and use the regular SSH command, but with the -X flag:</p>
@@ -28,11 +28,11 @@ tag:
 % Password: [PASSWORD]
 </pre>
 <p>Provided you have installed X11.app from either your Tiger or Leopard install DVD; or better yet <a href="http://www.google.com/search?q=xquartz&#038;ie=utf-8&#038;oe=utf-8">downloaded the latest community build of Xquartz</a> from MacOSForge; you should now be able to enter in the name of a graphical application and have it appear!</p>
-<p><a href="http://files.rubenerd.com/uploads/screenie.x11tunnel.png"><img src="http://files.rubenerd.com/uploads/screenie.x11tunnel.thumb.png" alt="Tunneled FreeBSD X11 apps on Mac OS X" style="height:313px; width:500px;" /></a><br />
+<p><a href="//rubenerd.com/files/uploads/screenie.x11tunnel.png"><img src="//rubenerd.com/files/uploads/screenie.x11tunnel.thumb.png" alt="Tunneled FreeBSD X11 apps on Mac OS X" style="height:313px; width:500px;" /></a><br />
 <cite>Tunneled FreeBSD X11 apps running on Mac OS X through SSH</cite></p>
 <p>For example, I entered <code>% xfce4-panel</code> and used that to launch some of my favourite apps, as you can see above. Over my local home gigabit Ethernet connection and even at Starbucks on the free Singapore public WiFi networks the applications felt like they were running on my local machine.</p>
-<p>You may recognise the Xfce panel from my <a href="http://rubenerd.com/p1197/">previous post on Xfce and Openbox</a>. There&#39;s a reason for that; I&#39;m using the panel remotely from the same machine. Ain&#39;t [computer] science wonderful?</p>
+<p>You may recognise the Xfce panel from my <a href="//rubenerd.com.com/p1197/">previous post on Xfce and Openbox</a>. There&#39;s a reason for that; I&#39;m using the panel remotely from the same machine. Ain&#39;t [computer] science wonderful?</p>
 <p>Plus then you can do things like run local Mac applications and the remote X11 applications on the same screen:</p>
-<p><img src="http://files.rubenerd.com/uploads/screenie.x11tunnel.compare.png" alt="Tunneled FreeBSD X11 apps on Mac OS X" style="height:220px; width:500px;" /><br />
+<p><img src="//rubenerd.com/files/uploads/screenie.x11tunnel.compare.png" alt="Tunneled FreeBSD X11 apps on Mac OS X" style="height:220px; width:500px;" /><br />
 <cite>Xfce&#39;s Thunar file manager compared to Leopard&#39;s Finder</cite></p>
  

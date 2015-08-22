@@ -10,8 +10,8 @@ tag:
 - postaday2011
 - qemu 
 ---
-<p><img src="http://files.rubenerd.com/uploads/screenie.qemu10.pcdos2000.png" alt="" style="height:165px; width:500px;" /></p>
-<p>If QEMU 1.0 fails to build on Mac OS X (as I <a title="Sunday 04th December 2011: Building and running QEMU 1.0 on Mac OS X" href="http://rubenerd.com/qemu-1-macosx/">described on Sunday</a>), you may be attempting to do it on a case-insensitive file system, like I just tried to do!</p>
+<p><img src="//rubenerd.com/files/uploads/screenie.qemu10.pcdos2000.png" alt="" style="height:165px; width:500px;" /></p>
+<p>If QEMU 1.0 fails to build on Mac OS X (as I <a title="Sunday 04th December 2011: Building and running QEMU 1.0 on Mac OS X" href="//rubenerd.com.com/qemu-1-macosx/">described on Sunday</a>), you may be attempting to do it on a case-insensitive file system, like I just tried to do!</p>
 <p><!--oldmore--></p>
 <p>If you&#39;re installing QEMU on a case-insensitive file system, you&#39;ll need to modify the <code>./fpu/softfloat.h</code> header file. Apply the <a href="http://patchwork.ozlabs.org/patch/123112/">patch from here</a>, or simply open the file and add the following lines:</p>
 <blockquote style="font-family:monospace"><p>
