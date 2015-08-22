@@ -17,6 +17,8 @@
 </article>
 <hr role="separator" />
 
+</main>
+
 <div class="secondary">
   <h2>Liked this post?</h2>
   <p>Feel free to throw me a
@@ -36,7 +38,5 @@
     {{ if .Next }}<li><a href="{{ .Next.RelPermalink }}">&rarr; {{ .Next.Title }}</a></li>{{ end }}
   </ul>
 </nav>
-
-</main>
 
 {{ partial "footer.html" . }}
