@@ -6,9 +6,10 @@
 
 set -e
 
-_rsync='/usr/local/bin/rsync'
-_server='lifeboat'
-_virtual_root='rubenerdcom'
+_rsync='/usr/local/bin/rsync'  ## location of rsync
+_server='chitanda'             ## server to upload to
+_virtual_root='rubenerdcom'    ## dest directory on server
+_assets_folder='files'         ## don't delete this asset folder on upload
 
 echo '☕  Building/verifying empty directories Hugo needs...'
 [ ! -d ./archetypes ] && mkdir ./archetypes
@@ -19,8 +20,6 @@ rm -rf ./public/*
 
 echo '☕  Print out latest podcast episode to sidebar...'
 ./scripts/latest-episode.sh
-#git add ./layouts/partials/latest.html
-#git commit -m 'updated with latest episode'
 
 echo '☕  Building site with Hugo (may take a few moments)...'
 hugo
@@ -44,7 +43,8 @@ rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
 
 echo '☕  Compressing (with rsync -z) and pushing to server...'
-${_rsync} --recursive --verbose --times --compress --rsh=ssh --checksum --delete \
+${_rsync} --recursive --verbose --times --compress --rsh=ssh --checksum \
+    --delete --exclude-from=${_assets_folder} \
     ./public/ ${_server}:${_virtual_root}/
 
 echo '☕  Site changes now LIVE.'
