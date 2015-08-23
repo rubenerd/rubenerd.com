@@ -31,7 +31,7 @@ html {
   background:#0099ff url("sydney-singapore.png") top center no-repeat;
   height:100px;
 }
-h1 a, h2 a, h3 a, table th, nav a, #archive a { color:#ffffff }
+h1 a, h2 a, h3 a, table th, nav a { color:#ffffff }
 #sidebar nav a,a, time { color:#0099ff }
 blockquote { 
   border-left:4px solid #333399;
@@ -54,7 +54,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
     #skyline {
         background:#0099ff url("sydney-singapore2x.png") top center no-repeat;
-        background-size:472px 100px;
+        background-size:821px 100px;
     }
 
 }
@@ -87,9 +87,9 @@ ul { list-style-type:circle; }
 /* Sandwich Wrapper *******************************************/
 #sandwich-wrapper {
   margin:0px auto;
-  padding:80px 0px 120px 0px;
+  padding:60px 0px 120px 0px;
   text-align:left;  /* ie6: centering */
-  width:860px;
+  width:820px;
 }
 
 
@@ -153,7 +153,7 @@ hr {
 
 
 /* Main Content ***********************************************/
-main { margin-left:220px; width:600px }
+main { margin-left:220px; }
 
 
 /* Articles ***************************************************/
