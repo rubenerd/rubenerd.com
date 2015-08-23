@@ -43,9 +43,11 @@ rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
 
 echo '☕  Compressing (with rsync -z) and pushing to server...'
-${_rsync} --recursive --verbose --times --compress --rsh=ssh --checksum \
-    --delete --exclude-from=${_assets_folder} \
-    ./public/ ${_server}:${_virtual_root}/
+$_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
+    --delete ./public/ ${_server}:${_virtual_root}/
+
+echo '☕  Fixing symlink for assets folder...'
+ssh chitanda bin/relink.sh
 
 echo '☕  Site changes now LIVE.'
 
