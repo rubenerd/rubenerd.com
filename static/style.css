@@ -235,9 +235,9 @@ input[type=text] {
     display:none;
     visibility:hidden;
   }
-  header, #sidebar, main, #secondary, footer {
+  header, #sidebar, main, .secondary, footer {
       margin:0;
-      width:auto
+      width:auto;
   }
   header h1 { width:140px }
 }
