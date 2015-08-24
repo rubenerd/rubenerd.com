@@ -1,0 +1,47 @@
+---
+title: "My first degraded ZFS pool"
+date: "2015-08-24T10:35:00+10:00"
+summary: "Popped in a new drive, lost no data. Boom!"
+category: Software
+tag:
+- freebsd
+- zfs
+---
+<p>I’ve been using ZFS in various capacities (hah) for years, but this is the first time I’ve had a ZFS fault. Because it was in RAIDZ though, I was able to pop a new drive in and maintained full data integrity. Sweet.</p>
+
+<p>This morning, I noted an email from one of my file servers reporting my ZFS pool was operating in a degraded state:</p>
+
+<pre>
+  pool: zroot
+ state: DEGRADED
+status: One or more devices has been removed by the administrator.
+        Sufficient replicas exist for the pool to continue functioning in a
+        degraded state.
+action: Online the device using 'zpool online' or replace the device with
+        'zpool replace'.
+  scan: none requested
+config:
+
+NAME                      STATE     READ WRITE CKSUM
+zroot                     DEGRADED     0     0     0
+  raidz1-0                DEGRADED     0     0     0
+    ada0p4.eli            ONLINE       0     0     0
+    11336101618008492576  REMOVED      0     0     0  was /dev/ada1p4.eli
+    ada2p4.eli            ONLINE       0     0     0
+    ada3p4.eli            ONLINE       0     0     0
+
+errors: No known data errors
+</pre>
+
+<p>Again, cool that I’ve lost a drive, but the last line reports no known data errors. I'd trust ZFS telling me this, and precious few other file systems.</p>
+
+<p>As per the FreeBSD handbook, a drive's name is replaced with its GUID when reported faulty. So I shut down the machine, replaced the affected drive, booted again, and replaced the affected disk:</p>
+
+<pre>
+zpool replace mypool 11336101618008492576 ada1p4.eli
+</pre>
+
+<p>Reslivering took almost a day, but now I have a fully functioning storage pool again.</p>
+
+<p>The FreeBSD 10.x series makes working with ZFS so simple. If you value your data, and have lots of it, its worth your time checking it out.</p>
+
