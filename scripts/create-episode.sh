@@ -21,8 +21,8 @@ _episode_prefix='show'
 ## Episode details (will be asked for)
 _show='Rubénerd Show'
 _host='Ruben Schade'
-_url='http://rubenerd.com/show/'
-_licence_url='http://creativecommons.org/licenses/by/3.0/'
+_url='https://rubenerd.com/show/'
+_licence_url='https://creativecommons.org/licenses/by/3.0/'
 _licence_title='Creative Commons Attribution 3.0'
 _location='Sydney, Australia'
 _title='';          ## The something episode!
@@ -221,8 +221,8 @@ eyeD3 \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
     --publisher "$_host" \
-    --url-frame "WOAF:http\://archive.org/download/$_id/$_id.mp3" \
-    --url-frame "WOAS:http\://rubenerd.com/show$_number/" \
+    --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
+    --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
     --url-frame "WCOP:`escape $_licence_url`" \
     --url-frame "WPUB:`escape $_url`" \
     --preserve-file-times \
@@ -243,8 +243,8 @@ eyeD3 \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
     --publisher "$_host" \
-    --url-frame "WOAF:http\://archive.org/download/$_id/$_id.mp3" \
-    --url-frame "WOAS:http\://rubenerd.com/show$_number/" \
+    --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
+    --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
     --url-frame "WCOP:`escape $_licence_url`" \
     --url-frame "WPUB:http\://onsug.com/" \
     --preserve-file-times \
@@ -268,7 +268,7 @@ cat > "$_episodes/show$_number.html" <<EOF
 title: "$_show $_number $_date"
 date: "$_date_time"
 summary: "$_title"
-enclosure_file: "http://archive.org/download/$_id/$_id.mp3"
+enclosure_file: "https://archive.org/download/$_id/$_id.mp3"
 enclosure_size: "$_size"
 enclosure_duration: "$_duration"
 location: "$_location"
@@ -280,11 +280,11 @@ tag:
 - recorded-in-$_city
 - the-overnightscape-underground
 ---
-<p class="show-cover"><a href="http://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="http://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
+<p class="show-cover"><a href="https://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="https://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
 
 <p class="show-summary" style="font-weight:bold">$_title</p>
 
-<p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="http://archive.org/download/$_id/$_id.mp3">Play in new window</a> | <a style="font-weight:bold;" href="http://archive.org/download/$_id/$_id.mp3">Download</a></p>
+<p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_id/$_id.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_id/$_id.mp3">Download</a></p>
 
 <p class="show-description"><span class="show-duration"><strong>$_duration</strong> – $_description</p>
 
@@ -292,7 +292,7 @@ tag:
 
 <p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 
-<p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="http://rubenerd.com/show/feed/">this feed</a> to your podcast client. For all Overnightscape Underground shows, subscribe in <a href="http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewPodcast?id=289419611">iTunes</a>, <a href="http://pca.st/GfWi">Pocket Casts</a> or add <a href="http://onsug.com/feed/">this feed</a> to your podcast client. More clients are available on the <a href="http://rubenerd.com/subscribe/">subscribe</a> page.</p>
+<p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
 
 EOF
 
@@ -338,7 +338,7 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <creator>$_host</creator>
   <date>$_date_utc</date>
   <description><![CDATA[
-    <p>$_description</p>
+    <p><span style="font-weight:bold;">$_title</span></p><p>$_duration – $_description</p><p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
   ]]></description>
   <language>eng</language>
   <duration>$_duration</duration>
