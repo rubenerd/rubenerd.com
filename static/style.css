@@ -235,7 +235,7 @@ input[type=text] {
     display:none;
     visibility:hidden;
   }
-  header, #sidebar, main, footer {
+  header, #sidebar, main, #secondary, footer {
       margin:0;
       width:auto
   }
