@@ -225,7 +225,6 @@ input[type=text] {
     padding:40px 0;
     width:600px;
   }
-  main { margin:0; }
   #sidebar {
     float:none;
     padding-bottom:40px;
@@ -236,7 +235,10 @@ input[type=text] {
     display:none;
     visibility:hidden;
   }
-  header, #sidebar, main, footer { width:auto }
+  header, #sidebar, main, footer {
+      margin:0;
+      width:auto
+  }
   header h1 { width:140px }
 }
 
