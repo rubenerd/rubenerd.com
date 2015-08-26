@@ -11,7 +11,7 @@ tag:
 - wordpress 
 ---
 <p><img src="//rubenerd.com/files/uploads/graphic.wordpress.icon.png" alt="" style="height:140px; width:380px; border:0px; display:inline;" /></p>
-<blockquote><p><strong>ANOTHER UPDATE:</strong> This post has been <a href="//rubenerd.com.com/wordpress-category-uris/">superseded by a new one with updated information</a>. This should now be considered <em>hysterical</em>. I mean, <em>historical</em>.</p></blockquote>
+<blockquote><p><strong>ANOTHER UPDATE:</strong> This post has been <a href="//rubenerd.com/wordpress-category-uris/">superseded by a new one with updated information</a>. This should now be considered <em>hysterical</em>. I mean, <em>historical</em>.</p></blockquote>
 <blockquote><p><strong>UPDATE:</strong> Both these plugins messed up a whole pile of my permalinks. I’ve decided to deactivate them and live with the problem until a solution is created upstream in WordPress.</p></blockquote>
 <p>When I merged the Rubenerd Show and some other material into this blog to reduce overhead and the number of concurrent installations of WordPress I had to keep up to date, my plan was to give the illusion of separate sites by using categories that would have their own themes and RSS feeds.</p>
 <p>I figured URIs like these would also make much more sense than the hodgepodge of addresses I had before:</p>
@@ -45,7 +45,7 @@ tag:
 <td>[…]</td>
 </tr>
 </table>
-<p>The problem I quickly ran across though was one that any serious WordPress user has already realised, in it&#39;s default state it&#39;s impossible to remove the &quot;category&quot; identifier from URIs. While the above URIs are clean and make sense, having the show appear as <em>//rubenerd.com.com/category/show/</em> just looked… well, stupid.</p>
+<p>The problem I quickly ran across though was one that any serious WordPress user has already realised, in it&#39;s default state it&#39;s impossible to remove the &quot;category&quot; identifier from URIs. While the above URIs are clean and make sense, having the show appear as <em>//rubenerd.com/category/show/</em> just looked… well, stupid.</p>
 <p>I was about ready to launch into some mod_rewrite hacking, but fortunately I came across te beautifully elegant <a href="http://skyphe.org/code/wordpress/decategorizer/">Decategorizer</a> plugin by <a href="http://skyphe.org/">Bruno &quot;Aesqe&quot; Babic</a> that did the trick. Once you&#39;ve installed and activated the <a href="http://urbangiraffe.com/plugins/redirection/">Redirection</a> plugin by <a href="http://urbangiraffe.com/">John Godley</a> then installed and activated Decategorizer, it not only removes category from URIs for the categories, but also just as importantly from RSS and Atom feeds.</p>
-<p><em><a href="//rubenerd.com.com/show/">Rubenerd dot com slash show</a></em> rolls off the tongue much more easily than <em>Rubenerd dot com slash cateogry slash show</em>. Why do I all of a sudden have a <a href="http://www.youtube.com/watch?v=3w96kk1yy-4">Fatboy Slim song</a> stuck in my head?</p>
+<p><em><a href="//rubenerd.com/show/">Rubenerd dot com slash show</a></em> rolls off the tongue much more easily than <em>Rubenerd dot com slash cateogry slash show</em>. Why do I all of a sudden have a <a href="http://www.youtube.com/watch?v=3w96kk1yy-4">Fatboy Slim song</a> stuck in my head?</p>
  

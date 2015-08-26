@@ -1,0 +1,36 @@
+---
+title: "jot and shuf"
+date: "2015-08-25T14:16:00+10:00"
+summary: "Or generating random numbers for scripts."
+category: Software
+tag:
+- bsd
+- freebsd
+- linux
+- netbsd
+- random-numbers
+---
+<p>Sounds like the name of a hipster microbrewary. Welcome to <em>Jot and Shuff</em>; we don't have a menu and our floors haven't been swept in a week, but we have terrible music. Enjoy!</p>
+
+<p>There are dozens of ways to generate random numbers on *nix systems, for cryptograpic or other uses. Sometimes, you just want a simple integer between a certain range for use in a script.</p>
+
+<p>The BSDs have long had the jot command, which can be employed for this task. For example, to return a random integer between 5 and 100:</p>
+
+<pre>
+% jot -r 1 5 100
+</pre>
+
+<p>The BSDs come with jot, because they're awesome. Linux users can install athena-jot.</p>
+
+<p>Today though I also learned GNU shuf can be used for the same task on Linux and Solaris 11.</p>
+
+<pre>
+$ shuf -n 1 -i 5-100
+</pre>
+
+<p>For absolutely no reason whatsoever, have this string of numbers that shuf generated.</p>
+
+<pre>
+34 74 86 22 95 14 78 4
+</pre>
+

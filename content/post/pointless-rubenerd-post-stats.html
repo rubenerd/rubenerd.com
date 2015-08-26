@@ -1,0 +1,40 @@
+---
+title: "Pointless Rubénerd post stats"
+date: "2015-08-27T08:34:00+10:00"
+summary: "How many posts contain Saskatchewan?"
+category: Internet
+tag:
+- pointless
+- weblog
+---
+<p>I realised with all my exported posts in a directory, I can run some pointless stats. For example, these are the number of posts that start with the word “the”:</p>
+
+<pre>
+$ ls the* | wc -l
+==&gt;     296
+</pre>
+
+<p>And that have the word “the” in it anywhere:</p>
+
+<pre>
+$ ls *the* | wc -l
+==&gt;     791
+</pre>
+
+<p>And <em>K-On</em>:</p>
+
+<pre>
+$ ls *k-on* | wc -l
+==&gt;     53
+</pre>
+
+<p>And that have the greatest name in the world in it:</p>
+
+<pre>
+$ ls *saskatchewan* | wc -l
+ls: *saskatchewan*: No such file or directory
+==&gt;     0
+</pre>
+
+<p>Hmm, clearly I have work to do.</p>
+

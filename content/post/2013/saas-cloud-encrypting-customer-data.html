@@ -9,7 +9,7 @@ tag:
 - security
 - zfs 
 ---
-<p>Earlier this week, I <a href="//rubenerd.com.com/zfs-on-freebsd-supporting-trim/">wrote about FreeBSD ZFS</a> and how deduping can take considerable amounts of memory. A commenter who wishes to remain anonymous took issue with this line:</p>
+<p>Earlier this week, I <a href="//rubenerd.com/zfs-on-freebsd-supporting-trim/">wrote about FreeBSD ZFS</a> and how deduping can take considerable amounts of memory. A commenter who wishes to remain anonymous took issue with this line:</p>
 <blockquote><p>As an aside, it makes you appreciate why so many cloud vendors don’t wish to encrypt data; such processing would render even the most sophisticated deduper utterly useless.</p></blockquote>
 <p>This line was phrased in the context of a cloud vendor wishing to save costs, not the wishes of their customers. If storage was constrained, it would make sense to dedupe if possible.</p>
 <p>Encryption &#8220;breaks&#8221; deduplication (and by extension, compression). The mark of a high quality algorithm is pseudo-random noise, such that there are as few repeating patterns as possible.</p>

@@ -14,7 +14,7 @@ tag:
 - wxr 
 ---
 <p><img src="//rubenerd.com/files/uploads/photo.titanic.png" alt="The Titanic" style="height:240px; width:500px;" /></p>
-<p>I&#39;ve been blogging for long enough to have suffered a couple of <a title="Post: I’m back at Rubenerd.com, just like 2004!" href="//rubenerd.com.com/we-are-back/">disastrous data losses</a>, but only once have I <a title="Post: [Anime] Restarting my deleted blog here" href="//rubenerd.com.com/anime-restarting/">irreversibly lost</a> stuff. Consequently I backup my blogs daily, but on a hunch early this morning I decided to test my backups on a local installation of WordPress. I choked!</p>
+<p>I&#39;ve been blogging for long enough to have suffered a couple of <a title="Post: I’m back at Rubenerd.com, just like 2004!" href="//rubenerd.com/we-are-back/">disastrous data losses</a>, but only once have I <a title="Post: [Anime] Restarting my deleted blog here" href="//rubenerd.com/anime-restarting/">irreversibly lost</a> stuff. Consequently I backup my blogs daily, but on a hunch early this morning I decided to test my backups on a local installation of WordPress. I choked!</p>
 <p><!--oldmore--></p>
 <p>Every evening my server is configured with a couple of cron jobs to do these backups which then get the bzip2 treatment:</p>
 <ul>
@@ -22,9 +22,9 @@ tag:
 <li>A WordPress RSS/WXR file</li>
 <li>A grilled cheese sandwich with avocado and gherkins</li>
 </ul>
-<p>The SQL backup is fairly vanilla stuff, and always works, as one would expect. WordPress&#39;s automatically generated RSS/WXR files are much easier to work with, but from <a title="Posts tagged with WXR" href="//rubenerd.com.com/tag/wxr/">repeated painful experience</a> over many years they&#39;re unreliable as heck. Perhaps I should phrase that to say &quot;easier to work with… when they work&quot;!</p>
+<p>The SQL backup is fairly vanilla stuff, and always works, as one would expect. WordPress&#39;s automatically generated RSS/WXR files are much easier to work with, but from <a title="Posts tagged with WXR" href="//rubenerd.com/tag/wxr/">repeated painful experience</a> over many years they&#39;re unreliable as heck. Perhaps I should phrase that to say &quot;easier to work with… when they work&quot;!</p>
 <h3>You’re telling us this… why?</h3>
-<p>I belabor all this because when I tested the WXR files my server has been exporting lately, they don&#39;t include categories when you reimport them into vanilla WordPress installs. None. Nada. Zippo. This despite setting the PHP memory ceiling higher as I <a title="Post: WordPress RSS/WXR problems solved" href="//rubenerd.com.com/p3958/">talked about before</a> and splitting up the WXR files <a title="Wordpress Forums: Can't import WordPress WXR files" href="http://wordpress.org/support/topic/350201">as recommended</a> by various folks.</p>
+<p>I belabor all this because when I tested the WXR files my server has been exporting lately, they don&#39;t include categories when you reimport them into vanilla WordPress installs. None. Nada. Zippo. This despite setting the PHP memory ceiling higher as I <a title="Post: WordPress RSS/WXR problems solved" href="//rubenerd.com/p3958/">talked about before</a> and splitting up the WXR files <a title="Wordpress Forums: Can't import WordPress WXR files" href="http://wordpress.org/support/topic/350201">as recommended</a> by various folks.</p>
 <p>Despite being introduced years ago, WXR is still horribly broken. As far as I can tell from trudging through the source WordPress doesn&#39;t even use a XML parser when importing them. I suppose that&#39;s another reason why I don&#39;t use sites like WordPress.com, when things like this mess up I can always access the database directly, and why on smaller projects I use <a title="SQlite3 database project" href="http://sqlite.org/">SQLite3</a> databases which you can cheat on and backup by just copying over one file! Ah and I&#39;m nostalgic for <a title="Oracle documentation for SQL*Plus" href="http://www.oracle.com/technology/docs/tech/sql_plus/index.html">sqlplus</a> already ;).</p>
 <p>What do you guys do for data backups for your online stuff?</p>
  

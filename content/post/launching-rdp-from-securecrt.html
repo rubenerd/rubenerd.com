@@ -1,0 +1,34 @@
+---
+title: "Launching RDP from SecureCRT"
+date: "2015-08-25T11:02:00+10:00"
+summary: "It’s a hack, but it works."
+category: Software
+tag:
+- guides
+- securecrt
+- ssh
+---
+<p>As <a href="https://rubenerd.com/">mentioned</a> last week, <a href="https://vandyke.com/products/securecrt/index.html">SecureCRT’s</a> Session Manager is one of my new favourite things. Being able to access all the hosts I manage in one hierarchical sidebar has improved my quality of life more than I care to admit. About all it can't do is define RDP hosts.</p>
+
+<p>Or... can it? If you use <a href="https://itunes.apple.com/au/app/microsoft-remote-desktop/id715768417?mt=12">Microsoft Remote Desktop</a> app, you can export a host definition, then launch it from a local shell connection from SecureCRT. It’s a hack, but it works!</p>
+
+<ol>
+
+<li><p>Open Microsoft Remote Desktop on the Mac. Choose a host, then go <em>File/Export</em>. Save the resulting file somewhere memorable.</p></li>
+
+<li><p>Choose <em>Create New Session</em> in SecureCRT, and name it the same as your Microsoft Remote Desktop host.</p></li>
+
+<li><p>Under <em>Connection/Protocol</em>, choose <em>Local Shell</em>.</p></li>
+
+<li><p>Under <em>Terminal</em>, check <em>Close on disconnect</em>. We don't want the empty tab sticking around when we launch RDP.
+
+<li><p>Under <em>Logon Actions</em>, click <em>Add...</em> and add the following (or equivalent) to <em>Send</em>:</p></li>
+
+</ol>
+
+<pre>
+open ~/Documents/RDP/Host.rdp &amp;&amp; exit
+</pre>
+
+<p>Now I have RDP, SSH, telnet and serial consoles for all the hosts I maintain in the one place. Living the dream, people.</p>
+
