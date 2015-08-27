@@ -3,16 +3,16 @@
 
 <main>
 
-<article id="archive">
+<article class="archive" id="archive-{{ .Title | lower }}">
   {{ if eq .Title "Show" }}
-  <h1><a href="/{{ .Title | lower }}/">Rubénerd Show</a></h1>
+  <h2><a href="/{{ .Title | lower }}/">Rubénerd Show</a></h2>
   {{ partial "podcast.html" . }}
   <dl>{{ range .Data.Pages }}
     <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
-    {{ if .Params.summary }}<dd>{{ .Params.summary }}</dd>{{ end }}
+    {{ if .Params.summary }}<dd><small>{{ .Params.summary }}</small></dd>{{ end }}
   {{ end }}</dl>
   {{ else }}
-  <h1><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h1>
+  <h2><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h2>
   <p></p>
   <dl>{{ range .Data.Pages }}
     <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
