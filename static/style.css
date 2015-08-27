@@ -24,15 +24,15 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html {
-  background:#000066;
+  background:#000073;
   color:#ccccee;
 }
 #skyline {
   background:#0099ff url("sydney-singapore.png") top center no-repeat;
   height:100px;
 }
-h1 a, h2 a, h3 a, table th, nav a { color:#ffffff }
-#sidebar nav a,a, time { color:#0099ff }
+h1 a, h2 a, h3 a, table th, nav a, .archive dl a { color:#ffffff }
+#sidebar nav a,a, time, #archive-show dl dd { color:#0099ff }
 blockquote { 
   border-left:4px solid #333399;
   color:#aaaadd;
@@ -69,8 +69,8 @@ body {
   font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
   text-align:center;  /* ie6: centering */
 }
-h1 { font-size:24px }
-h2, h3 { 
+h1,h2 { font-size:24px }
+h3 { 
   font-size:22px;
   margin-top:30px;
 }
@@ -78,8 +78,8 @@ small {
   font-size:14px;
   white-space:nowrap;
 }
-a, h1 a:hover { text-decoration:underline }
-h1 a, a:hover { text-decoration:none }
+a, h1 a:hover, h2 a:hover { text-decoration:underline }
+h1 a, h2 a, a:hover { text-decoration:none }
 img { display:inline; /* mozilla: fix default behaviour */ }
 ul { list-style-type:circle; }
 
@@ -158,7 +158,6 @@ main { margin-left:220px; }
 
 /* Articles ***************************************************/
 article { margin-bottom:120px }
-article small time { font-weight:600; }
 article h1 { display:inline }
 article h1 a { text-decoration:none; margin-right:8px }
 article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
