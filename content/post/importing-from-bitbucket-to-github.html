@@ -1,0 +1,28 @@
+---
+title: "Importing from Bitbucket to Github"
+date: "2015-08-28T15:25:00+10:00"
+summary: "Easiest is the hidden GitHub Importer"
+category: Software
+tag:
+- mercurial
+- git
+- github
+- guides
+- svn
+---
+<p>I have a habit of betting on the wrong horse. I used Bitbucket from way back when, largely because it supported Hg. Now the world has long since settled on Git, I started using it as such on Bitbucket, while also tracking projects on GitHub. This weekend, I decided I'd merge the two to make life easier.</p>
+
+<p>The git-neutral way to achive this is setting a new remote URL for your existing Bitbucket repo, and pushing to it. For example:</p>
+
+<pre>
+$ cd ./bitbucket-repo/
+$ git remote set-url --push origin https://github.com/user/repo
+$ git push --mirror
+</pre>
+
+<p>According to past screenshots people had made, GitHub used to sport an <em>Import code</em> button in their repo creation screen, but no such button exists now.</p>
+
+<p>Today though I learned the relatively hidden <a href="https://import.github.com/new">GitHub Importer</a> still exists. It can take the URL of an existing SVN, Hg, TFS or Git repo as a source, then creates a new repo with full commit history. Your Bitbucket repo would need to be public for this to work.</p>
+
+<p>I haven’t tried this with branches, or repos with wiki pages etc, so <abbr title="your mileage may vary">YMMV</abbr>.</p>
+
