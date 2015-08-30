@@ -14,8 +14,8 @@ set -e
 
 ## Locations to find things
 _home="/Users/`whoami`"
-_bucket="$_home/Repos/rubenerd-hugo/bucket"
-_episodes="$_home/Repos/rubenerd-hugo/content/post/show"
+_bucket="$_home/Repos/rubenerd-com/metadata"
+_episodes="$_home/Repos/rubenerd-com/content/post/show"
 _episode_prefix='show'
 
 ## Episode details (will be asked for)

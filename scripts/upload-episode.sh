@@ -12,9 +12,9 @@ set -e
 ###########################################################################
 ## Configuration
 
-_bucket="/Users/`whoami`/Repos/rubenerd-hugo/bucket"
+_bucket="/Users/`whoami`/Repos/rubenerd-com/metadata"
 _netrc="/Users/`whoami`/.netrc"
-_shows="/Users/`whoami`/Repos/rubenerd-hugo/content/post/show"
+_shows="/Users/`whoami`/Repos/rubenerd-com/content/post/show"
 _internet_archive_email="rubenschade@gmail.com"
 
 _hugo_prefix='show'        ## eg http://rubenerd.com/show222/
@@ -71,7 +71,6 @@ curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_arc
 exit
 }
 
-ia
 
 ###########################################################################
 ## Upload to Onsug
