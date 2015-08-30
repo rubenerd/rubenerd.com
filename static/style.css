@@ -12,7 +12,7 @@ img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
   border:0px;           /* old opera: units even for 0 values */
   border-collapse:collapse;
-  font-weight:500;
+  font-weight:normal;
   list-style-type:none; /* old ie: list-style unsupported */
   margin:0px;
   padding:0px;
@@ -98,7 +98,6 @@ h1,h2,h3 {
   /* Friends, don't let friends use this everywhere, unless you
      like the smell of toasted, overheating mobile devices */
   text-rendering:optimizeLegibility;
-  font-weight:500;
   letter-spacing:-1px;
 }
 legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
@@ -186,7 +185,6 @@ table th, table td { padding:5px 18px }
 /* Archive ****************************************************/
 .tags {
   font-size:14px;
-  font-weight:600;
 }
 .tags a { white-space:nowrap }
 
