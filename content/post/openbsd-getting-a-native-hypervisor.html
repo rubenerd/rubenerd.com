@@ -1,0 +1,27 @@
+---
+title: "OpenBSD getting a native hypervisor"
+date: "2015-09-01T14:57:00+10:00"
+summary: "Wouldn’t have expected that."
+category: Software
+tag:
+- bsd
+- openbsd
+- virtualisation
+---
+<p>Mike Larkin has made this <a href="http://permalink.gmane.org/gmane.os.openbsd.tech/43808">surprise announcement</a> on the openbsd-tech mailing list:</p>
+
+<blockquote>
+<p>For the last few months, I've been working on a hypervisor for OpenBSD. The idea for this started a few years ago, and after playing around with
+it from time to time, things really started to take shape around the time of the Brisbane hackathon earlier this year. As development accelerated, the OpenBSD Foundation generously offered to fund the project so that I could focus on it in more earnest.</p>
+</blockquote>
+
+<p>He goes on to mention compatibility with virtio devices, like FreeBSD’s bhyve and others.</p>
+
+<p>Curiously, Theo's much-publicised <a href="http://thread.gmane.org/gmane.os.openbsd.misc/130791/focus=130934">visceral response</a> to virtualisation was not mentioned under the “inevitable questions” section. In case you need a refresher:</p>
+
+<blockquote>
+<p>x86 virtualization is about basically placing another nearly full kernel, full of new bugs, on top of a nasty x86 architecture which barely has correct page protection.  Then running your operating system on the other side of this brand new pile of shit.</p>
+</blockquote>
+
+<p>And yes, I had to confirm I spelled <em>visceral</em> correctly. It sounds like a flavour of breakfast fare.</p>
+
