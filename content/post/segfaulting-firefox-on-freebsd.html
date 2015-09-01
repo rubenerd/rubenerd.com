@@ -1,0 +1,40 @@
+---
+title: "Segfaulting Firefox on FreeBSD"
+date: "2015-09-01T10:52:00+10:00"
+summary: "Check you’re running dbus!"
+category: Software
+tag:
+- bsd
+- firefox
+- freebsd
+- mozilla
+- guides
+---
+<p>I tried to start Firefox on a fresh FreeBSD install, and nothing happened. Running it form xterm, I saw this:</p>
+
+<pre>
+process 0000: D-Bus library appears to be incorrectly set up; failed \
+to read machine uuid: Failed to open "/etc/machine-id": No such file \
+or directory
+See the manual page for dbus-uuidgen to correct this issue.
+
+Segmentation fault (core dumped)
+</pre>
+
+<p>I was about ready to write a bug report for dbus, before I realised I hadn't even started it. Derp!</p>
+
+<p>To enable it in rc.conf and start:</p>
+
+<pre>
+# echo 'dbus_enable="YES"' &gt;&gt; /etc/rc.conf
+# service dbus start
+</pre>
+
+<p>Otherwise:</p>
+
+<pre>
+# service dbus onestart
+</pre>
+
+<p>Now Firefox starts.</p>
+
