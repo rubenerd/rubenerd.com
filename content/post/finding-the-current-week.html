@@ -1,0 +1,31 @@
+---
+title: "Finding the current week"
+date: "2015-09-02T16:14:00+10:00"
+summary: "Using date and Oracle, just because."
+category: Software
+tag:
+- bsd
+- dates
+- freebsd
+- linux
+- netbsd
+- oracle
+- os-x
+- timestamps
+---
+<p>I maintain a weekly list of current tasks in text files for work and personal projects. I used the week of the month for filename previously (such as 2015-09-01), before I realised I could employ another unique value: the week number of the year.</p>
+
+<p>But how does one find it? It’s not on most calendars, and I certainly don't track them in my real life. Fortunately, *nix date to the rescue:</p>
+
+<pre>
+$ date +"%Y"
+</pre>
+
+Or randomly from my university Oracle notes, if that’s your thing:
+
+<pre>
+SELECT to_char(sysdate, 'IW') FROM DUAL 
+</pre>
+
+<p>For those curious, we're in week 36.</p>
+
