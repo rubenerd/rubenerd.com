@@ -44,10 +44,10 @@ mv -f ./public/category/* ./public/
 
 echo '☕  Compressing (with rsync -z) and pushing to server...'
 $_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
-    --delete ./public/ ${_server}:${_virtual_root}/
+    --delete --filter='P files/' ./public/ ${_server}:${_virtual_root}/
 
-echo '☕  Fixing symlink for assets folder...'
-ssh $_server bin/relink.sh
+##echo '☕  Fixing symlink for assets folder...'
+##ssh $_server bin/relink.sh
 
 echo '☕  Site changes now LIVE.'
 
