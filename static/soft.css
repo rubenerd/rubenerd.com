@@ -1,0 +1,269 @@
+/***************************************************************
+**  Hugo [Boss] edition base template for Kirinyan and Ruben  **
+**  By Ruben Schade and Clara Tse, March 2015                 **
+**  http://rubenerd.com/  http://kirinyan.net/                **
+**  Finally gave up on 80 columns!                            **
+***************************************************************/
+
+
+/* Global Reset ***********************************************/
+html, body, h1, h2, h3, h4, h5, h6, form, fieldset, footer input, abbr,
+img, table, object, iframe, a img,
+#sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
+  border:0px;           /* old opera: units even for 0 values */
+  border-collapse:collapse;
+  list-style-type:none; /* old ie: list-style unsupported */
+  margin:0px;
+  padding:0px;
+  vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, 
+hgroup, main, menu, nav, section { display:block }
+
+
+/* Palette ****************************************************/
+html,a {
+  background:#f1f1f1;
+  color:#4c4c4c;
+}
+#skyline {
+  background:#0099ff url("sydney-singapore.png") top center no-repeat;
+  height:100px;
+}
+a:hover { color: #000099 }
+
+blockquote { 
+  border-left:4px solid #e5e5e5;
+}
+pre { background:#e5e5e5 }
+table tr { border-bottom:1px solid #dee3f2 }
+input {
+  background:#dee3f2;
+  color:#2b457e;
+}
+small { color:#aaaaaa; }
+
+
+/* Palette for Retina displays ********************************/
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+    #skyline {
+        background:#0099ff url("sydney-singapore2x.png") top center no-repeat;
+        background-size:821px 100px;
+    }
+
+}
+
+/* Top ********************************************************/
+html {
+  height:100%;        /* persistent vertical scrollbars */
+  overflow-y:scroll;  /* persistent vertical scrollbars */
+}
+body {
+  /* Let agent choose font size (accessibility, readability, ility-ility, ah the praties) */
+  font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+  text-align:center;  /* ie6: centering */
+}
+h1,h2 { font-size:24px }
+h3 { 
+  font-size:22px;
+  margin-top:30px;
+}
+small {
+  font-size:14px;
+  white-space:nowrap;
+}
+h1 a, h2 a { text-decoration: none }
+
+img { display:inline; /* mozilla: fix default behaviour */ }
+ul { list-style-type:circle; }
+
+
+/* Sandwich Wrapper *******************************************/
+#sandwich-wrapper {
+  margin:0px auto;
+  padding:60px 0px 120px 0px;
+  text-align:left;  /* ie6: centering */
+  width:820px;
+}
+
+
+/* Accessibility **********************************************/
+h1,h2,h3 {
+  /* Friends, don't let friends use this everywhere, unless you
+     like the smell of toasted, overheating mobile devices */
+  text-rendering:optimizeLegibility;
+  letter-spacing:-1px;
+}
+legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
+  height:1px;
+  left:0px;
+  overflow:hidden;
+  position:absolute;
+  top:-1000px;
+  width:1px;
+}
+hr {
+  display:none;       /* cli: show lines between content */
+  visibility:hidden;  /* gui: use css borders */
+}
+
+
+/* Header *****************************************************/
+#sidebar header h1 {
+  background:url("/logo.svg") top center no-repeat;
+  font-size:30px;
+  position:relative;
+  height:76px;
+}
+#sidebar h1 a {
+  position:absolute;
+  bottom:0;
+}
+
+
+/* Sidebar ****************************************************/
+#sidebar {
+  float:left;
+  font-size:14px;
+  line-height:20px;
+  width:140px;
+}
+#sidebar #mascot {
+  padding-top:10px;
+  width:140px;
+}
+#sidebar nav #topics { 
+  display:none;
+  visibility:hidden;
+}
+
+/* Navigation *************************************************/
+#sidebar nav ul { padding-bottom:10px }
+#sidebar #category-nav li {
+  display:inline;
+  margin-right:4px;
+} 
+
+
+/* Main Content ***********************************************/
+main { margin-left:220px; }
+
+
+/* Articles ***************************************************/
+article { margin-bottom:120px }
+article h1 { display:inline }
+article h1 a { text-decoration:none; margin-right:8px }
+article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
+blockquote {
+  margin-left:20px;
+  padding-left:20px;
+}
+img, object, iframe, video, audio { max-width:100% }
+.secondary { margin:0px 0px 120px 220px; }
+
+
+/* Articles: Code, Quotes, Tables *****************************/
+code, pre {
+  font-family: "Lucida Console",monospace;
+  font-size:13px;
+}
+pre {
+  line-height:16px;
+  padding:20px;
+  overflow-x:auto;
+}
+pre, table { margin:20px 0 }
+table th, table td { padding:5px 18px }
+
+
+/* Archive ****************************************************/
+.tags {
+  font-size:14px;
+}
+.tags a { white-space:nowrap }
+
+
+/* Podcast ****************************************************/
+.show-licence, .show-release, .show-subscribe {
+  font-size:14px;
+  font-style:italic;
+  line-height:20px;
+}
+
+
+/* Footer *****************************************************/
+footer {
+  font-size:14px;
+  line-height:20px;
+  margin-top:0px;
+  margin-left:220px;
+  width:600px;
+}
+
+
+/* Footer: Search *********************************************/
+input[type=text] {
+  border-radius:4px;
+  border:1px solid #000066;
+  padding:4px;
+  width:260px;
+}
+
+
+/* Smaller screens ********************************************/
+@media screen and (max-width: 900px) {
+  #sandwich-wrapper {
+    padding:40px 0;
+    width:600px;
+  }
+  #sidebar {
+    float:none;
+    padding-bottom:40px;
+  }
+  #sidebar li { display:inline }
+  #sidebar li a { margin-right:10px; }
+  #categories, #years, #mascot { 
+    display:none;
+    visibility:hidden;
+  }
+  header, #sidebar, main, .secondary, footer {
+      margin:0;
+      width:auto;
+  }
+  header h1 { width:140px }
+}
+
+/* Smallest screens ******************************************/
+@media screen and (max-width: 660px) {
+  html { border:0 }
+  #sandwich-wrapper {
+    margin:0;
+    min-width:320px;
+    width:auto;
+  }
+  #sidebar, article, .secondary, footer h1, footer p, footer form {
+    margin-left:15px;
+    margin-right:15px;
+  }
+  #sidebar #category-nav {
+    display:none;
+    visibility:hidden;
+  }
+  #sidebar nav #topics {
+    display:inline;
+    visibility:visible;
+  }
+  article img, article iframe, article object { 
+    height:auto !important;
+  }
+}
+
+/* EOF */
+
+
+
