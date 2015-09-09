@@ -19,7 +19,7 @@ function exists() {
 }
 
     _wav=`echo $1 | sed 's/m4a//'`
-    ffmpeg -i '$1' -ac 2 -o '$_wav'
+    ffmpeg -i '$1' -ac 2 '$_wav'
 
 function wav_to_mp3() {
     lame -m j -q 0 --vbr-new -b 128 --verbose $1
@@ -32,6 +32,8 @@ exists 'lame' && exists 'normalize' && exists 'ffmpeg' || exit 1
 
 ## Convert m4a to wav
 m4a_to_wav '$1'
+
+normalize '$1'
 
 ## Convert wav to mp3
 wav_to_mp3 '$1'
