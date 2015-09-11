@@ -9,7 +9,7 @@ set -e
 
 _show_directory="./content/post/show/"
 _latest_file="layouts/partials/latest.html"
-_pre_link='<a style="font-weight:bold" href="http://rubenerd.com/show'
+_pre_link='<a id="latest-show" style="font-weight:bold" href="http://rubenerd.com/show'
 
 ## Get latest episode
 _latest=`ls ${_show_directory}show*html | tail -n 1`
