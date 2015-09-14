@@ -47,7 +47,7 @@ $_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
     --delete --filter='P files/' ./public/ ${_server}:${_virtual_root}/
 
 ##echo '☕  Fixing symlink for assets folder...'
-##ssh $_server bin/relink.sh
+ssh $_server bin/relink.sh
 
 echo '☕  Site changes now LIVE.'
 
