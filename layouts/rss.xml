@@ -51,11 +51,11 @@
   {{ range .Params.tag }}<category>{{ . | lower }}</category>
   {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
-  {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
-  <itunes:summary>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</itunes:summary>
+  {{ if eq .Title "Show" }}{{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
+  <itunes:summary>{{ .Content | html }}</itunes:summary>
   <itunes:author>Ruben Schade</itunes:author>
   <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ if .Params.summary }}
-  <itunes:subtitle>{{ .Params.summary }}</itunes:subtitle>{{ end }}{{ end }}
+  <itunes:subtitle>{{ .Params.summary }}</itunes:subtitle>{{ end }}{{ end }}{{ end }}
 </item>
 {{ end }}
 </channel>
