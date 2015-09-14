@@ -13,15 +13,15 @@ tag:
 - virtualbox
 - virtualisation 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenie.virtualbox.emm386.png" alt="" style="height:125px; width:500px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.virtualbox.emm386.png" alt="" style="height:125px; width:500px;" /></p>
 <p>My full review of <a href="http://virtualbox.org/">VirtualBox</a> 4.x is coming, but for now I can confirm the upper memory bug for PC DOS still exists. Guess I&#39;ll be using VMWare Fusion and/or QEMU for proc-control stuff for a while yet :(</p>
 <p><!--oldmore--></p>
 <h3>Conventional memory</h3>
-<p><img src="//rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />Bill Gates infamously quipped that nobody would ever need more than 640KiB of memory, and that&#39;s exactly how DOS sees it. Regardless of how much RAM your computer has, many DOS applications will never see more than the first 640KiB. This area is referred to as Conventional Memory.</p>
+<p><img src="https://rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />Bill Gates infamously quipped that nobody would ever need more than 640KiB of memory, and that&#39;s exactly how DOS sees it. Regardless of how much RAM your computer has, many DOS applications will never see more than the first 640KiB. This area is referred to as Conventional Memory.</p>
 <p>Over time power users worked around this limitation by using so-called expanded and extended memory managers which allowed applications and drivers (that supported it!) to load themselves &quot;high&quot; or above this 640KiB memory area. This means extra RAM in systems could be used, and it also kept as much Conventional Memory free for older software, games and drivers that demanded it.</p>
 <p>Unfortunately, using UMB (upper memory blocks) was always a bit of a voodoo science, and even today some software has issues with it. QEMU, VMWare software and Connetix Virtual PC (RIP) allow full UMB access, however even the latest versions of VirtualBox still have severe stability issues when used with upper memory managers.</p>
 <h3>EMM386</h3>
-<p><img src="//rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />The EMM386 expanded memory manager that was bundled with several DOS-based versions of Windows and later versions of DOS. If it is loaded in <code>CONFIG.SYS</code> in its default form like this:</p>
+<p><img src="https://rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />The EMM386 expanded memory manager that was bundled with several DOS-based versions of Windows and later versions of DOS. If it is loaded in <code>CONFIG.SYS</code> in its default form like this:</p>
 <blockquote style="font-family:monospace"><p>
 DOS=HIGH,UMB<br />
 DEVICE=C:DOSHIMEM.SYS<br />
@@ -45,13 +45,13 @@ Unfortunately, if you attempt to mount any CD-ROM or floppy disk images in the V
 </blockquote>
 <p>Needless to say, having a virtual machine that only partly works and only if no media is mounted is a deal breaker.</p>
 <h3>UMBPCI.SYS</h3>
-<p><img src="//rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />Those of you who&#39;ve kept up to date with DOS developments of late know about this brilliant alternative to EMM386 that was first featured in Germany&#39;s <em>c&#39;t magazine</em> and now lovingly maintained to this day by Uwe Sieber. The primary advantage <code><a href="http://www.uwe-sieber.de/umbpci_e.html">UMBPCI.SYS</a></code> it has over EMM386 is it uses a fraction of the memory, which is obviously A Good Thing.</p>
+<p><img src="https://rubenerd.com/files/uploads/icon.MSDOS.jpg" alt="" style="height:100px; width:100px; float:right; margin:0 0 10px 10px;" />Those of you who&#39;ve kept up to date with DOS developments of late know about this brilliant alternative to EMM386 that was first featured in Germany&#39;s <em>c&#39;t magazine</em> and now lovingly maintained to this day by Uwe Sieber. The primary advantage <code><a href="http://www.uwe-sieber.de/umbpci_e.html">UMBPCI.SYS</a></code> it has over EMM386 is it uses a fraction of the memory, which is obviously A Good Thing.</p>
 <p>Unfortunately, while <code>UMBPCI.SYS</code> plays brilliantly with QEMU and VMware, VirtualBox fails to load it at all upon boot if its defined in place of EMM386 in <code>CONFIG.SYS</code></p>
 <blockquote style="font-family:monospace"><p>
 No unused memory block found
 </p></blockquote>
 <h3>Conclusions</h3>
-<p><img src="//rubenerd.com/files/uploads/screenie.mac.vm.png" alt="My virtual machine applications" style="height:200px; width:500px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.mac.vm.png" alt="My virtual machine applications" style="height:200px; width:500px;" /></p>
 <p>DOS is still a more commonly used system than I think many people appreciate, but I also acknowledge the limited resources a free software project like VirtualBox has to maintain support for so many different client OSs. I can appreciate that.</p>
 <p>For now, if I want to run this DOS software l&#39;ll be continuing to use QEMU on my OS X, FreeBSD and Linux boxes for DOS. Which is a shame, because having a high performance cross-platform VM tool to rule them all would sure make my life easier.</p>
 <p>Finally, people like to pick apart my posts as of late, so here are some points that before I wouldn&#39;t have bothered with ;). I am aware of DOSBox and FreeDOS. They do a great job. Unfortunately the software I need to run is not compatible with either one. PC DOS 2000 is still the most broadly compatible DOS distribution I&#39;ve ever used, and have a lot of time invested in it. QEMU and VMware run it just fine, so I&#39;ll have to stick with them.</p>

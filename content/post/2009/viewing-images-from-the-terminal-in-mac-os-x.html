@@ -11,12 +11,12 @@ tag:
 - preview-app
 - terminal 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenie.terminal.preview.jpg" alt="Viewing images from the Terminal in Mac OS X" style="display:inline; border:0px; height:322px; width:500px;" /><br /><cite>You can pass multiple images to the Preview app, very nice!</cite></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.terminal.preview.jpg" alt="Viewing images from the Terminal in Mac OS X" style="display:inline; border:0px; height:322px; width:500px;" /><br /><cite>You can pass multiple images to the Preview app, very nice!</cite></p>
 <p>The more I learn and love <a href="http://www.freebsd.org/">FreeBSD</a> the more I&#39;ve been using the <a href="http://en.wikipedia.org/wiki/Apple_Terminal">Terminal application</a> on my Macs, to the point now where I&#39;m using it more than any other application except perhaps a web browser: for file file compression and management the command line is so much quicker and simpler. As a result I&#39;ve been trying to modify my workflow to allow me to work inside the Terminal even more, and I thought I&#39;d share some tips I&#39;ve picked up here.</p>
 <p>One such example is viewing images and other media from the Terminal. Just as you probably use the bundled <a href="http://en.wikipedia.org/wiki/Preview_(software)">Preview.app</a> to do this when you&#39;re in the Finder or from the OPENSTEP days, you can also call it from the Terminal to do the same thing. For example, to load a picture called <code>Geass.jpg</code>:</p>
 <pre>/Applications/Preview.app/Contents/MacOS/Preview_Geass.jpg</pre>
 <p>And voila, Preview opens showing you the image you told it to load… from the Terminal! You can pass multiple images seperated with spaces, you can even mix in a few PDFs into your list. The scripting potential is just making me quiver with excitement!</p>
-<p><img src="//rubenerd.com/files/uploads/icon.package.png" alt="A Mac OS X package" style="display:inline; border:0px; height:128px; width:128px; float:right; margin:0 0 10px 20px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/icon.package.png" alt="A Mac OS X package" style="display:inline; border:0px; height:128px; width:128px; float:right; margin:0 0 10px 20px;" /></p>
 <p>Why didn&#39;t I just call the Preview.app application itself? Apps in Mac OS X are actually neatly contained in bundles (a special kind of folder) alongside other resources such as help files. The executable you want to call from the Terminal therefore is the program itself contained in the bundle, not the bundle itself.</p>
 <p>Unfortunately there&#39;s bad news. As a guy learning UNIX I thought I&#39;d be able to just generate a symbolic link to the executable so I could use a much shorter command in a manner line this:</p>
 <pre>

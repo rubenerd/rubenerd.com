@@ -11,20 +11,20 @@ tag:
 - rant
 - user-interfaces 
 ---
-<p><img src="//rubenerd.com/files/uploads/anime.magica.teawait.500px.png" alt="" style="height:307px; width:500px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/anime.magica.teawait.500px.png" alt="" style="height:307px; width:500px;" /></p>
 <p>Sounds like a jolly good idea!</p>
 <p><!--oldmore--></p>
 <h3>Product of the 80s!</h3>
 <p>Having been at uni on and off for several years now and having seen the work my fellow students produce, there’s no doubt in my mind there are some extrodinarily talented developers in my generation. The problem is, talented developers aren’t always the best UI designers, and I’m not just talking about all the technically brilliant but visually ugly projects on Github or SourceForge, I’m talking about basic UI principles.</p>
 <p>In our latest project, we were tasked with solving a problem that involves some fairly intensive backend processing. I don’t know why that sounds so wrong. As such, the user is instructed to wait for a period of time while the work is completed, then the results are displayed.</p>
 <p>Being the very technical and logical folk they are, the two people in my group in charged with the frontend proceeded to write the interface for the user, following the instructions for the assignments to a T. Mmm, tea. They dutifully created a dialogue box informing users they would have to wait, then sent the stuff off for processing.</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.pleasewait.png" alt="" style="height:110px; width:371px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.pleasewait.png" alt="" style="height:110px; width:371px;" /></p>
 <h3>So what?</h3>
 <p>Seems simple enough, but the approach is fundamentally flawed, and you probably already know why yourself!</p>
 <p>One of the most fundamental principles of good UI design is users should always, <strong>always</strong> be given a visual indication that activity is happening. Not sometimes, or most of the time, or only if there’s activity on the network or hard drive or whatever, <strong>always</strong>. Without exception.</p>
 <p>The problem is, for GUI applications that present a simple <em>&quot;Working…&quot;</em> dialog box, there’s no way for the user to know if the application is really working, or if its stalled or crashed. People get frustrated, and quit applications that look like they’ve crashed, which means obviously they can’t complete their tasks. In simpler or more poorly written applications without fault tolerance, suddenly quitting can lead to data loss or corruption, which means the user is even worse off!</p>
 <p>Professional users can run packet sniffers and process inspectors to check the status of seemingly crashed GUI applications, but regular users can’t be expected to do this, and those who think they can be are either deluded or the stuff they’re smoking is more powerful than they realise!</p>
-<p><img src="//rubenerd.com/files/uploads/icon.tango.appointment.warn.92px.png" alt="Icon from the Tango Desktop Project" style="height:92px; width:92px;" class="transparent" /></p>
+<p><img src="https://rubenerd.com/files/uploads/icon.tango.appointment.warn.92px.png" alt="Icon from the Tango Desktop Project" style="height:92px; width:92px;" class="transparent" /></p>
 <h3>Devil’s Advocate General</h3>
 <p>The problem is, for developers of CUI applications its fairly easy to show the status of a process: you typically check for a <code>-v</code> option, then send what you’re doing to standard output and be done with it! Before we used Eudora at home our email program was called Cooee, which kinda looks like CUI. But I digress.</p>
 <p>With GUI applications there’s more fuzzy logic involved; it’s up to you to interpret what is pertinent information to the user, translate it into English and give a visual indication. It could be &quot;connecting to network&quot; or &quot;38% processed&quot; or an animation that plays for as long as data is being transmitted or processed. In any event, if these messages are interrupted or paused for an unreasonable length of time, users can be more confident that applications have crashed or not, and can take corrective action.</p>

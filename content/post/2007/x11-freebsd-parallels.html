@@ -14,7 +14,7 @@ tag:
 ---
 <blockquote><p><strong>2009 UPDATE:</strong> I’ve long since moved to VMware Fusion and Parallels has long since moved out of beta, so as it stands this page should now be considered historical. Some very helpful people have posted comments though, so it seems most of this can still be used. Thanks everyone.</p></blockquote>
 <p><em>If you&#39;re in a hurry and just want the damned xorg.conf file, you can <a href="//rubenerd.com/files/uploads/xorg.conf">download mine here</a>. Do NOT copy the text, right click and save the file.</em></p>
-<p><a href="//rubenerd.com/category/freebsd/"><img src="//rubenerd.com/files/uploads/bsd_daemon.jpg" alt="FreeBSD!" style="float:right; margin: 0 0 10px 20px" /></a> If you&#39;ve read any of my blog by now you know I use <a href="http://www.freebsd.org/">FreeBSD 6.2</a> in <a href="http://forum.parallels.com/">Parallels Desktop</a> on my MacBook Pro. I&#39;ve received two emails from people asking how I got X11 working, so for the benefit of those fabulous people and anyone else who&#39;s interested I thought I&#39;d post a quick how-to.</p>
+<p><a href="//rubenerd.com/category/freebsd/"><img src="https://rubenerd.com/files/uploads/bsd_daemon.jpg" alt="FreeBSD!" style="float:right; margin: 0 0 10px 20px" /></a> If you&#39;ve read any of my blog by now you know I use <a href="http://www.freebsd.org/">FreeBSD 6.2</a> in <a href="http://forum.parallels.com/">Parallels Desktop</a> on my MacBook Pro. I&#39;ve received two emails from people asking how I got X11 working, so for the benefit of those fabulous people and anyone else who&#39;s interested I thought I&#39;d post a quick how-to.</p>
 <p>Essentially configuring X on FreeBSD in Parallels Desktop is the same as a normal machine but with a few quirks, especially if you&#39;re running a widescreen MacBook or MacBook Pro.</p>
 <p>Firstly after you&#39;ve installed FreeBSD (I just download the ISOs and mount them directly in Parallels), log on as root and run the X11 configuration script, which will dump an <code>xorg.conf.new</code> file into your <code>/root</code> directory:</p>
 <pre>Xorg -configure</pre>
@@ -51,6 +51,6 @@ Modeline "1280x800" 83.46 1280 1344 1480 1680 800 801 804 828
 <p>Or if you if you&#39;d prefer not to wait two days for the entire desktop to be compiled ;):</p>
 <pre>pkg_add -rv kde</pre>
 <p>Then add <code>exec startkde</code> to your <code>.xinitrc</code> in your home directory (create it if it doesn&#39;t exist).</p>
-<p><a href="//rubenerd.com/files/uploads/screenie.klia_freebsd.png"><img id="image626" src="//rubenerd.com/files/uploads/klia_freebsd_thumb.png" alt="Haruhi KDE FreeBSD" /></a></p>
+<p><a href="//rubenerd.com/files/uploads/screenie.klia_freebsd.png"><img id="image626" src="https://rubenerd.com/files/uploads/klia_freebsd_thumb.png" alt="Haruhi KDE FreeBSD" /></a></p>
 <p>Don&#39;t forget to read the <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/">FreeBSD Handbook</a> chapter on <a href="http://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/x-config.html">X11 Configuration</a> as well.</p>
  

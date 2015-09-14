@@ -15,7 +15,7 @@ tag:
 - problems
 - toshiba-libretto-70ct 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenie.toshiba.partedmagic.png" alt="PartedMagic" style="height:315px; width:420px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.toshiba.partedmagic.png" alt="PartedMagic" style="height:315px; width:420px;" /></p>
 <p>I&#39;ve finally found a drive that <a href="http://partedmagic.com/">PartedMagic</a> can&#39;t handle, but fortunately I still have a friend in <code>dd</code>. Sounds like a trailer for an episode of Dexter&#39;s Laboratory. <strong>UPDATE:</strong> Even better, use an old Knoppix CD!</p>
 <p><!--oldmore--></p>
 <p>PartedMagic is a Linux live CD optimised for drive maintainence with tools such as <a href="http://gparted.sourceforge.net/">GParted</a> and <a href="http://www.partimage.org/Main_Page">Partition Image</a> that I&#39;ve been recommending and using for a few years. I was an avid fan of <a href="http://www.symantec.com/norton/theme.jsp?themeid=partition_magic">PartitionMagic</a> before Symantec bought the company that developed it and killed the project, and PartedMagic filled that void really well.</p>
@@ -25,7 +25,7 @@ tag:
 <p>What I want to do is keep the Windows 95 partition intact but shrink it by a few gigabytes so I can run FreeBSD with my ncurses environment I&#39;ve been developing. As it stands now, GParted/libparted can&#39;t read the data in the 95 partition even though it boots fine, the drive is fine and the filesystem is fine. I think.</p>
 <p>I read on a few forums that people have had success with FAT systems running older live CDs when this problem occurs, and they surmise there may be an error in the newer versions. I&#39;m willing to give it a shot, in the meantime I&#39;m <a href="http://www.freebsd.org/cgi/man.cgi?query=dd">using dd to copy the whole drive</a> to an image file as a backup, but I need to be able to resize this.</p>
 <p>I wonder if hdiutil could do it? Hdiutil can resize non HFS+ partitions provided they&#39;re not running the system, can&#39;t it? I&#39;m sorry this whole post was an excuse to think out loud!</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.toshiba.knoppix.png" alt="Knoppix" style="height:315px; width:420px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.toshiba.knoppix.png" alt="Knoppix" style="height:315px; width:420px;" /></p>
 <h3>Update!</h3>
 <p>Turns out those forum folks were absolutely right, I tried an old version of Knoppix from 2005 and it worked flawlessly! The newer versions of libparted must have introduced a bug with old FAT filesystems, or something.</p>
  

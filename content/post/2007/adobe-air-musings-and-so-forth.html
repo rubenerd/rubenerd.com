@@ -15,7 +15,7 @@ tag:
 - netbsd
 - snitter 
 ---
-<p><img src="//rubenerd.com/files/uploads/logo.adobe.air.jpg" alt="" style="width:340px;height:140px; padding:5px" /></p>
+<p><img src="https://rubenerd.com/files/uploads/logo.adobe.air.jpg" alt="" style="width:340px;height:140px; padding:5px" /></p>
 <p>When I published <a href="//rubenerd.com/snitter-gets-a-leopard-makeover/">my last post here on my experiences with Snitter</a> including it&#39;s new Leopard skin, comparing it&#39;s advertisement free interface to Twitterrific, and being a bit critical about about the Adobe Air platform it was written on; I had no idea that it would be the <strong>latter point</strong> that would generate feedback!</p>
 <p>Today <a href="http://danieldura.com/">Daniel Dura</a> posted a comment on my aforementioned weblog post:</p>
 <blockquote><p>Ruben, I am a platform evangelist at Adobe and also work closely with the AIR team. You say:</p>
@@ -24,12 +24,12 @@ tag:
 <p>I will do my best to answer your query! There are several serious problems I have with the Adobe Air platform, including the fact the applications don&#39;t integrate well with the desktop systems they&#39;re running on, they don&#39;t install correctly when you use restricted operating system accounts, and it&#39;s not open source.</p>
 <p>Firstly, as web applications masquerading as regular applications, they don&#39;t do a very good job with integrating with the desktop, especially on Mac OS X. For example, the OS X convention for small windows with rounded edges is that they can be moved across the screen by clicking and dragging any portion of the window. If you do this on all but the title bar in Air applications they don&#39;t move, but rather unexpectedly select text and elements in the application.</p>
 <p>This behavior really is maddening, especially for a messenger-like application which you may be attempting to scroll through or move around a lot during the course of a day.</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.snitter.irritating.png" alt="" style="width:375px;height:425px" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.snitter.irritating.png" alt="" style="width:375px;height:425px" /></p>
 <p>Secondly, if for security reasons you use a <a href="http://docs.info.apple.com/article.html?path=Mac/10.5/en/8235.html">limited or standard account</a> on OS X for day-to-day usage and only uses the administrative account as a way for the machine to ask for confirmation and a password before you install software or modify settings, the Adobe Air runtime installer and any Air applications you attempt to install simply fail.</p>
 <p>I&#39;ll explain what I mean with an example: to install most software on Mac OS X, you either run the installer or drag the application package over to your Applications folder. In both of these cases if you are running in a limited account it will prompt you to enter the username and password of an administrator. In this way you <strong>never actually have to log into the administrative account</strong> because, just like in UNIX with <code>sudo</code>, you&#39;re only using the administrative account to authorise actions. It&#39;s the best of both worlds!</p>
 <p>Adobe Air doesn&#39;t do this on OS X. When you attempt to install the runtime, it automatically assumes it&#39;s running as an administrator, then proceeds to crash when you try to install. The exact same thing happens when you use the &quot;install badge&quot; such as the one on the Snitter page.</p>
 <p>The only solution is to physically log out, log in as the administrator, install the runtime, use the install badge to install Air software, log out and log back in as a limited user. This is the virtually the only software on Mac that requires this, and you even need to do it <strong>every single time an application is updated</strong> and requires an upgrade!</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.mac.password.png" alt="" style="width:500px;height:318px" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.mac.password.png" alt="" style="width:500px;height:318px" /></p>
 <p>And finally, the little alert light started flashing in my head as soon as I read that Adobe Air uses Flash. I dislike Flash because:</p>
 <ul>
 <li>It’s <strong>not open source</strong> so requires the purchasing of proprietary and <strong>very expensive Flash authoring software</strong> (in terms of resource use and financial cost) that Adobe doesn’t bother making available for Linux or BSD.</li>
@@ -37,6 +37,6 @@ tag:
 <li>Previous <a href="//rubenerd.com/ajax-repeating-past-mistakes/">bad experiences with Flash</a>, as well as Ajax.</li>
 </ul>
 <p>So even if all the above criticisms about desktop integration and access control were addressed and I could breathe in Adobe Air goodness, the fact is I could only use applications I write in it on only a small fraction of my machines. For a company that generates as much revenue and holds such a strong position in it&#39;s respective markets, there is really no excuse other than arrogance I can see for maintaining this position.</p>
-<p><a href="//rubenerd.com/files/uploads/screenie.flash.bsd.png"><img src="//rubenerd.com/files/uploads/screenie.flash.bsd.jpg" alt="The Adobe website telling me I need Flash, even though they don't make it for that OS!" style="width:500px;height:313px" /></a></p>
+<p><a href="//rubenerd.com/files/uploads/screenie.flash.bsd.png"><img src="https://rubenerd.com/files/uploads/screenie.flash.bsd.jpg" alt="The Adobe website telling me I need Flash, even though they don't make it for that OS!" style="width:500px;height:313px" /></a></p>
 <p>I appreciate Adobe&#39;s efforts to create a system for web developers to create client side, desktop applications and am glad that it&#39;s providing competition to Silverlight and JavaFX which hopefully will  help consumers, but these shortcomings for time being mean I won&#39;t be paying too much attention to it, which is a shame.</p>
  

@@ -12,13 +12,13 @@ tag:
 - windows
 - windows-2000 
 ---
-<p><img src="//rubenerd.com/files/2013/screenie.win2k.directx.png" alt="Windows 2000 with the DirectX Diagnostic Tool and a nostalgic bundled wallpaper!" style="width:500px; height:220px;" /></p>
+<p><img src="https://rubenerd.com/files/2013/screenie.win2k.directx.png" alt="Windows 2000 with the DirectX Diagnostic Tool and a nostalgic bundled wallpaper!" style="width:500px; height:220px;" /></p>
 <p>As with the dizzying number of graphics cards the software ran on, I never really kept track of DirectX versions growing up. I paid the price recently when I tried to install it on an old copy of Windows 2000 to relive some classic simulator games, and encountered multiple incompatible releases with the same version number.</p>
 <h3>I couldn&#39;t find an iDirectX 9.0s</h3>
 <p>DirectX 9.0c is the last version to support Windows 2000, according to the official <a href="https://www.microsoft.com/en-us/download/details.aspx?id=34429">Microsoft Download Centre doucmentation</a>. Unfortunately, the first page result downloads the infamous dxwebsetup.exe stub file, which then downloads DirectX. <em>Yo dawg, I heard you like installers, so we put an installer in your installer so you can install while you install</em>.</p>
 <p>I couldn&#39;t even use this if I wanted to. Because the OS no longer receives security updates, I run Windows 2000 in a sandboxed VM to shield it from the outside world. The key then is to do what we all did in the past, and download the redistributable version of DirectX. This allows you to download the whole installer in one shot, and keep it for future installs.</p>
 <p>I proceeded to <a href="https://www.microsoft.com/en-us/download/details.aspx?id=9033" title="DirectX End-User Runtimes (June 2010)">download DirectX 9.0c</a>, and was given the following prompt in Windows 2000:</p>
-<p><img src="//rubenerd.com/files/2013/screenie.win2k.directx.error.png" alt="ERROR: DXSETUP.exe is not a valid Win32 application" style="width:500px; height:150px;" /></p>
+<p><img src="https://rubenerd.com/files/2013/screenie.win2k.directx.error.png" alt="ERROR: DXSETUP.exe is not a valid Win32 application" style="width:500px; height:150px;" /></p>
 <h3>23 secret herbs and spices</h3>
 <p>Digging around for an explanation for this error, I rediscovered something utterly confusing. Despite the seemingly specific version number, there were 23 versions of DirectX 9.0c released between June 2005 and June 2010. Of these, <strong>all</strong> are compatible with Windows 2000 <strong>except</strong> the last version which included some new incompatible features.</p>
 <p>Moral of the story: if you&#39;re a Windows 2000 guy or girl still, you want the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=9033" title="DirectX End-User Runtimes (February 2010)">February 2010 release of DirectX 9.0c</a>.</p>

@@ -14,19 +14,19 @@ tag:
 - studies
 - theory 
 ---
-<p><a title="Chain photo by Toni Lozano on Wikipedia" href="http://en.wikipedia.org/wiki/File:Broad_chain_closeup.jpg"><img src="//rubenerd.com/files/uploads/photo.chain.tonilozano.jpg" alt="Chain photo by Toni Lozano on Wikipedia" style="height:215px; width:500px; border:0em; display:inline" /></a></p>
+<p><a title="Chain photo by Toni Lozano on Wikipedia" href="http://en.wikipedia.org/wiki/File:Broad_chain_closeup.jpg"><img src="https://rubenerd.com/files/uploads/photo.chain.tonilozano.jpg" alt="Chain photo by Toni Lozano on Wikipedia" style="height:215px; width:500px; border:0em; display:inline" /></a></p>
 <p>One of the things I&#39;ve had to relearn in <a href="//rubenerd.com/tag/java/">Java</a> after not touching it for a while in a university setting is not the concept of linked lists specifically, but how they&#39;re implemented. Despite Java having native support for them in its API, we&#39;re expected to create our own Linked List objects to use in our programs, presumably to demonstrate we understand the concept and so we could create a really long linked list of <a href="//rubenerd.com/tag/grilled-cheese-sandwiches/">grilled cheese sandwiches</a>.</p>
 <p><!--oldmore--></p>
 <p>As I understand it in an abstract sense, each <strong>node</strong> in a linked list contains an <strong>object</strong> and a <strong>pointer</strong> to the next node if applicable. The <strong>header</strong> points to the first node, and the last node points to <strong>null</strong>. To load in all the nodes we&#39;d traverse the linked lists starting at the head until we encountered a null.</p>
-<p><img src="//rubenerd.com/files/uploads/diagram.ll.png" alt="" style="height:38px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/diagram.ll.png" alt="" style="height:38px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
 <p>In a similar way to a primitive array with shifting, a linked list is expected to be able to have nodes removed and added from any arbitrary position including at the head and the end.</p>
 <h3>Adding nodes to a link list</h3>
-<p><img src="//rubenerd.com/files/uploads/diagram.ll.add.png" alt="" style="height:85px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/diagram.ll.add.png" alt="" style="height:85px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
 <p>Adding nodes entails traversing the linked list until we come to the node just before where we want to insert our new node. We then point the previous node to our new one, and our new node to the next in.</p>
 <p><strong>To add the node to the beginning</strong>, we don&#39;t need to traverse the list, we just point the header to the new node, and our new node to the previously first node.</p>
 <p><strong>To add the node to the end</strong>, we traverse until we reach a null value, then have the last node point to our new node, and our new node point to null instead.</p>
 <h3>Removing nodes</h3>
-<p><img src="//rubenerd.com/files/uploads/diagram.ll.delete.png" alt="" style="height:60px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/diagram.ll.delete.png" alt="" style="height:60px; width:489px; border:0em; display:inline; padding:0em; background:transparent;" /></p>
 <p>Not surprisingly, removing nodes entails the opposite of adding them. Instead of severing links to place a new node, we sever the nodes between the node to remove and the nodes surrounding it, then link the surrounding nodes. If your programming language doesn&#39;t have garbage collection, you&#39;ll then want to undefine the object.</p>
 <p>If the node is at the <strong>beginning</strong> we link the header to the next node on the list, and if the node is at the <strong>end</strong> we take the second last node and point it to null.</p>
 <h3>Observations</h3>

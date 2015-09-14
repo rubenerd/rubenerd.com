@@ -21,7 +21,7 @@ tag:
 <p>&lt;!&#8211; Xfce is a fantastic desktop environment to use on Linux, BSD and other Unix-like operating systems because it provides an attractive, fast, cohesive experience that&#39;s a pleasure to use, while being much more lightweight than the de-facto standard GNOME and KDE desktops. &#8211;&gt;Part of the <a href="http://www.xfce.org/">Xfce desktop environment</a> is <a href="http://www.xfce.org/projects/xfwm4/">Xfwm</a>, the Xfce window manager. Xfwm provides sophisticated and pretty composting effects such as drop shadows and alpha transparency on windows and menus, while still using less memory and power than competing desktop window managers. Despite this, for much slower machines even Xfwm can be overkill.</p>
 <blockquote><p><strong>ASIDE:</strong> &quot;Window managers&quot; draw the widgets, title bars, resize handles and other elements onto application windows. &quot;Desktop environments&quot; such as <a href="http://kde.org/">KDE</a>, <a href="http://gnome.org/">GNOME</a> and Xfce bundle their own window managers along with software developed specifically for their environments, such as <a href="http://thunar.xfce.org/">Thunar</a> for Xfce.</p></blockquote>
 <p>Enter <a href="http://icculus.org/openbox/index.php/Main_Page">Openbox</a>, again! Openbox is an extensible, standards compliant, <em>very</em> minimalistic window manager that can be used by itself or in place of a desktop environment&#39;s default window manager to further reduce memory and processor resources. The separate <a href="http://icculus.org/openbox/index.php/ObConf:About">obconf</a> utility provides a nice graphical control panel you can use to switch themes and adjust settings.</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.openbox.png" alt="The Obconf window and Xfce Settings menu entry" style="height:300px; width:500px;" /><br />
+<p><img src="https://rubenerd.com/files/uploads/screenie.openbox.png" alt="The Obconf window and Xfce Settings menu entry" style="height:300px; width:500px;" /><br />
 <cite>Openbox running in Xfce with the bundled &quot;Mikachu&quot; theme</cite></p>
 <p>Most reputable package managers carry both Openbox and obconf, check your distribution&#39;s repositories. To install them on FreeBSD ports:</p>
 <pre>
@@ -43,7 +43,7 @@ tag:
 <p>Now we want to kill the active Xfwm process in Xfce and open our glorious Openbox replacement. Fire up your Terminal and enter:</p>
 <pre>% killall xfwm4 ; openbox &#038; exit</pre>
 <p>It really is smaller in every sense of the word isn&#39;t it? To make sure Openbox is used by default whenever you start Xfce, quit Xfce and check <em>&quot;Save sessions for future login&quot;</em>.</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.obconf.png" alt="The Obconf window and Xfce Settings menu entry" style="height:326px; width:500px;" /><br />
+<p><img src="https://rubenerd.com/files/uploads/screenie.obconf.png" alt="The Obconf window and Xfce Settings menu entry" style="height:326px; width:500px;" /><br />
 <cite>Don&#39;t worry, CC looks pretty confused herself!</cite></p>
 <p>You&#39;ll also notice that the <em>&quot;Openbox Configuration Manager&quot;</em> has added itself to the <a href="http://www.xfce.org/projects/xfce-mcs-manager/">Xfce Settings menu</a>! Click on it and have fun with all the different themes, button positions, font sizes and arrangement settings.</p>
 <h3>Related posts</h3>

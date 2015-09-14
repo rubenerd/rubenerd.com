@@ -11,7 +11,7 @@ tag:
 - networking
 - phorm 
 ---
-<p><img src="//rubenerd.com/files/uploads/diagram.dns.rant.png" alt="" style="height:156px; width:405px;" class="transparent" /></p>
+<p><img src="https://rubenerd.com/files/uploads/diagram.dns.rant.png" alt="" style="height:156px; width:405px;" class="transparent" /></p>
 <p>My experiment with using <a href="https://code.google.com/speed/public-dns/">Google Public DNS</a> and <a href="http://opendns.com/">OpenDNS</a> is over, and I&#39;m back to using the Optus ones. Behold an incredibly long rant on DNS.</p>
 <p><!--oldmore--></p>
 <h3>Weasel word warning</h3>
@@ -19,7 +19,7 @@ tag:
 <h3>Lat……………. ency</h3>
 <p>There are two problems with using services such as OpenDNS and Google Public DNS (referred to henceforth as just Google in this post). The first is the obvious issue with latency; when you&#39;re accessing a DNS server in a distant country you&#39;ll [virtually] never get the same performance as a server running locally, especially so if its at your ISP. Well, unless your ISP really, really, really sucks, and particularly in Australia this isn&#39;t a far out possibility. Needless to say, APC and other magazines that sound like surge protector manufacturers have had articles discussing the issue of latency.</p>
 <p>This isn&#39;t the focus of this post so I won&#39;t go into this aspect of it for too much longer, suffice to say my pings were on average two significant figures shorter when using my ISP&#39;s DNS servers than Google and OpenDNS.</p>
-<p><img src="//rubenerd.com/files/uploads/diagram.ping.png" alt="" style="height:220px; width:464px;" class="transparent" /></p>
+<p><img src="https://rubenerd.com/files/uploads/diagram.ping.png" alt="" style="height:220px; width:464px;" class="transparent" /></p>
 <h3>Okay, what’s the real issue?</h3>
 <p>The second isn&#39;t a technological problem with the services themselves, but rather the way some people talk about them. Much like many of my American comrades have to endure the frustration of hearing about body scanners taking naked pictures without much talk at all about the inherent safety risks that intense radiation presents, people only seem to discuss the issue of open DNS services being speed.</p>
 <p>The question is: do you trust Google, OpenDNS or your ISP? Or perhaps a more pertinent question: out of Google, OpenDNS and your ISP, which do you trust the most?</p>
@@ -29,7 +29,7 @@ tag:
 <p>Some ISPs use DNS to hijack 404 page requests so instead of getting an error message from your browser, you get a page laden with ads, and a search engine box that gives referral money to the ISP. Its a minor annoyance for end users, and it wrecks havoc with services and software that rely on receiving a 404 to confirm a resource is unavailable. Some ISPs allow you to disable this behaviour, fortunately mine does. I wish they just didn&#39;t do it in the first place.</p>
 <p>The more invasive form of this, and I consider it a brazen form of man-in-the-middle attack, is when ISPs actively mine the data that you&#39;re accessing online, and uses it for their own devious purposes. Advertising. Selling to intelligence agencies. Performing illegal electronic wire taps without an opt in. Having your IP addresses being resolved by a DNS server outside their control wouldn&#39;t stop this, but anything to make their lives more inconvenient and their logs more confusing is always a plus.</p>
 <p>So we come to the question, do you trust that your ISP isn&#39;t performing this nonsense, or would you rather rely on OpenDNS or Google? Both are freemium outfits (AFAIK) but I can&#39;t help but think they&#39;d be doing something sneaky to their free users. OpenDNS even hijacks 404 error pages by default too!</p>
-<p><img src="//rubenerd.com/files/uploads/anime.toradora.404.jpg" alt="" style="height:340px; width:320px;" class="transparent" /></p>
+<p><img src="https://rubenerd.com/files/uploads/anime.toradora.404.jpg" alt="" style="height:340px; width:320px;" class="transparent" /></p>
 <h3>Trust issue two: Maintenance</h3>
 <p>One would think that by using DNS as a revenue source they&#39;d hopefully invest more time and money in the DNS servers themselves, as I suspect many are running on cheap old boxes in basements gathering dust. DNS is a very unsexy, if necessary service that ISPs provide, not at all like that cool mirrored content that some ISPs still count towards quotas (COUGH Optus COUGH) and selective on-demand video and whatnot that&#39;s easy to advertise and makes a mockery of net neutrality. But that&#39;s for another post.</p>
 <p>Because DNS is so terribly unsexy, many ISPs that run obligatory DNS servers simply don&#39;t enforce stringent security protocols when it comes to maintenance. DNS spoofing is real and is being actively performed in the wild, and while there are technological solutions (aka: marketing speak for patches) an alarming number of said servers are still vulnerable.</p>

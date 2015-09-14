@@ -10,10 +10,10 @@ tag:
 - linux
 - ram 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenshot.centos63.kernelthreadhelper.png" alt="" style="width:500px; height:190px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenshot.centos63.kernelthreadhelper.png" alt="" style="width:500px; height:190px;" /></p>
 <p>If you&#39;re seeing the above error, chances are you haven&#39;t got enough memory!</p>
 <p>While attempting to install from <a href="http://centos.org/">CentOS-6.3-i386-minimal.iso</a>, both VirtualBox and Parallels Desktop independently produced this error, regardless of the type of installation chosen. I suspect <a title="[CentOS] HOWTO install CentOS 6 on low memory computer or virtual machine (even 192MB RAM)" href="http://lists.centos.org/pipermail/centos/2011-July/115367.html">given this mailing list thread</a>, this is due to a bug in the Anaconda installer not being able to use swap space.</p>
 <p>Increasing the allocated virtual memory from 128MiB (which I&#39;d chosen to match a VPS) to 192MiB replaced the above errors with an insufficient RAM error message, which was far more useful.</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.centos.insufficientram.png" alt="" style="width:500px; height:225px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.centos.insufficientram.png" alt="" style="width:500px; height:225px;" /></p>
 <p>512MiB solved the problem. Boom!</p>
  

@@ -10,7 +10,7 @@ tag:
 - package-managers
 - postaday2011 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenie.homebrew.png" alt="Homebrew running on my Mac Pro this afternoon" style="height:215px; width:500px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.homebrew.png" alt="Homebrew running on my Mac Pro this afternoon" style="height:215px; width:500px;" /></p>
 <p>In January I started trialling <a href="http://github.com/mxcl/homebrew/">Homebrew</a>, the new package manager for Mac OS X. With my latest system rebuild, I’ve moved to it exclusively, and am loving it!</p>
 <p><!--oldmore--></p>
 <h3>Homebrew means coffee, right?</h3>
@@ -34,7 +34,7 @@ tag:
 <h3>The goodness</h3>
 <p>In CatB, the legendary Eric S. Raymond commented that every good work of software starts by scratching a developer’s personal itch, and that’s evident with the design of Homebrew. The entire system is based off Git, and individual formulas (their terminology for ports/packages) are simple Ruby files. I’m ready to dive off Mercurial and learn more Git just to see all the cool stuff I can do with this!</p>
 <p>My favourite feature however is how formulas are installed. In a nod to NeXT/Mac OS X application packages and PC-BSD’s PBI system, instead of dumping everything into ungainly POSIX folders like almost every other package manager, Homebrew installs formulas into their own directories in <code>$HOMEBREW_PATH/Cellar</code>, then create symlinks into their expected POSIX folders so you merely have to add <code>$HOMEBREW_PATH/bin</code> to your <code>$PATH</code>. Compatible, but clean!</p>
-<p><img src="//rubenerd.com/files/uploads/screenie.homebrew.cellar.png" alt="Homebrew listing my installed brews in the Cellar" style="height:227px; width:500px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.homebrew.cellar.png" alt="Homebrew listing my installed brews in the Cellar" style="height:227px; width:500px;" /></p>
 <h3>Where Ruben differs</h3>
 <p>In keeping with not being tied down to how traditional package managers operate, the Homebrew team suggests you take ownership of the <code>/usr/local/</code> directory, then install Homebrew there.</p>
 <p>Their justifications seem reasonable, but the idea rubs me the wrong way. I don’t want Homebrew clashing with the software I already build and maintain myself in <code>/usr/local/</code>, and personally <code>chown</code>-ing such a critical directory goes against everything I’ve learned about security and segregation.</p>

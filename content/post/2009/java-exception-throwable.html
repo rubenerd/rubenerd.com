@@ -11,7 +11,7 @@ tag:
 - programming
 - studies 
 ---
-<p><img src="//rubenerd.com/files/uploads/logo.java.175.png" alt="Classic Java logo" style="height:305px; width:175px; display:inline; border:0em; padding:0em; background:transparent" /></p>
+<p><img src="https://rubenerd.com/files/uploads/logo.java.175.png" alt="Classic Java logo" style="height:305px; width:175px; display:inline; border:0em; padding:0em; background:transparent" /></p>
 <p>A few weeks ago I talked about how you can <a href="//rubenerd.com/custom-java-exceptions/">throw custom exceptions in Java</a> which can be extremely useful for dealing with certain events. The problem a few people raised with my example though was my use of <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a></code> instead of <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html">Exception</a></code>, so this afternoon I wanted to briefly explore the error in my ways!</p>
 <p><!--oldmore--></p>
 <p>While using <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Throwable.html">Throwable</a></code> in the context of throwing custom error messages technically works, the <code><a href="http://java.sun.com/javase/6/docs/api/java/lang/Exception.html">Exception</a></code> class inherits directly from Throwable and is on the same level as the exceptions Java throws itself (surprising given the name!) which makes it a more correct choice.</p>

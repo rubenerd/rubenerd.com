@@ -15,10 +15,10 @@ tag:
 - tape-archive
 - terminal 
 ---
-<p><img src="//rubenerd.com/files/uploads/screenie.mac.tar.png" alt="Archive Utility having trouble with a malformed/damaged tar file" style="height:128px; width:393px; display:inline; border:0px" /><br /><cite>Archive Utility having trouble with a malformed/damaged tar file</cite></p>
+<p><img src="https://rubenerd.com/files/uploads/screenie.mac.tar.png" alt="Archive Utility having trouble with a malformed/damaged tar file" style="height:128px; width:393px; display:inline; border:0px" /><br /><cite>Archive Utility having trouble with a malformed/damaged tar file</cite></p>
 <p>Okay enough political nonsense, back to writing about technology and software!</p>
 <p>Unlike zip or proprietary rar files, in true &quot;do one thing and do it well&quot; Unix style, most Unix-like file compressors (such as bzip2, rzip or gzip) only compress one file at a time. An intermediate container format is needed if multiple files in one compressed archive are needed, the most common of which is the <a href="http://en.wikipedia.org/wiki/Tar_(file_format)">Tape Archive</a> file/tarball or <code>tar</code>.</p>
-<p><img src="//rubenerd.com/files/uploads/icon.archive.utility.png" alt="Archive Utility" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px;" /></p>
+<p><img src="https://rubenerd.com/files/uploads/icon.archive.utility.png" alt="Archive Utility" style="height:128px; width:128px; display:inline; border:0px; float:right; margin:0 0 10px 20px;" /></p>
 <p>Mac OS X&#39;s <a href="http://en.wikipedia.org/wiki/Archive_Utility">Archive Utility</a> (which you invoke from the Finder) has native support for <code>tar</code>, but I&#39;m surprised by the number of times I see the error message above after double clicking and attempting to open one. Usually this is a result of a malformed or broken <code>tar</code> file, but the nature of <code>tar</code> files is that generally some files can be salvaged. The Finder refuses to do this, which worries me. How many GUI proficient Mac users throw away <code>tar</code> files that they could salvage at least some files out of?</p>
 <p>The solution is a quick trip to the Terminal and using the <code>cd</code> command (same way as DOS) to navigate to the folder where the tar file you&#39;re having trouble with is located. Then enter:</p>
 <pre>% tar xvf [FILENAME].tar</pre>

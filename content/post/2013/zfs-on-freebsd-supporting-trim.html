@@ -10,7 +10,7 @@ tag:
 - ssd
 - zfs 
 ---
-<p><img src="//rubenerd.com/files/2013/logo-freebsd.png" alt="FreeBSD logo" style="width:242px; height:87px;" /></p>
+<p><img src="https://rubenerd.com/files/2013/logo-freebsd.png" alt="FreeBSD logo" style="width:242px; height:87px;" /></p>
 <p><a href="//rubenerd.com/freebsd9-parallels9/" title="FreeBSD 9.2 with vesa in Parallels Desktop 9">Speaking of FreeBSD</a>, I initially missed the line in the <a href="http://www.freebsd.org/releases/9.2R/announce.html" title="FreeBSD 9.2-RELEASE Announcement">9.2 release announcement</a> that ZFS will now support TRIM on SSDs.</p>
 <p>For those who don&#39;t know, TRIM was one of the earlier technologies broadly designed to help limit the number of overwrite requests to a solid state drive. Traditional hard drives mark deleted sectors as free, which the file system can allocate to other files. For solid state drives, a sector must first be wiped before allocating new data. With TRIM, the OS can inform the SSD where deleted data is located, drastically improving performance and the lifespan of the hardware.</p>
 <p>From what I understand of contemporary solid state drives, this is less of a concern now than it was a few years ago. Drives internally handle overwrite requests more intelligently now, so having a set of files constantly changing won&#39;t chew up your precious write cycles to the same extent. That said, anything to reduce it from the supply side is a good thing.</p>

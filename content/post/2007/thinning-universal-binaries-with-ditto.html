@@ -22,7 +22,7 @@ tag:
 - terminal
 - universal-binary 
 ---
-<p><img src="//rubenerd.com/files/uploads/universal.png" alt="" /></p>
+<p><img src="https://rubenerd.com/files/uploads/universal.png" alt="" /></p>
 <p>In November of 2006 I uploaded a post called <a href="//rubenerd.com/a-closer-look-at-apples-universal-binaries/">A Closer Look At Apple’s Universal Binaries</a> where I tried to describe what UB&#39;s are and how to use the <code>lipo</code> command in the Terminal to remove unnecessary code. Since then I&#39;ve learned a bit more, and have found a slightly easier way to do it.</p>
 <p><span style="font-style:italic"><a href="//rubenerd.com/a-closer-look-at-apples-universal-binaries/">Previous post</a> in a nutshell: If you&#39;ve used Mac computers at all since 2005 you&#39;re probably aware of Universal binaries, the fancy name Apple gave to applications that have native code for PowerPC and Intel processors. While they really simplify distribution, they store code on your machine you don&#39;t actually need.</span></p>
 <p>Fortunately in Tiger Apple bundled the <code>ditto</code> (and <code>lipo</code>) utility which you can use to create a <q>thin</q> version of a universal binary that only contains code for your processor.</p>

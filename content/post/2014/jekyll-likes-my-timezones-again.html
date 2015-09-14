@@ -9,7 +9,7 @@ tag:
 - timestamps
 - timezones 
 ---
-<p><img src="//rubenerd.com/files/2014/anime.azunyanmap.jpg" alt="Promotional artbook image of the K-On! girls for their London movie" style="width:500px; height:340px;" /></p>
+<p><img src="https://rubenerd.com/files/2014/anime.azunyanmap.jpg" alt="Promotional artbook image of the K-On! girls for their London movie" style="width:500px; height:340px;" /></p>
 <p>At some point in the most recent branch, my <a href="http://jekyllrb.com" title="Jekyll, the blog aware, static site generator">Jekyll</a> setup began falling over itself with timezones in timestamps. I hesitated to call it a general bug, given I use Jekyll in a fairly custom way. In any case, this was a serious issue given I’ve written this blog from a dozen different timezones over its nine year history, including a couple that were more than 12 hours apart.</p>
 <p style="font-style:italic">(To be fair, Jekyll still performs far better than WordPress ever did for timezones, particularly when I was living in Singapore and studying in Adelaide, Australia. My late night SQL adventures with <strong>that</strong> are for another post).</p>
 <p>My solution, at the time, was to bypass the bug by moving the offending timezone to its own front matter &#8220;tz&#8221; attribute. This necessitated adding extra post.tz Liquid markup everywhere where dates were handled, then writing a custom date mask that didn’t convert the time to UTC, but supressing the automatically added timezone. <a title="Rubénerd: Jekyll timezones" href="//rubenerd.com/jekyll-timezones/">It was a horrible hack</a>, but it worked:</p>
