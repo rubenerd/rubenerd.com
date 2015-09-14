@@ -1,0 +1,29 @@
+---
+draft: true
+title: "Subtracting dates to 209"
+date: "2015-09-14T15:03:00+10:00"
+summary: "I was born 207 days after 209"
+category: Thoughts
+tag:
+- frank-nora
+- overnightscape
+---
+<p>The number 209 is very important in <em><a href="http://theovernightscape.com/">The Overnightscape</a></em> universe. Frank explained when he first noticed it on episode “<a href="">1215: Glow Ron</a>”:</p>
+
+<blockquote>
+<p>My first day in college, the 209 thing happened! September first, second, third or forth, of 1985
+</blockquote>
+
+<p>Wait a minute. I was born on the 27th of March, 1986.</p>
+
+<pre>
+$ irb
+irb(main):001:0&gt; require 'time'
+irb(main):002:0&gt; birthday = Date.parse("1986/03/27")
+irb(main):003:0&gt; frank = Date.parse("1985/09/01")
+irb(main):003:0&gt; puts birthday.mjd - frank.mjd
+==&gt; 207
+</pre>
+
+<p>That’s not 209, but it’s pretty damned close.</p>
+
