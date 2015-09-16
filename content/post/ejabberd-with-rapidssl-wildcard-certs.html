@@ -1,0 +1,34 @@
+---
+title: "ejabberd with RapidSSL wildcard certs"
+date: "2015-09-16T17:29:00+10:00"
+summary: "Add the intermediate cert as well."
+category: Software
+tag:
+- ejabberd
+- guide
+- ssl
+- xmpp
+---
+<p>The ejabberd XMPP server requires the server key and certificate in the one pem file, in that order. Alas, writing these out caused new connections to drop. Oops.</p>
+
+<p>The first catch was my pem file wasn't readable by the ejabberd user, a rookie mistake.</p>
+
+<pre>
+$ ls -l server.pem
+==&gt; -r-------- 1 root root 6124 Sep 16 05:56 server.pem
+
+$ chown ejabberd:ejabberd server.pem
+==&gt; -r-------- 1 ejabberd ejabberd 6124 Sep 16 05:56 server.pem
+</pre>
+
+<p>Connections could now be established, but verification failed:</p>
+
+<pre>
+$ openssl s_client -connect subdomain.server.tld:5222 -starttls xmpp
+==&gt; [..]
+==&gt; Verify return code: 21 (unable to verify the first certificate)
+</pre>
+
+<p>Not to get all Malcolm <del>Turnbull</del> Gladwell on you, but <em>turns out</em> you need to append the intermediate RapidSSL CA as well. For me, this required both sets of certs from <a href="https://knowledge.rapidssl.com/support/ssl-certificate-support/index?page=content&amp;actp=CROSSLINK&amp;id=SO26459">this knowledgebase article</a>.</p>
+
+<p>Lesson learned; if you use a wildcard RapidSSL cert with ejabberd, make sure you include the RapidSSL and GeoTrust certs in the pem file.</p>
