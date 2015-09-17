@@ -1,0 +1,40 @@
+---
+title: "Changing QEMU floppy disks"
+date: "2015-09-17T16:32:00+10:00"
+summary: "Use floppy0 instead of fda."
+category: Software
+tag:
+- floppy-disks
+- qemu
+- virtualisation
+---
+<p>The fda parameter can be used to define a disk when starting QEMU.</p>
+
+<pre>
+$ qemu-system-x86_64 -fda floppy1.img [..]
+</pre>
+
+<p>If you get to the point where you need to swap disks, enter <code>CTRL+ALT+2</code> and update the fda disk. Or so the <a href="http://www.h7.dion.ne.jp/~qemu-win/HowToFloppyCdrom-en.html">online guides</a> say.</p> 
+
+<pre>
+(qemu) change fda "floppy1.img"
+==&gt; Device 'fda' not found
+</pre>
+
+<p>Recent versions of QEMU seem to have changed this. Run <code>info block</code> showed a different identifier for the floppy drive: </p>
+
+<pre>
+floppy0: ./floppy1.img (raw)
+    Removable device: not locked, tray closed 
+    Cache mode:       writeback
+</pre>
+
+<p>Using this identifier works.</p>
+
+<pre>
+(qemu) change floppy0 "floppy2.img"
+==&gt; [silently accepted]
+</pre>
+
+<p>Now you can go back with <code>CTRL+ALT+1</code>.</p>
+
