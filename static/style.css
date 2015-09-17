@@ -23,7 +23,7 @@ hgroup, main, menu, nav, section { display:block }
 
 
 /* Palette ****************************************************/
-html {
+html,h2 a:hover {
   background:#000073;
   color:#ccccee;
 }
@@ -31,8 +31,8 @@ html {
   background:#0099ff url("sydney-singapore.png") top center no-repeat;
   height:100px;
 }
-h1 a, h2 a, h3 a, table th, nav a, .archive dl a { color:#ffffff }
-#sidebar nav a,a, time, #archive-show dl dd { color:#0099ff }
+h1 a,h3 a,table th,nav a,.archive dl a { color:#ffffff }
+h2 a,#sidebar nav a,a,time,#archive-show dl dd { color:#0099ff }
 blockquote { 
   border-left:4px solid #333399;
   color:#aaaadd;
