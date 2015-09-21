@@ -24,15 +24,16 @@ hgroup, main, menu, nav, section { display:block }
 
 /* Palette ****************************************************/
 html,h2 a:hover {
-  background:#000073;
-  color:#ccccee;
+  background:#001581;
+  color:#ddddee;
 }
 #skyline {
-  background:#0099ff url("sydney-singapore.png") top center no-repeat;
+  background:#0099ff url("skyline-night.png") top center no-repeat;
   height:100px;
 }
 h1 a,h3 a,table th,nav a,.archive dl a { color:#ffffff }
-h2 a,#sidebar nav a,a,time,#archive-show dl dd { color:#0099ff }
+h2 a { color:#ffffff }
+#sidebar nav a,a,time,#archive-show dl dd { color:#0099ff }
 blockquote { 
   border-left:4px solid #333399;
   color:#aaaadd;
@@ -53,7 +54,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 
     #skyline {
-        background:#0099ff url("sydney-singapore2x.png") top center no-repeat;
+        background:#0099ff url("skyline-night2x.png") top center no-repeat;
         background-size:821px 100px;
     }
 
@@ -116,7 +117,7 @@ hr {
 
 /* Header *****************************************************/
 #sidebar header h1 {
-  background:url("/logo.svg") top center no-repeat;
+  background:url("/logo-dark.svg") top center no-repeat;
   font-size:30px;
   position:relative;
   height:76px;
