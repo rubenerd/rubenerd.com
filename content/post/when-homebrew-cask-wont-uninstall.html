@@ -1,0 +1,38 @@
+---
+title: "When homebrew-cask won’t let you uninstall"
+date: "2015-09-21T12:58:00+10:00"
+summary: "Use the force."
+category: Software
+tag:
+- apple
+- guides
+- homebrew
+- homebrew-cask
+- mac-os-x
+- package-managers
+---
+<p>I use <a href="https://github.com/caskroom/homebrew-cask">homebrew-cask</a> to install my Mac application bundles. Once installed, it means you can either script this or run from the shell:</p>
+
+<pre>
+$ brew update
+$ brew cask install seamonkey
+</pre>
+
+<p>Unlike other *nix package managers howeveri, Mac application typically update themselves using <a href="http://sparkle-project.org/">Sparkle</a> or some other mechanism. This means the version homebrew-cask installed may not match the version you're currently running. Which means, this happens:</p>
+
+<pre>
+$ brew list | grep seamonkey
+==&gt; seamonkey
+$ brew cask remove seamonkey
+==&gt; Error: seamonkey is not installed
+</pre>
+
+<p>I encountered this for the first time very late at night, and thought I was going crazy. The jury is still out on that, but the <a href="https://github.com/caskroom/homebrew-cask/pull/6208">force</a> command will let you remove it regardless.</p>
+
+<pre>
+$ brew cask remove --force seamonkey
+==&gt; Removing App symlink: '/Users/ruben/Applications/SeaMonkey.app'
+</pre>
+
+<p>There’s a closed <a href="https://github.com/caskroom/homebrew-cask/issues/7409">bug report on GitHub</a> about this.</p>
+
