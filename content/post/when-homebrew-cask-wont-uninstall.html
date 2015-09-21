@@ -18,7 +18,7 @@ $ brew update
 $ brew cask install seamonkey
 </pre>
 
-<p>Unlike other *nix package managers howeveri, Mac application typically update themselves using <a href="http://sparkle-project.org/">Sparkle</a> or some other mechanism. This means the version homebrew-cask installed may not match the version you're currently running. Which means, this happens:</p>
+<p>Unlike software from other *nix package managers, Mac applications usually update themselves once installed. <a href="http://sparkle-project.org/">Sparkle</a> is the nicest way to do this, but Mozilla, LibreOffice and others bundle their own updaters. Regardless, it means the version homebrew-cask installed may not match the version you're currently running, which leads to this:</p>
 
 <pre>
 $ brew list | grep seamonkey
@@ -27,7 +27,7 @@ $ brew cask remove seamonkey
 ==&gt; Error: seamonkey is not installed
 </pre>
 
-<p>I encountered this for the first time very late at night, and thought I was going crazy. The jury is still out on that, but the <a href="https://github.com/caskroom/homebrew-cask/pull/6208">force</a> command will let you remove it regardless.</p>
+<p>I encountered this late at night the first time, and thought I was going crazy. The jury is still out on that, but the <a href="https://github.com/caskroom/homebrew-cask/pull/6208">force</a> command will allow its removal:</p>
 
 <pre>
 $ brew cask remove --force seamonkey
