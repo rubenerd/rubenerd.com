@@ -30,7 +30,7 @@
       <stop
          id="stop4154"
          offset="1"
-         style="stop-color:#000099;stop-opacity:1" />
+         style="stop-color:#001581;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient3765">
@@ -73,16 +73,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.53807938"
-     inkscape:cx="280.74219"
-     inkscape:cy="308.98701"
+     inkscape:zoom="0.76"
+     inkscape:cx="268.41285"
+     inkscape:cy="287.99265"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1365"
-     inkscape:window-height="754"
-     inkscape:window-x="79"
-     inkscape:window-y="6"
+     inkscape:window-height="723"
+     inkscape:window-x="31"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -102,7 +102,7 @@
      id="layer1"
      transform="translate(0,-412.36218)">
     <rect
-       style="opacity:1;fill:#000099;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#001581;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect5040"
        width="640"
        height="64"
