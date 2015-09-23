@@ -1,0 +1,23 @@
+---
+title: "Convert ova images to raw"
+date: "2015-09-23T16:55:00+10:00"
+summary: "They’re just tar files, with another pointless extension."
+category: Software
+tag:
+- cloud-computing
+- disk-images
+- gides
+- vmware
+---
+<p><img src="https://rubenerd.com/files/2015/virutalbox-ova.png" alt="" style="width:128px; height:128px; float:right; margin:0 0 10px 20px;" /></p>
+
+<p>Today I needed to convert an OVA to a raw disk for Xen. OVAs are original video animations that are usually released after a popular anime series, as well as being a bundle for Open Virtual Appliances.</p>
+
+<p>OVAs are just tars, so you can extract them as such:</p>
+
+<pre>
+# tar xvf target.ova
+</pre>
+
+<p>From there, you can convert the resulting images to raw. I wrote <a href="https://rubenerd.com/converting-vmdk-version-3-images/">how to do for vmdks</a> exactly one year ago. Scary timing.</p>
+
