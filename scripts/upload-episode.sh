@@ -44,6 +44,10 @@ _number=`echo $_id | sed "s/$_hugo_prefix//"`
 ## -> "RubenerdShow200"
 _id="$_ia_prefix$_number"
 
+## -> "Sep15"
+_onsug_date=`date +"%b%y"`
+
+## Show ID we're working with
 echo $_id
 
 ###########################################################################
@@ -67,17 +71,14 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
-
-exit
 }
-
 
 ###########################################################################
 ## Upload to Onsug
 
 ftp onsug.com <<EOF
 binary
-cd "Aug15"
+cd "$_onsug_date"
 lcd "$_bucket"
 mput "onsug*$_number.mp3"
 mput "onsug*$_number.png"
