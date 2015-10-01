@@ -1,0 +1,40 @@
+---
+title: "eyeD3 not setting year correctly"
+date: "2015-09-28T11:34:00+10:00"
+summary: "Use all the date options to fix."
+category: Software
+tag:
+- guides
+- id3
+- music
+- podcasting
+---
+<p>I use the excellent <a href="http://eyed3.nicfit.net/">eyeD3 utility</a> by Travis Shirk to tag all my <a href="https://rubenerd.com/show/">Rubénerd Show</em></a> episodes. I record audio, run my shell script, and it does all the tedious ID3 tag work for me. It’d be virtually impossible for me to juggle my full time job, personal life and podcasting without this!</p>
+
+<p>The only thing I’ve had persistent issues with is the release date option. According to the documentation:</p>
+
+<pre>
+-Y YEAR, --release-year YEAR
+Set the year the track was released. Use the date
+options for more precise values or dates other than
+release.
+</pre>
+
+<p>So I invoke it in my scripts as below, but the year still isn't reflected in iTunes or the id3-editor.</p>
+
+<pre>
+% eyeD3 --release-year 2015 file.mp3
+</pre>
+
+<p>The solution was to use all the date related options. Even if you include a fuller timestamp, iTunes will still pick up the year field correctly. The options are shown below in the same order as the documentation:</p>
+
+<pre>
+% eyeD3 \
+  --release-date 2015 \
+  --orig-release-date 2015 \
+  --recording-date 2015 \
+  --encoding-date 2015 \
+  --tagging-date 2015
+</pre>
+
+<p>A subset of these may still work, but I figure more metadata isn't an issue.</p>
