@@ -207,7 +207,6 @@ EOF
 
 ###########################################################################
 ## Tag Internet Archive mp3 with id3tags
-
 eyeD3 \
     --remove-all \
     --artist "$_host" \
@@ -217,14 +216,24 @@ eyeD3 \
     --track $_number \
     --genre "New Time Radio" \
     --release-year $_year \
+    --release-date $_date \
+    --orig-release-date $_date \
+    --recording-date $_date \
+    --encoding-date $_date \
+    --tagging-date $_date \
     --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
     --publisher "$_host" \
     --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
+    --url-frame "WOAR:https\://rubenerd.com/" \
     --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
+    --url-frame "WORS:https\://onsug.com/" \
     --url-frame "WCOP:`escape $_licence_url`" \
     --url-frame "WPUB:`escape $_url`" \
+    --text-frame "TDRL:$_year" \
+    --text-frame "TRSN:Overnightscape Underground" \
+    --text-frame "TRSO:Frank Edward Nora" \
     --preserve-file-times \
     "$_bucket/$_id.mp3"
 
@@ -239,17 +248,26 @@ eyeD3 \
     --title "$_show $_number: $_title $_onsug_title_date" \
     --genre "New Time Radio" \
     --release-year $_year \
+    --release-date $_year \
+    --orig-release-date $_date \
+    --recording-date $_date \
+    --encoding-date $_date \
+    --tagging-date $_date \
     --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
     --add-image "$_bucket/${_id}.png:FRONT_COVER" \
     --encoding "utf8" \
     --publisher "$_host" \
     --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
+    --url-frame "WOAR:https\://rubenerd.com/" \
     --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
+    --url-frame "WORS:https\://rubenerd.com/" \
     --url-frame "WCOP:`escape $_licence_url`" \
     --url-frame "WPUB:http\://onsug.com/" \
+    --text-frame "TDRL:$_year" \
+    --text-frame "TRSN:Overnightscape Underground" \
+    --text-frame "TRSO:Frank Edward Nora" \
     --preserve-file-times \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
-
 
 ###########################################################################
 ## Get episode size, now that it has cover art and lyrics
@@ -270,6 +288,7 @@ date: "$_date_time"
 summary: "$_title"
 enclosure_file: "https://archive.org/download/$_id/$_id.mp3"
 enclosure_size: "$_size"
+enclosure_type: "audio/mpeg"
 enclosure_duration: "$_duration"
 location: "$_location"
 category: Show
@@ -296,7 +315,7 @@ tag:
 
 EOF
 
-
+exit
 ###########################################################################
 ## Create Onsug text, and copy to clipboard
 
@@ -334,11 +353,11 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <mediatype>audio</mediatype>
   <collection>$_collection</collection>
   <collection>audio_podcast</collection>
-  <title>$_show $_number $_date</title>
+  <title>$_show $_number: $_title</title>
   <creator>$_host</creator>
   <date>$_date_utc</date>
   <description><![CDATA[
-    <p><span style="font-weight:bold;">$_title</span></p><p>$_duration – $_description</p><p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
+    <p>$_duration – $_description</p><p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
   ]]></description>
   <language>eng</language>
   <duration>$_duration</duration>
