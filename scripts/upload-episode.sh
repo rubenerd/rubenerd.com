@@ -53,7 +53,6 @@ echo $_id
 ###########################################################################
 ## Upload files to archive org
 
-function ia() {
 ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
@@ -71,7 +70,6 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
-}
 
 ###########################################################################
 ## Upload to Onsug
@@ -80,8 +78,8 @@ ftp onsug.com <<EOF
 binary
 cd "$_onsug_date"
 lcd "$_bucket"
-mput "onsug*$_number.mp3"
-mput "onsug*$_number.png"
+put "onsug*$_number.mp3"
+put "onsug*$_number.png"
 ls
 quit
 EOF
