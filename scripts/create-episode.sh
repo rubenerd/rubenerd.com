@@ -315,7 +315,6 @@ tag:
 
 EOF
 
-exit
 ###########################################################################
 ## Create Onsug text, and copy to clipboard
 
