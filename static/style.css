@@ -73,6 +73,7 @@ body {
   font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
   text-align:center;  /* ie6: centering */
 }
+h1,h2,h3 { font-weight:500; }
 h1,h2 { font-size:24px }
 h3 { 
   font-size:22px;
