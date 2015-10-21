@@ -94,7 +94,7 @@ ul { list-style-type:circle; }
   margin:0px auto;
   padding:60px 0px 120px 0px;
   text-align:left;  /* ie6: centering */
-  width:820px;
+  width:800px;
 }
 
 
@@ -150,14 +150,15 @@ hr {
 
 /* Navigation *************************************************/
 #sidebar nav ul { padding-bottom:10px }
-#sidebar #category-nav li {
+#sidebar #primary-nav a { font-weight:500 }
+/*#sidebar #category-nav li {
   display:inline;
   margin-right:4px;
-} 
+} */
 
 
 /* Main Content ***********************************************/
-main { margin-left:220px; }
+main { margin-left:200px; }
 
 
 /* Articles ***************************************************/
