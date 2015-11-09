@@ -194,8 +194,6 @@ _duration=`eyeD3 "$_bucket/$_id.mp3" 2> /dev/null | \
 ## Create lyrics file for MP3
 
 cat > "$_bucket/${_id}_lyrics.txt" <<EOF
-$_title
-
 $_duration – $_description_text
 
 Recorded in $_location. Licence for this track: $_licence_title. Attribution: $_host.
@@ -283,7 +281,7 @@ say "Writing Hugo file to $_episodes/show$_number.html..."
 
 cat > "$_episodes/show$_number.html" <<EOF
 ---
-title: "$_show $_number $_date"
+title: "$_show $_number: $_title"
 date: "$_date_time"
 summary: "$_title"
 enclosure_file: "https://archive.org/download/$_id/$_id.mp3"
@@ -300,8 +298,6 @@ tag:
 - the-overnightscape-underground
 ---
 <p class="show-cover"><a href="https://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="https://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
-
-<p class="show-summary" style="font-weight:bold">$_title</p>
 
 <p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_id/$_id.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_id/$_id.mp3">Download</a></p>
 
@@ -351,8 +347,6 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <identifier>$_id</identifier>
   <mediatype>audio</mediatype>
   <collection>$_collection</collection>
-  <collection>audio_podcast</collection>
-  <title>$_show $_number: $_title</title>
   <creator>$_host</creator>
   <date>$_date_utc</date>
   <description><![CDATA[
@@ -361,7 +355,9 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <language>eng</language>
   <duration>$_duration</duration>
   <licenseurl>$_licence_url</licenseurl>
+  <scanner>Rubenerd Podcast Uploader 5000</scanner>
   <subject>audio magazine</subject>
+  <title>$_show $_number: $_title</title>
   <subject>internet radio show</subject>
   <subject>new time radio</subject>
   <subject>onsug</subject>
@@ -371,9 +367,8 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <subject>$_subject</subject>
   <publicdate>$_date_time_utc</publicdate>
   <uploader>$_email</uploader>
-  <taper>$_host</taper>
-  <adder>$_email</adder>
   <addeddate>$_date_time_utc</addeddate>
+  <collection>audio_podcast</collection>
   <year>$_year_utc</year>
   <coverage>$_location</coverage>
 </metadata>
