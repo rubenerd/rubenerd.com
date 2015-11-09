@@ -1,6 +1,7 @@
 .DS_Store
 public/
 *.swp
-bucket/*mp3
-bucket/*png
-bucket/*jpg
+metadata/*mp3
+metadata/RubenerdShow*png
+metadata/RubenerdShow*jpg
+metadata/onsug*png
