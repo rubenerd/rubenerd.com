@@ -1,0 +1,13 @@
+#sidebar {
+    float:left;
+}
+#sidebar, #sidebar img {
+    width:140px;
+}
+#content, #secondary, footer {
+    margin-left:160px;
+}
+
+blockquote {
+    font-style:italic;
+}
