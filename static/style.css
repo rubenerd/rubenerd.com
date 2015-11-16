@@ -171,7 +171,7 @@ blockquote {
     padding-left:20px;
 }
 img, object, iframe, video, audio { max-width:100% }
-.secondary { margin:0px 0px 120px 220px; }
+.secondary { margin:0px 0px 120px 200px; }
 
 
 /* Articles: Code, Quotes, Tables *****************************/
@@ -211,7 +211,7 @@ footer {
   font-size:14px;
   line-height:20px;
   margin-top:0px;
-  margin-left:220px;
+  margin-left:200px;
   width:600px;
 }
 
