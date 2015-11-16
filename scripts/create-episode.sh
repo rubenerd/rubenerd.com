@@ -138,7 +138,7 @@ _onsug_title_date=`date -u +"(%-m/%-d/%y)"`
 ###########################################################################
 ## Ask show host for basic details, make show ID and verify files exist
 
-_show=`ask "Name of the show" "$_show"`
+##_show=`ask "Name of the show" "$_show"`
 _number=`ask "Episode number" "$_number"`
 
 _id=`printf "%s" "$_show$_number" | sed 's/ //g' | sed 's/é/e/'`
@@ -152,12 +152,12 @@ say ""
 ###########################################################################
 ## Ask for more details
 
-_host=`ask "Host of the show" "$_host"`
-_url=`ask "URL of site hosting show" "$_url"`
-_date_time=`ask "Release date and time" "$_date_time"`
-_location=`ask "Location" "$_location"`
-_licence_url=`ask "Licence URL" "$_licence_url"`
-_licence_title=`ask "Licence URL" "$_licence_title"`
+##_host=`ask "Host of the show" "$_host"`
+##_url=`ask "URL of site hosting show" "$_url"`
+##_date_time=`ask "Release date and time" "$_date_time"`
+##_location=`ask "Location" "$_location"`
+##_licence_url=`ask "Licence URL" "$_licence_url"`
+##_licence_title=`ask "Licence URL" "$_licence_title"`
 read -p "Episode title (The ... episode!): " _title
 read -p "Episode description, in one line: " _description 
 
@@ -198,7 +198,7 @@ $_duration – $_description_text
 
 Recorded in $_location. Licence for this track: $_licence_title. Attribution: $_host.
 
-Released $_onsug_release_date on The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
+Released $_onsug_release_date on Rubénerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
 
 EOF
 
@@ -210,7 +210,7 @@ eyeD3 \
     --artist "$_host" \
     --album "$_show" \
     --album-artist "$_host" \
-    --title "$_show $_number $_date" \
+    --title "$_number: $_title" \
     --track $_number \
     --genre "New Time Radio" \
     --release-year $_year \
@@ -267,6 +267,7 @@ eyeD3 \
     --preserve-file-times \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
 
+
 ###########################################################################
 ## Get episode size, now that it has cover art and lyrics
 
@@ -321,7 +322,7 @@ cat > "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.html" <<EOF
 
 <p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
 
-<p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p>
+<p class="show-release">Released $_onsug_release_date on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 EOF
 
 ## If we're on Mac OS X, copy to clipboard for pasting into Onsug 
@@ -350,7 +351,7 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <creator>$_host</creator>
   <date>$_date_utc</date>
   <description><![CDATA[
-    <p>$_duration – $_description</p><p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
+    <p><strong>$_duration</strong> – $_description</p><p style="font-style:italic" class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p style="font-style:italic" class="show-release">Released $_onsug_release_date on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style="font-style:italic;" class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p><p style="font-style:italic" class="show-thanks">Special thanks to the <a href="https://archive.org/details/rubenerdshow">Internet Archive</a>; their generous hosting makes this show possible.</p>
   ]]></description>
   <language>eng</language>
   <duration>$_duration</duration>
@@ -373,6 +374,24 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <coverage>$_location</coverage>
 </metadata>
 EOF
+
+
+###########################################################################
+## Create spectogram for Internet Archive
+##
+## sox "${_id}.mp3" -n spectrogram ${_id}_spectrogram.png
+
+
+###########################################################################
+## Optimise images
+
+pngcrush -brute "${_id}.png" "${_id}.png.out"
+mv -f "${_id}.png.out" "${_id}.png"
+
+pngcrush -brute "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png" \
+    "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png.out"
+mv -f "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png.out" \
+    "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
 
 
 ###########################################################################
