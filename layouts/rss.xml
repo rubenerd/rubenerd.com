@@ -3,6 +3,7 @@
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
 
 <channel>
@@ -19,9 +20,9 @@
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
   {{ if eq .Title "Show" }}
-  <itunes:subtitle>A slice-of-life podcast of esoteric interests by Ruben Schade.</itunes:subtitle>
+  <itunes:subtitle>An esoteric interest podcast by Ruben Schade.</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
-  <itunes:summary>A long-running slice-of-life podcast of esoteric interests from Singapore, Kuala Lumpur and Sydney. You have been warned.</itunes:summary>
+  <itunes:summary>A long-running esoteric interest podcast by Ruben Schade from Singapore, Kuala Lumpur and Sydney.</itunes:summary>
   <itunes:owner>
     <itunes:name>Ruben Schade</itunes:name>
     <itunes:email>tubes@rubenschade.com</itunes:email>
@@ -34,14 +35,14 @@
   <itunes:explicit>no</itunes:explicit>
   {{ end }}
   <image>
-    <url>http://rubenerd.com/logo.rss.png</url>
+    <url>https://rubenerd.com/logo.rss.png</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
     <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
     <width>144</width>
     <height>72</height>
-    <description>{{ if eq .Title "Show" }}A slice-of-life podcast of esoteric interests by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
+    <description>{{ if eq .Title "Show" }}An esoteric interest podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/{{ end }}.</description>
   </image>
-{{ range first 50 .Data.Pages }}
+{{ range first 20 .Data.Pages }}
 <item>
   <title>{{ .Title }}</title>
   <link>{{ .Permalink }}</link>
@@ -51,11 +52,11 @@
   {{ range .Params.tag }}<category>{{ . | lower }}</category>
   {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
-  {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
+  {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />{{ if .Params.licence_url }}
+  <creativeCommons:license>{{ .Params.licence_url }}</creativeCommons:license>{{ end }}{{ if eq .Params.category "Show" }}
   <itunes:summary>{{ .Content | html }}</itunes:summary>
   <itunes:author>Ruben Schade</itunes:author>
-  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ if .Params.summary }}
-  <itunes:subtitle>{{ .Params.summary }}</itunes:subtitle>{{ end }}{{ end }}
+  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ end }}{{ end }}
 </item>
 {{ end }}
 </channel>
