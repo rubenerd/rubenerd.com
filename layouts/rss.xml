@@ -4,7 +4,8 @@
   xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
   xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:media="http://search.yahoo.com/mrss/"{{ end }}>
 
 <channel>
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
@@ -56,7 +57,10 @@
   <creativeCommons:license>{{ .Params.licence_url }}</creativeCommons:license>{{ end }}{{ if eq .Params.category "Show" }}
   <itunes:summary>{{ .Content | html }}</itunes:summary>
   <itunes:author>Ruben Schade</itunes:author>
-  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>{{ end }}{{ end }}
+  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
+  <media:content url="{{ .Params.enclosure_file }}" type="{{ .Params.enclosure_type }}" medium="audio" expression="full" isDefault="true" bitrate="{{ .Params.enclosure_bitrate }}" />
+  <media:title>{{ .Title }}</media:title>
+  <media:keywords>{{ range .Params.tag }}{{ . | lower }}, {{ end }}</media:keywords>{{ end }}{{ end }}
 </item>
 {{ end }}
 </channel>
