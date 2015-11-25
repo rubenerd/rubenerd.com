@@ -30,11 +30,11 @@ On to the *de jure* national capital, where structural deficit is denied as much
 
 > Finance Minister Mathias Cormann has moved to quash concerns the Government is selling off its dark fibre communications network that spans 400 buildings across Canberra, but has not ruled out its sale.
 
-I still maintain it's in our best interests to shut down Canberra, and move government offices back to Melbourne to cut costs. I say this as a Sydneysider; I don't want the extra traffic and reduced property values, and Melbourne seems to identify itself most as being "not Sydney", so it's a win win.
+I still maintain it's in our best interests to shut down Canberra, and move government offices back to Melbourne to get them out of their insulating bubble and cut costs. I say this as a Sydneysider; I don't want the extra traffic, and Melbourne seems to identify itself most as being "not Sydney", so it's a win win.
 
 But more seriously, this whole long term loss for short term gain in asset sales really needs to stop. It's as insidious as it is illogical.
 
-Whew, I'm getting a lot of pent up political frustration out, this is good! Lets end with this from [Daniel Palmer](https://delimiter.com.au/2015/11/16/microsoft-launches-flagship-store-sydneys-pitt-st-mall/) in Delimeter:
+Whew, I'm getting a lot of pent up political frustration out, this is good! Let's end with this from [Daniel Palmer](https://delimiter.com.au/2015/11/16/microsoft-launches-flagship-store-sydneys-pitt-st-mall/) in Delimeter:
 
 >Microsoft Australia has launched its first flagship store outside of North America in Pitt Street Mall, Sydney – one of Australia’s most popular and expensive retail sites.
 
