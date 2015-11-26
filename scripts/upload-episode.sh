@@ -51,6 +51,19 @@ _onsug_date=`date +"%b%y"`
 echo $_id
 
 ###########################################################################
+## Upload to Onsug
+
+ftp onsug.com <<EOF
+binary
+cd "$_onsug_date"
+lcd "$_bucket"
+put "onsug*$_number.mp3"
+put "onsug*$_number.png"
+ls
+quit
+EOF
+
+###########################################################################
 ## Upload files to archive org
 
 ftp items-uploads.archive.org <<EOF
@@ -70,19 +83,6 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
-
-###########################################################################
-## Upload to Onsug
-
-ftp onsug.com <<EOF
-binary
-cd "$_onsug_date"
-lcd "$_bucket"
-put "onsug*$_number.mp3"
-put "onsug*$_number.png"
-ls
-quit
-EOF
 
 ###########################################################################
 ## Commit manifest files to Git
