@@ -212,6 +212,7 @@ footer {
   line-height:20px;
   margin-top:0px;
   margin-left:200px;
+  padding-bottom:80px;
   width:600px;
 }
 
@@ -242,8 +243,9 @@ input[type=text] {
     visibility:hidden;
   }
   header, #sidebar, main, .secondary, footer {
-      margin:0;
-      width:auto;
+    margin-left:0;
+    margin-right:0;
+    width:auto;
   }
   header h1 { width:140px }
 }
