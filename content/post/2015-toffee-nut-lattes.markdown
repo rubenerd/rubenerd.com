@@ -16,3 +16,7 @@ I had my first Starbucks Toffee Nut Latte in the late 90s or early 2000s. Having
 
 Each year brings the risk that they'll discontinue the drinks, but fortunatey 2015 isn't it :)
 
+<p><img src="https://rubenerd.com/files/uploads/photo.starbucks.singapore.jpg" alt="Scotts Road in 2009" style="width:250px;" /></p>
+
+As an aside, this photo of Scotts Road in Singapore graced <a href="https://rubenerd.com/p3818/">one of my earliest</a> mentions of Starbucks here. The Toyota Crown taxi driving past would have long since been retired, and that construction across the street is now one of those non-descript apartment buildings. Some things change, some stay the same.
+
