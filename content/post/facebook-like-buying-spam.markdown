@@ -27,4 +27,3 @@ Our corpoate spam filters do a pretty good job at getting rid of most of the muc
 
 I find their assertion regarding my lack of popularity insulting, even if likely true. And what's wrong with Turkish likes? They're not part of "worldwide"?
 
-Still, crunching the numbers, that works out to about 1.2c a like. 
