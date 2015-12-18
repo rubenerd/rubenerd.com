@@ -2,6 +2,8 @@
 public/
 *.swp
 metadata/*mp3
+metadata/*caf
+metadata/*flac
 metadata/RubenerdShow*png
 metadata/RubenerdShow*jpg
 metadata/onsug*png
