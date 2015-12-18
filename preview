@@ -5,9 +5,13 @@
 ## April 2015
 
 set -e
+set -x
 
-echo '☕  Removing previously generated content (if any)...'
-rm -rf ./public/*
+. ./scripts/ram-disk.sh
 
-echo '☕  Building local preview with Hugo (may take a few moments)...'
+printf "%s\n" "☕  Creating RAM disk for previews (if doesn't already exist)..."
+[ -d "/Volumes/Hugo" ] || ram_disk
+
+printf "%s\n"  "☕  Building local preview with Hugo (may take a few moments)..."
 hugo server --watch
+

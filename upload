@@ -11,41 +11,42 @@ _server='chitanda'             ## server to upload to
 _virtual_root='rubenerdcom'    ## dest directory on server
 _assets_folder='files'         ## don't delete this asset folder on upload
 
-echo '☕  Building/verifying empty directories Hugo needs...'
+. ./scripts/ram-disk.sh        ## create/destroy ram disks
+
+printf "%s" '☕  Building/verifying empty directories Hugo needs...'
 [ ! -d ./archetypes ] && mkdir ./archetypes
 [ ! -d ./data ] && mkdir ./data
 
-echo '☕  Removing previously generated content (if any)...'
-rm -rf ./public/*
+printf "%s" '☕  Create RAM disk...'
+[ -d "/Volumes/Hugo" ] || ram_disk
 
-## Sidebar doesn't reference latest episode any more
-## echo '☕  Print out latest podcast episode to sidebar...'
-## ./scripts/latest-episode.sh
-
-echo '☕  Building site with Hugo (may take a few moments)...'
+printf "%s" '☕  Building site with Hugo (may take a few moments)...'
 hugo
 
-echo '☕  Moving podcast feed to /show/feed/...'
+printf "%s" '☕  Moving podcast feed to /show/feed/...'
 mkdir -p ./public/show/feed/
 mv -f ./public/category/show/index.xml ./public/show/feed/
 
-echo '☕  Moving RSS feed from index.xml to /feed/...'
+printf "%s" '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
 mv -f ./public/index.xml ./public/feed/index.xml
 
-echo '☕  Removing all other generated feeds...'
+printf "%s" '☕  Removing all other generated feeds...'
 rm -rf ./public/category/*/index.xml
 rm -rf ./public/tag/*/index.xml
 
-echo '☕  Removing /category/ from permalink...'
+printf "%s" '☕  Removing /category/ from permalink...'
 rm -rf ./public/category/index.*
 mv -f ./public/category/show/* ./public/show/
 rm -rf ./public/category/show/
 mv -f ./public/category/* ./public/
 
-echo '☕  Compressing (with rsync -z) and pushing to server...'
+printf "%s" '☕  Compressing (with rsync -z) and pushing to server...'
 $_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
     --delete --exclude='files' ./public/ ${_server}:${_virtual_root}/
 
-echo '☕  Site changes now LIVE.'
+printf "%s" '☕  Site changes now LIVE.'
+
+printf "%s" '☕  Deleting RAM disk.'
+unount_ram_disk
 
