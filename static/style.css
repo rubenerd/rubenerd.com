@@ -42,7 +42,8 @@ pre {
   border-left:5px solid #29339a;
   background:#041264;
 }
-table tr { border-bottom:1px solid #dee3f2 }
+table { border-bottom:5px solid #29339a }
+table th { background:#29339a }
 input {
   background:#dee3f2;
   color:#2b457e;
@@ -182,12 +183,14 @@ code, pre {
 pre {
   line-height:16px;
   padding:20px;
+}
+pre, table { 
+  margin:20px 0;
   overflow-x:auto;
 }
-pre, table { margin:20px 0 }
 table th, table td {
-    font-size:14px;
-    padding:5px 12px;
+  font-size:14px;
+  padding:2px 15px;
 }
 
 
