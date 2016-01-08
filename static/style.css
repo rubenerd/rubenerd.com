@@ -191,6 +191,7 @@ pre, table {
 table th, table td {
   font-size:14px;
   padding:2px 15px;
+  vertical-align:top;
 }
 
 
