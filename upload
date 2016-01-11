@@ -13,6 +13,9 @@ _assets_folder='files'         ## don't delete this asset folder on upload
 
 . ./scripts/ram-disk.sh        ## create/destroy ram disks
 
+printf "%s" '☕  Killing any zombie Hugo processes...'
+killall hugo &&
+
 printf "%s" '☕  Building/verifying empty directories Hugo needs...'
 [ ! -d ./archetypes ] && mkdir ./archetypes
 [ ! -d ./data ] && mkdir ./data
