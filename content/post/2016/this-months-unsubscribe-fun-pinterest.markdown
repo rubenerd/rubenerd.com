@@ -8,7 +8,7 @@ tag:
 - pinterest
 - spam
 ---
-A recurring theme on Rubénerd is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
+A [recurring theme](https://rubenerd.com/tag/newsletters/) on *Rubénerd* is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
 
 Pinterest sent me this email:
 
@@ -24,10 +24,15 @@ Clicking it returned the following page:
 
 > Emails like this one, relating to legal, privacy, or security stuff, cannot be unsubscribed.
 
-This leads us to two questions.
+This leads us to two questions: I had a Pinterest? And why include the unsubscribe link at all?
 
-1. I had a Pinterest?
-2. Why include the unsubscribe link then?
+Time to get out the [newsletter unsubscribe scorecard](https://rubenerd.com/newsletter-unsubscribe-score-card/).
 
-My hunch for the latter is legislation mandating its inclusion. Whether or not the link actually *works* may be a nice legal loophole for them.
+    [ ] Newsletter was opt-in in the first place (50%)
+    [x] Unsubscribe link exists in newsletter (10%)
+    [ ] No need to confirm unsubscribe (10%)
+    [ ] No need to login to unsubscribe (10%)
+    [ ] No need to find “email preferences” (10%)
+    [ ] Reasonable time to unsubscribe, (< 48 hours) (10%)
 
+Most of these didn't apply because there's no provision to unsubscribe, but I was generous and at least gave them the second one.
