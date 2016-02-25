@@ -16,7 +16,7 @@
 </main>
 
 <nav role="navigation" class="secondary">
-  <h1>You're on page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}. Where to now?</h1>
+  <h2>You're on page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}. Where to now?</h2>
   <ul>
     {{ if .Paginator.HasPrev }}<li><a href="{{ .Paginator.Prev.URL }}">&larr; Previous page</a></li>{{ end }}
     {{ if .Paginator.HasNext }}<li><a href="{{ .Paginator.Next.URL }}">&rarr; Next page</a></li>{{ end }}
