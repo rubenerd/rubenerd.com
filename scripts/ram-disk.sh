@@ -18,7 +18,7 @@ ram_disk() {
 }
 
 unmount_ram_disk() {
-    diskutil unmount -f /Volumes/Hugo
+    diskutil unmount force /Volumes/Hugo
     rm -rf public
 }
 
