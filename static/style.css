@@ -27,23 +27,14 @@ img {
 }
 
 /* Palette ****************************************************/
-blockquote { 
-  border-left:1px solid #dce3ec;
-  color:#8e92a6;
-}
-pre { 
-  border-left:1px solid #29339a;
-  background:#041264;
-}
-table { border-bottom:1px solid #29339a }
-table th { background:#29339a }
+
 small time {
   text-transform:uppercase;
   font-size:13px;
   color:#7e92a6;
 }
 #skyline {
-  height:76px;
+  height:90px;
   background:#ffffff url("skyline-soft.png") bottom center no-repeat;
   margin-bottom:20px;
 }
@@ -55,8 +46,12 @@ small time {
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-
+    #skyline {
+        background:#ffffff url("skyline-soft-2x.png") bottom center no-repeat;
+        background-size:798px 100px;
 }
+}
+
 
 /* Top ********************************************************/
 html {
@@ -67,7 +62,7 @@ html {
 }
 body {
     font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
-    margin:0px auto;
+    margin:0px auto 180px auto;
     text-align:center;  /* ie6: centering */
 }
 h1, h2, h3 {
@@ -131,8 +126,8 @@ hr {
 
 /* Header *****************************************************/
 #sidebar header h1 {
-    background:url("/logo-white.svg") top center no-repeat;
-    background-size:240px;
+    background:url("/logo-white-round.svg") top center no-repeat;
+    background-size:110px;
     height:130px;
     position:relative;
 }
@@ -177,6 +172,7 @@ hr {
     color:#ffffff;
 }
 
+
 /* Navigation *************************************************/
 #sidebar nav ul { margin-bottom:10px }
 #sidebar #primary-nav a { font-weight:500 }
@@ -184,18 +180,15 @@ hr {
 
 /* Main Content ***********************************************/
 main {
-    margin-left:180px; 
+    background:#ffffff;
     border:1px solid #dce3ec;
-    border-bottom:0px;
-    //border-left:1px solid #dce3ec;
-    //border-right:1px solid #dce3ec;
     box-shadow:3px 3px 0px #dce3ec;
+    margin-left:180px; 
 }
 
 
 /* Articles ***************************************************/
 article {
-    background: #ffffff;
     padding:40px 30px 30px 30px;
 }
 article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
@@ -205,25 +198,20 @@ blockquote {
 }
 img, object, iframe, video, audio { max-width:100% }
 .secondary {
-    background:#ffffff;
-    border-left:1px solid #dce3ec;
-    border-right:1px solid #dce3ec;
-    margin-left: 180px;
     padding:40px 30px 20px 30px;
-    box-shadow:3px 3px 0px #dce3ec;
 }
 
 
 /* Articles: Code, Quotes, Tables *****************************/
+blockquote { 
+  border-left:1px solid #dce3ec;
+  color:#8e92a6;
+}
 code, pre {
   font-family:"Lucida Console",monospace;
   font-size:13px;
 }
-pre {
-  line-height:16px;
-  padding:20px;
-}
-pre, table { 
+table, pre { 
   margin:20px 0;
   overflow-x:auto;
 }
@@ -232,6 +220,14 @@ table th, table td {
   padding:2px 15px;
   vertical-align:top;
 }
+pre { 
+  border-left:1px solid #29339a;
+  background:#041264;
+  line-height:16px;
+  padding:20px;
+}
+table { border-bottom:1px solid #29339a }
+table th { background:#29339a }
 
 
 /* Archive ****************************************************/
@@ -249,14 +245,8 @@ table th, table td {
 
 /* Footer *****************************************************/
 footer {
-    background:#ffffff;
-    border-left:1px solid #dce3ec;
-    border-right:1px solid #dce3ec;
-    border-bottom:1px solid #dce3ec;
     line-height:24px;
-    margin:0px 0 80px 180px;
     padding:40px 30px 20px 30px;
-    box-shadow:3px 3px 0px #dce3ec;
 }
 
 
@@ -266,53 +256,85 @@ input[type=text] { width:260px }
 
 /* Smaller screens ********************************************/
 @media screen and (max-width: 830px) {
-  #sandwich-wrapper {
-    padding:40px 0;
-    width:600px;
-  }
-  #sidebar {
-    float:none;
-    padding-bottom:40px;
-    text-align:center;
-  }
-  #sidebar h1 { text-align:center }
-  #sidebar li { display:inline }
-  #sidebar li a { margin-right:10px; }
-  #categories, #years, #mascot { 
-    display:none;
-    visibility:hidden;
-  }
-  header, #sidebar, main, .secondary, footer {
-    margin-left:0;
-    margin-right:0;
-    width:auto;
-  }
-  header h1 { width:140px }
+    html,body {
+        margin:0;
+        padding:0 0 80px 0;
+        width:100%;
+    }
+    main, #sidebar {
+        float:none;
+        margin:0 auto;
+        width:600px;
+    }
+    #sandwich-wrapper {
+        margin:0;
+        padding:0;
+        width:100%;
+    }
+    #category-nav, #mascot, #site-description {
+        display:none;
+        visibility:hidden;
+    }
+    #sidebar header h1 { 
+        background:none;
+        height:auto;
+        margin:0;
+        position:relative;
+    }
+    #sidebar header h1 a {
+        background:url("/logo-white-round.svg") left center no-repeat;
+        background-size:32px;
+        height:32px;
+        line-height:32px;
+        margin-bottom:12px;
+        padding-left:38px;
+        font-size:36px;
+    }
+    #sidebar nav ul #topics {
+        display:inline;
+        visibility:visible;
+    }
+    #sidebar nav ul {
+        border-right:1px solid #dce3ec;
+        height:42px;
+        line-height:42px;
+    }
+    #sidebar nav ul li {
+        display:inline;
+    }
+    #sidebar nav ul li a {
+        float:left;
+        padding:0;
+        height:42px;
+        line-height:42px;
+        text-align:center;
+        width:119px;
+        border-right:0;
+        font-size:16px;
+    }
+    #sidebar nav ul #topics a {
+        width:118px;
+    }
 }
 
 /* Smallest screens ******************************************/
 @media screen and (max-width: 630px) {
-  html { border:0 }
-  body,footer {
-    margin:0;
-    min-width:320px;
-    width:auto;
-  }
-  #sidebar, article, .secondary, footer h1, footer p, footer form {
-    margin-left:15px;
-    margin-right:15px;
-  }
-  #sidebar #category-nav {
-    display:none;
-    visibility:hidden;
-  }
-  #sidebar nav #topics {
-    display:inline;
-    visibility:visible;
-  }
-  article img, article iframe, article object { 
-    height:auto !important;
-  }
+    html, body {
+        padding:0;
+    }
+    main {
+        border:0;
+        box-shadow:none;
+        width:100%;
+    }
+    article img, article iframe, article object { 
+        height:auto !important;
+    }
+    #sidebar nav ul li a {
+        border-bottom:0;
+        border-top:0;
+        box-shadow:none;
+    }
 }
 
 /* EOF */
