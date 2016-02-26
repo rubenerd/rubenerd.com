@@ -10,25 +10,23 @@
 html, body, h1, h2, h3, h4, h5, h6, form, fieldset, abbr,
 img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
-  border:0px;           /* old opera: units even for 0 values */
-  border-collapse:collapse;
-  font-weight:normal;
-  list-style-type:none; /* old ie: list-style unsupported */
-  margin:0px;
-  padding:0px;
-  vertical-align:baseline;
+    border:0px;           /* old opera: need units for 0 values */
+    border-collapse:collapse;
+    font-weight:normal;
+    list-style-type:none; /* old ie: list-style unsupported */
+    margin:0px;
+    padding:0px;
+    vertical-align:baseline;
 }
 article, aside, details, figcaption, figure, footer, header, 
-hgroup, main, menu, nav, section { display:block }
-
+hgroup, main, menu, nav, section {
+    display:block;
+}
+img { 
+    display:inline; /* mozilla: fix default behaviour */
+}
 
 /* Palette ****************************************************/
-html {
-  background:#f0f2f5;
-  color:#5e7286;
-}
-a, nav a:hover { color:#0066ff }
-a:hover, nav a { color:#9b5dd5 }
 blockquote { 
   border-left:1px solid #dce3ec;
   color:#8e92a6;
@@ -45,7 +43,7 @@ small time {
   color:#7e92a6;
 }
 #skyline {
-  height:110px;
+  height:76px;
   background:#ffffff url("skyline-soft.png") bottom center no-repeat;
   margin-bottom:20px;
 }
@@ -62,37 +60,53 @@ only screen and (min-device-pixel-ratio: 2) {
 
 /* Top ********************************************************/
 html {
-  height:100%;        /* persistent vertical scrollbars */
-  overflow-y:scroll;  /* persistent vertical scrollbars */
+    background:#f0f2f5;
+    color:#5e7286;
+    height:100%;        /* persistent vertical scrollbars */
+    overflow-y:scroll;  /* persistent vertical scrollbars */
 }
 body {
-  font:16px "Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
-  margin:0px auto;
-  text-align:center;  /* ie6: centering */
+    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    margin:0px auto;
+    text-align:center;  /* ie6: centering */
 }
-#sandwich-wrapper {
-  text-align:left;   /* ie6: centering */
-  margin:0 auto;
-  width:780px;
+h1, h2, h3 {
+    color:#5a7590;
+    font-weight:500;
+    letter-spacing:-1px;
 }
-h1,h2,h3 {
-  font-weight:500;
-  letter-spacing:-1px;
+h1 {
+    font-size:32px;
 }
-h1 { font-size:32px; }
-h2 { font-size:24px }
+h2 {
+    font-size:24px;
+}
 h3 { 
-  font-size:22px;
-  margin-top:30px;
+    font-size:22px;
+    margin-top:30px;
 }
 small {
-  font-size:14px;
-  white-space:nowrap;
+    font-size:14px;
+    white-space:nowrap;
 }
-a, h1 a:hover, h2 a:hover { text-decoration:underline }
-h1 a, h2 a { text-decoration:none; }  //text-shadow: 2px 2px 0px #dcdcdc; }
-img { display:inline; /* mozilla: fix default behaviour */ }
 ul { list-style-type:circle; }
+#sandwich-wrapper {
+    text-align:left;   /* ie6: centering */
+    margin:0 auto;
+    width:780px;
+}
+
+/* Links ******************************************************/
+a, h1 a:hover, h2 a:hover, nav a:hover { 
+    color:#0066ff;  /* rubenerd blue */
+    text-decoration:underline;
+}
+a:hover, nav a {
+    color:#955dd5;  /* rubenerd purple */
+}
+h1 a, h2 a {
+    text-decoration:none;
+}
 
 
 /* Accessibility **********************************************/
@@ -100,57 +114,53 @@ h1,h2,h3 {
   /* Friends, don't let friends use this everywhere, unless you
      like the smell of toasted, overheating mobile devices */
   text-rendering:optimizeLegibility;
-  letter-spacing:-1px;
-  color:#5a7590;
-  }
+}
 legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
-  height:1px;
-  left:0px;
-  overflow:hidden;
-  position:absolute;
-  top:-1000px;
-  width:1px;
+    height:1px;
+    left:0px;
+    overflow:hidden;
+    position:absolute;
+    top:-1000px;
+    width:1px;
 }
 hr {
-  display:none;       /* cli: show lines between content */
-  visibility:hidden;  /* gui: use css borders */
+    display:none;       /* cli: show lines between content */
+    visibility:hidden;  /* gui: use css borders */
 }
 
 
 /* Header *****************************************************/
 #sidebar header h1 {
-  background:url("/logo-white.svg") top center no-repeat;
-  position:relative;
-  background-size:240px;
-  height:130px;//84px;
+    background:url("/logo-white.svg") top center no-repeat;
+    background-size:240px;
+    height:130px;
+    position:relative;
 }
 #sidebar h1 a {
-  position:absolute;
-  bottom:0;
+    position:absolute;
+    bottom:0;
 }
 
 
 /* Sidebar ****************************************************/
 #sidebar {
-  float:left;
-  font-size:14px;
-  line-height:20px;
-  padding-top:20px;
-  width:140px;
+    float:left;
+    font-size:14px;
+    line-height:20px;
+    padding-top:20px;
+    width:140px;
 }
 #sidebar #mascot {
-  padding-top:10px;
-  width:140px;
+    padding-top:10px;
+    width:140px;
 }
 #sidebar nav #topics { 
-  display:none;
-  visibility:hidden;
-}
-#sidebar nav ul li {
+    display:none;
+    visibility:hidden;
 }
 #sidebar nav ul {
     border-top:1px solid #dce3ec;
-    box-shadow:2px 2px 5px #dcdcdc;
+    box-shadow:3px 3px 0px #dce3ec;
 }
 #sidebar nav ul li a {
     display:block;
@@ -174,11 +184,12 @@ hr {
 
 /* Main Content ***********************************************/
 main {
-    margin-left:170px; 
-    border-top:1px solid #dce3ec;
-    border-left:1px solid #dce3ec;
-    border-right:1px solid #dce3ec;
-    box-shadow:2px 2px 5px #dcdcdc;
+    margin-left:180px; 
+    border:1px solid #dce3ec;
+    border-bottom:0px;
+    //border-left:1px solid #dce3ec;
+    //border-right:1px solid #dce3ec;
+    box-shadow:3px 3px 0px #dce3ec;
 }
 
 
@@ -197,9 +208,9 @@ img, object, iframe, video, audio { max-width:100% }
     background:#ffffff;
     border-left:1px solid #dce3ec;
     border-right:1px solid #dce3ec;
-    margin-left: 170px;
+    margin-left: 180px;
     padding:40px 30px 20px 30px;
-    box-shadow:2px 2px 5px #dcdcdc;
+    box-shadow:3px 3px 0px #dce3ec;
 }
 
 
@@ -243,9 +254,9 @@ footer {
     border-right:1px solid #dce3ec;
     border-bottom:1px solid #dce3ec;
     line-height:24px;
-    margin:0px 0 80px 170px;
+    margin:0px 0 80px 180px;
     padding:40px 30px 20px 30px;
-    box-shadow:2px 2px 5px #dcdcdc;
+    box-shadow:3px 3px 0px #dce3ec;
 }
 
 
