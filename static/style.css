@@ -1,59 +1,28 @@
-/***************************************************************
-**  Hugo [Boss] edition base template for Kirinyan and Ruben  **
-**  By Ruben Schade and Clara Tse, March 2015                 **
-**  http://rubenerd.com/  http://kirinyan.net/                **
-**  Finally gave up on 80 columns!                            **
-***************************************************************/
+/*****************************************************************************************\
+*  Hugo [Boss] edition base template for Kirinyan and Ruben                               *
+*  By Ruben Schade and Clara Tse, March 2015 - February 2016                              *
+*  https://rubenerd.com/  http://kirinyan.net/                                            *
+\*****************************************************************************************/
 
 
-/* Global Reset ***********************************************/
+/* Global Reset **************************************************************************/
 html, body, h1, h2, h3, h4, h5, h6, form, fieldset, abbr,
 img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
-    border:0px;           /* old opera: need units for 0 values */
+    border:0px;                /* old opera: need units for 0 values */
     border-collapse:collapse;
     font-weight:normal;
-    list-style-type:none; /* old ie: list-style unsupported */
+    list-style-type:none;      /* old ie: list-style unsupported */
     margin:0px;
     padding:0px;
     vertical-align:baseline;
 }
 article, aside, details, figcaption, figure, footer, header, 
-hgroup, main, menu, nav, section {
-    display:block;
-}
-img { 
-    display:inline; /* mozilla: fix default behaviour */
-}
-
-/* Palette ****************************************************/
-
-small time {
-  text-transform:uppercase;
-  font-size:13px;
-  color:#7e92a6;
-}
-#skyline {
-  height:90px;
-  background:#ffffff url("skyline-soft.png") bottom center no-repeat;
-  margin-bottom:20px;
-}
+hgroup, main, menu, nav, section { display:block }
+img { display:inline;          /* mozilla: fix default behaviour */ }
 
 
-/* Palette for Retina displays ********************************/
-
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-    #skyline {
-        background:#ffffff url("skyline-soft-2x.png") bottom center no-repeat;
-        background-size:798px 100px;
-}
-}
-
-
-/* Top ********************************************************/
+/* Top ***********************************************************************************/
 html {
     background:#f0f2f5;
     color:#5e7286;
@@ -62,6 +31,7 @@ html {
 }
 body {
     font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    line-height:24px;
     margin:0px auto 180px auto;
     text-align:center;  /* ie6: centering */
 }
@@ -70,12 +40,8 @@ h1, h2, h3 {
     font-weight:500;
     letter-spacing:-1px;
 }
-h1 {
-    font-size:32px;
-}
-h2 {
-    font-size:24px;
-}
+h1 { font-size:32px }
+h2 { font-size:24px }
 h3 { 
     font-size:22px;
     margin-top:30px;
@@ -91,24 +57,24 @@ ul { list-style-type:circle; }
     width:780px;
 }
 
-/* Links ******************************************************/
+
+/* Anchors *******************************************************************************/
 a, h1 a:hover, h2 a:hover, nav a:hover { 
-    color:#0066ff;  /* rubenerd blue */
+    color:#0066ff;
     text-decoration:underline;
 }
-a:hover, nav a {
-    color:#955dd5;  /* rubenerd purple */
-}
-h1 a, h2 a {
-    text-decoration:none;
+a:hover, nav a { color:#955dd5 }
+h1 a, h2 a, #sidebar nav ul li a { text-decoration:none }
+#sidebar nav ul li a:active, #sidebar nav ul li a:focus {
+    background:#955dd5;
+    color:#ffffff
 }
 
 
-/* Accessibility **********************************************/
-h1,h2,h3 {
-  /* Friends, don't let friends use this everywhere, unless you
-     like the smell of toasted, overheating mobile devices */
-  text-rendering:optimizeLegibility;
+/* Accessibility *************************************************************************/
+h1, h2, h3 {
+  /* DON'T USE THIS EVERYWHERE, burns needless power on mobile devices for little gain */
+    text-rendering:optimizeLegibility;
 }
 legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
     height:1px;
@@ -119,12 +85,18 @@ legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
     width:1px;
 }
 hr {
-    display:none;       /* cli: show lines between content */
-    visibility:hidden;  /* gui: use css borders */
+    display:none;       /* Text-browsers: show lines between content */
+    visibility:hidden;  /* GUI browsers:  use css borders */
 }
 
 
-/* Header *****************************************************/
+/* Header ********************************************************************************/
+#skyline {
+    background:#ffffff url("skyline-soft.png") bottom center no-repeat;
+    background-size:798px 100px;
+    margin-bottom:20px;
+    height:90px;
+}
 #sidebar header h1 {
     background:url("/logo-white-round.svg") top center no-repeat;
     background-size:110px;
@@ -132,12 +104,21 @@ hr {
     position:relative;
 }
 #sidebar h1 a {
-    position:absolute;
     bottom:0;
+    position:absolute;
 }
 
 
-/* Sidebar ****************************************************/
+/* Header for Retina *********************************************************************/
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    #skyline { background:#ffffff url("skyline-soft-2x.png") bottom center no-repeat }
+}
+
+
+/* Sidebar *******************************************************************************/
 #sidebar {
     float:left;
     font-size:14px;
@@ -158,11 +139,10 @@ hr {
     box-shadow:3px 3px 0px #dce3ec;
 }
 #sidebar nav ul li a {
-    display:block;
     border:1px solid #dce3ec;
     background:#ffffff;
     border-top:0px;
-    text-decoration:none;
+    display:block;
     height:25px;
     line-height:25px;
     padding:0 16px;
@@ -173,98 +153,131 @@ hr {
 }
 
 
-/* Navigation *************************************************/
+/* Navigation *****************************************************************************/
 #sidebar nav ul { margin-bottom:10px }
 #sidebar #primary-nav a { font-weight:500 }
 
 
-/* Main Content ***********************************************/
+/* Main Content **************************************************************************/
 main {
     background:#ffffff;
     border:1px solid #dce3ec;
     box-shadow:3px 3px 0px #dce3ec;
-    margin-left:180px; 
+    margin-left:180px;
+    padding:30px;
 }
 
 
-/* Articles ***************************************************/
-article {
-    padding:40px 30px 30px 30px;
-}
+/* Articles ******************************************************************************/
+article { padding-bottom:50px }
 article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
-blockquote {
+small time {
+    text-transform:uppercase;
+    font-size:13px;
+    color:#7e92a6;
+}
+img, object, iframe, video, audio { max-width:100% }
+.secondary { padding-bottom:30px }
+
+
+/* Code, Quotes, Tables ******************************************************************/
+blockquote { 
+    border-left:1px solid #dce3ec;
+    color:#8e92a6;
     margin-left:16px;
     padding-left:16px;
 }
-img, object, iframe, video, audio { max-width:100% }
-.secondary {
-    padding:40px 30px 20px 30px;
-}
-
-
-/* Articles: Code, Quotes, Tables *****************************/
-blockquote { 
-  border-left:1px solid #dce3ec;
-  color:#8e92a6;
-}
-code, pre {
-  font-family:"Lucida Console",monospace;
-  font-size:13px;
+pre, code {
+    font-family:"Lucida Console",monospace;
+    font-size:13px;
 }
 table, pre { 
-  margin:20px 0;
-  overflow-x:auto;
+    margin:20px 0;
+    max-width:100%;
+    overflow-x:scroll;
 }
 table th, table td {
-  font-size:14px;
-  padding:2px 15px;
-  vertical-align:top;
+    font-size:14px;
+    padding:2px 15px;
+    vertical-align:top;
 }
+table, tr { border-bottom:1px solid #dce3ec }
+table th { background:#f0f3f6 }
 pre { 
-  border-left:1px solid #29339a;
-  background:#041264;
-  line-height:16px;
-  padding:20px;
+    border:1px dotted #dce3ec;
+    background:#f0f3f6;
+    line-height:16px;
+    padding:20px;
 }
-table { border-bottom:1px solid #29339a }
-table th { background:#29339a }
 
 
-/* Archive ****************************************************/
+/* Archive *******************************************************************************/
 .tags { font-size:14px }
 .tags a { white-space:nowrap }
 
 
-/* Podcast ****************************************************/
+/* Podcast *******************************************************************************/
 .show-licence, .show-release, .show-subscribe {
-  font-size:14px;
-  font-style:italic;
-  line-height:20px;
+    font-size:14px;
+    font-style:italic;
+    line-height:20px;
 }
 
+/* Toggle boxes (terrible, terrible CSS) *************************************************/
+.toggle-box { display:none }
+.toggle-box + label {
+  cursor: pointer;
+  display: block;
+  font-weight:500;
+  line-height:18px;
+}
+.toggle-box + label + div {
+  display: none;
+  //margin-bottom: 10px;
+}
+.toggle-box:checked + label + div { display: block }
+.toggle-box + label:before {
+  color: #0066ff;
+  content: "(+)";
+  display: block;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+  width: 20px;
+}
+.toggle-box:checked + label:before {
+  content: "(\2212)";
+}
 
-/* Footer *****************************************************/
+/* Footer ********************************************************************************/
 footer {
-    line-height:24px;
-    padding:40px 30px 20px 30px;
+    font-size:14px;
+    line-height:22px;
+    padding-top:20px;
 }
+footer input[type=text] { width:260px }
 
 
-/* Footer: Search *********************************************/
-input[type=text] { width:260px }
+/*****************************************************************************************\
+*  RESPONSIVE STUFF                                                                       *
+\*****************************************************************************************/
 
 
-/* Smaller screens ********************************************/
+/* 640-480 Screens ***********************************************************************/
 @media screen and (max-width: 830px) {
     html,body {
         margin:0;
         padding:0 0 80px 0;
         width:100%;
     }
+    main { width:538px; }
+    #sidebar { width:600px; }
     main, #sidebar {
         float:none;
         margin:0 auto;
-        width:600px;
+    }
+    #skyline { 
+        height:64px;
     }
     #sandwich-wrapper {
         margin:0;
@@ -286,7 +299,7 @@ input[type=text] { width:260px }
         background-size:32px;
         height:32px;
         line-height:32px;
-        margin-bottom:12px;
+        margin:0 0 10px 24px;
         padding-left:38px;
         font-size:36px;
     }
@@ -299,9 +312,7 @@ input[type=text] { width:260px }
         height:42px;
         line-height:42px;
     }
-    #sidebar nav ul li {
-        display:inline;
-    }
+    #sidebar nav ul li { display:inline }
     #sidebar nav ul li a {
         float:left;
         padding:0;
@@ -312,32 +323,59 @@ input[type=text] { width:260px }
         border-right:0;
         font-size:16px;
     }
-    #sidebar nav ul #topics a {
-        width:118px;
+    #sidebar nav ul #topics a { width:118px }
+    body {
+        padding-bottom:530px;
+        background-image:url("rubi-seifuku.png");
+        background-position: center bottom;
+        background-repeat:no-repeat;
+        background-size:140px 502px;
     }
 }
 
-/* Smallest screens ******************************************/
+/* 480-320 Screens ********************************************/
 @media screen and (max-width: 630px) {
-    html, body {
-        padding:0;
+    main { padding: 20px }
+    main, footer { width:438px }
+    #sidebar { width: 480px }
+    #skyline { 
+        height:32px;
+        background-size:479px 60px;
     }
-    main {
-        border:0;
-        box-shadow:none;
-        width:100%;
+    #sidebar nav ul li a { width:95px }
+    #sidebar nav ul #topics a { width:94px }
+    #sidebar header h1 a { margin-left:20px }
+    article img, article iframe, article object { height:auto !important }
+}
+
+/* 480-400 Screens ********************************************/
+@media screen and (max-width: 530px) {
+    main, footer { width:358px }
+    #sidebar { width: 400px }
+    #sidebar nav ul #subscribe {
+        display:none;
+        visibility:hidden;
     }
-    article img, article iframe, article object { 
-        height:auto !important;
-    }
+    #sidebar nav ul li a { width:99px }
+    #sidebar nav ul #topics a { width:98px }
+}
+
+/* 480-320 Screens ********************************************/
+@media screen and (max-width: 430px) {
+    main, #sidebar, footer { width:258px }
+    #sidebar { width:300px }
     #sidebar nav ul li a {
-        border-bottom:0;
-        border-top:0;
-        box-shadow:none;
+        width:74px;
+    }
+    #sidebar nav ul #topics a { width:73px }
+    #sidebar header h1 a {
+        background-size:28px;
+        height:28px;
+        line-height:28px;
+        padding-left:32px;
+        font-size:32px;
     }
 }
 
-/* EOF */
-
-
+/* EOF DESU ~ */
 
