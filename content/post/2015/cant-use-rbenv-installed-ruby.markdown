@@ -4,7 +4,8 @@ date: "2015-11-04T15:43:00+10:00"
 summary: "Forgot to issue rbenv local!"
 category: Software
 tag:
-- ruby:
+- package-managers
+- ruby
 ---
 I’ve previously used RVM to install Ruby and gems, but this week I decided to try rbenv.
 
@@ -41,5 +42,4 @@ Now we're cooking with... induction? Check the version of Ruby again, and we're 
 
     % ruby -v
     ==> ruby 2.2.3p173 (2015-08-18 revision 51636) [x86_64-darwin14]
-
 
