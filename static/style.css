@@ -25,7 +25,7 @@ img { display:inline;          /* mozilla: fix default behaviour */ }
 /* Top ***********************************************************************************/
 html {
     background:#f0f2f5;
-    color:#5e7286;
+    color:#4e6276; //#5e7286; 
     height:100%;        /* persistent vertical scrollbars */
     overflow-y:scroll;  /* persistent vertical scrollbars */
 }
@@ -114,7 +114,9 @@ hr {
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
-    #skyline { background:#ffffff url("skyline-soft-2x.png") bottom center no-repeat }
+    #skyline {
+        background-image:url("skyline-soft-2x.png");
+    }
 }
 
 
