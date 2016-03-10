@@ -50,8 +50,8 @@
   <guid>{{ .Permalink }}</guid>
   <dc:creator>{{ .Site.Author.name }}</dc:creator>
   {{ if .Params.category }}<category>{{ .Params.category | lower }}</category>{{ end }}
-  {{ range .Params.tag }}<category>{{ . | lower }}</category>
-  {{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+  {{ if .Params.tag }}{{ range .Params.tag }}<category>{{ . | lower }}</category>
+  {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
   {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />{{ if .Params.licence_url }}
   <creativeCommons:license>{{ .Params.licence_url }}</creativeCommons:license>{{ end }}{{ if eq .Params.category "Show" }}
