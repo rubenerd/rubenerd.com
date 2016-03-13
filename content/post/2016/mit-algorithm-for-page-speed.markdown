@@ -7,7 +7,7 @@ tag:
 - javascript
 - noscript
 ---
-[From Slashdot today]:
+[From Slashdot today]\:
 
 > MIT researchers have created an algorithm that analyzes web pages and creates dependency graphs for all network resources that need to be loaded (CSS, JS, images, etc.). The algorithm, called Polaris, will be presented this week at the USENIX Symposium on Networked Systems Design and Implementation conference, and is said to be able to cut down page load times by 34%, on average. The larger and more resources a web page contains, the better the algorithm's efficiency gets -- which should be useful on today's JavaScript-heavy sites.
 
