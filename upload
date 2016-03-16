@@ -7,8 +7,8 @@
 set -e
 
 _rsync='/usr/local/bin/rsync'  ## location of rsync
-_server='amazon'               ## server to upload to
-_virtual_root='rubenerd.com'   ## dest directory on server
+_server='chitanda'               ## server to upload to
+_virtual_root='rubenerdcom'   ## dest directory on server
 _assets_folder='files'         ## don't delete this asset folder on upload
 
 . ./scripts/ram-disk.sh        ## create/destroy ram disks
