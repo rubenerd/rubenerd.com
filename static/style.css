@@ -25,7 +25,7 @@ img { display:inline;          /* mozilla: fix default behaviour */ }
 /* Top ***********************************************************************************/
 html {
     background:#f0f2f5;
-    color:#4e6276; //#5e7286; 
+    color:#3e5266;      /* #5e7286 was too pale */
     height:100%;        /* persistent vertical scrollbars */
     overflow-y:scroll;  /* persistent vertical scrollbars */
 }
@@ -36,11 +36,14 @@ body {
     text-align:center;  /* ie6: centering */
 }
 h1, h2, h3 {
-    color:#5a7590;
-    font-weight:500;
+    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    //color:#5a7590;
+    font-weight:bold;
     letter-spacing:-1px;
 }
-h1 { font-size:32px }
+h1 {
+    font-size:32px;
+}
 h2 { font-size:24px }
 h3 { 
     font-size:22px;
@@ -157,7 +160,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 /* Navigation *****************************************************************************/
 #sidebar nav ul { margin-bottom:10px }
-#sidebar #primary-nav a { font-weight:500 }
+#sidebar #primary-nav a { font-weight:bold }
 
 
 /* Main Content **************************************************************************/
@@ -171,7 +174,7 @@ main {
 
 
 /* Articles ******************************************************************************/
-article { padding-bottom:50px }
+article { padding-bottom:80px }
 article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
 small time {
     text-transform:uppercase;
@@ -185,13 +188,12 @@ img, object, iframe, video, audio { max-width:100% }
 /* Code, Quotes, Tables ******************************************************************/
 blockquote { 
     border-left:1px solid #dce3ec;
-    color:#8e92a6;
+    color:#5e7286; /* #8e92a6 was too pale */
     margin-left:16px;
     padding-left:16px;
 }
 pre, code {
-    font-family:"Lucida Console",monospace;
-    font-size:13px;
+    font:13px "Lucida Console",monospace;
 }
 table, pre { 
     margin:20px 0;
