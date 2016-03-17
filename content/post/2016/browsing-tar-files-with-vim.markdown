@@ -20,7 +20,7 @@ Here's a neat trick I learned today, entirely by accident. Say you were to open 
 You can view its contents and even edit the files inline!
 
     " tar.vim version v26
-    " Browsing tarfile /Users/rubenerd/Desktop/Benchmarking.tar
+    " Browsing tarfile [..]/firewall-team.tar
     " Select a file with cursor and press ENTER
     
     firewall-team/
@@ -30,10 +30,13 @@ You can view its contents and even edit the files inline!
     firewall-team/stadtfeld.kallen
     firewall-team/littner.yoko
 
-By comparison, nvi on FreeBSD and NetBSD will return fireworks:
+By comparison, [nvi on FreeBSD and NetBSD] will return fireworks. For certain times of the year this may be desirable, but may not be legal in certain juristictions. It's also likely not what you're after when browsing tar files. 
 
     firewall-team/^@^@^@^@^@^@^@^@^@^@^@^@^@^@
     [..]
 
-Emacs can also be used to read tar files, if your pinkie isn't prone to repetitive stress injuries.
+Emacs can also be used to read tar files, if your [pinkie] isn't prone to repetitive stress injuries.
+
+[nvi on FreeBSD and NetBSD]: https://rubenerd.com/trying-nvi/ "Rubénerd: Trying out the nvi editor"
+[pinkie]: http://ergoemacs.org/emacs/emacs_pinky.html "How to Avoid the Emacs Pinky Problem"
 
