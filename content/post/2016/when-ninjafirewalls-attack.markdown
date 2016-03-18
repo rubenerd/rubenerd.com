@@ -6,8 +6,9 @@ category: Internet
 tag:
 - firewalls
 - security
+- when-x-attacks
 ---
-While attempting to find information on, of all things, nginx http2 directives:
+While attempting to find information on, of all things, nginx http2:
 
 > Sorry, your request can not be served.
 > For security reasons, it was blocked and logged.
