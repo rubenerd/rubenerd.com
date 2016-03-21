@@ -23,14 +23,14 @@ exists() {
 }
 
 ## Check dependencies
-exists "ffmpeg flac lame normalize" || exit 1
+exists "avconv flac lame normalize" || exit 1
 
 ## Get name and strip extension
 _original=$1
 _id=`printf "%s" "$_original" | sed 's/\.caf$//g'`
 
 ## Convert to WAV
-ffmpeg -i "$_original" "$_id.wav"
+avconv -i "$_original" "$_id.wav"
 
 ## Encode to MP3
 lame -m j -q 0 --vbr-new -b 128 --verbose "$_id.wav"
