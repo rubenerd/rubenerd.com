@@ -346,6 +346,7 @@ cat > $_bucket/${_id}_meta.xml <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <identifier>$_id</identifier>
+  <addeddate>$_date_time_utc</addeddate>
   <mediatype>audio</mediatype>
   <collection>$_collection</collection>
   <creator>$_host</creator>
@@ -370,6 +371,7 @@ cat > $_bucket/${_id}_meta.xml <<EOF
   <uploader>$_email</uploader>
   <addeddate>$_date_time_utc</addeddate>
   <collection>audio_podcast</collection>
+  <runtime>$_duration</runtime>
   <year>$_year_utc</year>
   <coverage>$_location</coverage>
 </metadata>
