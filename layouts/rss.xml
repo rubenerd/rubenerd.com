@@ -39,7 +39,7 @@
     <url>https://rubenerd.com/logo.rss.png</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
     <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
-    <width>144</width>
+    <width>72</width>
     <height>72</height>
     <description>{{ if eq .Title "Show" }}An esoteric interest podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/{{ end }}.</description>
   </image>
