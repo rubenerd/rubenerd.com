@@ -13,6 +13,8 @@ tag:
 - vi
 - vim
 ---
+<p><img src="https://rubenerd.com/files/2016/houkistare.jpg" srcset="https://rubenerd.com/files/2016/houkistare.jpg 1x, https://rubenerd.com/files/2016/houkistare@2x.jpg 2x" alt="Houki isn’t sure why she’s in a tape archive" style="width:500px; height:281px" /></p>
+
 Here's a neat trick I learned today, entirely by accident. Say you were to open a tar file with Vim:
 
     $ vim firewall-team.tar
