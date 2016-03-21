@@ -1,12 +1,15 @@
 ---
 title: "When pluralisation attacks"
-date: "2016-03-17T15:50:00+10:00"
+date: "2016-03-18T15:50:00+10:00"
 summary: "It’s virtualbox-extension-pack, not extensions!"
 category: Software
 tag:
 - virtualbox
+- virtualisation
 - when-x-attacks
 ---
+Or why you shouldn't attempt package manager installs before coffee.
+
     $ brew cask search virtualbox
     ==> Exact match
     virtualbox
@@ -25,4 +28,14 @@ tag:
     ==> Installing Cask dependencies: virtualbox
     [..]
     complete
+    
+    $ cowsay-e "><"  "Mumble grumble"
+     ________________ 
+    < mumble grumble >
+     ---------------- 
+            \   ^__^
+             \  (><)\_______
+                (__)\       )\/\
+                    ||----w |
+                    ||     ||
 
