@@ -63,6 +63,7 @@ ls
 quit
 EOF
 
+
 ###########################################################################
 ## Upload files to archive org
 
@@ -74,6 +75,7 @@ lcd "$_bucket"
 put "${_id}.mp3"
 put "${_id}.png"
 put "${_id}.jpg"
+put "${_id}.flac"
 put "${_id}_files.xml"
 put "${_id}_meta.xml"
 ls
@@ -83,6 +85,8 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
+
+exit
 
 ###########################################################################
 ## Commit manifest files to Git
