@@ -29,7 +29,7 @@ Or why you shouldn't attempt package manager installs before coffee.
     [..]
     complete
     
-    $ cowsay-e "><"  "Mumble grumble"
+    $ cowsay -e "><"  "Mumble grumble"
      ________________ 
     < mumble grumble >
      ---------------- 
