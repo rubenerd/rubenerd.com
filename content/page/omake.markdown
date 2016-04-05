@@ -2,43 +2,100 @@
 layout: page
 title: "Omake"
 ---
-<p><img src="https://farm4.staticflickr.com/3816/11323636633_c6ca6ff71d_b.jpg" alt="" style="width:500px;" /></p>
-
-<p>There&#8217;s a lot of stuff here.</p>
-
 <h3 id="runs">What runs the site</h3>
-<ul>
-<li><a href="http://nginx.org/">nginx</a></li>
-<li><a href="http://gohugo.io">Hugo</a></li>
-<li><a href="http://www.ansible.com/">Ansible</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Bourne_shell">Bourne shell scripts</a>, nuts to <a href="https://bugs.launchpad.net/ubuntu/+source/dash/+bug/61463">[[ bashisms! ]]</a></li>
-</ul>
 
-<h3 id="ran">What <em>used</em> to run this site (at some point)</h3>
-<ul>
-<li><a href="http://www.wordpress.org/">WordPress</a>, from 2006–13</li>
-<li><a href="http://jekyllrb.org">Jekyll</a>, from 2013–15</li>
-<li><a href="http://realmacsoftware.com/rapidweaver/">RapidWeaver</a>, in 2005</li>
-</ul>
+* **[Hugo](http://gohugo.io):**
+  Rather than using server-side software like WordPress, Rubénerd is generated from plain 
+  HTML and Markdown into a static site. Only Hugo can process 4000+ posts written over a 
+  decade without taking another decade to finish!
+
+* **[Let's Encrypt](https://letsencrypt.org/):**
+  I started using HTTPS with RapidSSL, but Let's Encrypt makes the whole process so simple. I
+  can also generate them for all my subdomains without having to pay for a new cert each time.
+
+* **[Bourne shell scripts](https://en.wikipedia.org/wiki/Bourne_shell):**
+  This is the glue. It generates podcast pages, encodes audio, scales the images, and uploads
+  the generated site. I use BSD, Mac, and Linux, so I avoid bashisms.
+
+<h3 id="ran">What used to run the site</h3>
+
+* **[Jekyll](http://jekyllrb.org) (2013-15)**:
+  My return to static-site generation after nearly a decade. *Rubénerd* was being delivered
+  faster, used less resources, and had full revision history and tracking in a Git repo! Alas
+  it took over 20 minutes to generate all my posts.
+
+* **[WordPress](http://wordpress.org/) (2006-13)**:
+  The Mac Daddy of blogging software. Movable Type had gone commercial at that stage, and
+  Radio UserLand looked to be in its last throes, so I followed the pack to WordPress. For all
+  the security issues and poorly written plugins, it served me surprisingly well for many
+  years.
+
+* **[RapidWeaver](http://realmacsoftware.com/rapidweaver/) (2005)**: 
+  An intruiging and pleasent Mac application that generated static pages, but I soon ran into
+  its limitations.
+
+* **[Perl CGI scripts](http://perl.org/) (2004):**
+  I wrote my first site engine when at my first job out of high school, before university
+  started. It used CGI, which was a terrible idea but not enough people went to it to spawn
+  too many threads, so I avoided disaster!
 
 <h3 id="writing">How I write posts</h3>
-<ul>
-<li><a href="http://www.apple.com/macbook-pro/">15” MacBook Pro with Retina Display</a>, workhorse</li>
-<li><a href="http://www.apple.com/macbook-air/">11” MacBook Air</a>, my coffee shop companion</li>
-<li><a href="https://www.microsoft.com/accessories/en-us/products/keyboards/sculpt-ergonomic-desktop/l5v-00001">Microsoft Sculpt Ergonomic Keyboard</a>, for wrist strain</li>
-<li><a href="http://pckeyboard.com/page/category/SpacesaverM">Unicomp Spacesaver M</a>, IBM Model M clone</li>
-<li><a href="http://www.michaelfranks.com/">Michael Franks</a>, my jam</li>
-<li><a href="http://vim.org/">Vim</a></li>
-</ul>
+
+* **[Vim](http://vim.org)**:
+  I've used nano, joe, emacs (albeit briefly), TextMate, Sublime Text and Atom, but I keep
+  coming back to this inexplicably wonderful mode of typing each time. I'm still learning new
+  things with it, while likely forgetting other things.
+
+* **[nvALT](http://brettterpstra.com/projects/nvalt/)**: 
+  A fantastic note-taking tool that splits ideas into separate, searchable text files. It's 
+  akin to having your own text-based wiki.
+
+* **[11" MacBook Air](http://www.apple.com/sg/macbook-air/)**:
+  I'm still surprised how versitile this machine is. It fits on every coffee shop and 
+  aeroplane table, but still packs enough punch for photo editing and dev work with a docking
+  station and peripherals. All I miss is Parallels working fast enough for games, and the
+  Retina screen from my work machine.
+
+* **[Microsoft Sculpt Ergonomic Keyboard](https://www.microsoft.com/accessories/en-us/products/keyboards/sculpt-ergonomic-desktop/l5v-00001)**:
+  I prefer mechanical keyboards, but went the split-keyboard route when I started getting
+  upper-arm pain. It's surprisingly snappy, especially compared to the mushy plastic feel of
+  the previous models.
+
+* **[Michael Franks](http://www.michaelfranks.com/)**:
+  My jam since I was a kid. He's a jazzy singler/songwriter with witty lyrics and albums for
+  every mood and time of day stretching over his half-century career. Incidently, I wrote all
+  but two of his albums on Wikipedia!
+
+* **[AKG K551](http://us.akg.com/akg-product-detail_us/k551slv.html)**:
+  I bought these headphones as per Marco Arment's recommendation. I'm not all about the bass
+  (sorry Meghan Trainor) so these headphones sound amazing. The level of midrange detail
+  continues to blow my socks off, and the giant pads are soft and comfortable.
 
 <h3 id="alma-maters">Alma maters</h3>
-<ul>
-<li><a href="http://uts.edu.au/">University of Technology, Sydney</a></li>
-<li><a href="http://unisa.edu.au">University of South Australia</a></li>
-<li><a href="http://www.ais.com.sg">Australian International School, Singapore</a></li>
-<li><a href="https://ascotss.eq.edu.au/">Ascot State School, Brisbane</a></li>
-<li><a href="http://www.patterson-lakes-ps.vic.edu.au/">Patterson Lakes Primary School, Melbourne</a></li>
-</ul>
+
+* **[University of Technology, Sydney](http://uts.edu.au)**:
+  Some incredible lecturers here, and even Steve Wozniak teachers here now! There must be a
+  rule that UTS only accepts friendly people too; the Anime@UTS club was easily the best I've
+  ever been a part of. Its also where my old man went to in the 1980s, so its a legacy :).
+
+* **[University of South Australia, Adelaide](http://unisa.edu.au)**:
+  My first place to study after high school, before going on extended leave for family reasons.
+  The Mawson Lakes campus (and Adelaide itself) is beautiful, probably my favourite city in
+  Australia.
+
+* **[Australian Internationl School, Singapore](http://www.ais.com.sg)**:
+  My primary and secondary school when we lived in Singapore. Ah AIS, so many memories, some of
+  them good!
+
+* **[Ascot State School, Brisbane](https://ascottss.eq.edu.au)**:
+  My primary school when we lived briefly in Brisbane, Australia. A very traditional place,
+  but fortunately they were fine me skipping religious classes to play with their recycled
+  Apple IIs.
+
+* **[Patterson Lakes Primary School, Melbourne](http://www.patterson-lakes-ps.vic.edu.au)**:
+  My first primary school when we lived in Melbourne, Australia. I barely remember it, but my
+  parents were really impressed.
+
 <h3 id="coffee-sydney">Best coffee in Sydney CBD</a></h3>
 <ul>
 <li><a href="http://www.twoblacksheep.com.au/">Two Black Sheep</a></li>

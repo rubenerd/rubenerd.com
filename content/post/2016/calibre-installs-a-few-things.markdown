@@ -8,9 +8,9 @@ tag:
 - ebooks
 - package-managers
 ---
-I'm cleaning out my apartment, including donating most of my books because I don't have space. It's a little heartbreaking. Which reminds me, I was going to make a post about stuff I want to be given a good home.
+I'm cleaning out my apartment, including donating a ton of my books to save valuable space. It's a little heartbreaking, I won't lie.
 
-Anyway, to render the excerise easier mentally, I'm sourcing ebooks for all of them, and using Calibre to organise them. It installs a few things!
+To render the excerise easier mentally, I'm sourcing ebooks for as many of them as I can, and I'm going to try Calibre to organise them. It installs a few things!
 
     $ brew cask install calibre
     
