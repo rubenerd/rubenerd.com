@@ -2,22 +2,52 @@
 layout: page
 title: "Omake"
 ---
+> [Omake](https://en.wikipedia.org/wiki/Omake) (御負け, usually written おまけ) means extra in Japanese. It is used as an anime and manga fandom term to mean &ldquo;extra or bonus&rdquo;. Ruben uses it to describe his giant outline page of random goodness.</p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="contents">Outline root</h3>
+
+* [What runs the site](#runs)
+* [What used to run the site](#ran)
+* [How I write posts](#writing)
+* [Alma maters](#alma-maters)
+* [What runs the site](#runs)
+* [Best coffee in Sydney](#coffee-sydney)
+* [Useful Firefox/SeaMonkey plugins](#mozilla)
+* [Useful Thunderbird plugins](#thunderbird)
+* [Friends from Anime@UTS](#anime-uts)
+* [World friends](#world-friends)
+
+-------------------------------------------------------------------------------
+
 <h3 id="runs">What runs the site</h3>
 
+<p><img src="/cogs_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
 * **[Hugo](http://gohugo.io):**
-  Rather than using server-side software like WordPress, Rubénerd is generated from plain 
-  HTML and Markdown into a static site. Only Hugo can process 4000+ posts written over a 
-  decade without taking another decade to finish!
+  This generates the entire site from plain HTML and Markdown sitting in a Git repo. This is
+  the **only** static-site generator that can handle 4000+ posts; believe me, I’ve tried them all!
+
+* **[FreeBSD](https://www.freebsd.org/):**
+  The best-kept secret of the \*nix world. My OS's stability, performance, friendly community and 
+  lack of systemd bring all the Linux people to the yard. Debian is my backup.
 
 * **[Let's Encrypt](https://letsencrypt.org/):**
-  I started using HTTPS with RapidSSL, but Let's Encrypt makes the whole process so simple. I
-  can also generate them for all my subdomains without having to pay for a new cert each time.
+  I bought certs in the past, but Let's Encrypt makes the whole process so simple there’s no point not using it.
+  It can also handle subdomains without having to pay extra (or at all).
 
 * **[Bourne shell scripts](https://en.wikipedia.org/wiki/Bourne_shell):**
-  This is the glue. It generates podcast pages, encodes audio, scales the images, and uploads
-  the generated site. I use BSD, Mac, and Linux, so I avoid bashisms.
+  This is the glue. It generates podcast pages, encodes audio, scales Retina&trade; images, and uploads
+  the generated site. Nuts to Bashisms.
+
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
 
 <h3 id="ran">What used to run the site</h3>
+
+<p><img src="/cog_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
 
 * **[Jekyll](http://jekyllrb.org) (2013-15)**:
   My return to static-site generation after nearly a decade. *Rubénerd* was being delivered
@@ -39,7 +69,13 @@ title: "Omake"
   started. It used CGI, which was a terrible idea but not enough people went to it to spawn
   too many threads, so I avoided disaster!
 
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
 <h3 id="writing">How I write posts</h3>
+
+<p><img src="/edit_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
 
 * **[Vim](http://vim.org)**:
   I've used nano, joe, emacs (albeit briefly), TextMate, Sublime Text and Atom, but I keep
@@ -71,12 +107,18 @@ title: "Omake"
   (sorry Meghan Trainor) so these headphones sound amazing. The level of midrange detail
   continues to blow my socks off, and the giant pads are soft and comfortable.
 
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
 <h3 id="alma-maters">Alma maters</h3>
 
+<p><img src="/building_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
 * **[University of Technology, Sydney](http://uts.edu.au)**:
-  Some incredible lecturers here, and even Steve Wozniak teachers here now! There must be a
-  rule that UTS only accepts friendly people too; the Anime@UTS club was easily the best I've
-  ever been a part of. Its also where my old man went to in the 1980s, so its a legacy :).
+  Some great lecturers here, and even Steve Wozniak teachers here now! They must limit intake to
+  friendly people; the Anime@UTS club was easily the best I've ever been a part of. My old man 
+  went to in the 1980s, so it's a legacy :).
 
 * **[University of South Australia, Adelaide](http://unisa.edu.au)**:
   My first place to study after high school, before going on extended leave for family reasons.
@@ -84,8 +126,8 @@ title: "Omake"
   Australia.
 
 * **[Australian Internationl School, Singapore](http://www.ais.com.sg)**:
-  My primary and secondary school when we lived in Singapore. Ah AIS, so many memories, some of
-  them good!
+  My primary and secondary school when we lived in Singapore. Some great teachers, even if they
+  moved the campus three times and didn't do the best upkeep of said!
 
 * **[Ascot State School, Brisbane](https://ascottss.eq.edu.au)**:
   My primary school when we lived briefly in Brisbane, Australia. A very traditional place,
@@ -96,12 +138,114 @@ title: "Omake"
   My first primary school when we lived in Melbourne, Australia. I barely remember it, but my
   parents were really impressed.
 
-<h3 id="coffee-sydney">Best coffee in Sydney CBD</a></h3>
-<ul>
-<li><a href="http://www.twoblacksheep.com.au/">Two Black Sheep</a></li>
-<li><a href="http://www.yelp.com.au/biz/central-roasters-sydney-2">Central Roasters</a></li>
-<li><a href="http://www.au.timeout.com/sydney/restaurants/venues/4906/workshop-espresso">Workshop Espresso</a></li>
-</ul>
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="coffee-sydney">Best coffee in Sydney</a></h3>
+
+<p><img src="/coffee_font_awesome.svg" alt="Coffee" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
+* **[Tartine](https://www.facebook.com/tartine2020/)**:
+  Best coffee and café food in <del>Sydney</del> the world. They're not your parents' jaffles.
+
+* **[Two Black Sheep](http://twobblacksheep.com.au/)**:
+  Best coffee in the Sydney CBD, and the owners/operators are lovely. I wish I could speak more Thai.
+
+* **[Central Roasters](http://www.yelp.com.au/biz/central-roasters-sydney-2)**:
+  Tucked away in a side-street you may not see. Your loss, their coffee is great!
+
+* **[Workshop Espresso](http://www.au.timeout.com/sydney/restaurants/venues/4906/workshop-espresso)**: 
+  In the Galleries building, a great place for a cup after buying another stack of manga from Kino. They always 
+  have something fun on their blackboard.
+
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="mozilla">Useful Firefox/SeaMonkey plugins</h3>
+
+<p><img src="/dashboard_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
+* **[British English Dictionary (Marco Pinto)](https://addons.mozilla.org/en-GB/firefox/addon/british-english-dictionary-2/)**:
+  Marco has taken up the mantle for not personalising colour spelling.
+
+* **[Ghostery](https://addons.mozilla.org/en-GB/firefox/addon/ghostery/)**:
+  Blocks lots of tracking and other nasties.
+
+* **[HTTPS Everywhere](https://www.eff.org/https-everywhere)**:
+  Enforces TLS on sites that support it, rather than falling back to unencrypted HTML.
+
+* **[Image Block](https://addons.mozilla.org/en-GB/firefox/addon/image-block/)**:
+  Single-click disabling of image loading. Very useful for when you're tethering on Australian mobile internet.
+
+* **[NoScript Security Suite](https://addons.mozilla.org/en-GB/firefox/addon/noscript/)**: 
+  Protects against a range of attacks, even if you don't use its useful dynamic-content whitelisting.
+
+* **[1Password](https://agilebits.com/onepassword/extensions)**:
+  Ultimate password manager that keeps your keys and registration information local. Works across browsers.
+
+* **[Self-Destructing Cookies](https://addons.mozilla.org/en-GB/firefox/addon/self-destructing-cookies/)**:
+  Deletes cookies after you've left a site, to help prevent further tracking.
+
+* **[Tab Memory Usage](https://addons.mozilla.org/en-GB/firefox/addon/tab-memory-usage/)**:
+  A new favourite, and very eye-opening. Shows the memory usage of the current page, in your toolbar.
+
+* **[Tree Style Tab](http://piro.sakura.ne.jp/xul/_treestyletab.html.en)**:
+  Displays tabs in a hierarchical sidebar. There's really no other way to use browsers.
+
+* **[uBlock Origin](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)**:
+  Light-weight content blocker. Uses less system resources than AdBlock Plus, with the same whitelisting
+  feature for sites that do tasteful and respectful advertising.
+
+* **[WorldIP](https://addons.mozilla.org/en-GB/firefox/addon/worldip/)**:
+  You can use curl for most of the stats this shows about sites, but this is right there in your browser.
+
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="thunderbird">Useful Thuderbird plugins</h3>
+
+<p><img src="/envelope_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
+* **[British English Dictionary (Marco Pinto)](https://addons.mozilla.org/en-GB/thunderbird/addon/british-english-dictionary-2/)**:
+  Marco has taken up the mantle for not personalising colour spelling.
+
+* **[Exchange EWS Provider](https://github.com/Ericsson/exchangecalendar)**:
+  Lets you sync Exchange email if IMAP isn't available. Works flawlessly, I'm really impressed.
+
+* **[Inverse SOGo Connector](http://sogo.nu/download.html#/frontends)**:
+  DAV plugin for contact syncing. I'm surprised Thunderbird doesn't include this by default.
+
+* **[Lightning](https://www.mozilla.org/en-US/projects/calendar/)**:
+  Calendar for Thunderbird. I use Apple's calendar now, but relied on this in Thunderbird and 
+  SeaMonkey for many years.
+
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="safari">Useful Safari plugins</h3>
+
+<p><img src="/dashboard_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
+* **[AdBlock](https://getadblock.com/)**:
+  Light-weight content blocker with whitelisting for sites that publish respectful ads.
+
+* **[Ghostery](https://www.ghostery.com/)**:
+  Blocks lots of tracking and other nasties.
+
+* **[Instapaper](http://www.instapaper.com/)**:
+  Nicer than a bookmarklet for the original and best read-it-later service.
+
+* **[1Password](https://agilebits.com/onepassword)**:
+  Ultimate password manager that keeps your keys and registration information local. Works across browsers.
+
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
 <h3 id="anime-uts">Friends from Anime@UTS</h3>
 <ul>
 <li><a rel="met friend" href="http://alonelyseptember.org/">A Lonely September by Seb</a></li>
