@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "RFID spam"
 ---
 Fastmail is generally pretty good with spam, but an oddly-specific source of the nefarious junk has been filtering through. It started with this in early March:

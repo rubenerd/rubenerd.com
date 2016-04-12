@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Satisfying Plex with awk"
 category: "2016-03-20T16:43:00+10:00"
 summary: "Batch renaming done the easy way"

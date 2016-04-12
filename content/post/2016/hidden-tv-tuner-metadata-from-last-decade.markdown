@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Hidden TV Tuner metadata from last decade"
 ---
 I recorded lots of television in the mid to late 2000s. Most of it was advertising for my sister's media course, but also lots of one off stuff.
