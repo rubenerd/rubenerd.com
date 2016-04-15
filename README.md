@@ -1,8 +1,8 @@
-# rubenerd-com
+# rubenerd.com
 
-This is the source for *[Rubénerd](http://rubenerd.com)*, a weblog and podcast of esoteric interests by Ruben Schade in s/Singapore/Sydney/ since 2004.
+This is the source for *[Rubénerd](https://rubenerd.com)*, a weblog and podcast of esoteric interests by Ruben Schade in s/Singapore/Sydney/ since 2004.
 
-Posts are written in ~~joe~~ ~~TextMate~~ Vim in OS X and FreeBSD, and hosted on a clean nginx stack in a ~~VPS~~ cloud instance in Sydney.
+Posts are written in ~~the IBM E Editor~~ ~~pico/nano~~ ~~joe~~ ~~TextMate~~ Vim in OS X and FreeBSD, and hosted on a clean nginx stack in a ~~VPS~~ cloud instance in Sydney, Australia.
 
 ---- 
 
@@ -10,15 +10,16 @@ Posts are written in ~~joe~~ ~~TextMate~~ Vim in OS X and FreeBSD, and hosted on
 
 ### Site
 * [Git](https://git-scm.com/) – previously svn, forcing myself to learn
-* [Hugo](http://gohugo.io) 0.14 or above – the beautiful static site generator written in Go
-* Bourne compatible shell – portable, without \[\[ bashisms \]\], for BSD
+* [Hugo](http://gohugo.io) 0.15 or above – **fast** static site generator written in Go
+* Bourne compatible shell – without \[\[ bashisms \]\], for BSD
 * BSD sed, awk – tried to be portable, should work with GNU
+* [OS X](http://www.apple.com/sg/osx/) - for RAM disks, will port to FreeBSD at some point
 * [rsync](https://rsync.samba.org/), [OpenSSH](http://www.openssh.com/) – for secure ∆ updates, transfers
 
 ### Podcast
 * [eyeD3](http://eyed3.nicfit.net/) - ID3 tag parser
-* [ffmpeg](http://ffmpeg.org/) - decoder for m4a files from handheld recorder
 * [lame](http://lame.sourceforge.net/) - final mp3 encoder
+* [libav](https://libav.org/) - was ffmpeg, but Linux people seem to want this one now
 * [Normalize](http://normalize.nongnu.org/) - what the name suggests
 * [Sox](http://sox.sourceforge.net/) - for stitching audio
 
