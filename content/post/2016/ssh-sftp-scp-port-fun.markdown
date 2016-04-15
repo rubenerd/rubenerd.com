@@ -1,7 +1,6 @@
 ---
-draft: true
 title: "ssh, sftp, scp, tftp port fun"
-date: "2016-03-17T17:04:00+10:00"
+date: "2016-04-09T10:01:00+10:00"
 summary: "Slash dot dash dot inconsistent"
 category: Software
 tag:
@@ -22,7 +21,7 @@ To start an SFTP session on a specific port:
 
     $ sftp -oPort=22222 host
 
-To start an tftp session on a specific port
+To start an tftp session on a specific port:
 
     $ tftp host 22222
 
