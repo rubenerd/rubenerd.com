@@ -2,7 +2,8 @@
 {{ partial "sidebar.html" . }}
 
 <main id="content"><!-- for skip to content link -->
-{{ range .Paginator.Pages }}
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+{{ range $paginator.Pages }}
   <article resource="{{ .Permalink }}#post" property="blogPost" 
     typeof="BlogPosting">
     <h2 property="headline"><a property="sameAs url" 

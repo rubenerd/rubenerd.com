@@ -32,11 +32,11 @@ html {
 body {
     font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     line-height:24px;
-    margin:0px auto 180px auto;
+    margin:0px auto;
+    padding-bottom:180px; /* webkit: because it doesn't like bottom margins, gah! */
     text-align:center;  /* ie6: centering */
 }
 h1, h2, h3 {
-    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     //color:#5a7590;
     font-weight:bold;
     letter-spacing:-1px;
@@ -66,9 +66,9 @@ a, h1 a:hover, h2 a:hover, nav a:hover {
     color:#0066ff;
     text-decoration:underline;
 }
-a:hover, nav a { color:#955dd5 }
+a:hover, nav a, .button a { color:#955dd5 }
 h1 a, h2 a, #sidebar nav ul li a { text-decoration:none }
-#sidebar nav ul li a:active, #sidebar nav ul li a:focus {
+#sidebar nav ul li a:active, #sidebar nav ul li a:focus, .button a:focus {
     background:#955dd5;
     color:#ffffff
 }

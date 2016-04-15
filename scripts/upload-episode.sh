@@ -12,9 +12,9 @@ set -e
 ###########################################################################
 ## Configuration
 
-_bucket="/Users/`whoami`/Repos/rubenerd-com/metadata"
+_bucket="/Users/`whoami`/Repos/rubenerd.com/metadata"
 _netrc="/Users/`whoami`/.netrc"
-_shows="/Users/`whoami`/Repos/rubenerd-com/content/post/show"
+_shows="/Users/`whoami`/Repos/rubenerd.com/content/post/show"
 _internet_archive_email="rubenschade@gmail.com"
 
 _hugo_prefix='show'        ## eg http://rubenerd.com/show222/
