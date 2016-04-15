@@ -67,6 +67,7 @@ EOF
 ###########################################################################
 ## Upload files to archive org
 
+function ia() {
 ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
@@ -85,7 +86,7 @@ EOF
 ## Ping Archive.org to get them to check for episode
 
 curl "https://archive.org/services/contrib-submit.php?user_email=${_internet_archive_email}&server=items-uploads.archive.org&dir=${_id}"
-
+}
 exit
 
 ###########################################################################
