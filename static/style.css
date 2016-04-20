@@ -183,7 +183,8 @@ small time {
 }
 img, object, iframe, video, audio { max-width:100% }
 .secondary { padding-bottom:30px }
-
+.divide { margin-bottom:60px; }
+.divide a { text-decoration:none }
 
 /* Code, Quotes, Tables ******************************************************************/
 blockquote { 
