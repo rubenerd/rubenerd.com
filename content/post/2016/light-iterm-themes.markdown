@@ -21,11 +21,11 @@ My requirements for light themes are:
 
 Nearly all the light themes I surveyed fit the first criteria, but not the second. I'd all but given up hope, until I found [PencilLight by mattly].
 
+<p><img src="https://rubenerd.com/files/2016/PencilLight.png" srcset="https://rubenerd.com/files/2016/PencilLight.png 1x, https://rubenerd.com/files/2016/PencilLight@2x.png 2x" alt="" style="width:500px; height:420px;" /></p>
+
 In a word, it’s **refreshing**, right down to the choice of minty-green and the slightly-off white which I'm a fan of (as evidenced by my site resign). The blue is one of my favourite schades [sic], and the yellow has a clear and pleasing level of contrast.
 
 If you're going to spend most of your life looking at a shell, may as well make it as nice as it can be, and this is. He also managed to find a pair of words all English speakers can agree on their spelling, which is an added bonus.
-
-<p><img src="https://rubenerd.com/files/2016/PencilLight.png" srcset="https://rubenerd.com/files/2016/PencilLight.png 1x, https://rubenerd.com/files/2016/PencilLight@2x.png 2x" alt="" style="width:500px; height:420px;" /></p>
 
 [PencilLight by mattly]: https://github.com/mattly/iterm-colors-pencil 
 [Solarized Dark]:  http://ethanschoonover.com/solarized
