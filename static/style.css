@@ -141,6 +141,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 #sidebar nav ul {
     border-top:1px solid #dce3ec;
+    border-bottom:1px solid #dce3ec;
     box-shadow:3px 3px 0px #dce3ec;
 }
 #sidebar nav ul li a {
@@ -338,47 +339,30 @@ footer input[type=text] { width:260px }
     }
 }
 
+
 /* 480-320 Screens ********************************************/
-@media screen and (max-width: 630px) {
-    main { padding: 20px }
-    main, footer { width:438px }
-    #sidebar { width: 480px }
+@media screen and (max-width: 640px) {
+    html, #sidebar, footer { width:100%; margin:0; border-width:1px 0 3px 0; box-shadow:none; }
+    main { width: auto; border-width:1px 0 4px 0; box-shadow:none; padding:20px }
     #skyline { 
         height:32px;
         background-size:479px 60px;
     }
-    #sidebar nav ul li a { width:95px }
-    #sidebar nav ul #topics a { width:94px }
-    #sidebar header h1 a { margin-left:20px }
-    article img, article iframe, article object { height:auto !important }
-}
-
-/* 480-400 Screens ********************************************/
-@media screen and (max-width: 530px) {
-    main, footer { width:358px }
-    #sidebar { width: 400px }
+    #sidebar nav ul { border-width:1px 0 3px 0; box-shadow:none; }
+    #sidebar nav ul li a, #sidebar nav ul #topics a { width:25%; border:0 }
     #sidebar nav ul #subscribe {
         display:none;
         visibility:hidden;
     }
-    #sidebar nav ul li a { width:99px }
-    #sidebar nav ul #topics a { width:98px }
+    #sidebar header h1 a { margin-left:20px }
+    article img, article iframe, article object { height:auto !important }
 }
 
-/* 480-320 Screens ********************************************/
-@media screen and (max-width: 430px) {
-    main, #sidebar, footer { width:258px }
-    #sidebar { width:300px }
-    #sidebar nav ul li a {
-        width:74px;
-    }
-    #sidebar nav ul #topics a { width:73px }
-    #sidebar header h1 a {
-        background-size:28px;
-        height:28px;
-        line-height:28px;
-        padding-left:32px;
-        font-size:32px;
+
+@media screen and (max:width: 320px) {
+    #sidebar nav ul #subscribe {
+        display:none;
+        visibility:hidden;
     }
 }
 
