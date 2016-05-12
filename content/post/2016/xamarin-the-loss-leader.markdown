@@ -1,6 +1,6 @@
 ---
 title: "Xamarin the loss–leader"
-date: "2016-05-29T10:14:00+10:00"
+date: "2016-04-29T10:14:00+10:00"
 category: Software
 tag:
 - microsoft
