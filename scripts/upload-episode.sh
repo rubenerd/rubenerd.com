@@ -67,7 +67,6 @@ EOF
 ###########################################################################
 ## Upload files to archive org
 
-function ia() {
 ftp items-uploads.archive.org <<EOF
 binary
 mkdir "$_id"
