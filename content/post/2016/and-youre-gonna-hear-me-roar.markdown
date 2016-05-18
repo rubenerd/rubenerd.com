@@ -8,11 +8,11 @@ tag:
 ---
 Katy Perry:
 
-> And you're gonna hear me roarrrr!
-> Whoa-oh-oh-oh-oh-oh-oh-oh
-> Whoa-oh-oh-oh-oh-oh-oh-oh
-> Whoa-oh-oh-oh-oh-oh-oh-oh
-? You're gonna hear me roaarrrr!
+> And you're gonna hear me roar!  
+> Whoa-oh-oh-oh-oh-oh-oh-oh  
+> Whoa-oh-oh-oh-oh-oh-oh-oh  
+> Whoa-oh-oh-oh-oh-oh-oh-oh  
+> You're gonna hear me roar!
 
 That's not what a roar sounds like.
 

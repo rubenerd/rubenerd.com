@@ -22,20 +22,20 @@ Or at least, so I thought. According to the [official Apple Lossless Audio Codec
 
 The main draw for FLAC seems to be its CRC information, which allows archived files to report data corruption. ALAC depends on the due dilligence of the file system and OS to copy files correctly; though if you're serious about archiving you're using ZFS anyway.
 
-### ALAC and FLAC performance compared.
+### ALAC and FLAC performance compared
 
 I use [avconv] and/or [FFmpeg] \(depending on the whims of package managers) for most of my post-production work, so was intruiged to discover I could encode and decode ALAC files with it this whole time!
 
 To test, I let avconv encode a 10 minute WAV file with ALAC and FLAC. ALAC's native file extension is the ambiguous m4a container, so I added alac.
 
-    $ avconv -i electroboom.wav -c:a flac electroboom.alac.m4a
+    $ avconv -i electroboom.wav -c:a alac electroboom.alac.m4a
     $ avconv -i electroboom.wav -c:a flac electroboom.flac
 
-The difference was unremarkable.
+The size difference was negligable. The original WAV and a 128Kbps MP3 are included for reference:
 
     $ ls -lh .
     ==>  42M Apr 26 11:44 electroboom.alac.m4a
-    ==> 106M Apr 26 11:42 electroboom.caf.wav
+    ==> 106M Apr 26 11:42 electroboom.wav
     ==>  41M Apr 26 11:44 electroboom.flac
     ==> 9.6M Feb  2 00:33 electroboom.mp3
 
