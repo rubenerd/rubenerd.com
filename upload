@@ -7,7 +7,7 @@
 set -e
 
 _rsync='/usr/local/bin/rsync'  ## location of rsync
-_server='chitanda'               ## server to upload to
+_server='rubenerd.com'               ## server to upload to
 _virtual_root='rubenerdcom'   ## dest directory on server
 _assets_folder='files'         ## don't delete this asset folder on upload
 
