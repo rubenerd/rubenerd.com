@@ -10,7 +10,7 @@ tag:
 ---
 By default, dd doesn't show progress during block copying.
 
-    # dd if=/dev/<something> of=diskimg.img
+    # dd if=/dev/<source> of=diskimg.img
     ==> *crickets*
 
 I’ve got around this with many approaches over the years, but today I even learned of a new way. Below is a list.
@@ -23,8 +23,7 @@ Technically possible, but ew. I leave as an exercise for the reader.
 
 dcfldd is a modified version of GNU dd developeed for the US DoD Computer Forensics Laboratory (DCFL). Its the easiest drop-in solution because it uses the same flags, but adds inline progress reporting.
 
-    # dcfldd if=/dev/<something> of=disk.img
-    ==> 
+    # dcfldd if=/dev/<source> of=disk.img
 
 I’ve been using this since the mid 2000s. Unfortunately, I’ve since read warnings that it should be avoided as a general-purpose dd replacement, given it was forked from an old dd version that's since had bugs discovered.
 
@@ -32,7 +31,7 @@ I’ve been using this since the mid 2000s. Unfortunately, I’ve since read war
 
 pv reports stream data. Give pv a data source, and pipe it to dd to get a wonderful progress tracker:
 
-    # pv -pterb /dev/<something> | dd of=disk.img
+    # pv -pterb /dev/<source> | dd of=disk.img
 
 The flags show a progress bar (`-p`), timer (`-t`), ETA (`-e`), rate counter (`-r`) and byte counter (`-b`) respectfully. Or not respectfully; I don't care if you shout at your computer.
 
@@ -52,7 +51,7 @@ The `-d` flag is for direct disk access. Further use is beyond the scope of this
 
 Today I learned of an alternative in GNU dd: the progress bar. From dd(1):
 
-> status=LEVEL
+> status=LEVEL  
 > The LEVEL of information to print to stderr; 'none' suppresses everything but
 > error messages, 'noxfer' suppresses the final transfer  statistics,  'progress'
 > shows periodic transfer statistics
@@ -61,5 +60,5 @@ Mac and other BSD users can get this from the gnutil package, then use it as gdd
 
     # gdd if=/dev/<something> of=disk.img progress=status
 
-Normally I'm not a fan of the GNU extensions to standard POSIX tools, because we end up with incompatible options that break scripts and make lives difficult. To that end, I'll likely keep using pv. But I'll secretly use gdd.
+Normally I'm not a fan of the GNU extensions to standard POSIX tools, because we end up with incompatible options that break scripts. To that end, I'll likely keep using pv. But I'll secretly use gdd.
 
