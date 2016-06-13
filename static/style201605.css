@@ -142,7 +142,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 #sidebar nav ul {
     border-top:1px solid #dce3ec;
-    box-shadow:2px 2px 0px #dce3ec;
+    box-shadow:3px 3px 0px #dce3ec;
 }
 #sidebar nav ul li a {
     border:1px solid #dce3ec;
@@ -166,16 +166,18 @@ only screen and (min-device-pixel-ratio: 2) {
 
 /* Main Content **************************************************************************/
 main {
-    background:#ffffff;
-    border:1px solid #dce3ec;
-    box-shadow:2px 2px 0px #dce3ec;
     margin-left:180px;
-    //padding:30px;
 }
 
 
 /* Articles ******************************************************************************/
-article { padding-bottom:80px }
+article, .secondary { 
+    border:1px solid #dce3ec;
+    background:#ffffff;
+    box-shadow:3px 3px 0px #dce3ec;
+    margin-bottom:30px;
+    padding:30px;
+}
 article div,.secondary ul,.secondary p, #archive dl {
     line-height:26px
     }
@@ -185,7 +187,6 @@ small time {
     color:#7e92a6;
 }
 img, object, iframe, video, audio { max-width:100% }
-.secondary { padding-bottom:60px }
 .divide { margin-bottom:60px; }
 .divide a { text-decoration:none }
 
