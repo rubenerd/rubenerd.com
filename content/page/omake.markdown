@@ -16,6 +16,7 @@ title: "Omake"
 * [Best coffee in Sydney](#coffee-sydney)
 * [Useful Firefox/SeaMonkey plugins](#mozilla)
 * [Useful Thunderbird plugins](#thunderbird)
+* [For when you need to run Windows](#windows)
 * [Friends from Anime@UTS](#anime-uts)
 * [World friends](#world-friends)
 
@@ -242,6 +243,37 @@ title: "Omake"
 * **[1Password](https://agilebits.com/onepassword)**:
   Ultimate password manager that keeps your keys and registration information local. Works across browsers.
 
+<p style="text-align:center"><a href="#content">Top ^</a></p>
+
+-------------------------------------------------------------------------------
+
+<h3 id="windows">For when you need to run Windows</h3>
+
+<p><img src="/lemon_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+
+* **[Classic Shell](http://classicshell.net)**: 
+  Returns a semblence of sanity to Windows 8.x and 10, if you need to use them.
+
+* **[File Checksum Integrity Checker](http://support.microsoft.com/kb/841290)**:
+  Does what it says on the tin, and in classic Microsoft verbose style.
+
+* **[Never10](https://www.grc.com/never10.htm)**:
+  Windows 7 is distasteful, but 10 is another level. This prevents auto-upgrades.
+
+* **[sdelete](https://technet.microsoft.com/en-us/sysinternals/bb897443.aspx)**:
+  Another Mark Russinovich classic. Writes zeroes over deleted space, which (among other things)
+  renders VM drive shrinks more effective. Such tools shouldn't be trusted for secure data
+  removal on SSDs, or increasingly even spinning disks given dynamic allocation, etc.
+
+* **[WinDirStat](http://windirstat.info)**: 
+  Visualise where all your lost space went, then [despair] that most is in junk and update
+  folders you can't delete.
+
+* **[Wizmo](https://www.grc.com/wizmo/wizmo.htm)**:
+  Steve Gibson's useful set of utilities and shortcuts in one executable.
+
+[despair]: https://blogs.technet.microsoft.com/askcore/2008/09/17/what-is-the-winsxs-directory-in-windows-2008-and-windows-vista-and-why-is-it-so-large/
+   
 <p style="text-align:center"><a href="#content">Top ^</a></p>
 
 -------------------------------------------------------------------------------

@@ -30,8 +30,10 @@ html {
     overflow-y:scroll;  /* persistent vertical scrollbars */
 }
 body {
+    font-size:16px;
+    font-weight:400;
     font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
-    line-height:24px;
+    line-height:26px;
     margin:0px auto;
     padding-bottom:180px; /* webkit: because it doesn't like bottom margins, gah! */
     text-align:center;  /* ie6: centering */
@@ -40,8 +42,12 @@ h1, h2, h3 {
     font-weight:bold;
     letter-spacing:-1px;
 }
-h1 { font-size:32px }
-h2 { font-size:24px }
+h1 {
+    font-size:32px;
+}
+h2 { 
+    font-size:24px;
+}
 h3 { 
     font-size:22px;
     margin-top:30px;
@@ -135,20 +141,17 @@ only screen and (min-device-pixel-ratio: 2) {
     visibility:hidden;
 }
 #sidebar nav ul {
-    border:0px;
-    //border-top:1px solid #dce3ec;
-    //border-bottom:1px solid #dce3ec;
-    //box-shadow:3px 3px 0px #dce3ec;
-    box-shadow:0px 0px 5px #dce3ec;
+    border-top:1px solid #dce3ec;
+    box-shadow:2px 2px 0px #dce3ec;
 }
 #sidebar nav ul li a {
     border:1px solid #dce3ec;
     background:#ffffff;
     border-top:0px;
     display:block;
-    height:25px;
-    line-height:25px;
-    padding:0 16px;
+    height:29px;
+    line-height:29px;
+    padding:0px 0px 0px 20px;
 }
 #sidebar nav ul li a:hover {
     background:#0066ff;
@@ -163,29 +166,26 @@ only screen and (min-device-pixel-ratio: 2) {
 
 /* Main Content **************************************************************************/
 main {
-    //background:#ffffff;
-    //box-shadow:3px 3px 0px #dce3ec;
+    background:#ffffff;
+    border:1px solid #dce3ec;
+    box-shadow:2px 2px 0px #dce3ec;
     margin-left:180px;
     //padding:30px;
 }
 
 
 /* Articles ******************************************************************************/
-article {
-    background:#ffffff;
-    box-shadow:0px 0px 5px #dce3ec;
-    border:1px solid #dce3ec;
-    padding:30px 30px 20px 30px;
-    margin-bottom:30px;
-}
-article div,.secondary ul,.secondary p, #archive dl { line-height:24px }
+article { padding-bottom:80px }
+article div,.secondary ul,.secondary p, #archive dl {
+    line-height:26px
+    }
 small time {
     text-transform:uppercase;
     font-size:13px;
     color:#7e92a6;
 }
 img, object, iframe, video, audio { max-width:100% }
-.secondary { padding:20px 30px 20px 30px }
+.secondary { padding-bottom:60px }
 .divide { margin-bottom:60px; }
 .divide a { text-decoration:none }
 
@@ -292,7 +292,12 @@ footer input[type=text] { width:260px }
         padding:0;
         width:100%;
     }
-    #category-nav, #mascot, #site-description, #sale {
+    #sidebar nav ul { 
+        border-bottom:1px solid #dce3ec; 
+        border-left:1px solid #dce3ec;
+    }
+    #category-nav, #mascot, #site-description,
+    #sidebar nav ul #subscribe {
         display:none;
         visibility:hidden;
     }
@@ -327,8 +332,8 @@ footer input[type=text] { width:260px }
         height:42px;
         line-height:42px;
         text-align:center;
-        width:119px;
-        border-right:0;
+        width:120px;
+        border:0px;
         font-size:16px;
     }
     #sidebar nav ul #topics a { width:118px }
@@ -352,7 +357,8 @@ footer input[type=text] { width:260px }
     }
     #sidebar nav ul { border-width:1px 0 3px 0; box-shadow:none; }
     #sidebar nav ul li a, #sidebar nav ul #topics a { width:25%; border:0 }
-    #sidebar nav ul #subscribe {
+    #sidebar nav ul #subscribe, 
+    #sidebar nav ul #sale {
         display:none;
         visibility:hidden;
     }
