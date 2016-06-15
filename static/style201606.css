@@ -190,6 +190,7 @@ img, object, iframe, video, audio { max-width:100% }
 .divide { margin-bottom:60px; }
 .divide a { text-decoration:none }
 
+
 /* Code, Quotes, Tables ******************************************************************/
 blockquote { 
     border-left:1px solid #dce3ec;
@@ -197,9 +198,7 @@ blockquote {
     margin-left:16px;
     padding-left:16px;
 }
-pre, code {
-    font:13px "Lucida Console",monospace;
-}
+pre, code { font:13px "Lucida Console",monospace; }
 table, pre { 
     margin:20px 0;
     max-width:100%;
@@ -279,7 +278,10 @@ footer input[type=text] { width:260px }
         padding:0 0 80px 0;
         width:100%;
     }
-    main { width:538px; }
+    article,.secondary,footer {
+        width:538px;
+        margin:0 auto 14px auto;
+    }
     #sidebar { width:600px; }
     main, #sidebar {
         float:none;
@@ -350,13 +352,13 @@ footer input[type=text] { width:260px }
 
 /* 480-320 Screens ********************************************/
 @media screen and (max-width: 640px) {
-    html, #sidebar, footer { width:100%; margin:0; border-width:1px 0 3px 0; box-shadow:none; }
-    main { width: auto; border-width:1px 0 4px 0; box-shadow:none; padding:20px }
+    html, #sidebar, footer { width:100%; margin:0; border-width:1px 0 4px 0; box-shadow:none; }
+    article,.secondary { width: auto; border-width:1px 0 4px 0; box-shadow:none; padding:20px }
     #skyline { 
         height:32px;
         background-size:479px 60px;
     }
-    #sidebar nav ul { border-width:1px 0 3px 0; box-shadow:none; }
+    #sidebar nav ul { border-width:1px 0 4px 0; box-shadow:none; }
     #sidebar nav ul li a, #sidebar nav ul #topics a { width:25%; border:0 }
     #sidebar nav ul #subscribe, 
     #sidebar nav ul #sale {
