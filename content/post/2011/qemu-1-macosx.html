@@ -12,7 +12,6 @@ tag:
 ---
 <p><img src="https://rubenerd.com/files/uploads/screenie.qemu1.jpg" alt="Screenshot showing Windows 2000, Windows 3.11 and FreeBSD 8.2 running in QEMU 1.0!" style="height:312px; width:500px;" /></p>
 <p>After eight years of continuous development, <a href="http://wiki.qemu.org/">QEMU 1.0</a> came out on the first of December. After assembling our Christmas tree this afternoon, I set to work building it on my Mac :). </p>
-<p><!--oldmore--></p>
 <p style="font-style:italic;"><a href="http://www.flickr.com/photos/rubenerd/6452427769/in/photostream">Screenshot</a> of my venerable MacBook Pro running Windows 2000, Windows 3.11 for Workgroups under PC DOS 2000 and FreeBSD 8.2 in the all new QEMU 1.0 :). All fully licenced I might add, I don’t run pirated software thank you very much!</p>
 <h3>My build environment</h3>
 <ul>
@@ -29,30 +28,29 @@ tag:
 </ul>
 <h3>Installing from source</h3>
 <ol>
-<li>Log in as root (or the closest we can get to it on OS X):<br />
-<blockquote style="font-family:monospace"><p>
+<li>Log in as root (or the closest we can get to it on OS X):<p></p>
+<pre>
 % sudo -s
-</p></blockquote>
+</pre>
 </li>
 <li>Grab and extract the <a href="http://wiki.qemu.org/Download">latest sources</a>, in this case the glorious 1.0! I put mine in <code>/usr/local/src</code> to keep things tidy.
 </p>
 </li>
-<li>Configure with the options you want, for all the available options, use the <code>--help</code> flag. In my case:<br />
-<blockquote style="font-family:monospace"><p>
-# ./configure<br />
-<span>-</span>-enable-cocoa<br />
-<span>-</span>-target-list=i386-softmmu,alpha-softmmu<br />
-<span>-</span>-audio-drv-list=coreaudio<br />
-<span>-</span>-audio-card-list=ac97,adlib,sb16<br />
-<span>-</span>-disable-vnc
-</p></blockquote>
+<li>Configure with the options you want, for all the available options, use the <code>--help</code> flag. In my case:<p></p>
+<pre>
+# ./configure \
+--enable-cocoa \
+--target-list=i386-softmmu,alpha-softmmu \
+--audio-drv-list=coreaudio\
+--audio-card-list=ac97,adlib,sb16
+</pre>
 </li>
-<li>Now build:<br />
-<blockquote style="font-family:monospace"><p>
-# make<br />
-# make install<br />
+<li>Now build:<p></p>
+<pre>
+# make
+# make install
 # make clean distclean
-</p></blockquote>
+</pre>
 </ol>
 <h3>All done</h3>
 <p>Huge amount of thanks to Fabrice Bellard and all the QEMU committers for their incredible amount of wok over these 8 years. I use your software on a daily basis for work and play.</p>
