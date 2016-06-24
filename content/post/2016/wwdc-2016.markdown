@@ -1,0 +1,33 @@
+---
+title: "WWDC 2016"
+date: "2016-06-16T13:53:00+10:00"
+category: Software
+tag:
+- apple
+- iphone
+- macos
+- mac-os-x
+- os-x
+---
+I used to follow the Apple rumour sites, MacWorld (RIP) and WWDC with gusto. Cynical folk would have referred to the condition as rabid fanboyism, but I considered it reasonable for one who's personal and professional life revolve around the use of a specific collection of products.
+
+(Fanboy also denotes unquestioning devotion, which I've never had. Nor most people who are branded with the term, honestly).
+
+Lately, my enthusiasm has been tempered to things just working, with some occasional esoteric pontifications. Wow, what a wanky sentence. Generally though, I see events like a Daring Fireball podcast episode with Apple execs again and think "yeah, I'll be good".
+
+That's not to say I abstain from all media coverage. For example, this byline by Alphr was a corker:
+
+> Apple iOS 10 preview: "Biggest update ever"? Hardly. Apple dedicated an hour of its recent WWDC keynote to iOS 10, but it's a major disappointment
+
+Hell will freeze over when the tech press applauds Apple for an iterative feature release. The good news is, such dismissive clichés mean Apple has done something noteworthy, so I was interested:
+
+* iOS 10's home screen looks wonderful. I barely even looked at the notification screen before, but I could see myself using the heck out of these new "card" rich-notifications. It neatly ties together functions from the home screen and lock screen, and provides the first compelling reason for me to upgrade my old phone to one with force touch.
+
+* Changes to watchOS look great; my Apple Watch may become more than just an analogue face with live weather and multiple timezones. Not that it doesn't do those *really well*, it's just a lot of overhead (size, charging time) for that.
+
+* My *Siracusian* side is most interested in this new macOS file system. I trust OpenZFS exclusively for data backups, but there are enough limitations (resource use, no native encryption) that would render it problematic on portable devices. If they can make AFS work, it'll be a sight for sore eyes after years of HFS+ ickyness.
+
+<p style="font-style:italic">(To clarify for the same pedants who likely called me a fanboy back in the day, yes ZFS in the new Oracle Solaris 12 has native encryption. I know, because I use it. Note I said “OpenZFS”;. I can’t see Oracle allowing Apple to use it on macOS. See, being a pedant works both ways). 
+
+Anyway, interesting stuff. Back to work now.
+
