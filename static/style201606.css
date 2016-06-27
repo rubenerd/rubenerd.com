@@ -52,6 +52,10 @@ h3 {
     font-size:22px;
     margin-top:30px;
 }
+h4 { 
+    font-weight:bold;
+    margin-top:10px;
+}
 small {
     font-size:14px;
     white-space:nowrap;
@@ -229,6 +233,25 @@ pre {
     font-size:14px;
     font-style:italic;
     line-height:20px;
+}
+
+
+/* Omake page ****************************************************************************/
+#omake-search form, #omake-search form fieldset {
+    display:inline;
+}
+#omake-search input[type="text"] {
+    background:#f0f2f5;
+    border:1px solid #dce3ec;
+    font-size:13px;
+    font-weight:normal;
+    float:left;
+    margin-right:2px;
+    padding:2px;
+}
+#omake-search input[type="submit"] {
+    display:none;
+    visibility:hidden;
 }
 
 /* Toggle boxes (terrible, terrible CSS) *************************************************/
