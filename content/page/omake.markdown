@@ -325,22 +325,34 @@ title: "Omake"
 If you see blank boxes and squares, your browser is old and doesn't support HTML placeholders and emoji.
 
 <div id="omake-search">
+
 <h4>General</h4>
-<form method="get" action="https://blekko.com/ws/"><fieldset>
-<input type="text" name="q" maxlength="255" placeholder="Blekko 🔒" /><input type="submit" value="Search" />
+<form method="get" action="https://duckduckgo.com/"><fieldset>
+<input type="text"role="textbox" name="q" maxlength="255" placeholder="DuckDuckGo 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="https://www.bing.com/search"><fieldset>
 <input type="text" name="q" maxlength="255" placeholder="(Chanandler) Bing 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
-<form method="get" action="https://duckduckgo.com/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="DuckDuckGo 🔒" /><input type="submit" value="Search" />
+
+<form method="get" action="https://blekko.com/ws/"><fieldset>
+<input type="text" name="q" maxlength="255" placeholder="Blekko 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="http://search.dmoz.org/cgi-bin/search"><fieldset>
 <input type="text" name="search" maxlength="255" placeholder="dmoz" /><input type="submit" value="Search" />
 </fieldset></form>
+
+<form method="get" action="http://msxml.excite.com/search/web"><fieldset>
+<input name="fpid" type="hidden" value="2" />
+<input type="text" name="q" placeholder="Excite" />
+<input type="submit" value="Search" />
+</fieldset><form>
+
 <form method="get" action="https://search.yahoo.com/search"><fieldset>
 <input type="text" name="q" maxlength="255" placeholder="Yahoo! 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="https://www.yandex.com/yandsearch"><fieldset>
 <input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
@@ -354,16 +366,26 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <form method="get" action="http://www.bing.com/images/search"><fieldset>
 <input type="text" name="q" maxlength="255" placeholder="(Chanander) Bing Images 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
+<form method="get" action="http://msxml.excite.com/search/images"><fieldset>
+<input name="fpid" type="hidden" value="2" />
+<input type="text" name="q" placeholder="Excite" />
+<input type="submit" value="Search" />
+</fieldset><form>
+
 <form method="get" action="https://secure.flickr.com/search/"><fieldset>
 <input type="text" role="textbox" name="q" maxlength="255" placeholder="Flickr 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="https://www.google.com/search"><fieldset>
 <input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Images 🔒" /><input type="submit" value="Search" /> 
 <input type="hidden" name="tbm" value="isch" />
 </fieldset></form>
+
 <form method="get" action="https://commons.wikimedia.org/w/index.php"><fieldset>
 <input type="text" name="search" maxlength="255" placeholder="Wikimedia Commons 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="https://www.yandex.com/images/search"><fieldset>
 <input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex Images 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
@@ -390,7 +412,6 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <input type="hidden" name="hl" value="en-SG" />
 </fieldset></form>
 
-
 <h4>Regional</h4>
 <form method="get" action="https://en.wikivoyage.org/w/index.php"><fieldset>
 <input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikivoyage 🔒" /><input type="submit" value="Search" />
@@ -414,16 +435,59 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (日本語) 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
 
-<h4>Devops</h4>
+<h4>Package Managers</h4>
+
 <form method="get" action="http://braumeister.org/search"><fieldset>
 <input type="text" role="textbox" name="search" maxlength="255" placeholder="Braumeister" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="http://cocoapods.org/"><fieldset>
 <input type="text" role="textbox" name="q" maxlength="255" placeholder="CocoaPods" /><input type="submit" value="Search" />
 </fieldset></form>
+
 <form method="get" action="http://search.cpan.org/search"><fieldset>
 <input type="hidden" name="mode" value="all" />
 <input type="text" role="textbox" name="query" maxlength="255" placeholder="CPAN" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="GET" action="http://packages.debian.org/search"><fieldset>
+<input type="text" name="keywords" value="" placeholder="Debian Packages" />
+<input type="submit" value="Debian Packages" />
+</fieldset></form>
+
+<form action="http://www.filewatcher.com/_/" method="get"><fieldset>
+<input type="text" name="q" placeholder="FileWatcher" />
+<input type="submit" value="FileWatcher" />
+</fieldset></form>
+
+<form action="http://openports.se/search.php" method="get"><fieldset>
+<input type="text" name="so" placeholder="OpenBSD Ports" />
+<input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://pkgsrc.se/search.php" method="get"><fieldset>
+<input type="text" name="so" placeholder="pkgsrc" />
+<input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://rpm.pbone.net/index.php3" method="post"><fieldset>
+<input type="text" name="search" placeholder="RPM Pbone" />
+<input type="submit" value="RPM Pbone" />
+<input type="hidden" name="srodzaj" value="3" />
+<input type="hidden" name="stat" value="3">
+</fieldset></form>
+
+<form method="get" action="http://rubygems.org/search"><fieldset>
+<input type="hidden" name="utf8" value="✓" />
+<input type="text" role="textbox" name="query" maxlength="255" placeholder="RubyGems" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="GET" action="http://packages.ubuntu.com/search"><fieldset>
+<input type="text" name="keywords" value="" placeholder="Ubuntu Packages" />
+<input type="submit" value="Ubuntu Packages" />
+</fieldset></form>
+
+<h4>Documentation</h4>
 </fieldset></form>
 <form method="get" action="http://manpages.debian.org/cgi/man.cgi"><fieldset>
 <input type="text" role="textbox" maxlength="255" name="query" placeholder="Debian manpages" /><input type="submit" value="Submit" />
@@ -431,7 +495,7 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <form method="get" action="http://www.freebsd.org/cgi/search.cgi"><fieldset>
 <input type="hidden" name="source" value="www" /> 
 <input type="hidden" name="max" value="25" />
-<input type="text" role="textbox" name="words" maxlength="255" placeholder="FreeBSD" /><input type="submit" value="Search" />
+<input type="text" role="textbox" name="words" maxlength="255" placeholder="FreeBSD site" /><input type="submit" value="Search" />
 </fieldset></form>
 <form method="get" action="https://www.freebsd.org/cgi/man.cgi"><fieldset>
 <input type="text" role="textbox" maxlength="255" name="query" placeholder="FreeBSD manpages" /><input type="submit" value="Submit" />
@@ -447,10 +511,6 @@ type="submit" value="Submit" />
 <input id="q" type="text" accesskey="s" value="" maxlength="255" name="q" placeholder="PostgreSQL" /><input
 type="hidden" value="1" name="a" />
 <input id="submit" type="submit" value="Search" name="Submit" />
-</fieldset></form>
-<form method="get" action="http://rubygems.org/search"><fieldset>
-<input type="hidden" name="utf8" value="✓" />
-<input type="text" role="textbox" name="query" maxlength="255" placeholder="RubyGems" /><input type="submit" value="Search" />
 </fieldset></form>
 <form method="get" action="http://my.safaribooksonline.com/search"><fieldset>
 <input type="text" role="textbox" name="q" maxlength="255" placeholder="Safari Books" /><input type="submit" value="Search" />
@@ -587,11 +647,10 @@ type="hidden" value="1" name="a" />
 <input type="text" class="head_search_query" id="head_search_query" name="search_query" placeholder="MSY" /><input
 type="submit" name="submit_search" value="Search" class="btn" />
 </fieldset></form>
-<form method="get" action="http://staticice.com/cgi-bin/search.cgi">
+<form method="get" action="http://staticice.com/cgi-bin/search.cgi"><fieldset>
 <input name="q" type="text" maxlength="200" placeholder="Staticice" /><input type="submit" value="Search" />
-</form>
+</fieldset></form>
 
-</div>
 </div>
 
 
