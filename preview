@@ -7,10 +7,10 @@
 set -e
 set -x
 
-. ./scripts/ram-disk.sh
-
-printf "%s\n" "☕  Creating RAM disk for previews (if doesn't already exist)..."
-[ -d "/Volumes/Hugo" ] || ram_disk
+## 2016-07: No longer needed, Hugo builds in memory now
+## . ./scripts/ram-disk.sh
+## printf "%s\n" "☕  Creating RAM disk for previews (if doesn't already exist)..."
+## [ -d "/Volumes/Hugo" ] || ram_disk
 
 printf "%s\n"  "☕  Building local preview with Hugo (may take a few moments)..."
 hugo server --watch
