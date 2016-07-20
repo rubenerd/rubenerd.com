@@ -19,6 +19,7 @@ title: "Omake"
 * [For when you need to run Windows](#windows)
 * [Friends from Anime@UTS](#anime-uts)
 * [World friends](#world-friends)
+* [Search all the engines](#search)
 
 -------------------------------------------------------------------------------
 
@@ -296,7 +297,7 @@ title: "Omake"
 
 <p style="text-align:center"><a href="#content">Top ^</a></p>
 
--------------------------------------------------------------------------------
+<hr /><!-- Markdown parser decides not to render here, because -->
 
 <h3 id="world-friends">World friends</h3>
 <ul>
@@ -318,127 +319,50 @@ title: "Omake"
 
 <p style="text-align:center"><a href="#content">Top ^</a></p>
 
--------------------------------------------------------------------------------
+<hr /><!-- Markdown parser decides not to render here, because -->
 
 <h3 id="search">Search all the engines</h3>
 
-If you see blank boxes and squares, your browser is old and doesn't support HTML placeholders and emoji.
+<p></p>
 
 <div id="omake-search">
 
-<h4>General</h4>
 <form method="get" action="https://duckduckgo.com/"><fieldset>
 <input type="text"role="textbox" name="q" maxlength="255" placeholder="DuckDuckGo 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
 
-<form method="get" action="https://www.bing.com/search"><fieldset>
-<input type="text" name="q" maxlength="255" placeholder="(Chanandler) Bing 🔒" /><input type="submit" value="Search" />
+<form action="http://www.amazon.co.jp/s" method="get"><fieldset>
+<input type="text" name="field-keywords" placeholder="Amazon Japan 🇯🇵" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.amazon.co.uk/s" method="get"><fieldset>
+<input type="text" name="field-keywords" placeholder="Amazon UK 🇬🇧" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.amazon.com/s" method="get"><fieldset>
+<input type="text" name="field-keywords" placeholder="Amazon US 🇺🇸" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.anime-oz.com/catalogsearch/result/" method="get"><fieldset>
+<input type="hidden" name="order" value="inventory_in_stock" />
+<input type="hidden" name="dir" value="desc" />
+<input type="text" name="q" placeholder="Anime at Abbotsford 🇦🇺" /><input type="submit" value="Search" />
 </fieldset></form>
 
 <form method="get" action="https://blekko.com/ws/"><fieldset>
 <input type="text" name="q" maxlength="255" placeholder="Blekko 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
 
-<form method="get" action="http://search.dmoz.org/cgi-bin/search"><fieldset>
-<input type="text" name="search" maxlength="255" placeholder="dmoz" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="get" action="http://msxml.excite.com/search/web"><fieldset>
-<input name="fpid" type="hidden" value="2" />
-<input type="text" name="q" placeholder="Excite" />
-<input type="submit" value="Search" />
-</fieldset><form>
-
-<form method="get" action="https://search.yahoo.com/search"><fieldset>
-<input type="text" name="q" maxlength="255" placeholder="Yahoo! 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="get" action="https://www.yandex.com/yandsearch"><fieldset>
-<input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Social Networks</h4>
-<form method="get" action="https://twitter.com/search"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Twitter 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Images</h4>
-<form method="get" action="http://www.bing.com/images/search"><fieldset>
-<input type="text" name="q" maxlength="255" placeholder="(Chanander) Bing Images 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="get" action="http://msxml.excite.com/search/images"><fieldset>
-<input name="fpid" type="hidden" value="2" />
-<input type="text" name="q" placeholder="Excite" />
-<input type="submit" value="Search" />
-</fieldset><form>
-
-<form method="get" action="https://secure.flickr.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Flickr 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="get" action="https://www.google.com/search"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Images 🔒" /><input type="submit" value="Search" /> 
-<input type="hidden" name="tbm" value="isch" />
-</fieldset></form>
-
-<form method="get" action="https://commons.wikimedia.org/w/index.php"><fieldset>
-<input type="text" name="search" maxlength="255" placeholder="Wikimedia Commons 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="get" action="https://www.yandex.com/images/search"><fieldset>
-<input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex Images 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Video</h4>
-<form method="get" action="http://vimeo.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Vimeo" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://www.youtube.com/results"><fieldset>
-<input type="text" role="textbox" name="search_query" maxlength="255" placeholder="YouTube 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Australia</h4>
-<form method="get" action="https://www.google.com.au/search"><fieldset>
-<input type="hidden" name="pws" value="0" />
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Australia 🔒" /><input type="submit" value="Search" /> 
-<input type="hidden" name="hl" value="en-SG" />
- </fieldset></form>
-
-<h4>Singapore</h4>
-<form method="get" action="https://www.google.com.sg/search"><fieldset>
-<input type="hidden" name="pws" value="0" />
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Singapore 🔒" /><input type="submit" value="Search" /> 
-<input type="hidden" name="hl" value="en-SG" />
-</fieldset></form>
-
-<h4>Regional</h4>
-<form method="get" action="https://en.wikivoyage.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikivoyage 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://de.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (de) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://ko.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (한국어) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://ja.wikipedia.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (日本語) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://de.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (de) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://ko.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (한국어) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://ja.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (日本語) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Package Managers</h4>
-
 <form method="get" action="http://braumeister.org/search"><fieldset>
 <input type="text" role="textbox" name="search" maxlength="255" placeholder="Braumeister" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.bing.com/search"><fieldset>
+<input type="text" name="q" maxlength="255" placeholder="Chandler Bing 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://www.bing.com/images/search"><fieldset>
+<input type="text" name="q" maxlength="255" placeholder="Chandler Bing Images 🔒" /><input type="submit" value="Search" />
 </fieldset></form>
 
 <form method="get" action="http://cocoapods.org/"><fieldset>
@@ -450,14 +374,130 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <input type="text" role="textbox" name="query" maxlength="255" placeholder="CPAN" /><input type="submit" value="Search" />
 </fieldset></form>
 
+<form method="get" action="http://manpages.debian.org/cgi/man.cgi"><fieldset>
+<input type="text" role="textbox" maxlength="255" name="query" placeholder="Debian manpages" /><input type="submit" value="Submit" />
+</fieldset></form>
+
 <form method="GET" action="http://packages.debian.org/search"><fieldset>
 <input type="text" name="keywords" value="" placeholder="Debian Packages" />
 <input type="submit" value="Debian Packages" />
 </fieldset></form>
 
+<form method="get" action="http://search.dmoz.org/cgi-bin/search"><fieldset>
+<input type="text" name="search" maxlength="255" placeholder="dmoz" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.ebay.com/sch/i.html" method="get"><fieldset>
+<input type="text" name="_nkw" placeholder="eBay" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.ebay.com.au/sch/i.html" method="get"><fieldset>
+<input type="text" name="_nkw" placeholder="eBay Australia" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://msxml.excite.com/search/web"><fieldset>
+<input name="fpid" type="hidden" value="2" />
+<input type="text" name="q" placeholder="Excite" />
+<input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://msxml.excite.com/search/images"><fieldset>
+<input name="fpid" type="hidden" value="2" />
+<input type="text" name="q" placeholder="Excite Images" />
+<input type="submit" value="Search" />
+</fieldset><form>
+
 <form action="http://www.filewatcher.com/_/" method="get"><fieldset>
 <input type="text" name="q" placeholder="FileWatcher" />
 <input type="submit" value="FileWatcher" />
+</fieldset></form>
+
+<form method="get" action="https://secure.flickr.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Flickr 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.freebsd.org/cgi/man.cgi"><fieldset>
+<input type="text" role="textbox" maxlength="255" name="query" placeholder="FreeBSD manpages" /><input type="submit" value="Submit" />
+</fieldset></form>
+
+<form method="get" action="http://www.freebsd.org/cgi/search.cgi"><fieldset>
+<input type="hidden" name="source" value="www" /> 
+<input type="hidden" name="max" value="25" />
+<input type="text" role="textbox" name="words" maxlength="255" placeholder="FreeBSD site" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.google.com/search"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Images 🔒" /><input type="submit" value="Search" /> 
+<input type="hidden" name="tbm" value="isch" />
+</fieldset></form>
+
+<form method="get" action="https://scholar.google.com/scholar"><fieldset>
+<input type="hidden" name="pws" value="0" />
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Scholar 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.google.com.au/search"><fieldset>
+<input type="hidden" name="pws" value="0" />
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Australia 🔒 🇦🇺" /><input type="submit" value="Search" /> 
+<input type="hidden" name="hl" value="en-SG" />
+ </fieldset></form>
+
+<form method="get" action="https://www.google.com.sg/search"><fieldset>
+<input type="hidden" name="pws" value="0" />
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Singapore 🔒 🇸🇬" /><input type="submit" value="Search" /> 
+<input type="hidden" name="hl" value="en-SG" />
+</fieldset></form>
+
+<form action="http://www.gumtree.com.au/s-search-results.html" method="get"><fieldset>
+<input type="text" name="keywords" placeholder="Gumtree 🇦🇺" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://bgp.he.net/search" method="get"><fieldset>
+<input name="search[search]" type="text" placeholder="Hurricane Electric BGP" />
+<input name="commit" type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.ibm.com/developerworks/library/"><fieldset>
+<input type="hidden" name="contentarea_by" value="All Zones" />
+<input type="hidden" name="sort_by" value="Date" />
+<input type="hidden" name="sort_order" value="2" />
+<input type="text" name="search_by" placeholder="IBM Devworks" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://konachan.net/post"><fieldset>
+<input type="text" role="textbox" name="tags" maxlength="255" placeholder="Konachan.net" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://myanimelist.net/anime.php"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Anime" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://myanimelist.net/character.php"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Characters" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://myanimelist.net/manga.php"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Manga" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://myanimelist.net/people.php"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL People" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.mediawiki.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="MediaWiki 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form action="http://www.msy.com.au/search" id="searchbox" method="get"><fieldset>
+<input type="hidden" name="controller" value="search" />
+<input type="hidden" name="orderby" value="position" />
+<input type="hidden" name="orderway" value="desc" />
+<input type="text" class="head_search_query" id="head_search_query" name="search_query" placeholder="MSY 🇦🇺" /><input
+type="submit" name="submit_search" value="Search" class="btn" />
+</fieldset></form>
+
+<form method="get" action="http://myfigurecollection.net/search.php"><fieldset>
+<input type="text" role="textbox" name="overall" maxlength="255" placeholder="MyFigureCollection" /><input type="submit" value="Search" />
 </fieldset></form>
 
 <form action="http://openports.se/search.php" method="get"><fieldset>
@@ -465,64 +505,6 @@ If you see blank boxes and squares, your browser is old and doesn't support HTML
 <input type="submit" value="Search" />
 </fieldset></form>
 
-<form action="http://pkgsrc.se/search.php" method="get"><fieldset>
-<input type="text" name="so" placeholder="pkgsrc" />
-<input type="submit" value="Search" />
-</fieldset></form>
-
-<form action="http://rpm.pbone.net/index.php3" method="post"><fieldset>
-<input type="text" name="search" placeholder="RPM Pbone" />
-<input type="submit" value="RPM Pbone" />
-<input type="hidden" name="srodzaj" value="3" />
-<input type="hidden" name="stat" value="3">
-</fieldset></form>
-
-<form method="get" action="http://rubygems.org/search"><fieldset>
-<input type="hidden" name="utf8" value="✓" />
-<input type="text" role="textbox" name="query" maxlength="255" placeholder="RubyGems" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<form method="GET" action="http://packages.ubuntu.com/search"><fieldset>
-<input type="text" name="keywords" value="" placeholder="Ubuntu Packages" />
-<input type="submit" value="Ubuntu Packages" />
-</fieldset></form>
-
-<h4>Documentation</h4>
-</fieldset></form>
-<form method="get" action="http://manpages.debian.org/cgi/man.cgi"><fieldset>
-<input type="text" role="textbox" maxlength="255" name="query" placeholder="Debian manpages" /><input type="submit" value="Submit" />
-</fieldset></form>
-<form method="get" action="http://www.freebsd.org/cgi/search.cgi"><fieldset>
-<input type="hidden" name="source" value="www" /> 
-<input type="hidden" name="max" value="25" />
-<input type="text" role="textbox" name="words" maxlength="255" placeholder="FreeBSD site" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://www.freebsd.org/cgi/man.cgi"><fieldset>
-<input type="text" role="textbox" maxlength="255" name="query" placeholder="FreeBSD manpages" /><input type="submit" value="Submit" />
-</fieldset></form>
-<form enctype="x-www-form-urlencoded" action="http://www.perlmonks.org/" method="get"><fieldset>
-<input type="text" maxlength="300" name="node" placeholder="PerlMonks" /><input 
-type="submit" value="Submit" />
-</fieldset></form>
-<form method="get" action="https://www.mediawiki.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="MediaWiki 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.postgresql.org/search/" method="get"><fieldset>
-<input id="q" type="text" accesskey="s" value="" maxlength="255" name="q" placeholder="PostgreSQL" /><input
-type="hidden" value="1" name="a" />
-<input id="submit" type="submit" value="Search" name="Submit" />
-</fieldset></form>
-<form method="get" action="http://my.safaribooksonline.com/search"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Safari Books" /><input type="submit" value="Search" />
-</fieldset></form>
-
-<h4>Big Iron</h4>
-<form method="get" action="https://www.ibm.com/developerworks/library/"><fieldset>
-<input type="hidden" name="contentarea_by" value="All Zones" />
-<input type="hidden" name="sort_by" value="Date" />
-<input type="hidden" name="sort_order" value="2" />
-<input type="text" name="search_by" placeholder="IBM Devworks" /><input type="submit" value="Search" />
-</fieldset></form>
 <form method="get" action="https://search.oracle.com/search/search"><fieldset>
 <input type="hidden" name="search_startnum" />
 <input type="hidden" name="search_endnum" />
@@ -541,116 +523,171 @@ type="hidden" value="1" name="a" />
 <input type="hidden" name="adn" value="" />
 <input type="hidden" name="search_p_op" value="equals" />
 <input type="hidden" name="search_p_val" value="" />
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Oracle Java, DB etc" /><input type="submit" value="Search" />
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Oracle (Java, 9i, etc)" /><input type="submit" value="Search" />
 </fieldset></form>
 
-<h4>Stack Exchange</h4>
-<form method="get" action="https://serverfault.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Server Fault 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://stackoverflow.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Stack Overflow 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://superuser.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Super User 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://apple.stackexchange.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Ask Different 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://dba.stackexchange.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="DBA 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://security.stackexchange.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Infosec 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://unix.stackexchange.com/search/"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Unix and Linux 🔒" /><input type="submit" value="Search" />
+<form enctype="x-www-form-urlencoded" action="http://www.perlmonks.org/" method="get"><fieldset>
+<input type="text" maxlength="300" name="node" placeholder="PerlMonks" /><input 
+type="submit" value="Submit" />
 </fieldset></form>
 
-<h4>Research</h4>
-<form method="get" action="https://en.wikipedia.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (en) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://en.wiktionary.org/w/index.php"><fieldset>
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (en) 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="http://articles.lib.uts.edu.au/search"><fieldset>
-<input type="hidden" name="N" value="0" />
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="UTS Library Articles 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="http://find.lib.uts.edu.au/search.do"><fieldset>
-<input type="hidden" name="N" value="0" />
-<input type="text" role="textbox" name="Ntt" maxlength="255" placeholder="UTS Library Catalogue 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="http://www.lib.uts.edu.au/databases/search_databases.py"><fieldset>
-<input type="hidden" name="N" value="0" />
-<input type="text" role="textbox" name="search" maxlength="255" placeholder="UTS Library Databases 🔒" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="https://scholar.google.com/scholar"><fieldset>
-<input type="hidden" name="pws" value="0" />
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="Google Scholar 🔒" /><input type="submit" value="Search" />
+<form action="http://pkgsrc.se/search.php" method="get"><fieldset>
+<input type="text" name="so" placeholder="pkgsrc" />
+<input type="submit" value="Search" />
 </fieldset></form>
 
-<h4>Otaku</h4>
-<form method="get" action="http://konachan.net/post"><fieldset>
-<input type="text" role="textbox" name="tags" maxlength="255" placeholder="Konachan.net" /><input type="submit" value="Search" />
+<form action="http://www.postgresql.org/search/" method="get"><fieldset>
+<input id="q" type="text" accesskey="s" value="" maxlength="255" name="q" placeholder="PostgreSQL" />
+<input type="hidden" value="1" name="a" />
+<input id="submit" type="submit" value="Search" name="Submit" />
 </fieldset></form>
-<form method="get" action="http://myanimelist.net/anime.php"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Anime" /><input type="submit" value="Search" />
+
+<form action="http://rpm.pbone.net/index.php3" method="post"><fieldset>
+<input type="text" name="search" placeholder="RPM Pbone" />
+<input type="submit" value="RPM Pbone" />
+<input type="hidden" name="srodzaj" value="3" />
+<input type="hidden" name="stat" value="3">
 </fieldset></form>
-<form method="get" action="http://myanimelist.net/character.php"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Characters" /><input type="submit" value="Search" />
+
+<form method="get" action="http://rubygems.org/search"><fieldset>
+<input type="hidden" name="utf8" value="✓" />
+<input type="text" role="textbox" name="query" maxlength="255" placeholder="RubyGems" /><input type="submit" value="Search" />
 </fieldset></form>
-<form method="get" action="http://myanimelist.net/manga.php"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL Manga" /><input type="submit" value="Search" />
+
+<form method="get" action="http://my.safaribooksonline.com/search"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Safari Books" /><input type="submit" value="Search" />
 </fieldset></form>
-<form method="get" action="http://myanimelist.net/people.php"><fieldset>
-<input type="text" role="textbox" name="q" maxlength="255" placeholder="MAL People" /><input type="submit" value="Search" />
-</fieldset></form>
-<form method="get" action="http://myfigurecollection.net/search.php"><fieldset>
-<input type="text" role="textbox" name="overall" maxlength="255" placeholder="MyFigureCollection" /><input type="submit" value="Search" />
-</fieldset></form>
+
 <form action="http://safebooru.org/index.php"><fieldset>
 <input type="hidden" name="page" value="post" />
 <input type="hidden" name="s" value="list" />
 <input type="text" name="tags" maxlength="255" placeholder="Safebooru" /><input type="submit" value="Search" />
 </fieldset></form>
+
+<form method="get" action="https://apple.stackexchange.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Ask Different 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://dba.stackexchange.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: DBA 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://security.stackexchange.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Infosec 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://serverfault.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Server Fault 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://stackoverflow.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Stack Overflow 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://superuser.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Super User 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://unix.stackexchange.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="SE: Unix and Linux 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://staticice.com/cgi-bin/search.cgi"><fieldset>
+<input name="q" type="text" maxlength="200" placeholder="Staticice 🇦🇺" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://twitter.com/search"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Twitter 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="GET" action="http://packages.ubuntu.com/search"><fieldset>
+<input type="text" name="keywords" value="" placeholder="Ubuntu Packages" />
+<input type="submit" value="Ubuntu Packages" />
+</fieldset></form>
+
+<form method="get" action="http://articles.lib.uts.edu.au/search"><fieldset>
+<input type="hidden" name="N" value="0" />
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="UTS Library Articles 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://find.lib.uts.edu.au/search.do"><fieldset>
+<input type="hidden" name="N" value="0" />
+<input type="text" role="textbox" name="Ntt" maxlength="255" placeholder="UTS Library Catalogue 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://www.lib.uts.edu.au/databases/search_databases.py"><fieldset>
+<input type="hidden" name="N" value="0" />
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="UTS Library Databases 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="http://vimeo.com/search/"><fieldset>
+<input type="text" role="textbox" name="q" maxlength="255" placeholder="Vimeo" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form id="up_search_form" action="//forums.whirlpool.net.au/forum/?action=search" method="post" role="search"><fieldset>
+<input id="up_search_input" type="text" name="q" placeholder="Whirlpool (AU)" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://commons.wikimedia.org/w/index.php"><fieldset>
+<input type="text" name="search" maxlength="255" placeholder="Wikimedia Commons 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://de.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (de) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://en.wikipedia.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (en) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://ko.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (한국어) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://ja.wikipedia.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikipedia (日本語) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://de.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (de) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://en.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (en) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://ko.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (한국어) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://ja.wiktionary.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wiktionary (日本語) 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://en.wikivoyage.org/w/index.php"><fieldset>
+<input type="text" role="textbox" name="search" maxlength="255" placeholder="Wikivoyage 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://search.yahoo.com/search"><fieldset>
+<input type="text" name="q" maxlength="255" placeholder="Yahoo! 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.yandex.com/yandsearch"><fieldset>
+<input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.yandex.com/images/search"><fieldset>
+<input type="text" role="textbox" name="text" maxlength="255" placeholder="Yandex Images 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
+<form method="get" action="https://www.youtube.com/results"><fieldset>
+<input type="text" role="textbox" name="search_query" maxlength="255" placeholder="YouTube 🔒" /><input type="submit" value="Search" />
+</fieldset></form>
+
 <form action="http://www.zerochan.net/search"><fieldset>
 <input type="text" name="q" maxlength="255" placeholder="Zerochan" /><input type="submit" value="Search" />
 </fieldset></form>
 
-<h4>Shopping</h4>
-<form action="http://www.amazon.com/s" method="get"><fieldset>
-<input type="text" name="field-keywords" placeholder="Amazon" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.amazon.co.jp/s" method="get"><fieldset>
-<input type="text" name="field-keywords" placeholder="Amazon Japan" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.anime-oz.com/catalogsearch/result/" method="get"><fieldset>
-<input type="hidden" name="order" value="inventory_in_stock" />
-<input type="hidden" name="dir" value="desc" />
-<input type="text" name="q" placeholder="Anime at Abbotsford" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.ebay.com/sch/i.html" method="get"><fieldset>
-<input type="text" name="_nkw" placeholder="eBay" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.ebay.com.au/sch/i.html" method="get"><fieldset>
-<input type="text" name="_nkw" placeholder="eBay Australia" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.gumtree.com.au/s-search-results.html" method="get"><fieldset>
-<input type="text" name="keywords" placeholder="Gumtree" /><input type="submit" value="Search" />
-</fieldset></form>
-<form action="http://www.msy.com.au/search" id="searchbox" method="get"><fieldset>
-<input type="hidden" name="controller" value="search" />
-<input type="hidden" name="orderby" value="position" />
-<input type="hidden" name="orderway" value="desc" />
-<input type="text" class="head_search_query" id="head_search_query" name="search_query" placeholder="MSY" /><input
-type="submit" name="submit_search" value="Search" class="btn" />
-</fieldset></form>
-<form method="get" action="http://staticice.com/cgi-bin/search.cgi"><fieldset>
-<input name="q" type="text" maxlength="200" placeholder="Staticice" /><input type="submit" value="Search" />
-</fieldset></form>
-
 </div>
-
+<p></p>
 
