@@ -1,0 +1,28 @@
+---
+title: "It’s 7-11"
+date: "2016-07-11T09:55:00+10:00"
+category: Thoughts
+tag:
+- dates
+- nostalgia
+- numbers
+- pointless
+---
+If you write your dates correctly, it's 7-11 today!:
+
+> 2016-07-11
+
+This also works if you write your dates incorrectly:
+
+> 07-11-2016
+
+But not if you write your dates somewhat correctly:
+
+> 11-07-2016
+
+7-11 has been in [murky ethical water in Australia] of late. I make no comment on this, other than to mention the date corresponds to the name which made me smile on this hectic Monday morning, and reminded me of many happy afternoons spent buying unhealthy snacks after school in [Jelita]. Maybe shop somewhere else in Australia though.
+
+[murky ethical water in Australia]: http://www.abc.net.au/news/2016-02-15/7-eleven-worker-paid-as-little-as-47c-an-hour-lawyers-say/7168216
+
+[Jelita]: http://www.hungrygowhere.com/search-results/Jelita+Shopping+Centre/
+
