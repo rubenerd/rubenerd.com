@@ -31,13 +31,15 @@ html {
 }
 body {
     font-size:14px;
-    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    /* Fonts on Windows look so awful, but Segoe UI looks half decent at smaller sizes */
+    font-family:"Segoe UI","Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     line-height:24px;
     margin:0px auto;
     padding-bottom:180px; /* webkit: because it doesn't like bottom margins, gah! */
     text-align:center;  /* ie6: centering */
 }
 h1, h2, h3 {
+    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     font-weight:bold;
     letter-spacing:-1px;
 }
@@ -45,11 +47,11 @@ h1 {
     font-size:28px;
 }
 h2 { 
-    font-size:24px;
+    font-size:22px;
 }
 h3 { 
-    font-size:22px;
-    margin-top:30px;
+    font-size:20px;
+    margin-top:20px;
 }
 h4 { 
     font-weight:bold;
@@ -59,7 +61,7 @@ small {
     font-size:14px;
     white-space:nowrap;
 }
-ul { list-style-type:circle; }
+ul { list-style-type:circle }
 #sandwich-wrapper {
     text-align:left;   /* ie6: centering */
     margin:0 auto;
@@ -82,7 +84,7 @@ h1 a, h2 a, #sidebar nav ul li a { text-decoration:none }
 
 /* Accessibility *************************************************************************/
 h1, h2, h3 {
-  /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobile phones */
+    /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobile phones */
     text-rendering:optimizeLegibility;
 }
 legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
@@ -145,7 +147,7 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 #sidebar nav ul {
     background:#ffffff;
-    box-shadow:3px 3px 10px #dcdddf;
+    box-shadow:3px 3px 5px #dadbdf;
     margin-bottom:500px;
     padding:4px 0;
 }
@@ -176,7 +178,7 @@ main {
 /* Articles ******************************************************************************/
 article, .secondary { 
     background:#ffffff;
-    box-shadow:3px 3px 10px #dcdddf;
+    box-shadow:3px 3px 5px #dadbdf;
     margin-bottom:30px;
     padding:30px 30px 20px 30px;
 }
@@ -280,9 +282,10 @@ pre {
 
 /* Footer ********************************************************************************/
 footer {
-    font-size:14px;
-    line-height:22px;
-    padding:20px 30px;
+    font-size:13px;
+    line-height:20px;
+    padding:10px 30px;
+    text-align:center;
 }
 footer input[type=text] { width:260px }
 
@@ -300,10 +303,10 @@ footer input[type=text] { width:260px }
         width:100%;
     }
     article,.secondary,footer {
-        width:538px;
+        width:500px;
         margin:0 auto 14px auto;
     }
-    #sidebar { width:600px; }
+    #sidebar { width:560px; }
     main, #sidebar {
         float:none;
         margin:0 auto;
@@ -316,12 +319,7 @@ footer input[type=text] { width:260px }
         padding:0;
         width:100%;
     }
-    #sidebar nav ul { 
-        border-bottom:1px solid #dce3ec; 
-        border-left:1px solid #dce3ec;
-    }
-    #category-nav, #mascot, #site-description,
-    #sidebar nav ul #subscribe, #sidebar nav ul #coffee {
+    #category-nav, #mascot, #site-description {
         display:none;
         visibility:hidden;
     }
@@ -345,7 +343,6 @@ footer input[type=text] { width:260px }
         visibility:visible;
     }
     #sidebar nav ul {
-        border-right:1px solid #dce3ec;
         height:42px;
         line-height:42px;
     }
@@ -356,11 +353,10 @@ footer input[type=text] { width:260px }
         height:42px;
         line-height:42px;
         text-align:center;
-        width:120px;
+        width:112px;
         border:0px;
-        font-size:16px;
+        font-size:15px;
     }
-    #sidebar nav ul #topics a { width:118px }
     body {
         padding-bottom:530px;
         background-image:url("rubi-seifuku.png");
@@ -373,31 +369,43 @@ footer input[type=text] { width:260px }
 
 /* 480-320 Screens ********************************************/
 @media screen and (max-width: 640px) {
-    html, #sidebar, footer { width:100%; margin:0; border-width:1px 0 4px 0; box-shadow:none; }
-    article,.secondary { width: auto; border-width:1px 0 4px 0; box-shadow:none; padding:20px }
+    html, #sidebar, footer {
+        width:100%;
+        margin:0;
+    }
+    article,.secondary {
+        width:auto;
+        padding:20px
+    }
     #skyline { 
         height:32px;
         background-size:479px 60px;
     }
-    #sidebar nav ul { border-width:1px 0 4px 0; box-shadow:none; }
+    #sidebar nav ul { border-width:1px 0 4px 0; }
     #sidebar nav ul li a, #sidebar nav ul #topics a { width:25%; border:0 }
-    #sidebar nav ul #subscribe, 
-    #sidebar nav ul #sale {
+    #sidebar nav ul #coffee {
         display:none;
         visibility:hidden;
     }
     #sidebar header h1 a { margin-left:20px }
     article img, article iframe, article object { height:auto !important }
-    footer { padding:0;}
+    footer { padding:10px 0 0 0; }
+    footer h2, footer p, footer form { 
+        padding-left: 20px;
+        padding-right: 20px; }
 }
 
 
 @media screen and (max:width: 320px) {
+    body { min-width:320px; }
+    #sidebar nav ul li a { font-size: 14px !important; }
     #sidebar nav ul #subscribe {
         display:none;
         visibility:hidden;
     }
+    footer { padding
 }
 
 /* EOF DESU ~ */
+
 
