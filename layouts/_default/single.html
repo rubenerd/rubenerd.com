@@ -10,22 +10,24 @@
     datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
   <div property="articleBody">
     {{ .Content }}</div>
-  <div class="tags" property="keywords">Filed under 
-    {{ if .Params.category }}<a href="/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a>{{ end }}
-    {{ range .Params.tag }}<a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a> {{ end }}
-  </div>
 </article>
 <hr role="separator" />
 
 <div class="secondary">
-  <h2>Liked this post?</h2>
-  <p>Feel free to throw me a
-    <a href="/buy-a-coffee/">cup of coffee</a> or an 
-    <a href="http://www.amazon.com/registry/wishlist/5QRTY3DN39AC/">Amazon Wish List</a> item. Cheers!</p>
-
-  <p>You can also comment to <a href="https://twitter.com/Rubenerd">@Rubenerd</a>, or email 
-    <a href="mailto:weblog@rubenschade.com">weblog@rubenschade.com</a>. Let me know if you don't
-    want your comment posted.</p>
+  <h2>Imprint</h2>
+  <p>This is one of about 5000 posts on <em>{{ .Site.Title }}</em>. View the 
+    <a href="/">home page</a> for the latest, or related posts also tagged with:</p>
+  <ul>
+    {{ if .Params.category }}<li><a href="/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a></li>{{ end }}
+  {{ range .Params.tag }}
+    <li><a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a></li> {{ end }}
+  </ul>
+  <p>If you liked this post, feel free to 
+    <a href="http://ko-fi.com/A625HL">buy me a coffee</a>, leave me a comment
+    on <a href="https://twitter.com/Rubenerd">Twitter</a>, 
+    or email me at 
+    <a href="mailto:weblog2016@rubenschade.com">weblog2016@rubenschade.com</a>.
+    Thanks :).</p>
 </div>
 <hr role="separator" />
 
