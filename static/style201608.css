@@ -65,7 +65,7 @@ ul { list-style-type:circle }
 #sandwich-wrapper {
     text-align:left;   /* ie6: centering */
     margin:0 auto;
-    width:720px;
+    width:722px;
 }
 
 
@@ -147,7 +147,8 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 #sidebar nav ul {
     background:#ffffff;
-    box-shadow:3px 3px 5px #dadbdf;
+    box-shadow:2px 2px 5px #dadbdf;
+    border:1px solid #eaebef;
     margin-bottom:500px;
     padding:4px 0;
 }
@@ -178,7 +179,8 @@ main {
 /* Articles ******************************************************************************/
 article, .secondary { 
     background:#ffffff;
-    box-shadow:3px 3px 5px #dadbdf;
+    box-shadow:2px 2px 5px #dadbdf;
+    border:1px solid #eaebef;
     margin-bottom:30px;
     padding:30px 30px 20px 30px;
 }
