@@ -11,6 +11,8 @@ tag:
 - unlimited-blade-works
 - zettai-ryouiki
 ---
+<p style="font-style:italic;">(This post was originally written Sunday 7th August 2016).</p>
+
 I've willingly admitted my exposure to the *Fate* universe has been embarrassingly limited, despite professing a supreme love for their art and character design! Today I come clean and admit this wasn't entirely true.
 
 <p><img src="https://rubenerd.com/files/2016/screenie-ubw-sabersandwich.jpg" srcset="https://rubenerd.com/files/2016/screenie-ubw-sabersandwich.jpg 1x, https://rubenerd.com/files/2016/screenie-ubw-sabersandwich@2x.jpg 2x" alt="" style="width:500px" /></p>
