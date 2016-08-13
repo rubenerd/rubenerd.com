@@ -19,7 +19,7 @@ killall hugo &&
 printf "%s" '☕  Building/verifying empty directories Hugo needs...'
 [ ! -d ./archetypes ] && mkdir ./archetypes
 [ ! -d ./data ] && mkdir ./data
-[ ! -d ./public ] && mkdir ./public
+[ -d ./public ] && rm -rf ./public
 
 ## No longer needed in Hugo 0.16
 ##printf "%s" '☕  Create RAM disk...'
