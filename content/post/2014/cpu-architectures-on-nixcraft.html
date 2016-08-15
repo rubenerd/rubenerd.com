@@ -1,0 +1,19 @@
+---
+title: "CPU architectures on nixCraft"
+date: "2014-12-20T23:10:00+00:00"
+category: Hardware
+tag:
+- bsd
+- freebsd
+- cpus
+---
+<p>A <a href="http://www.cyberciti.biz/faq/howto-find-out-freebsd-cpuinfo/">blog post over on nixCraft</a> had a lot of commenters confusing CPU architectures on FreeBSD. My comment below, for its worth:</p>
+
+<blockquote cite="http://www.cyberciti.biz/faq/howto-find-out-freebsd-cpuinfo/">
+<p>There’s a lot of confusion in the comments here. Given this page ranks highly in The Google, I’ll throw in my 20 cents (adjusted for inflation).</p>
+
+<p>“i386” means 32bit, “amd64” means 64bit. In brief, this is due to AMD having designed the original 64bit extensions for x86. Intel Core CPUs will still be listed as amd64 on the BSDs.</p>
+
+<p>In Linux, “/proc/cpuinfo” shows the capabilities of a CPU, but it may be throttling down for power saving. When you require the performance, it will revert to its full performance.</p>
+</blockquote>
+
