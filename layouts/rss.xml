@@ -1,27 +1,31 @@
 <rss version="2.0"
   xml:base="{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:derived="https://rubenerd.com/the-derived-namespace/"
   xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
-  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:media="http://search.yahoo.com/mrss/"{{ end }}>
 
 <channel>
+
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
   <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
   <description>{{ if eq .Title "Show" }}Slice-of-life podcast of esoteric interests by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
-  <copyright>Copyright © 2004–2015 Ruben Schade.</copyright>
+  <copyright>Copyright © 2004–{{ .Date.Format "2006" }} Ruben Schade.</copyright>
   <language>{{ .Site.LanguageCode }}</language>
   <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
   <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
+
+  <creativeCommons:license>https://creativecommons.org/licenses/by/3.0/</creativeCommons:license>
   <dc:creator>Ruben Schade</dc:creator>
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
-  {{ if eq .Title "Show" }}
-  <itunes:subtitle>An esoteric interest podcast by Ruben Schade.</itunes:subtitle>
+{{ if eq .Title "Show" }}<itunes:subtitle>An esoteric interest podcast by Ruben Schade.</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
   <itunes:summary>A long-running esoteric interest podcast by Ruben Schade from Singapore, Kuala Lumpur and Sydney.</itunes:summary>
   <itunes:owner>
@@ -33,8 +37,7 @@
   <itunes:category text="Society &amp; Culture">
     <itunes:category text="Personal Journals" />
   </itunes:category>
-  <itunes:explicit>no</itunes:explicit>
-  {{ end }}
+  <itunes:explicit>no</itunes:explicit>{{ end }}
   <image>
     <url>https://rubenerd.com/logo.rss.png</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
@@ -45,25 +48,29 @@
   </image>
 {{ $type := .Title }}
 {{ range first 20 .Data.Pages }}
-<item>
-  <title>{{ .Title }}</title>
-  <link>{{ .Permalink }}</link>
-  <guid>{{ .Permalink }}</guid>
-  <dc:creator>{{ .Site.Author.name }}</dc:creator>
-  {{ if .Params.category }}<category>{{ .Params.category | lower }}</category>{{ end }}
-  {{ if .Params.tag }}{{ range .Params.tag }}<category>{{ . | lower }}</category>
-  {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-  <description>{{ "<![CDATA[" | safeHTML }}{{ .Content }}{{ "]]>" | safeHTML }}</description>
-  {{ if eq $type "Show" }}
-  {{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />{{ if .Params.licence_url }}
-  <creativeCommons:license>{{ .Params.licence_url }}</creativeCommons:license>{{ end }}{{ if eq .Params.category "Show" }}
-  <itunes:summary>{{ .Content | html }}</itunes:summary>
-  <itunes:author>Ruben Schade</itunes:author>
-  <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
-  <media:content url="{{ .Params.enclosure_file }}" type="{{ .Params.enclosure_type }}" medium="audio" expression="full" isDefault="true" bitrate="{{ .Params.enclosure_bitrate }}" />
-  <media:title>{{ .Title }}</media:title>
-  <media:keywords>{{ range .Params.tag }}{{ . | lower }}, {{ end }}</media:keywords>{{ end }}{{ end }}{{ end }}
-</item>
+  <item>
+    <title>{{ .Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <guid>{{ .Permalink }}</guid>
+    <dc:creator>{{ .Site.Author.name }}</dc:creator>
+    <derived:source url="https://raw.githubusercontent.com/rubenerd/rubenerd.com/master/content/post/{{ .Date.Format "2006" }}/{{ .LinkTitle }}.markdown" />
+    {{ if .Params.category }}<category>{{ .Params.category | lower }}</category>{{ end }}
+    {{ if .Params.tag }}{{ range .Params.tag }}<category>{{ . | lower }}</category>
+    {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+    <description>{{ .Content | chomp | html }}</description>
+    <content:encoded>{{ "<![CDATA[" | safeHTML }}{{ .Content }}
+<hr />
+<p style="font-style:italic">This post originally appeared on <a rel="canonical" href="{{ .Permalink }}">{{ .Site.Title }}</a>.</small></p>
+<hr />
+{{ "]]>" | safeHTML }}</content:encoded>
+    {{ if eq $type "Show" }}{{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
+    <itunes:summary>{{ .Content | html }}</itunes:summary>
+    <itunes:author>Ruben Schade</itunes:author>
+    <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
+    <media:content url="{{ .Params.enclosure_file }}" type="{{ .Params.enclosure_type }}" medium="audio" expression="full" isDefault="true" bitrate="{{ .Params.enclosure_bitrate }}" />
+    <media:title>{{ .Title }}</media:title>
+    <media:keywords>{{ range .Params.tag }}{{ . | lower }}, {{ end }}</media:keywords>{{ end }}{{ end }}
+  </item>
 {{ end }}
 </channel>
 </rss>
