@@ -115,7 +115,7 @@ say ""
 ###########################################################################
 ## Check dependencies
 
-command -v eyeD3 >/dev/null && command -v convert >/dev/null || {
+command -v eyeD3 >/dev/null && command -v gm >/dev/null || {
     say "eyeD3 or ImageMagick/GraphicsMagick not found. Please install."
     exit 1
 }
@@ -177,10 +177,10 @@ _city=`echo "$_location" | sed 's/,//g' | awk '{ print tolower($1) }'`
 cp "$_bucket/$_id.mp3" \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
 
-convert -resize 288x288 "$_bucket/$_id.png" \
+gm convert -resize 288x288 "$_bucket/$_id.png" \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
 
-convert -quality 98 "$_bucket/$_id.png" "$_bucket/$_id.jpg"
+gm convert -quality 98 "$_bucket/$_id.png" "$_bucket/$_id.jpg"
 
 
 ###########################################################################
