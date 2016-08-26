@@ -3,6 +3,7 @@ public
 public/
 *.swp
 *.swo
+metadata/*aria2
 metadata/*mp3
 metadata/*caf
 metadata/*flac
