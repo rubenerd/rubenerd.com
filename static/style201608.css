@@ -147,21 +147,23 @@ only screen and (min-device-pixel-ratio: 2) {
 }
 #sidebar nav ul {
     background:#ffffff;
-    box-shadow:2px 2px 5px #dadbdf;
-    border:1px solid #eaebef;
+    border:1px solid #e1e8ed;
     margin-bottom:500px;
     padding:4px 0;
 }
 #sidebar nav ul li a {
-    background:#ffffff;
     display:block;
-    height:24px;
-    line-height:24px;
+    height:22px;
+    border-bottom:1px solid #ffffff;
+    border-top:1px solid #ffffff;
+    line-height:22px;
     padding-left:20px;
 }
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
+    border-top-color:#e1e8ed;
+    border-bottom-color:#e1e8ed;
 }
 
 
@@ -179,8 +181,8 @@ main {
 /* Articles ******************************************************************************/
 article, .secondary { 
     background:#ffffff;
-    box-shadow:2px 2px 5px #dadbdf;
-    border:1px solid #eaebef;
+    /*box-shadow:2px 2px 5px #e1e8ed;*/
+    border:1px solid #e1e8ed;
     margin-bottom:30px;
     padding:30px 30px 20px 30px;
 }
@@ -409,5 +411,4 @@ footer input[type=text] { width:260px }
 }
 
 /* EOF DESU ~ */
-
 
