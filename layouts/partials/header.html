@@ -5,13 +5,14 @@
 
   <meta charset="utf-8" />
   <title>{{ if eq .URL "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-  <link rel="stylesheet" href="/style201608.css" />
+  <link rel="stylesheet" href="/style201609.css" />
   <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseURL }}itouch-icon.png" />  
   <link rel="alternate" href="{{ .Site.BaseURL }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
   <link rel="alternate" href="{{ .Site.BaseURL }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
+  <meta name="HandheldFriendly" content="True" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   {{ .Hugo.Generator }}
 
