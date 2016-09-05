@@ -11,19 +11,19 @@ The Gen8 HP MicroServers are wonderful little boxes. For less money than most NA
 
 For use with ZFS, you have a few options:
 
-* OpenSolaris/illumos
-* Oracle Solaris
-* Linux with ZFSonLinux
-* or FreeBSD.
+* OpenSolaris/illumos,
+* Oracle Solaris,
+* Linux with ZFSonLinux,
+* or FreeBSD
 
-Solaris has the advantage of native support, and Oracle's recent closed-source version even supports turnkey encryption. I trust FreeBSD's ZFS above Linux though, and still have a personal preference for the daemon, so the decision was easy.
+Solaris has the advantage of native support, and Oracle's recent closed-source version even supports turnkey encryption. I trust FreeBSD and their ZFS implementation the most though, so the decision was easy.
 
 But what about Plex? I'd installed it on Ubuntu Server and Debian many times, but I noticed (several years too late!) that the media server software had FreeBSD support. Halljeluya! I believe it was introduced mostly for people using FreeNAS, but I've been really happy with how well its performed on FreeBSD since switching over to it.
 
 Installation is a breeze thanks to the tireless package maintainers. I've read in enough places you need the compatibility package for certain C libraries as well:
 
     # pkg update
-    # pkg install 91-compat
+    # pkg install compat9x-amd64
     # pkg install plexmediaserver
 
 And now you're good to go with the same URL and file management as any other Plex install, only this time you're backing it with a ZFS volume with error detection, correction and redudancy. Too cool.
