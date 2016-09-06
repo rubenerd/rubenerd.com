@@ -27,6 +27,7 @@
   <dc:creator>Ruben Schade</dc:creator>
   <source:account service="twitter">Rubenerd</source:account>
   <source:account service="facebook">ruben.schade</source:account>
+
 {{ if eq .Title "Show" }}<itunes:subtitle>An esoteric interest podcast by Ruben Schade.</itunes:subtitle>
   <itunes:author>Ruben Schade</itunes:author>
   <itunes:summary>A long-running esoteric interest podcast by Ruben Schade from Singapore, Kuala Lumpur and Sydney.</itunes:summary>
@@ -40,6 +41,7 @@
     <itunes:category text="Personal Journals" />
   </itunes:category>
   <itunes:explicit>no</itunes:explicit>{{ end }}
+
   <image>
     <url>https://rubenerd.com/logo.rss.png</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
