@@ -1,6 +1,6 @@
 /*****************************************************************************************\
 *  Hugo [Boss] edition base template for Kirinyan and Ruben                               *
-*  By Ruben Schade and Clara Tse, March 2015 - February 2016                              *
+*  By Ruben Schade and Clara Tse, March 2015                                              *
 *  https://rubenerd.com/  http://kirinyan.net/                                            *
 \*****************************************************************************************/
 
@@ -9,36 +9,51 @@
 html, body, h1, h2, h3, h4, h5, h6, form, fieldset, abbr,
 img, table, object, iframe, a img,
 #sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
-    border:0px;                /* old opera: need units for 0 values */
+    border:0px; /* old opera: need units for 0 values */
     border-collapse:collapse;
     font-weight:normal;
-    list-style-type:none;      /* old ie: list-style unsupported */
+    list-style-type:none;  /* old ie: list-style unsupported */
     margin:0px;
     padding:0px;
     vertical-align:baseline;
 }
 article, aside, details, figcaption, figure, footer, header, 
-hgroup, main, menu, nav, section { display:block }
-img { display:inline;          /* mozilla: fix default behaviour */ }
+hgroup, main, menu, nav, section { 
+    display:block;
+}
+img { 
+    display:inline;  /* mozilla: fix default behaviour */ 
+}
+
+
+/* Pointless *****************************************************************************/
+#easter-egg {
+    content:"THIS ELEMENT DOESN'T EXIST, MUA HAR HAR! >:D";
+}
 
 
 /* Top ***********************************************************************************/
 html {
     background:#f0f2f5;
-    color:#3e5266;      /* #5e7286 was too pale */
-    height:100%;        /* persistent vertical scrollbars */
+    color:#3e5266;  /* #5e7286 was too pale */
+    height:100%;  /* persistent vertical scrollbars */
     overflow-y:scroll;  /* persistent vertical scrollbars */
 }
 body {
     font-size:14px;
-    /* Fonts on Windows look so awful, but Segoe UI looks half decent at smaller sizes */
+    /*
+     * So here's the thing:
+     * - We all know fonts on Windows look awful, but Segoe UI is tolerable at target sizes
+     * - Regular Helvetica on X11/Wayland/whatever desktops is horrid, so don't include
+     */
     font-family:"Segoe UI","Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     line-height:24px;
     margin:0px auto;
-    padding-bottom:180px; /* webkit: because it doesn't like bottom margins, gah! */
+    padding-bottom:180px;  /* webkit: because it doesn't like bottom margins, gah! */
     text-align:center;  /* ie6: centering */
 }
 h1, h2, h3 {
+    /* Don't use Segoe UI at larger sizes */
     font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
     font-weight:bold;
     letter-spacing:-1px;
@@ -61,10 +76,12 @@ small {
     font-size:14px;
     white-space:nowrap;
 }
-ul { list-style-type:circle }
+ul {
+    list-style-type:circle;
+}
 #sandwich-wrapper {
-    text-align:left;   /* ie6: centering */
     margin:0 auto;
+    text-align:left; /* ie6: centering */
     width:722px;
 }
 
@@ -74,8 +91,12 @@ a, h1 a:hover, h2 a:hover, nav a:hover {
     color:#0066ff;
     text-decoration:underline;
 }
-a:hover, nav a, .button a { color:#955dd5 }
-h1 a, h2 a, #sidebar nav ul li a { text-decoration:none }
+a:hover, nav a, .button a { 
+    color:#955dd5;
+}
+h1 a, h2 a, #sidebar nav ul li a { 
+    text-decoration:none;
+}
 #sidebar nav ul li a:active, #sidebar nav ul li a:focus, .button a:focus {
     background:#955dd5;
     color:#ffffff
@@ -149,6 +170,9 @@ only screen and (min-device-pixel-ratio: 2) {
     padding-top:10px;
     width:130px;
 }
+
+
+/* Navigation *****************************************************************************/
 #sidebar nav #topics { 
     display:none;
     visibility:hidden;
@@ -157,7 +181,7 @@ only screen and (min-device-pixel-ratio: 2) {
     background:#ffffff;
     border:1px solid #e1e8ed;
     box-shadow:2px 2px 8px #e1e8ed;
-    margin-bottom:500px;
+    margin-bottom:16px;
     padding:4px 0;
 }
 #sidebar nav ul li a {
@@ -174,11 +198,6 @@ only screen and (min-device-pixel-ratio: 2) {
     border-top-color:#e1e8ed;
     border-bottom-color:#e1e8ed;
 }
-
-
-/* Navigation *****************************************************************************/
-#sidebar nav ul { margin-bottom:16px }
-#sidebar #primary-nav a { //font-weight:bold }
 
 
 /* Main Content **************************************************************************/
@@ -236,11 +255,6 @@ pre {
 }
 
 
-/* Archive *******************************************************************************/
-.tags { font-size:14px }
-.tags a { white-space:nowrap }
-
-
 /* Podcast *******************************************************************************/
 .show-licence, .show-release, .show-subscribe {
     font-size:14px;
@@ -268,30 +282,6 @@ pre {
     visibility:hidden;
 }
 
-/* Toggle boxes (terrible, terrible CSS) *************************************************/
-.toggle-box { display:none }
-.toggle-box + label {
-  cursor: pointer;
-  display: block;
-  font-weight:500;
-  line-height:18px;
-}
-.toggle-box + label + div {
-  display: none;
-}
-.toggle-box:checked + label + div { display: block }
-.toggle-box + label:before {
-  color: #0066ff;
-  content: "(+)";
-  display: block;
-  float: left;
-  margin-right: 5px;
-  text-align: center;
-  width: 20px;
-}
-.toggle-box:checked + label:before {
-  content: "(\2212)";
-}
 
 /* Footer ********************************************************************************/
 footer {
@@ -300,7 +290,9 @@ footer {
     padding:10px 30px;
     text-align:center;
 }
-footer input[type=text] { width:260px }
+footer input[type=text] {
+    width:260px;
+}
 
 
 /*****************************************************************************************\
@@ -316,10 +308,12 @@ footer input[type=text] { width:260px }
         width:100%;
     }
     article,.secondary,footer {
+        margin:0 auto 16px auto;
         width:500px;
-        margin:0 auto 14px auto;
     }
-    #sidebar { width:562px; }
+    #sidebar { 
+        width:562px;
+    }
     main, #sidebar {
         float:none;
         margin:0 auto;
@@ -332,7 +326,8 @@ footer input[type=text] { width:260px }
         padding:0;
         width:100%;
     }
-    #sidebar h3, #sidebar #category-nav, #sidebar #latest, #mascot, #site-description, #sidebar #home {
+    #sidebar h3, #sidebar #category-nav, #sidebar #home, #sidebar #latest,
+    #mascot, #site-description {
         display:none;
         visibility:hidden;
     }
@@ -345,11 +340,11 @@ footer input[type=text] { width:260px }
     #sidebar header h1 a {
         background:url("/logo-white-round.svg") left center no-repeat;
         background-size:32px;
+        font-size:36px;
         height:32px;
         line-height:32px;
         margin:0 0 10px 24px;
         padding-left:38px;
-        font-size:36px;
     }
     #sidebar nav ul #topics {
         display:inline;
@@ -361,7 +356,9 @@ footer input[type=text] { width:260px }
         line-height:36px;
         padding:0;
     }
-    #sidebar nav ul li { display:inline }
+    #sidebar nav ul li { 
+        display:inline;
+    }
     #sidebar nav ul li a {
         float:left;
         padding:0;
@@ -400,28 +397,41 @@ footer input[type=text] { width:260px }
         border-left:0;
         border-right:0;
     }
-    #sidebar nav ul li a, #sidebar nav ul #topics a { width:25%; border:0 }
+    #sidebar nav ul li a, #sidebar nav ul #topics a {
+        width:25%; 
+        border:0;
+    }
     #sidebar nav ul #coffee {
         display:none;
         visibility:hidden;
     }
-    #sidebar header h1 a { margin-left:20px }
-    article img, article iframe, article object { height:auto !important }
-    footer { padding:10px 0 0 0; }
+    #sidebar header h1 a { 
+        margin-left:20px;
+    }
+    article img, article iframe, article object { 
+        height:auto !important;
+    }
+    footer { 
+        padding:10px 0 0 0;
+    }
     footer h2, footer p, footer form { 
         padding-left: 20px;
-        padding-right: 20px; }
+        padding-right: 20px; 
+    }
 }
 
 
 @media screen and (max:width: 320px) {
-    body { min-width:320px; }
-    #sidebar nav ul li a { font-size: 14px !important; }
+    body { 
+        min-width:320px;
+    }
+    #sidebar nav ul li a { 
+        font-size: 14px !important; 
+    }
     #sidebar nav ul #subscribe {
         display:none;
         visibility:hidden;
     }
-    footer { padding
 }
 
 /* EOF DESU ~ */
