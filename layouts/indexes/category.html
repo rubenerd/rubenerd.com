@@ -11,10 +11,7 @@
   <h2><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h2>
   {{ end }}
   <p></p>
-  <dl>{{ range .Data.Pages }}
-    <dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt>
-    <dd><small><time>{{ .Date.Format "Monday 02 January 2006" }}</time></small></dd>
-  {{ end }}</dl>
+  <dl>{{ range .Data.Pages }}<dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt><dd><small><time>{{ .Date.Format "Monday 02 January 2006" }}</time></small></dd>{{ end }}</dl>
 </article>
 
 {{ partial "footer.html" . }}
