@@ -8,8 +8,9 @@
     typeof="BlogPosting">
     <h2 property="headline"><a property="sameAs url" 
       href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <small><time property="datePublished" 
-      datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" | safeHTML }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
+    <small class="postMeta"><time property="datePublished" 
+      datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" | safeHTML }}">{{ .Date.Format "Monday 02 January 2006" }}</time>{{ if .Params.category }}, in <a href="/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a>{{ end }}</small> 
+      
     <div property="articleBody">{{ .Content }}</div>
   </article>
 <hr />

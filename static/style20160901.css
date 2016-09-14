@@ -44,9 +44,9 @@ body {
     /*
      * So here's the thing:
      * - We all know fonts on Windows look awful, but Segoe UI is tolerable at target sizes
-     * - Regular Helvetica on X11/Wayland/whatever desktops is horrid, so don't include
+     * - Linux/BSD desktops use raster "Helvetica", so avoid defining
      */
-    font-family:"Segoe UI","Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    font-family:"Segoe UI","Helvetica Neue","Source Sans Pro","Liberation Sans",Arial,sans-serif;
     line-height:24px;
     margin:0px auto;
     padding-bottom:180px;  /* webkit: because it doesn't like bottom margins, gah! */
@@ -54,7 +54,7 @@ body {
 }
 h1, h2, h3 {
     /* Don't use Segoe UI at larger sizes */
-    font-family:"Helvetica Neue","Source Sans Pro",Arial,"Liberation Sans",sans-serif;
+    font-family:"Helvetica Neue","Source Sans Pro","Liberation Sans",Arial,sans-serif;
     font-weight:bold;
     letter-spacing:-1px;
 }
@@ -62,7 +62,8 @@ h1 {
     font-size:28px;
 }
 h2 { 
-    font-size:22px;
+    font-size:24px;
+    margin-bottom:2px;
 }
 h3 { 
     font-size:20px;
@@ -87,9 +88,12 @@ ul {
 
 
 /* Anchors *******************************************************************************/
-a, h1 a:hover, h2 a:hover, nav a:hover { 
+a { 
     color:#0066ff;
     text-decoration:underline;
+}
+h1 a:hover, h2 a:hover {
+    text-decoration:none;
 }
 a:hover, nav a, .button a { 
     color:#955dd5;
@@ -217,10 +221,14 @@ article, .secondary {
 article div,.secondary ul,.secondary p, #archive dl {
     line-height:24px
 }
-small time {
+.postMeta, .postMeta a {
     text-transform:uppercase;
+    text-decoration:none;
     font-size:13px;
     color:#7e92a6;
+}
+.postMeta a {
+    text-decoration:underline;
 }
 img, object, iframe, video, audio { max-width:100% }
 .divide { margin-bottom:60px; }
