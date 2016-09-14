@@ -1,0 +1,23 @@
+---
+title: "iTunes 12.5.1.21"
+date: "2016-09-14T17:32:00+10:00"
+category: Software
+tag:
+- apple
+- colour
+- design
+- itunes
+- music
+---
+Rolls off the tongue, doesn't it?
+
+We've got a slew of new Apple goodies to play with, but I'm always most interested in iTunes. When will the former centre of the Apple media ecosystem get better? I defended iTunes for years on the basis that version 1.0 running on Mac OS 8.6 on my blueberry iMac DV was so much better than anything else, but there’s no doubt it’s being weight down.
+
+No substantive changes this time that I can see, though their imitation of the Rubenerd blue and pale grey colour scheme and bold headings are a welcome change from the pencil thin lines and muted colours taken from iOS 7. 
+
+The confusingly named "New" tab which lead to Apple Music has also been changed to "Browse". Somewhat of an improvement, but not ideal.
+
+<p><img src="https://rubenerd.com/files/2016/itunes125121.png" alt="" srcset="https://rubenerd.com/files/2016/itunes125121.png 1x, https://rubenerd.com/files/2016/itunes125121@2x.png 2x" style="width:500px; height:px" /></p>
+
+Above all though, I'm dissapointed to see the adaptive album colours gone. Recent versions dyanmically chose a colour palette based on the current album's art, which made for some striking themes.
+
