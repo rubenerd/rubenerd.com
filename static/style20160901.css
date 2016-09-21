@@ -221,14 +221,13 @@ article, .secondary {
 article div,.secondary ul,.secondary p, #archive dl {
     line-height:24px
 }
-.postMeta, .postMeta a {
+.archive small, .postMeta, .postMeta a {
     text-transform:uppercase;
-    text-decoration:none;
     font-size:13px;
     color:#7e92a6;
 }
-.postMeta a {
-    text-decoration:underline;
+.postMeta a:hover {
+    text-decoration:none;
 }
 img, object, iframe, video, audio { max-width:100% }
 .divide { margin-bottom:60px; }
@@ -316,7 +315,9 @@ footer input[type=text] {
         width:100%;
     }
     article,.secondary,footer {
-        margin:0 auto 16px auto;
+        border-left:0;
+        border-right:0;
+        margin:0 auto 20px auto;
         width:500px;
     }
     #sidebar { 
@@ -335,7 +336,7 @@ footer input[type=text] {
         width:100%;
     }
     #sidebar h3, #sidebar #category-nav, #sidebar #home, #sidebar #latest,
-    #mascot, #site-description {
+    #sidebar #linkblog, #mascot, #site-description {
         display:none;
         visibility:hidden;
     }
