@@ -336,7 +336,7 @@ footer input[type=text] {
         width:100%;
     }
     #sidebar h3, #sidebar #category-nav, #sidebar #home, #sidebar #latest,
-    #sidebar #linkblog, #mascot, #site-description {
+    #sidebar #linkblog, #sidebar #gists, #mascot, #site-description {
         display:none;
         visibility:hidden;
     }
