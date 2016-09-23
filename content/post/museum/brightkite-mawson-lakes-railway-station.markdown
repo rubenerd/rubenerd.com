@@ -1,0 +1,61 @@
+---
+title: "#Brightkite: Mawson Lakes Railway Station"
+date: "2009-08-27T18:20:51-06:00"
+location: Adelaide
+category: Museum
+tag:
+- from-brightkite
+---
+<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+
+<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=138.611618578434%2C-34.80439530224177%2C138.61323058605194%2C-34.80275011067075&amp;layer=mapnik"></iframe>
+
+Checked into Mawson Lakes Railway Station (Australia).
+
+* [Location URL](http://brightkite.com/places/769063c686411deb85c003048c0801e)
+* [Checkin URL](http://brightkite.com/objects/a4d282de936811de9a14003048c10834)
+* [View Larger Map](http://www.openstreetmap.org/#map=19/-34.80357/138.61243)
+
+### Location checkin history
+
+This was the only location that the Wayback Machine had a page for. It lists the following checkin history:
+
+<blockquote>
+<p><a href="http://brightkite.com/people/rubenerd">rubenerd</a> checked in @ 
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e">Mawson Lakes Railway Station (Australia)</a> - 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">9 days ago</a> - here<br />
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e#">Comments</a> 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">(0)</a> (Public)</p>
+
+<p><a href="http://brightkite.com/people/brodhe">brodhe</a> checked in @ 
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e">Mawson Lakes Railway Station (Australia)</a> - 
+<a href="http://brightkite.com/objects/925eaf467e2e11de9bac003048c10834">about 1 month ago</a> - here<br />
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e#">Comments</a> 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">(0)</a> (Public)</p>
+
+<p><a href="http://brightkite.com/people/brodhe">brodhe</a> checked in @ 
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e">Mawson Lakes Railway Station (Australia)</a> - 
+<a href="http://brightkite.com/objects/a9f0a3f274c011dea75d003048c0801e">about 1 month ago</a> - here<br />
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e#">Comments</a> 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">(0)</a> (Public)</p>
+
+<p><a href="http://brightkite.com/people/brodhe">brodhe</a> checked in @ 
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e">Mawson Lakes Railway Station (Australia)</a> - 
+<a href="http://brightkite.com/objects/bcca19086a7611de9da7003048c0801e">2 months ago</a> - here<br />
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e#">Comments</a> 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">(0)</a> (Public)</p>
+
+<p><a href="http://brightkite.com/people/brodhe">brodhe</a> checked in @
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e">Mawson Lakes Railway Station (Australia)</a> -
+<a href="http://brightkite.com/objects/771ae36686411deb85c003048c0801e">2 months ago</a> - here<br />
+<a href="http://brightkite.com/places/769063c686411deb85c003048c0801e#">Comments</a> 
+<a href="http://brightkite.com/objects/a4d282de936811de9a14003048c10834">(0)</a> (Public)</p>
+</blockquote>
+
+<p><a href="http://www.brodhe.com/">brodhe's listed website</a> also no longer exists.</p>
+
+
+
+
+
+
