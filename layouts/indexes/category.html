@@ -7,6 +7,8 @@
   {{ if eq .Title "Show" }}
   <h2><a href="/{{ .Title | lower }}/">Rubénerd Show</a></h2>
   {{ partial "podcast.html" . }}
+  {{ else if eq .Title "Museum" }}
+  {{ partial "museum.html" . }}
   {{ else }}
   <h2><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h2>
   {{ end }}
