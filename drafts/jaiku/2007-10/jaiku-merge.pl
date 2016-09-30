@@ -1,1 +1,0 @@
-../../../scripts/jaiku-merge.pl
