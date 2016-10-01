@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="{{ .Site.LanguageCode }}" xml:lang="{{ .Site.LanguageCode }}" vocab="http://schema.org/" typeof="Blog">
+<html lang="{{ .Site.LanguageCode }}" vocab="http://schema.org/" typeof="Blog">
 
-<head>
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 
   <meta charset="UTF-8" />
   <title>{{ if eq .URL "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
@@ -10,6 +10,7 @@
   <link rel="alternate" href="{{ .Site.BaseURL }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
   <link rel="alternate" href="{{ .Site.BaseURL }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
   <link rel="profile" href="http://microformats.org/profile/specs" />
+  <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
   <meta name="author" content="{{ .Site.Author.name }}" />
   <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
   <meta name="HandheldFriendly" content="True" />
@@ -17,18 +18,27 @@
   {{ .Hugo.Generator }}
 
   {{ .Site.Params.html5shim | safeHTML }}
-  {{ "<!-- Hey, where are all the giant JS libraries and fonts? You're welcome -->" | safeHTML }}
-  {{ if .Params.summary }}{{ "<!-- Also, social network owners: read our metadata! We shouldn't need this extra junk: -->" | safeHTML }}
-
+  {{ if .Params.summary }}
   <meta name="twitter:card" content="summary" />
+  <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
+  <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
+  <meta name="twitter:creator" content="@Rubenerd" />
   <meta name="twitter:site" content="@Rubenerd_blog" />
   <meta name="twitter:domain" content="rubenerd.com" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image image primaryImageOfPage" content="{{ .Site.BaseURL }}apple-touch-icon.png" />
-  <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
-  <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
   <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
-{{ end }}
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+  <meta property="article:publisher" content="https://www.facebook.com/ruben.schade" />
+  <meta property="article:section" content="{{ .Params.category }}" />
+  <meta property="article:published_time" content="{{ .Date.Format $.Site.Params.ISO8601 }}" />
+  <meta property="og:image" content="{{ .Site.BaseURL }}itouch-icon.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="144" />
+  <meta property="og:image:height" content="144" />
+  {{ if .Params.enclosure_url }}
+  <meta property="og:audio" content="{{ .Params.enclosure_url }}" />{{ else }}
+  <meta property="og:type" content="article" />
+  {{ end }}{{ end }}
 </head>
 
 <body>

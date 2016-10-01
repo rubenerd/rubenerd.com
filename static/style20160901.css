@@ -229,9 +229,14 @@ article div,.secondary ul,.secondary p, #archive dl {
 .postMeta a:hover {
     text-decoration:none;
 }
+.secondary #tag-fb { 
+    display:none;
+    visibility:hidden;
+}
 img, object, iframe, video, audio { max-width:100% }
 .divide { margin-bottom:60px; }
 .divide a { text-decoration:none }
+
 
 
 /* Code, Quotes, Tables ******************************************************************/
