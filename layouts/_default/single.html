@@ -5,9 +5,9 @@
 
 <article id="post" property="blogPost" typeof="BlogPosting">
   <h2 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
--  <small class="postMeta"><time property="datePublished"
--    datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
-    {{ .Content }}</div>
+  <small class="postMeta"><time property="datePublished"
+    datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
+  <div property="articleBody">{{ .Content }}</div>
 </article>
 <hr role="separator" />
 
