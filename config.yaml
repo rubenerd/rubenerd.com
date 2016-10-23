@@ -9,6 +9,7 @@ paginate: 20
 params:
   subtitle: "By Ruben Schade in s/Singapore/Sydney/"
   html5shim: '<!--[if lt IE 9]><script src="/please-dont-use-ie.js"></script><![endif]-->'
+  ISO8601: '2006-01-02T15:04:05-07:00'
 permalinks:
   page: "/:filename/"
   post: "/:filename/"
