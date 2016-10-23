@@ -35,7 +35,7 @@ img {
 /* Top ***********************************************************************************/
 html {
     background:#f0f2f5;
-    color:#3e5266;  /* #5e7286 was too pale */
+    color:#2e4256;  /* #5e7286 was too pale */
     height:100%;  /* persistent vertical scrollbars */
     overflow-y:scroll;  /* persistent vertical scrollbars */
 }
