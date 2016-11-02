@@ -24,7 +24,5 @@ I delight (too strong a term) in reading the veritable butthurt on Slashdot when
 >
 > An excellent idea - the problem, in many ways, is that we culturally condition each other to believe there are certain things we can't or shouldn't do. Boys learn that they shouldn't do "girl things", like playing with dolls or similar, and girls learn in the same way that there are certain things that are "boys only". This is, in my view, a stupid waste - one of my favourite examples is the amazing mathematician, Emmy Noether; I wonder how many brilliant women never got to excel in science simply because "science is a boy thing" and their interest wasn't encouraged.
 
-In unrelated news, this is where Markdown really shines. Nested blockquotes and paragraphs are a pain at the best of times.
-
 [jandersen responding to JustAnotherOldGuy]: https://news.slashdot.org/comments.pl?sid=9808049&cid=53139417
 
