@@ -184,7 +184,6 @@ only screen and (min-device-pixel-ratio: 2) {
 #sidebar nav ul {
     background:#ffffff;
     border:1px solid #e1e8ed;
-    box-shadow:2px 2px 8px #e1e8ed;
     margin-bottom:16px;
     padding:4px 0;
 }
@@ -213,7 +212,6 @@ main {
 /* Articles ******************************************************************************/
 article, .secondary { 
     background:#ffffff;
-    box-shadow:2px 2px 8px #e1e8ed;
     border:1px solid #e1e8ed;
     margin-bottom:30px;
     padding:30px 30px 20px 30px;
