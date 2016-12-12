@@ -10,6 +10,8 @@ I've seen a lot of podcasts and blogs being sponsored by this new WiFi equipment
 
 In their defence, I suppose one could download ero with Eero.
 
+(Update: They also don't seem to have PPPoE or IPv6 support).
+
 [slang term]: http://www.urbandictionary.com/define.php?term=Eroge
 [common abbreviation]: http://www.urbandictionary.com/tags.php?tag=ero
 
