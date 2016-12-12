@@ -55,6 +55,3 @@ $_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
 
 printf "%s" '☕  Site changes now LIVE.'
 
-printf "%s" '☕  Deleting RAM disk.'
-unmount_ram_disk
-
