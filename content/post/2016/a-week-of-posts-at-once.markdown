@@ -19,8 +19,8 @@ Static site generation is great for operations, but it does mean publishing and 
 So have a week's worth of posts, preceding this one.
 
 [coal is good for humanity]: http://www.smh.com.au/federal-politics/political-news/coal-is-good-for-humanity-says-tony-abbott-at-mine-opening-20141013-115bgs.html
-[Fake No Agenda]: http://localhost:1313/tag/from-fakenoagenda/
+[Fake No Agenda]: https://rubenerd.com/tag/from-fakenoagenda/
 [larger in geographic size]: http://www.wolframalpha.com/input/?i="south+australia"+texas
-[Humble Bundle]: http://localhost:1313/humble-bundle-real-science-fiction/
+[Humble Bundle]: https://rubenerd.com/humble-bundle-real-science-fiction/
 [pf rule]: https://www.freebsd.org/doc/handbook/firewalls-pf.html
 
