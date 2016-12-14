@@ -318,8 +318,6 @@ footer input[type=text] {
         width:100%;
     }
     article,.secondary,footer {
-        border-left:0;
-        border-right:0;
         margin:0 auto 20px auto;
         width:500px;
     }
@@ -398,6 +396,8 @@ footer input[type=text] {
         margin:0;
     }
     article,.secondary {
+        border-left:0;
+        border-right:0;
         width:auto;
         padding:20px
     }
