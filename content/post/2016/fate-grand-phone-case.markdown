@@ -6,6 +6,7 @@ category: Anime
 tag:
 - fate
 - fate-grand-order
+- mobile-games
 - shielder
 - type-moon
 ---
