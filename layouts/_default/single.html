@@ -9,7 +9,7 @@
     datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
   <div property="articleBody">{{ .Content }}</div>
 </article>
-<hr role="separator" />
+<hr />
 
 <div class="secondary">
   <h2>Imprint</h2>
@@ -27,9 +27,9 @@
     <a href="mailto:weblog2016@rubenschade.com">weblog2016@rubenschade.com</a>.
     Thanks :).</p>
 </div>
-<hr role="separator" />
+<hr />
 
-<nav class="secondary" role="navigation">
+<nav class="secondary">
   <h2>Post chronology</h2>
   <ul>
     {{ if .Prev }}<li><a href="{{ .Prev.RelPermalink }}">&larr; {{ .Prev.Title }}</a></li>{{ end }}
