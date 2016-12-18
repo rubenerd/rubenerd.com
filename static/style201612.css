@@ -1,117 +1,56 @@
-/*****************************************************************************************\
-*  Hugo [Boss] edition base template for Kirinyan and Ruben                               *
-*  By Ruben Schade and Clara Tse, March 2015                                              *
-*  https://rubenerd.com/  http://kirinyan.net/                                            *
-\*****************************************************************************************/
+/***************************************
+ * Rubénerd : Refactored December 2016 *
+ ***************************************/
 
 
-/* Global Reset **************************************************************************/
-html, body, h1, h2, h3, h4, h5, h6, form, fieldset, abbr,
-img, table, object, iframe, a img,
-#sidebar nav ul, #sidebar nav li, #archive ul,#archive ul li {
-    border:0px; /* old opera: need units for 0 values */
-    border-collapse:collapse;
-    font-weight:normal;
-    list-style-type:none;  /* old ie: list-style unsupported */
-    margin:0px;
-    padding:0px;
+/*** Reset ***/
+html, body, h1, h2, h3, #sidebar ul, #sidebar ul li {
+    list-style-type:none;
+    margin:0;
+    padding:0;
     vertical-align:baseline;
 }
-article, aside, details, figcaption, figure, footer, header, 
-hgroup, main, menu, nav, section { 
-    display:block;
-}
-img { 
-    display:inline;  /* mozilla: fix default behaviour */ 
-}
 
 
-/* Pointless *****************************************************************************/
-#easter-egg {
-    content:"THIS ELEMENT DOESN'T EXIST, MUA HAR HAR! >:D";
-}
-
-
-/* Top ***********************************************************************************/
+/*** Top ***/
 html {
-    background:#f0f2f5;
-    color:#2e4256;  /* #5e7286 was too pale */
-    height:100%;  /* persistent vertical scrollbars */
-    overflow-y:scroll;  /* persistent vertical scrollbars */
+    background:#f0f2f5 url("sydney-singapore.png") top center repeat-x;
+    background-size:798px 100px;
+    color:#2e4256;
+    height:100%;
+    overflow-y:scroll;
 }
 body {
-    font-size:14px;
-    /*
-     * So here's the thing:
-     * - We all know fonts on Windows look awful, but Segoe UI is tolerable at target sizes
-     * - Linux/BSD desktops use raster "Helvetica", so avoid defining
-     */
-    font-family:"Segoe UI","Helvetica Neue","Source Sans Pro","Liberation Sans",Arial,sans-serif;
-    line-height:24px;
-    margin:0px auto;
-    padding-bottom:180px;  /* webkit: because it doesn't like bottom margins, gah! */
-    text-align:center;  /* ie6: centering */
-}
-h1, h2, h3 {
-    /* Don't use Segoe UI at larger sizes */
-    font-family:"Helvetica Neue","Source Sans Pro","Liberation Sans",Arial,sans-serif;
-    font-weight:bold;
-    letter-spacing:-1px;
-}
-h1 {
-    font-size:28px;
-}
-h2 { 
-    font-size:24px;
-    margin-bottom:2px;
-}
-h3 { 
-    font-size:20px;
-    margin-top:20px;
-}
-h4 { 
-    font-weight:bold;
-    margin-top:10px;
-}
-small {
-    font-size:14px;
-    white-space:nowrap;
-}
-ul {
-    list-style-type:circle;
-}
-#sandwich-wrapper {
-    margin:0 auto;
-    text-align:left; /* ie6: centering */
+    font:14px "Helvetica Neue","Open Sans","Source Sans Pro","Liberation Sans",sans-serif;
+    margin:110px auto;
     width:722px;
 }
-
-
-/* Anchors *******************************************************************************/
-a { 
-    color:#0066ff;
-    text-decoration:underline;
-}
-h1 a:hover, h2 a:hover {
-    text-decoration:none;
-}
-a:hover, nav a, .button a { 
-    color:#955dd5;
-}
-h1 a, h2 a, #sidebar nav ul li a { 
-    text-decoration:none;
-}
-#sidebar nav ul li a:active, #sidebar nav ul li a:focus, .button a:focus {
-    background:#955dd5;
-    color:#ffffff
-}
-
-
-/* Accessibility *************************************************************************/
 h1, h2, h3 {
-    /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobile phones */
+    letter-spacing:-1px;
+    /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobiles */
     text-rendering:optimizeLegibility;
 }
+h1 a, h2 a, h3 a, #sidebar ul li a {
+    text-decoration:none;
+}
+a { 
+    color:#0066ff;
+}
+a:hover, #sidebar ul li a {
+    color:#955dd5;
+}
+
+
+/*** Top for Retina ***/
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+    html { background-image:url("sydney-singapore@2x.png") }
+}
+
+
+/*** Accessibility ***/
 legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
     height:1px;
     left:0px;
@@ -120,132 +59,123 @@ legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
     top:-1000px;
     width:1px;
 }
-hr {
-    display:none;       /* Text-browsers: show lines between content */
-    visibility:hidden;  /* GUI browsers:  use css borders */
+hr, #topics, .secondary #tag-fb {
+    display:none;
+    visibility:hidden;
 }
 
 
-/* Header ********************************************************************************/
-#skyline {
-    background:#ffffff url("skyline-soft.png") bottom center no-repeat;
-    background-size:798px 100px;
-    margin-bottom:20px;
-    height:90px;
+/*** Boxes ***/
+#sidebar nav ul, article, .secondary {
+    background:#ffffff;
 }
+
+
+/*** Smaller ***/
+#sidebar, footer { 
+    font-size:13px;
+    line-height:20px;
+}
+
+
+/*** Subheadings ***/
+#sidebar h3, article time, .archive small {
+    color:#7e92a6;
+    font-size:13px;
+    font-weight:normal;
+    letter-spacing:normal;
+    text-transform:uppercase;
+}
+
+
+/*** Sidebar ***/
+#sidebar {
+    float:left;
+    width:130px;
+}
+#sidebar h1 {
+    font-size:28px;
+}
+#sidebar img { 
+    width:130px;
+}
+
+
+/*** Header ***/
 #sidebar header h1 {
     background:url("/logo-white-round.svg") top center no-repeat;
     background-size:100px;
     height:120px;
     position:relative;
 }
-#sidebar h1 a {
+#sidebar header h1 a {
     bottom:0;
     position:absolute;
 }
 
 
-/* Header for Retina *********************************************************************/
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-    #skyline { background-image:url("skyline-soft-2x.png") }
-}
-
-
-/* Sidebar *******************************************************************************/
-#sidebar {
-    float:left;
-    font-size:13px;
-    line-height:20px;
-    padding-top:20px;
-    width:130px;
-}
-#sidebar h3 {
-    color:#7e92a6;
-    font-size:13px;
-    font-weight:normal;
-    letter-spacing:normal;
-    margin-top:5px;
-    text-transform:uppercase;
-}
-#sidebar #mascot {
-    padding-top:10px;
-    width:130px;
-}
-
-
-/* Navigation *****************************************************************************/
-#sidebar nav #topics { 
-    display:none;
-    visibility:hidden;
-}
+/*** Navigation ***/
 #sidebar nav ul {
-    background:#ffffff;
-    border:1px solid #e1e8ed;
-    margin-bottom:16px;
-    padding:4px 0;
+    margin-bottom:20px;
+    padding:6px 0;
 }
 #sidebar nav ul li a {
     display:block;
-    height:22px;
-    border-bottom:1px solid #ffffff;
-    border-top:1px solid #ffffff;
-    line-height:22px;
+    line-height:23px;
+    height:23px;
     padding-left:20px;
+    //border-top:1px solid #ffffff; 
+    //border-bottom:1px solid #ffffff;
 }
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
-    border-top-color:#e1e8ed;
-    border-bottom-color:#e1e8ed;
+    //border-top:1px solid #e1e8eD; 
+    //border-bottom:1px solid #e1e8eD; 
 }
 
 
-/* Main Content **************************************************************************/
+/*** Main ***/
 main {
     margin-left:160px;
 }
 
 
-/* Articles ******************************************************************************/
-article, .secondary { 
-    background:#ffffff;
-    border:1px solid #e1e8ed;
-    margin-bottom:30px;
+/*** Articles ***/
+article h2, .secondary h2, footer h2 {
+    font-size:24px;
+    margin-bottom:2px;
+}
+article h3, .secondary h3 {
+    font-size:20px;
+    margin-top:30px;
+}
+article, .secondary {
+    line-height:24px;
+    margin-bottom:20px;
     padding:30px 30px 20px 30px;
 }
-article div,.secondary ul,.secondary p, #archive dl {
-    line-height:24px
-}
-.archive small, .postMeta, .postMeta a {
-    text-transform:uppercase;
-    font-size:13px;
-    color:#7e92a6;
-}
-.postMeta a:hover {
-    text-decoration:none;
-}
-.secondary #tag-fb { 
-    display:none;
-    visibility:hidden;
-}
-img, object, iframe, video, audio { max-width:100% }
-.divide { margin-bottom:60px; }
-.divide a { text-decoration:none }
-
-
-
-/* Code, Quotes, Tables ******************************************************************/
-blockquote { 
-    border-left:1px solid #dce3ec;
-    color:#5e7286; /* #8e92a6 was too pale */
+article blockquote {
+    border-left:4px solid #e1e8eD; //#dce3ec;
+    color:#5e7286;
     margin-left:16px;
     padding-left:16px;
 }
-pre, code { font:13px "Lucida Console",monospace; }
-table, pre { 
+
+
+/* Article Includes */
+pre, code {
+    font-size:12px;
+    font-family:"Source Code Pro",Menlo,Monaco,"Liberation Mono",monspace;
+}
+pre {
+    border:1px dotted #dce3ec;
+    background:#f0f2f5;
+    line-height:16px;
+    padding:15px 20px;
+    overflow-x:scroll
+}
+table { 
     margin:20px 0;
     max-width:100%;
     overflow-x:scroll;
@@ -255,49 +185,17 @@ table th, table td {
     padding:2px 15px;
     vertical-align:top;
 }
-table, tr { border-bottom:1px solid #dce3ec }
-table th { background:#f0f3f6 }
-pre { 
-    border:1px dotted #dce3ec;
-    background:#f0f3f6;
-    line-height:16px;
-    padding:20px;
+table, tr { 
+    border-bottom:1px solid #dce3ec
+}
+table th { 
+    background:#f0f3f6
 }
 
 
-/* Podcast *******************************************************************************/
-.show-licence, .show-release, .show-subscribe {
-    font-size:14px;
-    font-style:italic;
-    line-height:20px;
-}
-
-
-/* Omake page ****************************************************************************/
-#omake-search form, #omake-search form fieldset {
-    display:inline;
-}
-#omake-search input[type="text"] {
-    background:#f0f2f5;
-    border:1px solid #dce3ec;
-    font-size:13px;
-    font-weight:normal;
-    float:left;
-    margin-right:2px;
-    padding:2px;
-    width:156px;
-}
-#omake-search input[type="submit"] {
-    display:none;
-    visibility:hidden;
-}
-
-
-/* Footer ********************************************************************************/
+/*** Footer ***/
 footer {
-    font-size:13px;
-    line-height:20px;
-    padding:10px 30px;
+    padding:20px 0 230px 0;
     text-align:center;
 }
 footer input[type=text] {
@@ -305,21 +203,17 @@ footer input[type=text] {
 }
 
 
-/*****************************************************************************************\
-*  RESPONSIVE STUFF                                                                       *
-\*****************************************************************************************/
-
-
-/* 640-480 Screens ***********************************************************************/
-@media screen and (max-width: 830px) {
-    html,body {
-        margin:0;
-        padding:0 0 80px 0;
-        width:100%;
+/*** Responsive ***/
+@media screen and (max-width: 760px) {
+    html {
+       background-size:532px 66px;
+    }
+    body {
+       margin-top:40px;
+       width:562px;
     }
     article,.secondary,footer {
         margin:0 auto 20px auto;
-        width:500px;
     }
     #sidebar { 
         width:562px;
@@ -336,18 +230,18 @@ footer input[type=text] {
         padding:0;
         width:100%;
     }
-    #sidebar h3, #sidebar #category-nav, #sidebar #home, #sidebar #latest,
-    #sidebar #linkblog, #sidebar #gists, #mascot, #site-description {
+    #sidebar h3, #category-nav, #sidebar #home, #sidebar #linkblog, 
+    #mascot, #site-description {
         display:none;
         visibility:hidden;
     }
-    #sidebar header h1 { 
+    #sidebar h1 { 
         background:none;
         height:auto;
         margin:0;
         position:relative;
     }
-    #sidebar header h1 a {
+    #sidebar header h1 {
         background:url("/logo-white-round.svg") left center no-repeat;
         background-size:32px;
         font-size:36px;
@@ -376,10 +270,10 @@ footer input[type=text] {
         line-height:36px;
         text-align:center;
         width:112px;
-        border:0px;
+        border:0 !important;
         font-size:15px;
     }
-    body {
+    footer {
         padding-bottom:530px;
         background-image:url("rubi-seifuku.png");
         background-position: center bottom;
@@ -388,63 +282,32 @@ footer input[type=text] {
     }
 }
 
-
-/* 480-320 Screens ********************************************/
-@media screen and (max-width: 640px) {
-    html, #sidebar, footer {
+@media screen and (max-width: 570px) {
+    html,body,#sidebar {
         width:100%;
-        margin:0;
     }
-    article,.secondary {
-        border-left:0;
-        border-right:0;
-        width:auto;
-        padding:20px
-    }
-    #skyline { 
-        height:32px;
-        background-size:479px 60px;
-    }
-    #sidebar nav ul, #article { 
-        border-left:0;
-        border-right:0;
-    }
-    #sidebar nav ul li a, #sidebar nav ul #topics a {
-        width:25%; 
-        border:0;
+    body {
+        margin-top:20px;
     }
     #sidebar nav ul #coffee {
         display:none;
         visibility:hidden;
     }
-    #sidebar header h1 a { 
-        margin-left:20px;
+    article, .secondary, #sidebar nav ul {
+        border-left:0;
+        border-right:0;
+    }
+    #sidebar nav ul li a {
+        width:25%;
+    }
+    article, .secondary {
+        padding:20px 20px 10px 20px;
     }
     article img, article iframe, article object { 
         height:auto !important;
     }
-    footer { 
-        padding:10px 0 0 0;
-    }
-    footer h2, footer p, footer form { 
-        padding-left: 20px;
-        padding-right: 20px; 
-    }
+
 }
 
-
-@media screen and (max:width: 320px) {
-    body { 
-        min-width:320px;
-    }
-    #sidebar nav ul li a { 
-        font-size: 14px !important; 
-    }
-    #sidebar nav ul #subscribe {
-        display:none;
-        visibility:hidden;
-    }
-}
-
-/* EOF DESU ~ */
+/** EOF **/
 
