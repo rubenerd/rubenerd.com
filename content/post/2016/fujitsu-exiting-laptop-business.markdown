@@ -9,7 +9,7 @@ tag:
 - news
 - notebooks
 ---
-<p><img src="https://rubenerd.com/files/2016/0063_02_l.jpg" alt="The Fujitsu FMV Biblo Loox S5/53W" style="width:400px; height:325px;" srcset="https://rubenerd.com/files/2016/0063_02_l.jpg 1x https://rubenerd.com/files/2016/0063_02_l@2x.jpg" /></p>
+<p><img src="https://rubenerd.com/files/2016/0063_02_l.jpg" alt="The Fujitsu FMV Biblo Loox S5/53W" style="width:400px; height:325px;" srcset="https://rubenerd.com/files/2016/0063_02_l.jpg 1x, https://rubenerd.com/files/2016/0063_02_l@2x.jpg 2x" /></p>
 
 <p style="font-style:italic">I like to clear some of the debris in my drafts folder at the end of the year. This was written in December 2015, a full year ago. And there are still hundreds more where this came from, yikes.</p>
 
