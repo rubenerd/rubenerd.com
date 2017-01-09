@@ -33,6 +33,9 @@ h1, h2, h3 {
 h1 a, h2 a, h3 a, #sidebar ul li a {
     text-decoration:none;
 }
+img {
+    max-width:100%;
+}
 a { 
     color:#0066ff;
 }
@@ -152,7 +155,7 @@ article h3, .secondary h3 {
 }
 article, .secondary {
     line-height:24px;
-    margin-bottom:20px;
+    margin-bottom:30px;
     padding:30px 30px 20px 30px;
 }
 article blockquote {
