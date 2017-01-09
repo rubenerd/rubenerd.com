@@ -1,7 +1,7 @@
 ---
 title: "Ground Control to Major Tom"
 date: "2016-01-12T11:54:00+10:00"
-summary: "Goodbye David Bowie"
+abstract: "Goodbye David Bowie"
 category: Media
 tag:
 - david-bowie

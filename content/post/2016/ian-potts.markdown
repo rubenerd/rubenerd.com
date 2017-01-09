@@ -1,7 +1,7 @@
 ---
 title: "Ian Potts"
 date: "2016-01-14T09:03:00+10:00"
-summary: "New favourite name spam"
+abstract: "New favourite name spam"
 category: Internet
 tag:
 - spam

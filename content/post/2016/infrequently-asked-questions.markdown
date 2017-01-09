@@ -1,7 +1,7 @@
 ---
 draft: true
 title: "Infrequently asked questions"
-summary: "A list of answers to predictable blog comment questions that I can refer to"
+abstract: "A list of answers to predictable blog comment questions that I can refer to"
 date: "2016-11-17T15:25:00+10:00"
 category: Software
 tag:

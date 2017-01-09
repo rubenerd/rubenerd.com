@@ -1,7 +1,7 @@
 ---
 title: "Goodbye junk"
 date: "2016-12-21T08:30:00+10:00"
-summary: "Finally decluttering all the things, and it feels goooooood!"
+abstract: "Finally decluttering all the things, and it feels goooooood!"
 category: Hardware
 tag:
 - decluttering

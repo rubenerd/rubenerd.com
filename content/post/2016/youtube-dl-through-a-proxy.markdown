@@ -1,6 +1,6 @@
 ---
 title: "youtube-dl through a proxy"
-summary: "Or downloading YouTube videos you can’t view in your country"
+abstract: "Or downloading YouTube videos you can’t view in your country"
 date: "2016-11-27T11:10:00+10:00"
 category: Media
 tag:

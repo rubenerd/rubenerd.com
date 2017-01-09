@@ -1,7 +1,7 @@
 ---
 title: "Those are even more commits"
 date: "2016-10-04T15:37:00+10:00"
-summary: "In 2015, I was 34801 commits behind Homebrew. It's a few more now!"
+abstract: "In 2015, I was 34801 commits behind Homebrew. It's a few more now!"
 category: Software
 tag:
 - git

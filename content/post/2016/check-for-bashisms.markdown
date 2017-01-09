@@ -1,7 +1,7 @@
 ---
 title: "Check for bashisms"
 date: "2016-09-28T18:23:00+10:00"
-summary: "Using checkbashisms"
+abstract: "Using checkbashisms"
 category: Software
 tag:
 - fb

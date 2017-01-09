@@ -1,7 +1,7 @@
 ---
 title: "Can't use rbenv–installed Ruby?"
 date: "2015-11-04T15:43:00+10:00"
-summary: "Forgot to issue rbenv local!"
+abstract: "Forgot to issue rbenv local!"
 category: Software
 tag:
 - package-managers

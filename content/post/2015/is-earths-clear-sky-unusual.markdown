@@ -1,7 +1,7 @@
 ---
 title: "Is Earth's clear sky unusual?"
 date: "2015-11-18T17:09:00+10:00"
-summary: "A great Stack Exchange question and answer"
+abstract: "A great Stack Exchange question and answer"
 category: Thoughts
 tag:
 - science

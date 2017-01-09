@@ -1,7 +1,7 @@
 ---
 title: "One Australian electorate against marriage equality" 
 date: "2016-09-26T15:32:00+10:00"
-summary: "You'd never guess which state"
+abstract: "You'd never guess which state"
 category: Thoughts
 tag:
 - australia

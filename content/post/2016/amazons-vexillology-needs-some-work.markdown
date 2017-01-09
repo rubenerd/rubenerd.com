@@ -1,7 +1,7 @@
 ---
 title: "Amazon's vexillology needs some work"
 date: "2016-03-26T09:06:00+10:00"
-summary: "Flags on their home page are all wrong!"
+abstract: "Flags on their home page are all wrong!"
 category: Internet
 tag:
 - amazon

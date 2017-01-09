@@ -1,7 +1,7 @@
 ---
 title: "raindog308 on CentOS 7 and systemd"
 date: "2015-06-20T10:17:00+10:00"
-summary: "It's an ugly world in Linux right now"
+abstract: "It's an ugly world in Linux right now"
 category: Software
 tag:
 - reviews

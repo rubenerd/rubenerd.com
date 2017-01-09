@@ -1,7 +1,7 @@
 ---
 title: "The best interview of all time"
 date: "2016-12-19T17:26:00+10:00"
-summary: "Robbie Williams and Craig Ferguson in 2011. Fucking AMAZING!" 
+abstract: "Robbie Williams and Craig Ferguson in 2011. Fucking AMAZING!" 
 category: media
 tag:
 - comedy

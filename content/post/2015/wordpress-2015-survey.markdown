@@ -1,7 +1,7 @@
 ---
 title: "WordPress 2015 Survey"
 date: "2015-11-16T13:32:00+10:00"
-summary: "What's the most frustrating/useful thing about it?"
+abstract: "What's the most frustrating/useful thing about it?"
 category: Internet
 tag:
 - weblog

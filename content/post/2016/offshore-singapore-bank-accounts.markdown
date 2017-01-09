@@ -1,6 +1,6 @@
 ---
 title: "Offshore Singapore bank accounts"
-summary: "Or why money launderes and tax evaders mean we can't have nice things"
+abstract: "Or why money launderes and tax evaders mean we can't have nice things"
 date: "2016-12-14T14:37:00+10:00"
 
 ---

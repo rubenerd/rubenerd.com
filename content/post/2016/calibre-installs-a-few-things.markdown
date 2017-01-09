@@ -1,7 +1,7 @@
 ---
 title: "Calibre installs a few things"
 date: "2016-03-21T10:40:00+10:00"
-summary: "That’s a lot of dependencies"
+abstract: "That’s a lot of dependencies"
 category: Media
 tag:
 - calibre

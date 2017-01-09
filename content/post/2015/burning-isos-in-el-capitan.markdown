@@ -1,7 +1,7 @@
 ---
 title: "Burning ISOs in El Capitan"
 date: "2015-12-19T09:19:00+10:00"
-summary: "Use the Finder or hdiutils"
+abstract: "Use the Finder or hdiutils"
 ---
 Behind Disk Utility's fresh new veneer in El Cappuccino lies a sinister change:
 

@@ -1,6 +1,6 @@
 ---
 title: "Fate/Grand Phone Case"
-summary: "Or far too much detail on choosing a backup iPhone 6 case"
+abstract: "Or far too much detail on choosing a backup iPhone 6 case"
 date: "2016-11-23T11:23:00+10:00"
 category: Anime
 tag:

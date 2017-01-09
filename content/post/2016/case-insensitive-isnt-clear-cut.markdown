@@ -1,7 +1,7 @@
 ---
 title: "Case-insensitive file systems aren't clear cut"
 date: "2016-12-10T10:48:00+10:00"
-summary: "Means different things in different contexts"
+abstract: "Means different things in different contexts"
 category: Software
 tag:
 - bsd

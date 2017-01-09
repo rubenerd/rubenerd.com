@@ -1,6 +1,6 @@
 ---
 title: "Wikipedia user groups"
-summary: "Or when you need to obfuscate your intentions..."
+abstract: "Or when you need to obfuscate your intentions..."
 date: "2016-11-28T09:50:00+10:00"
 category: Internet
 tag:

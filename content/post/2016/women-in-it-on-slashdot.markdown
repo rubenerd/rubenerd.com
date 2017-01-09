@@ -1,7 +1,7 @@
 ---
 title: "Women in IT on Slashdot"
 date: "2016-10-27T15:56:10+10:00"
-summary: "Someone has actually thought about the issue of women in IT"
+abstract: "Someone has actually thought about the issue of women in IT"
 category: Internet
 tag:
 - news

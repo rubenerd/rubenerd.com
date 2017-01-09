@@ -1,7 +1,7 @@
 ---
 title: "CSS was a missed opportunity, part 2"
 date: "2016-01-06T16:32:00+10:00"
-summary: "Remember td align decimal?"
+abstract: "Remember td align decimal?"
 category: Internet
 tag:
 - css

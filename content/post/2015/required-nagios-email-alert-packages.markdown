@@ -1,7 +1,7 @@
 ---
 title: "Required Nagios email alert packages"
 date: "2015-11-25T16:04:00+10:00"
-summary: "Install postfix and heirloom-mailx"
+abstract: "Install postfix and heirloom-mailx"
 category: Software
 tag: 
 - bsd

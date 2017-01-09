@@ -1,7 +1,7 @@
 ---
 title: "ssh, sftp, scp, tftp port fun"
 date: "2016-04-09T10:01:00+10:00"
-summary: "Slash dot dash dot inconsistent"
+abstract: "Slash dot dash dot inconsistent"
 category: Software
 tag:
 - ftp

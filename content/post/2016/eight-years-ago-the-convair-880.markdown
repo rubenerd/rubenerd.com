@@ -2,7 +2,7 @@
 draft: true
 title: "Eight years ago, the Convair 880"
 date: "2016-09-29T16:04:00+10:00"
-summary: "Bolted-on aviation deck chairs were a thing"
+abstract: "Bolted-on aviation deck chairs were a thing"
 category: Hardware
 tag:
 - aviation

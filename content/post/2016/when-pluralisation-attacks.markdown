@@ -1,7 +1,7 @@
 ---
 title: "When pluralisation attacks"
 date: "2016-03-18T15:50:00+10:00"
-summary: "It’s virtualbox-extension-pack, not extensions!"
+abstract: "It’s virtualbox-extension-pack, not extensions!"
 category: Software
 tag:
 - virtualbox

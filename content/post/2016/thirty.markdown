@@ -1,6 +1,6 @@
 ---
 title: "Thirty"
-summary: "Or why I’m not ready for this!"
+abstract: "Or why I’m not ready for this!"
 date: "2016-03-26T11:33:00+10:00"
 category: Thoughts
 tag:

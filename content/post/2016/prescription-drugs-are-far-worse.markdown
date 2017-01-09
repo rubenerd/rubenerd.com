@@ -1,6 +1,6 @@
 ---
 title: "Prescription drugs are far worse"
-summary: "Legalise pot already."
+abstract: "Legalise pot already."
 date: "2016-12-20T16:15:00+10:00"
 category: Thoughts
 tag:

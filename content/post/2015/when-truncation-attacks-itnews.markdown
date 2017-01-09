@@ -1,7 +1,7 @@
 ---
 title: "When Truncation Attacks: IT News"
 date: "2015-11-02T11:22:00+10:00"
-summary: "Australia to develop. PSBA puts the A-team on"
+abstract: "Australia to develop. PSBA puts the A-team on"
 category: Internet
 tag:
 - australia

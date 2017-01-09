@@ -1,7 +1,7 @@
 ---
 title: "Fate Grand Order 2016 Summer Event"
 date: "2016-12-16T21:26:00+10:00"
-summary: "I couldn't help but notice I hadn't posted about Shielder for a few days"
+abstract: "I couldn't help but notice I hadn't posted about Shielder for a few days"
 category: Anime
 tag:
 - fate

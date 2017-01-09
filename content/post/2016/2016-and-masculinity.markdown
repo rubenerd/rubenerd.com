@@ -1,7 +1,7 @@
 ---
 title: "2016 and masculinity"
 date: "2016-12-28T10:22:00+10:00"
-summary: "For all the bad things this year, at least I finally figured something out."
+abstract: "For all the bad things this year, at least I finally figured something out."
 category: Thoughts
 tag:
 - masculinity

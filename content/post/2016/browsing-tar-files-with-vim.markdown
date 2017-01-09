@@ -1,6 +1,6 @@
 ---
 title: "Browsing tar files with Vim"
-summary: "You can!"
+abstract: "You can!"
 date: "2016-03-16T14:31:00+10:00"
 category: Software
 tag:

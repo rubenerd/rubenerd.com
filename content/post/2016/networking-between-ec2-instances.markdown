@@ -1,6 +1,6 @@
 ---
 title: "Blocked networking between EC2 instances"
-summary: "Check your Security Group for private traffic"
+abstract: "Check your Security Group for private traffic"
 date: "2016-03-14T15:41:00+10:00"
 category: Internet
 tag:

@@ -1,6 +1,6 @@
 ---
 title: "GitHub asks for username with SSH configured"
-summary: "Re-clone from the SSH url!"
+abstract: "Re-clone from the SSH url!"
 date: "2016-03-08T11:45:00+10:00"
 category: Software
 tag:

@@ -1,7 +1,7 @@
 ---
 title: "We don’t need Australian state taxes"
 date: "2016-03-30T23:44:00+10:00"
-summary: "Turnbull's latest idea is a step backwards"
+abstract: "Turnbull's latest idea is a step backwards"
 category: Thoughts
 tag:
 - australia

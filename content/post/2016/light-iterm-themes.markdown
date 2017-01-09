@@ -1,7 +1,7 @@
 ---
 title: "Light iTerm colour schemes"
 date: "2016-04-15T09:24:49+10:00"
-summary: "When Solarized Dark doesn’t cut it"
+abstract: "When Solarized Dark doesn’t cut it"
 category: Software
 tag:
 - colour

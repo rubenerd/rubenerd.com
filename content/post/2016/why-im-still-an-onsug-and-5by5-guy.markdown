@@ -2,7 +2,7 @@
 draft: true
 title: "Why I'm an Onsug and @5by5 guy"
 date: "2016-02-13T12:33:00+11:00"
-summary: "Or when all the 'cool' people moved to relay"
+abstract: "Or when all the 'cool' people moved to relay"
 category: Media
 tag:
 - 5by5

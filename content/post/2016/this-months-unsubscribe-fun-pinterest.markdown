@@ -1,7 +1,7 @@
 ---
 title: "This month's unsubscribe fun: Pinterest"
 date: "2016-01-03T11:52:00+10:00"
-summary: "An unsubscribe link that they say you can't use!"
+abstract: "An unsubscribe link that they say you can't use!"
 category: Internet
 tag:
 - newsletters

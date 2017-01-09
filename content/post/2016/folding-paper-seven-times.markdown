@@ -1,7 +1,7 @@
 ---
 title: "Folding paper seven times"
 date: "2016-03-16T16:01:00+10:00"
-summary: "Or when you turn paper to wood"
+abstract: "Or when you turn paper to wood"
 category: Hardware
 tag:
 - paper

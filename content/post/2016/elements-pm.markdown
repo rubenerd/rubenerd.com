@@ -1,7 +1,7 @@
 ---
 title: "Elements.pm"
 date: "2016-01-13T10:29:00+10:00"
-summary: "The greatest hash of all time"
+abstract: "The greatest hash of all time"
 category: Software
 tag:
 - chemistry

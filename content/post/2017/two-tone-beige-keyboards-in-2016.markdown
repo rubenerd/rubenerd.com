@@ -1,7 +1,7 @@
 ---
 title: "Two-tone beige keyboards in 2016"
 date: "2017-01-03T14:32:00+10:00"
-summary: "As far as I know, they no longer exist"
+abstract: "As far as I know, they no longer exist"
 category: Hardware
 tag:
 - keyboards

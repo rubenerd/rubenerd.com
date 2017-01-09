@@ -1,7 +1,7 @@
 ---
 title: "Safari Technology Preview"
 date: "2016-04-09T10:09:13+10:00"
-summary: "Downloadable from the App Store now"
+abstract: "Downloadable from the App Store now"
 category: Software
 tag:
 - browsers

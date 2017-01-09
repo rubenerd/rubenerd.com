@@ -2,7 +2,7 @@
 draft: true
 title: "Here's looking at you, Facebook"
 date: "2016-09-26T16:43:00+10:00"
-summary: "I give up, time to start posting there too"
+abstract: "I give up, time to start posting there too"
 category: Internet
 tag:
 - facebook

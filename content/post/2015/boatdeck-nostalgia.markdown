@@ -1,7 +1,7 @@
 ---
 title: "Back at the Boatdeck Café"
 date: "2015-12-10T15:22:00+10:00"
-summary: "So much of Rubénerd was written here!"
+abstract: "So much of Rubénerd was written here!"
 category: Thoughts
 tag:
 - adelaide

@@ -1,7 +1,7 @@
 ---
 title: "Firefox and Vivaldi are smaller"
 date: "2016-12-22T08:45:00+10:00"
-summary: "They're better and less creepy than Chrome, and they're smaller!"
+abstract: "They're better and less creepy than Chrome, and they're smaller!"
 category: Software
 tag:
 - firefox

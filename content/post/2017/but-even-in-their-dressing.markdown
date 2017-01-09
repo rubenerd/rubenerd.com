@@ -1,7 +1,7 @@
 ---
 title: "But even in their dressing"
 date: "2017-01-03T10:34:00+10:00"
-summary: "No, dressing a certain way doesn't give abusers an excuse"
+abstract: "No, dressing a certain way doesn't give abusers an excuse"
 category: Thoughts
 tag:
 - politics

@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Trying desktop Linux again, briefly"
 date: "2017-01-04T18:13:00+10:00"
 category: Software

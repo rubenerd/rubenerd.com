@@ -1,6 +1,6 @@
 ---
 title: "Fate/Grand Order TV special"
-summary: "Megane Shielder!"
+abstract: "Megane Shielder!"
 date: "2016-12-07T09:05:00+10:00"
 category: Anime
 tag:

@@ -1,7 +1,7 @@
 ---
 title: "Monochrome EMM386 memory with Windows 3.1x"
 date: "2015-11-28T10:34:00+10:00"
-summary: "Using the monochrome area may need another Windows driver"
+abstract: "Using the monochrome area may need another Windows driver"
 category: Software
 tag:
 - dos

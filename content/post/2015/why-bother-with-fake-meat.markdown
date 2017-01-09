@@ -1,7 +1,7 @@
 ---
 title: "Why bother with fake meat?"
 date: "2015-10-16T11:04:00+10:00"
-summary: "Because we want to?"
+abstract: "Because we want to?"
 category: Thoughts
 tag:
 - food

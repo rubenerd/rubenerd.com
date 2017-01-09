@@ -1,7 +1,7 @@
 ---
 title: "More sold and closed OpenStack clouds"
 date: "2016-12-20T14:49:00+10:00"
-summary: "Cisco, HPE, Rackspace have all divested themselves from OpenStack"
+abstract: "Cisco, HPE, Rackspace have all divested themselves from OpenStack"
 category: Internet
 tag:
 - cisco

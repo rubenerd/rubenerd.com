@@ -1,7 +1,7 @@
 ---
 title: "Markdown in Vim"
 date: "2015-11-19T13:17:00+10:00"
-summary: "If you use the .markdown extension"
+abstract: "If you use the .markdown extension"
 category: Software
 tag:
 - editors

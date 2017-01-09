@@ -1,7 +1,7 @@
 ---
 title: "Something to do with KVMs"
 date: "2015-10-27T10:00:00+10:00"
-summary: "A quick table of KVMs and their capabilities"
+abstract: "A quick table of KVMs and their capabilities"
 category: Hardware
 tag:
 - kvms

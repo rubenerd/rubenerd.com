@@ -2,7 +2,7 @@
 draft: true
 title: "When password character limits attack"
 date: "2016-03-18T08:22:00+10:00"
-summary: "For long passwords, this makes no sense"
+abstract: "For long passwords, this makes no sense"
 category: Internet
 tag:
 - australia
