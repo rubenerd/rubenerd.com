@@ -177,7 +177,7 @@ _city=`echo "$_location" | sed 's/,//g' | awk '{ print tolower($1) }'`
 cp "$_bucket/$_id.mp3" \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
 
-gm convert -resize 288x288 "$_bucket/$_id.png" \
+gm convert -resize 288x288! "$_bucket/$_id.png" \
     "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
 
 gm convert -quality 98 "$_bucket/$_id.png" "$_bucket/$_id.jpg"
