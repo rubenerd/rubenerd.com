@@ -5,81 +5,91 @@
 ## For Rubénerd Show and Snake Tea Podcast
 ## 
 ## 2015-07-27: Created
+## 2017-01-30: Refactored for arguments (not interactive) + IA upload tool
 
 set -e
+set -o nounset
 
 
 ###########################################################################
 ## User-editable configuration 
 
-## Locations to find things
-_home="/Users/`whoami`"
-_bucket="$_home/Repos/rubenerd.com/metadata"
-_episodes="$_home/Repos/rubenerd.com/content/post/show"
-_episode_prefix='show'
+## Taken as arguments
+_NUMBER=$1
+_TITLE="$2"
+_DESCRIPTION="$3"
 
-## Episode details (will be asked for)
-_show='Rubénerd Show'
-_host='Ruben Schade'
-_url='https://rubenerd.com/show/'
-_licence_url='http://creativecommons.org/licenses/by/3.0/'
-_licence_title='Creative Commons Attribution 3.0'
-_location='Sydney, Australia'
-_title='';          ## The something episode!
-_number='300';
-_description='';
+## Where to find things
+_BUCKET="$HOME/Repos/rubenerd.com/metadata"
+_EPISODES="$HOME/Repos/rubenerd.com/content/post/show"
+_EPISODE_PREFIX='show'
 
-## Onsug details
-_onsug_abbr='rs'  ## Onsug abbreviation" onsug_date_rs000.mp3"
+## Episode details
+_SHOW='Rubénerd Show'
+_HOST='Ruben Schade'
+_URL='https://rubenerd.com/show/'
+_LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
+_LICENCE_TITLE='Creative Commons Attribution 3.0'
+_LOCATION='Sydney, Australia'
 
-## Internet Archive details
-_collection='rubenerdshow'      ## such as "community-audio"
-_email='rubenschade@gmail.com'  ## username
-_subject='rubenerd'             ## gets added as a tag
+## Network details
+_ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
+_COLLECTION='rubenerdshow'      ## IA collection, such as "community-audio"
+_EMAIL='rubenschade@gmail.com'  ## IA username/email
+_MARC_LANGUAGE="eng"            ## MARC21 language code
+_SUBJECT='rubenerd'             ## IA tag additions
 
 
 ###########################################################################
 ## Automatically-generated configuration
 
 ## Text
-_id=''                  ## eg "RubenerdShow218"
-_description_text=''    ## without html
-_size=0;                ## -> from mp3
-_duration='00:00';      ## -> from mp3
-_city='';               ## from location "SYDNEY, australia"
+_ID=''                ## eg "RubenerdShow218"
+_DESCRIPTION_TEXT=''  ## without html
+_SIZE=0;              ## from mp3
+_DURATION='00:00';    ## from mp3
+_CITY='';             ## from $_LOCATION "SYDNEY, australia"
 
 ## Dates
-_date_time='';          ## for Hugo "date:" frontmatter
-_date='';               ## for Hugo title
-_date_time_utc='';      ## for Internet Archive metadata
-_date_utc='';           ## for Internet Archive metadata
-_year_utc='';           ## for Internet Archive metadata
-_onsug_file_date=''     ## eg "onsug.com/Jul15/file.mp3"
-_onsug_release_date=''  ## eg "Released July 2015 on Onsug.."
-_onsug_title_date=''    ## eg "Rubenerd Show 200 (7/12/15)"
+_DATE_TIME=`date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/00$/:00/'`  ## for Hugo "date:" frontmatter
+_DATE=`date +"%Y-%m-%d"`                                     ## for Hugo title
+_YEAR=`date +"%Y"`                                           ## for Onsug folder
+_DATE_TIME_UTC=`date -u +"%Y-%m-%d %H:%M:%S"`                ## for Internet Archive metadata
+_DATE_UTC=`date -u +"%Y-%m-%d"`                              ## for Internet Archive metadata
+_YEAR_UTC=`date -u +"%Y"`                                    ## for Internet Archive metadata
+_ONSUG_FILE_DATE=`date -u +"%b%y"`                           ## part of the Onsug filename
+_ONSUG_RELEASE_DATE=`date -u +"%B %Y"`                       ## "Released July 2015 on Onsug..."
+_ONSUG_TITLE_DATE=`date -u +"(%-m/%-d/%y)"`                  ## for Onsug title
 
 
 ###########################################################################
 ## Helper functions
 
+## Check command like arguments
+usage() {
+    if [ $1 -ne 3 ]; then
+        say "Usage: ./create-episode.sh <episode number> <title> <description>"
+    fi
+}
+
+## Check dependencies
+dependencies() {
+    for tool in $1; do
+        if ! command -v $1 > /dev/null 2>&1; then
+            printf "%s" "$1 not installed, terminating."
+            exit 1
+        fi
+    done
+}
+
 ## Print standard string nicely
-function say() { 
+say() { 
     printf "%s\n" "$1"
 }
 
-## Asks quesion with default answer
-## Returns default if no answer provided
-function ask() {
-    _question=$1
-    _default=$2
-    read -p "$_question ($_default): " _in
-    [ -n "$_in" ] && _default=$_in
-    echo $_default
-}
-
 ## Verifies file exists, otherwise exit script
-function find() {
-    _file=$1
+find() {
+    _FILE=$1
     printf "%s" "$1 "
     if [ -f "$1" ]; then
         say "found! ^_^"
@@ -91,12 +101,12 @@ function find() {
 }
 
 ## Strips out HTML tags
-function strip() {
+strip() {
     echo "$1" | sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
 }
 
 ## Escapes characters that prevent eyeD3 parsing
-function escape() {
+escape() {
     echo "$1" | sed 's/\:/\\\:/g'
 }
 
@@ -105,298 +115,255 @@ function escape() {
 ## SCRIPT START                                                          ##
 ###########################################################################
 
-## Splash screen!
-clear
-say "Ruben's and Clara's Podcast Generator 5000!"
-say "==========================================="
-say ""
+## Confirm arguments and dependencies met
+usage $#
+dependencies "convert eyeD3 jpegoptim pngcrush"
 
-
-###########################################################################
-## Check dependencies
-
-command -v eyeD3 >/dev/null && command -v gm >/dev/null || {
-    say "eyeD3 or ImageMagick/GraphicsMagick not found. Please install."
-    exit 1
-}
-
-
-###########################################################################
-## Get curent date and time (time is messy)
-
-_date_time=`date +"%Y-%m-%dT%H:%M:%S%z" | sed 's/00$/:00/'`
-_date=`date +"%Y-%m-%d"`
-_year=`date +"%Y"`
-_date_time_utc=`date -u +"%Y-%m-%d %H:%M:%S"`
-_date_utc=`date -u +"%Y-%m-%d"`
-_year_utc=`date -u +"%Y"`
-_onsug_file_date=`date -u +"%b%y"`
-_onsug_release_date=`date -u +"%B %Y"`
-_onsug_title_date=`date -u +"(%-m/%-d/%y)"`
-
-
-###########################################################################
-## Ask show host for basic details, make show ID and verify files exist
-
-##_show=`ask "Name of the show" "$_show"`
-_number=`ask "Episode number" "$_number"`
-
-_id=`printf "%s" "$_show$_number" | sed 's/ //g' | sed 's/é/e/'`
-
-say ""
-find "$_bucket/$_id.mp3"
-find "$_bucket/$_id.png"
-say ""
-
-
-###########################################################################
-## Ask for more details
-
-##_host=`ask "Host of the show" "$_host"`
-##_url=`ask "URL of site hosting show" "$_url"`
-##_date_time=`ask "Release date and time" "$_date_time"`
-##_location=`ask "Location" "$_location"`
-##_licence_url=`ask "Licence URL" "$_licence_url"`
-##_licence_title=`ask "Licence URL" "$_licence_title"`
-read -p "Episode title (The ... episode!): " _title
-read -p "Episode description, in one line: " _description 
+## Create ID, and verify required files exist
+_ID=`printf "%s" "$_SHOW$_NUMBER" | sed 's/ //g' | sed 's/é/e/'`
+find "$_BUCKET/$_ID.mp3"
+find "$_BUCKET/$_ID.png"
 
 
 ###########################################################################
 ## Derive text from entered details
 
 ## Make plain text description for MP3 id3 tags, IA
-_description_text=`strip "$_description"`
+_DESCRIPTION_TEXT=`strip "$_DESCRIPTION"`
 
-## Get city from full location (for Hugo recorded-in-CITY tag)
-_city=`echo "$_location" | sed 's/,//g' | awk '{ print tolower($1) }'`
+## Get city from full $_LOCATION (for Hugo recorded-in-city tag)
+_CITY=`echo "$_LOCATION" | sed 's/,//g' | awk '{ print tolower($1) }'`
+
 
 ###########################################################################
-## Prepare filenames, images for Onsug and Internet Archive
+## Prepare filenames and covers
 
-cp "$_bucket/$_id.mp3" \
-    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
+cp "$_BUCKET/$_ID.mp3" \
+    "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 
-gm convert -resize 288x288! "$_bucket/$_id.png" \
-    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
+convert                                                            \
+    -resize 288x288!                                               \
+    "$_BUCKET/$_ID.png"                                            \
+    "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 
-gm convert -quality 98 "$_bucket/$_id.png" "$_bucket/$_id.jpg"
+convert                                                            \
+    -quality 98                                                    \
+    "$_BUCKET/$_ID.png"                                            \
+    "$_BUCKET/$_ID.jpg"
+
+pngcrush -brute -ow "$_BUCKET/${_ID}.png"
+pngcrush -brute -ow "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
+jpegoptim --preserve --totals --verbose "$_BUCKET/${_ID}.jpg"
 
 
 ###########################################################################
 ## Get duration for show notes, lyrics file
 
-_duration=`eyeD3 "$_bucket/$_id.mp3" 2> /dev/null | \
+_DURATION=`eyeD3 "$_BUCKET/$_ID.mp3" 2> /dev/null | \
     awk '/Time:/ { print substr($2,6,length($2)) }'`
 
 
 ###########################################################################
 ## Create lyrics file for MP3
 
-cat > "$_bucket/${_id}_lyrics.txt" <<EOF
-$_duration – $_description_text
+cat > "$_BUCKET/${_ID}_lyrics.txt" <<EOF
+$_DURATION – $_DESCRIPTION_TEXT
 
-Recorded in $_location. Licence for this track: $_licence_title. Attribution: $_host.
+Recorded in $_LOCATION. Licence for this track: $_LICENCE_TITLE. Attribution: $_HOST.
 
-Released $_onsug_release_date on Rubénerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
+Released $_ONSUG_RELEASE_DATE on Rubénerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
 
 EOF
 
 
 ###########################################################################
-## Tag Internet Archive mp3 with id3tags
-eyeD3 \
-    --remove-all \
-    --artist "$_host" \
-    --album "$_show" \
-    --album-artist "$_host" \
-    --title "$_number: $_title" \
-    --track $_number \
-    --genre "New Time Radio" \
-    --release-year $_year \
-    --release-date $_date \
-    --orig-release-date $_date \
-    --recording-date $_date \
-    --encoding-date $_date \
-    --tagging-date $_date \
-    --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
-    --add-image "$_bucket/${_id}.png:FRONT_COVER" \
-    --encoding "utf8" \
-    --publisher "$_host" \
-    --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
-    --url-frame "WOAR:https\://rubenerd.com/" \
-    --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
-    --url-frame "WORS:https\://onsug.com/" \
-    --url-frame "WCOP:`escape $_licence_url`" \
-    --url-frame "WPUB:`escape $_url`" \
-    --text-frame "TDRL:$_year" \
-    --text-frame "TRSN:Overnightscape Underground" \
-    --text-frame "TRSO:Frank Edward Nora" \
-    --preserve-file-times \
-    "$_bucket/$_id.mp3"
+## Tag MP3s
 
+## Internet Archive
+eyeD3                                                               \
+    --remove-all                                                    \
+    --artist "$_HOST"                                               \
+    --album "$_SHOW"                                                \
+    --album-artist "$_HOST"                                         \
+    --title "$_NUMBER: $_TITLE"                                     \
+    --track $_NUMBER                                                \
+    --genre "New Time Radio"                                        \
+    --release-year $_YEAR                                           \
+    --release-date $_DATE                                           \
+    --orig-release-date $_DATE                                      \
+    --recording-date $_DATE                                         \
+    --encoding-date $_DATE                                          \
+    --tagging-date $_DATE                                           \
+    --add-lyrics "$_BUCKET/${_ID}_lyrics.txt:SHOWNOTES:eng"         \
+    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
+    --encoding "utf8"                                               \
+    --publisher "$_HOST"                                            \
+    --url-frame "WOAF:https\://archive.org/download/$_ID/$_ID.mp3"  \
+    --url-frame "WOAR:https\://rubenerd.com/"                       \
+    --url-frame "WOAS:https\://rubenerd.com/show$_NUMBER/"          \
+    --url-frame "WORS:https\://onsug.com/"                          \
+    --url-frame "WCOP:`escape $_LICENCE_URL`"                       \
+    --url-frame "WPUB:`escape $_URL`"                               \
+    --text-frame "TDRL:$_YEAR"                                      \
+    --text-frame "TRSN:Overnightscape Underground"                  \
+    --text-frame "TRSO:Frank Edward Nora"                           \
+    --preserve-file-times                                           \
+    "$_BUCKET/$_ID.mp3"
 
-###########################################################################
-## Tag Onsug mp3 with id3tags
-
-eyeD3 \
-    --remove-all \
-    --artist "$_host" \
-    --album "Overnightscape Underground - $_onsug_release_date" \
-    --title "$_show $_number: $_title $_onsug_title_date" \
-    --genre "New Time Radio" \
-    --release-year $_year \
-    --release-date $_year \
-    --orig-release-date $_date \
-    --recording-date $_date \
-    --encoding-date $_date \
-    --tagging-date $_date \
-    --add-lyrics "$_bucket/${_id}_lyrics.txt:SHOWNOTES:eng" \
-    --add-image "$_bucket/${_id}.png:FRONT_COVER" \
-    --encoding "utf8" \
-    --publisher "$_host" \
-    --url-frame "WOAF:https\://archive.org/download/$_id/$_id.mp3" \
-    --url-frame "WOAR:https\://rubenerd.com/" \
-    --url-frame "WOAS:https\://rubenerd.com/show$_number/" \
-    --url-frame "WORS:https\://rubenerd.com/" \
-    --url-frame "WCOP:`escape $_licence_url`" \
-    --url-frame "WPUB:http\://onsug.com/" \
-    --text-frame "TDRL:$_year" \
-    --text-frame "TRSN:Overnightscape Underground" \
-    --text-frame "TRSO:Frank Edward Nora" \
-    --preserve-file-times \
-    "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.mp3"
+## Onsug
+eyeD3                                                               \
+    --remove-all                                                    \
+    --artist "$_HOST"                                               \
+    --album "Overnightscape Underground - $_ONSUG_RELEASE_DATE"     \
+    --title "$_SHOW $_NUMBER: $_TITLE $_ONSUG_TITLE_DATE"           \
+    --genre "New Time Radio"                                        \
+    --release-year $_YEAR                                           \
+    --release-date $_YEAR                                           \
+    --orig-release-date $_DATE                                      \
+    --recording-date $_DATE                                         \
+    --encoding-date $_DATE                                          \
+    --tagging-date $_DATE                                           \
+    --add-lyrics "$_BUCKET/${_ID}_lyrics.txt:SHOWNOTES:eng"         \
+    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
+    --encoding "utf8"                                               \
+    --publisher "$_HOST"                                            \
+    --url-frame "WOAF:https\://archive.org/download/$_ID/$_ID.mp3"  \
+    --url-frame "WOAR:https\://rubenerd.com/"                       \
+    --url-frame "WOAS:https\://rubenerd.com/show$_NUMBER/"          \
+    --url-frame "WORS:https\://rubenerd.com/"                       \
+    --url-frame "WCOP:`escape $_LICENCE_URL`"                       \
+    --url-frame "WPUB:http\://onsug.com/"                           \
+    --text-frame "TDRL:$_YEAR"                                      \
+    --text-frame "TRSN:Overnightscape Underground"                  \
+    --text-frame "TRSO:Frank Edward Nora"                           \
+    --preserve-file-times                                           \
+    "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 
 
 ###########################################################################
 ## Get episode size, now that it has cover art and lyrics
 
-_size=`stat -f %z $_bucket/$_id.mp3`
+_SIZE=`stat -f %z $_BUCKET/$_ID.mp3`
 
 
 ###########################################################################
 ## Generate podcast episode for Hugo
 
 say ""
-say "Writing Hugo file to $_episodes/show$_number.html..."
+say "Writing Hugo file to $_EPISODES/show$_NUMBER.html..."
 
-cat > "$_episodes/show$_number.html" <<EOF
+cat > "$_EPISODES/show$_NUMBER.html" <<EOF
 ---
-title: "$_show $_number: $_title"
-date: "$_date_time"
-summary: "$_title"
-enclosure_file: "https://archive.org/download/$_id/$_id.mp3"
-enclosure_size: "$_size"
+title: "$_SHOW $_NUMBER: $_TITLE"
+date: "$_DATE_TIME"
+summary: "$_TITLE"
+enclosure_FILE: "https://archive.org/download/$_ID/$_ID.mp3"
+enclosure_SIZE: "$_SIZE"
 enclosure_type: "audio/mpeg"
-enclosure_duration: "$_duration"
-location: "$_location"
+enclosure_DURATION: "$_DURATION"
+_LOCATION: "$_LOCATION"
 category: Show
 tag:
 - audio-magazine
 - new-time-radio
 - podcast
-- recorded-in-$_city
+- recorded-in-$_CITY
 - the-overnightscape-underground
 ---
-<p class="show-cover"><a href="https://archive.org/download/$_id/$_id.mp3" title="Listen to episode"><img src="https://archive.org/download/$_id/$_id.png" alt="$_show $_number" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
+<p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
 
-<p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_id/$_id.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_id/$_id.mp3">Download</a></p>
+<p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_ID/$_ID.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_ID/$_ID.mp3">Download</a></p>
 
-<p class="show-description"><span class="show-duration"><strong>$_duration</strong> – $_description</p>
+<p class="show-description"><span class="show-duration"><strong>$_DURATION</strong></span> – $_DESCRIPTION</p>
 
-<p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
+<p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
-<p class="show-release">Released $_onsug_release_date on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 
 <p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
 
 EOF
 
+
 ###########################################################################
 ## Create Onsug text, and copy to clipboard
 
-cat > "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.html" <<EOF
-<p><img class="alignleft" src="http://onsug.com/shows/$_onsug_file_date/onsug_${_onsug_file_date}_$_onsug_abbr$_number.png" alt="" style="width:144px; height:144px;" /></p>
+cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
+<p><img class="alignleft" src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_file_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></p>
 
-<p class="show-description"><strong>$_duration</strong> – $_description</p>
+<p class="show-description"><strong>$_DURATION</strong> – $_DESCRIPTION</p>
 
-<p class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p>
+<p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
-<p class="show-release">Released $_onsug_release_date on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 EOF
 
 ## If we're on Mac OS X, copy to clipboard for pasting into Onsug 
-[ `uname` == "Darwin" ] && \
-    cat "$_bucket/onsug_${_onsug_file_date}_$_onsug_abbr$_number.html" | \
+if [ `uname` = "Darwin" ]; then
+    cat "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" | \
     pbcopy -prefer txt
+fi
 
 
 ###########################################################################
-## Generate Internet Archive metadata and file manifests
+## Confirm with user, then upload
 
-say ""
-say "Writing IA file manifest to $_bucket/${_id}_files.xml..."
+printf "Content generated. Confirm, then hit <ENTER> to confirm, or <CTRL>+<C> to terminate."
+read _ENTER
 
-printf "%s" '<files/>' > $_bucket/${_id}_files.xml
 
-say ""
-say "Writing IA meta file to $_bucket/${_id}_meta.xml..."
+###########################################################################
+## Upload to Onsug
 
-cat > $_bucket/${_id}_meta.xml <<EOF
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata>
-  <identifier>$_id</identifier>
-  <addeddate>$_date_time_utc</addeddate>
-  <mediatype>audio</mediatype>
-  <collection>$_collection</collection>
-  <creator>$_host</creator>
-  <date>$_date_utc</date>
-  <description><![CDATA[
-    <p><strong>$_duration</strong> – $_description</p><p style="font-style:italic" class="show-licence">Recorded in $_location. Licence for this track: <a rel="license" href="$_licence_url">$_licence_title</a>. Attribution: $_host.</p><p style="font-style:italic" class="show-release">Released $_onsug_release_date on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style="font-style:italic;" class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p><p style="font-style:italic" class="show-thanks">Special thanks to the <a href="https://archive.org/details/rubenerdshow">Internet Archive</a>; their generous hosting makes this show possible.</p>
-  ]]></description>
-  <language>eng</language>
-  <duration>$_duration</duration>
-  <licenseurl>$_licence_url</licenseurl>
-  <scanner>Rubenerd Podcast Uploader 5000</scanner>
-  <subject>audio magazine</subject>
-  <title>$_show $_number: $_title</title>
-  <subject>internet radio show</subject>
-  <subject>new time radio</subject>
-  <subject>onsug</subject>
-  <subject>overnightscape underground</subject>
-  <subject>podcasts</subject>
-  <subject>recorded in $_city</subject>
-  <subject>$_subject</subject>
-  <publicdate>$_date_time_utc</publicdate>
-  <uploader>$_email</uploader>
-  <addeddate>$_date_time_utc</addeddate>
-  <collection>audio_podcast</collection>
-  <runtime>$_duration</runtime>
-  <year>$_year_utc</year>
-  <coverage>$_location</coverage>
-</metadata>
+ftp onsug.com <<EOF
+binary
+cd "$_ONSUG_DATE"
+lcd "$_BUCKET"
+put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
+put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
+ls
+quit
 EOF
 
 
 ###########################################################################
-## Create spectogram for Internet Archive
-##
-## sox "${_id}.mp3" -n spectrogram ${_id}_spectrogram.png
+## Generate metadata and upload to Internet Archive
+
+_IA_DESCRIPTION="<p><strong>$_DURATION</strong> – $_DESCRIPTION</p><p style=\"font-style:italic\" class=\"show-licence\">Recorded in $_LOCATION. Licence for this track: <a rel=\"license\" href=\"$_LICENCE_URL\">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p><p style=\"font-style:italic\" class=\"show-release\">Released $_ONSUG_RELEASE_DATE on <a href=\"https://rubenerd.com/\">Rubénerd</a> and <a href=\"http://onsug.com/\">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style=\"font-style:italic;\" class=\"show-subscribe\">Subscribe with <a href=\"https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071\">iTunes</a>, <a href=\"http://pca.st/ybXl\">Pocket Casts</a>, <a href=\"https://overcast.fm/itunes1003680071/rub-nerd-show\">Overcast</a> or add <a href=\"https://rubenerd.com/show/feed/\">this feed</a> to your podcast client.</p><p style=\"font-style:italic\" class=\"show-thanks\">Special thanks to the <a href=\"https://archive.org/details/rubenerdshow\">Internet Archive</a>; their generous hosting makes this show possible.</p>"
+
+ia upload                                                \
+    "$_ID"                                               \
+    "$_ID.mp3"                                           \
+    "$_ID.png"                                           \
+    "$_ID.jpg"                                           \
+    "$_ID.flac"                                          \
+    --metadata="collection:$_COLLECTION"                 \
+    --metadata="collection:audio_podcast"                \
+    --metadata="contributor:$HOST"                       \
+    --metadata="coverage:$_LOCATION"                     \
+    --metadata="creator:$_HOST"                          \
+    --metadata="date:$_DATE_UTC"                         \
+    --metadata="description:$_IA_DESCRIPTION"            \
+    --metadata="duration:$_DURATION"                     \
+    --metadata="language:$_MARC_LANGUAGE"                \
+    --metadata="licenseurl:$_LICENCE_URL"                \
+    --metadata="mediatype:audio"                         \
+    --metadata="runtime:$_DURATION"                      \
+    --metadata="scanner:Rubenerd Podcast Uploader 5000"  \
+    --metadata="subject:audio magazine"                  \
+    --metadata="subject:internet radio show"             \
+    --metadata="subject:new time radio"                  \
+    --metadata="subject:onsug"                           \
+    --metadata="subject:overnightscape underground"      \
+    --metadata="subject:podcasts"                        \
+    --metadata="subject:recoreded in $_CITY"             \
+    --metadata="subject:$_SUBJECT"                       \
+    --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
+    --metadata="year: $_YEAR"
 
 
 ###########################################################################
-## Optimise images
-
-pngcrush -brute "${_id}.png" "${_id}.png.out"
-mv -f "${_id}.png.out" "${_id}.png"
-
-pngcrush -brute "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png" \
-    "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png.out"
-mv -f "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png.out" \
-    "onsug_${_onsug_file_date}_$_onsug_abbr$_number.png"
-
-
-###########################################################################
+## That's a wrap
 
 exit 0
 
