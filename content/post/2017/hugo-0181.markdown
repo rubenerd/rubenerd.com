@@ -1,0 +1,40 @@
+---
+title: "Hugo 0.18.1"
+date: "2017-01-17T09:22:00+10:00"
+category: Internet
+tag:
+- gohugo
+- weblog
+---
+<p><img src="https://rubenerd.com/files/2017/hugo@1x.png" alt="Hugo" style="width:180px; height:204px;" srcset="https://rubenerd.com/files/2017/hugo@1x.png 1x, https://rubenerd.com/files/2017/hugo@2x.png 2x" /></p>
+
+Static site generators are wonderful, and [Hugo] has the best performance. What used to take half an hour for others to generate 5000+ posts here now takes seconds. It made static blogging available to me again, like a delightfully creamy puff patry. What?
+
+I missed it in a routine software update, but [0.18] was released last year:
+
+> Today, we’re excited to release the much-anticipated Hugo 0.18!
+> 
+> We’re heading towards the end of the year 2016, and we can look back on three releases and a steady growing community around the project. This release includes over 220 contributions by nearly 50 contributors to the main codebase. Since the last release, Hugo has gained 1750 stars and 27 additional themes.
+>
+> Hugo now has:
+>
+>    13750+ stars
+>    408+ contributors
+>    137+ themes
+
+And a [patch] was recently released:
+
+> Hugo 0.18.1 is a bug fix release fixing some issues introduced in Hugo 0.18:
+>
+>    Fix 32-bit binaries #2847
+>    Fix issues with preserveTaxonomyNames #2809
+>    Fix .URL for taxonomy pages when uglyURLs=true #2819
+>    Fix IsTranslated and Translations for node pages #2812
+>    Make template error messages more verbose #2820
+
+That last one especially is a life saver.
+
+[Hugo]: https://gohugo.io/
+[0.18]: https://github.com/spf13/hugo/releases/tag/v0.18
+[patch]: https://github.com/spf13/hugo/releases/tag/v0.18.1
+
