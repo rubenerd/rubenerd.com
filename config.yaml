@@ -5,7 +5,7 @@ languageCode: "en-SG"
 disableLiveReload: true
 editor: "mvim"
 metaDataFormat: "yaml"
-paginate: 20
+paginate: 10
 params:
   subtitle: "By Ruben Schade in s/Singapore/Sydney/"
   html5shim: '<!--[if lt IE 9]><script src="/please-dont-use-ie.js"></script><![endif]-->'
