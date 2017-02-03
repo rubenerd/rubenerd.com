@@ -1,16 +1,18 @@
 #!/bin/sh
 
 ######
-## Podcast CAF->WAV->MP3 encoder
+## Podcast CAF->AIFF->MP3|FLAC transcoding
 ## I prefer AAC, but there are stragglers
 ##
 ## 2015-11-26: Cleaned up, use CAF as input format now
 ## 2015-08-20: Converts MP4/AAC
 ## 2015-07-27: Created
 ## 2017-01-27: Delete originals, set time stamps
+## 2017-01-31: Use afconvert where available
 
 set -e
-set -x
+set -o nounset
+IFS=" "
 
 exists() {
     for tool in $1; do
@@ -21,29 +23,47 @@ exists() {
     done
 }
 
-## Check dependencies
-exists "avconv flac lame normalize"
+params() {
+    if [ $1 -lt 1 ]; then
+        printf "%s" "Usage: ./encode-episode.sh <audio files>"
+    fi
+}
+
+## Check dependencies and params
+exists "flac lame normalize"
+params $#
+
+
+
 
 ## Get name and strip extension
 _original=$1
 _id=`basename "$1" ".caf"`
 
 ## Convert to WAV
-## afconvert "$_original" "$_id.wav"
-avconv -i "$_original" "$_id.wav"
+if [ `uname` = 'Darwin' ]; then
+    afconvert -f AIFF -d I8 "$_original" "$_id.aiff"
+else
+    avconv -i "$_original" "$_id.aiff"
+fi
 
 ## Encode to MP3
-lame -m j -q 0 --vbr-new -b 128 --verbose "$_id.wav"
+## Some podcast clients *still* choke on VBR, so ignore for now
+## lame -m j -q 0 --vbr-new -b 128 --verbose "$_id.aiff"
+lame -m j -q 0 --alt-preset cbr -b 128 --verbose "$_id.aiff"
 touch -r "$_original" "$_id.mp3"
 
 ## Encode to FLAC for archiving
-flac --delete-input-file --preserve-modtime --verify --best "$_id.wav"
+flac --delete-input-file --preserve-modtime --verify --best "$_id.aiff"
 
 ## If we have what we need, delete original
 if [ -f "$_id.flac" ] && [ -f "$_id.mp3" ]; then
     rm -rf "$_original"
+    exit 0
+else
+    printf "Expected output files not found, check commands."
+    exit 1
 fi
 
 ## That's a wrap
-exit 0
 
