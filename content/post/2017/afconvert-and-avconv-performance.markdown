@@ -24,7 +24,7 @@ Currently I use `avconv` (previously `ffmpeg`) to convert CAFs from my iTelephon
 
 Through some digging, the `afconvert` equivilent is:
 
-    $ afconvert -d caff -d BEI16 "source.caf" "output.aiff"
+    $ afconvert -f caff -d BEI16 "source.caf" "output.aiff"
 
 But how do they stack up? I ran these three times on the same 201.1MiB source file using `afconvert` in macOS Sierra, and the latest `avconv` from Homebrew:
 
