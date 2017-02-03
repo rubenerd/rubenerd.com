@@ -21,10 +21,10 @@
     <li id="tag-{{ . | urlize }}"><a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a></li> {{ end }}
   </ul>
   <p>If you liked this post, feel free to 
-    <a href="http://ko-fi.com/A625HL">buy me a coffee</a>, leave me a comment
-    on <a href="https://twitter.com/Rubenerd">Twitter</a>, 
+    <a href="{{ .Site.Params.buyCoffee }}">buy me a coffee</a>, leave me a comment
+    on <a href="{{ .Site.Params.ownerTwitterURL }}">Twitter</a>, 
     or email me at 
-    <a href="mailto:weblog2016@rubenschade.com">weblog2016@rubenschade.com</a>.
+    <a href="mailto:{{ .Site.Params.feedbackEmail }}">{{ .Site.Params.feedbackEmail }}</a>.
     Thanks :).</p>
 </div>
 <hr />
