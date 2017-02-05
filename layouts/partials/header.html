@@ -5,7 +5,7 @@
 
   <meta charset="UTF-8" />
   <title>{{ if eq .URL "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-  <link rel="stylesheet" href="/style201612.css" />
+  <link rel="stylesheet" href="/style201701.css" />
   <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseURL }}itouch-icon.png" />  
   <link rel="alternate" href="{{ .Site.BaseURL }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
   <link rel="alternate" href="{{ .Site.BaseURL }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
@@ -18,7 +18,7 @@
   {{ .Hugo.Generator }}
 
   {{ .Site.Params.html5shim | safeHTML }}
-  {{ if .Params.summary }}
+  {{ if .Params.abstract }}
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" property="og:description" content="{{ .Params.summary }}" />
   <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
