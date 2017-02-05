@@ -4,7 +4,10 @@
 
 
 /*** Reset ***/
-html, body, h1, h2, h3, #sidebar ul, #sidebar ul li {
+html, body, h1, h2, h3, form, fieldset, table,  
+#sidebar ul, #sidebar ul li {
+    border:0;
+    border-collapse:collapse;
     list-style-type:none;
     margin:0;
     padding:0;
@@ -71,6 +74,7 @@ hr, #topics, .secondary #tag-fb {
 /*** Boxes ***/
 #sidebar nav ul, article, .secondary {
     background:#ffffff;
+    box-shadow: 0px 0px 5px #e1e2ef;
 }
 
 
@@ -308,6 +312,7 @@ footer input[type=text] {
     }
     article img, article iframe, article object { 
         height:auto !important;
+        max-width:100%;
     }
 
 }
