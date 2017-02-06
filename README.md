@@ -8,23 +8,27 @@ This is the source for *[Rubénerd](https://rubenerd.com)*, a weblog and podcast
 ### Site
 * [Git](https://git-scm.com/) – previously svn, forcing myself to learn
 * [Hugo](http://gohugo.io) – **fast** static site generator written in Go
-* Bourne compatible shell – without \[\[ bashisms \]\], for BSD
+* POSIX shell scripts – without \[\[ bashisms \]\], for portability
 * BSD sed, awk – tried to be portable, *should* work with GNU
 * [rsync](https://rsync.samba.org/), [OpenSSH](http://www.openssh.com/) – for secure ∆ updates, transfers
 
 ### Inline images
-* [GraphicsMagick](http://www.graphicsmagick.org) – for processing images and cover art
-* [pngcrush](http://pmt.sourceforge.net/pngcrush/) – png image optimiser
+* [ImageMagick](http://www.imagemagick.org) – for processing images and cover art
+* [jpegoptim](https://github.com/tjko/jpegoptim) – lossless [sic] JPEG optimiser
+* [pngcrush](http://pmt.sourceforge.net/pngcrush/) – lossless PNG optimiser
 
 ### Podcast
 * [eyeD3](http://eyed3.nicfit.net/) – ID3 tag parser
-* [lame](http://lame.sourceforge.net/) – final mp3 encoder
-* [libav](https://libav.org/) – was ffmpeg, but Linux people seem to want this one now
+* [flac](https://xiph.org/flac/) – for lossless audio archiving
+* [internetarchive](https://github.com/jjjake/internetarchive) – Python interface to the Internet Archive
+* [lame](http://lame.sourceforge.net/) – mp3 encoder for podcast feed
+* [libav](https://libav.org/) – for transcoding
 * [Normalize](http://normalize.nongnu.org/) – what the name suggests
 * [Sox](http://sox.sourceforge.net/) – for stitching audio
 
 ### Previously used
-* [Jekyll](http://jekyllrb.com) – static site generator, easy to use but slow on 4000+ posts
+* [GraphicsMagick](http://www.graphicsmagick.org/) – didn't have the layer and SVG alpha features of ImageMagick
+* [Jekyll](http://jekyllrb.com) – static site generator, easy to use but slow on thousands of posts
 * [Perl](http://perl.org) – my first love, but replaced with shell scripts for portability
 
 
