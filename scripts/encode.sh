@@ -1,7 +1,7 @@
 #!/bin/sh
 
 ######
-## Podcast CAF->AIFF->MP3|FLAC transcoding
+## Podcast CAF->aiff->MP3|FLAC transcoding
 ## I prefer AAC, but there are stragglers
 ##
 ## 2015-11-26: Cleaned up, use CAF as input format now
@@ -33,14 +33,11 @@ params() {
 exists "flac lame normalize"
 params $#
 
-
-
-
 ## Get name and strip extension
 _original=$1
 _id=`basename "$1" ".caf"`
 
-## Convert to WAV
+## Convert to aiff
 if [ `uname` = 'Darwin' ]; then
     afconvert -f AIFF -d I8 "$_original" "$_id.aiff"
 else
@@ -50,7 +47,8 @@ fi
 ## Encode to MP3
 ## Some podcast clients *still* choke on VBR, so ignore for now
 ## lame -m j -q 0 --vbr-new -b 128 --verbose "$_id.aiff"
-lame -m j -q 0 --alt-preset cbr -b 128 --verbose "$_id.aiff"
+## lame -m j -q 0 --preset cbr 128 --verbose "$_id.aiff"
+lame -m j -q 0 -b 128 --verbose "$_id.aiff"
 touch -r "$_original" "$_id.mp3"
 
 ## Encode to FLAC for archiving
