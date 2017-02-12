@@ -15,9 +15,9 @@ set -o nounset
 ## User-editable configuration 
 
 ## Taken as arguments
-_NUMBER=$1
-_TITLE="$2"
-_DESCRIPTION="$3"
+_NUMBER=""
+_TITLE=""
+_DESCRIPTION=""
 
 ## Where to find things
 _BUCKET="$HOME/Repos/rubenerd.com/metadata"
@@ -69,6 +69,7 @@ _ONSUG_TITLE_DATE=`date -u +"(%-m/%-d/%y)"`                  ## for Onsug title
 usage() {
     if [ $1 -ne 3 ]; then
         say "Usage: ./create-episode.sh <episode number> <title> <description>"
+        exit 1
     fi
 }
 
@@ -118,6 +119,10 @@ escape() {
 ## Confirm arguments and dependencies met
 usage $#
 dependencies "convert eyeD3 jpegoptim pngcrush"
+
+_NUMBER="$1"
+_TITLE="$2"
+_DESCRIPTION="$3"
 
 ## Create ID, and verify required files exist
 _ID=`printf "%s" "$_SHOW$_NUMBER" | sed 's/ //g' | sed 's/é/e/'`
@@ -289,7 +294,7 @@ EOF
 ## Create Onsug text, and copy to clipboard
 
 cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
-<p><img class="alignleft" src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_file_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></p>
+<p><img class="alignleft" src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></p>
 
 <p class="show-description"><strong>$_DURATION</strong> – $_DESCRIPTION</p>
 
@@ -315,16 +320,17 @@ read _ENTER
 ###########################################################################
 ## Upload to Onsug
 
+onsug() {
 ftp onsug.com <<EOF
 binary
-cd "$_ONSUG_DATE"
+cd "$_ONSUG_FILE_DATE"
 lcd "$_BUCKET"
 put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 ls
 quit
 EOF
-
+}
 
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
@@ -338,8 +344,7 @@ ia upload                                                \
     "$_ID.jpg"                                           \
     "$_ID.flac"                                          \
     --metadata="collection:$_COLLECTION"                 \
-    --metadata="collection:audio_podcast"                \
-    --metadata="contributor:$HOST"                       \
+    --metadata="contributor:$_HOST"                      \
     --metadata="coverage:$_LOCATION"                     \
     --metadata="creator:$_HOST"                          \
     --metadata="date:$_DATE_UTC"                         \
@@ -361,7 +366,7 @@ ia upload                                                \
     --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
     --metadata="year: $_YEAR"
 
-
+##    --metadata="collection:audio_podcast"                \
 ###########################################################################
 ## That's a wrap
 
