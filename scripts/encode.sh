@@ -48,7 +48,7 @@ fi
 ## Some podcast clients *still* choke on VBR, so ignore for now
 ## lame -m j -q 0 --vbr-new -b 128 --verbose "$_id.aiff"
 ## lame -m j -q 0 --preset cbr 128 --verbose "$_id.aiff"
-lame -m j -q 0 -b 128 --verbose "$_id.aiff"
+lame --cbr -m j -q 0 -b 128 --verbose "$_id.aiff"
 touch -r "$_original" "$_id.mp3"
 
 ## Encode to FLAC for archiving
