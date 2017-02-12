@@ -32,9 +32,9 @@
 </nav>
 
 <p><a href="{{ .Site.BaseURL }}mascot/"><img id="mascot" 
-    src="/rubi-seifuku@1x.png" 
+    src="{{ .Site.BaseURL }}rubi-seifuku@1x.png" 
     alt="Rubi, the official Rubénerd mascot" 
-    srcset="/ruby-seifuku@2x.png 2x" /></a></p>
+    srcset="{{ .Site.BaseURL }}rubi-seifuku@1x.png 1x, {{ .Site.BaseURL }}rubi-seifuku@2x.png 2x" /></a></p>
 
 </div><!--/sidebar-->
 
