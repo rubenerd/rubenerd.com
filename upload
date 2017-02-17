@@ -5,6 +5,9 @@
 ## April 2015
 
 set -e
+set -o nounset
+
+. ./scripts/ramdisk.sh
 
 _rsync='/usr/local/bin/rsync'  ## location of rsync
 _server='rubenerd.com'         ## server to upload to
@@ -14,9 +17,7 @@ _assets_folder='files'         ## don't delete this asset folder on upload
 printf "%s" '☕  Killing any zombie Hugo processes...'
 killall hugo &&
 
-printf "%s" '☕  Building/verifying empty directories Hugo needs...'
-[ ! -d ./archetypes ] && mkdir ./archetypes
-[ ! -d ./data ] && mkdir ./data
+printf "%s" '☕  Clear previous generated assets...'
 [ -d ./public ] && rm -rf ./public
 
 ## No longer needed in Hugo 0.16
