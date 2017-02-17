@@ -118,7 +118,7 @@ escape() {
 
 ## Confirm arguments and dependencies met
 usage $#
-dependencies "convert eyeD3 jpegoptim pngcrush"
+dependencies "convert eyeD3 ia jpegoptim pngcrush"
 
 _NUMBER="$1"
 _TITLE="$2"
@@ -320,7 +320,6 @@ read _ENTER
 ###########################################################################
 ## Upload to Onsug
 
-onsug() {
 ftp onsug.com <<EOF
 binary
 cd "$_ONSUG_FILE_DATE"
@@ -330,7 +329,6 @@ put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 ls
 quit
 EOF
-}
 
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
@@ -366,7 +364,6 @@ ia upload                                                \
     --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
     --metadata="year: $_YEAR"
 
-##    --metadata="collection:audio_podcast"                \
 ###########################################################################
 ## That's a wrap
 
