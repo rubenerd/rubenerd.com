@@ -1,24 +1,29 @@
 #!/bin/sh
 
 ######
-## An Xmas gift for my poor old SSD: Creates a RAM disk before Hugo previews
-## Ruben Schade 2015-12 <3
+## Mount/destroy RAM disk for Hugo to generate site (to spare SSD)
+## No longer needed for previews as of Hugo 0.17 (IIRC)
+## 2015-12 - 2017-02
 ##
 
 set -e
-set -x
+set -o nounset
 
-_disk_size=256
+_CAPACITY=256     ## Size in megabytes of target ramdisk
+_PATH="./public"  ## Target mountpoint where Hugo generates site
 
 ram_disk() {
-    _disk_size=`expr $_disk_size \* 2048`
-    diskutil eraseVolume HFS+ 'Hugo' `hdiutil attach -nomount ram://${_disk_size}`
-    rm -rf ../public
-    ln -s /Volumes/Hugo/ public
+    _CAPACITY=`expr $_CAPACITY \* 2048`
+
+    diskutil eraseVolume HFS+ 'Hugo' \
+        `hdiutil attach -nomount ram://${_CAPACITY}`
+
+    [ -d "$_PATH" ] && rm -rf "$_PATH"
+    ln -s "/Volumes/Hugo" "$_PATH"
 }
 
 unmount_ram_disk() {
     diskutil unmount force /Volumes/Hugo
-    rm -rf public
+    rm -rf $_PATH
 }
 
