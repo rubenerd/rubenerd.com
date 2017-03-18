@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content"><!-- for skip to content link -->
+
+<article id="post" property="blogPost" typeof="BlogPosting">
+  <h2 property="headline"><a href="/omake/">Omake</a> &rarr; <a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <div property="articleBody">
+    {{ .Content }}</div>
+</article>
+
+{{ partial "footer.html" . }}
