@@ -7,7 +7,7 @@
 set -e
 set -o nounset
 
-. ./scripts/ramdisk.sh
+#. ./scripts/ramdisk.sh
 
 _rsync='/usr/local/bin/rsync'  ## location of rsync
 _server='rubenerd.com'         ## server to upload to
