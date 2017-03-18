@@ -13,7 +13,7 @@ _COLOUR=`mktemp`
 _SIZE="640"
 _LOGO="$HOME/Repos/rubenerd.com/metadata/cover.png"
 _OUTPUT="$HOME/Repos/rubenerd.com/metadata/RubenerdShow$2.png"
-_SOURCE="$1"
+_SOURCE=""
 
 usage() {
     if [ $1 -ne 2 ]; then
@@ -34,6 +34,7 @@ exists() {
 ## Check parameters and dependencies
 usage $#
 exists "convert pngcrush"
+_SOURCE="$1"
 
 ## Get image dimensions
 ## ping prevents whole image being loaded
@@ -42,34 +43,31 @@ _HEIGHT=`identify -ping -format "%h" "$_SOURCE"`
 
 ## Resize, but don't crop yet or it'll gen multiple files
 if [ $_WIDTH -gt $_HEIGHT ]; then
-    convert -monitor "$_SOURCE" -resize x${_SIZE} "$_OUTPUT"
+    convert "$_SOURCE" -resize x${_SIZE} "$_OUTPUT"
 
 else
-    convert -monitor "$_SOURCE" -resize ${_SIZE}x "$_OUTPUT"
+    convert "$_SOURCE" -resize ${_SIZE}x "$_OUTPUT"
 fi
 
 ## Crop resulting image
 convert "$_OUTPUT"                \
-    -monitor                      \
     -gravity Center               \
     -crop ${_SIZE}x${_SIZE}+0+0!  \
     "${_OUTPUT}"
 
 ## Create colour mask
 ## Terrible hack, but saturate source, reduce to 1 pixel, then expand
-convert "$_SOURCE"         \
-    -monitor               \
-    -normalize             \
-    -modulate 100,256,100  \
-    -resize 1x1!           \
-    -resize 640x640!       \
+convert "$_SOURCE"              \
+    -normalize                  \
+    -modulate 100,256,100       \
+    -resize 1x1!                \
+    -resize ${_SIZE}x${_SIZE}!  \
     "$_COLOUR"
 
 ## Overlay colour mask on source image
 ## My logo uses 4 colours for nostalgic pointlessness
 ## Other dither modes: "+dither", "-dither FloydSteinberg"
 convert "$_OUTPUT"    \
-    -monitor          \
     -posterize 4      \
     -colorspace gray  \
     "$_COLOUR"        \
@@ -79,7 +77,6 @@ convert "$_OUTPUT"    \
 
 ## Overlay colour mask on logo
 convert "$_OUTPUT"    \
-    -monitor          \
     +page "$_LOGO"    \
     -flatten          \
     -colorspace gray  \
