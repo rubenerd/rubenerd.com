@@ -5,7 +5,8 @@
 
 /*** Reset ***/
 html, body, h1, h2, h3, form, fieldset, table,  
-#sidebar ul, #sidebar ul li {
+#sidebar ul, #sidebar ul li,
+.recommended, .recommended li {
     border:0;
     border-collapse:collapse;
     list-style-type:none;
@@ -131,14 +132,10 @@ hr, #topics, .secondary #tag-fb {
     line-height:23px;
     height:23px;
     padding-left:20px;
-    //border-top:1px solid #ffffff; 
-    //border-bottom:1px solid #ffffff;
 }
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
-    //border-top:1px solid #e1e8eD; 
-    //border-bottom:1px solid #e1e8eD; 
 }
 
 
@@ -193,10 +190,10 @@ table th, table td {
     vertical-align:top;
 }
 table, tr { 
-    border-bottom:1px solid #dce3ec
+    border-bottom:1px solid #dce3ec;
 }
 table th { 
-    background:#f0f3f6
+    background:#f0f3f6;
 }
 
 
@@ -205,6 +202,25 @@ table th {
     font-style:italic;
 }
 
+
+/* Recommended */
+.recommended {
+    line-height:auto;
+}
+.recommended li {
+    display:inline;
+}
+.recommended li img {
+    background:#f0f3f6;
+    margin:0 10px 10px 0;
+    width:150px;
+}
+.podcasts li img {
+    height:150px;
+}
+.manga li img {
+    height:215px;
+}
 
 /*** Footer ***/
 footer {
