@@ -3,11 +3,11 @@ title: "Python interpreter for Ansible"
 date: "2017-03-21T10:28:00+10:00"
 abstract: "The other elephant in the room when used with FreeBSD"
 ---
-Last week I talked about using Ansible for FreeBSD automation, but forgot to address the other elephant in the room: Ansible can't find Python on FreeBSD hosts.
+Last week I talked about [using Ansible for FreeBSD automation], but forgot to address the other elephant in the room: Ansible can't find Python on FreeBSD hosts.
 
 ### The problem
 
-Belying its Linux heritage, Ansible defaults to the following Python path:
+As per its Linux heritage, Ansible defaults to the following Python path:
 
     /usr/bin/python
 
@@ -53,4 +53,5 @@ Hey wait a minute, I've got an idea. You can do the same thing as above, even if
 Huzzah, it works! This will now become part of my Ansible boilerplate.
 
 [This issue thread]: https://github.com/ansible/ansible/issues/6345 "Introduce ANSIBLE_PYTHON_INTERPRETER env variable"
+[using Ansible for FreeBSD automation]: https://rubenerd.com/ansible-on-freebsd/ "Ansible with FreeBSD"
 
