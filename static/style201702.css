@@ -58,7 +58,7 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 /*** Accessibility ***/
-legend, #skip, #skip:hover, #skip:visited, #search input[type="submit"] {
+legend, #skip, #skip:hover, #skip:visited {
     height:1px;
     left:0px;
     overflow:hidden;
@@ -167,7 +167,7 @@ article blockquote {
 }
 
 
-/* Article Includes */
+/*** Article : Includes ***/
 pre, code {
     font-size:12px;
     font-family:"Source Code Pro",Menlo,Monaco,"Liberation Mono",monspace;
@@ -197,13 +197,21 @@ table th {
 }
 
 
-/* Podcast */
-.show-licence, .show-description, .show-release, .show-subscribe {
+/*** Article : Forms ***/
+/* Gecko makes a dog's breakfast of line heights and forms */
+form {
+    line-height:1em;
+    padding-bottom:4px;
+}
+
+
+/*** Article : Podcast ***/
+.show-licence, .show-release, .show-subscribe {
     font-style:italic;
 }
 
 
-/* Recommended */
+/*** Article : Recommended ***/
 .recommended {
     line-height:auto;
 }
@@ -221,6 +229,7 @@ table th {
 .manga li img {
     height:215px;
 }
+
 
 /*** Footer ***/
 footer {
