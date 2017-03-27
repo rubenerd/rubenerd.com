@@ -16,7 +16,11 @@ This is my evolving list of the best brews I find.
 
 * [Workshop Espresso](http://www.au.timeout.com/sydney/restaurants/venues/4906/workshop-espresso): In the Galleries building, a great place for a cup after buying another stack of manga from Kino. They always have something fun on their blackboard.
 
-### New York
+### Adelaide
+
+* [The Boatdeck Cafe](http://theboatdeck.com.au/): Much of this site in the mid-2000s was written from this place. They don't do the Betty Blue Sea of Espresso any more, but still best coffee in northern Adelaide!
+
+### Brooklyn, New York
 
 * [L'imprimerie](http://limprimerie.nyc/): Beautiful little café down from the L/M Myrtle-Wyckoff Avenues subway. Best coffee in New York, and the people are super friendly.
 
