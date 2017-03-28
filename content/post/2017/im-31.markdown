@@ -1,0 +1,37 @@
+---
+title: "I'm 31"
+date: "2017-03-27T16:37:00+10:00"
+abstract: "I have much to be thankful for"
+category: Thoughts
+tag:
+- birthdays
+- personal
+---
+A pretty low-key birthday today, but that's [always been my style]. I was terrified about turning 30, but recent family adventures render me happy, relieved and feeling very fortunate for making it this far ^_^.
+
+Here, have a figlet:
+
+     _____ _
+    |___ // |
+      |_ \| |
+     ___) | |
+    |____/|_|
+
+
+Or this one!
+
+      ****   ** 
+     */// * *** 
+    /    /*//** 
+       ***  /** 
+      /// * /** 
+     *   /* /** 
+    / ****  ****
+     ////  //// 
+
+As far as years go, my 30th on this planet was amazing. I met so many of my foreign friends in New York, Philly and New Jersey; made progress on several personal fronts; advanced in my career at a company with colleagues I'd consider friends. After so many years of veritable shit, I have much to be thankful for now.
+
+I'm looking forward to next year, when I become fully 32bit compliant. This whole time I've been backporting binaries from future me, and recompiling them for my insufficient 16bit brain.
+
+[always been my style]: https://rubenerd.com/birthday-486/
+
