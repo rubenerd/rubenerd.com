@@ -1,13 +1,44 @@
-.DS_Store
-public
-public/
-*.swp
-*.swo
-metadata/*aria2
-metadata/*mp3
-metadata/*caf
-metadata/*flac
-metadata/*wav
-metadata/RubenerdShow*png
-metadata/RubenerdShow*jpg
-metadata/onsug*png
+######
+## Whitelisted .gitignore for rubenerd.com
+## 2017-03-30
+
+## Ignore everything
+*
+
+## Root files
+!config.yaml
+!preview
+!README.md
+!upload
+
+## Site content
+!content/omake/*.markdown
+!content/page/*.html
+!content/page/*.html
+!content/post/*/*.html
+!content/post/*/*.markdown
+
+## Theme
+!layouts/*.html
+!layouts/*.xml
+!layouts/*/*.html
+
+## Metadata
+!metadata/cover.*
+!metadata/*.html
+!metadata/*.png
+!metadata/*.txt
+!metadata/*.xml
+
+## Scripts
+!scripts/*.ps1
+!scripts/*.sh
+
+## Static assets
+!static/*.css
+!static/*.html
+!static/*.ico
+!static/*.png
+!static/*.svg
+!static/*.xml
+
