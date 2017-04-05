@@ -21,3 +21,7 @@ Omake is extra in Japanese, and is used in fandom to refer to bonus content incl
 * [NAS cases](./nas-cases/): The best cases and enclosures for NAS builds
 * [WikiProject Jazz](./wikiproject-jazz/): Pages for Wikipedia's jazz catalogue
 
+### PCPartPicker Builds
+* [Tsuruya](https://pcpartpicker.com/user/rubenerd/saved/4yc323): My budget game machine for world builders
+* [Mizuno](https://pcpartpicker.com/user/rubenerd/saved/3n3qqs): Restoring the first PC I built as a kid in 1998
+
