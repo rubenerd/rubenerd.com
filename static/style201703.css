@@ -86,10 +86,10 @@ hr, #topics, .secondary #tag-fb {
 
 
 /*** Subheadings ***/
-#sidebar h3, article time, .archive small {
+#sidebar h3, article .postMeta, .archive small {
     color:#7e92a6;
-    font-size:13px;
-    font-weight:normal;
+    font-size:12px;
+    font-weight:bold;
     letter-spacing:normal;
     text-transform:uppercase;
 }
@@ -169,7 +169,7 @@ article blockquote {
 /*** Article : Includes ***/
 pre, code {
     font-size:12px;
-    font-family:"Source Code Pro",Menlo,Monaco,"Liberation Mono",monspace;
+    font-family:"Source Code Pro",Menlo,Monaco,"Liberation Mono","DejaVu Mono",monspace;
 }
 pre {
     border:1px dotted #dce3ec;
@@ -178,13 +178,13 @@ pre {
     padding:15px 20px;
     overflow-x:scroll
 }
-table { 
+table {
+    font-size:13px;
     margin:20px 0;
     max-width:100%;
     overflow-x:scroll;
 }
 table th, table td {
-    font-size:14px;
     padding:2px 15px;
     vertical-align:top;
 }
@@ -193,6 +193,10 @@ table, tr {
 }
 table th { 
     background:#f0f3f6;
+}
+figure {
+    padding-top:4px;
+    text-align:center;
 }
 
 
