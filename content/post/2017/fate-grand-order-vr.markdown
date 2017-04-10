@@ -23,7 +23,7 @@ News of the game resurfaced in light of the recent AnimeJapan 2017 demo in late 
 
 <figure><img src="https://rubenerd.com/files/2017/shielder-vr@1x.jpg" alt="" style="width:500px; height:580px" srcset="https://rubenerd.com/files/2017/shielder-vr@1x.jpg 1x, https://rubenerd.com/files/2017/shielder-vr@2x.jpg 2x" /></figure>
 
-Among the news though, Clara and I noted Mashu lost her skirt and chest coverage between the mobile game and her VR debut. It's a bit weird, given she rugs up **further** with [each stage in the game]. We can only assume this glorified swimsuit (which I may or may not be against, but you didn't read that) would be to reduce the polygon count for VR performance... right?
+Among the news though, Clara and I noted Mashu lost armour somewhere between mobile game and her VR debut. It's a bit weird, given she rugs up **further** with [each stage in the game]. We can only assume this glorified swimsuit (which I may or may not be against, but you didn't read that) would be to reduce the polygon count for VR performance... right?
 
 Regardless, the idea of playing FGO in a VR world sounds like too much fun, I hope there's a demo of it somewhere in Australia soon. Or in the meantime, can you emulate a PS4 on a PC yet?
 
