@@ -72,20 +72,34 @@ Case                      | Size      | 3.5 | 5.25 | Extra
 
 Case                         | Size      | 5.25" | Notes
 -----------------------------|-----------|-------|--------
+[AeroCool ZeroDegree-BK]     | ATX       | 9     |
+[AZZA Helios 910]            | ATX       | 9     |
+[Antec Nine Hundred]         | ATX       | 9     | V3
+[ENERMAX ECA5010M-B-B]       | ATX       | 11    |
+[Lian-Li PC-A79]             | ATX       | 12    | 
+[Lian-Li PC-D600]            | ATX       | 10    | Thermal zone
+[Lian-Li P80N]               | ATX       | 12    | Pivot door
 [Lian-Li PC-Q35B]            | Mini-ITX  | 5     | 
 [CoolerMaster SGC-5000-KWN1] | ATX       | 9     | Ugly!
 [iStarUSA S-917]             | Mini-ITX  | 7     | Newegg
 [iStarUSA S-919]             | Micro-ITX | 9     | Nobody sells?
 [iStarUSA S-9112-EATX]       | EATX      | 12    | "Coming soon"
+[Nexustek Edge]              | ATX       | 13    | Discontinued :(
 [SilverStone TJ11B-W]        | ATX       | 9     | 
 [Thermaltake Core W100]      | EATX      | 11    |
 [Thermaltake Core W200]      | EATX      | 10    |
 
+[AeroCool ZeroDegree-BK]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811196023
+[AZZA Helios 910]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811517007
+[ENERMAX SPINEREX ECA5010M-B-B]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811124141
 [Lian-Li PC-Q35B]: http://www.lian-li.com/en/dt_portfolio/pc-q35/
+[Lian-Li PC80N]: http://www.lian-li.com/en/dt_portfolio/pc-p80n/
 [CoolerMaster SGC-5000-KWN1]: http://www.coolermaster.com/case/full-tower/trooperwindow/
+[Nine Hundred Two]: http://www.antec.com/product.php?id=705322&pid=43&lan=nz
 [iStarUSA S-917]: http://www.istarusa.com/istarusa/products.php?model=S-917
 [iStarUSA S-919]: http://www.istarusa.com/istarusa/products.php?model=S-919
 [iStarUSA S-9112-EATX]: http://www.istarusa.com/istarusa/products.php?model=S-9112-EATX
+[Nexustek Edge]: https://nexustek.us/cases/edge
 [SilverStone TJ11B-W]: http://www.silverstonetek.com/product.php?pid=292
 [Thermaltake Core W100]: http://www.thermaltake.com/Chassis/Super_Tower_/Core/C_00002802/Core_W100/Design.htm#
 
@@ -98,12 +112,14 @@ Case                          | Size | 3.5 | 5.25
 [CoolerMaster CM 690 II Plus] | ATX  | 6   | 4
 [CoolerMaster CMP-350]        | ATX  | 7   | 4
 [CoolerMaster Silencio 652s]  | ATX  | 8   | 3
+[Lian-Li PC-A76]              | ATX  | 12  | 2
 [Lian-Li PC-7FN]              | ATX  | 4   | 4
 
 [CFI-A8008]: http://www.chyangfun.com/cfi-a8008.html
 [CoolerMaster CM 690 II Plus]: http://www.coolermaster.com/case/mid-tower/cm-690-ii-plus-white/
 [CoolerMaster CMP-350]: http://www.coolermaster.com/case/mid-tower/cmp-350/
 [CoolerMaster Silencio 652s]: http://www.coolermaster.com/case/mid-tower/silencio652s/
+[Lian-Li PC-A76]: http://www.lian-li.com/en/dt_portfolio/pc-a76/
 [Lian-Li PC-7FN]: http://www.lian-li.com/en/dt_portfolio/pc-7fn/
 
 These could be fitted with ICY DOCK or SuperMicro hot-swap trays.
@@ -146,6 +162,7 @@ Cage                    | Bays | HDDs |  Notes
 [ICY DOCK MB975SP-B R1] | 3    | 5    |          
 [NORCO SS-500]          | 3    | 5    |            
 [SilverStone FS305]     | 3    | 5    | Trayless
+[Supermicro CSE-M35TQ]  | 3    | 5    | 
 
 [Chenbro SK33502]: http://www.chenbro.com/en-global/products/Storage_Expansion_Kit/Hot-Swap_HDD_Enclosure/SK33502
 [ICY DOCK MB973SP-B]: http://www.icydock.com/goods.php?id=119
@@ -160,6 +177,15 @@ Cage                    | Bays | HDDs |  Notes
 [SilverStone FS303]: http://www.silverstonetek.com/product.php?pid=603&area=en
 [SilverStone FS304]: http://www.silverstonetek.com/product.php?pid=604&area=en
 [SilverStone FS305]: http://www.silverstonetek.com/product.php?pid=605&area=en
+[Supermicro CSE-M35TQ]: http://www.supermicro.com/products/accessories/mobilerack/CSE-M35TQ.cfm
 [Thermaltake Max 3503]: http://www.thermaltake.com/Storage/Rack_/_/C_00002934/Max_3503_SATA_HDD_Rack/design.htm
 [Thermaltake Max 3504]: http://www.thermaltake.com/Storage/Rack_/_/C_00002935/Max_3504_SATA_HDD_Rack/design.htm
 
+
+## Other useful parts
+
+Part         | Description
+-------------|-------------------------------------------
+[ATXBRACKET] | Power and reset switches on a PCI bracket
+
+[ATXBRACKET]: https://www.highspeedpc.com/ATX_Power_Bracket_p/atxbracket.htm
