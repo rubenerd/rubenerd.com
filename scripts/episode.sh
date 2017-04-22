@@ -38,6 +38,7 @@ _COLLECTION='rubenerdshow'      ## IA collection, such as "community-audio"
 _EMAIL='rubenschade@gmail.com'  ## IA username/email
 _MARC_LANGUAGE="eng"            ## MARC21 language code
 _SUBJECT='rubenerd'             ## IA tag additions
+_ONSUG_COVER_SIZE=288           ## HxW dimensions for Onsug site cover art
 
 
 ###########################################################################
@@ -103,12 +104,12 @@ find() {
 
 ## Strips out HTML tags
 strip() {
-    echo "$1" | sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
+    printf "%s" "$1" | sed -e :a -e 's/<[^>]*>//g;/</N;//ba'
 }
 
 ## Escapes characters that prevent eyeD3 parsing
 escape() {
-    echo "$1" | sed 's/\:/\\\:/g'
+    printf "%s" "$1" | sed 's/\:/\\\:/g'
 }
 
 
@@ -120,6 +121,7 @@ escape() {
 usage $#
 dependencies "convert eyeD3 ia jpegoptim pngcrush"
 
+## Assign arguments when confirmed
 _NUMBER="$1"
 _TITLE="$2"
 _DESCRIPTION="$3"
@@ -147,7 +149,7 @@ cp "$_BUCKET/$_ID.mp3" \
     "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 
 convert                                                            \
-    -resize 288x288!                                               \
+    -resize ${_ONSUG_COVER_SIZE}x${_ONSUG_COVER_SIZE}!             \
     "$_BUCKET/$_ID.png"                                            \
     "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 
@@ -330,10 +332,21 @@ ls
 quit
 EOF
 
+
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
 
 _IA_DESCRIPTION="<p><strong>$_DURATION</strong> – $_DESCRIPTION</p><p style=\"font-style:italic\" class=\"show-licence\">Recorded in $_LOCATION. Licence for this track: <a rel=\"license\" href=\"$_LICENCE_URL\">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p><p style=\"font-style:italic\" class=\"show-release\">Released $_ONSUG_RELEASE_DATE on <a href=\"https://rubenerd.com/\">Rubénerd</a> and <a href=\"http://onsug.com/\">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style=\"font-style:italic;\" class=\"show-subscribe\">Subscribe with <a href=\"https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071\">iTunes</a>, <a href=\"http://pca.st/ybXl\">Pocket Casts</a>, <a href=\"https://overcast.fm/itunes1003680071/rub-nerd-show\">Overcast</a> or add <a href=\"https://rubenerd.com/show/feed/\">this feed</a> to your podcast client.</p><p style=\"font-style:italic\" class=\"show-thanks\">Special thanks to the <a href=\"https://archive.org/details/rubenerdshow\">Internet Archive</a>; their generous hosting makes this show possible.</p>"
+
+echo "collection,contributor,coverage,creator,date,description,duration,language,licenseurl,mediatype,runtime,scanner,subject[0],subject[1],subject[2],subject[3],subject[4],subject[5],subject[6],subject[7],title,year" > "$_ID.csv"
+
+echo "$_COLLECTION,$_HOST,$_LOCATION,$_HOST,$_DATE_UTC,$_IA_DESCRIPTION,$_DURATION,$_MARC_LANGUAGE,$_LICENCE_URL,audio,$_DURATION,Rubenerd Podcast Uploader 5000,audio magazine,internet radio show,new time radio,onsug,overnightscape underground,podcasts,recorded in $_CITY,$_SUBJECT,$_SHOW $_NUMBER: $_TITLE,$_YEAR" >> "$_ID.csv"
+
+internet_archive_upload "$_ID"
+
+exit
+
+#################################################################################
 
 ia upload                                                \
     "$_ID"                                               \
@@ -363,6 +376,7 @@ ia upload                                                \
     --metadata="subject:$_SUBJECT"                       \
     --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
     --metadata="year: $_YEAR"
+
 
 ###########################################################################
 ## That's a wrap
