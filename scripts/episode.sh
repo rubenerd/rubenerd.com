@@ -35,7 +35,7 @@ _LOCATION='Sydney, Australia'
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
 _COLLECTION='rubenerdshow'      ## IA collection, such as "community-audio"
-_EMAIL='rubenschade@gmail.com'  ## IA username/email
+_EMAIL='me@rubenschade.com'     ## IA username/email
 _MARC_LANGUAGE="eng"            ## MARC21 language code
 _SUBJECT='rubenerd'             ## IA tag additions
 _ONSUG_COVER_SIZE=288           ## HxW dimensions for Onsug site cover art
