@@ -70,30 +70,32 @@ Case                      | Size      | 3.5 | 5.25 | Extra
 
 ### With just 5.25" drive bays
 
-Case                         | Size      | 5.25" | Notes
------------------------------|-----------|-------|--------
-[AeroCool ZeroDegree-BK]     | ATX       | 9     |
-[AZZA Helios 910]            | ATX       | 9     |
-[Antec Nine Hundred]         | ATX       | 9     | V3
-[ENERMAX ECA5010M-B-B]       | ATX       | 11    |
-[Lian-Li PC-A79]             | ATX       | 12    | 
-[Lian-Li PC-D600]            | ATX       | 10    | Thermal zone
-[Lian-Li P80N]               | ATX       | 12    | Pivot door
-[Lian-Li PC-Q35B]            | Mini-ITX  | 5     | 
-[CoolerMaster SGC-5000-KWN1] | ATX       | 9     | Ugly!
-[iStarUSA S-917]             | Mini-ITX  | 7     | Newegg
-[iStarUSA S-919]             | Micro-ITX | 9     | Nobody sells?
-[iStarUSA S-9112-EATX]       | EATX      | 12    | "Coming soon"
-[Nexustek Edge]              | ATX       | 13    | Discontinued :(
-[SilverStone TJ11B-W]        | ATX       | 9     | 
-[Thermaltake Core W100]      | EATX      | 11    |
-[Thermaltake Core W200]      | EATX      | 10    |
+Case                            | Size      | 5.25" | Notes
+--------------------------------|-----------|-------|--------
+[AeroCool ZeroDegree-BK]        | ATX       | 9     |
+[AZZA Helios 910]               | ATX       | 9     |
+[Antec Nine Hundred]            | ATX       | 9     | V3
+[ENERMAX ECA5010M-B-B]          | ATX       | 11    |
+[Lian-Li PC-A79]                | ATX       | 12    | 
+[Lian-Li PC-D600]               | ATX       | 10    | Thermal zone
+[Lian-Li P80N]                  | ATX       | 12    | Pivot door
+[Lian-Li PC-Q35B]               | Mini-ITX  | 5     | 
+[CoolerMaster SGC-5000-KWN1]    | ATX       | 9     | Oh dear
+[CoolerMaster CM Storm Trooper] | ATX       | 9     | Oh dear
+[iStarUSA S-917]                | Mini-ITX  | 7     | Newegg
+[iStarUSA S-919]                | Micro-ITX | 9     | Nobody sells?
+[iStarUSA S-9112-EATX]          | EATX      | 12    | "Coming soon"
+[Nexustek Edge]                 | ATX       | 13    | Discontinued :(
+[SilverStone TJ11B-W]           | ATX       | 9     | 
+[Thermaltake Core W100]         | EATX      | 11    |
+[Thermaltake Core W200]         | EATX      | 10    |
 
 [AeroCool ZeroDegree-BK]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811196023
 [AZZA Helios 910]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811517007
 [ENERMAX SPINEREX ECA5010M-B-B]: https://www.newegg.com/Product/Product.aspx?Item=N82E16811124141
 [Lian-Li PC-Q35B]: http://www.lian-li.com/en/dt_portfolio/pc-q35/
 [Lian-Li PC80N]: http://www.lian-li.com/en/dt_portfolio/pc-p80n/
+[CoolerMaster CM Storm Trooper]: http://www.coolermaster.com/case/full-tower/trooper/
 [CoolerMaster SGC-5000-KWN1]: http://www.coolermaster.com/case/full-tower/trooperwindow/
 [Nine Hundred Two]: http://www.antec.com/product.php?id=705322&pid=43&lan=nz
 [iStarUSA S-917]: http://www.istarusa.com/istarusa/products.php?model=S-917
@@ -112,13 +114,15 @@ Case                          | Size | 3.5 | 5.25
 [CoolerMaster CM 690 II Plus] | ATX  | 6   | 4
 [CoolerMaster CMP-350]        | ATX  | 7   | 4
 [CoolerMaster Silencio 652s]  | ATX  | 8   | 3
-[Lian-Li PC-A76]              | ATX  | 12  | 2
+[Lian-Li PC-A75WX]            | HPTX | 12  | 2
+[Lian-Li PC-A76]              | HPTX | 12  | 2
 [Lian-Li PC-7FN]              | ATX  | 4   | 4
 
 [CFI-A8008]: http://www.chyangfun.com/cfi-a8008.html
 [CoolerMaster CM 690 II Plus]: http://www.coolermaster.com/case/mid-tower/cm-690-ii-plus-white/
 [CoolerMaster CMP-350]: http://www.coolermaster.com/case/mid-tower/cmp-350/
 [CoolerMaster Silencio 652s]: http://www.coolermaster.com/case/mid-tower/silencio652s/
+[Lian-Li PC-A75WX]: http://www.ebay.com.au/itm/Lian-Li-PC-A75WX-Full-tower-HPTX-no-power-supply-ATX-black-PC-A75WX-/272538017305
 [Lian-Li PC-A76]: http://www.lian-li.com/en/dt_portfolio/pc-a76/
 [Lian-Li PC-7FN]: http://www.lian-li.com/en/dt_portfolio/pc-7fn/
 

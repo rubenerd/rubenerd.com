@@ -7,8 +7,7 @@ I'm trying to get rid of stuff, and buying replacement electronic versions where
 ### Key
 * Bw = BookWalker
 * cX = Comixology
-* Kb = Kobo (US store)
-* Ki = Kinokuniya (physical book, for reference)
+* Ki = Kindle (Amazon)
 
 ### Search boxes
 
@@ -43,6 +42,14 @@ I'm trying to get rid of stuff, and buying replacement electronic versions where
 </fieldset>
 </form>
 
+<form accept-charset="utf-8" action="https://www.amazon.com/s/ref=nb_sb_noss_2" class="nav-searchbar" method="GET" name="site-search" role="search">
+<fieldset>
+<input type="hidden" value="search-alias=digital-text" />
+<input type="text" id="twotabsearchtextbox" value="Yotsuba" name="field-keywords" autocomplete="off" placeholder="Search in Kindle Store" class="nav-input" tabindex="19" data-com.agilebits.onepassword.user-edited="yes">
+<input type="submit" class="nav-input" value="Search Kindle" tabindex="20">
+</fieldset>
+</form>
+
 <form action="https://www.kobo.com/en/search/" method="get">
 <fieldset>
 <input type="text" name="Query" value="" />
@@ -56,27 +63,29 @@ I'm trying to get rid of stuff, and buying replacement electronic versions where
 
 ### Who has what
 
-Title                                                       | Bw | cX | Kb |
+Title                                                       | Bw | cX | Ki |
 ------------------------------------------------------------|----|----|----|
-A Certain Magical Index                                     | ✅ | ❌ | ✅ |
+A Certain Magical Index                                     | ✅ | ❌ | ❌ |
 <span style="color:red">A Certain Scientific Railgun</span> | ❌ | ❌ | ❌ |
-Akame Ga Kill!                                              | ✅ | ✅ | ✅ |
-↳  Zero                                                     | ✅ | ✅ | ✅ |
-Aldnoah.Zero                                                | ✅ | ❌ | ✅ |
+A Silent Voice                                              | ✅ | ✅ | ✅ |
+Akame Ga Kill!                                              | ✅ | ✅ | ❌ |
+↳  Zero                                                     | ✅ | ✅ | ❌ |
+Aldnoah.Zero                                                | ✅ | ❌ | ❌ |
 Baccano!                                                    | ✅ | ❌ | ❌ |
-Bamboo Blade                                                | ✅ | ✅ | ✅ |
-Barakamon                                                   | ✅ | ✅ | ✅ |
+Bamboo Blade                                                | ✅ | ✅ | ❌ |
+Barakamon                                                   | ✅ | ✅ | ❌ |
 Bakuman                                                     | ❌ | ✅ | ✅ |
-Black Butler                                                | ✅ | ✅ | ✅ |
+Black Butler                                                | ✅ | ✅ | ❌ |
 Blue Exorcist                                               | ❌ | ✅ | ✅ |
-Bungo Stray Dogs                                            | ✅ | ❌ | ✅ |
-Cardcaptor Sakura                                           | ❌ | ✅ | ❌ |
+Bungo Stray Dogs                                            | ✅ | ❌ | ❌ |
+Cage of Eden                                                | ✅ | ✅ | ✅ |
+Cardcaptor Sakura                                           | ❌ | ✅ | ✅ |
 Cells at Work                                               | ✅ | ✅ | ✅ |
 <span style="color:red">Code Geass</span>                   | ❌ | ❌ | ❌ |
 Coppelion                                                   | ✅ | ✅ | ✅ |
-D-Frag                                                      | ✅ | ✅ | ❌ |
-DanMachi                                                    | ✅ | ✅ | ✅ |
-The Devil is a Part-Timer                                   | ✅ | ❌ | ✅ |
+D-Frag                                                      | ✅ | ✅ | ✅ |
+DanMachi                                                    | ✅ | ✅ | ❌ |
+The Devil is a Part-Timer                                   | ✅ | ❌ | ❌ |
 Evangelion                                                  | ✅ | ✅ | ✅ |
 ↳  Raising Project                                          | ❌ | ✅ | ✅ |
 Fairy Tail                                                  | ✅ | ✅ | ✅ |
@@ -84,59 +93,71 @@ Fairy Tail                                                  | ✅ | ✅ | ✅ |
 ↳  Fairy Girls                                              | ✅ | ✅ | ✅ |
 Fate/Stay Night                                             | ✅ | ✅ | ✅ |
 Fate/Zero                                                   | ❌ | ✅ | ✅ |
+Flying Witch                                                | ❌ | ✅ | ✅ |
 From the New World                                          | ✅ | ✅ | ✅ |
-Food Wars                                                   | ✅ | ✅ | ❌ |
-<span style="color:red">Fruits Basket</span>                | ❌ | ❌ | ❌ |
+Food Wars                                                   | ✅ | ✅ | ✅ |
+<span style="color:red">Fruits Basket</span>                | ❌ | ❌ | ✅ |
 Ghost in the Shell                                          | ✅ | ✅ | ✅ |
 ↳  Stand Alone Complex                                      | ✅ | ✅ | ✅ |
-Handa-kun                                                   | ✅ | ✅ | ✅ |
-Hayate the Combat Butler                                    | ❌ | ❌ | ❌ |
+Handa-kun                                                   | ✅ | ✅ | ❌ |
+<span style="color:red">Hayate the Combat Butler</span>     | ❌ | ❌ | ❌ |
 Highschool of the Dead                                      | ✅ | ❌ | ❌ |
-Horimiya                                                    | ✅ | ✅ | ✅ |
+Horimiya                                                    | ✅ | ✅ | ❌ |
+How to Raise a Boring Girlfriend                            | ✅ | ✅ | ❌ |
 I'm Sakamoto                                                | ✅ | ❌ | ❌ |
 In/Spectre                                                  | ✅ | ✅ | ✅ |
 <span style="color:red">Inu x Boku SS</span>                | ❌ | ❌ | ❌ |
-The Isolator                                                | ✅ | ✅ | ✅ |
+The Isolator                                                | ✅ | ✅ | ❌ |
 Jojo's Bizzare Adventure                                    | ❌ | ✅ | ✅ |
+K-On!                                                       | ✅ | ❌ | ❌ |
+↳  College                                                  | ✅ | ❌ | ❌ |
+↳  High School                                              | ✅ | ❌ | ❌ |
 Kagerou Daze                                                | ✅ | ❌ | ❌ |
-K-On!                                                       | ✅ | ❌ | ✅ |
-↳  College                                                  | ✅ | ❌ | ✅ |
-↳  High School                                              | ✅ | ❌ | ✅ |
+Konosuba                                                    | ✅ | ✅ | ❌ |
 Love Hina                                                   | ✅ | ✅ | ✅ |
+<span style="color:red">Love Live</span>                    | ❌ | ❌ | ❌ |
 Lucky★Star                                                  | ✅ | ✅ | ✅ |
-Mayo Chiki!                                                 | ✅ | ✅ | ❌ |
-Melancholy of Suzumiya Haruhi                               | ✅ | ✅ | ✅ |
-↳  Chan                                                     | ✅ | ✅ | ✅ |
-Merman in My Tub                                            | ✅ | ✅ | ❌ |
+Mayo Chiki!                                                 | ✅ | ✅ | ✅ |
+Magika Swordsman and Summoner                               | ✅ | ✅ | ✅ |
+Melancholy of Suzumiya Haruhi                               | ✅ | ✅ | ❌ |
+↳  Chan                                                     | ✅ | ✅ | ❌ |
+Merman in My Tub                                            | ✅ | ✅ | ✅ |
 Misfortune of Kyon and Koizumi                              | ✅ | ✅ | ❌ |
-Monthly Girls' Nozaki-kun                                   | ✅ | ✅ | ✅ |
+Monthly Girls' Nozaki-kun                                   | ✅ | ✅ | ❌ |
 Mysterious Girlfriend X                                     | ✅ | ✅ | ✅ |
 Negima                                                      | ✅ | ✅ | ✅ |
 Nisekoi                                                     | ❌ | ✅ | ✅ |
-Non Non Biyori                                              | ✅ | ✅ | ❌ |
-<span style="color:red">Ouran High Hosts Club</span>        | ❌ | ❌ | ❌ |
+Non Non Biyori                                              | ✅ | ✅ | ✅ |
+Occultic;Nine                                               | ✅ | ❌ | ✅ |
+One Punch Man                                               | ❌ | ✅ | ✅ |
+Ouran High Hosts Club                                       | ❌ | ❌ | ✅ |
 <span style="color:red">Persona 3</span>                    | ❌ | ❌ | ❌ |
 <span style="color:red">Persona 4</span>                    | ❌ | ❌ | ❌ |
 Persona Q                                                   | ✅ | ✅ | ✅ |
 Rurouni Kenshin                                             | ❌ | ✅ | ✅ |
 ↳  Restoration                                              | ❌ | ✅ | ✅ |
 <span style="color:red">Sailor Moon</span>                  | ❌ | ❌ | ❌ |
-Saki                                                        | ✅ | ✅ | ✅ |
-Seraph of the End                                           | ❌ | ✅ | ✅ |  
-Servant x Service                                           | ✅ | ✅ | ✅ |
+Saki                                                        | ✅ | ✅ | ❌ |
+Sankarea                                                    | ✅ |    |    |
+Seraph of the End                                           | ❌ | ✅ | ✅ |
+Servant x Service                                           | ✅ | ✅ | ❌ |
 <span style="color:red">Shakugan no Shana</span>            | ❌ | ❌ | ❌ |
 Sherlock Bones                                              | ✅ | ✅ | ✅ |
-Soul Eater                                                  | ✅ | ✅ | ✅ |
-↳  NOT!                                                     | ✅ | ✅ | ✅ |
+Soul Eater                                                  | ✅ | ✅ | ❌ |
+↳  NOT!                                                     | ✅ | ✅ | ❌ |
 <span style="color:red">Steins;Gate</span>                  | ❌ | ❌ | ❌ |
 Space Brothers                                              | ✅ | ✅ | ✅ |
+Strike the Blood                                            | ✅ | ✅ | ❌ |
 Sweetness and Lightning                                     | ✅ | ✅ | ✅ |
 Testament of Sister New Devil                               | ❌ | ✅ | ✅ |
 Triage X                                                    | ✅ | ✅ | ✅ |
+Trinity Blood                                               | ✅ | ✅ | ✅ |
 Toppu GP                                                    | ❌ | ✅ | ✅ |
-Trinity Seven                                               | ✅ | ✅ | ✅ |
-Umineko                                                     | ✅ | ✅ | ✅ |
+Tokyo Ghoul                                                 | ❌ | ✅ | ✅ |
+Trinity Seven                                               | ✅ | ✅ | ❌ | 
+Umineko                                                     | ✅ | ✅ | ❌ |
 UQ Holder                                                   | ✅ | ✅ | ✅ |
-Yotsuba                                                     | ✅ | ❌ | ❌ |
-Zero no Tsukaima                                            | ✅ | ❌ | ❌ |
+Yona of the Dawn                                            | ❌ | ✅ | ✅ |
+Yotsuba                                                     | ✅ | ❌ | ✅ |
+Zero no Tsukaima                                            | ✅ | ❌ | ✅ |
 
