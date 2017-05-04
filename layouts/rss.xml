@@ -15,10 +15,10 @@
   <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
   <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
   <description>{{ if eq .Title "Show" }}Slice-of-life podcast of esoteric interests by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/.{{ end }}</description>
-  <copyright>Copyright © 2004–{{ .Date.Format "2006" }} Ruben Schade.</copyright>
-  <language>{{ .Site.LanguageCode }}</language>
+  <copyright>Copyright © 2004–present Ruben Schade.</copyright>
+  <language>{{ .Site.LanguageCode }}</language>{{ if not .Date.IsZero }}
   <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
-  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
   <cloud domain="rpc.rsscloud.io" port="5337" path="/pleaseNotify" registerProcedure="" protocol="http-post" />
@@ -36,7 +36,7 @@
     <itunes:email>me@rubenschade.com</itunes:email>
   </itunes:owner>
   <itunes:keywords>australia,sydney,singapore,life,esoteric,nostalgia,tech,anime,thoughts,time,jazz,ruben,schade,onsug,overnightscape underground</itunes:keywords>
-  <itunes:image href="http://rubenerd.com/itunes-cover.png" />
+  <itunes:image href="http://showfeed.rubenerd.com/itunes-cover.png" />
   <itunes:category text="Society &amp; Culture">
     <itunes:category text="Personal Journals" />
   </itunes:category>
@@ -51,7 +51,7 @@
     <description>{{ if eq .Title "Show" }}An esoteric interest podcast by Ruben Schade{{ else }}By Ruben Schade in s/Singapore/Sydney/{{ end }}.</description>
   </image>
 {{ $type := .Title }}
-{{ range first 20 .Data.Pages }}
+{{ range first 10 .Data.Pages }}
   <item>
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
@@ -68,7 +68,7 @@
 <hr />
 {{ "]]>" | safeHTML }}</content:encoded>
     {{ if eq $type "Show" }}{{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
-    <itunes:summary>{{ .Content | html }}</itunes:summary>
+    <itunes:summary>{{ .Content | replace "Podcast: Play in new window | Download" "" | html }}</itunes:summary>
     <itunes:author>Ruben Schade</itunes:author>
     <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
     <media:content url="{{ .Params.enclosure_file }}" type="{{ .Params.enclosure_type }}" medium="audio" expression="full" isDefault="true" bitrate="{{ .Params.enclosure_bitrate }}" />
