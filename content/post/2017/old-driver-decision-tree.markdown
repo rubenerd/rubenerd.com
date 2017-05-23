@@ -1,7 +1,6 @@
 ---
-draft: true
 title: "Old driver decision tree"
-date: "2017-04-07T10:20:00+10:00"
+date: "2017-05-13T10:20:00+10:00"
 abstract: "It's a painful journey to find old drivers"
 category: Hardware
 tag:
@@ -10,7 +9,7 @@ tag:
 - nostalgia
 - social-networking
 ---
-This is based on my latest adventures updating my [vintage tower]. Bold text denotes a branch end.
+Finding vintage computer hardware for sale online is challenging, but finding drivers is arguably just as difficult. The following tree based on my latest adventures updating my [vintage tower]. Bold text denotes a branch end.
 
 * Search engine acknowledges driver exists
     * Search result is a forum
@@ -23,8 +22,8 @@ This is based on my latest adventures updating my [vintage tower]. Bold text den
         * Requires registration
             * **Download adware**
     * Search result is legitimate download
-        * **Download is not for the OS you specififed**
-        * **Download is not for the hardware you specified**
+        * **It's not for the OS claimed on the site**
+        * **It's not for the hardware claimed on the site**
 * Search engine doesn't have anything for that hardware
     * Decide to trawl eBay
         * **Long shot, but find driver CD or disk**
