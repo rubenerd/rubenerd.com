@@ -158,8 +158,8 @@ convert                                                            \
     "$_BUCKET/$_ID.png"                                            \
     "$_BUCKET/$_ID.jpg"
 
-pngcrush -brute -ow "$_BUCKET/${_ID}.png"
-pngcrush -brute -ow "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
+pngcrush -ow "$_BUCKET/${_ID}.png"
+pngcrush -ow "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 jpegoptim --preserve --totals --verbose "$_BUCKET/${_ID}.jpg"
 
 
@@ -263,12 +263,13 @@ cat > "$_EPISODES/show$_NUMBER.html" <<EOF
 ---
 title: "$_SHOW $_NUMBER: $_TITLE"
 date: "$_DATE_TIME"
-summary: "$_TITLE"
-enclosure_FILE: "https://archive.org/download/$_ID/$_ID.mp3"
-enclosure_SIZE: "$_SIZE"
+abstract: "$_TITLE"
+thumb: "https://archive.org/download/$_ID/$_ID.png"
+enclosure_file: "https://archive.org/download/$_ID/$_ID.mp3"
+enclosure_size: "$_SIZE"
 enclosure_type: "audio/mpeg"
-enclosure_DURATION: "$_DURATION"
-_LOCATION: "$_LOCATION"
+enclosure_duration: "$_DURATION"
+location: "$_LOCATION"
 category: Show
 tag:
 - audio-magazine
