@@ -68,7 +68,7 @@
 <hr />
 {{ "]]>" | safeHTML }}</content:encoded>
     {{ if eq $type "Show" }}{{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
-    <itunes:summary>{{ .Content | replace "Podcast: Play in new window | Download" "" | html }}</itunes:summary>
+    <itunes:summary>{{ .Content | chomp | html }}</itunes:summary>
     <itunes:author>Ruben Schade</itunes:author>
     <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
     <media:content url="{{ .Params.enclosure_file }}" type="{{ .Params.enclosure_type }}" medium="audio" expression="full" isDefault="true" bitrate="{{ .Params.enclosure_bitrate }}" />
