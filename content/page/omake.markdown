@@ -14,11 +14,14 @@ Omake is extra in Japanese, and is used in fandom to refer to bonus content incl
 * [Recommended](./recommended/): Books, manga, podcasts
 * [Search engines](./search-engines/): My list of HTTPS-enabled search engines
 
-### Projects
+### Decluttering
 
+* [CD-ROM archive](./cdrom-archive): Outsourcing my once-gigantic collection on Archive.org
 * [eBook manga](./ebook-manga/): What legal, electronic manga is available where
 * [Mini-ITX cases](./mini-itx/): The best tiny cases for a "game console" PC
 * [NAS cases](./nas-cases/): The best cases and enclosures for NAS builds
+
+### Projects
 * [WikiProject Jazz](./wikiproject-jazz/): Pages for Wikipedia's jazz catalogue
 
 ### PCPartPicker Builds
