@@ -1,6 +1,7 @@
 .DS_Store
 public
 public/
+*.tar
 *.swp
 *.swo
 metadata/*aria2
