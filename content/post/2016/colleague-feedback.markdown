@@ -1,8 +1,9 @@
 ---
 title: "Colleague feedback"
 date: "2016-12-16T16:21:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - personal
 - weblog
 ---

@@ -1,8 +1,9 @@
 ---
 title: "The iPhone 7"
 date: "2016-09-08T10:15:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - apple
 - audio
 - design

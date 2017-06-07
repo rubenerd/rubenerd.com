@@ -2,8 +2,9 @@
 title: "Venture capital firm spam"
 date: "2016-02-27T22:19:00+11:00"
 abstract: "$100 million from an AOL account!"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - spam
 ---
 Fastmail does a great job with most spam, but every now and then a piece makes it through the cracks. And they're almost always wonderful.

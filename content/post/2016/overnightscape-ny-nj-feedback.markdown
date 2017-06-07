@@ -2,8 +2,9 @@
 draft: true
 title: "Overnightscape NY/NJ feedback"
 date: "2016-12-19T11:52:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - comments
 - personal
 ---

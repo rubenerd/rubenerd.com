@@ -2,8 +2,9 @@
 title: "Facebook like-buying #Spam"
 date: "2015-11-26T13:41:00+10:00"
 abstract: "And what’s wrong with Turkish likes?"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - facebook
 - spam
 ---

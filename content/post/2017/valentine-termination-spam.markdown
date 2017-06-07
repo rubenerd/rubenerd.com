@@ -2,8 +2,9 @@
 title: "Valentine termination spam"
 date: "2017-02-06T18:01:00+10:00"
 abstract: "The dichotomy in this spam is amazing."
-category: Internet
+category: Infocomm
 tag:
+- internet
 - spam
 ---
 The dichotomy in this spam is amazing.

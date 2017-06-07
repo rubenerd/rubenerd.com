@@ -2,8 +2,9 @@
 title: "The most 21st century paragraph ever"
 date: "2017-02-07T18:26:00+10:00"
 abstract: "Blockchain meets Harry Potter"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - bitcoin
 - harry-potter
 ---

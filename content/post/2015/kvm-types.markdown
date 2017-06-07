@@ -2,8 +2,9 @@
 title: "Something to do with KVMs"
 date: "2015-10-27T10:00:00+10:00"
 abstract: "A quick table of KVMs and their capabilities"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - kvms
 ---
 | KVM                         | Input        | Video | Switching        | Notes           |

@@ -3,8 +3,9 @@ title: "Norfolk Island, I can't handle your birds"
 date: "2017-01-08T18:46:00+10:00"
 abstract: "The Gannet and White Tern are some of the most adorable birds I've ever seen."
 thumb: "https://rubenerd.com/files/2017/Norfolk_Island_white_turn_chick.jpg"
-category: Media
+category: Thoughts
 tag:
+- media
 - nature
 - norfolk-island
 - photopgraphy

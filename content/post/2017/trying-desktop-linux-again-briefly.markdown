@@ -2,7 +2,7 @@
 draft: true
 title: "Trying desktop Linux again, briefly"
 date: "2017-01-04T18:13:00+10:00"
-category: Software
+category: Infocomm
 ---
 Over the Christmas break, I thought it'd be fun to try dual-booting a  Linux distro on my purpose-built game machine. There were tons of reasons, but these were the primary ones:
 

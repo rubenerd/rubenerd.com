@@ -1,8 +1,9 @@
 ---
 title: "Alternative Let’s Encrypt Clients"
 date: "2016-07-15T14:20:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - bsd
 - freebsd
 - lets-encrypt

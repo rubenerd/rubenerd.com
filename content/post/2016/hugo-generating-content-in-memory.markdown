@@ -1,8 +1,9 @@
 ---
 title: "Hugo generating content in memory"
 date: "2016-07-19T11:17:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - gohugo
 - weblog
 ---

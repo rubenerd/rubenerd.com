@@ -2,8 +2,9 @@
 title: "The @Stilgherrian on fake news"
 date: "2017-04-07T12:28:00+10:00"
 abstract: "Call fake news for what it is"
-category: Media
+category: Thoughts
 tag:
+- media
 - news
 - podcasting
 - stilgherrian

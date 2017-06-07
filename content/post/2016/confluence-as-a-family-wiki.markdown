@@ -1,8 +1,9 @@
 ---
 title: "Confluence as a family wiki"
 date: "2016-08-05T22:55:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - atlassian
 - confluence
 - guides

@@ -3,8 +3,9 @@ draft: true
 title: "Bandwidth Monitor Next-Generation"
 date: "2017-02-27T14:36:00+10:00"
 abstract: "There are lots of bandwidth monitoring tools, and bwm-ng is a nice one."
-category: Software
+category: Infocomm
 tag:
+- software
 - bsd
 - debian
 - freebsd

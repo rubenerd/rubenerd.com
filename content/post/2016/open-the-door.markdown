@@ -1,8 +1,9 @@
 ---
 title: "Open the Door (-문을 여시오)"
 date: "2016-10-24T11:53:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - korea
 - music
 ---

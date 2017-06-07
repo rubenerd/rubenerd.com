@@ -2,8 +2,9 @@
 title: "Can't use rbenv–installed Ruby?"
 date: "2015-11-04T15:43:00+10:00"
 abstract: "Forgot to issue rbenv local!"
-category: Software
+category: Infocomm
 tag:
+- software
 - package-managers
 - ruby
 ---

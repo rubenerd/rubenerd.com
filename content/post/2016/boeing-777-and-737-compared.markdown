@@ -1,8 +1,9 @@
 ---
 title: "Boeing 777 and narrow-bodies compared"
 date: "2016-11-29T14:34:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - aviation
 - boeing
 - boeing-777

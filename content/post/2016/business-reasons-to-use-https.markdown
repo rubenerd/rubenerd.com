@@ -1,8 +1,9 @@
 ---
 title: "Reasons to use HTTPS"
 date: "2016-12-13T14:26:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - browsers
 - https
 - privacy

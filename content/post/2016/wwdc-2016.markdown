@@ -1,8 +1,9 @@
 ---
 title: "WWDC 2016"
 date: "2016-06-16T13:53:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - apple
 - iphone
 - macos

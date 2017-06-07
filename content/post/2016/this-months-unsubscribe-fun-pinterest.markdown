@@ -2,8 +2,9 @@
 title: "This month's unsubscribe fun: Pinterest"
 date: "2016-01-03T11:52:00+10:00"
 abstract: "An unsubscribe link that they say you can't use!"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - newsletters
 - pinterest
 - spam

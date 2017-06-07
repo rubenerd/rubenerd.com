@@ -3,8 +3,9 @@ draft: true
 title: "Windows 3.1 Cardfile"
 date: "2017-04-07T08:39:00+10:00"
 abstract: "Remeber Cardfile? I used tons of these!"
-category: Software
+category: Infocomm
 tag:
+- software
 - cardfile
 - notational-velocity
 - nvalt

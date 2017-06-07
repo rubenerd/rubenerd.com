@@ -3,8 +3,9 @@ draft: true
 title: "Rubénerd had an expired cert yesterday"
 date: "2017-02-13T07:57:00+10:00"
 abstract: "Whoops."
-category: Internet
+category: Infocomm
 tag:
+- internet
 - letsencrypt
 - weblog
 ---

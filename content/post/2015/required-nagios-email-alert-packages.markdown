@@ -2,8 +2,9 @@
 title: "Required Nagios email alert packages"
 date: "2015-11-25T16:04:00+10:00"
 abstract: "Install postfix and heirloom-mailx"
-category: Software
-tag: 
+category: Infocomm
+tag:
+- software 
 - bsd
 - debian
 - freebsd

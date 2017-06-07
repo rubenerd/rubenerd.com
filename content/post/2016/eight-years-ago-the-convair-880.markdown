@@ -3,8 +3,9 @@ draft: true
 title: "Eight years ago, the Convair 880"
 date: "2016-09-29T16:04:00+10:00"
 abstract: "Bolted-on aviation deck chairs were a thing"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - aviation
 - convair-880
 - weblog

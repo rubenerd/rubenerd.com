@@ -2,8 +2,9 @@
 title: "You’re not part of the problem if you criticise FTTN"
 date: "2015-10-22T11:49:00+10:00"
 abstract: "Despite what others may assert"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - politics
 ---

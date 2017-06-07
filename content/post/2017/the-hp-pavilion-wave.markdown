@@ -2,8 +2,9 @@
 title: "The HP Pavilion Wave"
 date: "2017-04-08T16:33:00+10:00"
 abstract: "Speaking of the Mac Pro..."
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - desktops
 - hp
 - mac-pro

@@ -2,8 +2,9 @@
 title: "VirtualBox guest additions in Fedora 25"
 date: "2017-05-15T13:42:00+10:00"
 abstract: "Maybe you'll have better luck than me"
-category: Software
+category: Infocomm
 tag:
+- software
 - fedora
 - linux
 - troubleshooting

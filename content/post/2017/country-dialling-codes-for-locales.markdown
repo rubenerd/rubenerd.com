@@ -3,8 +3,9 @@ draft: true
 title: "Country dialling codes for locales"
 date: "2017-03-08T16:26:00+10:00"
 abstract: "I love when disparate data sets corrolate!"
-category: Software
+category: Infocomm
 tag:
+- software
 - australia
 - dos
 - freedos

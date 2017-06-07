@@ -1,8 +1,9 @@
 ---
 title: "Choosing a minimalistic Mini-ITX case"
 date: "2016-05-07T10:17:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - cases
 - diy
 - mini-itx

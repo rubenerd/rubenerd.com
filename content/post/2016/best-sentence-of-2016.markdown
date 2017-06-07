@@ -2,8 +2,9 @@
 title: "The best thesaurus sentence of 2016"
 date: "2016-01-08T11:15:00+10:00"
 abstract: "World opinion and bellicose triumphalism"
-category: Media
+category: Thoughts
 tag:
+- media
 - journalism
 - korea
 - language

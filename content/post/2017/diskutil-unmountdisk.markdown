@@ -2,8 +2,9 @@
 title: "diskutil unmountDisk"
 date: "2017-04-21T16:14:00+10:00"
 abstract: "So much easier than multiple unmounts."
-category: Software
+category: Infocomm
 tag:
+- software
 - apple
 - guides
 - mac-os-x

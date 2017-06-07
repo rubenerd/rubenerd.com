@@ -2,8 +2,9 @@
 draft: true
 title: "Collecting American licence plates"
 date: "2016-10-24T12:44:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - nynjph
 - pointless
 - travel

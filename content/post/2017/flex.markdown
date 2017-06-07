@@ -2,8 +2,9 @@
 title: "Flex"
 date: "2017-05-02T08:43:09+10:00"
 abstract: "It's tables all the way down"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - css
 - html
 ---

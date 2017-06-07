@@ -1,8 +1,9 @@
 ---
 title: "No offline OneNote"
 date: "2016-09-09T16:53:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - microsoft
 - microsoft-office
 - onenote

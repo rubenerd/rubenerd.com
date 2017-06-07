@@ -1,8 +1,9 @@
 ---
 title: "Australian privacy, NBN net neutrality, and other news"
 date: "2015-11-24T17:01:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - politics
 - privacy

@@ -2,8 +2,9 @@
 title: "Won't Get Fooled Again"
 date: "2016-04-01T11:46:00+10:00"
 abstract: "Happy April Fools"
-category: Media
+category: Thoughts
 tag:
+- media
 - music
 - the-who
 ---

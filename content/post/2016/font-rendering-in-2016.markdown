@@ -2,8 +2,9 @@
 draft: true
 title: "Font rendering in 2016"
 date: "2016-08-12T08:31:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - design
 - fonts
 - windows

@@ -2,8 +2,9 @@
 title: "Melbourne IT on graceful degradation"
 abstract: "Or why not to use JavaScript to load content"
 date: "2016-03-23T10:16:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - design
 - javascript

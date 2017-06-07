@@ -1,8 +1,9 @@
 ---
 title: "Vivaldi gets some 1Password love"
 date: "2016-06-06T11:35:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - 1password
 - passwords
 - security

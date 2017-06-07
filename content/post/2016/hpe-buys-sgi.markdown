@@ -1,8 +1,9 @@
 ---
 title: "HPE buys SGI"
 date: "2016-08-17T13:57:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - business
 - hp
 - hpe

@@ -1,8 +1,9 @@
 ---
 title: "Moving from del.ici.ous to Pinboard"
 date: "2016-09-14T11:43:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - delicious
 - pinboard
 ---

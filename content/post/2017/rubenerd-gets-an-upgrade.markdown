@@ -3,8 +3,9 @@ draft: true
 title: "Rubénerd gets an upgrade"
 date: "2017-03-04T10:19:00+10:00"
 abstract: "Incidental news if ever there was any, but exciting."
-category: Internet
+category: Infocomm
 tag:
+- internet
 - cloud
 - joviam
 ---

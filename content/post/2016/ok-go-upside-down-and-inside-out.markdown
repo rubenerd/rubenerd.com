@@ -1,8 +1,9 @@
 ---
 title: "OK Go: Upside Down & Inside Out"
 date: "2016-05-12T10:30:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - colour
 - music
 - music-videos

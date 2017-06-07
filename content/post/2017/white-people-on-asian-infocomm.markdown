@@ -2,8 +2,9 @@
 title: "White people on Asian infocomm"
 date: "2017-05-17T08:30:00+10:00"
 abstract: "It's getting embarrassing"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - blogging
 - news
 ---

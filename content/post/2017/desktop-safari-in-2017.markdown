@@ -2,8 +2,9 @@
 title: "Safari in 2017"
 abstract: "It's getting closer to being usable"
 date: "2017-03-15T16:28:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - browsers
 - mac-os-x
 - macos

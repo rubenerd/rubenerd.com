@@ -1,8 +1,9 @@
 ---
 title: "USB aquarium alarm clock pen holder light"
 date: "2016-09-10T16:06:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - clocks
 - pointless
 ---

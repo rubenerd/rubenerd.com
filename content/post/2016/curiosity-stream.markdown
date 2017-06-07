@@ -2,8 +2,9 @@
 title: "Curiosity Stream"
 date: "2016-03-12T09:47:00+10:00"
 abstract: "More Michio Kaku, less Deepak Chopra please"
-category: Media
+category: Thoughts
 tag:
+- media
 - michio-kaku
 - science
 - streaming

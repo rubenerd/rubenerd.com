@@ -3,8 +3,9 @@ draft: true
 title: "When password character limits attack"
 date: "2016-03-18T08:22:00+10:00"
 abstract: "For long passwords, this makes no sense"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - passwords
 - security

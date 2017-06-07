@@ -2,8 +2,9 @@
 title: "Safari Technology Preview"
 date: "2016-04-09T10:09:13+10:00"
 abstract: "Downloadable from the App Store now"
-category: Software
+category: Infocomm
 tag:
+- software
 - browsers
 - safari
 ---

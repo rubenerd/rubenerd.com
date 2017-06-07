@@ -2,8 +2,9 @@
 title: "ssh, sftp, scp, tftp port fun"
 date: "2016-04-09T10:01:00+10:00"
 abstract: "Slash dot dash dot inconsistent"
-category: Software
+category: Infocomm
 tag:
+- software
 - ftp
 - scp
 - sftp

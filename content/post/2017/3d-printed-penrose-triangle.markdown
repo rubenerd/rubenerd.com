@@ -3,8 +3,9 @@ title: "3D-printed Penrose Triangle"
 date: "2017-02-07T11:41:00+10:00"
 abstract: "Finally, a use for a 3D printer!"
 thumb: ""
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - 3d-printing
 - art
 - impossible-drawings

@@ -1,8 +1,9 @@
 ---
 title: "The NSG uClean LD-1420 HMT"
 date: "2016-12-07T08:41:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - industrial-cleaning
 - pointless
 ---

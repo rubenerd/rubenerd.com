@@ -2,8 +2,9 @@
 title: "Case-insensitive file systems aren't clear cut"
 date: "2016-12-10T10:48:00+10:00"
 abstract: "Means different things in different contexts"
-category: Software
+category: Infocomm
 tag:
+- software
 - bsd
 - file-systems
 - freebsd

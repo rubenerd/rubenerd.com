@@ -3,8 +3,9 @@ draft: true
 title: "Looping Vimeo videos"
 date: "2017-05-12T16:37:00+10:00"
 abstract: "But what if we wanted it to loop?"
-category: Media
+category: Thoughts
 tag:
+- media
 - video
 - vimeo
 ---

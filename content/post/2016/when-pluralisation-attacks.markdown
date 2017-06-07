@@ -2,8 +2,9 @@
 title: "When pluralisation attacks"
 date: "2016-03-18T15:50:00+10:00"
 abstract: "It’s virtualbox-extension-pack, not extensions!"
-category: Software
+category: Infocomm
 tag:
+- software
 - virtualbox
 - virtualisation
 - when-x-attacks

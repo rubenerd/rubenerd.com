@@ -2,8 +2,9 @@
 title: "Record answers for Apple secret questions"
 date: "2017-02-11T10:44:00+10:00"
 abstract: "They use them as de facto passwords"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - apple
 - authentication
 - software-gore

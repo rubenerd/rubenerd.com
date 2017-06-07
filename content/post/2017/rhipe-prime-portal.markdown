@@ -2,8 +2,9 @@
 title: "Rhipe Prime Portal"
 date: "2017-02-14T10:04:00+10:00"
 abstract: "Somehow, their stock photo guy looks less than impressed"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - channel
 - cloud-computing

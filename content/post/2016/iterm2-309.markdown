@@ -1,8 +1,9 @@
 ---
 title: "iTerm2 3.0.9"
 date: "2016-09-13T13:33:36+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - iterm
 - terminal
 ---

@@ -1,9 +1,9 @@
 ---
-layout: post
 title: 'Jekyll 1.5.1 likes my timezones again' 
 date: "2014-04-05T11:31:04+10:00"
-category: Software 
-tag: 
+category: Infocomm 
+tag:
+- software 
 - blogging
 - jekyll
 - timestamps
@@ -14,7 +14,6 @@ tag:
 <p style="font-style:italic">(To be fair, Jekyll still performs far better than WordPress ever did for timezones, particularly when I was living in Singapore and studying in Adelaide, Australia. My late night SQL adventures with <strong>that</strong> are for another post).</p>
 <p>My solution, at the time, was to bypass the bug by moving the offending timezone to its own front matter &#8220;tz&#8221; attribute. This necessitated adding extra post.tz Liquid markup everywhere where dates were handled, then writing a custom date mask that didn’t convert the time to UTC, but supressing the automatically added timezone. <a title="Rubénerd: Jekyll timezones" href="//rubenerd.com/jekyll-timezones/">It was a horrible hack</a>, but it worked:</p>
 <pre>
-layout: post
 title: "Clara and Ruben's Singapore-KL-Tokyo-Seoul-HK-Taipei trip"
 date: "2014-04-05T11:33:10
 tz: "+1100"
@@ -23,7 +22,6 @@ hash: [goop]
 <p>With the most recent 1.5.1 release, I noticed most of my posts were off by a day. It prevented me writing my post yesterday, on account of not wanting to mess up timestamps for thousands of posts.</p>
 <p>Fortunately, this failure was for a wondrous reason; Jekyll now recognises my timezones again! A quick regex to remove text and a newline, regenerate my post hashes, and my dates are now properly parsed:</p>
 <pre>
-layout: post
 title: "Clara and Ruben's Singapore-KL-Tokyo-Seoul-HK-Taipei trip"
 date: "2014-04-05T11:33:10+1100
 hash: [different goop]

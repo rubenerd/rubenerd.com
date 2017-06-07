@@ -2,8 +2,9 @@
 title: "Atlassian, I am disappoint"
 date: "2017-02-11T12:55:00+10:00"
 abstract: "Why do I need third-party cookies?"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - atlassian
 - confluence
 - errors

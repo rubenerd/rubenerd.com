@@ -2,8 +2,9 @@
 draft: true
 title: "The Rubénerd @1999io server"
 date: "2016-09-21T16:42:00+10:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - software
 ---
 

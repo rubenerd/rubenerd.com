@@ -2,8 +2,9 @@
 title: "Recommended for you!"
 abstract: "I don't think this is what Martin Luther King had in mind!"
 date: "2016-10-28T10:25:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - advertising
 ---
 *Recommended For You* links are the latest in a proud tradition of web annoyances. They don't interrupt us like Web 1.0 popups or CSS lightboxes asking for newsletter subscriptions, but they're just as disrepectful and tasteless.

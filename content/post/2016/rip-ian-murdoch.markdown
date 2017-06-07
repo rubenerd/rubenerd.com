@@ -2,8 +2,9 @@
 title: "Rest in peace, Ian Murdoch"
 date: "2016-01-01T09:02:00+10:00"
 abstract: "The founder of the Debian project left us late December"
-category: Software
+category: Infocomm
 tag:
+- software
 - debian
 - rip
 ---

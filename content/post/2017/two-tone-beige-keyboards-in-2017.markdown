@@ -2,8 +2,9 @@
 title: "Two-tone beige keyboards in 2017"
 date: "2017-01-03T14:32:00+10:00"
 abstract: "As far as I know, they no longer exist"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - keyboards
 ---
 <p><img src="https://rubenerd.com/files/2017/unicomp-twotone.jpg" alt="Unicomp Ultrra Classic keyboard" style="width:400px; height:240px;" srcset="https://rubenerd.com/files/2017/unicomp-twotone.jpg 1x, https://rubenerd.com/files/2017/unicomp-twotone@2x.jpg 2x" /></p>

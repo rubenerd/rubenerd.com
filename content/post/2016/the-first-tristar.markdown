@@ -1,8 +1,9 @@
 ---
 title: "The first Lockheed L-1011 TriStar"
 date: "2016-09-13T21:09:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - aviation
 - aircraft
 - design

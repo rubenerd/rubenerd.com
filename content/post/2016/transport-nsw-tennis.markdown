@@ -1,8 +1,9 @@
 ---
 title: "Transport NSW Australian Tennis"
 date: "2016-04-08T09:44:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - australia
 - graphics
 - logos

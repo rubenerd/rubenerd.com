@@ -2,8 +2,9 @@
 draft: true
 title: "Upgrading my NAS setup"
 date: "2017-01-06T11:16:00+10:00"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - hp-microservers
 - nas
 ---

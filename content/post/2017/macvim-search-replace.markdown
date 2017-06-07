@@ -1,8 +1,9 @@
 ---
 title: "MacVim's search replace"
 date: "2017-01-14T10:34:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - editors
 - macvim
 - vim

@@ -2,8 +2,9 @@
 title: "MIT algorithm for page speed"
 date: "2016-03-10T10:19:00+10:00"
 abstract: "Attacking symptoms"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - javascript
 - noscript
 ---

@@ -2,8 +2,9 @@
 title: "The Rubénerd Show is back on iTunes"
 date: "2017-05-11T11:01:00+10:00"
 abstract: ""
-category: Media
+category: Thoughts
 tag:
+- media
 - apple
 - itunes
 - podcasting

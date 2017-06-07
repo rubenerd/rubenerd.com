@@ -2,8 +2,9 @@
 title: "Old driver decision tree"
 date: "2017-05-13T10:20:00+10:00"
 abstract: "It's a painful journey to find old drivers"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - drivers
 - forums
 - nostalgia

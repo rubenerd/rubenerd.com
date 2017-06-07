@@ -2,8 +2,9 @@
 title: "Keep it simple, Ansible"
 date: "2017-03-26T11:29:00+10:00"
 abstract: "If something feels complicated, it probably is"
-category: Software
+category: Infocomm
 tag:
+- software
 - ansible
 - bsd
 - freebsd

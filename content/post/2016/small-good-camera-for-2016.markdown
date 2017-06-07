@@ -2,8 +2,9 @@
 draft: true
 title: "Small, good camera for 2016"
 date: "2016-08-30T10:54:00+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - photography
 ---
 I adore my Nikon D60 DSLR, but my iPhone's appreciably worse camera gets more use because I always have it. With an epic trip approaching, I decided to check out whether I should lug it with me, change the lens, or replace it entirely.

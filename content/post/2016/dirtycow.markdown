@@ -1,8 +1,9 @@
 ---
 title: "DirtyCOW"
 date: "2016-10-24T15:14:00+10:00"
-category: Software
-tag: 
+category: Infocomm
+tag:
+- software 
 - linux
 - security
 ---

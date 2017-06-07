@@ -2,8 +2,9 @@
 title: "Civil use of Australia's mandatory metadata"
 date: "2017-01-26T21:39:00+10:00"
 abstract: "Or when George Brandis said it wouldn't be used as such"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - australia
 - politics
 ---

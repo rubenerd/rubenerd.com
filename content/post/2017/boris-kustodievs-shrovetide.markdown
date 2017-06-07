@@ -2,8 +2,9 @@
 title: "Boris Kustodiev’s Shrovetide"
 date: "2017-02-13T08:39:00+10:00"
 abstract: "One of my favourite paintings of all time."
-category: Media
+category: Thoughts
 tag:
+- media
 - art
 - boris-kustodiev
 - colour

@@ -1,8 +1,9 @@
 ---
 title: "Singapore nostalgia at Equinix"
 date: "2016-08-04T08:25:04+10:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - 1990s
 - equinix
 - photos

@@ -2,8 +2,9 @@
 title: "Mr John Clarke, one of the great satirists"
 date: "2017-05-02T08:25:00+10:00"
 abstract: "Thanks for your time"
-category: Media
+category: Thoughts
 tag:
+- media
 - australia
 - clark-and-dawe
 - new-zealand

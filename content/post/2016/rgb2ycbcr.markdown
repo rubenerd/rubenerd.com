@@ -1,8 +1,9 @@
 ---
 title: "rgb2ycbcr and rgrep"
 date: "2016-09-05T08:41:00+10:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - bsd
 - freebsd
 - grep

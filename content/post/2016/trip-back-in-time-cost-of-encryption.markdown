@@ -1,8 +1,9 @@
 ---
 title: "Trip back in time: cost of encryption"
 date: "2016-12-14T12:09:00+10:00"
-category: Internet
-tag: 
+category: Infocomm
+tag:
+- internet 
 - old-drafts
 - encryption
 - privacy

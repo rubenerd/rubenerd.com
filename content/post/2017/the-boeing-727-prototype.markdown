@@ -2,8 +2,9 @@
 title: "The Boeing 727 prototype"
 date: "2017-01-05T08:34:00+10:00"
 abstract: "The paint scheme and classic design were something else!"
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - aviation
 - boeing
 - boeing-727

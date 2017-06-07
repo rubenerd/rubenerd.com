@@ -3,8 +3,9 @@ draft: true
 title: "Thanks, Linux tools ♡"
 date: "2017-04-30T11:35:11+10:00"
 abstract: "These tools saved my weekend"
-category: Software
+category: Infocomm
 tag:
+- software
 - grub
 - linux
 - partitions

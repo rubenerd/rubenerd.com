@@ -2,8 +2,9 @@
 title: "Women in IT on Slashdot"
 date: "2016-10-27T15:56:10+10:00"
 abstract: "Someone has actually thought about the issue of women in IT"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - news
 - slashdot
 - women-in-it

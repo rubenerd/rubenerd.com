@@ -2,8 +2,9 @@
 title: "On the size of the Commodore 128"
 date: "2017-02-04T12:44:00+10:00"
 abstract: "Mind. Blown."
-category: Hardware
+category: Infocomm
 tag:
+- hardware
 - 1980s
 - commodore
 - commodore-128
