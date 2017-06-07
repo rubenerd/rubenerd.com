@@ -1,8 +1,9 @@
 ---
 title: "Rubenerd lame encoding"
 date: "2007-12-14T18:19:00+00:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - audio
 - audio-magazines
 - from-tumblr

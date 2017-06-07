@@ -2,8 +2,9 @@
 title: "Mewtwo"
 date: "2010-10-16T12:38:12+00:00"
 source: "https://rubenerd.tumblr.com/post/1324136333"
-category: Media
+category: Thoughts
 tag:
+- media
 - cards
 - from-tumblr
 - games

@@ -2,8 +2,9 @@
 title: "Cheesy!"
 date: "2010-10-10T00:03:35+00:00"
 source: "https://rubenerd.tumblr.com/post/1275747773"
-category: Media
+category: Thoughts
 tag:
+- media
 - cheese
 - food
 - from-tumblr

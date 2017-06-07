@@ -1,8 +1,9 @@
 ---
 title: "Anthropic principle"
 date: "2007-12-15T17:19:07+00:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - from-tumblr
 - philosophy
 - science

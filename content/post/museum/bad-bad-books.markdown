@@ -1,8 +1,9 @@
 ---
 title: "Bad, Bad Books!"
 date: "2007-11-28T19:31:45+00:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - books
 - from-tumblr
 ---

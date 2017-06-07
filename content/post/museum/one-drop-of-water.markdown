@@ -2,8 +2,9 @@
 title: "One drop of water"
 date: "2010-10-11T23:41:02+00:00"
 source: "https://rubenerd.tumblr.com/post/1290923288"
-category: Media
+category: Thoughts
 tag:
+- media
 - from-tumblr
 - helvetica
 - philosophy

@@ -1,8 +1,9 @@
 ---
 title: "Flight of the Conchords poster"
 date: "2010-10-09T00:55:30+00:00"
-category: Media
+category: Thoughts
 tag:
+- media
 - from-tumblr
 - new-zealand
 - television
