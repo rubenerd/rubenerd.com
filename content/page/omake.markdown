@@ -2,29 +2,36 @@
 layout: page
 title: "Omake"
 ---
-Omake is extra in Japanese, and is used in fandom to refer to bonus content included in magazines, etc. Seemed a fitting title for my wiki thing here. 
+*Omake* is an oft-abused Japanese [term] used for bonus or extra content. It seemed like a fitting title for this.
 
-### General
+### Other Weblogs
 
-* [Blogroll](./blogroll/): Friends, blogs you should be reading
-* [Coffee](./coffee/): Best brews in Sydney, and maybe other places
-* [Engine room](./engine-room/): What runs *Rubénerd*
-* [People using my photos](./people-using-my-photos): Creative Commons takes you far
-* [Plugins](./plugins): Useful extensions for Firefox and Safari
-* [Recommended](./recommended/): Books, manga, podcasts
-* [Search engines](./search-engines/): My list of HTTPS-enabled search engines
+* [Annexe](http://annexe.rubenerd.com/), stuff that doesn't fit anywhere else
+* [Github Gists](https://gist.github.com/Rubenerd), my code and script snippets
+* [Penguin Coffee](http://penguincoffee.net), Clara's and my anime Tumblr
+* [Museum](/museum/), imported posts from dead/retired services
+* [Pinboard](https://pinboard.in/u:Rubenerd), my link blog, previously [del.icio.us](https://del.icio.us/rubenerd)
+* [Unsub Me Already](http://unsub.rubenerd.com/), chronicling my email (mis)adventures 
 
-### Decluttering
+### Lists
 
-* [CD-ROM archive](./cdrom-archive): Outsourcing my once-gigantic collection on Archive.org
-* [eBook manga](./ebook-manga/): What legal, electronic manga is available where
-* [Mini-ITX cases](./mini-itx/): The best tiny cases for a "game console" PC
-* [NAS cases](./nas-cases/): The best cases and enclosures for NAS builds
+* [Blogroll](/omake/blogroll/), lovely people and sites you should read
+* [CD-ROM archive](/omake/cdrom-archive), outsourcing my collection to Archive.org
+* [Coffee](/omake/coffee/), my list of the best brews
+* [eBook manga](/omake/ebook-manga/), availabilty to replace my dead trees 
+* [Engine room](/omake/engine-room/), what powers Rubénerd, and how its written
+* [Mini-ITX](/omake/mini-itx), matrix of the best tiny, space saving cases
+* [NAS computer cases](/omake/nas-cases/), research for my consolidated NAS
+* [People using my photos](/omake/people-using-my-photos/), mostly from Creative Commons
+* [Plugins](/omake/plugins/), for Firefox and Safari
+* [Recommended](/omake/recommended/), books, manga, podcasts, maybe eventually more
+* [Search engines](/omake/search-engines/), all on one page
 
-### Projects
-* [WikiProject Jazz](./wikiproject-jazz/): Pages for Wikipedia's jazz catalogue
+### Other Projects
 
-### PCPartPicker Builds
-* [Tsuruya](https://pcpartpicker.com/user/rubenerd/saved/4yc323): My budget game machine for world builders
-* [Mizuno](https://pcpartpicker.com/user/rubenerd/saved/3n3qqs): Restoring the first PC I built as a kid in 1998
+* [Mizuno on PCPartPicker](https://pcpartpicker.com/user/rubenerd/saved/3n3qqs), restoring my first computer from 1998
+* [Tsuruya on PCPartPicker](https://pcpartpicker.com/user/rubenerd/saved/4yc323), my budget game machine build
+* [WikiProject Jazz](/omake/wikiproject-jazz/), on Wikipedia
+
+[term]: https://en.wiktionary.org/wiki/omake
 
