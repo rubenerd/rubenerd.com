@@ -343,12 +343,6 @@ echo "collection,contributor,coverage,creator,date,description,duration,language
 
 echo "$_COLLECTION,$_HOST,$_LOCATION,$_HOST,$_DATE_UTC,$_IA_DESCRIPTION,$_DURATION,$_MARC_LANGUAGE,$_LICENCE_URL,audio,$_DURATION,Rubenerd Podcast Uploader 5000,audio magazine,internet radio show,new time radio,onsug,overnightscape underground,podcasts,recorded in $_CITY,$_SUBJECT,$_SHOW $_NUMBER: $_TITLE,$_YEAR" >> "$_ID.csv"
 
-internet_archive_upload "$_ID"
-
-exit
-
-#################################################################################
-
 ia upload                                                \
     "$_ID"                                               \
     "$_ID.mp3"                                           \
