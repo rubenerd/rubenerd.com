@@ -5,35 +5,17 @@
 
 <article id="post" property="blogPost" typeof="BlogPosting">
   <h2 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <small class="postMeta"><time property="datePublished"
-    datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}">{{ .Date.Format "Monday 02 January 2006" }}</time></small>
   <div property="articleBody">{{ .Content }}</div>
+  <small class="postMeta">{{ printf "<time property=\"datePublished\" datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
+    {{ .Date.Format "Monday 02 January 2006" }}
+  </time>{{ with .Params.Category }} in <a href="/{{ . | urlize }}/">{{ . }}</a></small>{{ end }}
 </article>
 <hr />
 
-<div class="secondary">
-  <h2>Imprint</h2>
-  <p>This is one of about 5000 posts on <em>{{ .Site.Title }}</em>. View the 
-    <a href="/">home page</a> for the latest, or related posts also tagged with:</p>
-  <ul>
-    {{ if .Params.category }}<li><a href="/{{ .Params.category | urlize }}/">{{ .Params.category | lower }}</a></li>{{ end }}
-  {{ range .Params.tag }}
-    <li id="tag-{{ . | urlize }}"><a href="/tag/{{ . | urlize }}/">{{ . | lower }}</a></li> {{ end }}
-  </ul>
-  <p>If you liked this post, feel free to 
-    <a href="{{ .Site.Params.buyCoffee }}">buy me a coffee</a>, leave me a comment
-    on <a href="{{ .Site.Params.ownerTwitterURL }}">Twitter</a>, 
-    or email me at 
-    <a href="mailto:{{ .Site.Params.feedbackEmail }}">{{ .Site.Params.feedbackEmail }}</a>.
-    Thanks :).</p>
-</div>
-<hr />
-
 <nav class="secondary">
-  <h2>Post chronology</h2>
   <ul>
-    {{ if .Prev }}<li><a href="{{ .Prev.RelPermalink }}">&larr; {{ .Prev.Title }}</a></li>{{ end }}
-    {{ if .Next }}<li><a href="{{ .Next.RelPermalink }}">&rarr; {{ .Next.Title }}</a></li>{{ end }}
+    {{ if .Prev }}<li><a title="Previous post: {{ .Prev.Title }}" href="{{ .Prev.RelPermalink }}">&larr; Previous post</a></li>{{ end }}
+    {{ if .Next }}<li><a title="Next post: {{ .Next.Title }}" href="{{ .Next.RelPermalink }}">Next post &rarr;</a></li>{{ end }}
   </ul>
 </nav>
 

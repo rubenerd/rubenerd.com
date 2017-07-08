@@ -4,8 +4,9 @@
 
 
 /*** Reset ***/
-html, body, h1, h2, h3, form, fieldset, table, figure,
-#sidebar ul, #sidebar ul li, .recommended, .recommended li {
+html, body, h1, h2, h3, form, fieldset, figure,
+#sidebar ul, #sidebar ul li, .recommended, .recommended li,
+.secondary ul, .secondary ul li {
     border:0;
     border-collapse:collapse;
     list-style-type:none;
@@ -13,7 +14,13 @@ html, body, h1, h2, h3, form, fieldset, table, figure,
     padding:0;
     vertical-align:baseline;
 }
-
+* {
+    /* Reset if (for whatever reason) someone has changed the system
+       default way of handling subpixel rendering in the browser.
+       If you're a web dev and you change this, you're a bad person
+       and you should feel bad. */
+    -webkit-font-smoothing:subpixel-antialiased;
+}
 
 /*** Top ***/
 html {
@@ -24,9 +31,9 @@ html {
     overflow-y:scroll;
 }
 body {
-    font:14px "Helvetica Neue","Open Sans","Source Sans Pro","Liberation Sans",sans-serif;
-    margin:110px auto;
-    width:720px;
+    font:16px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
+    margin:130px auto;
+    width:780px;
 }
 h1, h2, h3 {
     letter-spacing:-1px;
@@ -40,10 +47,11 @@ img {
     max-width:100%;
 }
 a { 
-    color:#0066ff;
+    color:#0066ff; #036ad3; #0066ff;
+    text-decoration:underline;
 }
 a:hover, #sidebar ul li a {
-    color:#955dd5;
+    text-decoration:none;
 }
 
 
@@ -72,7 +80,7 @@ hr, #topics, .secondary #tag-fb {
 
 
 /*** Boxes ***/
-#sidebar nav ul, article, .secondary {
+#sidebar nav ul, article, .secondary li a  {
     background:#ffffff;
     box-shadow: 0px 0px 5px #e1e2ef;
 }
@@ -80,44 +88,29 @@ hr, #topics, .secondary #tag-fb {
 
 /*** Smaller ***/
 #sidebar, footer { 
-    font-size:13px;
-    line-height:20px;
+    font-size:14px;
+    line-height:22px;
 }
 
 
 /*** Subheadings ***/
-#sidebar h3, article .postMeta, .archive small {
+article .postMeta,
+article .postMeta a,
+.archive small {
     color:#7e92a6;
-    font-size:12px;
-    font-weight:bold;
-    letter-spacing:normal;
-    text-transform:uppercase;
+    font-size:14px;
+    font-weight:normal;
+    text-align:center;
 }
 
 
 /*** Sidebar ***/
 #sidebar {
     float:left;
-    width:130px;
+    width:140px;
 }
-#sidebar h1 {
-    font-size:28px;
-}
-#sidebar img { 
-    width:130px;
-}
-
-
-/*** Header ***/
-#sidebar header h1 {
-    background:url("/logo-white-round.svg") top center no-repeat;
-    background-size:100px;
-    height:120px;
-    position:relative;
-}
-#sidebar header h1 a {
-    bottom:0;
-    position:absolute;
+#sidebar img {
+    width:140px;
 }
 
 
@@ -135,27 +128,29 @@ hr, #topics, .secondary #tag-fb {
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
-}
+}/*
 
 
 /*** Main ***/
 main {
-    margin-left:160px;
+    float:right;
+    width:600px;
 }
 
 
 /*** Articles ***/
 article h2, .secondary h2, footer h2 {
-    font-size:24px;
-    margin-bottom:2px;
+    font-size:26px;
+    padding-bottom:5px;
+    text-align:center;
 }
 article h3, .secondary h3 {
     font-size:20px;
     margin-top:30px;
 }
 article, .secondary {
-    line-height:22px;
-    margin-bottom:30px;
+    line-height:24px;
+    margin-bottom:40px;
     padding:30px 30px 20px 30px;
 }
 article blockquote {
@@ -163,6 +158,10 @@ article blockquote {
     color:#5e7286;
     margin-left:16px;
     padding-left:16px;
+}
+article .postMeta {
+    display:block;
+    padding-bottom:0.6em;
 }
 
 
@@ -179,21 +178,24 @@ pre {
     overflow-x:scroll
 }
 table {
+    border-collapse:collapse;
+    border:1px solid #f0f0f0;
+    line-height:22px;
     font-size:13px;
     margin:20px 0;
-    max-width:100%;
-    overflow-x:scroll;
 }
-table th, table td {
-    padding:2px 15px;
+table th {
+    background:#f0f0f0;
+    text-align:left;
+}
+table th,
+table td {
+    padding:5px 10px;
     vertical-align:top;
 }
-table, tr { 
-    border-bottom:1px solid #dce3ec;
-}
-table th { 
-    background:#f0f3f6;
-}
+table tr:nth-child(even) {
+    background:#f9f9f9;
+}  
 figure {
     padding-top:4px;
     text-align:center;
@@ -234,9 +236,31 @@ form {
 }
 
 
+/*** Pagination ***/
+.secondary {
+    padding-top:60px;
+    text-align:center;
+}
+.secondary li {
+    display:inline;
+    letter-spacing:-1px;
+    font-size:20px;
+    font-weight:bold;
+}
+.secondary li a {
+    margin:0 20px;
+    padding:10px 20px;
+    text-decoration:none;
+}
+.secondary li a:hover {
+    background:#0066ff;
+    color:#ffffff;
+}
+
+
 /*** Footer ***/
 footer {
-    padding:20px 0 230px 0;
+    padding:10px 0 230px 0;
     text-align:center;
 }
 footer input[type=text] {
@@ -271,8 +295,9 @@ footer input[type=text] {
         padding:0;
         width:100%;
     }
-    #sidebar h3, #category-nav, #sidebar #home, #sidebar #linkblog, 
-    #mascot, #site-description {
+    #sidebar h3, #category-nav, #sidebar #home,  
+    #mascot, #site-description, #primary-nav .topic,
+    #primary-nav #linkblog {
         display:none;
         visibility:hidden;
     }
@@ -294,7 +319,6 @@ footer input[type=text] {
     #sidebar nav ul #topics {
         display:inline;
         visibility:visible;
-        width:111px;
     }
     #sidebar nav ul {
         height:36px;
@@ -310,9 +334,13 @@ footer input[type=text] {
         height:36px;
         line-height:36px;
         text-align:center;
-        width:112px;
+        //width:112px;
+        width:141px;
         border:0 !important;
         font-size:15px;
+    }
+    #sidebar nav ul #about a {
+        width:139px;
     }
     footer {
         padding-bottom:530px;
@@ -338,7 +366,8 @@ footer input[type=text] {
         border-left:0;
         border-right:0;
     }
-    #sidebar nav ul li a {
+    #sidebar nav ul li a,
+    #sidebar nav ul #about a {
         width:25%;
     }
     article, .secondary {
@@ -352,4 +381,7 @@ footer input[type=text] {
 }
 
 /** EOF **/
+
+
+
 
