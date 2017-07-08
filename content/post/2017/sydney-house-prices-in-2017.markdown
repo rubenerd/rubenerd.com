@@ -1,6 +1,6 @@
 ---
 title: "Sydney house prices in 2017"
-date: "2017-06-07T14:47:00+10:00"
+date: "2017-06-09T08:47:00+10:00"
 abstract: "Just move to Gosford!"
 category: Thoughts
 tag:
@@ -8,13 +8,13 @@ tag:
 - sydney
 - housing
 ---
-Worried you're priced out of the Sydney housing market! [Domain has the goods]\:
+Worried you're priced out of the Sydney housing market? [Domain has the goods]\:
 
 > Are you wondering where you can buy your first home at an affordable price? There are still a number of Greater Sydney suburbs that have a median house price below $650,000. 
 > 
 > Domain's First Home Buyers Report uncovers the suburbs across Australia with the most affordable average median prices and unpacks government grants available in each state, to help you make your move.
 
-Sounds great! Do tell. 
+Sounds great, do tell. 
 
 > Gosford, about a 75 kilometre drive from Sydney’s centre, on the Central Coast and the cusp of the Greater Sydney, is the cheapest area for first time buyers.
 > 
