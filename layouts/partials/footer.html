@@ -1,14 +1,14 @@
 <hr />
 
 <footer>
-  <h2>And here’s the footer</h2>
-
-  <p><span property="copyright">Original material © 2004–Present
+  <p><span property="copyright">Original material © 2004–{{ .Date.Format "2006" }}
     <a href="/about/">Ruben Schade</a>.</span> 
     Dedicated to <a href="/dedication/">my mum</a>.<br />
     Subscribe to <a href="https://rubenerd.com/feed/">RSS</a> or follow 
     <a href="{{ .Site.Params.siteTwitterURL }}">{{ .Site.Params.siteTwitter }}</a> for 
     updates.</p>
+
+  <p>Show support with a <a href="{{ .Site.Params.buyCoffee }}">cup of coffee</a>!</p>
 
   <form role="search" method="get" action="https://duckduckgo.com/"> 
     <input size="40" name="q" /> 
