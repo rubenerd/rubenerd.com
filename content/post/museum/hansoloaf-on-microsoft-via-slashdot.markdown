@@ -1,8 +1,9 @@
 ---
 title: "hansoloaf on Microsoft, via Slashdot"
 date: "2007-12-06T18:59:22+00:00"
-category: Hardware
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - microsoft
 - zune
