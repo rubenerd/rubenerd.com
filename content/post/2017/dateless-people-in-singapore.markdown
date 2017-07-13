@@ -23,7 +23,7 @@ But there's more to it for most Singaporean kids, at least from what I observed:
 
 * Singaporeans tend to be shyer, more reserved in general compared to, say, Australians. Then again, most of the world is compared to Australians. Either way, with those other pressures it's not surprising people aren't jumping into relationships.
 
-<p><img src="https://rubenerd.com/files/stock/gnome-sun-java6.svg" alt="Icon from the Gnome Colors Project" style="width:128px; height:128px; float:right; margin:0 0 1em 1em" /></p>
+<p><img src="https://rubenerd.com/files/stock/gnome-sun-java6.svg" alt="Icon from the Gnome Colors Project" style="width:96px; height:96px; float:right; margin:0 0 1em 1em" /></p>
 
 A classic example is Starbucks and Coffee Bean. Angmohs who travel to Singapore often sound so surprised when they witness all the hundreds of people at these cafés with kids crammed around laptops. Their coffee is awful, we're told! Don't they have a life?
 

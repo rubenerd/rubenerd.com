@@ -16,6 +16,8 @@ The open web is made possible with syndication feeds. The big games in town can 
 
 * The RSS 1.0 family, which uses RDF. The idea was the Dublin Core and other namespaces had already done the painstaking work of defining attributes, so you could just use them. 
 
+<p><img src="https://rubenerd.com/files/stock/gnome-application-rss+xml.svg" alt="RSS icon from the Gnome Colors project" style="width:96px; height:96px; float:right; margin:0 0 1em 1em" /></p>
+
 * RSS 2.0, as championed by Dave Winer. It included simplified list of standard attributes, which could be extended with namespaces. It was the first to support podcasting, and is still the most compatible. I used to prefer 1.0 because of my preference and interest in RDF, but have long since stuck with 2.0.
 
 * Atom, which was unironically created due to there being too many syndication formats. It also fixed a few consistency issues, including date formatting.

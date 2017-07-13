@@ -10,7 +10,7 @@ tag:
 ---
 I've witnessed an explosion in the use of that alleged word that even rivals *nuance*. It needs to be stomped out, for two reasons:
 
-<p><img src="https://rubenerd.com/files/stock/tango-edit-clear.svg" alt="Clear icon from the Tango Desktop Project" style="width:128px; height:128px; float:right; margin:0 0 1em 1em" /></p>
+<p><img src="https://rubenerd.com/files/stock/tango-edit-clear.svg" alt="Clear icon from the Tango Desktop Project" style="width:96px; height:96px; float:right; margin:0 0 1em 1em" /></p>
 
 1. If you live outside the US, **it's not a word**. If you're in the Commonwealth and use it, you may as well *customize* your other *colorful* spelling.
 
