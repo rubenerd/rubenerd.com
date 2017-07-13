@@ -1,6 +1,5 @@
 /***************************************
  * Rubénerd : Refactored December 2016 *
- *          : And updated July 2017    *
  ***************************************/
 
 
@@ -41,7 +40,7 @@ h1, h2, h3 {
     /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobiles */
     text-rendering:optimizeLegibility;
 }
-h1 a, h2 a, h3 a, #sidebar ul li a {
+h1 a, h2 a, h3 a {
     text-decoration:none;
 }
 img {
@@ -51,7 +50,8 @@ a {
     color:#0066ff; #036ad3; #0066ff;
     text-decoration:underline;
 }
-a:hover, #sidebar ul li a {
+a:hover {
+    //color:#9b63d7;
     text-decoration:none;
 }
 
@@ -81,7 +81,7 @@ hr, #topics, .secondary #tag-fb {
 
 
 /*** Boxes ***/
-#sidebar nav ul, article, .secondary li a  {
+article, .secondary li a  {
     background:#ffffff;
     box-shadow: 0px 0px 5px #e1e2ef;
 }
@@ -89,7 +89,7 @@ hr, #topics, .secondary #tag-fb {
 
 /*** Smaller ***/
 #sidebar, footer { 
-    font-size:14px;
+    font-size:15px;
     line-height:22px;
 }
 
@@ -115,8 +115,31 @@ article .postMeta a,
 }
 
 
+/*** Header ***/
+header h1 a {
+    background:url("/logotext.svg") no-repeat;
+    display:block;
+    height:139px;
+}
+
+
 /*** Navigation ***/
+#sidebar nav ul li {
+    color:#5e7286;
+
+}
+#sidebar nav ul li::before {
+    //content:"→ ";
+    content:"▸ ";
+}
 #sidebar nav ul {
+    padding-bottom:10px;
+}
+#sidebar nav ul li a {
+    margin-left:6px;
+}
+
+/*#sidebar nav ul {
     margin-bottom:20px;
     padding:15px 0;
 }
@@ -129,7 +152,7 @@ article .postMeta a,
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
-}/*
+}*/
 
 
 /*** Main ***/
@@ -252,6 +275,7 @@ form {
     margin:0 20px;
     padding:10px 20px;
     text-decoration:none;
+    white-space:nowrap;
 }
 .secondary li a:hover {
     background:#0066ff;
@@ -261,8 +285,9 @@ form {
 
 /*** Footer ***/
 footer {
-    padding:1px 0 230px 0;
+    padding:0 0 230px 0;
     text-align:center;
+    font-size:14px;
 }
 footer input[type=text] {
     width:260px;
@@ -270,79 +295,86 @@ footer input[type=text] {
 
 
 /*** Responsive ***/
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 810px) {
+    
+    /*** Top Level ***/
     html {
        background-size:532px 66px;
     }
     body {
-       margin-top:40px;
-       width:562px;
+        margin-top:30px;
+        padding-bottom:40px;
+        width:600px;
     }
-    article,.secondary,footer {
-        margin:0 auto 20px auto;
-    }
-    #sidebar { 
-        width:562px;
-    }
-    main, #sidebar {
+    main,#sidebar {
         float:none;
-        margin:0 auto;
     }
-    #skyline { 
-        height:64px;
+    
+    /*** Sidebar: Header and Navigation ***/
+    #sidebar {
+        width:600px;
     }
-    #sandwich-wrapper {
+    
+    /*** Sidebar: Header ***/
+    #sidebar header h1 a {
+        background:url("/logo-white-round.svg") top left no-repeat;
+        background-size:38px;
+        font-size:32px;
+        padding-left:48px;
+        height:38px;
+        line-height:38px;
+    }
+    #sidebar header h1 a::after {
+        content:"Rubénerd"
+    }
+    #sidebar header {
+        padding-left:30px;
+    }
+    #sidebar nav {
+        padding-left:25px;
+    }
+    
+    /*** Sidebar: Navigation ***/
+    #sidebar nav ul {
+        background:transparent;
+        box-shadow:none;
+        padding:10px 0;
+    }
+    #sidebar nav ul li a {
+        display:inline;
         margin:0;
-        padding:0;
-        width:100%;
     }
-    #sidebar h3, #category-nav, #sidebar #home,  
-    #mascot, #site-description, #primary-nav .topic,
+    #sidebar nav ul li {
+        display:inline;
+    }
+    #sidebar nav ul li a {
+        padding:5px;
+    }
+    #sidebar nav ul li::before {
+        content:"";
+    } 
+    
+    /*** Hide and Show ***/ 
+    #mascot, 
+    #site-description, 
+    #primary-nav .topic,
     #primary-nav #linkblog {
         display:none;
         visibility:hidden;
     }
-    #sidebar h1 { 
-        background:none;
-        height:auto;
-        margin:0;
-        position:relative;
-    }
-    #sidebar header h1 {
-        background:url("/logo-white-round.svg") left center no-repeat;
-        background-size:32px;
-        font-size:36px;
-        height:32px;
-        line-height:32px;
-        margin:0 0 10px 24px;
-        padding-left:38px;
-    }
-    #sidebar nav ul #topics {
+    #topics {
         display:inline;
         visibility:visible;
     }
-    #sidebar nav ul {
-        height:36px;
-        line-height:36px;
-        padding:0;
+
+    
+    /*** Content ***/
+    article {
+   		margin-bottom:20px;
     }
-    #sidebar nav ul li { 
-        display:inline;
-    }
-    #sidebar nav ul li a {
-        float:left;
-        padding:0;
-        height:36px;
-        line-height:36px;
-        text-align:center;
-        //width:112px;
-        width:141px;
-        border:0 !important;
-        font-size:15px;
-    }
-    #sidebar nav ul #about a {
-        width:139px;
-    }
+
+
+    /*** Footer ***/
     footer {
         padding-bottom:530px;
         background-image:url("rubi-seifuku.png");
@@ -350,39 +382,36 @@ footer input[type=text] {
         background-repeat:no-repeat;
         background-size:140px 502px;
     }
+
+    
 }
 
-@media screen and (max-width: 570px) {
-    html,body,#sidebar {
+@media screen and (max-width: 600px) {
+    html,body,main,#sidebar,footer {
         width:100%;
     }
-    body {
-        margin-top:20px;
+    
+    #sidebar header {
+        padding-left:20px;
     }
-    #sidebar nav ul #coffee {
-        display:none;
-        visibility:hidden;
+    #sidebar nav {
+        padding-left:15px;
     }
-    article, .secondary, #sidebar nav ul {
-        border-left:0;
-        border-right:0;
+
+    article {
+        padding:30px 20px 20px 20px;
     }
-    #sidebar nav ul li a,
-    #sidebar nav ul #about a {
-        width:25%;
-    }
-    article, .secondary {
-        padding:20px 20px 10px 20px;
-    }
+    
     article img, article iframe, article object { 
         height:auto !important;
         max-width:100%;
     }
 
+    footer p {
+        padding:0 30px;
+    }
+
 }
 
 /** EOF **/
-
-
-
 
