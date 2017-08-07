@@ -40,7 +40,7 @@ In your Ansible hosts or inventory files, group your FreeBSD hosts and apply a v
 
 If you only target FreeBSD hosts, you can set the var for all hosts:
 
-    [all:vars]
+    [freebsd:vars]
     ansible_python_interpreter="/usr/local/bin/python"
 
 ### Solution 4: All hosts for env Python

@@ -1,8 +1,8 @@
 ---
 title: "Citibank Australia and Safari"
-date: "2017-07-13T08:46:55+10:00"
+date: "2017-07-14T08:46:55+10:00"
 abstract: "Internet banking says to use the latest Safari, but it doesn’t support it."
-category: Thoughts
+category: Infocomm
 tag:
 - internet
 - banks
@@ -28,5 +28,8 @@ Solid advice. What versions are supported?
 
 Most firms I'd give the benefit of the doubt, but poor showing for a company this size, folks!
 
+I last mentioned Citibank in 2008, for some [sneaky advertising].
+
 [certified browser]: https://www.citibank.com.au/aus/banking/banking_internetbanking.htm?tab=Supportedbrowser "Citibank Australia: Supported Browsers"
+[sneaky advertising]: https://rubenerd.com/p3108/
 
