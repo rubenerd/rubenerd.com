@@ -31,9 +31,9 @@ html {
     overflow-y:scroll;
 }
 body {
-    font:16px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
+    font:14px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
     margin:120px auto;
-    width:780px;
+    width:760px;
 }
 h1, h2, h3 {
     letter-spacing:-1px;
@@ -51,8 +51,8 @@ a {
     text-decoration:underline;
 }
 a:hover {
-    //color:#9b63d7;
-    text-decoration:none;
+    color:#9b63d7;
+    //text-decoration:none;
 }
 
 
@@ -66,7 +66,8 @@ only screen and (min-device-pixel-ratio: 2) {
 
 
 /*** Accessibility ***/
-legend, #skip, #skip:hover, #skip:visited {
+legend, #skip, #skip:hover, #skip:visited,
+header h1 a span {
     height:1px;
     left:0px;
     overflow:hidden;
@@ -89,7 +90,6 @@ article, .secondary li a  {
 
 /*** Smaller ***/
 #sidebar, footer { 
-    font-size:15px;
     line-height:22px;
 }
 
@@ -99,7 +99,7 @@ article .postMeta,
 article .postMeta a,
 .archive small {
     color:#7e92a6;
-    font-size:14px;
+    font-size:13px;
     font-weight:normal;
     text-align:center;
 }
@@ -110,8 +110,8 @@ article .postMeta a,
     float:left;
     width:140px;
 }
-#sidebar img {
-    width:140px;
+#sidebar #mascot {
+    width:130px;
 }
 
 
@@ -158,13 +158,13 @@ header h1 a {
 /*** Main ***/
 main {
     float:right;
-    width:600px;
+    width:580px;
 }
 
 
 /*** Articles ***/
-article h2, .secondary h2, footer h2 {
-    font-size:26px;
+article h2, .secondary h2 {
+    font-size:24px;
     padding-bottom:5px;
     text-align:center;
 }
@@ -175,7 +175,7 @@ article h3, .secondary h3 {
 article, .secondary {
     line-height:24px;
     margin-bottom:40px;
-    padding:40px 40px 25px 40px;
+    padding:35px 40px 25px 40px;
 }
 article blockquote {
     border-left:4px solid #e1e8eD; //#dce3ec;
@@ -236,7 +236,7 @@ form {
 
 /*** Article : Podcast ***/
 .show-licence, .show-release, .show-subscribe {
-    font-style:italic;
+    color:#7e92a6;
 }
 
 
@@ -295,7 +295,7 @@ footer input[type=text] {
 
 
 /*** Responsive ***/
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 800px) {
     
     /*** Top Level ***/
     html {
@@ -304,7 +304,7 @@ footer input[type=text] {
     body {
         margin-top:30px;
         padding-bottom:40px;
-        width:600px;
+        width:580px;
     }
     main,#sidebar {
         float:none;
@@ -312,7 +312,7 @@ footer input[type=text] {
     
     /*** Sidebar: Header and Navigation ***/
     #sidebar {
-        width:600px;
+        width:580px;
     }
     
     /*** Sidebar: Header ***/
@@ -368,10 +368,7 @@ footer input[type=text] {
     }
 
     
-    /*** Content ***/
-    article {
-   		margin-bottom:20px;
-    }
+
 
 
     /*** Footer ***/
@@ -386,7 +383,7 @@ footer input[type=text] {
     
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
     html,body,main,#sidebar,footer {
         width:100%;
     }
@@ -400,6 +397,7 @@ footer input[type=text] {
 
     article {
         padding:30px 20px 20px 20px;
+        margin-bottom:20px;
     }
     
     article img, article iframe, article object { 
@@ -414,4 +412,6 @@ footer input[type=text] {
 }
 
 /** EOF **/
+
+
 
