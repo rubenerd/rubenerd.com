@@ -34,7 +34,8 @@ _SMALL_IMG="$_FILE@1x.$_EXT"
 ## Get image attributes ###################################################
 _WIDTH=`gm identify -format %w $_SRC`
 _HEIGHT=`gm identify -format %h $_SRC`
-_QUALITY=`gm identify -format %Q $_SRC`
+_QUALITY='98'
+#_QUALITY=`gm identify -format %Q $_SRC`
 
 
 ## Shrink image if too wide for retina ####################################
