@@ -31,7 +31,7 @@ html {
     overflow-y:scroll;
 }
 body {
-    font:14px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
+    font:16px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
     margin:120px auto;
     width:760px;
 }
@@ -50,9 +50,8 @@ a {
     color:#0066ff; #036ad3; #0066ff;
     text-decoration:underline;
 }
-a:hover {
-    color:#9b63d7;
-    //text-decoration:none;
+a:hover, #sidebar nav a {
+    color:#9961d5;
 }
 
 
@@ -82,7 +81,7 @@ hr, #topics, .secondary #tag-fb {
 
 
 /*** Boxes ***/
-article, .secondary li a  {
+#sidebar nav, article, .secondary li a  {
     background:#ffffff;
     box-shadow: 0px 0px 5px #e1e2ef;
 }
@@ -90,6 +89,7 @@ article, .secondary li a  {
 
 /*** Smaller ***/
 #sidebar, footer { 
+    font-size:14px;
     line-height:22px;
 }
 
@@ -124,35 +124,21 @@ header h1 a {
 
 
 /*** Navigation ***/
-#sidebar nav ul li {
-    color:#5e7286;
-
-}
-#sidebar nav ul li::before {
-    //content:"→ ";
-    content:"▸ ";
-}
 #sidebar nav ul {
-    padding-bottom:10px;
-}
-#sidebar nav ul li a {
-    margin-left:6px;
-}
-
-/*#sidebar nav ul {
-    margin-bottom:20px;
+    margin:5px 0 20px 0;
     padding:15px 0;
 }
 #sidebar nav ul li a {
     display:block;
     line-height:23px;
     height:23px;
-    padding-left:30px;
+    padding-left:25px;
+    text-decoration:none;
 }
 #sidebar nav ul li a:hover {
     background:#0066ff;
     color:#ffffff;
-}*/
+}
 
 
 /*** Main ***/
@@ -164,7 +150,7 @@ main {
 
 /*** Articles ***/
 article h2, .secondary h2 {
-    font-size:24px;
+    font-size:26px;
     padding-bottom:5px;
     text-align:center;
 }
@@ -173,15 +159,15 @@ article h3, .secondary h3 {
     margin-top:30px;
 }
 article, .secondary {
-    line-height:22px;
+    line-height:24px;
     margin-bottom:40px;
     padding:35px 40px 25px 40px;
 }
 article blockquote {
-    border-left:4px solid #e1e8eD; //#dce3ec;
+    border-left:1px solid #e1e8eD; //#dce3ec;
     color:#5e7286;
-    margin-left:16px;
-    padding-left:16px;
+    padding-left:20px;
+    margin-left:0;
 }
 article .postMeta {
     display:block;
@@ -315,6 +301,7 @@ footer input[type=text] {
         width:580px;
     }
     
+    
     /*** Sidebar: Header ***/
     #sidebar header h1 a {
         background:url("/logo-white-round.svg") top left no-repeat;
@@ -323,6 +310,7 @@ footer input[type=text] {
         padding-left:48px;
         height:38px;
         line-height:38px;
+        margin-bottom:10px;
     }
     #sidebar header h1 a::after {
         content:"Rubénerd"
