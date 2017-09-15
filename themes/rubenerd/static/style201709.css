@@ -1,72 +1,73 @@
-/***************************************
- * Rubénerd : Refactored December 2016 *
- ***************************************/
+/* * *
+ * Rubenerd Flex Hugo Theme, Desu 
+ */
 
 
-/*** Reset ***/
-html, body, h1, h2, h3, form, fieldset, figure,
-#sidebar ul, #sidebar ul li, .recommended, .recommended li,
-.secondary ul, .secondary ul li {
+
+/* Master Reset */
+html, body, h1, h2, form, fieldset, figure, abbr, 
+#site-navigation ul, #site-navigation li,
+#pagination ul, #pagination li, 
+#archive ul, #archive li {
     border:0;
-    border-collapse:collapse;
     list-style-type:none;
     margin:0;
     padding:0;
+    text-decoration:none;
     vertical-align:baseline;
 }
+
+/* Stop clients fscking with these settings */
 * {
-    /* Reset if (for whatever reason) someone has changed the system
-       default way of handling subpixel rendering in the browser.
-       If you're a web dev and you change this, you're a bad person
-       and you should feel bad. */
-    -webkit-font-smoothing:subpixel-antialiased;
+    font-smooth:auto !important;
+    -moz-osx-font-smoothing:auto !important;
+    -webkit-font-smoothing:subpixel-antialiased !important;
 }
 
-/*** Top ***/
-html {
-    background:#f0f2f5 url("sydney-singapore.png") top center repeat-x;
-    background-size:798px 100px;
-    color:#2e4256;
-    height:100%;
-    overflow-y:scroll;
-}
+
+/* Top Level Elements */
 body {
-    font:16px "Helvetica Neue",Helvetica,"Source Sans Pro","Liberation Sans",sans-serif;
-    margin:120px auto;
-    width:760px;
+    background:#ffffff;
+    color:#333333;
+    font-family:"Helvetica Neue","Segoe UI",Helvetica,sans-serif;
+    font-size:16px;
+    font-weight:400;
+    margin:0 auto;
 }
-h1, h2, h3 {
+h1,h2,h3 {
+    color:black;
     letter-spacing:-1px;
-    /* DON'T USE THIS EVERYWHERE, unless you like the smell of toasted mobiles */
-    text-rendering:optimizeLegibility;
+    font-family:"Helvetica Neue",Helvetica,sans-serif;
 }
-h1 a, h2 a, h3 a {
+h2 {
+    font-size:26px;
+}
+h2 a {
+    border:0;
+}
+a, .post-meta a:hover {
+    border-bottom:1px solid #d9e8f7;
+    color:#036ad3;
     text-decoration:none;
 }
-img {
-    max-width:100%;
+a:hover {
+    text-decoration:none;
+    background:#d9e8f7;
 }
-a { 
-    color:#0066ff; #036ad3; #0066ff;
-    text-decoration:underline;
+time::after {
+    content: " ☕︎ "
 }
-a:hover, #sidebar nav a {
-    color:#9961d5;
+dt {
+    font-weight:bold;
 }
-
-
-/*** Top for Retina ***/
-@media only screen and (min--moz-device-pixel-ratio: 2),
-only screen and (-o-min-device-pixel-ratio: 2/1),
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (min-device-pixel-ratio: 2) {
-    html { background-image:url("sydney-singapore@2x.png") }
+dd {
+    margin-bottom:1em;
 }
 
 
-/*** Accessibility ***/
-legend, #skip, #skip:hover, #skip:visited,
-header h1 a span {
+
+/* A17n */
+#skip, #skip:hover, #skip:visited {
     height:1px;
     left:0px;
     overflow:hidden;
@@ -74,332 +75,238 @@ header h1 a span {
     top:-1000px;
     width:1px;
 }
-hr, #topics, .secondary #tag-fb {
+hr {
+    /* Visual markers for text browsers. USE THEM */
     display:none;
     visibility:hidden;
 }
 
 
-/*** Boxes ***/
-#sidebar nav, article, .secondary li a  {
-    background:#ffffff;
-    box-shadow: 0px 0px 5px #e1e2ef;
-}
 
-
-/*** Smaller ***/
-#sidebar, footer { 
-    font-size:14px;
-    line-height:22px;
-}
-
-
-/*** Subheadings ***/
-article .postMeta,
-article .postMeta a,
-.archive small {
-    color:#7e92a6;
-    font-size:13px;
-    font-weight:normal;
-    text-align:center;
-}
-
-
-/*** Sidebar ***/
-#sidebar {
-    float:left;
-    width:140px;
-}
-#sidebar #mascot {
-    width:130px;
-}
-
-
-/*** Header ***/
-header h1 a {
-    background:url("/logotext.svg") no-repeat;
-    display:block;
-    height:139px;
-}
-
-
-/*** Navigation ***/
-#sidebar nav ul {
-    margin:5px 0 20px 0;
-    padding:15px 0;
-}
-#sidebar nav ul li a {
-    display:block;
-    line-height:23px;
-    height:23px;
-    padding-left:25px;
-    text-decoration:none;
-}
-#sidebar nav ul li a:hover {
-    background:#0066ff;
+/* Header */
+#site-banner {
+    background:#004422 url("leaves.png") bottom no-repeat;
+    background-size:cover;
     color:#ffffff;
-}
-
-
-/*** Main ***/
-main {
-    float:right;
-    width:580px;
-}
-
-
-/*** Articles ***/
-article h2, .secondary h2 {
-    font-size:26px;
-    padding-bottom:5px;
+    display:flex;                /* To put navigation on top */
+    flex-direction:column;  /* but still make semantic sense */
+    margin-bottom:60px;
+    font-size:16px;
     text-align:center;
+    text-shadow:1px 1px black;
 }
-article h3, .secondary h3 {
-    font-size:20px;
-    margin-top:30px;
+#site-banner a {
+    color:#ffffff;
+    border:0;
 }
-article, .secondary {
-    line-height:24px;
-    margin-bottom:40px;
-    padding:35px 40px 25px 40px;
+#site-banner a:hover {
+    background:transparent;
+    color:#036ad3;
 }
-article blockquote {
-    border-left:1px solid #e1e8eD; //#dce3ec;
-    color:#5e7286;
-    padding-left:20px;
-    margin-left:0;
+#site-title {
+    order:2;          /* Put below navigation, above tagline */
+    font-size:48px;
+    margin-top:0.6em;
 }
-article .postMeta {
-    display:block;
-    padding-bottom:0.6em;
+#site-tagline {
+    order:3;            /* Put below navigation and tagline */
+    padding-bottom:3em;
 }
 
 
-/*** Article : Includes ***/
-pre, code {
-    font-size:12px;
-    font-family:"Source Code Pro",Menlo,Monaco,"Liberation Mono","DejaVu Mono",monspace;
+
+/* Top Site Navigation */
+#site-navigation {
+    order:1;
+    padding:1em 0 1em 2em;
+    text-align:left;
+    background:transparent;
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:-o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:linear-gradient(to-top,rgba(0,0,0,0),rgba(0,0,0,255));
 }
-pre {
-    border:1px dotted #dce3ec;
-    background:#f0f2f5;
-    line-height:16px;
-    padding:15px 20px;
-    overflow-x:scroll
+#site-navigation li {
+    display:inline;
+    margin-right:0.6em;
 }
-table {
+
+
+
+/* Main Content */
+#content {
+    margin:0 auto;
+    width:600px;
+}
+
+
+
+/* Posts */
+.post {
+    line-height:1.5em;
+    padding-bottom:100px;
+}
+.post-meta, .post-meta a, time {
+    color:#b0b0b6;
+    border-bottom:0;
+}
+.post-meta a {
+    border-bottom:1px solid #f0f0f0;
+}
+.post-schema {
+    display:none;
+    visibility:hidden;
+}
+
+
+
+/* Post Content */
+h3 {
+    font-size:1.3em;
+    margin-top:1.8em;
+}
+figure {
+    text-align:left;
+}   
+.post-content blockquote, .post-content li {
+    color:#666677;
+}
+.post-content blockquote {
+    border-left:1px solid #e6e6e6;
+    margin-left:1.2em;
+    margin-right:0;
+    padding:0 1.2em;
+}
+.post-content li p {
+    color:black;
+}
+.post-content figure img, .post-content iframe {
+    margin:0 auto;
+}
+.post-content img {
+    max-width:500px;
+}
+.post-content pre {
+    background:#f6f8fa;
+    color:#0066ff;
+    font-size:1em;
+    line-height:1.2em;
+    padding:1em 1.2em;
+    overflow-x:auto;
+}
+.post-content pre code {
+    font:0.9em Menlo,Monaco,sans-serif;
+}
+.post-content img {
+    color:#a4a6a7;
+}
+.post-content table {
     border-collapse:collapse;
     border:1px solid #f0f0f0;
-    line-height:22px;
-    font-size:13px;
-    margin:20px 0;
-}
-table th {
-    background:#f0f0f0;
-    text-align:left;
-}
-table th,
-table td {
-    padding:5px 10px;
-    vertical-align:top;
-}
-table tr:nth-child(even) {
-    background:#f9f9f9;
-}  
-figure {
-    padding-top:4px;
-    text-align:center;
-}
-
-
-/*** Article : Forms ***/
-/* Gecko makes a dog's breakfast of line heights and forms */
-form {
-    line-height:1em;
-    padding-bottom:4px;
-}
-
-
-/*** Article : Podcast ***/
-.show-licence, .show-release, .show-subscribe {
-    color:#7e92a6;
-}
-
-
-/*** Article : Recommended ***/
-.recommended {
-    line-height:auto;
-}
-.recommended li {
-    display:inline;
-}
-.recommended li img {
-    background:#f0f3f6;
-    margin:0 10px 10px 0;
-    width:150px;
-}
-.podcasts li img {
-    height:150px;
-}
-.manga li img {
-    height:215px;
-}
-
-
-/*** Pagination ***/
-.secondary {
-    padding-top:40px;
-    text-align:center;
-}
-.secondary li {
-    display:inline;
-    letter-spacing:-1px;
-    font-size:20px;
-    font-weight:bold;
-}
-.secondary li a {
-    margin:0 20px;
-    padding:10px 20px;
-    text-decoration:none;
-    white-space:nowrap;
-}
-.secondary li a:hover {
-    background:#0066ff;
-    color:#ffffff;
-}
-
-
-/*** Footer ***/
-footer {
-    padding:0 0 230px 0;
-    text-align:center;
+    line-height:1.5em;
     font-size:14px;
 }
-footer input[type=text] {
-    width:260px;
+.post-content table th {
+    background:#f0f0f0;
+    text-align:left;
+    vertical-align:top;
+}
+.post-content table th,
+.post-content table td {
+    padding:0.2em 1em;
+}
+.post-content table tr:nth-child(even) {
+    background:#f9f9f9;
+}  
+
+
+/* Page navigation */
+#pagination {
+    font-size:24px;
+    letter-spacing:-1px;
+}
+#pagination a {
+    border:0;
+}
+#pagination a:hover {
+    background:#d9e8f7;
+}
+#pagination ul {
+    margin:0 auto 90px auto;
+    text-align:center;
+}
+#pagination ul li {
+    display:inline;
+    padding:0 1em;
+    font-weight:bold;
 }
 
 
-/*** Responsive ***/
-@media screen and (max-width: 800px) {
-    
-    /*** Top Level ***/
-    html {
-       background-size:532px 66px;
+
+/* Footer */
+#site-info {
+    border-top:1px solid #d9e8f7;
+    background:url("https://rubenerd.com/files/2017/pillow@2x.png") bottom right no-repeat;
+    background-size:774px, 265px;
+    line-height:1.4em;
+    margin:40px auto 0 auto;
+    padding:20px 0 320px 0;
+    text-align:center;
+    font-size:0.9em;
+}
+#site-info #site-lyrics {
+    font-style:italic;
+}
+#site-info input[type="text"] {
+    width:320px;
+}
+
+
+
+@media screen and (max-width: 660px) { 
+    #site-banner {
+        margin-bottom:3em;
+        padding-bottom:1.6em;
     }
-    body {
-        margin-top:30px;
-        padding-bottom:40px;
-        width:580px;
+    #site-title {
+        margin-top:0.3em;
     }
-    main,#sidebar {
-        float:none;
+    #site-navigation {
+        padding-left:1.4em;
     }
-    
-    /*** Sidebar: Header and Navigation ***/
-    #sidebar {
-        width:580px;
-    }
-    
-    
-    /*** Sidebar: Header ***/
-    #sidebar header h1 a {
-        background:url("/logo-white-round.svg") top left no-repeat;
-        background-size:38px;
-        font-size:32px;
-        padding-left:48px;
-        height:38px;
-        line-height:38px;
-        margin-bottom:10px;
-    }
-    #sidebar header h1 a::after {
-        content:"Rubénerd"
-    }
-    #sidebar header {
-        padding-left:30px;
-    }
-    #sidebar nav {
-        padding-left:25px;
-    }
-    
-    /*** Sidebar: Navigation ***/
-    #sidebar nav ul {
-        background:transparent;
-        box-shadow:none;
-        padding:10px 0;
-    }
-    #sidebar nav ul li a {
-        display:inline;
-        margin:0;
-    }
-    #sidebar nav ul li {
-        display:inline;
-    }
-    #sidebar nav ul li a {
-        padding:5px;
-    }
-    #sidebar nav ul li::before {
-        content:"";
-    } 
-    
-    /*** Hide and Show ***/ 
-    #mascot, 
-    #site-description, 
-    #primary-nav .topic,
-    #primary-nav #linkblog {
+    #site-tagline {
         display:none;
         visibility:hidden;
     }
-    #topics {
-        display:inline;
-        visibility:visible;
+
+    #content {
+        width:auto;
+        padding:0 1.4em;
     }
-
-    
-
-
-
-    /*** Footer ***/
-    footer {
-        padding-bottom:530px;
-        background-image:url("rubi-seifuku.png");
-        background-position: center bottom;
-        background-repeat:no-repeat;
-        background-size:140px 502px;
-    }
-
-    
-}
-
-@media screen and (max-width: 580px) {
-    html,body,main,#sidebar,footer {
-        width:100%;
-    }
-    
-    #sidebar header {
-        padding-left:20px;
-    }
-    #sidebar nav {
-        padding-left:15px;
-    }
-
-    article {
-        padding:30px 20px 20px 20px;
-        margin-bottom:20px;
-    }
-    
-    article img, article iframe, article object { 
+    .post-content figure,
+    .post-content img,
+    .post-content iframe {
         height:auto !important;
         max-width:100%;
     }
-
-    footer p {
-        padding:0 30px;
+    #site-info {
+        background-position:bottom left;
+        padding:0 0.8em 240px 0.8em;
     }
-
 }
 
-/** EOF **/
 
+
+@media screen and (max-width: 460px) {
+    #site-title {
+        margin:0.2em 0 0.4em 0;
+        font-size:2em;
+    }
+
+    #site-tagline {
+        display:none;
+        visibility:hidden;
+    }
+}
 
 

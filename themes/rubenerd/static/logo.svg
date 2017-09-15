@@ -1,63 +1,81 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.1"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
    id="svg2"
-   height="64.000008"
-   width="64">
-  <title
-     id="title3416">Rubénerd</title>
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/Users/rubenerd/Repos/rubenerd-com/static/logo.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <linearGradient
        id="linearGradient4150">
       <stop
-         style="stop-color:#0066ff;stop-opacity:0.40000001"
+         id="stop4152"
          offset="0"
-         id="stop4152" />
+         style="stop-color:#0066ff;stop-opacity:0.40000001" />
       <stop
-         style="stop-color:#0066ff;stop-opacity:1"
+         id="stop4154"
          offset="1"
-         id="stop4154" />
+         style="stop-color:#0066ff;stop-opacity:1" />
     </linearGradient>
     <linearGradient
        id="linearGradient3765">
       <stop
-         id="stop3767"
+         style="stop-color:#0066ff;stop-opacity:0;"
          offset="0"
-         style="stop-color:#0066ff;stop-opacity:0;" />
+         id="stop3767" />
       <stop
-         id="stop3769"
+         style="stop-color:#ffffff;stop-opacity:1;"
          offset="1"
-         style="stop-color:#ffffff;stop-opacity:1;" />
+         id="stop3769" />
     </linearGradient>
     <linearGradient
        id="linearGradient3755">
       <stop
-         id="stop3757"
+         style="stop-color:#0066ff;stop-opacity:1;"
          offset="0"
-         style="stop-color:#0066ff;stop-opacity:1;" />
+         id="stop3757" />
       <stop
-         id="stop3759"
+         style="stop-color:#0066ff;stop-opacity:0;"
          offset="1"
-         style="stop-color:#0066ff;stop-opacity:0;" />
+         id="stop3759" />
     </linearGradient>
-    <radialGradient
-       r="250"
-       fy="352.75095"
-       fx="117.16623"
-       cy="352.75095"
-       cx="117.16623"
-       gradientTransform="matrix(0.25400001,0.002,-0.00196844,0.24999226,22.425576,909.8371)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3031"
-       xlink:href="#linearGradient4150" />
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.2187491"
+     inkscape:cx="32"
+     inkscape:cy="32.000017"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1087"
+     inkscape:window-height="664"
+     inkscape:window-x="163"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -66,52 +84,50 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title>Rubénerd</dc:title>
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>Ruben Schade</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>© 1997-2016. All Rights Reserved</dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title></dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:source>https://rubenerd.com/logo.svg</dc:source>
-        <dc:date></dc:date>
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-38,-988.36218)"
-     id="layer1">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38,-988.3622)">
     <ellipse
-       id="path2985"
-       style="fill:url(#radialGradient3031);fill-opacity:1;stroke:none"
-       cx="70"
-       cy="1020.3622"
+       ry="32.000004"
        rx="32"
-       ry="32.000004" />
+       cy="1020.3622"
+       cx="70"
+       style="fill:#136dd0;fill-opacity:1;stroke:none"
+       id="path2985" />
     <path
-       transform="matrix(0.04368189,0.01286284,-0.01286284,0.04368189,61.483136,1008.1058)"
-       d="M 419.99999,634.2857 158.9172,378.87088 -79.895101,649.47142 -42.98621,286.10015 -403.44727,268.10585 -96.339843,70.404095 -307.01513,-222.63497 39.032674,-105.79374 136.78595,-453.21318 261.19307,-109.8128 593.7647,-249.99869 402.85005,61.37335 719.8068,233.98384 357.333,278.85805 Z"
+       sodipodi:type="star"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
        id="path3763"
-       style="fill:#ffffff;fill-opacity:1;stroke:none" />
+       sodipodi:sides="7"
+       sodipodi:cx="154.28571"
+       sodipodi:cy="122.85714"
+       sodipodi:r1="576.33606"
+       sodipodi:r2="256.05563"
+       sodipodi:arg1="1.0916289"
+       sodipodi:arg2="1.5527075"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 419.99999,634.2857 158.9172,378.87088 -79.895101,649.47142 -42.98621,286.10015 -403.44727,268.10585 -96.339843,70.404095 -307.01513,-222.63497 39.032674,-105.79374 136.78595,-453.21318 261.19307,-109.8128 593.7647,-249.99869 402.85005,61.37335 719.8068,233.98384 357.333,278.85805 Z"
+       transform="matrix(0.04368189,0.01286284,-0.01286284,0.04368189,61.483136,1008.1058)"
+       inkscape:transform-center-x="8.572425"
+       inkscape:transform-center-y="1.4137554" />
     <flowRoot
-       transform="translate(0,-4.0000064)"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       xml:space="preserve"
        id="flowRoot3773"
-       xml:space="preserve"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="translate(0,-4.0000064)"><flowRegion
          id="flowRegion3775"><rect
-           y="500"
-           x="25.714285"
-           height="191.42857"
+           id="rect3777"
            width="662.85712"
-           id="rect3777" /></flowRegion><flowPara
+           height="191.42857"
+           x="25.714285"
+           y="500" /></flowRegion><flowPara
          id="flowPara3779" /></flowRoot>  </g>
 </svg>
