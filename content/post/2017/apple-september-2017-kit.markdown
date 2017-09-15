@@ -1,6 +1,6 @@
 ---
 title: "Apple’s September 2017 kit"
-date: "2017-09-13T11:26:05+10:00"
+date: "2017-09-15T10:03:05+10:00"
 abstract: "As usual, some decent looking kit, with reservations."
 category: Infocomm
 tag:
@@ -18,14 +18,14 @@ I'm sure everyone's waiting with baited breath about my hotcakes on the Apple an
 
 ### The new Apple Watch
 
-This was easily the most interesting part of the keynote. The original watch was billed as a second iPhone screen, with a heavy emphasis on apps. This time, they're taking health more seriously which is encouraging.
+This was easily the most interesting part of the keynote. The original watch was billed as a second iPhone screen, with a heavy emphasis on apps. This time, they're taking health much more seriously, which is wonderful.
 
-For some context, I use my first-gen Apple Watch for multiple timezones, weather, and fitness tracking, and nothing else. I think I've looked at the app launcher twice.
+For some context, I use my first-gen Apple Watch for multiple timezones, weather, and fitness tracking, and nothing else. I think I've looked at the app launcher twice. Anything that improves these core features makes me happy :).
 
 
 ### The 4K Apple TV
 
-This is skating to where the puck is going. Most of us don't have 4K televisions or content, but good to see this getting some attention. Except for the horrible remote, which got all but a cosmetic change!
+This is skating to where the puck is going. Most of us don't have 4K televisions or content, but good to see this getting some attention. Except for the horrible remote.
 
 
 ### iTunes
@@ -45,7 +45,7 @@ I'm not as self–absorbed to consider this a huge mistake for Apple, especially
 
 I'm relieved and happy this exists, for reasons that are as much to do with what the iPhone X is. Wireless charging brings it closer to what the Palm Pre had – the phone I held so much hope for – and they fortunately backported the A11 from the X to it.
 
-It's not enough of a replacement for my dinner-tray size iPhone 7+ to fork out some more dough, and I tend to only upgrade my phones after I've run the previous one into the ground. But I can think of at least a few family members on old phones who'd really benefit from it, especially for the improved camera optics.
+It's not enough of a replacement for my dinner-tray size iPhone 7+ to fork out some more dough, and I tend to upgrade phones every three years because I develop odd attachments to them. But I can think of at least a few family members on old phones who'd really benefit from it, especially for the improved camera optics.
 
 I wonder how many more of these they'll sell in countries with large Chinese populations, too?
 
@@ -56,11 +56,9 @@ I wonder how many more of these they'll sell in countries with large Chinese pop
 
 The name is a homage to the original Mac OS X naming scheme, which I kinda like. The wireless charging is a solid step, and the A11 sounds impressive. About everything else I have reservations.
 
-The biggest is the inevitable but regrettable switch to OLED. These screens are awful for those of us with above average close-distance vision. The screen shimmers when we move our eyes across them, and they're grainy as all hell. I tolerate it on the watch because I only glance at it, the phone's another story.
+The biggest is the inevitable but regrettable switch to OLED. These screens are awful for those of us with above average close-distance vision. The screen shimmers when we move our eyes across them, and they're grainy as all hell. I tolerate it on the watch because I only glance at it, the phone's another story. If you tend to use your phones for a few years instead of jumping on the upgrade bandwagon, you'll likely get some serious burn–in on from recurring UI elements too, unless Apple have taken steps to mitigate this, like the old school Apple TV with plasma screens. Maybe they have.
 
-If you tend to use your phones for a few years instead of jumping on the upgrade bandwagon, you'll likely get some serious burn–in on from recurring UI elements too, unless Apple have taken steps to mitigate this, like the old school Apple TV with plasma screens. Maybe they have.
-
-Ditto FaceID, which won't work if you're wearing sunglasses, a hat that casts a deep shadow, or have the phone flat on a table. It's technically impressive if it works, but I wouldn't see myself using it; it feels more like a needed-feature to replace the home button, now that the screen covers the whole unit.
+I'm creeped out by FaceID, I tend to either unlock my phones flat on tables, or reaching for the TouchID in my pocket, so I'd probably just disable it. It feels like a needed-feature to replace the home button, now the screen covers the whole unit. 
 
 Except, it doesn't. The top screen protrusion for the camera and speaker is asymmetric and ungainly, surprising for Apple. It also persists during video playback, which is a recipe for serious constipation for OCD sufferers, or those of us who play one on TV. Having a permanent black bar flush with that for the indicators would have looked much better.
 
