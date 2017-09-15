@@ -60,7 +60,7 @@ The biggest is the inevitable but regrettable switch to OLED. These screens are 
 
 I'm creeped out by FaceID, I tend to either unlock my phones flat on tables, or reaching for the TouchID in my pocket, so I'd probably just disable it. It feels like a needed-feature to replace the home button, now the screen covers the whole unit. 
 
-Except, it doesn't. The top screen protrusion for the camera and speaker is asymmetric and ungainly, surprising for Apple. It also persists during video playback, which is a recipe for serious constipation for OCD sufferers, or those of us who play one on TV. Having a permanent black bar flush with that for the indicators would have looked much better.
+Except, it doesn't. The top screen protrusion for the camera and speaker is asymmetric and ungainly, surprising for Apple. It also persists during video playback, which is a recipe for serious consternation for OCD sufferers, or those of us who play one on TV. Having a permanent black bar flush with that for the indicators would have looked much better.
 
 I'll reserve final judgement till I get to play with one, but if I were on an iPhone 6 or Android unit today, I'd be snapping up an iPhone 8 without question.
 
