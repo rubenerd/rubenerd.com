@@ -1,30 +1,92 @@
 ---
-baseurl: "https://rubenerd.com/"
-title: "Rubénerd"
-languageCode: "en-SG"
+baseURL:           "https://rubenerd.com"
+canonifyURLs:      true
 disableLiveReload: true
-editor: "mvim"
-metaDataFormat: "yaml"
-paginate: 10
+editor:            "vim"
+languageCode:      "en-SG"
+metaDataFormat:    "yaml"
+paginate:          10
+theme:             "Rubenerd"
+title:             "Rubénerd"
+
 params:
-  subtitle: "By Ruben Schade in s/Singapore/Sydney/."
-  html5shim: '<!--[if lt IE 9]><script src="/please-dont-use-ie.js"></script><![endif]-->'
-  ISO8601: '2006-01-02T15:04:05-07:00'
-  feedbackEmail: "weblog2017@rubenschade.com"
-  buyCoffee: "http://ko-fi.com/A625HL"
-  ownerTwitter: "@Rubenerd"
-  ownerTwitterURL: "https://twitter.com/Rubenerd"
-  siteTwitter: "@Rubenerd_blog"
-  siteTwitterURL: "https://twitter.com/Rubenerd_blog"
+
+  author:
+    coffee:   "http://ko-fi.com/A625HL" 
+    email:    "weblog2017@rubenschade.com"
+    failbook: "ruben.schade"
+    name:     "Ruben Schade"
+    profile:  "/about/"
+    twitter:  "Rubenerd"
+    wishlist: "https://www.wishlistr.com/rubenerd"
+
+  cite:
+    dedication:     "my mum"
+    dedication_url: "/dedication/"
+    host:           "Joviam"
+    host_url:       "https://joviam.com/"
+    os:             "FreeBSD"
+    os_url:         "https://www.freebsd.org/"
+    software:       "Hugo"
+    software_url:   "https://gohugo.io/"
+    server:         "nginx"
+    server_url:     "https://nginx.org/"
+    
+  info:
+    copyright: "Original material © 2004–17"
+    feed:      "/feed/"
+    logo:      "logo.png"
+    logo_rss:  "logo.rss.png"
+    lyrics:    "Time for a meeting, in digital space;<br />Because for thousands of years, we couldn't agree on a place."
+    tagline:   "By Ruben Schade in s/Singapore/Sydney/."
+    twitter:   "Rubenerd_Blog"
+
+  licence:
+    title: "Creative Commons Attribution Share-Alike 3.0"
+    url:   "https://creativecommons.org/licenses/by-sa/3.0/"
+
+  navigation:
+    - title: "About"
+      url:   "/about/"
+      info:  "Author and site info"
+    - title: "Anime"
+      url:   "/anime/"
+      info:  "Posts about anime, manga, weebness, and figs"
+    - title: "Infocomm"
+      url:   "/infocomm/"
+      info:  "Posts about software, communications, internet, and tech"
+    - title: "Show"
+      url:   "/show/"
+      info:  "Rubénerd Show: My harmless podcast of observations"
+    - title: "Thoughts"
+      url:   "/thoughts/"
+      info:  "Posts on multifarious observations"
+    - title: "Omake…"
+      url:   "/omake/"
+      info:  "Extra goodies"
+
+  podcast:
+    category:        "show"
+    cover:           "http://showfeed.rubenerd.com/itunes-cover.png"
+    explicit:        "no"
+    feed:            "http://showfeed.rubenerd.com/"
+    itunes:          "https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071"
+    itunes_category: "Society & Culture"
+    itunes_sub:      "Personal Journals"
+    keywords:        "australia,sydney,singapore,thoughts,tech,anime,jazz,ruben schade,onsug,overnightscape underground"
+    overcast:        "https://overcast.fm/itunes1003680071/rub-nerd-show"
+    pocket_casts:    "http://pca.st/ybXl"
+    publisher:       "me@rubenschade.com"
+    summary:         "Ruben's longrunning harmless podcast of observations from Singapore, Malaysia, and Australia."
+    tagline:         "A harmless show of observations, since 2005."
+    title:           "Rubénerd Show"
+
 permalinks:
-  page: "/:filename/"
-  post: "/:filename/"
-  omake: "/omake/:filename"
-log: false
-stepAnalysis: false
-author:
-  name: "Ruben Schade"
+  page:  "/:filename/"
+  post:  "/:filename/"
+  omake: "/omake/:filename/"
+
 taxonomies:
   category: "category"
   tag: "tag"
----
+
