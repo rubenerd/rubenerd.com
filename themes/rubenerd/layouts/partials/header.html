@@ -1,44 +1,20 @@
-<!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}" vocab="http://schema.org/" typeof="Blog">
 
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 
-  <meta charset="UTF-8" />
-  <title>{{ if eq .URL "/" }}{{ .Site.Title }} - {{ .Site.Params.subtitle }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
-  <link rel="stylesheet" href="/style201708.css" />
-  <link rel="apple-touch-icon" type="image/png" href="{{ .Site.BaseURL }}itouch-icon.png" />  
-  <link rel="alternate" href="{{ .Site.BaseURL }}feed/" type="application/rss+xml" title="{{ .Site.Title }} feed" />
-  <link rel="alternate" href="{{ .Site.BaseURL }}show/feed/" type="application/rss+xml" title="{{ .Site.Title }} Show podcast feed" />
-  <link rel="profile" href="http://microformats.org/profile/specs" />
-  <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
-  <meta name="author" content="{{ .Site.Author.name }}" />
-  <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}{{ .Site.Params.subtitle }}{{ end }}" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-  {{ .Hugo.Generator }}
 
-  {{ .Site.Params.html5shim | safeHTML }}
-  {{ if .Params.abstract }}
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:description" property="og:description" content="{{ .Params.abstract }}" />
-  <meta name="twitter:title" property="og:title" content="{{ .Title }}" />
-  <meta name="twitter:creator" content="@Rubenerd" />
-  <meta name="twitter:site" content="@Rubenerd_blog" />
-  <meta name="twitter:domain" content="rubenerd.com" />
-  <meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
-  <meta property="og:site_name" content="{{ .Site.Title }}" />
-  <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
-  <meta property="article:publisher" content="https://www.facebook.com/ruben.schade" />
-  <meta property="article:section" content="{{ .Params.category }}" />
-  <meta property="article:published_time" content="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}" />
-  <meta property="article:published_time" content="{{ .Date.Format $.Site.Params.ISO8601 }}" />
-  <meta property="og:image" content="{{ .Site.BaseURL }}itouch-icon.png" />
-  <meta property="og:image:type" content="image/png" />
-  <meta property="og:image:width" content="144" />
-  <meta property="og:image:height" content="144" />
-  {{ if .Params.enclosure_url }}<meta property="og:audio" content="{{ .Params.enclosure_url }}" />{{ else }}<meta property="og:type" content="article" />
-  {{ end }}{{ end }}
-</head>
+<header id="site-banner">
 
-<body>
+<a id="skip" href="#content">Skip to content</a>
+<h1 id="site-title"><img src="/logo.svg" alt="" /> <a title="Latest posts on {{ .Site.Title }}" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+<span id="site-tagline">{{ .Site.Params.Info.Tagline }}</span>
 
+<nav id="site-navigation">
+<ul>{{ range .Site.Params.Navigation }}
+<li><a id="nav-{{ lower .title | urlize }}" {{ with .info }}title="{{ . }}" {{ end }}href="{{ .url }}">{{ .title }}</a></li>{{ end }}
+</ul>
+</nav>
+
+</header>
+
+
+
+<main id="content">

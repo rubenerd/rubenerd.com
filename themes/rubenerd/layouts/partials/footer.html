@@ -1,37 +1,15 @@
-<hr />
-
-<footer>
-  <p><span property="copyright">Original material © 2004–2017
-    <a href="/about/">Ruben Schade</a>.</span> 
-    Dedicated to <a href="/dedication/">my mum</a>.<br />
-    Subscribe to <a href="https://rubenerd.com/feed/">RSS</a> or follow 
-    <a href="{{ .Site.Params.siteTwitterURL }}">{{ .Site.Params.siteTwitter }}</a> for 
-    updates.</p>
-
-  <p>Show support with a <a href="{{ .Site.Params.buyCoffee }}">cup of coffee</a>!</p>
-
-  <form role="search" method="get" action="https://duckduckgo.com/"> 
-    <input size="40" name="q" /> 
-    <input type="hidden" name="ia" value="web" />
-    <input type="hidden" name="kaj" value="m" />
-    <input type="hidden" name="k7" value="w" />
-    <input type="hidden" name="k9" value="b" />
-    <input type="hidden" name="ks" value="l" />
-    <input type="hidden" name="sites" value="rubenerd.com" />
-    <input type="submit" value="Search" /> 
-  </form>
-
-  <p><a href="https://joviam.com/" title="Hosted on Joviam, the Australian cloud hosting company"><img 
-    src="https://rubenerd.com/joviam.png" 
-    srcset="https://rubenerd.com/joviam.png 1x, https://rubenerd.com/joviam@2x.png 2x" 
-    alt="Hosted on Joviam, the Australian cloud hosting company" style="width:240px; height:56px;" /></a></p>
-
-  <p style="font-style:italic">Time for a meeting, in digital space;<br />
-    Because for thousands of years, we couldn’t agree on a place.</p>
-
-</footer>
-
 </main>
+
+
+
+<footer id="site-info">
+<p>{{ .Site.Params.Info.Copyright }} <a href="{{ .Site.Params.Author.Profile }}">{{ .Site.Params.Author.Name }}</a> &bullet; Dedicated to <a href="{{ .Site.Params.Cite.Dedication_url }}">{{ .Site.Params.Cite.Dedication }}</a><br />
+{{ with .Site.Params.Cite }}Hosted on <a href="{{ .host_url }}">{{ .host }}</a> with <a href="{{ .software_url }}">{{ .software }}</a>, <a href="{{ .os_url }}">{{ .os }}</a>, and <a href="{{ .server_url }}">{{ .server }}</a></p>{{ end }}
+<p>Follow with <a href="/feed/">RSS</a> or on <a href="https://twitter.com/{{ .Site.Params.Info.Twitter }}">Twitter</a> &bullet; Show support with a <a href="{{ .Site.Params.Author.Coffee }}">cup of coffee</a>!</p>
+
+{{ partial "search.html" . }}
+{{ with .Site.Params.Info.Lyrics }}<p id="site-lyrics">{{ . | safeHTML }}</p>{{ end }}
+</footer>
 
 </body>
 </html>

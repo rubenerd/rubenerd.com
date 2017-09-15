@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}" xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{ .Site.LanguageCode }}">
+
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+
+<meta charset="utf-8" />
+<title>{{ .Site.Title }}</title>
+<link rel="canonical" title="{{ .Page.Title }}" href="{{ .Permalink }}" />
+<link rel="stylesheet" href="/style201709.css" />
+<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} feed" href="{{ .Site.BaseURL }}feed/" />
+{{ with .Site.Params.Podcast }}<link rel="alternate" type="application/rss+xml" title="{{ .title }} podcast feed" href="{{ .feed }}" />{{ end }}
+<link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
+<meta name="author" content="{{ .Site.Author.name }}" />
+<meta name="description" content="{{ if .Params.abstract }}{{ .Params.abstract }}{{ else }}{{ .Site.Params.info.tagline }}{{ end }}" />
+<meta name="HandheldFriendly" content="True" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+{{ .Hugo.Generator }}{{ if .Params.abstract }}
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" property="og:description" content="{{ .Params.abstract }}" />
+<meta name="twitter:title" property="og:title" content="{{ .Title }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.Author.Twitter }}" />
+<meta name="twitter:site" content="@{{ .Site.Params.Info.Twitter }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+<meta property="article:publisher" content="https://www.facebook.com/{{ .Site.Params.Author.Failbook }}" />
+<meta property="article:section" content="{{ .Params.category }}" />
+{{ printf "<meta property=\"article:published_time\" content=\"%s\" />" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
+<meta name="twitter:image" property="og:image" content="{{ .Site.BaseURL }}itouch-icon.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="144" />
+<meta property="og:image:height" content="144" />{{ if .Params.enclosure_url }}
+<meta name="twitter:player:stream" property="og:audio" content="{{ .Params.enclosure_url }}" />{{ else }}
+<meta property="og:type" content="article" />{{ end }}{{ end }}
+{{ printf "%s" "<!--[if lt IE 9]><script src='/please-dont-use-ie.js'></script><![endif]-->" | safeHTML }}
+</head>
+
+
+
+<body id="top">
