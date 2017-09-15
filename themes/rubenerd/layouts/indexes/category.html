@@ -1,19 +1,17 @@
+{{ partial "head.html" . }}
 {{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
 
-<main>
-
-<article class="archive" id="archive-{{ .Title | lower }}">
-  {{ if eq .Title "Show" }}
-  <h2><a href="/{{ .Title | lower }}/">Rubénerd Show</a></h2>
-  {{ partial "podcast.html" . }}
-  {{ else if eq .Title "Museum" }}
-  {{ partial "museum.html" . }}
-  {{ else }}
-  <h2><a href="/{{ .Title | lower }}/">{{ .Title }} Archive</a></h2>
-  {{ end }}
-  <p></p>
-  <dl>{{ range .Data.Pages }}<dt><a href="{{ .Permalink }}">{{ .Title }}</a></dt><dd><small><time>{{ .Date.Format "Monday 02 January 2006" }}</time></small></dd>{{ end }}</dl>
-</article>
+<div class="post" id="archive">
+{{ if eq .Title "Show" }}{{ partial "show.html" }}{{ else }}
+<h2>{{ .Title }} archive</h2>
+{{ end }}
+    <p></p>
+    <div class="post-content">
+        <ul>{{ range .Data.Pages }}
+<li><time>{{ .Date.Format "2006-01-02" }} </time> <a href="{{ .Permalink }}">{{ replace .Title "Rubénerd Show" "" }}</a></li>{{ end }}
+        </ul>
+    </div>
+</div>
 
 {{ partial "footer.html" . }}
+

@@ -1,27 +1,48 @@
-{{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
+{{ partial "head.html" . }}
+{{ partial "header.html" .}}{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}{{ range $paginator.Pages }}
+<article class="post" resource="{{ .Permalink }}" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
 
-<main id="content"><!-- for skip to content link -->
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
-{{ range $paginator.Pages }}
-  <article resource="{{ .Permalink }}#post" property="blogPost" 
-    typeof="BlogPosting">
-    <h2 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-    <div property="articleBody">{{ .Content }}</div>
-    <small class="postMeta">{{ printf "<time property=\"datePublished\" datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
-      {{ .Date.Format "Monday 02 January 2006" }}
-    </time>{{ with .Params.Category }} in <a href="/{{ . | urlize }}/">{{ . }}</a></small>{{ end }} 
-  </article>
-<hr />
+<header>
+<h2 class="post-title" itemprop="name headline"><a itemprop="identifier url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+</header>
+
+<div class="post-content" itemprop="articleBody">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+
+<footer>
+<div class="post-meta">
+<time itemprop="datePublished dateModified" datetime="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}"><abbr title="{{ .Date.Format "Monday, 02 January, 2006" }} ">{{ .Date.Format "2006-01-02" }}</abbr> </time> 
+{{ with .Params.category }}<a title="Filed under {{ . }} category" href="/{{ . | urlize }}/"><span itemprop="keywords">{{ . }}</span></a>{{ end }}
+</div>
+
+<div class="post-schema">
+<p itemprop="author creator publisher" itemscope="itemscope" itemtype="http://schema.org/Person">Posted by <span itemprop="name">{{ .Site.Params.Author.Name }}</span></p>{{ with .Params.enclosure_url }}<p itemprop="audio" {{ . }}></p>{{ end }}
+<meta itemprop="image thumbnailUrl" content="{{ .Site.BaseURL }}{{ .Site.Params.Info.Logo }}" />
+<meta itemprop="inLanguage" content="{{ .Site.LanguageCode }}" />
+<meta itemprop="wordCount" content="{{ .WordCount }}" />{{ with .Params.Location }}
+<meta itemprop="locationCreated" content="{{ . }}" />{{ end }}
+</div>{{ with .Params.enclosure_url }}
+
+<div class="post-schema-podcast" itemprop="audio" itemscope="itemscope" itemtype="http://schema.org/AudioObject">
+<meta itemprop="accessMode" content="auditory" />
+<meta itemprop="bitrate" content="{{ .Params.enclosure_bitrate }}" />
+<meta itemprop="contentUrl" content="{{ .Params.enclosure_url }}" />
+<meta itemprop="duration" content="{{ .Params.enclosure_duration }}" />
+<meta itemprop="fileFormat" content="{{ .Params.enclosure_type }}" />
+<meta itemprop="contentSize" content="{{ .Params.enclosure_size }}kb" />
+</div>{{ end }}
+</footer>
+
+</article>
+
+
 {{ end }}
-
-<nav class="secondary">
+<nav id="pagination">
   <ul>
-    {{ if .Paginator.HasPrev }}<li><a title="Previous page" href="{{ .Paginator.Prev.URL }}">&larr; Previous</a></li>{{ end }}
-    <li>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</li>
-    {{ if .Paginator.HasNext }}<li><a title="Next page" href="{{ .Paginator.Next.URL }}">&rarr; Next</a></li>{{ end }}
+    {{ if .Paginator.HasPrev }}<li id="page-previous"><a href="{{ .Paginator.Prev.URL }}">← Previous</a></li>{{ end }}<li id="page-number"><span>Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span></li>{{ if .Paginator.HasNext }}<li id="page-next"><a href="{{ .Paginator.Next.URL }}">Next →</a></li>{{ end }}
   </ul>
 </nav>
 
-{{ partial "footer.html" . }}
 
+
+{{ partial "footer.html" . }}

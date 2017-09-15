@@ -1,21 +1,21 @@
+{{ partial "head.html" . }}
 {{ partial "header.html" . }}
-{{ partial "sidebar.html" . }}
 
-<main id="content"><!-- for skip to content link -->
-
-<article id="post" property="blogPost" typeof="BlogPosting">
-  <h2 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <div property="articleBody">{{ .Content }}</div>
-  <small class="postMeta">{{ printf "<time property=\"datePublished\" datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
-    {{ .Date.Format "Monday 02 January 2006" }}
-  </time>{{ with .Params.Category }} in <a href="/{{ . | urlize }}/">{{ . }}</a></small>{{ end }}
+<article class="post" itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+  <h2 class="post-title" itemprop="name headline"><a itemprop="url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <div class="post-content" itemprop="articleBody">
+    {{ .Content }}
+  </div>
+  <div class="post-meta">
+    {{ printf "<time itemprop=\"datePublished dateModified\" datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ .Date.Format "2006-01-02" }} </time>
+    {{ with .Params.category }} <a href="/{{ . | urlize }}/">{{.}}</a>{{ end }}
+  </div>
 </article>
-<hr />
 
-<nav class="secondary">
+<nav id="pagination">
   <ul>
-    {{ if .Prev }}<li><a title="Previous post: {{ .Prev.Title }}" href="{{ .Prev.RelPermalink }}">&larr; Previous post</a></li>{{ end }}
-    {{ if .Next }}<li><a title="Next post: {{ .Next.Title }}" href="{{ .Next.RelPermalink }}">Next post &rarr;</a></li>{{ end }}
+    {{ if .Prev }}<li id="page-previous"><a title="{{ .Prev.Date.Format "2006-01-02" }}: {{ .Prev.Title }}" href="{{ .Prev.RelPermalink }}">← Previous</a></li>{{ end }}
+    {{ if .Next }}<li id="page-next"><a title="{{ .Next.Date.Format "2006-01-02" }}: {{ .Next.Title }}" href="{{ .Next.RelPermalink }}">Next →</a></li>{{ end }}
   </ul>
 </nav>
 

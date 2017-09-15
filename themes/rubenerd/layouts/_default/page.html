@@ -1,13 +1,16 @@
+{{ partial "head.html" . }}
 {{ partial "header.html" . }}
 
-{{ partial "sidebar.html" . }}
 
-<main id="content"><!-- for skip to content link -->
 
-<article id="post" property="blogPost" typeof="BlogPosting">
-  <h2 property="headline"><a property="sameAs url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
-  <div property="articleBody">
-    {{ .Content }}</div>
+<article class="post">
+<h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-content"{{ with .Params.Schema }} itemscope="itemscope" itemprop="http://schema.org/{{ . }}"{{ end }}>
+{{ .Content }}</div>
 </article>
+
+
+
+</main>
 
 {{ partial "footer.html" . }}
