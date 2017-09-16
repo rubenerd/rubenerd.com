@@ -30,7 +30,7 @@ hugo
 printf "%s" '☕  Moving podcast feed to /show/feed/...'
 mkdir -p ./public/show/feed/
 mv -f ./public/category/show/index.xml ./public/show/feed/
-cp ./static/itunes-cover.png ./public/show/feed/
+cp ./themes/rubenerd/static/itunes-cover.png ./public/show/feed/
 
 printf "%s" '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
