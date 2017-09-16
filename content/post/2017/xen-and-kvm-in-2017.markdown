@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Xen and KVM in 2017"
 date: "2017-09-14T10:14:21+10:00"
 abstract: ""

@@ -13,7 +13,7 @@ tag:
 - oled
 - lcds
 ---
-I'm sure everyone's waiting with baited breath about my hotcakes on the Apple announcement this weeks. That should have been "hot take", but hotcakes is a delightful autocorrect.
+I'm sure everyone's waiting with baited breath about my ***hotcakes*** on the Apple announcement this weeks. That should have been ***hot take***, but hotcakes is a delightful autocorrect.
 
 
 ### The new Apple Watch
@@ -62,9 +62,9 @@ I'm creeped out by FaceID, I tend to either unlock my phones flat on tables, or 
 
 Except, it doesn't. The top screen protrusion for the camera and speaker is asymmetric and ungainly, surprising for Apple. It also persists during video playback, which is a recipe for serious consternation for OCD sufferers, or those of us who play one on TV. Having a permanent black bar flush with that for the indicators would have looked much better.
 
-I'll reserve final judgement till I get to play with one, but if I were on an iPhone 6 or Android unit today, I'd be snapping up an iPhone 8 without question.
+<p style="font-style:italic">(UPDATE: I’m surprised since writing this that the protrusion has caused the most hang wringing. People are calling it the bump, the unibrow, the notch. I’m sorry, but there’s <a href="https://rubenerd.com/electroboom-on-the-right-hand-rule/">only one unibrow</a>, and as much of an Apple fan I am, they can’t match him).</p>
 
-And they say Apple fanboys are never happy.
+We should all reserve final judgement till we play with this new gear, but if I were on an iPhone 5, Android – or Palm Pre! – today, I'd be snapping up an iPhone 8 without question.
 
 [the]: https://rubenerd.com/the-apple-watch/ "Rubénerd: Stop trying to make Apple Watch without 'the' happen"
 
