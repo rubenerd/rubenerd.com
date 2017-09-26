@@ -4,7 +4,7 @@
 <head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
 
 <meta charset="utf-8" />
-<title>{{ .Site.Title }}</title>
+<title>{{ if eq .URL "/" }}{{ .Site.Title }}: {{ .Site.Params.Info.Tagline }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
 <link rel="canonical" title="{{ .Page.Title }}" href="{{ .Permalink }}" />
 <link rel="stylesheet" href="/style201709.css" />
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} feed" href="{{ .Site.BaseURL }}feed/" />
