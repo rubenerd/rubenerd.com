@@ -1,7 +1,6 @@
 ---
-draft: true
 title: "Irredentism"
-date: "2017-09-14T16:42:20+10:00"
+date: "2017-09-24T16:42:20+10:00"
 abstract: "... is any political or popular movement intended to reclaim an area considered lost."
 category: Thoughts
 tag:
@@ -24,7 +23,7 @@ I thought it sounded like a denture cleaning apparatus. From the etymology secti
 
 This was in the context of the [Korean reunification] article, which is listed in the [Irredentism navbox]. I still say it sounds dental: *Oral-B Irredentism, for that irredentistic smile.*
 
-As for that first article? I hit Random Article on Wikipedia for an unrelated reason, and copy pasted the wrong section. As this article on [absentmindedness] explains:
+As for that first article? I hit *Random Article* on Wikipedia for an unrelated reason, and copy pasted the wrong section. As this article on [absentmindedness] explains:
 
 > The anime's soundtrack is composed by Hikaru Nanase. The opening theme song for the anime is "Straight Jet", performed by Minami Kuribayashi. The ending theme song is "Super∞Stream", with the first episode version sung by Yōko Hikasa.
 
