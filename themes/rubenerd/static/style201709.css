@@ -55,7 +55,8 @@ a:hover {
     background:#d9e8f7;
 }
 time::after {
-    content: " ☕︎ "
+    /* content: " ☕︎ " */
+    content: " 🌲"
 }
 dt {
     font-weight:bold;
@@ -188,14 +189,17 @@ figure {
 }
 .post-content pre {
     background:#f6f8fa;
-    color:#0066ff;
-    font-size:1em;
-    line-height:1.2em;
+    color:#036ad3;
+    font-size:13px;
+    line-height:18px;
     padding:1em 1.2em;
-    overflow-x:auto;
+    overflow-x:scroll;
+}
+.post-content pre {
+    border-left:4px solid #00
 }
 .post-content pre code {
-    font:0.9em Menlo,Monaco,sans-serif;
+    font-family:Menlo,Monaco,monospace;
 }
 .post-content img {
     color:#a4a6a7;
