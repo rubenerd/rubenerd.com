@@ -1,5 +1,5 @@
 ---
-title: "Amagi Brilliant Park #2"
+title: "Amagi Brilliant Park #02"
 date: "2017-09-16T11:10:48+10:00"
 abstract: "Kanie has his work cut out for him!"
 category: Anime
@@ -9,7 +9,7 @@ tag:
 - kyoani
 - kyoto-animation
 ---
-<p style="font-style:italic;">In our continuing series reviewing Kyoto Animation shows that I missed when they first aired, we take another spoiler-riddled look at the next episode of Amagi Brilliant Park.</p>
+<p style="font-style:italic;">In our continuing series reviewing <a href="https://rubenerd.com/tag/kyoani/">Kyoto Animation</a> shows that I missed when they first aired, we take another spoiler-riddled look at the next episode of <a href="https://rubenerd.com/tag/amagi-brilliant-park/">Amagi Brilliant Park</a>.</p>
 
 <p><img src="https://rubenerd.com/files/2017/anime-abp02-01@1x.jpg" srcset="https://rubenerd.com/files/2017/anime-abp02-01@1x.jpg 1x, https://rubenerd.com/files/2017/anime-abp02-01@2x.jpg 2x" alt="" style="width:500px" /></p>
 

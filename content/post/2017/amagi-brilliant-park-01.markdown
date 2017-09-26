@@ -14,7 +14,7 @@ tag:
 ---
 <p><img src="https://rubenerd.com/files/2017/anime-abp01-02@1x.jpg" alt="" style="width:500px; height:281px" srcset="https://rubenerd.com/files/2017/anime-abp01-02@1x.jpg 1x, https://rubenerd.com/files/2017/anime-abp01-02@2x.jpg 2x" /></p>
 
-As a confessed *Kyoto Animation* fanboy who nearly died with glee when visiting their [official gift shop] and [offices] in their beautiful leafy suburb of Kyoto last month, as well as the [Tamako Market-market], it pains me to admit I haven't watched all their series. Specifically, I never watched *Amagi Brilliant Park* from 2014.
+As a confessed *Kyoto Animation* fanboy who nearly died with glee when visiting their [official gift shop] and [offices] in their beautiful leafy suburb of Kyoto last month, as well as the [Tamako Market-market], it pains me to admit I haven't watched all their series. Specifically, I never watched *[Amagi Brilliant Park]* from 2014.
 
 So like any good AC to DC converter with reverse polarity protection, I'm fully rectifying the situation. HAH! And to do it justice, I'm going to do per-episode, spoiler-laden reviews, just like the good old days.
 
@@ -71,7 +71,7 @@ Let's see where this goes!
 
 <p><img src="https://rubenerd.com/files/2017/anime-abp01-09@1x.jpg" alt="" style="width:500px; height:281px" srcset="https://rubenerd.com/files/2017/anime-abp01-09@1x.jpg 1x, https://rubenerd.com/files/2017/anime-abp01-09@2x.jpg 2x" /></p>
 
-
+[Amagi Brilliant Park]: https://rubenerd.com/tag/amagi-brilliant-park/
 [official gift shop]: https://www.instagram.com/p/BXE1lQghm1w/?taken-by=rubenschade
 [offices]: https://www.instagram.com/p/BXE1wZBhUKQ/?taken-by=rubenschade
 [Tamako Market-market]: https://www.instagram.com/p/BXGCMXqhVcR/?taken-by=rubenschade
