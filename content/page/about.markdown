@@ -8,7 +8,7 @@ title: "About"
 
 Ruben is a happy traveller, [weeb], vintage computator, coffee enthusiast, technical writer, and cloud infrastructure engineer. He also has a wonderful girlfriend he calls [Cwawa].
 
-He can be reached using [Twitter], [GitHub], [Gists], [Pinboard], [Wikipedia], and [Instagram]. He doesn't use his [Facebook].
+He can be reached using [Twitter], [GitHub], [Gists], [Pinboard], [Vimeo], [Wikipedia], [YouTube], and [Instagram]. He doesn't use his [Facebook].
 
 [weblog]: https://rubenerd.com/
 [podcast]: https://rubenerd.com/show/
@@ -18,8 +18,11 @@ He can be reached using [Twitter], [GitHub], [Gists], [Pinboard], [Wikipedia], a
 
 [Pinboard]: https://pinboard.in/u:Rubenerd
 [GitHub]: https://github.com/rubenerd
-[Gists]: https://gists.github.com/rubenerd
+[Gists]: https://gist.github.com/rubenerd
+[Flickr]: https://flickr.com/photos/rubenerd
 [Instagram]: https://instagram.com/RubenSchade
 [Wikipedia]: https://en.wikipedia.org/wiki/User:RubenSchade
 [Facebook]: https://facebook.com/ruben.schade
+[YouTube]: https://www.youtube.com/user/rubenerd
+[Vimeo]: https://vimeo.com/rubenerd
 
