@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
+
+<div class="post" id="archive">
+<h2>{{ .Title }} tag archive</h2>
+    <p></p>
+    <div class="post-content">
+        <ul>{{ range .Data.Pages }}
+<li><time>{{ .Date.Format "2006-01-02" }} </time> <a href="{{ .Permalink }}">{{ replace .Title "Rubénerd Show" "" }}</a></li>{{ end }}
+        </ul>
+    </div>
+</div>
+
+{{ partial "footer.html" . }}
+
