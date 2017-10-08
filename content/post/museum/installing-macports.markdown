@@ -1,8 +1,9 @@
 ---
 title: "Installing MacPorts"
 date: "2007-12-01T18:09:19+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - mac-os-x
 - macports

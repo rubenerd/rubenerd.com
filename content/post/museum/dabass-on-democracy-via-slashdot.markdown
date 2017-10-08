@@ -1,7 +1,7 @@
 ---
 title: "DaBass on democracy, via Slashdot"
 date: "2007-12-24T01:12:54+00:00"
-category: Software
+category: Thoughts
 tag:
 - from-tumblr
 - politics

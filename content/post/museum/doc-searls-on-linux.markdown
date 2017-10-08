@@ -1,8 +1,9 @@
 ---
 title: "Doc Searls on Linux"
 date: "2007-12-07T15:57:31+00:00"
-category: Thoughts
+category: Infocomm
 tag:
+- software
 - doc-searls
 - from-tumblr
 - linux

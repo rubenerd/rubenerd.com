@@ -1,8 +1,9 @@
 ---
 title: "Trying out Tumblr"
 date: "2007-11-28T04:17:00+00:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - from-tumblr
 - tumblr
 - weblog

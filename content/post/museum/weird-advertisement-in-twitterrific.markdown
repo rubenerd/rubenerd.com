@@ -1,8 +1,9 @@
 ---
 title: "Weird advertisement in Twitteriffic"
 date: "2007-11-28T04:28:27+00:00"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - from-tumblr
 - twitter
 - twitterrific

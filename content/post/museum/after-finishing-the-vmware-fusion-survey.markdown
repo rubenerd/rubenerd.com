@@ -1,8 +1,9 @@
 ---
 title: "After finishing the VMware Fusion survey"
 date: "2007-12-06T19:46:39+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - mac
 - macos

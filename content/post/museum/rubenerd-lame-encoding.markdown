@@ -1,7 +1,7 @@
 ---
 title: "Rubenerd lame encoding"
 date: "2007-12-14T18:19:00+00:00"
-category: Thoughts
+category: Infocomm
 tag:
 - media
 - audio

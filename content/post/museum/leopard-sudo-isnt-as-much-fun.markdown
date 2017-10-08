@@ -1,8 +1,9 @@
 ---
 title: "Leopard sudo isn’t as much fun"
 date: "2007-12-23T01:41:41+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - apple
 - from-tumblr
 - leopard

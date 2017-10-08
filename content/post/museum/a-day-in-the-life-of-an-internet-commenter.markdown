@@ -2,8 +2,9 @@
 title: "A day in the life of an internet commenter"
 date: "2010-10-15T17:53:42+00:00"
 source: "https://rubenerd.tumblr.com/post/1318769788"
-category: Internet
+category: Infocomm
 tag:
+- internet
 - comments
 - from-tumblr
 - trolls

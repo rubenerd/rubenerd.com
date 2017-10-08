@@ -1,8 +1,10 @@
 ---
+permalink: "1920-xorg"
 title: "1920x1200 xorg.conf"
 date: "2007-12-20T17:44:06+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - bsd
 - freebsd
 - from-tumblr

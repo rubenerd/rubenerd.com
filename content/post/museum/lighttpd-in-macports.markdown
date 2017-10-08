@@ -1,8 +1,9 @@
 ---
 title: "lighttpd in MacPorts"
 date: "2007-11-28T04:26:55+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - lighttpd
 - mac-os-x

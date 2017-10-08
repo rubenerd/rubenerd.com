@@ -1,8 +1,9 @@
 ---
 title: "John C. Dvorak on software piracy"
 date: "2007-12-03T18:50:00+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - john-c-dvorak
 - malaysia

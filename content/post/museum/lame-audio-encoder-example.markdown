@@ -1,8 +1,9 @@
 ---
 title: "lame audio encoder example"
 date: "2007-12-23T04:31:41+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - audio
 - audio-magazines
 - from-tumblr

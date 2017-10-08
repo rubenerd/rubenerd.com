@@ -1,8 +1,9 @@
 ---
 title: "Leo Laporte on Seesmic"
 date: "2007-11-28T17:49:52+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - from-tumblr
 - leo-laporte
 - twitter

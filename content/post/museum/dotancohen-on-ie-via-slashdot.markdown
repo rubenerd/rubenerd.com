@@ -1,8 +1,9 @@
 ---
 title: "dotancohen on IE, via Slashdot"
 date: "2007-12-15T17:19:40+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - ie
 - from-tumblr
 - microsoft

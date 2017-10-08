@@ -1,8 +1,9 @@
 ---
 title: "Beastie"
 date: "2007-11-30T03:19:13+00:00"
-category: Software
+category: Infocomm
 tag:
+- software
 - bsd
 - freebsd
 - from-tumblr
