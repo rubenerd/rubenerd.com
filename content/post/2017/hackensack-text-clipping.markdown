@@ -11,7 +11,9 @@ tag:
 ---
 I've been on a role with these lyric posts of late. I had this "Untitled clipping.textClipping" on my desktop:
 
-> bplist00N^A^BXUTI-DATAO^C^D^E^F^G^H_^P$com.apple.traditional-mac-plain-text_^P^Vpublic.utf8-plain-text_^P^W^@^@^@^@^K^K^K^K^K^K
+	bplist00N^A^BXUTI-DATAO^C^D^E^F^G^H_^P
+	$com.apple.traditional-mac-plain-text_^P^V
+	public.utf8-plain-text_^P^W^@^@^@^@^K^K^K^K^K^K
 
 *In Hackensa^K^K^K^K^K^K you [ought to know by now]!*
 
