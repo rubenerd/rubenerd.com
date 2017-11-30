@@ -1,0 +1,27 @@
+---
+title: "#Annexe: PostgreSQL invalid IP mask"
+date: "2014-10-27T02:46:00+00:00"
+source: "https://rubenerd.tumblr.com/post/101054357885"
+category: Museum
+tag:
+- from-tumblr
+- troubleshooting
+---
+<p>Getting the following error when trying to start Postgres:</p>
+
+<pre><code>UTC LOG:  invalid IP mask "md5": Name or service not known
+</code></pre>
+
+<p>Turns out, it&rsquo;s because I forgot to define the subnet mask for the allowed IP, which meant the security setting was being interpreted. Weird behavior, I would have expected it to search after a backslash.</p>
+
+<p>An example for pg_hba.conf:</p>
+
+<pre><code>host replication postgres 10.0.1.10/24 md5
+</code></pre>
+
+<p>And an example of my bad one:</p>
+
+<pre><code>host replication postgres 10.0.1.10 md5
+</code></pre>
+
+<p style="font-style:italic">This was originally on the <a title="Original Tumblr post" href="https://rubenerd.tumblr.com/post/101054357885">Annexe</a>, my Tumblr side-blog.</p>

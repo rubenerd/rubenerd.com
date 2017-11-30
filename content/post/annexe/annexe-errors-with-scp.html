@@ -1,0 +1,27 @@
+---
+title: "#Annexe: Errors with scp"
+date: "2014-11-06T01:16:00+00:00"
+source: "https://rubenerd.tumblr.com/post/101887556135"
+category: Museum
+tag:
+- from-tumblr
+- whoops
+---
+<p>If you want to run scp on a non-standard port, you use the <code>-P</code> flag. So I did this:</p>
+
+<pre><code>scp file.img.xz -P 99999 username@example.com:/dest/path/
+</code></pre>
+
+<p>And what did I get?</p>
+
+<pre><code>ssh: connect to host example.com port 22: no route to host
+</code></pre>
+
+<p>Why was it ignoring my hypothetically impossible port 99999? Oh, wait.</p>
+
+<pre><code>scp -P 99999 file.img.xz username@example.com:/dest/path/
+</code></pre>
+
+<p>Coffee hasn&rsquo;t sunk in yet.</p>
+
+<p style="font-style:italic">This was originally on the <a title="Original Tumblr post" href="https://rubenerd.tumblr.com/post/101887556135">Annexe</a>, my Tumblr side-blog.</p>
