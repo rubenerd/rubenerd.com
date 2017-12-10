@@ -56,13 +56,30 @@ a:hover {
 }
 time::after {
     /* content: " ☕︎ " */
-    content: " 🌲"
+    /* content: " 🌲" */
+    content: " 🎄";
 }
 dt {
     font-weight:bold;
 }
 dd {
     margin-bottom:1em;
+}
+
+
+
+/* Have browsers render non-Retina images correctly, rather
+   that crappy looking interpolation 
+   https://stackoverflow.com/questions/3900436/ */
+.pixelated {
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:crisp-edges;               /* CSS4 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
 }
 
 
@@ -86,7 +103,7 @@ hr {
 
 /* Header */
 #site-banner {
-    background:#004422 url("leaves.png") bottom no-repeat;
+    background:#004422 url("yuletide.png") bottom no-repeat;
     background-size:cover;
     color:#ffffff;
     display:flex;                /* To put navigation on top */
