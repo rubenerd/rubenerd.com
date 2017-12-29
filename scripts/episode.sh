@@ -9,7 +9,7 @@
 
 set -e
 set -o nounset
-
+set -x 
 
 ###########################################################################
 ## User-editable configuration 
@@ -20,8 +20,8 @@ _TITLE=""
 _DESCRIPTION=""
 
 ## Where to find things
-_BUCKET="$HOME/Repos/rubenerd.com/metadata"
-_EPISODES="$HOME/Repos/rubenerd.com/content/post/show"
+_BUCKET="$HOME/Personal/rubenerd.com/metadata"
+_EPISODES="$HOME/Personal/rubenerd.com/content/post/show"
 _EPISODE_PREFIX='show'
 
 ## Episode details
@@ -30,7 +30,7 @@ _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
 _LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='Sydney, Australia'
+_LOCATION='North Sydney, Australia'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
@@ -186,9 +186,12 @@ EOF
 ###########################################################################
 ## Tag MP3s
 
+## Need to remove existing first now, otherwise eyeD3 0.8.x throws an error
+## Uncaught exception: 'NoneType' object has no attribute 'file_info'
+##eyeD3 --remove-all "$_BUCKET/$_ID.mp3"
+
 ## Internet Archive
 eyeD3                                                               \
-    --remove-all                                                    \
     --artist "$_HOST"                                               \
     --album "$_SHOW"                                                \
     --album-artist "$_HOST"                                         \
@@ -219,7 +222,6 @@ eyeD3                                                               \
 
 ## Onsug
 eyeD3                                                               \
-    --remove-all                                                    \
     --artist "$_HOST"                                               \
     --album "Overnightscape Underground - $_ONSUG_RELEASE_DATE"     \
     --title "$_SHOW $_NUMBER: $_TITLE $_ONSUG_TITLE_DATE"           \
@@ -323,7 +325,7 @@ read _ENTER
 ###########################################################################
 ## Upload to Onsug
 
-ftp onsug.com <<EOF
+ncftp onsug <<EOF
 binary
 cd "$_ONSUG_FILE_DATE"
 lcd "$_BUCKET"
