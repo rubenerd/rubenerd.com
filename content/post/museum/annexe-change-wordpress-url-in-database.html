@@ -1,0 +1,31 @@
+---
+title: "Change WordPress URL in database"
+date: "2014-09-23T02:06:00+00:00"
+source: "https://rubenerd.tumblr.com/post/98193939400"
+category: Museum
+tag:
+- from-tumblr
+---
+<p style="font-style:italic">This post originally appeared on the <a title="Rubenerd Annexe post" href="https://rubenerd.tumblr.com/post/98193939400">Annexe</a>.</p>
+
+<p>Yes, I&rsquo;m turning this Tumblr into a dumping ground for stuff that&rsquo;s not worth putting on my actual blog :)</p>
+
+<p>If you&rsquo;ve changed your URL in nginx/Apache, and need to modify in the database:</p>
+
+<pre><code>USE wp_database;
+
+BEGIN;
+
+UPDATE wp_options 
+SET option_value='http://example.com'
+WHERE option_name='siteurl';
+
+UPDATE wp_options 
+SET option_value='http://example.com'
+WHERE option_name='home';
+
+COMMIT;
+</code></pre>
+
+<p><strong>DISCLAIMER:</strong> I have used reasonable care in preparing the information included in this document, but I do not warrant that such information is error free. I assumes no liability whatsoever for any damages incurred by you resulting from errors in or omissions from the information included herein. Backup all production databases before modification.</p>
+

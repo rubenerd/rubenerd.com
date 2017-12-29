@@ -1,0 +1,26 @@
+---
+title: "Checking running servers with netstat"
+date: "2014-11-04T03:58:00+00:00"
+source: "https://rubenerd.tumblr.com/post/101731987545"
+category: Museum
+tag:
+- from-tumblr
+- troubleshooting
+---
+<p style="font-style:italic">This post originally appeared on the <a title="Rubenerd Annexe post" href="https://rubenerd.tumblr.com/post/101731987545">Annexe</a>.</p>
+
+<p>A useful set of flags is the delightful &ldquo;plunt&rdquo;</p>
+
+<pre><code># netstat -plunt
+</code></pre>
+
+<p>For example, on a PostgreSQL box with custom ports:</p>
+
+<pre><code>Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address       Foreign Address         State       PID/Program name
+tcp    0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1077/sshd       
+tcp    0      0 127.0.0.1:5432          0.0.0.0:*               LISTEN      2288/postgres   
+tcp6   0      0 :::22                   :::*                    LISTEN      1077/sshd       
+tcp6   0      0 ::1:5432                :::*                    LISTEN      2288/postgres
+</code></pre>
+
