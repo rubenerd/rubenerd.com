@@ -4,7 +4,6 @@ date: "2013-11-14T21:34:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
 category: Museum
 tag:
-- media
 - language
 - words-that-must-die
 - from-tripleaes

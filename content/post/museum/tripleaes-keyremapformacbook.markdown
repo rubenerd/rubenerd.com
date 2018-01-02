@@ -4,7 +4,6 @@ date: "2013-11-16T18:17:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
 category: Museum
 tag:
-- hardware
 - keyboards
 - unicomp
 - macos

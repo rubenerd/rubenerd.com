@@ -4,7 +4,6 @@ date: "2013-11-14T22:03:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
 category: Museum
 tag:
-- media
 - colour
 - design
 - from-tripleaes

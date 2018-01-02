@@ -2,9 +2,8 @@
 title: "#TripleAES: Fibre optic considered faster than copper"
 date: "2013-11-21T21:10:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - australia
 - politics
 - telecommunications
