@@ -4,15 +4,6 @@ title: "Omake"
 ---
 *Omake* is an oft-abused Japanese [term] used for bonus or extra content. It seemed like a fitting title for this.
 
-### Other Weblogs
-
-* [Annexe](http://annexe.rubenerd.com/), stuff that doesn't fit anywhere else
-* [Github Gists](https://gist.github.com/Rubenerd), my code and script snippets
-* [Penguin Coffee](http://penguincoffee.net), Clara's and my anime Tumblr
-* [Museum](/museum/), imported posts from dead/retired services
-* [Pinboard](https://pinboard.in/u:Rubenerd), my link blog, previously [del.icio.us](https://del.icio.us/rubenerd)
-* [Unsub Me Already](http://unsub.rubenerd.com/), chronicling my email (mis)adventures 
-
 ### Lists
 
 * [Blogroll](/omake/blogroll/), lovely people and sites you should read
