@@ -1,9 +1,8 @@
 ---
 title: "Dismissing macOS modal dialogs"
 date: "2016-09-26T09:13:17+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - apple
 - design
 - macos

@@ -1,9 +1,8 @@
 ---
 title: "Over 9,000 and Sysadmin Day"
 date: "2016-08-03T13:01:27+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - browsers
 - logo
 - milestones

@@ -2,9 +2,8 @@
 title: "Versions of EMM386"
 date: "2017-03-07T16:22:00+10:00"
 abstract: "I always wanted to know these!"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - dos
 - emm386
 - memory

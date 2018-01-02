@@ -2,9 +2,8 @@
 title: "But Steve Jobs wouldn’t have done it!"
 date: "2017-09-21T16:50:47+10:00"
 abstract: "He also wouldn’t have approved a hockey-puck mouse?"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - design
 ---

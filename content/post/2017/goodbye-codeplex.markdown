@@ -2,9 +2,8 @@
 title: "Goodbye CodePlex"
 date: "2017-04-04T09:01:00+10:00"
 abstract: "Or how I learned to fear consolidation"
-category: Infocomm
-tag:
-- software 
+category: Software
+tag: 
 - git
 - microsoft
 - msdn

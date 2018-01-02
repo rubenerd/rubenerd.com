@@ -2,9 +2,8 @@
 title: "Building a Wall"
 date: "2017-07-11T08:31:32+10:00"
 abstract: "Lyrics from this song seem poignnant now."
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - pet-shop-boys
 ---

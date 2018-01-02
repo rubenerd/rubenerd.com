@@ -1,9 +1,8 @@
 ---
 title: "287 megabytes of Emacs"
 date: "2016-09-30T09:49:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - emacs
 - vim
 ---

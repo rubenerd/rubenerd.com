@@ -2,9 +2,8 @@
 title: "Folding paper seven times"
 date: "2016-03-16T16:01:00+10:00"
 abstract: "Or when you turn paper to wood"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - paper
 - science
 - video

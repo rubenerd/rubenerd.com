@@ -1,9 +1,8 @@
 ---
 title: "The ASUS EeeBook X205TA"
 date: "2016-08-09T15:49:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - asus
 - laptops
 - intel-atom

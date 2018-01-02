@@ -1,9 +1,8 @@
 ---
 title: "Thunderbird 1024"
 date: "2016-04-07T13:55:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - email
 - thunderbird
 - personal

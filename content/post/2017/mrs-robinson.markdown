@@ -2,9 +2,8 @@
 title: "Mrs Robinson"
 date: "2017-09-23T10:21:36+10:00"
 abstract: "Put it in your pantry with your cupcakes"
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - simon-and-garfunkel
 ---

@@ -2,9 +2,8 @@
 title: "Browsing tar files with Vim"
 abstract: "You can!"
 date: "2016-03-16T14:31:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - linux

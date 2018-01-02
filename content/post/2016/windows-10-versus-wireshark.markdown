@@ -2,9 +2,8 @@
 title: "Windows 10 versus Wireshark"
 date: "2016-02-18T15:26:00+11:00"
 abstract: "Yes, Microsoft is getting data about you"
-category: Infocomm
+category: Software
 tag:
-- software
 - privacy
 - windows
 - windows-10

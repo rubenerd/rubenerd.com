@@ -2,9 +2,8 @@
 title: "Elements.pm"
 date: "2016-01-13T10:29:00+10:00"
 abstract: "The greatest hash of all time"
-category: Infocomm
+category: Software
 tag:
-- software
 - chemistry
 - hashes
 - perl

@@ -1,9 +1,8 @@
 ---
 title: "Vim’s smart undo without saving changes"
 date: "2016-06-29T14:23:57+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - macvim
 - vim
 ---

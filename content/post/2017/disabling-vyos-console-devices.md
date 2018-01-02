@@ -2,9 +2,8 @@
 title: "Disabling VyOS console devices"
 date: "2017-12-23T12:04:45+11:00"
 abstract: "As with everyting VyOS: don’t mess with it outside its state machine!"
-category: Infocomm
+category: Software
 tag:
-- software
 - networking
 - cloud-computing
 - joviam

@@ -3,9 +3,8 @@ draft: true
 title: "Satisfying Plex with awk"
 category: "2016-03-20T16:43:00+10:00"
 abstract: "Batch renaming done the easy way"
-category: Thoughts
+category: Media
 tag:
-- media
 - awk
 - linux
 ---

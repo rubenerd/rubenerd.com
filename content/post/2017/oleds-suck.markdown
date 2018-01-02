@@ -2,9 +2,8 @@
 title: "OLEDs suck, for me"
 date: "2017-10-08T10:54:19+11:00"
 abstract: "Even the latest ones shimmer and look grainy. Darn."
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - phones
 - lcd

@@ -2,9 +2,8 @@
 title: "Definition lists in markdown"
 date: "2017-06-15T12:09:10+10:00"
 abstract: "Not everyone thinks like Jeff Atwood"
-category: Infocomm
+category: Software
 tag:
-- software
 - markdown
 - gohugo
 - go

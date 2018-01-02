@@ -2,9 +2,8 @@
 title: "brew install sshpass"
 date: "2015-11-27T10:33:00+10:00"
 abstract: "Saving ourselves from ourselves"
-category: Infocomm
+category: Software
 tag:
-- software
 - homebrew
 - mac-os-x
 - package-managers

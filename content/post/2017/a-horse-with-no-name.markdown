@@ -2,9 +2,8 @@
 title: "A Horse with No Name"
 date: "2017-09-25T15:56:28+10:00"
 abstract: "Wouldn’t that be its defacto name?"
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - lyrics
 ---

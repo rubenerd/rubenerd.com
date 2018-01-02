@@ -1,9 +1,8 @@
 ---
 title: "Mr Turnbull on the NBN and #CensusFail"
 date: "2016-08-11T17:23:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - census
 - nbn

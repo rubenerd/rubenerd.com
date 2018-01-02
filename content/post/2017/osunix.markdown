@@ -2,9 +2,8 @@
 title: "OSUNIX"
 date: "2017-09-11T16:13:03+10:00"
 abstract: "Where is this OpenSolaris system? Is it abandonware?"
-category: Infocomm
+category: Software
 tag:
-- software
 - osunix
 - solaris
 ---

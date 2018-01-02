@@ -2,9 +2,8 @@
 title: "No more local Singapore-Malaysia calls, kinda"
 date: "2017-04-15T10:13:00+10:00"
 abstract: "A symbolic move, if anything else."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - phones
 - malaysia
 - nostalgia

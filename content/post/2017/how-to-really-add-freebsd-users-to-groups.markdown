@@ -2,9 +2,8 @@
 title: "How to really add FreeBSD users to groups"
 date: "2017-09-23T09:17:59+10:00"
 abstract: "Don’t use the usermod command, or you’ll remove yourself from every other group!"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - guides

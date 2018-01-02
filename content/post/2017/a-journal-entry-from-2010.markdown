@@ -2,9 +2,8 @@
 title: "A journal entry from 2010, and date formats"
 date: "2017-09-06T18:35:15+10:00"
 abstract: "It was deep, insightful, and thoroughly precient."
-category: Infocomm
+category: Software
 tag:
-- software
 - dates
 - tine
 - timestamps

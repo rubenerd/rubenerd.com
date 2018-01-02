@@ -2,9 +2,8 @@
 title: "Apps first"
 date: "2017-10-12T09:47:00+10:00"
 abstract: "Looking for the best student work, starting with apps"
-category: Infocomm
+category: Software
 tag:
-- software
 - phones
 - iphone
 ---

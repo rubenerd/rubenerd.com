@@ -2,9 +2,8 @@
 title: "Typewriter style keyboard"
 date: "2017-04-03T11:02:00+10:00"
 abstract: "As they used to say"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - cherry-mx
 - keyboards
 ---

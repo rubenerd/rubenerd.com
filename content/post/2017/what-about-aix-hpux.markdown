@@ -2,9 +2,8 @@
 title: "What about AIX and HP/UX?"
 date: "2017-09-07T13:23:43+10:00"
 abstract: "With Solaris on the rocks, what about the future of these other OSs?"
-category: Infocomm
+category: Software
 tag:
-- software
 - aix
 - apple
 - ibm

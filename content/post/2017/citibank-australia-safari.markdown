@@ -2,9 +2,8 @@
 title: "Citibank Australia and Safari"
 date: "2017-07-14T08:46:55+10:00"
 abstract: "Internet banking says to use the latest Safari, but it doesn’t support it."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - banks
 - browsers
 - citibank

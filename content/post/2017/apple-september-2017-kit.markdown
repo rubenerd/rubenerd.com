@@ -2,9 +2,8 @@
 title: "Apple’s September 2017 kit"
 date: "2017-09-15T10:03:05+10:00"
 abstract: "As usual, some decent looking kit, with reservations."
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - apple-tv
 - displays

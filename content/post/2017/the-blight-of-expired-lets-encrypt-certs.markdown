@@ -2,9 +2,8 @@
 title: "The blight of expired Let’s Encrypt certs"
 date: "2017-05-13T10:50:00+10:00"
 abstract: "They're having an unintended side effect"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - lets-encrypt
 - privacy
 - security

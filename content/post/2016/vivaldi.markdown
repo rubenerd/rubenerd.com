@@ -2,9 +2,8 @@
 draft: true
 title: "Vivaldi"
 date: "2016-06-06T11:51:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - browsers
 - vivaldi
 ---

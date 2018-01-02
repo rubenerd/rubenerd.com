@@ -2,9 +2,8 @@
 title: "Ian Potts"
 date: "2016-01-14T09:03:00+10:00"
 abstract: "New favourite name spam"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 ---
 Speaking of [spam], this was another I got yesterday:

@@ -2,9 +2,8 @@
 title: "Big Boy"
 date: "2017-04-21T17:23:00+10:00"
 abstract: "Flattery will get you nowhere"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 ---
 I haven't done a Friday fanmail in a few weeks. Here's a recent message:

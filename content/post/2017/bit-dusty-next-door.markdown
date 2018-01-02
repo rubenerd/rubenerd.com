@@ -2,9 +2,8 @@
 title: "Video: Bit dusty next door"
 date: "2017-09-18T14:14:28+10:00"
 abstract: "So that’s why our office balcony was covered in grit this morning!"
-category: Thoughts
+category: Media
 tag:
-- media
 - australia
 - sydney
 ---

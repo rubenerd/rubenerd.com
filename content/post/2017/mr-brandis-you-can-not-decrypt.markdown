@@ -2,13 +2,12 @@
 title: "Mr Brandis, You Can (Not) Decrypt"
 date: "2017-06-12T10:12:00+10:00"
 abstract: "With apologies to Evangelion"
-category: Infocomm
+category: Internet
 tag:
 - australia
 - privacy
 - security
 - encryption
-- internet
 - politics
 ---
 With apologies to *Evangelion*. I almost can't believe this is still a thing, as reported by Gareth Hutchins in [The Guardian]:

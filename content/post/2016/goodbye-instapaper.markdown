@@ -1,9 +1,8 @@
 ---
 title: "Goodbye, Instapaper"
 date: "2016-08-24T17:44:36+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - instapaper
 - pinterest
 ---

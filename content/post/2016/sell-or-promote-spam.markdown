@@ -2,9 +2,8 @@
 title: "Sell or promote spam"
 abstract: "Take it further? You mean, like Pluto?"
 date: "2016-11-04T11:08:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - pointless
 - spam
 ---

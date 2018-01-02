@@ -2,9 +2,8 @@
 title: "The Sun Type 6"
 date: "2016-03-09T21:01:00+10:00"
 abstract: "Another keyboard I probably won't ever own"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - keyboards
 - sun-microsystems
 ---

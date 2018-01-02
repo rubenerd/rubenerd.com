@@ -1,9 +1,8 @@
 ---
 title: "How likely to recommend emails"
 date: "2016-06-15T13:21:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - email
 - newsletters
 - spam

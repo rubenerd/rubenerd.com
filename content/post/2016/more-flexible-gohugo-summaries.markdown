@@ -1,9 +1,8 @@
 ---
 title: "More flexible gohugo summaries"
 date: "2016-07-30T14:19:10+10:00"
-category: Infocomm
-tag:
-- software 
+category: Software
+tag: 
 - gohugo
 - static-site-generation
 ---

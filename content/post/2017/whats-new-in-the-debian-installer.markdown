@@ -2,9 +2,8 @@
 title: "What’s new in the Debian installer"
 date: "2017-09-21T09:10:41+10:00"
 abstract: "No more PowerPC, defaulting to 32bit, and HTTPS apt in the installer"
-category: Infocomm
+category: Software
 tag:
-- software
 - linux
 - debian
 - retro

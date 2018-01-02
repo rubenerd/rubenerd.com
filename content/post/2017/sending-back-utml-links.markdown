@@ -2,9 +2,8 @@
 title: "Sending back UTM links"
 date: "2017-04-21T17:28:00+10:00"
 abstract: "utm_medium=shaddup"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 - urls
 ---

@@ -2,9 +2,8 @@
 title: "Songs with the word ceiling in their title"
 date: "2017-11-24T17:57:05+11:00"
 abstract: "According to iTunes, I have the following songs titled with the word ceiling, in case you wondered."
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - pointless
 ---

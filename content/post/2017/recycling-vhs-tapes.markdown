@@ -2,9 +2,8 @@
 title: "Recycling VHS tapes"
 date: "2017-07-12T09:22:00+10:00"
 abstract: "Surprisingly, few Sydney councils take them, gah!"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - retro
 - nostalgia
 - tapes

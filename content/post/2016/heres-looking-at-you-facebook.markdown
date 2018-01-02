@@ -3,9 +3,8 @@ draft: true
 title: "Here's looking at you, Facebook"
 date: "2016-09-26T16:43:00+10:00"
 abstract: "I give up, time to start posting there too"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - facebook
 - fb
 ---

@@ -2,9 +2,8 @@
 title: "Social norms and coffee shops"
 date: "2017-06-07T09:15:00+10:00"
 abstract: "Most of us consider it normal, but not all."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - coffee
 - cafes
 - weblog

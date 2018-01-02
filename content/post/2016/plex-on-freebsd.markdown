@@ -1,9 +1,8 @@
 ---
 title: "FreeBSD and ZFS with Plex"
 date: "2016-09-02T12:19:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - bsd
 - freebsd
 - plex

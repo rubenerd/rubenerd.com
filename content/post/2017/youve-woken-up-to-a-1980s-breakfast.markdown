@@ -2,9 +2,8 @@
 title: "You've woken up to a 1980s breakfast"
 date: "2017-04-16T23:42:00+10:00"
 abstract: "The graphics, type, and logos on the cups are amazing."
-category: Thoughts
+category: Media
 tag:
-- media
 - 1980s
 - advertising
 - design

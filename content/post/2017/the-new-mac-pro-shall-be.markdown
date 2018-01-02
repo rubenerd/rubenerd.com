@@ -2,9 +2,8 @@
 title: "The new Mac Pro shall be"
 date: "2017-04-07T08:38:00+10:00"
 abstract: "But the excitement masks a real business issue."
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - john-gruber
 - imac

@@ -2,7 +2,7 @@
 title: "Activities and Visitors!"
 date: "2017-11-15T17:03:17+11:00"
 abstract: "This spam has Many great Capitalised tracking words!"
-category: Infocomm
+category: Internet
 tag:
 - email
 - spam

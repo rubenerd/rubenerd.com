@@ -1,6 +1,10 @@
 ---
 title: "Rubénerd Law of Headlines"
+date: "2017-09-14T19:01:00+10:00"
 summary: "There are legit, un-harmful ways to use tech in headlines stating they're considered harmful"
+category: Media
+tag:
+- news
 ---
 Betteridge's Law of Headlines states that the answer to headings ending in a question is no. For example, "Does X cure cancer?" wouldn't need the question mark if the answer was yes. It's an exercise in journalistic hedge betting.
 

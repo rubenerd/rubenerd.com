@@ -2,9 +2,8 @@
 title: "Replace FTP client with NcFTP on High Sierra"
 date: "2017-12-19T11:23:12+11:00"
 abstract: "High Sierra no longer bundles"
-category: Infocomm
+category: Software
 tag:
-- software
 - ftp
 - macos
 ---

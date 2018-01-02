@@ -2,9 +2,8 @@
 draft: true
 title: "The wonderful FreeBSD cal"
 date: "2016-09-09T15:37:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - cal
 - calendars

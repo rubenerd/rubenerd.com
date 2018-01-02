@@ -2,9 +2,8 @@
 draft: true
 title: "Kindly, Don’t Do That"
 date: "2016-07-12T14:18:50+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - cliches
 - weblog
 ---

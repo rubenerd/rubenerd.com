@@ -2,9 +2,8 @@
 title: "FreeBSD.org using Let’s Encrypt"
 date: "2017-11-28T11:36:11+11:00"
 abstract: ""
-category: Infocomm
+category: Internet
 tag:
-- internet
 - freebsd
 - bsd
 - lets-encrypt

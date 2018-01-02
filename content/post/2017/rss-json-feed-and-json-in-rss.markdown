@@ -2,9 +2,8 @@
 title: "JSON Feed, and JSON in RSS"
 date: "2017-07-08T10:24:00+10:00"
 abstract: "When the web syndication wheel was reinvented, again"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - atom
 - dave-winer
 - rss

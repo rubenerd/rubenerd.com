@@ -2,9 +2,8 @@
 title: "Goodbye junk"
 date: "2016-12-21T08:30:00+10:00"
 abstract: "Finally decluttering all the things, and it feels goooooood!"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - decluttering
 ---
 <p style="font-style:italic">(This post was originally written earlier this month, but was published by accident before I added photos, etc. Reading it now, I think it’s fine the way it is).</p>

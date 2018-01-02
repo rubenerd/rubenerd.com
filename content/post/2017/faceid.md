@@ -2,10 +2,13 @@
 title: "FaceID"
 date: "2017-11-22T08:54:24+11:00"
 abstract: "I have reservations, surprising nobody!"
-category: Infocomm
+category: Hardware
 tag:
 - apple
-- hardware
+- security
+- authentication
+- privacy
+- phones
 ---
 I haven't done a thinking out loud post for a long time, where I scrawl out my ideas in one continuous stream then revisit it later.
 

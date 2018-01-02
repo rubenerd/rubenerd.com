@@ -2,9 +2,8 @@
 draft: true
 title: "Weaning off streaming music"
 date: "2016-12-05T08:44:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - apple-music
 - music
 - spotify

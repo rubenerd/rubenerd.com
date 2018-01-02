@@ -1,9 +1,8 @@
 ---
 title: "Basic sh to scan an IP range"
 date: "2016-05-28T11:13:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - scripting
 - bourne-shell
 - bsd

@@ -2,9 +2,8 @@
 title: "Friday Fanmail: Mark Waller"
 date: "2017-11-24T14:50:12+11:00"
 abstract: "When cold emailing isn’t just something an Icelandic security professional would do"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 - email
 ---

@@ -2,9 +2,8 @@
 title: "Second–hand computers do exist"
 date: "2017-07-12T08:08:00+10:00"
 abstract: "So why are they still not included in metrics?"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - laptops
 - sales
 ---

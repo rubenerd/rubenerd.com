@@ -1,9 +1,8 @@
 ---
 title: "What happened to Otto?"
 date: "2016-08-24T14:32:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - devops
 - hashicorp
 ---

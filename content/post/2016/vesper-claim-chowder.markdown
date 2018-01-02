@@ -1,9 +1,8 @@
 ---
 title: "Vesper claim chowder"
 date: "2016-08-25T17:20:07+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - apple
 - daring-fireball
 - john-gruber

@@ -2,9 +2,8 @@
 title: "Light iTerm colour schemes"
 date: "2016-04-15T09:24:49+10:00"
 abstract: "When Solarized Dark doesn’t cut it"
-category: Infocomm
+category: Software
 tag:
-- software
 - colour
 - design
 - iterm

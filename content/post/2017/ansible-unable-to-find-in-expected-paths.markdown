@@ -2,9 +2,8 @@
 title: "Ansible: Unable to find in expected paths"
 date: "2017-09-10T22:02:00+10:00"
 abstract: "Turns out, you need to use the remote_src attribute"
-category: Infocomm
+category: Software
 tag:
-- software
 - ansible
 - orchestration
 ---

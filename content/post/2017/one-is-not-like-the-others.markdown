@@ -2,9 +2,8 @@
 title: "One is not like the others"
 date: "2017-04-18T09:15:00+10:00"
 abstract: "Or when random eBay searches attack"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - ebay
 - retro
 - shopping

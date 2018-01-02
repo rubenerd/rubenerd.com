@@ -1,9 +1,8 @@
 ---
 title: "Fujitsu exiting laptop business"
 date: "2016-12-13T23:13:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - from-old-drafts
 - fujitsu
 - laptops

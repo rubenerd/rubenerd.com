@@ -2,9 +2,8 @@
 title: "Restoring my first computer"
 date: "2017-04-09T09:49:00+10:00"
 abstract: "So many pointless skills!"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - creative
 - iomega
 - jaz-drive

@@ -2,9 +2,8 @@
 title: "LibreOffice HTML table paste"
 date: "2017-04-05T10:25:00+10:00"
 abstract: "It works for Excel, but LibreOffice is problematic"
-category: Infocomm
+category: Software
 tag:
-- software
 - excel
 - libreoffice
 - spreadsheet

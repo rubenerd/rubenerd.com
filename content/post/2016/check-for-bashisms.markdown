@@ -2,9 +2,8 @@
 title: "Check for bashisms"
 date: "2016-09-28T18:23:00+10:00"
 abstract: "Using checkbashisms"
-category: Infocomm
+category: Software
 tag:
-- software
 - fb
 - shell-scripting
 ---

@@ -1,9 +1,8 @@
 ---
 title: "Xamarin the loss–leader"
 date: "2016-04-29T10:14:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - microsoft
 - visual-studio
 ---

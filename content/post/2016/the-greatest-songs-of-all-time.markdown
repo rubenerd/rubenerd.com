@@ -1,9 +1,8 @@
 ---
 title: "The greatest songs of all time"
 date: "2016-11-07T07:43:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - lists
 - music
 ---

@@ -2,9 +2,8 @@
 title: "Here’s an email for a received message"
 date: "2017-05-26T15:44:00+10:00"
 abstract: "Stop emailing us to check inboxes"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - email
 - social-networks
 - spam

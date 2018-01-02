@@ -2,9 +2,8 @@
 title: "Upgrading and locking FreeBSD 10+ ports in pkgng"
 date: "2016-01-12T17:22:00+10:00"
 abstract: "Lock packages to prevent them being overwritten"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - package-managers

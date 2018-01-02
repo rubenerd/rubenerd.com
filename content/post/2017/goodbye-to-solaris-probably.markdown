@@ -2,9 +2,8 @@
 title: "Goodbye to Solaris, probably?"
 date: "2017-09-05T18:18:23+10:00"
 abstract: "Much of the Solaris team has been fired from Oracle. What now?"
-category: Infocomm
+category: Software
 tag:
-- software
 - opensolaris
 - oracle
 - solaris

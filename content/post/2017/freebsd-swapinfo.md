@@ -2,9 +2,8 @@
 title: "FreeBSD swapinfo"
 date: "2017-12-07T18:12:17+11:00"
 abstract: "Seeing how much virtual memory you’re using."
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - ram

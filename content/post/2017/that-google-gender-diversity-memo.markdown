@@ -2,7 +2,7 @@
 title: "That Google gender-diversity memo"
 date: "2017-08-09T17:30:20+10:00"
 abstract: "Women spend more than men, really!?"
-category: Infocomm
+category: Media
 tag:
 - dudebros
 - silicon-valley

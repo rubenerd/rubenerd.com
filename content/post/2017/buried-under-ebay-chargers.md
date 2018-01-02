@@ -3,9 +3,8 @@ draft: true
 title: "Buried under eBay chargers"
 date: "2017-12-08T11:34:37+11:00"
 abstract: "There must be a better way than two dozen negative search terms!"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - ebay
 - shopping
 - spam

@@ -1,9 +1,8 @@
 ---
 title: "The @wellmaywesay podcast"
 date: "2016-11-27T10:53:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - audio
 - australia
 - podcasts

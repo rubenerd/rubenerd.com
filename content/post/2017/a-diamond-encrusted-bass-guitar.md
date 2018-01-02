@@ -2,9 +2,8 @@
 title: "A diamond encrusted bass guitar"
 date: "2017-11-22T16:48:52+11:00"
 abstract: "Or when I feel like I shouldn’t be judging people, other than for their poor taste!"
-category: Thoughts
+category: Media
 tag:
-- media
 - news
 - australia
 ---

@@ -2,9 +2,8 @@
 title: "Hackensack text clipping"
 date: "2017-10-07T11:14:51+11:00"
 abstract: "Hackensa^K^K^K^K^K^K!"
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - lyrics
 - pointless

@@ -2,9 +2,8 @@
 title: "Mac downloads in 2016"
 abstract: "Everything Mac has been neglected, even site pages"
 date: "2016-10-27T12:18:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - mac-os-x
 - macos

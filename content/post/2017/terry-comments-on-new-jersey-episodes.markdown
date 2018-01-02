@@ -1,9 +1,8 @@
 ---
 title: "Terry comments on New Jersey episodes"
 date: "2017-02-14T09:14:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - comments
 ---
 Speaking of my evil drafts folder, Frank Nora and I got this wonderful message from Terry late last year:

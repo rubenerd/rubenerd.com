@@ -2,9 +2,8 @@
 title: "Dangerous of reporting on “wiki” and “crypto”"
 date: "2017-12-01T10:21:51+11:00"
 abstract: "Please report on Wikipedia and digital currencies responsibility"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - wikipedia
 - wikileaks
 - digital-currencies

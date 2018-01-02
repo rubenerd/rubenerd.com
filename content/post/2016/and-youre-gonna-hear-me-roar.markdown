@@ -1,9 +1,8 @@
 ---
 title: "And you're gonna hear me roar"
 date: "2016-05-13T13:45:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - lyrics
 - music
 ---

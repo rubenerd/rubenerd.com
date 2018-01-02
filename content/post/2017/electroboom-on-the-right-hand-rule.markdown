@@ -1,10 +1,10 @@
 ---
 title: "Electroboom on the Right Hand Rule"
 date: "2017-09-08T14:27:30+10:00"
-abstract: ""
-category: Infocomm
+abstract: "One of the greatest videos by one of the greatest YouTubers"
+category: Hardware
 tag:
-- Hardware
+tag:
 - electronics
 - mehdi-sadaghdar
 - electroboom

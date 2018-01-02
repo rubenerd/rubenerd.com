@@ -2,9 +2,8 @@
 title: "Installing Python pip in Homebrew"
 date: "2017-11-02T11:52:02+11:00"
 abstract: "The pip executable has the version appended to it"
-category: Infocomm
+category: Software
 tag:
-- software
 - python
 - mac-os-x
 - macos

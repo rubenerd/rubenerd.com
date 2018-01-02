@@ -2,9 +2,8 @@
 title: "Advanced protection from Google instead?"
 date: "2017-10-24T10:39:42+11:00"
 abstract: "The Advanced Protection Program does not assuage my primary concern with digital surveillance."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - google
 - privacy
 - security

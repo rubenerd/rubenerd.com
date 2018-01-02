@@ -2,9 +2,8 @@
 title: "But I’d treat her better!"
 date: "2017-05-29T11:08:00+10:00"
 abstract: "The red herring of nerds everywhere"
-category: Thoughts
+category: Media
 tag:
-- media
 - music
 - school
 ---

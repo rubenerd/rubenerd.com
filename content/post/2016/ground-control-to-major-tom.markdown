@@ -2,9 +2,8 @@
 title: "Ground Control to Major Tom"
 date: "2016-01-12T11:54:00+10:00"
 abstract: "Goodbye David Bowie"
-category: Thoughts
+category: Media
 tag:
-- media
 - david-bowie
 - music
 - rip

@@ -1,9 +1,8 @@
 ---
 title: "Covering laptop camers"
 date: "2016-07-18T15:14:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - privacy
 - security
 ---

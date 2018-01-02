@@ -4,7 +4,8 @@ date: "2017-07-31T18:58:11+09:00"
 abstract: "Typing away at the top of Namba Parks in Osaka, Japan"
 category: Thoughts
 tag:
-- hk
+- japan
+- osaka
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/photo.namba-parks@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/photo.namba-parks@1x.jpg 1x, https://rubenerd.com/files/2017/photo.namba-parks@2x.jpg 2x" /></p></figure>
 

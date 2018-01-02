@@ -1,9 +1,8 @@
 ---
 title: "freebsd-update timezone changes"
 date: "2016-12-13T09:05:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - freebsd-update

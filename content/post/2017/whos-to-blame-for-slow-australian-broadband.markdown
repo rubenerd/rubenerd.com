@@ -2,9 +2,8 @@
 title: "Who’s to blame for slow AU broadband?"
 date: "2017-06-28T08:18:00+10:00"
 abstract: "Government."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - broadband
 - nbn

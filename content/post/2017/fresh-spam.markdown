@@ -2,9 +2,8 @@
 title: "Fresh spam"
 date: "2017-08-04T10:13:00+10:00"
 abstract: "If they're not hyperglobal thinkfluencers, I'm not interested."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 ---
 I haven't done any Friday fanmail in a while. This one was a gem.

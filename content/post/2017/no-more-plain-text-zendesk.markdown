@@ -2,9 +2,8 @@
 title: "No more plain text Zendesk"
 date: "2017-09-18T10:09:29+10:00"
 abstract: "Because, as a gentleman, I send plain text email"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - email
 - zendesk
 ---

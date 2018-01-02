@@ -2,9 +2,8 @@
 title: "The Tupolev Tu-114"
 date: "2017-11-21T09:10:47+11:00"
 abstract: "The early jet age plane I hadn’t ever heard of!"
-category: Thoughts
+category: Hardware
 tag:
-- hardware
 - 1950s
 - aviation
 - design

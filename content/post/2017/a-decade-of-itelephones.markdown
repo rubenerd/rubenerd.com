@@ -2,9 +2,8 @@
 title: "A decade of iTelephones"
 date: "2017-06-30T09:11:00+10:00"
 abstract: "Been a user of one ever since"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - iphone
 ---

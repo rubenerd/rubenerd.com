@@ -1,9 +1,8 @@
 ---
 title: "Boxed–up posts"
 date: "2016-06-16T17:18:00+10:00"
-category: Infocomm
-tag:
-- internet 
+category: Internet
+tag: 
 - design
 - nostalgia
 - pointless

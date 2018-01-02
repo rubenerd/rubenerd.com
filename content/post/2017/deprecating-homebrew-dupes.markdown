@@ -2,9 +2,8 @@
 title: "Deprecating homebrew-dupes"
 date: "2017-06-20T10:14:00+10:00"
 abstract: "Packages already in macOS now in the core repo"
-category: Infocomm
+category: Software
 tag:
-- software
 - macos
 - mac-os-x
 - os-x

@@ -2,9 +2,8 @@
 title: "GitHub asks for username with SSH configured"
 abstract: "Re-clone from the SSH url!"
 date: "2016-03-08T11:45:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - git
 - github
 - guides

@@ -2,9 +2,8 @@
 title: "This press release is excited!"
 date: "2017-05-19T11:36:00+10:00"
 abstract: "So excited, they can't find a thesaurus!"
-category: Thoughts
+category: Media
 tag:
-- media
 - advertising
 - press
 ---

@@ -2,9 +2,8 @@
 title: "Graduate Outcomes Survey"
 abstract: "My supervisor, if I had one, shouldn't be spammed like this"
 date: "2016-11-17T12:33:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - studies
 - uts

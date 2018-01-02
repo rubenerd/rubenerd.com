@@ -2,9 +2,8 @@
 title: "Turnbull’s moot startup point"
 date: "2015-12-06T06:27:00+10:00"
 abstract: "What good is disruptive tech without internet?"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - nbn
 - politics

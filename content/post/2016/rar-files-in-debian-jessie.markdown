@@ -1,9 +1,8 @@
 ---
 title: "rar files in Debian Jessie"
 date: "2016-04-23T11:38:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - compression
 - debian
 - guides

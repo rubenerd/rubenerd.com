@@ -1,9 +1,8 @@
 ---
 title: "The unfortunately-named Eero"
 date: "2016-12-12T09:55:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - ero
 - wifi
 ---

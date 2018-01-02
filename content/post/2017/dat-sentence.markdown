@@ -2,9 +2,8 @@
 title: "Dat sentence" 
 date: "2017-04-26T15:54:00+10:00"
 abstract: "Two sentence structures I’ve committed to stop using"
-category: Thoughts
+category: Media
 tag:
-- media
 - language
 - weblog
 ---

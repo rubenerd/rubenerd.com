@@ -2,9 +2,8 @@
 title: "The origin of DirectX green"
 date: "2017-10-12T09:27:00+10:00"
 abstract: "And Steve Jobs said Microsoft lacks taste, can you believe it?"
-category: Infocomm
+category: Software
 tag:
-- software
 - gaming
 - microsoft
 - windows

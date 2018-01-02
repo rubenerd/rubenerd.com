@@ -1,9 +1,8 @@
 ---
 title: "brew cask move yourself"
 date: "2016-06-14T11:58:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - homebrew
 - homebrew-cask
 - mac-os-x

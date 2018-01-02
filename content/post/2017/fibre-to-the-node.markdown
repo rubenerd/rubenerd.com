@@ -2,10 +2,9 @@
 title: "Fibre to the Node"
 date: "2017-07-06T18:33:00+10:00"
 abstract: "Thanks for nothing, Malcolm Turnbull"
-category: Infocomm
+category: Internet
 tag:
 - australia
-- internet
 - nbn
 - politics
 ---

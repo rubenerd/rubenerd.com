@@ -2,9 +2,8 @@
 title: "Sila’s gamble"
 date: "2017-03-22T16:27:00+10:00"
 abstract: "So many potential new Sims character names"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - spam
 ---
 Below are a list of names from spam email over the last week, and the first association that came to me.

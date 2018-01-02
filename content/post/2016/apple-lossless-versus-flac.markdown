@@ -1,9 +1,8 @@
 ---
 title: "Apple Lossless versus FLAC"
 date: "2016-04-26T12:14:00+10:00"
-category: Thoughts
+category: Media
 tag:
-- media
 - audio
 - alac
 - apple

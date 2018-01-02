@@ -2,9 +2,8 @@
 title: "Ubuntu switching to Wayland"
 date: "2017-05-24T08:43:00+10:00"
 abstract: "And why replacing packages isn't always easy"
-category: Infocomm
+category: Software
 tag:
-- software
 - linux
 - ubuntu
 - wayland

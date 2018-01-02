@@ -2,9 +2,8 @@
 title: "Decluttering to a little portable library"
 date: "2017-11-17T16:55:55+11:00"
 abstract: "Isn’t it wonderful when doing one thing leads to something else that’s awesome?"
-category: Toughts
+category: Media
 tag:
-- media
 - books
 - manga
 - scanning

@@ -2,9 +2,8 @@
 draft: true
 title: "Goodbye, Internet Explorer 6"
 date: "2016-09-06T11:38:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - browsers
 - design
 - ie6

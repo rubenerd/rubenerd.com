@@ -2,9 +2,8 @@
 title: "Did you have a chance to review my last email?"
 date: "2017-08-05T11:33:59+10:00"
 abstract: "I created a new spam filter to block these, it’s shocking how well it’s worked."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - email
 - spam
 ---

@@ -2,7 +2,7 @@
 title: "Five hundred pages"
 date: "2017-08-28T10:31:07+10:00"
 abstract: "Which means five thousand posts! Not too shabby."
-category: Infocomm
+category: Internet
 tag:
 - personal
 - pointless-milestone

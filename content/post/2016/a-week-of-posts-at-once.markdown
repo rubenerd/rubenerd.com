@@ -1,9 +1,8 @@
 ---
 title: "A week of posts at once"
 date: "2016-09-29T15:51:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - energy
 - south-australia

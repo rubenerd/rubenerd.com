@@ -1,9 +1,8 @@
 ---
 title: "Showing dd progress"
 date: "2016-05-23T15:30:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - bsd
 - freebsd
 - linux

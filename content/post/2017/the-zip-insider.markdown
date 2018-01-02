@@ -2,9 +2,8 @@
 title: "The Zip Insider"
 date: "2017-03-14T10:38:00+10:00"
 abstract: "It was bigger and bluer than the one I had"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - iomega
 - nostalgia
 - retro

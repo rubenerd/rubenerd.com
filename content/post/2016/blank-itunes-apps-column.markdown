@@ -1,9 +1,8 @@
 ---
 title: "Blank iTunes apps column"
 date: "2016-09-26T07:45:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - apple
 - guides
 - itunes

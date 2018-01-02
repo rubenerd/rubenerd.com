@@ -1,9 +1,8 @@
 ---
 title: "Hugo 0.18.1"
 date: "2017-01-17T09:22:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - gohugo
 - weblog
 ---

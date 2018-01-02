@@ -2,9 +2,8 @@
 title: "Australian ISPs to block torrent sites"
 abstract: "Trotting out all the usual memes, and without thinking of the implications."
 date: "2016-12-22T17:24:00+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - australia
 - bittorrent
 - copyright

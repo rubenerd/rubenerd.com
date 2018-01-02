@@ -2,9 +2,8 @@
 title: "MacVim wants to go full screen"
 abstract: "Long menu lists are long"
 date: "2016-03-25T18:12:00+10:00"
-category: Infocomm
+category: Software
 tag:
-- software
 - macvim
 - mac-os-x
 - vim

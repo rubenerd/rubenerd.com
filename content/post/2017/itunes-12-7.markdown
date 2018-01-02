@@ -2,9 +2,8 @@
 title: "iTunes 12.7"
 date: "2017-09-22T10:52:54+10:00"
 abstract: "The File Sharing feature slightly mitigates this terrible release"
-category: Infocomm
+category: Software
 tag:
-- software
 - apple
 - itunes
 ---

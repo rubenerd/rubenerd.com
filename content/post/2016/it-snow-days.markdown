@@ -1,9 +1,8 @@
 ---
 title: "IT snow days"
 date: "2016-08-12T20:16:17+10:00"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - infocomm
 - stack-exchange
 - stack-overflow

@@ -2,9 +2,8 @@
 title: "Rubénerd 2017 theme live"
 date: "2017-09-11T09:25:00+10:00"
 abstract: "You’re not supposed to discuss your blog on your blog."
-category: Infocomm
+category: Internet
 tag:
-- internet
 - personal
 - weblog
 ---

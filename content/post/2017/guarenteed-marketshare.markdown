@@ -2,9 +2,8 @@
 title: "Guarenteed market share"
 date: "2017-03-17T11:31:00+10:00"
 abstract: "Or lack thereof for Microsoft in 2017"
-category: Infocomm
+category: Software
 tag:
-- software
 - business
 - microsoft
 - windows

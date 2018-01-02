@@ -2,9 +2,8 @@
 title: "The state of the Mac"
 abstract: "I don't mean to pile on, but it's getting pretty ridiculous."
 date: "2017-01-22T15:38:00+10:00"
-category: Infocomm
+category: Hardware
 tag:
-- hardware
 - apple
 - mac
 ---

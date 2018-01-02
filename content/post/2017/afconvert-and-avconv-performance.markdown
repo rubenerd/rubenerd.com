@@ -2,9 +2,8 @@
 title: "afconvert and avconv performance"
 date: "2017-01-29T09:02:00+10:00"
 abstract: "avconv is cross platform, but fconvert is marginally faster."
-category: Infocomm
+category: Software
 tag:
-- software
 - audio
 - avconv
 - ffmpeg
@@ -13,7 +12,6 @@ tag:
 - music
 - os-x
 - podcasting
-- software
 ---
 My [Rubénerd Show] podcast episodes are produced with a series of shell scripts to save me time and effort, so I'm always looking for ways to optimise them.
 

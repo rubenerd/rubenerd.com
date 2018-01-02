@@ -2,9 +2,8 @@
 title: "Scott Ludlam"
 date: "2017-07-15T13:41:58+10:00"
 abstract: "Thank you for being a voice of logic, reason and compassion"
-category: Infocomm
+category: Internet
 tag:
-- internet
 - scott-ludlam
 - greens
 - australia
