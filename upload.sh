@@ -36,8 +36,8 @@ printf "%s" '☕  Moving RSS feed from index.xml to /feed/...'
 mkdir ./public/feed/
 mv -f ./public/index.xml ./public/feed/index.xml
 
-printf "%s" '☕  Move Facebook tag...'
-mv ./public/tag/facebook/index.xml ./public/facebook.xml
+#printf "%s" '☕  Move Facebook tag...'
+#mv ./public/tag/facebook/index.xml ./public/facebook.xml
 
 printf "%s" '☕  Removing all other generated feeds...'
 rm -rf ./public/category/*/index.xml
