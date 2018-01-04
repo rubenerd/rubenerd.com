@@ -16,4 +16,4 @@ Imagine not being limited by the Sydney CBD. You could have run a globally compe
 
 Which is why, for all the otherwise-welcome optimistic speech, I can't take Mr Turnbull seriously. We'll be paying the price for this government's myopic view of telecommunications for decades.
 
-And no, pointing this out doesn't make us [part of the problem](http://localhost:1313/not-part-of-the-problem-if-you-criticise-fttn/).
+And no, pointing this out doesn't make us [part of the problem](https://rubenerd.com/not-part-of-the-problem-if-you-criticise-fttn/).

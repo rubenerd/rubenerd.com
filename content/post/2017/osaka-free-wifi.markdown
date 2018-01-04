@@ -2,10 +2,11 @@
 title: "Osaka Free WiFi"
 date: "2017-07-25T11:25:49+10:00"
 abstract: "Being asked to use a VPN is a refreshing change from data harvesting."
-category: Thoughts
+category: Internet
 tag:
 - kansai
 - osaka
+- japan
 - hkjp-trip
 - privacy
 - security

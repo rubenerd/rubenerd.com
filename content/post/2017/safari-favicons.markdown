@@ -1,10 +1,18 @@
 ---
 title: "Another vote for Safari favicons"
 date: "2017-08-11T11:23:33+10:00"
-abstract: ""
-category: Thoughts
+abstract: "This is the #1 usability flaw with Safari"
+category: Software
 tag:
-- 
+- safari
+- apple
+- macos
+- os-x
+- mac-os-x
+- browsers
+- webkit
+- design
+- usability
 ---
 [I used Safari for a week in 2015], and commented:
 

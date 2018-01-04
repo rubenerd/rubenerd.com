@@ -2,7 +2,7 @@
 title: "Headers"
 date: "2017-11-28T11:13:11+11:00"
 abstract: "People asking what the header on my blog and Twitter feed are."
-category: Internet
+category: Media
 tag:
 - photos
 - design
