@@ -6,8 +6,8 @@ editor:            "vim"
 languageCode:      "en-SG"
 metaDataFormat:    "yaml"
 paginate:          10
-theme:             "Rubenerd"
-title:             "Rubénerd"
+theme:             "rubenerd-nostalgia"
+title:             "Rubenerd"
 
 params:
 
@@ -46,24 +46,45 @@ params:
     url:   "https://creativecommons.org/licenses/by-sa/3.0/"
 
   navigation:
+    - title: "Home"
+      url:   "/"
+      info:  "Latest posts!"
     - title: "About"
       url:   "/about/"
-      info:  "Author and site info"
-    - title: "Anime"
-      url:   "/anime/"
-      info:  "Posts about anime, manga, weebness, and figs"
-    - title: "Infocomm"
-      url:   "/infocomm/"
-      info:  "Posts about software, communications, internet, and tech"
-    - title: "Show"
-      url:   "/show/"
-      info:  "Rubénerd Show: My harmless podcast of observations"
-    - title: "Thoughts"
-      url:   "/thoughts/"
-      info:  "Posts on multifarious observations"
+      info:  "Author and site information"
+    - title: "Archives"
+      url:   "/archives/"
+      info:  "Lists of all posts, ordered by category"
+    - title: "Buy coffee"
+      url:   "http://ko-fi.com/A625HL"
+      info:  "Show your support with a up of caffeinated beverage!"
     - title: "Omake…"
       url:   "/omake/"
       info:  "Extra goodies"
+
+  categories:
+    - title: "Anime"
+      url:   "/anime/"
+      info:  "Posts about anime, manga, weebness, and figs"
+    - title: "Hardware"
+      url:   "/hardware/"
+      info:  "Posts on computers, servers, phones, jaffle irons"
+    - title: "Internet"
+      url:   "/internet/"
+      info:  "Posts on websites, online privacy and security, standards"
+    - title: "Museum"
+      url:   "/museum/"
+      info:  "Posts imported from retired or deleted services"
+    - title: "Podcast"
+      url:   "/show/"
+      info:  "Rubénerd Show: My harmless podcast of observations"
+    - title: "Software"
+      url:   "/software/"
+      info:  "Mostly posts on macOS, FreeBSD, (GNU/)Linux"
+    - title: "Thoughts"
+      url:   "/thoughts/"
+      info:  "Posts on multifarious observations"
+
 
   podcast:
     category:        "show"
@@ -88,5 +109,4 @@ permalinks:
 
 taxonomies:
   category: "category"
-  tag: "tag"
 
