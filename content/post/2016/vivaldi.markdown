@@ -2,6 +2,7 @@
 draft: true
 title: "Vivaldi"
 date: "2016-06-06T11:51:00+10:00"
+year: "2016"
 category: Software
 tag:
 - browsers

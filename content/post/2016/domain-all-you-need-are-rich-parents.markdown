@@ -1,6 +1,7 @@
 ---
 title: "Domain: All you need are rich parents"
 date: "2016-12-09T11:47:00+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - australia

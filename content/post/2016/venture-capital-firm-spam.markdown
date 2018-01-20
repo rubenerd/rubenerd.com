@@ -2,6 +2,7 @@
 title: "Venture capital firm spam"
 date: "2016-02-27T22:19:00+11:00"
 abstract: "$100 million from an AOL account!"
+year: "2016"
 category: Internet
 tag:
 - spam

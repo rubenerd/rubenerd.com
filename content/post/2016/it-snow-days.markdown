@@ -1,6 +1,7 @@
 ---
 title: "IT snow days"
 date: "2016-08-12T20:16:17+10:00"
+year: "2016"
 category: Internet
 tag:
 - infocomm

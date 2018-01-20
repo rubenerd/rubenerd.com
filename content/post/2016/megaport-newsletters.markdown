@@ -2,6 +2,7 @@
 title: "Megaport newsletters"
 date: "2016-12-14T10:19:00+10:00"
 abstract: "Hi, and welcome to the very first edition of The Interconnect... d'oh!"
+year: "2016"
 category: Internet
 tag:
 - newsletters

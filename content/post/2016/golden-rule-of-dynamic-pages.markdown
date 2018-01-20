@@ -1,6 +1,7 @@
 ---
 title: "Four rules for web form design"
 date: "2016-09-09T11:56:00+10:00"
+year: "2016"
 category: Internet
 tag:
 - design

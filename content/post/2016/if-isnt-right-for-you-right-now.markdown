@@ -1,6 +1,7 @@
 ---
 title: "If it isn’t right for you right now"
 date: "2016-08-24T16:10:14+10:00"
+year: "2016"
 category: Internet
 tag:
 - newsletters

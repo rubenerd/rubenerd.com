@@ -1,6 +1,7 @@
 ---
 title: "S. R. Nathan"
 date: "2016-08-23T15:05:00+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - rip

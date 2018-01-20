@@ -2,6 +2,7 @@
 title: "The best thesaurus sentence of 2016"
 date: "2016-01-08T11:15:00+10:00"
 abstract: "World opinion and bellicose triumphalism"
+year: "2016"
 category: Media
 tag:
 - journalism

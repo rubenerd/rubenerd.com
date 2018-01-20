@@ -2,6 +2,7 @@
 title: "Check for bashisms"
 date: "2016-09-28T18:23:00+10:00"
 abstract: "Using checkbashisms"
+year: "2016"
 category: Software
 tag:
 - fb

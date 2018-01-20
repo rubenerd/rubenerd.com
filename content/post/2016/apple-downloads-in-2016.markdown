@@ -2,6 +2,7 @@
 title: "Mac downloads in 2016"
 abstract: "Everything Mac has been neglected, even site pages"
 date: "2016-10-27T12:18:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - apple

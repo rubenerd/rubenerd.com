@@ -1,6 +1,7 @@
 ---
 title: "An incomplete list of my common misspellings"
 date: "2016-08-05T16:56:00+10:00"
+year: "2016"
 category: Media
 tag:
 - spelling

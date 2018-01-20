@@ -2,6 +2,7 @@
 draft: true
 title: "Using spell checkers to break bad habits"
 date: "2016-04-25T10:05:23+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - lifehack

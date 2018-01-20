@@ -1,6 +1,7 @@
 ---
 title: "Basic sh to scan an IP range"
 date: "2016-05-28T11:13:00+10:00"
+year: "2016"
 category: Software
 tag:
 - scripting

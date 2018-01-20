@@ -2,6 +2,7 @@
 draft: true
 title: "Goodbye, Internet Explorer 6"
 date: "2016-09-06T11:38:00+10:00"
+year: "2016"
 category: Internet
 tag:
 - browsers

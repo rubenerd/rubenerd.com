@@ -1,6 +1,7 @@
 ---
 title: "Webmaster Hales on four power supplies"
 date: "2016-09-06T09:54:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - hp

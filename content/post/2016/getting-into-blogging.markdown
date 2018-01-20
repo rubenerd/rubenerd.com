@@ -2,6 +2,7 @@
 title: "Getting into blogging"
 date: "2016-12-19T08:47:00+10:00"
 abstract: "Don't worry if you suck at first, we all did"
+year: "2016"
 category: Internet
 tag:
 - weblog

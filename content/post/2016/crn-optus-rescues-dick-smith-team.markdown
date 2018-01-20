@@ -2,6 +2,7 @@
 title: "CRN: Optus rescues Dick Smith team"
 date: "2016-01-14T13:44:00+10:00"
 abstract: "Something something sponsorship sport, not what it sounds like"
+year: "2016"
 category: Media
 tag:
 - australia

@@ -2,6 +2,7 @@
 title: "The Great GitHub Outage of 2016"
 date: "2016-02-01T10:30:00+10:00"
 abstract: "Fail unicorns!"
+year: "2016"
 category: Internet
 tag:
 - development

@@ -1,6 +1,7 @@
 ---
 title: "The ASUS EeeBook X205TA"
 date: "2016-08-09T15:49:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - asus

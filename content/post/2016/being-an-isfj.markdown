@@ -1,6 +1,7 @@
 ---
 title: "Being an ISFJ"
 date: "2016-06-09T16:50:00+10:00"
+year: "2016"
 category: thoughts
 tag:
 - personality

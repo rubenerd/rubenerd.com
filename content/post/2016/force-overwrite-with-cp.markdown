@@ -1,6 +1,7 @@
 ---
 title: "Force overwrite with cp"
 date: "2016-08-29T15:11:00+10:00"
+year: "2016"
 category: software
 tag:
 - bsd

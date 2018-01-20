@@ -2,6 +2,7 @@
 title: "Australia's failed NBN"
 date: "2016-03-04T11:20:00+10:00"
 abstract: "Thanks, Malcom Turnbull"
+year: "2016"
 category: Internet
 tag:
 - australia

@@ -3,6 +3,7 @@ draft: true
 title: "scp can tab-complete for three slashes"
 date: "2016-04-09T16:11:58+10:00"
 abstract: ""
+year: "2016"
 category: Thoughts
 tag:
 - 

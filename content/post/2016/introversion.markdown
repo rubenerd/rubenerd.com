@@ -1,6 +1,7 @@
 ---
 title: "Introversion"
 date: "2016-03-31T18:14:00+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - introversion

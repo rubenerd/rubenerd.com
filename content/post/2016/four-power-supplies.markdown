@@ -1,6 +1,7 @@
 ---
 title: "Four power supplies"
 date: "2016-09-05T08:33:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - hp

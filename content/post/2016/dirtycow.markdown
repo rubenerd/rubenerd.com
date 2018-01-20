@@ -1,6 +1,7 @@
 ---
 title: "DirtyCOW"
 date: "2016-10-24T15:14:00+10:00"
+year: "2016"
 category: Software
 tag: 
 - linux

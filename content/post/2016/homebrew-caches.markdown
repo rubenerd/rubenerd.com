@@ -1,6 +1,7 @@
 ---
 title: "brew cask move yourself"
 date: "2016-06-14T11:58:00+10:00"
+year: "2016"
 category: Software
 tag:
 - homebrew

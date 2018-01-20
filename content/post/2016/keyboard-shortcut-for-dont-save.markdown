@@ -1,6 +1,7 @@
 ---
 title: "Dismissing macOS modal dialogs"
 date: "2016-09-26T09:13:17+10:00"
+year: "2016"
 category: Software
 tag:
 - apple

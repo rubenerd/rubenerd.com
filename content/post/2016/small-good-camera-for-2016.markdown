@@ -2,6 +2,7 @@
 draft: true
 title: "Small, good camera for 2016"
 date: "2016-08-30T10:54:00+10:00"
+year: "2016"
 category: Media
 tag:
 - photography

@@ -1,6 +1,7 @@
 ---
 title: "Goodbye, Instapaper"
 date: "2016-08-24T17:44:36+10:00"
+year: "2016"
 category: Internet
 tag:
 - instapaper

@@ -1,6 +1,7 @@
 ---
 title: "The unfortunately-named Eero"
 date: "2016-12-12T09:55:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - ero

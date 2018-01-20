@@ -1,6 +1,7 @@
 ---
 title: "Showing dd progress"
 date: "2016-05-23T15:30:00+10:00"
+year: "2016"
 category: Software
 tag:
 - bsd

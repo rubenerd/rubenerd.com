@@ -1,6 +1,7 @@
 ---
 title: "Blank iTunes apps column"
 date: "2016-09-26T07:45:00+10:00"
+year: "2016"
 category: Software
 tag:
 - apple

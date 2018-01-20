@@ -1,6 +1,7 @@
 ---
 title: "What happened to Otto?"
 date: "2016-08-24T14:32:00+10:00"
+year: "2016"
 category: Software
 tag:
 - devops

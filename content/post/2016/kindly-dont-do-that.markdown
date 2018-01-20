@@ -2,6 +2,7 @@
 draft: true
 title: "Kindly, Don’t Do That"
 date: "2016-07-12T14:18:50+10:00"
+year: "2016"
 category: Internet
 tag:
 - cliches

@@ -2,6 +2,7 @@
 title: "Browsing tar files with Vim"
 abstract: "You can!"
 date: "2016-03-16T14:31:00+10:00"
+year: "2016"
 category: Software
 tag:
 - bsd

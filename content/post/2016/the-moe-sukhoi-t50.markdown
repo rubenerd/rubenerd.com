@@ -2,6 +2,7 @@
 title: "The moe Sukhoi T-50"
 abstract: "Moe anthropormiphism just keeps going!"
 date: "2016-11-15T15:56:00+10:00"
+year: "2016"
 category: Anime
 tag:
 - art

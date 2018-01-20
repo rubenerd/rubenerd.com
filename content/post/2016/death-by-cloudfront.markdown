@@ -2,6 +2,7 @@
 title: "Death by CloudFront"
 date: "2016-02-03T15:50:00+11:00"
 abstract: "So many identifiers..."
+year: "2016"
 category: Internet
 tag:
 - amazon

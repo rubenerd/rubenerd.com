@@ -2,6 +2,7 @@
 title: "Wikipedia user groups"
 abstract: "Or when you need to obfuscate your intentions..."
 date: "2016-11-28T09:50:00+10:00"
+year: "2016"
 category: Internet
 tag:
 - wikipedia

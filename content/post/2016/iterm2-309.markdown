@@ -1,6 +1,7 @@
 ---
 title: "iTerm2 3.0.9"
 date: "2016-09-13T13:33:36+10:00"
+year: "2016"
 category: Software
 tag:
 - iterm

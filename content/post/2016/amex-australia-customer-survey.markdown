@@ -1,6 +1,7 @@
 ---
 title: "Amex Australia customer survey"
 date: "2016-09-06T17:31:00+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - amex

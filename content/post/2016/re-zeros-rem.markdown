@@ -1,6 +1,7 @@
 ---
 title: "Re:Zero's Rem"
 date: "2016-08-12T22:29:00+10:00"
+year: "2016"
 category: Anime
 tag:
 - 2016-anime

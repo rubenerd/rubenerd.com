@@ -1,6 +1,7 @@
 ---
 title: "Covering laptop camers"
 date: "2016-07-18T15:14:00+10:00"
+year: "2016"
 category: Hardware
 tag:
 - privacy

@@ -2,6 +2,7 @@
 draft: true
 title: "Extracting more money from renters"
 date: "2016-08-16T11:52:00+10:00"
+year: "2016"
 category: Thoughts
 tag:
 - australia
