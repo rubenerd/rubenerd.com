@@ -2,6 +2,7 @@
 title: "Welcome to 2018!"
 date: "2018-01-01T22:49:42+11:00"
 abstract: "Best wishes, thoughts, and ideas for the year."
+year: "2018"
 category: Thoughts
 tag:
 - personal
@@ -13,9 +14,7 @@ I had a new – well, technically old – blog theme I wanted to roll out in t
 
 I don't have too many specific goals for this year, but I'm looking forward to going to the AsiaBSDCon in Tokyo in March, and continuing to hone my skils in automation and technical writing. I'm also going to be a boss this year, that'll take some adjustment!
 
-Also, [#PostADay2018] is on. I did it in 2011, let's see if I can this year!
+Also, #PostADay2018 is on. I did it in 2011, let's see if I can this year!
 
 Cheers :).
-
-[#PostADay2018]: https://rubenerd.com/tag/postaday2018/
 
