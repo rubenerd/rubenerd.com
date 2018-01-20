@@ -2,6 +2,7 @@
 title: "Being mostly wrong about diesel cars"
 date: "2015-10-26T09:59:00+10:00"
 abstract: "The hyperbole is strong in this one"
+year: "2015"
 category: Hardware
 tag:
 - cars

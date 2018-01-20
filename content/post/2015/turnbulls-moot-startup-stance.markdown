@@ -2,6 +2,7 @@
 title: "Turnbull’s moot startup point"
 date: "2015-12-06T06:27:00+10:00"
 abstract: "What good is disruptive tech without internet?"
+year: "2015"
 category: Internet
 tag:
 - australia

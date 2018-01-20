@@ -2,6 +2,7 @@
 title: "Cancelling PayPal subscriptions"
 date: "2015-10-27T11:55:00+10:00"
 abstract: "PayPal's docs are wrong. Here's how to do it."
+year: "2015"
 category: Internet
 tag:
 - finance

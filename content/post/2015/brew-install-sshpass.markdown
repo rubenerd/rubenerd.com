@@ -2,6 +2,7 @@
 title: "brew install sshpass"
 date: "2015-11-27T10:33:00+10:00"
 abstract: "Saving ourselves from ourselves"
+year: "2015"
 category: Software
 tag:
 - homebrew
