@@ -13,7 +13,7 @@ params:
 
   author:
     coffee:   "http://ko-fi.com/A625HL" 
-    email:    "weblog2017@rubenschade.com"
+    email:    "weblog2018@rubenschade.com"
     failbook: "ruben.schade"
     name:     "Ruben Schade"
     profile:  "/about/"
@@ -33,7 +33,7 @@ params:
     server_url:     "https://nginx.org/"
     
   info:
-    copyright: "Original material © 2004–17"
+    copyright: "Original material © 2004–18"
     feed:      "/feed/"
     logo:      "logo.png"
     logo_rss:  "logo.rss.png"
@@ -72,6 +72,9 @@ params:
     - title: "Internet"
       url:   "/internet/"
       info:  "Posts on websites, online privacy and security, standards"
+    - title: "Media"
+      url:   "/media/"
+      info:  "Posts about photography, music, journalism, and related stuff"
     - title: "Museum"
       url:   "/museum/"
       info:  "Posts imported from retired or deleted services"
@@ -109,4 +112,5 @@ permalinks:
 
 taxonomies:
   category: "category"
-
+  tag: "tag"
+  year: "year"
