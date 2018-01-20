@@ -56,8 +56,8 @@ a:hover {
 }
 time::after {
     /* content: " ☕︎ " */
-    /* content: " 🌲" */
-    content: " 🎄";
+    content: " 🌲";
+    /* content: " 🎄"; */
 }
 dt {
     font-weight:bold;
@@ -103,7 +103,7 @@ hr {
 
 /* Header */
 #site-banner {
-    background:#004422 url("yuletide.png") bottom no-repeat;
+    background:#004422 url("leaves.png") bottom no-repeat;
     background-size:cover;
     color:#ffffff;
     display:flex;                /* To put navigation on top */
