@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD swapinfo"
 date: "2017-12-07T18:12:17+11:00"
+year: "2017"
 abstract: "Seeing how much virtual memory you’re using."
+year: "2017"
 category: Software
 tag:
 - bsd

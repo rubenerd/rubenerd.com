@@ -1,7 +1,9 @@
 ---
 title: "The @Stilgherrian on fake news"
 date: "2017-04-07T12:28:00+10:00"
+year: "2017"
 abstract: "Call fake news for what it is"
+year: "2017"
 category: Media
 tag:
 - news

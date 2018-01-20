@@ -1,7 +1,9 @@
 ---
 title: "You can (not) advance to Safe Senders"
 date: "2017-09-13T23:46:00+10:00"
+year: "2017"
 abstract: "When Outlook Web Access says someone sent to spam can’t be added to Safe Senders because they’re never sent to spam!"
+year: "2017"
 category: Internet
 tag:
 - email

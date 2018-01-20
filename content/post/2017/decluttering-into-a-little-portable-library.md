@@ -1,7 +1,9 @@
 ---
 title: "Decluttering to a little portable library"
 date: "2017-11-17T16:55:55+11:00"
+year: "2017"
 abstract: "Isn’t it wonderful when doing one thing leads to something else that’s awesome?"
+year: "2017"
 category: Media
 tag:
 - books

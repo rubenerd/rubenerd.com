@@ -1,7 +1,9 @@
 ---
 title: "Rick’s 10GbE home network"
 date: "2017-07-12T15:42:23+10:00"
+year: "2017"
 abstract: "That cable management is a work of art."
+year: "2017"
 category: Hardware
 tag:
 - networking

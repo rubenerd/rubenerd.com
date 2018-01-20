@@ -1,7 +1,9 @@
 ---
 title: "FreeBSD.org using Let’s Encrypt"
 date: "2017-11-28T11:36:11+11:00"
+year: "2017"
 abstract: ""
+year: "2017"
 category: Internet
 tag:
 - freebsd

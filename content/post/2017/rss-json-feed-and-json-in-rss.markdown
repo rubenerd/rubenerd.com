@@ -1,7 +1,9 @@
 ---
 title: "JSON Feed, and JSON in RSS"
 date: "2017-07-08T10:24:00+10:00"
+year: "2017"
 abstract: "When the web syndication wheel was reinvented, again"
+year: "2017"
 category: Internet
 tag:
 - atom

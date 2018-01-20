@@ -2,6 +2,7 @@
 title: "UK's EU ambassador quits"
 date: "2017-01-04T11:46:00+10:00"
 summary: "But the Leave crowd assure us he wasn't pressured or anything"
+year: "2017"
 category: Thoughts
 tag:
 - news

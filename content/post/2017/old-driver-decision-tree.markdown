@@ -1,7 +1,9 @@
 ---
 title: "Old driver decision tree"
 date: "2017-05-13T10:20:00+10:00"
+year: "2017"
 abstract: "It's a painful journey to find old drivers"
+year: "2017"
 category: Hardware
 tag:
 - drivers

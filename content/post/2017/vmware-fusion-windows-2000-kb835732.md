@@ -1,7 +1,9 @@
 ---
 title: "VMware Windows 2000 KB835732 additions error"
 date: "2017-12-02T11:02:49+11:00"
+year: "2017"
 abstract: "Install the Update Rollup 1 for SP4, and it’ll work"
+year: "2017"
 category: Software
 tag:
 - virtualisation

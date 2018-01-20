@@ -1,7 +1,9 @@
 ---
 title: "Building a Wall"
 date: "2017-07-11T08:31:32+10:00"
+year: "2017"
 abstract: "Lyrics from this song seem poignnant now."
+year: "2017"
 category: Media
 tag:
 - music

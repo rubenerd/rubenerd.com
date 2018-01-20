@@ -1,7 +1,9 @@
 ---
 title: "Hackensack text clipping"
 date: "2017-10-07T11:14:51+11:00"
+year: "2017"
 abstract: "Hackensa^K^K^K^K^K^K!"
+year: "2017"
 category: Media
 tag:
 - music

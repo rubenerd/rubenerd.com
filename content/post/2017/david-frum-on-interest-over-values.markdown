@@ -1,7 +1,9 @@
 ---
 title: "Interest over values"
 date: "2017-06-06T09:54:00+10:00"
+year: "2017"
 abstract: "This is what worries me about Trump"
+year: "2017"
 category: Thoughts
 tag:
 - politics

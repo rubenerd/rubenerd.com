@@ -1,7 +1,9 @@
 ---
 title: "The Mackinac Bridge"
 date: "2017-12-19T15:03:29+11:00"
+year: "2017"
 abstract: "If you're scared of bridges, you can have the bridge staff drive your car for you. This is wonderful on so many levels."
+year: "2017"
 category: Media
 tag:
 - photos

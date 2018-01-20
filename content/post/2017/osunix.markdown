@@ -1,7 +1,9 @@
 ---
 title: "OSUNIX"
 date: "2017-09-11T16:13:03+10:00"
+year: "2017"
 abstract: "Where is this OpenSolaris system? Is it abandonware?"
+year: "2017"
 category: Software
 tag:
 - osunix

@@ -1,7 +1,9 @@
 ---
 title: "Apps first"
 date: "2017-10-12T09:47:00+10:00"
+year: "2017"
 abstract: "Looking for the best student work, starting with apps"
+year: "2017"
 category: Software
 tag:
 - phones

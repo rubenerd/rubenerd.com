@@ -1,7 +1,9 @@
 ---
 title: "Where oil rigs go to die"
 date: "2017-05-09T13:35:00+10:00"
+year: "2017"
 abstract: "This article in The Guardian is amazing"
+year: "2017"
 category: Media
 tag:
 - environment

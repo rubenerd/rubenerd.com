@@ -1,7 +1,9 @@
 ---
 title: "Australia just said yes to marriage equality 🌈"
 date: "2017-11-15T10:32:37+11:00"
+year: "2017"
 abstract: "Yes the postal survey was flawed and stupid, but lets just savour this for a moment!"
+year: "2017"
 category: Thoughts
 tag:
 - australia

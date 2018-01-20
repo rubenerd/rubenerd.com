@@ -1,7 +1,9 @@
 ---
 title: "Chlorinated water bottles"
 date: "2017-03-06T17:37:00+10:00"
+year: "2017"
 abstract: "It's been a crazy few weeks."
+year: "2017"
 category: Thoughts
 tag:
 - personal

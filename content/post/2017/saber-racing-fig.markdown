@@ -1,6 +1,7 @@
 ---
 title: "Saber TYPE-MOON RACING fig"
 date: "2017-01-15T09:32:00+10:00"
+year: "2017"
 category: Anime
 tag:
 - fate

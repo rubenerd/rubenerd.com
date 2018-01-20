@@ -1,7 +1,9 @@
 ---
 title: "Castle"
 date: "2017-06-09T23:09:00+10:00"
+year: "2017"
 abstract: "How am I only just getting around to this show!?"
+year: "2017"
 category: Media
 tag:
 - nathan-fillion

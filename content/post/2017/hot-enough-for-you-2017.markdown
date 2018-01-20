@@ -1,7 +1,9 @@
 ---
 title: "Hot enough for you 2017?"
 date: "2017-02-10T09:20:00+10:00"
+year: "2017"
 abstract: "We need renewables, capacity, and an end to privatisation."
+year: "2017"
 category: Thoughts
 tag:
 - australia

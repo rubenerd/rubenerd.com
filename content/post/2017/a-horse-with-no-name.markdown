@@ -1,7 +1,9 @@
 ---
 title: "A Horse with No Name"
 date: "2017-09-25T15:56:28+10:00"
+year: "2017"
 abstract: "Wouldn’t that be its defacto name?"
+year: "2017"
 category: Media
 tag:
 - music

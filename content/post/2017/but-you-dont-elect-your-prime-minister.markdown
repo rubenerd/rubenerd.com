@@ -1,7 +1,9 @@
 ---
 title: "In fact, we do elect our Prime Ministers"
 date: "2017-08-03T17:11:01+10:00"
+year: "2017"
 abstract: "Anyone who says otherwise is splitting hairs for no productive reason."
+year: "2017"
 category: Thoughts
 tag:
 - australia

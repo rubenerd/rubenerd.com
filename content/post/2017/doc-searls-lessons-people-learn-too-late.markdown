@@ -1,7 +1,9 @@
 ---
 title: "Doc Searls: Lessons people learn too late"
 date: "2017-06-29T08:45:00+10:00"
+year: "2017"
 abstract: "Shamelessly quoting each one"
+year: "2017"
 category: Thoughts
 tag:
 - doc-searls

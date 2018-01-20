@@ -1,7 +1,9 @@
 ---
 title: "Atlassian, I am disappoint"
 date: "2017-02-11T12:55:00+10:00"
+year: "2017"
 abstract: "Why do I need third-party cookies?"
+year: "2017"
 category: Internet
 tag:
 - atlassian

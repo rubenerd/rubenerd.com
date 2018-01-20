@@ -1,7 +1,9 @@
 ---
 title: "The @Gruber on cars in Singapore"
 date: "2017-10-24T16:35:10+11:00"
+year: "2017"
 abstract: "Having a COE now won't guarentee you'll have one in the future"
+year: "2017"
 category: Thoughts
 tag:
 - singapore

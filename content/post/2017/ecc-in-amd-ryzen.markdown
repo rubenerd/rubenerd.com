@@ -1,7 +1,9 @@
 ---
 title: "ECC in AMD Ryzen"
 date: "2017-03-26T19:24:00+10:00"
+year: "2017"
 abstract: "I could be going back to AMD for my next NAS"
+year: "2017"
 category: Hardware
 tag: 
 - amd

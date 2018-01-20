@@ -1,7 +1,9 @@
 ---
 title: "One is not like the others"
 date: "2017-04-18T09:15:00+10:00"
+year: "2017"
 abstract: "Or when random eBay searches attack"
+year: "2017"
 category: Hardware
 tag:
 - ebay

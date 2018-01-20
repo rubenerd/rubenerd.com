@@ -1,7 +1,9 @@
 ---
 title: "diskutil unmountDisk"
 date: "2017-04-21T16:14:00+10:00"
+year: "2017"
 abstract: "So much easier than multiple unmounts."
+year: "2017"
 category: Software
 tag:
 - apple

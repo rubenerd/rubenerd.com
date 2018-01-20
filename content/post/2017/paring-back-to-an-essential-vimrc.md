@@ -1,7 +1,9 @@
 ---
 title: "Paring back to an essential vimrc"
 date: "2017-10-16T08:40:32+11:00"
+year: "2017"
 abstract: "Turns out much of my config wasn’t needed in 2017."
+year: "2017"
 category: Software
 tag:
 - nvi

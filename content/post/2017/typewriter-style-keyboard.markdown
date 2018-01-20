@@ -1,7 +1,9 @@
 ---
 title: "Typewriter style keyboard"
 date: "2017-04-03T11:02:00+10:00"
+year: "2017"
 abstract: "As they used to say"
+year: "2017"
 category: Hardware
 tag:
 - cherry-mx

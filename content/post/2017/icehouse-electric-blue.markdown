@@ -1,7 +1,9 @@
 ---
 title: "Icehouse, Electric Blue (1987)"
 date: "2017-02-23T16:07:00+10:00"
+year: "2017"
 abstract: "Everything about this music video is perfect!"
+year: "2017"
 category: Media
 tag:
 - australia

@@ -1,7 +1,9 @@
 ---
 title: "Dat sentence" 
 date: "2017-04-26T15:54:00+10:00"
+year: "2017"
 abstract: "Two sentence structures I’ve committed to stop using"
+year: "2017"
 category: Media
 tag:
 - language

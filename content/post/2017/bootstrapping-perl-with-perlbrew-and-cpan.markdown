@@ -1,7 +1,9 @@
 ---
 title: "Bootstrapping Perl with Perlbrew and CPAN"
 date: "2017-09-04T17:37:07+10:00"
+year: "2017"
 abstract: "Perlbrew is still the best way to install Perl in 2017."
+year: "2017"
 category: Software
 tag:
 - package-managers

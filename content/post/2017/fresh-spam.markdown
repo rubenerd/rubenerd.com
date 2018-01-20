@@ -1,7 +1,9 @@
 ---
 title: "Fresh spam"
 date: "2017-08-04T10:13:00+10:00"
+year: "2017"
 abstract: "If they're not hyperglobal thinkfluencers, I'm not interested."
+year: "2017"
 category: Internet
 tag:
 - spam

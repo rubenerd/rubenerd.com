@@ -1,7 +1,9 @@
 ---
 title: "Happy anniversary and tricks from lzop!"
 date: "2017-09-23T10:19:25+10:00"
+year: "2017"
 abstract: "Ten years of lightning-fast compression."
+year: "2017"
 category: Software
 tag:
 - compression

@@ -1,6 +1,7 @@
 ---
 title: "Giving up refined sugar"
 date: "2017-05-20T12:34:00+10:00"
+year: "2017"
 category: Thoughts
 tag:
 - food

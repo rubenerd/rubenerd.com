@@ -1,7 +1,9 @@
 ---
 title: "CRN poll on fate of the NBN"
 date: "2017-12-08T09:33:24+11:00"
+year: "2017"
 abstract: "Treat it as a utility with value not derived from how profitable it is."
+year: "2017"
 category: Internet
 tag:
 - australia

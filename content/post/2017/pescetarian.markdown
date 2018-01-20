@@ -1,7 +1,9 @@
 ---
 title: "Going from Vegetarian to Pescetarian"
 date: "2017-08-11T00:15:47+10:00"
+year: "2017"
 abstract: ""
+year: "2017"
 category: Thoughts
 tag:
 - 

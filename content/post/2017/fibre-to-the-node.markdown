@@ -1,7 +1,9 @@
 ---
 title: "Fibre to the Node"
 date: "2017-07-06T18:33:00+10:00"
+year: "2017"
 abstract: "Thanks for nothing, Malcolm Turnbull"
+year: "2017"
 category: Internet
 tag:
 - australia

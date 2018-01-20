@@ -1,7 +1,9 @@
 ---
 title: "Flaws with Sydney’s Opal card"
 date: "2017-08-05T11:11:59+10:00"
+year: "2017"
 abstract: "They were introduced too late, and they’re painfully slow."
+year: "2017"
 category: Hardware
 tag:
 - australia

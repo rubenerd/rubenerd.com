@@ -1,7 +1,9 @@
 ---
 title: "Irredentism"
 date: "2017-09-24T16:42:20+10:00"
+year: "2017"
 abstract: "... is any political or popular movement intended to reclaim an area considered lost."
+year: "2017"
 category: Thoughts
 tag:
 - korea

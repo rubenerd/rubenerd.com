@@ -1,7 +1,9 @@
 ---
 title: "The Zip Insider"
 date: "2017-03-14T10:38:00+10:00"
+year: "2017"
 abstract: "It was bigger and bluer than the one I had"
+year: "2017"
 category: Hardware
 tag:
 - iomega

@@ -1,7 +1,9 @@
 ---
 title: "Sportsmanship"
 date: "2017-12-11T08:01:44+11:00"
+year: "2017"
 abstract: "I wish there was more of this everywhere, not least Olympic sport."
+year: "2017"
 category: Thoughts
 tag:
 - sport

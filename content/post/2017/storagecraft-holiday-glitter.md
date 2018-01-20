@@ -1,7 +1,9 @@
 ---
 title: "StorageCraft’s holiday glitter"
 date: "2017-12-22T15:23:21+11:00"
+year: "2017"
 abstract: "Winning!"
+year: "2017"
 category: Software
 tag:
 - storagecraft

@@ -1,7 +1,9 @@
 ---
 title: "Selling on eBay, December 2017"
 date: "2017-12-04T09:24:59+11:00"
+year: "2017"
 abstract: ""
+year: "2017"
 category: Thoughts
 tag:
 - 

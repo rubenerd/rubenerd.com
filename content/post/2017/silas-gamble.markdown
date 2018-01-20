@@ -1,7 +1,9 @@
 ---
 title: "Sila’s gamble"
 date: "2017-03-22T16:27:00+10:00"
+year: "2017"
 abstract: "So many potential new Sims character names"
+year: "2017"
 category: Internet
 tag:
 - spam

@@ -1,7 +1,9 @@
 ---
 title: "Ansible with FreeBSD"
 date: "2017-03-14T10:09:00+10:00"
+year: "2017"
 abstract: "Support is understandably less than Linux, but it can work."
+category: Software
 tag:
 - bsd
 - freebsd

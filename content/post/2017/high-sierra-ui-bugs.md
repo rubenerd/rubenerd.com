@@ -1,7 +1,9 @@
 ---
 title: "MacOS High Sierra UI bugs"
 date: "2017-11-12T11:20:25+11:00"
+year: "2017"
 abstract: "There are enough of these things to make me want to downgrade!"
+year: "2017"
 category: Software
 tag:
 - apple

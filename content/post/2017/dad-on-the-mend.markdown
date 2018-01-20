@@ -1,7 +1,9 @@
 ---
 title: "Dad on the mend"
 date: "2017-02-26T23:05:00+10:00"
+year: "2017"
 abstract: "We almost had an even smaller family, but he's recovering well."
+year: "2017"
 category: Thoughts
 tag:
 - family

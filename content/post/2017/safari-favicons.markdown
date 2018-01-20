@@ -1,7 +1,9 @@
 ---
 title: "Another vote for Safari favicons"
 date: "2017-08-11T11:23:33+10:00"
+year: "2017"
 abstract: "This is the #1 usability flaw with Safari"
+year: "2017"
 category: Software
 tag:
 - safari

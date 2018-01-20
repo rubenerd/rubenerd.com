@@ -1,7 +1,9 @@
 ---
 title: "Ogden Nash #1"
 date: "2017-06-15T13:05:00+10:00"
+year: "2017"
 abstract: "On trees"
+year: "2017"
 category: Thoughts
 tag:
 - silly

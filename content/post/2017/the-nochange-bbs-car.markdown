@@ -1,8 +1,10 @@
 ---
 title: "The NOCHANGE BBS car"
 date: "2017-01-28T08:22:00+10:00"
+year: "2017"
 abstract: "Jim Kloss delivers the goods."
 thumb: "https://rubenerd.com/files/2017/nochange-bbs-car.png"
+year: "2017"
 category: Hardware
 tag:
 - cars

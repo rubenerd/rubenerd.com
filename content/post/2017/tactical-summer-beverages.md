@@ -1,7 +1,9 @@
 ---
 title: "Tactical summer beverages"
 date: "2017-12-29T12:35:55+11:00"
+year: "2017"
 abstract: "Hanging out in Starbucks, beating the heat"
+year: "2017"
 category: Thoughts
 tag:
 - beverages

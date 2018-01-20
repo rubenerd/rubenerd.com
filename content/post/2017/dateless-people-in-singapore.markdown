@@ -1,7 +1,9 @@
 ---
 title: "Lonely people in Singapore"
 date: "2017-07-09T10:19:00+10:00"
+year: "2017"
 abstract: "This news report is sad, but unsurprising"
+year: "2017"
 category: Thoughts
 ---
 Channel News Asia [shared some unsurprising stats]\:

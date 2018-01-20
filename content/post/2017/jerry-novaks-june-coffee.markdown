@@ -1,7 +1,9 @@
 ---
 title: "Jerry Novak's June coffee"
 date: "2017-06-07T09:05:00+10:00"
+year: "2017"
 abstract: "Thank you for the latest coffee!"
+year: "2017"
 category: Thoughts
 tag:
 - coffee

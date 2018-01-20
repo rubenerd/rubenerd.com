@@ -1,7 +1,9 @@
 ---
 title: "This press release is excited!"
 date: "2017-05-19T11:36:00+10:00"
+year: "2017"
 abstract: "So excited, they can't find a thesaurus!"
+year: "2017"
 category: Media
 tag:
 - advertising

@@ -1,7 +1,9 @@
 ---
 title: "Apple’s September 2017 kit"
 date: "2017-09-15T10:03:05+10:00"
+year: "2017"
 abstract: "As usual, some decent looking kit, with reservations."
+year: "2017"
 category: Hardware
 tag:
 - apple

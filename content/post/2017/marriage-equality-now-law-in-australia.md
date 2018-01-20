@@ -1,7 +1,9 @@
 ---
 title: "Marriage equality now law in Australia 🎄 🌈"
 date: "2017-12-07T18:48:53+11:00"
+year: "2017"
 abstract: "About time! But yay :)"
+year: "2017"
 category: Thoughts
 tag:
 - human-rights

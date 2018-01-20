@@ -1,7 +1,9 @@
 ---
 title: "Dangerous of reporting on “wiki” and “crypto”"
 date: "2017-12-01T10:21:51+11:00"
+year: "2017"
 abstract: "Please report on Wikipedia and digital currencies responsibility"
+year: "2017"
 category: Internet
 tag:
 - wikipedia
@@ -9,6 +11,8 @@ tag:
 - digital-currencies
 - bitcoin
 ---
+<p style="font-style:italic"><strong>2018 Update:</strong> This should have been titled <strong>Dangers</strong> not <strong>Dangerous</strong>. But I've already got this cross posted with its incorrect permalink and title everywhere. Lesson learned, don’t chide reporters when you can’t grammar yourself!</p>
+
 I'm willing to concede that language changes, and I like to think I'm [less pedantic], but there are a few terms that are so useful, and potentially dangerous, we should push against people using them inappropriately.
 
 Wiki is one. Journalists use it as a short hand for both Wikipedia and Wikileaks, two projects with very different objectives. Julian Assange doesn't run an encyclopedia of world knowledge, and Jimmy Wales doesn't leak documents. [Whole Wheat Radio] also had a Wiki, even [Clara and I do]!

@@ -1,7 +1,9 @@
 ---
 title: "Video: Bit dusty next door"
 date: "2017-09-18T14:14:28+10:00"
+year: "2017"
 abstract: "So that’s why our office balcony was covered in grit this morning!"
+year: "2017"
 category: Media
 tag:
 - australia

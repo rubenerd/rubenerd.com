@@ -1,7 +1,9 @@
 ---
 title: "Advanced protection from Google instead?"
 date: "2017-10-24T10:39:42+11:00"
+year: "2017"
 abstract: "The Advanced Protection Program does not assuage my primary concern with digital surveillance."
+year: "2017"
 category: Internet
 tag:
 - google

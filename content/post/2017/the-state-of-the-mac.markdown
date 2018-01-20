@@ -1,7 +1,9 @@
 ---
 title: "The state of the Mac"
+year: "2017"
 abstract: "I don't mean to pile on, but it's getting pretty ridiculous."
 date: "2017-01-22T15:38:00+10:00"
+year: "2017"
 category: Hardware
 tag:
 - apple

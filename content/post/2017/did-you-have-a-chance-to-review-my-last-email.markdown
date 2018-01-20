@@ -1,7 +1,9 @@
 ---
 title: "Did you have a chance to review my last email?"
 date: "2017-08-05T11:33:59+10:00"
+year: "2017"
 abstract: "I created a new spam filter to block these, it’s shocking how well it’s worked."
+year: "2017"
 category: Internet
 tag:
 - email

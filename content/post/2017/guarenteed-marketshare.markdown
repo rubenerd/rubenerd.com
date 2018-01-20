@@ -1,7 +1,9 @@
 ---
 title: "Guarenteed market share"
 date: "2017-03-17T11:31:00+10:00"
+year: "2017"
 abstract: "Or lack thereof for Microsoft in 2017"
+year: "2017"
 category: Software
 tag:
 - business

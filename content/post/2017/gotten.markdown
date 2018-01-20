@@ -1,7 +1,9 @@
 ---
 title: "Gotten"
 date: "2017-07-06T12:02:00+10:00"
+year: "2017"
 abstract: "It's either not a word, or its a lazy one"
+year: "2017"
 category: Thoughts
 tag:
 - australia

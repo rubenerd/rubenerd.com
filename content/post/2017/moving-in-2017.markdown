@@ -2,6 +2,7 @@
 title: "Moving in 2017, and all that fun stuff"
 date: "2017-06-19T17:09:00+10:00"
 absctract: "A reminder that I'm lucky"
+year: "2017"
 category: Thoughts
 tag:
 - moving

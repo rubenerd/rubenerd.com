@@ -1,7 +1,9 @@
 ---
 title: "The unrecyclable, unsellable stuff"
 date: "2017-12-11T08:48:10+11:00"
+year: "2017"
 abstract: "Channeling environmental guilt into not buying pointless shit again."
+year: "2017"
 category: Thoughts
 tag:
 - decluttering

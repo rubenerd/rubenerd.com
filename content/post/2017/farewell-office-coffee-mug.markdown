@@ -1,8 +1,10 @@
 ---
 title: "Farewell office coffee mug"
 date: "2017-01-11T14:37:00+10:00"
+year: "2017"
 abstract: "My first mug at this job, didn't quite make it to 3 years."
 thumb: "https://rubenerd.com/files/2017/officecoffee.jpg"
+year: "2017"
 category: Hardware
 tag:
 - beverages

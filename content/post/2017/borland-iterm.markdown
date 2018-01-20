@@ -1,8 +1,10 @@
 ---
 title: "Borland in iTerm"
 date: "2017-01-29T11:44:00+10:00"
+year: "2017"
 abstract: "It's nostalgic, and makes my machine look like its crashed!"
 thumb: "https://rubenerd.com/files/2017/screenie.borland.iterm@2x.png"
+year: "2017"
 category: Software
 tag:
 - colour

@@ -1,7 +1,9 @@
 ---
 title: "A diamond encrusted bass guitar"
 date: "2017-11-22T16:48:52+11:00"
+year: "2017"
 abstract: "Or when I feel like I shouldn’t be judging people, other than for their poor taste!"
+year: "2017"
 category: Media
 tag:
 - news

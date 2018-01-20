@@ -1,7 +1,9 @@
 ---
 title: "Retina image downscaling with CSS"
 date: "2017-12-02T11:45:22+11:00"
+year: "2017"
 abstract: ""
+year: "2017"
 category: Thoughts
 tag:
 - 

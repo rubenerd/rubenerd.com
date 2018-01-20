@@ -1,7 +1,9 @@
 ---
 title: "Boeing 757 Heavy"
 date: "2017-06-28T07:49:00+10:00"
+year: "2017"
 abstract: "Heavy isn’t just for widebodies"
+year: "2017"
 category: Thoughts
 tag:
 - aviation

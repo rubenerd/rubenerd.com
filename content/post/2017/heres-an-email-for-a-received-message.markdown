@@ -1,7 +1,9 @@
 ---
 title: "Here’s an email for a received message"
 date: "2017-05-26T15:44:00+10:00"
+year: "2017"
 abstract: "Stop emailing us to check inboxes"
+year: "2017"
 category: Internet
 tag:
 - email

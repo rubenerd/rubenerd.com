@@ -1,11 +1,14 @@
 ---
 title: "Record answers for Apple secret questions"
 date: "2017-02-11T10:44:00+10:00"
+year: "2017"
 abstract: "They use them as de facto passwords"
+year: "2017"
 category: Internet
 tag:
 - apple
 - authentication
+year: "2017"
 category: Software-gore
 ---
 You know those "secret questions" sites often ask for? They're designed as an extra level of verification when you lose access to your account, such as when you forget your password, or email, or password to your email.

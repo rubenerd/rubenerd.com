@@ -1,8 +1,10 @@
 ---
 title: "An Osaka Coffee Bean and Tea Leaf"
 date: "2017-07-25T11:20:47+10:00"
+year: "2017"
 abstract: "Going back to one of my and Felix’s old Singaporean haunts!"
 location: Osaka
+year: "2017"
 category: Thoughts
 tag:
 - beverages

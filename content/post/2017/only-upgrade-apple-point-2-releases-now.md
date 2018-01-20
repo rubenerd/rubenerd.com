@@ -1,7 +1,9 @@
 ---
 title: "Only upgrade Apple on .2 releases now"
 date: "2017-12-05T09:12:15+11:00"
+year: "2017"
 abstract: "Root exploit fun, unstable iOS, this is bad."
+year: "2017"
 category: Software
 tag:
 - apple

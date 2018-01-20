@@ -1,7 +1,9 @@
 ---
 title: "Civil use of Australia's mandatory metadata"
 date: "2017-01-26T21:39:00+10:00"
+year: "2017"
 abstract: "Or when George Brandis said it wouldn't be used as such"
+year: "2017"
 category: Internet
 tag:
 - australia

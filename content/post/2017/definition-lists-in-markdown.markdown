@@ -1,7 +1,9 @@
 ---
 title: "Definition lists in markdown"
 date: "2017-06-15T12:09:10+10:00"
+year: "2017"
 abstract: "Not everyone thinks like Jeff Atwood"
+year: "2017"
 category: Software
 tag:
 - markdown

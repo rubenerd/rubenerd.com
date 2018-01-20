@@ -1,7 +1,9 @@
 ---
 title: "That Google gender-diversity memo"
 date: "2017-08-09T17:30:20+10:00"
+year: "2017"
 abstract: "Women spend more than men, really!?"
+year: "2017"
 category: Media
 tag:
 - dudebros
