@@ -38,11 +38,8 @@ _original=$1
 _id=`basename "$1" ".caf"`
 
 ## Convert to aiff
-if [ `uname` = 'Darwin' ]; then
-    afconvert -f AIFF -d I8 "$_original" "$_id.aiff"
-else
-    avconv -i "$_original" "$_id.aiff"
-fi
+## afconvert -f AIFF -d I8 "$_original" "$_id.aiff"
+ffmpeg -i "$_original" "$_id.aiff"
 
 ## Encode to MP3
 ## Some podcast clients *still* choke on VBR, so ignore for now
