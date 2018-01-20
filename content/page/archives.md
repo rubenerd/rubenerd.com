@@ -4,7 +4,8 @@ title: "Archives"
 ---
 *Rubénerd* has 5,000+ posts and podcast entries, published in the below categories. I'll have these viewable by date too, at some point.
 
-### Main categories
+
+<h3 id="category">Posts by category</h3>
 
 * [Anime](/anime/), now rarely added to, but I used to be a good little weeb
 * [Hardware](/hardware/), computers, servers, phones, jaffle irons
@@ -13,17 +14,33 @@ title: "Archives"
 * [Software](/software/), mostly macOS, FreeBSD, (GNU/)Linux
 * [Thoughts](/thoughts/), my catch–all for other random stuff
 
-### Other categories
+
+<h3 id="other-categories">Other categories</h3>
 
 * [Museum](/museum/), posts imported from retired/dead services
 * [Rubenerd Show](/show/), my long-running podcast of nerdish observations
 
-### Retired categories
 
-* <span style="text-decoration:underline">Infocomm</span>, divested back into Hardware, Internet, and Software
-* <span style="text-decoration:underline">Nonsense</span>, merged into Thoughts, given most of my thoughts are!
+<h3 id="year">Posts by year</h3>
 
-### Hosted elsewhere
+* [2018](/year/2018/)
+* [2017](/year/2017/)
+* [2016](/year/2016/)
+* [2015](/year/2015/)
+* [2014](/year/2014/)
+* [2013](/year/2013/)
+* [2012](/year/2012/)
+* [2011](/year/2011/)
+* [2010](/year/2010/)
+* [2009](/year/2009/)
+* [2008](/year/2008/)
+* [2007](/year/2007/)
+* [2006](/year/2006/)
+* [2005](/year/2005/)
+* [2004](/year/2004/)
+
+
+<h3 id="elsewhere">Hosted elsewhere</h3>
 
 * [Github Gists](https://gist.github.com/Rubenerd), my code and script snippets
 * [Penguin Coffee](http://penguincoffee.net), Clara's and my anime Tumblr
