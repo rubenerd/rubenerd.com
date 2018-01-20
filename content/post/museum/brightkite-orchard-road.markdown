@@ -2,6 +2,7 @@
 title: "#Brightkite: Orchard Road"
 date: "2009-07-11T21:52:11-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

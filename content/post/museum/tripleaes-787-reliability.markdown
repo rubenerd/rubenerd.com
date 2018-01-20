@@ -2,6 +2,7 @@
 title: "#TripleAES: 787 reliability"
 date: "2013-11-16T20:55:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
+year: "2013"
 category: Museum
 tag:
 - avaiation

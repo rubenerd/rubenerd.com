@@ -2,6 +2,7 @@
 title: "#Brightkite: Millenia Walk - Paulaner Brauhaus"
 date: "2009-07-18T22:22:15-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

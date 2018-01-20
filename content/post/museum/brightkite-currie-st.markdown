@@ -2,6 +2,7 @@
 title: "#Brightkite: Currie St"
 date: "2009-08-26T00:44:56-06:00"
 location: Adelaide
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

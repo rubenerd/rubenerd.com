@@ -2,6 +2,7 @@
 title: "#TripleAES: Dealing with schoolies"
 date: "2013-11-16T19:22:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
+year: "2013"
 category: Museum
 tag:
 - australia

@@ -2,6 +2,7 @@
 title: "#Brightkite: Near Ingle Farm"
 date: "2009-08-31T05:54:48-06:00"
 location: Adelaide
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

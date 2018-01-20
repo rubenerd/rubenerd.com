@@ -2,6 +2,7 @@
 title: "#Brightkite: Laurent Bernard Chocolatier"
 date: "2009-07-03T10:26:15-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

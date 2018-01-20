@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Hondurus votes for a new president"
 date: "2013-11-25T02:23:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

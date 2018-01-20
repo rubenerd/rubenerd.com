@@ -1,6 +1,7 @@
 ---
 title: "#Colesguy: Summer"
 date: "2010-12-10T11:36:00+10:00"
+year: "2010"
 category: Museum
 tag:
 - from-colesguy

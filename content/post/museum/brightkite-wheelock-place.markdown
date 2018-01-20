@@ -2,6 +2,7 @@
 title: "#Brightkite: Wheelock Place"
 date: "2009-07-06T04:37:36-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

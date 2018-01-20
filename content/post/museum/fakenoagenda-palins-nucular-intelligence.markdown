@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Palin’s nucular intelligence"
 date: "2013-11-25T11:43:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

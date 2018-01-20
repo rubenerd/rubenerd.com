@@ -2,6 +2,7 @@
 title: "#Brightkite: PastaMania (Cineleisure)"
 date: "2009-07-03T00:39:17-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

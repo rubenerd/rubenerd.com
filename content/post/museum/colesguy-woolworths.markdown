@@ -1,6 +1,7 @@
 ---
 title: "#Colesguy Woolworths"
 date: "2011-01-01T18:06:00+10:00"
+year: "2011"
 category: Museum
 tag:
 - from-colesguy

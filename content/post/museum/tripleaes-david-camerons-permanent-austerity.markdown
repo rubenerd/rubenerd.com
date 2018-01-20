@@ -2,6 +2,7 @@
 title: "#TripleAES: David Cameron’s permanent austerity"
 date: "2013-11-14T22:48:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
+year: "2013"
 category: Museum
 tag:
 - politics

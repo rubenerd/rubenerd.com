@@ -2,6 +2,7 @@
 title: "#Brightkite: Adelaide Railway Station"
 date: "2009-08-31T05:25:42-06:00"
 location: Adelaide
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

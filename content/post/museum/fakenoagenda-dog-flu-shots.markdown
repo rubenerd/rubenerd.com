@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Dog-flu shots"
 date: "2013-11-25T02:28:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

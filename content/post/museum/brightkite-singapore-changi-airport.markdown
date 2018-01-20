@@ -2,6 +2,7 @@
 title: "#Brightkite: Singapore Changi Airport"
 date: "2009-07-09T09:06:11-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

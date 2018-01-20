@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: US economy recovering from John's 2013 crash?"
 date: "2013-11-25T02:18:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

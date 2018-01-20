@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Boeing warns of 787 engine icing risk"
 date: "2013-11-24T11:32:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

@@ -2,6 +2,7 @@
 title: "#Brightkite: Tuas Checkpoint"
 date: "2009-07-14T19:39:47-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

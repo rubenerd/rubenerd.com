@@ -2,6 +2,7 @@
 title: "#Brightkite: Harbourfront MRT Station"
 date: "2009-07-14T19:08:31-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

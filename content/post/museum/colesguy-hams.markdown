@@ -1,6 +1,7 @@
 ---
 title: "#Colesguy: Hams"
 date: "2010-11-15T22:54:00+10:00"
+year: "2010"
 category: Museum
 tag:
 - from-colesguy

@@ -2,6 +2,7 @@
 title: "#Brightkite: Near Race Course Village"
 date: "2009-07-17T02:02:56-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

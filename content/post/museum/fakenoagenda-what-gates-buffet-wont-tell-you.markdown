@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: What Gates, Buffet won’t tell you"
 date: "2013-11-24T11:45:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

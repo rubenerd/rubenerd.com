@@ -2,6 +2,7 @@
 title: "#Brightkite: Paragon Shopping Centre"
 date: "2009-07-07T19:48:39-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

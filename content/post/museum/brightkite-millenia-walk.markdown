@@ -2,6 +2,7 @@
 title: "#Brightkite: Millenia Walk"
 date: "2009-06-29T04:39:11-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

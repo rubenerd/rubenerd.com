@@ -2,6 +2,7 @@
 title: "#Brightkite: Mawson Central"
 date: "2009-08-25T16:51:36-06:00"
 location: Adelaide
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

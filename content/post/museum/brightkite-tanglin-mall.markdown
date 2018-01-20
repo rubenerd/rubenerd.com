@@ -2,6 +2,7 @@
 title: "#Brightkite: Tanglin Mall"
 date: "2009-06-27T01:57:18-06:00"
 location: Singapore
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

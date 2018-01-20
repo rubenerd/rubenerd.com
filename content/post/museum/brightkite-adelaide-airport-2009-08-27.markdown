@@ -2,6 +2,7 @@
 title: "#Brightkite: Adelaide Airport (2009-08-27)"
 date: "2009-08-27T19:35:50-06:00"
 location: Adelaide
+year: "2009"
 category: Museum
 tag:
 - from-brightkite

@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Chewing tobacco"
 date: "2014-01-03T13:16:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

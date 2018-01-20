@@ -1,6 +1,7 @@
 ---
 title: "#FakeNoAgenda: Space Operations conference"
 date: "2013-12-10T12:31:00+10:00"
+year: "2013"
 category: Museum
 tag:
 - from-fakenoagenda

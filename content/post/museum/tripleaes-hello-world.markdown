@@ -2,6 +2,7 @@
 title: "#TripleAES: Hello, world"
 date: "2013-11-14T21:34:00+10:00"
 abstract: "From TripleAES, my short-lived side blog"
+year: "2013"
 category: Museum
 tag:
 - language
