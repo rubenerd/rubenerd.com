@@ -10,7 +10,7 @@ set -e
 set -o nounset
 
 _CAPACITY=256     ## Size in megabytes of target ramdisk
-_PATH="./public"  ## Target mountpoint where Hugo generates site
+## _PATH="./public"  ## Target mountpoint where Hugo generates site
 
 ram_disk() {
     _CAPACITY=`expr $_CAPACITY \* 2048`
@@ -18,12 +18,12 @@ ram_disk() {
     diskutil eraseVolume HFS+ 'Hugo' \
         `hdiutil attach -nomount ram://${_CAPACITY}`
 
-    [ -d "$_PATH" ] && rm -rf "$_PATH"
-    ln -s "/Volumes/Hugo" "$_PATH"
+    ## [ -d "$_PATH" ] && rm -rf "$_PATH"
+    ## ln -s "/Volumes/Hugo" "$_PATH"
 }
 
 unmount_ram_disk() {
-    diskutil unmount force /Volumes/Hugo
-    rm -rf $_PATH
+    hdiutil eject -force /Volumes/Hugo
+    ## rm -rf $_PATH
 }
 
