@@ -8,8 +8,8 @@
 ## 2017-01-30: Refactored for arguments (not interactive) + IA upload tool
 
 set -e
-set -o nounset
-set -x 
+set -x
+#set -o nounset
 
 ###########################################################################
 ## User-editable configuration 
@@ -20,17 +20,17 @@ _TITLE=""
 _DESCRIPTION=""
 
 ## Where to find things
-_BUCKET="$HOME/Personal/rubenerd.com/metadata"
-_EPISODES="$HOME/Personal/rubenerd.com/content/post/show"
+_BUCKET="$HOME/Dropbox/rubenerd.com/metadata"
+_EPISODES="$HOME/Dropbox/rubenerd.com/content/post/show"
 _EPISODE_PREFIX='show'
 
 ## Episode details
-_SHOW='Rubénerd Show'
+_SHOW='Rubenerd Show'
 _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
 _LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='North Sydney, Australia'
+_LOCATION='Odawara, Japan'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
@@ -131,6 +131,7 @@ _ID=`printf "%s" "$_SHOW$_NUMBER" | sed 's/ //g' | sed 's/é/e/'`
 find "$_BUCKET/$_ID.mp3"
 find "$_BUCKET/$_ID.png"
 
+echo "ID IS $_ID ..........................."
 
 ###########################################################################
 ## Derive text from entered details
@@ -204,9 +205,8 @@ eyeD3                                                               \
     --recording-date $_DATE                                         \
     --encoding-date $_DATE                                          \
     --tagging-date $_DATE                                           \
-    --add-lyrics "$_BUCKET/${_ID}_lyrics.txt:SHOWNOTES:eng"         \
-    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
     --encoding "utf8"                                               \
+    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
     --publisher "$_HOST"                                            \
     --url-frame "WOAF:https\://archive.org/download/$_ID/$_ID.mp3"  \
     --url-frame "WOAR:https\://rubenerd.com/"                       \
@@ -232,9 +232,8 @@ eyeD3                                                               \
     --recording-date $_DATE                                         \
     --encoding-date $_DATE                                          \
     --tagging-date $_DATE                                           \
-    --add-lyrics "$_BUCKET/${_ID}_lyrics.txt:SHOWNOTES:eng"         \
-    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
     --encoding "utf8"                                               \
+    --add-image "$_BUCKET/${_ID}.png:FRONT_COVER"                   \
     --publisher "$_HOST"                                            \
     --url-frame "WOAF:https\://archive.org/download/$_ID/$_ID.mp3"  \
     --url-frame "WOAR:https\://rubenerd.com/"                       \
@@ -305,7 +304,7 @@ cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
 
 <p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
-<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="https://rubenerd.com/">Rubénerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="https://rubenerd.com/">Rubenerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 EOF
 
 ## If we're on Mac OS X, copy to clipboard for pasting into Onsug 
@@ -339,7 +338,7 @@ EOF
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
 
-_IA_DESCRIPTION="<p><strong>$_DURATION</strong> – $_DESCRIPTION</p><p style=\"font-style:italic\" class=\"show-licence\">Recorded in $_LOCATION. Licence for this track: <a rel=\"license\" href=\"$_LICENCE_URL\">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p><p style=\"font-style:italic\" class=\"show-release\">Released $_ONSUG_RELEASE_DATE on <a href=\"https://rubenerd.com/\">Rubénerd</a> and <a href=\"http://onsug.com/\">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style=\"font-style:italic;\" class=\"show-subscribe\">Subscribe with <a href=\"https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071\">iTunes</a>, <a href=\"http://pca.st/ybXl\">Pocket Casts</a>, <a href=\"https://overcast.fm/itunes1003680071/rub-nerd-show\">Overcast</a> or add <a href=\"https://rubenerd.com/show/feed/\">this feed</a> to your podcast client.</p><p style=\"font-style:italic\" class=\"show-thanks\">Special thanks to the <a href=\"https://archive.org/details/rubenerdshow\">Internet Archive</a>; their generous hosting makes this show possible.</p>"
+_IA_DESCRIPTION="<p><strong>$_DURATION</strong> – $_DESCRIPTION</p><p style=\"font-style:italic\" class=\"show-licence\">Recorded in $_LOCATION. Licence for this track: <a rel=\"license\" href=\"$_LICENCE_URL\">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p><p style=\"font-style:italic\" class=\"show-release\">Released $_ONSUG_RELEASE_DATE on <a href=\"https://rubenerd.com/\">Rubenerd</a> and <a href=\"http://onsug.com/\">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts (this one notwithstanding).</p><p style=\"font-style:italic;\" class=\"show-subscribe\">Subscribe with <a href=\"https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071\">iTunes</a>, <a href=\"http://pca.st/ybXl\">Pocket Casts</a>, <a href=\"https://overcast.fm/itunes1003680071/rub-nerd-show\">Overcast</a> or add <a href=\"https://rubenerd.com/show/feed/\">this feed</a> to your podcast client.</p><p style=\"font-style:italic\" class=\"show-thanks\">Special thanks to the <a href=\"https://archive.org/details/rubenerdshow\">Internet Archive</a>; their generous hosting makes this show possible.</p>"
 
 echo "collection,contributor,coverage,creator,date,description,duration,language,licenseurl,mediatype,runtime,scanner,subject[0],subject[1],subject[2],subject[3],subject[4],subject[5],subject[6],subject[7],title,year" > "$_ID.csv"
 
@@ -369,7 +368,7 @@ ia upload                                                \
     --metadata="subject:onsug"                           \
     --metadata="subject:overnightscape underground"      \
     --metadata="subject:podcasts"                        \
-    --metadata="subject:recoreded in $_CITY"             \
+    --metadata="subject:recorded in $_CITY"             \
     --metadata="subject:$_SUBJECT"                       \
     --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
     --metadata="year: $_YEAR"
