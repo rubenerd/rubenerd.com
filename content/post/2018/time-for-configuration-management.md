@@ -8,6 +8,7 @@ tag:
 - ansible
 - config-management
 - automation
+- postaday2018
 ---
 Slashdot did an [interview with Red Hat CEO Jim Whitehurst] in October last year. It still seems weird saying "last year". This snippet about Ansible resonated with me:
 

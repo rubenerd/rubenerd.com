@@ -9,6 +9,7 @@ tag:
 - jazz
 - norah-jones
 - nostalgia
+- postaday2018
 ---
 <p></p>
 

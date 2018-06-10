@@ -7,6 +7,7 @@ category: Media
 tag:
 - photos
 - birds
+- postaday2018
 ---
 Steven Dorst, writer of the [eponymously URL'd blog] and [@sjdorst] on The Twitters – whom you should be following – send this to me last week:
 

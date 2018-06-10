@@ -8,6 +8,7 @@ tag:
 - security
 - intel
 - xen
+- postaday2018
 ---
 The Xen security team released [XSA-254], with some more details about [yesterday's Intel revelations]. This is the clearest explanation I've read about the mechanism of the exploit:
 
