@@ -59,7 +59,7 @@ params:
       url:   "http://ko-fi.com/A625HL"
       info:  "Show your support with a up of caffeinated beverage!"
     - title: "Omake…"
-      url:   "/omake/"
+      url:   "/omake-pages/"
       info:  "Extra goodies"
 
   categories:
@@ -88,7 +88,6 @@ params:
       url:   "/thoughts/"
       info:  "Posts on multifarious observations"
 
-
   podcast:
     category:        "show"
     cover:           "http://showfeed.rubenerd.com/itunes-cover.png"
@@ -103,7 +102,7 @@ params:
     publisher:       "me@rubenschade.com"
     summary:         "Ruben's longrunning harmless podcast of observations from Singapore, Malaysia, and Australia."
     tagline:         "A harmless show of observations, since 2005."
-    title:           "Rubénerd Show"
+    title:           "Rubenerd Show"
 
 permalinks:
   page:  "/:filename/"
