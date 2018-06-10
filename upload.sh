@@ -7,51 +7,52 @@
 set -e
 set -o nounset
 
-#. ./scripts/ramdisk.sh
+. ./scripts/ram-disk.sh
 
 _rsync='/usr/local/bin/rsync'  ## location of rsync
 _server='rubenerd.com'         ## server to upload to
+_disk='/Volumes/Hugo'          ## RAM disk to generate assets
 _virtual_root='rubenerdcom'    ## dest directory on server
 _assets_folder='files'         ## don't delete this asset folder on upload
 
-printf "%s" '☕  Killing any zombie Hugo processes...'
+printf "%s\n" '☕  Killing any zombie Hugo processes...'
 killall hugo &&
 
-printf "%s" '☕  Clear previous generated assets...'
-[ -d ./public ] && rm -rf ./public
+printf "%s\n" '☕  Clear previous generated assets...'
+[ -d $_disk ] && rm -rf ./public
 
-## No longer needed in Hugo 0.16
-##printf "%s" '☕  Create RAM disk...'
-##[ -d "/Volumes/Hugo" ] || ram_disk
+printf "%s\n" '☕  Create RAM disk...'
+[ -d "/Volumes/Hugo" ] || ram_disk
 
-printf "%s" '☕  Building site with Hugo (may take a few moments)...'
-hugo
+printf "%s\n" '☕  Building site with Hugo on RAM disk...'
+hugo -d $_disk
 
-printf "%s" '☕  Moving podcast feed to /show/feed/...'
-mkdir -p ./public/show/feed/
-mv -f ./public/category/show/index.xml ./public/show/feed/
-cp ./themes/rubenerd/static/itunes-cover.png ./public/show/feed/
+printf "%s\n" '☕  Moving podcast feed to /show/feed/...'
+mkdir -p $_disk/show/feed/
+mv -f $_disk/category/show/index.xml $_disk/show/feed/
+cp ./themes/rubenerd/static/itunes-cover.png $_disk/show/feed/
 
-printf "%s" '☕  Moving RSS feed from index.xml to /feed/...'
-mkdir ./public/feed/
-mv -f ./public/index.xml ./public/feed/index.xml
+printf "%s\n" '☕  Moving main site RSS from index.xml to /feed/...'
+mkdir $_disk/feed/
+mv -f $_disk/index.xml $_disk/feed/index.xml
 
-#printf "%s" '☕  Move Facebook tag...'
-#mv ./public/tag/facebook/index.xml ./public/facebook.xml
+#printf "%s\n" '☕  Move Facebook tag...'
+#mv $_disk/tag/facebook/index.xml ./public/facebook.xml
 
-printf "%s" '☕  Removing all other generated feeds...'
-rm -rf ./public/category/*/index.xml
-rm -rf ./public/tag/*/index.xml
+printf "%s\n" '☕  Removing all other RSS...'
+rm -rf $_disk/category/*/index.xml
+rm -rf $_disk/tag/*/index.xml
 
-printf "%s" '☕  Removing /category/ from permalink...'
-rm -rf ./public/category/index.*
-mv -f ./public/category/show/* ./public/show/
-rm -rf ./public/category/show/
-mv -f ./public/category/* ./public/
+printf "%s\n" '☕  Removing /category/ from permalink...'
+rm -rf $_disk/category/index.*
+mv -f  $_disk/category/show/* $_disk/show/
+rm -rf $_disk/category/show/
+mv -f  $_disk/category/* $_disk/
 
-printf "%s" '☕  Compressing (with rsync -z) and pushing to server...'
+printf "%s\n" '☕  Uploading...'
 $_rsync --recursive --verbose --times --compress --rsh=ssh --checksum \
-    --delete --exclude='files' ./public/ ${_server}:${_virtual_root}/
+    --delete --exclude='files' $_disk/ ${_server}:${_virtual_root}/
 
-printf "%s" '☕  Site changes now LIVE.'
+printf "%s\n" '☕  Site changes now LIVE. Removing RAM disk...'
+unmount_ram_disk
 
