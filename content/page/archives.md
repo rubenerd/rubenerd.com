@@ -2,7 +2,7 @@
 layout: page
 title: "Archives"
 ---
-*Rubénerd* has 5,000+ posts and podcast entries, published in the below categories. I'll have these viewable by date too, at some point.
+*Rubenerd* has 5,500+ posts and podcast entries, sorted into the below categories. They deserve an overhaul, one of these days.
 
 
 <h3 id="category">Posts by category</h3>
