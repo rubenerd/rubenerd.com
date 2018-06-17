@@ -2,52 +2,41 @@
 layout: page
 title: "Omake"
 ---
-*Omake* is an oft-abused [Japanese term] used for bonus or extra content.
+*Omake* is an oft-abused [Japanese term] used for bonus or extra content. It's likely what most people would put on a personal homepage, rather than a blog. Maybe there's something here that will be interesting for you :). 
 
-This is likely what most people would put on a personal homepage, rather than a blog. Maybe there's something here that will be interesting for you :). 
+### Lists 📝
 
-### Lists
+* [Charities and non-profits](/omake/charities/) that I donate to, and you should check out
+* [Engine room](/omake/engine-room/) of stuff that powers *Rubenerd*
+* [Friend blogroll](/omake/blogroll/) of people you should be reading
+* [Search engines](/omake/search-engines) all on one page
 
-**[Charities and Non-Profits](/omake/charities)**
+### Travel ✈️
 
-: Worthy causes, research, free software, and other projects I donate to, and you should consider too if you have a few bucks a month.
-
-**[Coffee](/omake/coffee/)**
-
-: A list of the best brews, mostly around Sydney, Australia where I currently live. But also some fun and interesting places where Clara and I travel.
-
-**[Engine Room](/omake/engine-room/)**
-
-: A list of the software and services that power this site.
-
-**[Friend Blogroll](/omake/blogroll/)**
-
-: Lovely people and sites you should read. Bloggers used to have huge lists on their sidebars with these, before silo’d social networks sucked the oxygen out of the room.
-
-**[Search Engines](/omake/search-engines/)**
-
-: One page with every HTTPS-ready search engine I can find. I use this as my browser home page, so I don't need to go anywhere else.
+* The best [coffee](/omake/coffee/) around the world
+* My [favourite buildings](/omake/favourite-buildings) Clara and I are ticking off
 
 
-### Collections
+### Collections 💾
 
 * [CD-ROM archive](/omake/cdrom-archive), outsourcing my collection to Archive.org
-* [The Fleet](/omake/the-fleet/), my current computers
+* [The fleet](/omake/the-fleet/), my current computers
 * [eBook manga](/omake/ebook-manga/), availabilty to replace my dead trees 
 * [People using my photos](/omake/people-using-my-photos/), mostly from Creative Commons
 * [Plugins](/omake/plugins/), for Firefox and Safari
 * [Recommended](/omake/recommended/), books, manga, podcasts, maybe eventually more
 
 
-### Research
+### Computers 🖥
 
 * [NAS computer cases](/omake/nas-cases/), research for my consolidated NAS
 * [Mini-ITX](/omake/mini-itx), matrix of the best tiny, space saving cases
-
-### Other Projects
-
 * [Mizuno on PCPartPicker](https://pcpartpicker.com/user/rubenerd/saved/3n3qqs), restoring my first computer from 1998
 * [Tsuruya on PCPartPicker](https://pcpartpicker.com/user/rubenerd/saved/4yc323), my budget game machine build
+
+
+### Other projects 🎷
+
 * [WikiProject Jazz](/omake/wikiproject-jazz/), on Wikipedia
 
 [Japanese term]: https://en.wiktionary.org/wiki/omake
