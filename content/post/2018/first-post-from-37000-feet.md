@@ -40,7 +40,7 @@ I assumed it could be for <abbr title="Extended Operations">ETOPS</abbr> reasons
 
 [Boat Deck Cafe]: https://rubenerd.com/at-the-boat-deck-cafe/ "Blog post: At the Boat Deck Cafe"
 
-[this Boeing PDF]: www.boeing.com/resources/boeingdotcom/company/about_bca/pdf/StartupBoeing_ETOPS.pdf "Boeing PDF: Extended Operations"
+[this Boeing PDF]: https://www.boeing.com/resources/boeingdotcom/company/about_bca/pdf/StartupBoeing_ETOPS.pdf "Boeing PDF: Extended Operations"
 
 [New Caledonia]: https://en.wikipedia.org/wiki/New_Caledonia
 
