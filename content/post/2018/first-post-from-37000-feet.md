@@ -4,6 +4,7 @@ date: "2018-06-14T22:53:05-07:00"
 abstract: "In-flight Wi-Fi is awesome, though laggy, sauce"
 thumb: "https://rubenerd.com/files/2018/unitedwifi@1x.jpg"
 year: "2018"
+location: San-Francisco
 category: Thoughts
 tag:
 - aviation
