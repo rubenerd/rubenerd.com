@@ -31,4 +31,5 @@ And speaking of colour, up close the surface is a mix of quartz and other stones
 Ironically, the [Pyramid of Khafre] is number four. That might take a bit longer to get to.
 
 [list of my favourite buildings]: https://rubenerd.com/omake/favourite-buildings/
+[Pyramid of Khafre]: https://en.wikipedia.org/wiki/Pyramid_of_Khafre "Wikipedia article on the Pyramid of Khafre"
 
