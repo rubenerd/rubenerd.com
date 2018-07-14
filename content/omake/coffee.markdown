@@ -32,4 +32,7 @@ This is my evolving list of the best brews I find.
 
 * Maeda Coffee (前田珈琲): Excellent cakes and service, and your choice of filter single origin or their amazing house blend. They don't do espresso. They have a few branches, but definitely go to the one near Kiyomizu-dera.
 
+### San Francisco
+
+* Cafe Réveille: Beautiful high ceilings and decor match the great coffee and friendly staff in Mission Bay. If you get there early enough, you can watch them roasting in-store.
 
