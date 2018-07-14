@@ -30,7 +30,7 @@ _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
 _LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='Odawara, Japan'
+_LOCATION='San Francisco, California'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
@@ -179,7 +179,7 @@ $_DURATION – $_DESCRIPTION_TEXT
 
 Recorded in $_LOCATION. Licence for this track: $_LICENCE_TITLE. Attribution: $_HOST.
 
-Released $_ONSUG_RELEASE_DATE on Rubénerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
+Released $_ONSUG_RELEASE_DATE on Rubenerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
 
 EOF
 
