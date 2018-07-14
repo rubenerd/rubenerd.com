@@ -111,5 +111,7 @@ permalinks:
 
 taxonomies:
   category: "category"
+  location: "location"
   tag: "tag"
   year: "year"
+
