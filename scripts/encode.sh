@@ -49,16 +49,9 @@ lame --cbr -m j -q 0 -b 128 --verbose "$_id.aiff"
 touch -r "$_original" "$_id.mp3"
 
 ## Encode to FLAC for archiving
-flac --delete-input-file --preserve-modtime --verify --best "$_id.aiff"
-
-## If we have what we need, delete original
-if [ -f "$_id.flac" ] && [ -f "$_id.mp3" ]; then
+## Delete original on success
+flac --delete-input-file --preserve-modtime --verify --best "$_id.aiff" &&
     rm -rf "$_original"
-    exit 0
-else
-    printf "Expected output files not found, check commands."
-    exit 1
-fi
 
-## That's a wrap
+## EOF
 
