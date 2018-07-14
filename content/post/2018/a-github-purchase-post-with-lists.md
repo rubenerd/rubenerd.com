@@ -4,6 +4,7 @@ date: "2018-06-12T11:11:39+10:00"
 abstract: "Windows Team Git Foundation Server Enterprise Tool for Business"
 thumb: "https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - git
