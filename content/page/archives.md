@@ -2,10 +2,10 @@
 layout: page
 title: "Archives"
 ---
-*Rubenerd* has 5,500+ posts and podcast entries, sorted into the below categories. They deserve an overhaul, one of these days.
+*Rubenerd* has more than 5,000 posts and podcast entries spread over 13+ years. This is how you can view them all, somewhat less tediously, than using the pagination links on the home page.
 
 
-<h3 id="category">Posts by category</h3>
+<h3 id="category">Posts by main category</h3>
 
 * [Anime](/anime/), now rarely added to, but I used to be a good little weeb
 * [Hardware](/hardware/), computers, servers, phones, jaffle irons
@@ -15,10 +15,31 @@ title: "Archives"
 * [Thoughts](/thoughts/), my catch–all for other random stuff
 
 
-<h3 id="other-categories">Other categories</h3>
+<h3 id="other-categories">Posts by other category</h3>
 
 * [Museum](/museum/), posts imported from retired/dead services
+* [Pinboard](https://pinboard.in/u:Rubenerd), my external link blog, previously [del.icio.us](https://del.icio.us/rubenerd)
 * [Rubenerd Show](/show/), my long-running podcast of nerdish observations
+* [Unsub Me Already](http://unsub.rubenerd.com/), a Tumblr chronicling email (mis)adventures
+
+
+<h3 id="location">Posts by tag</h3>
+
+There are far too many to list here. But if you see a recurring topic, chances are there's a tag. For example, here's [FreeBSD], [travel], and [privacy].
+
+[FreeBSD]: https://rubenerd.com/tag/freebsd/
+[travel]: https://rubenerd.com/tag/travel/
+[privacy]: https://rubenerd.com/tag/privacy/
+
+
+<h3 id="location">Posts by location</h3>
+
+I only started putting locations on posts in 2018. I'll get around to retroactively adding them one day.
+
+* [Los Angeles](/location/los-angeles/)
+* [Oakland](/location/oakland/)
+* [San Francisco](/location/san-francisco/)
+* [Sydney](/location/sydney/)
 
 
 <h3 id="year">Posts by year</h3>
@@ -39,10 +60,3 @@ title: "Archives"
 * [2005](/year/2005/)
 * [2004](/year/2004/)
 
-
-<h3 id="elsewhere">Hosted elsewhere</h3>
-
-* [Github Gists](https://gist.github.com/Rubenerd), my code and script snippets
-* [Penguin Coffee](http://penguincoffee.net), Clara's and my anime Tumblr
-* [Pinboard](https://pinboard.in/u:Rubenerd), my link blog, previously [del.icio.us](https://del.icio.us/rubenerd)
-* [Unsub Me Already](http://unsub.rubenerd.com/), chronicling my email (mis)adventures 
