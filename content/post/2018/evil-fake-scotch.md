@@ -16,6 +16,8 @@ tag:
 ---
 <p><img src="https://rubenerd.com/files/2018/literalmeme@1x.jpg" srcset="https://rubenerd.com/files/2018/literalmeme@1x.jpg 1x, https://rubenerd.com/files/2018/literalmeme@2x.jpg 2x" alt="I don't always use memes literally... wait" style="width:160px; height:200px; float:right; margin:0 0 1em 2em;" /></p>
 
+*This was originally uploaded while tethered, and didn't go through. Let's try this again!*
+
 I don't drink much; but when I do, I try to make it special. I feel like this was a [meme at some point], though with the logical premise replaced with something comical. Hey look at me, explaining jokes! I don't joke much, but when I do, I ruin them. Wait, that's no good.
 
 Of the spirited beverages, Nikka and Glenfiddich have become my recent favourites. So it concerns me when people try flogging off their stuff as the real thing, as Greg Miskelly and Riley Stuart — both of whom sound like scotch whiskeys themselves — [reported]: 
