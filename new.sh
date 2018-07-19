@@ -17,7 +17,9 @@ draft: true
 title: ""
 date: "$_DATE"
 abstract: ""
+thumb: ""
 year: "$_YEAR"
+location: 
 category:
 tag:
 - 
