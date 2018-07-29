@@ -35,6 +35,7 @@ The canonical Schade family guacamole ingredients are, in descending order of vo
 1. Hass avocado; not sheppard
 2. White onions
 3. Red capsicum
+4. Celery
 4. Chives
 5. Smoked paprika; sweet is an acceptable substitute
 6. Tabasco sauce; jalapenos are a tolerable substitute
