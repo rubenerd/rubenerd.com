@@ -2,7 +2,7 @@
 title: "Enkheimer Ried"
 date: "2018-05-07T18:02:18+10:00"
 abstract: "Not a bird from Wikipedia this time; I just love this photo"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/Enkheimer_Ried@1x.jpg"
 year: "2018"
 category: Media
 tag:
