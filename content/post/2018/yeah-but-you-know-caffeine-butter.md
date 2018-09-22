@@ -3,6 +3,7 @@ title: "Yeah but, y’know, caffeine butter"
 date: "2018-02-08T18:11:11+11:00"
 abstract: "Or when condescending people attack!"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - language

@@ -4,6 +4,7 @@ date: "2018-06-07T16:29:37+10:00"
 abstract: "Goodbye, outbound brains"
 thumb: "https://rubenerd.com/files/2018/essentialblogging@1x.jpg"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - cory-doctorow

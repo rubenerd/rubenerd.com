@@ -3,6 +3,7 @@ title: "Leopard surprises me, a decade ago"
 date: "2018-02-01T08:46:24+11:00"
 abstract: "And how about this February in 2008 already? Isn't it crazy!?"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - time

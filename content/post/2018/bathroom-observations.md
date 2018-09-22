@@ -3,6 +3,7 @@ title: "Bathroom observations"
 date: "2018-05-30T16:49:20+10:00"
 abstract: "Don’t read this post"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - health

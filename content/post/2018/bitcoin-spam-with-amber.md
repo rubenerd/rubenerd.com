@@ -3,6 +3,7 @@ title: "Bitcoin spam with amber"
 date: "2018-01-16T13:47:18+11:00"
 abstract: "When bitcoin spam interrupts elevenses"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - bitcoin

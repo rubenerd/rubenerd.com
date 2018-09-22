@@ -3,6 +3,7 @@ title: "Upgrading pip packages"
 date: "2018-03-22T16:08:12+11:00"
 abstract: "It’s install --upgrade, not upgrade"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - python

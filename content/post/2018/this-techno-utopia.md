@@ -3,6 +3,7 @@ title: "This techno-utopia"
 date: "2018-06-07T11:39:19+10:00"
 abstract: "What world hath we wrought?"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - personal

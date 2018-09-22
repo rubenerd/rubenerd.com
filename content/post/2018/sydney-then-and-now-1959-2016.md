@@ -4,6 +4,7 @@ date: "2018-04-02T13:37:37+10:00"
 abstract: "The header image from one of my new Twitter favourites."
 thumb: "https://rubenerd.com/files/2018/sydneythenandnow-1959-2016@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - architecture

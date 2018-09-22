@@ -4,6 +4,7 @@ date: "2018-03-30T20:01:30+11:00"
 abstract: "I’m starting to see the appeal of something like this now"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - home

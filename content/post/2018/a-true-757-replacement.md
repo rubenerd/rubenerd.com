@@ -4,6 +4,7 @@ date: "2018-06-11T13:04:27+10:00"
 abstract: "The NMA should be a 757-8"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - aviation

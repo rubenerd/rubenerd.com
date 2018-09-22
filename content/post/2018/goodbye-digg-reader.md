@@ -3,6 +3,7 @@ title: "Goodbye, Digg Reader"
 date: "2018-03-28T16:04:45+11:00"
 abstract: "Another service shutdown, to be replaced with self-hosting"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - digg-reader

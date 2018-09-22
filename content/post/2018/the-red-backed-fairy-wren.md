@@ -3,6 +3,7 @@ title: "The red-backed fairy-wren"
 date: "2018-01-04T09:53:56+11:00"
 abstract: "I’m a sucker for cute birds!"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - photos

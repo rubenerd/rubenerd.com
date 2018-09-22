@@ -3,6 +3,7 @@ title: "Looking at slabs of glass"
 date: "2018-02-26T09:05:36+11:00"
 abstract: "A common attempt at compelling, biting commentary leaves me unconvinced"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - singapore

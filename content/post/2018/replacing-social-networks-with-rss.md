@@ -4,6 +4,7 @@ date: "2018-04-04T20:58:31+10:00"
 abstract: "A discussion started by Screenbeard from The Geekorium"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - facebook

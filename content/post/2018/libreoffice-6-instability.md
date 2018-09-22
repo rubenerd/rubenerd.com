@@ -3,6 +3,7 @@ title: "LibreOffice 6 instability"
 date: "2018-02-10T23:28:23+11:00"
 abstract: "Disable OpenGL on Mac, and you’ll be fine"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - libreoffice

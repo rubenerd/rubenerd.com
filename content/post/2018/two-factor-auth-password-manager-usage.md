@@ -3,6 +3,7 @@ title: "Two-factor auth and password managers"
 date: "2018-01-22T13:44:25+11:00"
 abstract: "Neither are solutions to auth, they’re just bandaids."
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - authentication

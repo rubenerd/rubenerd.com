@@ -3,6 +3,7 @@ title: "nano in macOS High Sierra"
 date: "2018-02-02T11:54:28+11:00"
 abstract: "It still ships with 2.0.6, more than a decade old."
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - macos

@@ -4,6 +4,7 @@ date: "2018-05-29T14:21:36+10:00"
 abstract: "Rest in peace, star man"
 thumb: "https://rubenerd.com/files/2018/alan_bean@1x.jpg"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - nasa

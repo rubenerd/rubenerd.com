@@ -3,6 +3,7 @@ title: "RFC: Comment systems"
 date: "2018-04-12T12:28:35+10:00"
 abstract: "How should I enable blog comments here again?"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - comments

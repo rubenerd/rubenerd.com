@@ -3,6 +3,7 @@ title: "Kline bottle limerick"
 date: "2018-05-24T16:06:03+10:00"
 abstract: "When you need poetry and more than a Möbius strip"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - poetry

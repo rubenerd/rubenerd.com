@@ -4,6 +4,7 @@ date: "2018-02-27T15:24:53+11:00"
 abstract: "When you see either of these, the answer is no."
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - spam

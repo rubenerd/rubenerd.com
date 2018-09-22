@@ -4,6 +4,7 @@ date: "2018-03-04T10:59:58+11:00"
 abstract: "Fortunately we have Kill Sticky Headers"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - design

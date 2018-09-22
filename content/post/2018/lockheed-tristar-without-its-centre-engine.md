@@ -4,6 +4,7 @@ date: "2018-06-09T18:05:13+10:00"
 abstract: "Another great photo by Jon Proctor"
 thumb: "https://rubenerd.com/files/2018/jon-proctor-jetphotos@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - aviation

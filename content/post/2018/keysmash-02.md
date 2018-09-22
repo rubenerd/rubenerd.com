@@ -3,6 +3,7 @@ title: "Keysmash #2"
 date: "2018-01-23T21:09:54+11:00"
 abstract: "I like doing keysmashes into the Mac Dictionary.app"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - economics

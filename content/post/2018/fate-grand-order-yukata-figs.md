@@ -3,6 +3,7 @@ title: "Fate/Grand Order yukata figs"
 date: "2018-01-07T10:21:15+11:00"
 abstract: "Damn it, Type-Moon!"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - fate

@@ -3,6 +3,7 @@ title: "Homebrew serendipity"
 date: "2018-02-16T08:45:31+11:00"
 abstract: "Or when you do an update and see weirdly named stuff you don’t recognise"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - mac

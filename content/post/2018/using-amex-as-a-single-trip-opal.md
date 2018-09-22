@@ -4,6 +4,7 @@ date: "2018-04-03T11:05:22+10:00"
 abstract: "You’ll leave money on the table, but could work in a pinch"
 thumb: "https://rubenerd.com/files/2018/photo-gordon@1x.jpg"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - travel

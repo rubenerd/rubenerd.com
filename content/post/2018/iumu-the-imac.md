@@ -3,6 +3,7 @@ title: "iUmu, the iMac"
 date: "2018-02-09T09:32:31+11:00"
 abstract: "My first iMac since 1999!"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - apple

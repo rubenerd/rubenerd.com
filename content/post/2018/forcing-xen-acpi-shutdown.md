@@ -3,6 +3,7 @@ title: "Forcing Xen ACPI shutdown"
 date: "2018-04-09T08:19:15+10:00"
 abstract: "Using the -F flag, albeit in the wrong order!"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - debian

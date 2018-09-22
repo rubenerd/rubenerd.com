@@ -3,6 +3,7 @@ title: "Using rsyncd instead of rsync over SSH"
 date: "2018-05-20T15:11:34+10:00"
 abstract: "The performance difference can be huge in trusted environments"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - bsd

@@ -3,6 +3,7 @@ title: "Lists and outlines"
 date: "2018-04-25T08:53:44+10:00"
 abstract: "I may just self publish these, rather than using list sites."
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - lists 

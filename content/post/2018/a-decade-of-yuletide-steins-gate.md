@@ -3,6 +3,7 @@ title: "A decade of Yuletide Steins;Gate"
 date: "2018-12-01T08:34:18+11:00"
 abstract: "Another reason I feel old!"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - yuletide

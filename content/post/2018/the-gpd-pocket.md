@@ -4,6 +4,7 @@ date: "2018-03-24T10:20:11+11:00"
 abstract: "It’s the first laptop to follow in the footsteps of the Toshiba Libretto"
 thumb: "https://rubenerd.com/files/2018/gpd-xubuntu@2x.jpg"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - bsd

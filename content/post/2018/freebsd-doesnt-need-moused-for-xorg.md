@@ -4,6 +4,7 @@ date: "2018-05-02T09:15:10+10:00"
 abstract: "It’s often recommended, but isn’t required"
 thumb: "https://rubenerd.com/files/stock/tango-input-mouse.svg"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - bsd

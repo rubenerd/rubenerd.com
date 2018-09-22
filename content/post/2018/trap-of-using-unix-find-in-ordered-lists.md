@@ -3,6 +3,7 @@ title: "The trap of using Unix find in ordered lists"
 date: "2018-01-18T08:56:21+11:00"
 abstract: "Things you already know, unless you don’t"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - things-you-already-know-unless-you-dont

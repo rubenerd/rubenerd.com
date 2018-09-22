@@ -3,6 +3,7 @@ title: "We are not spammers"
 date: "2018-02-12T16:18:33+11:00"
 abstract: "Best footer for spam ever"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - spam

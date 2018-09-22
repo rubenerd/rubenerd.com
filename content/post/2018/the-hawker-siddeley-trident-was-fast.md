@@ -3,6 +3,7 @@ title: "The Hawker Siddeley Trident was fast"
 date: "2018-01-31T09:43:18+11:00"
 abstract: "It could outfly the current Boeing 777 by 100km/h"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - aviation

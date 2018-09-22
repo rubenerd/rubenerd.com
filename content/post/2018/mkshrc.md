@@ -3,6 +3,7 @@ title: "mkshrc"
 date: "2018-02-21T20:40:09+11:00"
 abstract: "This is the configuration file for the MirOS Korn shell"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - shells

@@ -3,6 +3,7 @@ title: "Ridding myself of vices"
 date: "2018-02-09T08:26:52+11:00"
 abstract: "The first step in what I hope will become a productive enterprise of self betterment."
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - personal

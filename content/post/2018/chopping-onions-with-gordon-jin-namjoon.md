@@ -4,6 +4,7 @@ date: "2018-02-20T20:41:24+11:00"
 abstract: "So many techniques!"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - food

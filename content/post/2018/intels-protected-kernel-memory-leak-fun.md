@@ -3,6 +3,7 @@ title: "Intel’s protected kernel memory leak fun"
 date: "2018-01-03T13:28:23+11:00"
 abstract: "Can’t be patched in microcode, and fix has a performance impact. Uh oh."
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - intel

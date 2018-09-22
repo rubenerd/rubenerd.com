@@ -3,6 +3,7 @@ title: "BeOS in the Wayback Machine"
 date: "2018-01-27T10:02:23+11:00"
 abstract: "So many pointless search suggestions!"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - beos

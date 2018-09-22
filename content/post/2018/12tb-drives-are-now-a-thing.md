@@ -3,6 +3,7 @@ title: "12TB drives are now a thing"
 date: "2018-01-06T19:20:14+11:00"
 abstract: "And I’d just got used to 10TB non-shingled ones"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - hard-drives

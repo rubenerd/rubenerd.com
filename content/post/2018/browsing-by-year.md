@@ -3,6 +3,7 @@ title: "Yearly archives in GoHugo"
 date: "2018-01-09T09:43:23+11:00"
 abstract: "You can now browse the blog by year again, which is kinda cool."
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - weblog

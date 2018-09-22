@@ -4,6 +4,7 @@ date: "2018-04-18T17:41:24+10:00"
 abstract: "I need offline cross-platformness, which 1Password doesn't have."
 thumb: "https://rubenerd.com/files/2018/keepass@1x.png"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - security

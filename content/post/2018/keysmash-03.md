@@ -4,6 +4,7 @@ date: "2018-03-03T21:44:54+10:00"
 abstract: "I like doing keysmashes into the Mac Dictionary.app"
 thumb: "https://rubenerd.com/files/2018/icon-macdict@1x.png"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - economics

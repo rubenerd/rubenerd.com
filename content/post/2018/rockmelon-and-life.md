@@ -3,6 +3,7 @@ title: "Rockmelon and life"
 date: "2018-03-02T18:38:43+11:00"
 abstract: "We can do everything right, then die from eating fruit."
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - health

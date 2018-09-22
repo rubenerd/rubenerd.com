@@ -4,6 +4,7 @@ date: "2018-06-05T21:50:32+10:00"
 abstract: "The third song from this awesome new album"
 thumb: "https://rubenerd.com/files/2018/stingshaggy44876@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - 44876-album

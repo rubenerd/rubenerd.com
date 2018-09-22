@@ -3,6 +3,7 @@ title: "Evolution, a decade ago"
 date: "2018-01-26T21:33:53+11:00"
 abstract: "Science is just as under attack as back then."
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - science

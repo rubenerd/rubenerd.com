@@ -3,6 +3,7 @@ title: "DOS and sex-ed feedback by @ozzmosis, @Georgiecel"
 date: "2018-05-20T10:29:15+10:00"
 abstract: "I can’t spell enhanced, and it’s all about respect"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - dos

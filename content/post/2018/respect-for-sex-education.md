@@ -4,6 +4,7 @@ date: "2018-05-18T10:59:18+10:00"
 abstract: "What about respect for sexual health?"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - australia

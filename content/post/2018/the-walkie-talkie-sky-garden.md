@@ -4,6 +4,7 @@ date: "2018-05-25T19:35:21+10:00"
 abstract: ""
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - 

@@ -2,8 +2,9 @@
 title: "A cut-open 737-200"
 date: "2018-05-21T21:42:57+10:00"
 abstract: "So cool seeing a cross-section like this."
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/USAir-732@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - aviation

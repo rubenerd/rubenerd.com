@@ -4,6 +4,7 @@ date: "2018-03-02T09:29:21+11:00"
 abstract: "When your new repo has a single commit, graphs get fun"
 thumb: "https://rubenerd.com/files/2018/single-git@1x.png"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - github

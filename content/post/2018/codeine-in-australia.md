@@ -3,6 +3,7 @@ title: "Codeine in Australia"
 date: "2018-02-15T12:19:42+11:00"
 abstract: "When good intentions get in the way of rational policy"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - health

@@ -4,6 +4,7 @@ date: "2018-06-02T10:28:08+10:00"
 abstract: "This may be the most beautiful anime fig ever, damn it!"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - anime-figures

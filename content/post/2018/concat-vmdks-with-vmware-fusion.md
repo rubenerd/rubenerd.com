@@ -3,6 +3,7 @@ title: "Concat VMDKs with VMware Fusion"
 date: "2018-05-23T09:27:02+10:00"
 abstract: "De-select Split into multiple files"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - disk-images

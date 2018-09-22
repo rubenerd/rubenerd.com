@@ -4,6 +4,7 @@ date: "2018-05-04T18:43:00+10:00"
 abstract: "... damn it!"
 thumb: "https://rubenerd.com/files/2018/figumu@1x.jpg"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - fate-grand-order

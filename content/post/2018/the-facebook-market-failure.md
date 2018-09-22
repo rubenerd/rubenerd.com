@@ -3,6 +3,7 @@ title: "The Facebook market failure"
 date: "2018-03-21T09:16:27+11:00"
 abstract: "Not even Cambridge Analytica news should come as a surprise"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - privacy

@@ -3,6 +3,7 @@ title: "A railroad made of human bones"
 date: "2018-02-19T15:17:15+11:00"
 abstract: "The most powerful piece of journalism I’ve read this year"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - movies

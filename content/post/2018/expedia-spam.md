@@ -3,6 +3,7 @@ title: "Expedia spam"
 date: "2018-02-14T11:39:22+11:00"
 abstract: "Welcome! Useful info. Less useful info. Feedback! Upsell! Feedback!"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - 

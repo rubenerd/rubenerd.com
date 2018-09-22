@@ -3,6 +3,7 @@ title: "Still on Upian’s Hot Links!"
 date: "2018-02-07T08:12:59+11:00"
 abstract: "A site that still exists after a decade!"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - nostalgia

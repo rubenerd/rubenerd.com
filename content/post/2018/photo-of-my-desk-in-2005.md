@@ -4,6 +4,7 @@ date: "2018-02-25T22:24:08+11:00"
 abstract: "A slice of life with the iPod, Palm, and iBook G3!"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - palm

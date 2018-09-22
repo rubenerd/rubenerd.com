@@ -3,6 +3,7 @@ title: "Sunrise, by everyone"
 date: "2018-01-10T20:50:18+11:00"
 abstract: "Four different artists singing songs with the same name."
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - anime-figs

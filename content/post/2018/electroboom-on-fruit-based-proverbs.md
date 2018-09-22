@@ -4,6 +4,7 @@ date: "2018-04-04T18:36:01+10:00"
 abstract: "Words of advice from Medhi while changing a tyre"
 thumb: "https://rubenerd.com/files/2018/electroboom-doctor-away-02@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - electroboom

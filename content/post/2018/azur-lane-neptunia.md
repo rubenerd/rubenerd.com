@@ -3,6 +3,7 @@ title: "Azur Lane Neptunia"
 date: "2018-01-30T20:21:13+11:00"
 abstract: "This may be the best mobile game post I’ll ever type."
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - kancolle

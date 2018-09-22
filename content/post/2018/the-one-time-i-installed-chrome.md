@@ -4,6 +4,7 @@ date: "2018-02-13T09:04:38+11:00"
 abstract: "Some websites may not show me ads from tracking!!1!eleventy!"
 thumb: "https://rubenerd.com/files/2018/icon-chrome@2x.png"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - chrome

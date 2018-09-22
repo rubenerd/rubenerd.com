@@ -4,6 +4,7 @@ date: "2018-04-19T09:00:01+10:00"
 abstract: "If this works, Ruben will be happy"
 thumb: "https://rubenerd.com/itouch-icon.png"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - weblog

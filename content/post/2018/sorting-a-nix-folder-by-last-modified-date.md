@@ -3,6 +3,7 @@ title: "Sorting a *nix folder by last modification date"
 date: "2018-01-27T10:17:10+11:00"
 abstract: "In my continuing series of things you already know, unless you don’t already know"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - bsd

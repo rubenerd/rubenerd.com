@@ -3,6 +3,7 @@ title: "Fuji Xerox"
 date: "2018-01-17T19:28:02+11:00"
 abstract: "My Beatles moment for this long-standing joint venture"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - nostalgia

@@ -4,6 +4,7 @@ date: "2018-05-09T13:39:51+10:00"
 abstract: "When did we start attributing designs with this weird adjective?"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - design

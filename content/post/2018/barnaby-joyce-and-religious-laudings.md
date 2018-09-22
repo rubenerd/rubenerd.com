@@ -3,6 +3,7 @@ title: "A redacted post about an Australian politician"
 date: "2018-02-15T09:30:58+11:00"
 abstract: "Or when my parquet floor admits to more than Australia’s deputy PM"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - politics

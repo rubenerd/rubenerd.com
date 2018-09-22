@@ -3,6 +3,7 @@ title: "HP battery recall"
 date: "2018-01-08T09:18:25+11:00"
 abstract: "I’m surprised this doesn't happen more often"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - hp

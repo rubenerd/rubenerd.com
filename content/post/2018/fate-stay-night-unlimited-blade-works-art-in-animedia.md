@@ -4,6 +4,7 @@ date: "2018-05-28T19:08:14+10:00"
 abstract: "This is the most unreasonably-adorable picture of my two favourite characters"
 thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - fate

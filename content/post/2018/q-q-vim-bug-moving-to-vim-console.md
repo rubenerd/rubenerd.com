@@ -3,6 +3,7 @@ title: "$q q Vim bug, and moving to vim-console"
 date: "2018-05-03T08:38:02+10:00"
 abstract: "When a mild irritation finally warranted further investigation!"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - bsd

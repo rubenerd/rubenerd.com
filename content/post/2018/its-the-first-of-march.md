@@ -3,6 +3,7 @@ title: "It’s the first of March"
 date: "2018-03-01T19:00:12+11:00"
 abstract: "Not February!"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - dates

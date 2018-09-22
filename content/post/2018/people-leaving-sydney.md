@@ -4,6 +4,7 @@ date: "2018-02-28T08:36:21+11:00"
 abstract: "No surprise the reasons why"
 thumb: "https://rubenerd.com/files/2018/ultimo-apartments@1x.jpg"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - australia

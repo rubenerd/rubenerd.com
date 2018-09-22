@@ -3,6 +3,7 @@ title: "HomePod"
 date: "2018-02-08T08:50:44+11:00"
 abstract: "Almost looked like a great idea"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - music

@@ -3,6 +3,7 @@ title: "Stack Overflow survey omission"
 date: "2018-01-13T23:32:32+11:00"
 abstract: "No mention of privacy in advertising questions."
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - advertising

@@ -3,6 +3,7 @@ title: "GitHub supported manifest files"
 date: "2018-01-11T21:09:19+11:00"
 abstract: "We have both kinds"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - documentation

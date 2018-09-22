@@ -3,6 +3,7 @@ title: "Friday Fanmail: $1009"
 date: "2018-05-02T08:18:53+10:00"
 abstract: "BITCOIN PROGRAM!"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - spam

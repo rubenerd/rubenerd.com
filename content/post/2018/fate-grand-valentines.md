@@ -3,6 +3,7 @@ title: "Fate/Grand Valentines"
 date: "2018-02-04T10:49:45+11:00"
 abstract: "Best, and cheesiest, FGO event ever."
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - games

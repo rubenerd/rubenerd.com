@@ -3,6 +3,7 @@ title: "The daily bird, via @sjdorst"
 date: "2018-01-07T10:33:38+11:00"
 abstract: "The Lady Bullfinch bird is adorable!"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - photos

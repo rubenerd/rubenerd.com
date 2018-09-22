@@ -4,6 +4,7 @@ date: "2018-03-26T09:04:55+11:00"
 abstract: "Would have seemed like space-age stuff even recently."
 thumb: "https://rubenerd.com/files/2018/qantas-787@1x.jpg"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - aviation

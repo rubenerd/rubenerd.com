@@ -3,6 +3,7 @@ title: "Please explain summaries, Wikipedia editors"
 date: "2018-05-17T11:20:16+10:00"
 abstract: "WP:FNC is not a summary, it’s a link"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - jazz

@@ -3,6 +3,7 @@ title: "Bitcoin spam and cheese"
 date: "2018-01-15T08:58:24+11:00"
 abstract: "It has begun."
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - bitcoin

@@ -3,6 +3,7 @@ title: "Upupuper!"
 date: "2018-04-03T10:39:42+11:00"
 abstract: "Upupuper les fraudeurs dans le méto!"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - europe

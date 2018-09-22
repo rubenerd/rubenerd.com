@@ -3,6 +3,7 @@ title: "Sydney’s bubble tea, ranked"
 date: "2018-01-14T22:26:00+11:00"
 abstract: "Farewell Happy Lemon, you will always be Clara’s and my favourite ♡"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - food

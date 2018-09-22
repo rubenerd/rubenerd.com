@@ -3,6 +3,7 @@ title: "Concatenating with append in ImageMagick"
 date: "2018-02-03T11:39:03+11:00"
 abstract: "Thanks to @ozzmosis, I like this approach even more."
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - photos

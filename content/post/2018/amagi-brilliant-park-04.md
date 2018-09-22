@@ -3,6 +3,7 @@ title: "Amagi Brilliant Park #04"
 date: "2018-01-26T11:17:02+11:00"
 abstract: "Catching up once again on my Kyoani backlog!"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - 2014-anime

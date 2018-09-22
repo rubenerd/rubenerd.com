@@ -4,6 +4,7 @@ date: "2018-05-09T18:08:39+10:00"
 abstract: "Ackchyually!"
 thumb: "https://rubenerd.com/files/2018/ackchyually.png"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - cars

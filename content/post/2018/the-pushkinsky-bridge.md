@@ -4,6 +4,7 @@ date: "2018-02-11T20:40:09+11:00"
 abstract: "It looks so ’90s! Though I can’t quite figure out why"
 thumb: "https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - architecutre

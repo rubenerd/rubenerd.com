@@ -3,6 +3,7 @@ title: "No Speedo patterns for gents"
 date: "2018-01-21T17:23:00+11:00"
 abstract: "Why are women’s suits so much more awesome?!"
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - exercise

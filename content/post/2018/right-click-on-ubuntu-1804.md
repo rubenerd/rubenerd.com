@@ -3,6 +3,7 @@ title: "Right-click on Ubuntu 18.04"
 date: "2018-05-14T08:39:39+10:00"
 abstract: "It now does it the Mac way, which is awesome"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - apple

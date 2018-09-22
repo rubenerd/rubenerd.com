@@ -3,6 +3,7 @@ title: "800×600 in a Retina world"
 date: "2018-02-05T09:10:58+11:00"
 abstract: "Taking a screenshot at that res, then looking at it on a Retina screen."
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - resolutions

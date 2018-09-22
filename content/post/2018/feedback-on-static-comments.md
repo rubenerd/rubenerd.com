@@ -3,6 +3,7 @@ title: "Feedback on static comments"
 date: "2018-04-21T08:46:08+10:00"
 abstract: "Thanks to X Y Z!"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - comments

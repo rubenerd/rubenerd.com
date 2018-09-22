@@ -3,6 +3,7 @@ title: "Bitcoin with vests"
 date: "2018-01-19T23:30:43+11:00"
 abstract: "Mining bitcoins to buy 100MB Zip Disks"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - spam

@@ -3,6 +3,7 @@ title: "Ports Collection support for your FreeBSD version"
 date: "2018-01-20T22:16:11+11:00"
 abstract: "When a particually completed install breaks port installs"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - bsd

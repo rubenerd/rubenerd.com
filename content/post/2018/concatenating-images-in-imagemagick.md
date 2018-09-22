@@ -3,6 +3,7 @@ title: "Concatenating images in ImageMagick"
 date: "2018-01-02T19:12:11+11:00"
 abstract: "There’s a concatenate method, who knew?"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - photos

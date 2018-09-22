@@ -5,6 +5,7 @@ date: "2018-06-06T15:45:24+10:00"
 abstract: "Bitbucket, GitLab, or self host?"
 thumb: "https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png"
 year: "2018"
+location: Sydney
 category: Software
 tag:
 - git

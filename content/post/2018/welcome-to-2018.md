@@ -3,6 +3,7 @@ title: "Welcome to 2018!"
 date: "2018-01-01T22:49:42+11:00"
 abstract: "Best wishes, thoughts, and ideas for the year."
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - personal

@@ -3,6 +3,7 @@ title: "Friday fanmail: I noticed your website"
 date: "2018-03-23T14:43:34+11:00"
 abstract: "Let’s see if they really are!"
 year: "2018"
+location: Sydney
 category: Internet
 tag:
 - spam

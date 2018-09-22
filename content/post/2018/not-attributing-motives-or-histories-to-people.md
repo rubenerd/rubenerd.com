@@ -3,6 +3,7 @@ title: "Not attributing motives or histories to people"
 date: "2018-01-09T08:55:38+11:00"
 abstract: "Everyone has circumstances that lead them to do things."
 year: "2018"
+location: Sydney
 category: Thoughts
 tag:
 - personal

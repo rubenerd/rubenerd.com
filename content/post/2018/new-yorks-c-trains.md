@@ -4,6 +4,7 @@ date: "2018-05-24T10:10:01+10:00"
 abstract: "They might not be the oldest in the world, but they’re starting to have problems"
 thumb: "https://rubenerd.com/files/2018/r32@1x.jpg"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - new-york

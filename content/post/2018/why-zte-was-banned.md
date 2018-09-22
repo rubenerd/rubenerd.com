@@ -3,6 +3,7 @@ title: "Why ZTE was banned in the US, Australia"
 date: "2018-05-27T11:49:42+10:00"
 abstract: "It wasn’t because they misrepresented patches"
 year: "2018"
+location: Sydney
 category: Hardware
 tag:
 - android

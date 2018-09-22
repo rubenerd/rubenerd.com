@@ -4,6 +4,7 @@ date: "2018-05-19T11:25:37+10:00"
 abstract: "The titular song from this fabulous new album"
 thumb: "https://rubenerd.com/files/2018/stingshaggy44876@1x.jpg"
 year: "2018"
+location: Sydney
 category: Media
 tag:
 - 44876-album

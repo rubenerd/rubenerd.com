@@ -4,6 +4,7 @@ date: "2018-02-27T19:54:34+11:00"
 abstract: "Missing it by a week! ;w;"
 thumb: "https://rubenerd.com/files/2018/idolmaster-tokyuhands@1x.jpg"
 year: "2018"
+location: Sydney
 category: Anime
 tag:
 - idolmaster
