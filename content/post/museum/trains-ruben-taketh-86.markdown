@@ -4,6 +4,7 @@ date: "2016-12-24T06:13:55+00:00"
 abstract: "From Clara's and my trip to NYC and Philly. Was a dream come true to on this!"
 thumb: "https://rubenerd.com/files/museum/trainsrubentaketh-acela.jpg"
 year: "2016"
+location: "Philadelphia"
 category: Museum
 tag: 
 - from-trains-ruben-taketh
