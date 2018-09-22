@@ -13,7 +13,7 @@ tag:
 - ocean-liners
 - travel
 ---
-*This post was largely written from Los Angeles, but was posted once back in Sydney where I could download the accompanying photographic photos. As oppsed to an non-photographic photo, whatever that would be.*
+*This post was largely written from Los Angeles, but was posted once back in Sydney where I could download the accompanying photographic photos. As opposed to a non-photographic photo, whatever that would be.*
 
 There are three main forms of passenger conveyance I've wanted to see since pouring over design and engineering books as a kid: *Concorde*, the *RMS Queen Mary*, and the *Boeing Dash 80*. Clara and I saw *Concorde* in New York in 2016, and on our trip to Los Angeles we finally got to see the *Queen Mary* in Long Beach!
 
