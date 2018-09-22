@@ -1,11 +1,13 @@
 ---
 title: "Hall and Oats epiphanies"
 date: "2018-01-29T15:05:25+11:00"
-abstract: ""
+abstract: "With care, you can navigate hallways eating oats."
 year: "2018"
-category: Thoughts
+category: Media
 tag:
-- 
+- hall-and-oats
+- music
+- pointless
 ---
 <p><img src="https://rubenerd.com/files/2018/halloates.png" alt="Screenshot from iTunes showing Hall and Oates" style="width:378px; height:97px;" /></p>
 
