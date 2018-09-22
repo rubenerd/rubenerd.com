@@ -2,8 +2,9 @@
 title: "Tokyo 2018"
 date: "2018-03-14T09:57:13+09:00"
 abstract: "A poorly written post until I get time to write more!"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/photo-tokyobsdsakura@1x.jpg"
 year: "2018"
+location: Tokyo
 category: Thoughts
 tag:
 - asiabsdcon
