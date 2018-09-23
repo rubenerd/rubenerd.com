@@ -2,8 +2,10 @@
 title: "Boris Kustodiev’s Shrovetide"
 date: "2017-02-13T08:39:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "One of my favourite paintings of all time."
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - art

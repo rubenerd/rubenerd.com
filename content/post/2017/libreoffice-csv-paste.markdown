@@ -2,8 +2,10 @@
 title: "LibreOffice HTML table paste"
 date: "2017-04-05T10:25:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "It works for Excel, but LibreOffice is problematic"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - excel

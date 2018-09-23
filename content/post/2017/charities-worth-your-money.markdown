@@ -2,8 +2,10 @@
 title: "Charities worth your time and money"
 date: "2017-05-15T09:18:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "I can vouch for these fine organisations."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - charities

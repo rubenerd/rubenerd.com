@@ -2,8 +2,10 @@
 title: "del.icio.us in IFTTT"
 date: "2017-04-08T17:16:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Another step in the decline of the once-great service."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - delicious

@@ -2,8 +2,10 @@
 title: "Fresh spam"
 date: "2017-08-04T10:13:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "If they're not hyperglobal thinkfluencers, I'm not interested."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - spam

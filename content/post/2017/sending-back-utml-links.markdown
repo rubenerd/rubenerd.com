@@ -2,8 +2,10 @@
 title: "Sending back UTM links"
 date: "2017-04-21T17:28:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "utm_medium=shaddup"
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - spam

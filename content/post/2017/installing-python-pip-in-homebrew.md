@@ -2,8 +2,10 @@
 title: "Installing Python pip in Homebrew"
 date: "2017-11-02T11:52:02+11:00"
 year: "2017"
+location: Sydney
 abstract: "The pip executable has the version appended to it"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - python

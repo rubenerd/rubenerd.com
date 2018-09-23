@@ -2,8 +2,10 @@
 title: "VASP"
 date: "2017-06-16T15:52:53+10:00"
 year: "2017"
+location: Sydney
 abstract: "I always read it as WASP"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - avaiation

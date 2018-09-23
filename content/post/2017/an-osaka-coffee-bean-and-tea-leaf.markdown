@@ -2,8 +2,10 @@
 title: "An Osaka Coffee Bean and Tea Leaf"
 date: "2017-07-25T11:20:47+10:00"
 year: "2017"
+location: Sydney
 abstract: "Going back to one of my and Felix’s old Singaporean haunts!"
 year: "2017"
+location: Sydney
 location: Osaka
 category: Thoughts
 tag:

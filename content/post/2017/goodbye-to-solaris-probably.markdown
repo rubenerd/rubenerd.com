@@ -2,8 +2,10 @@
 title: "Goodbye to Solaris, probably?"
 date: "2017-09-05T18:18:23+10:00"
 year: "2017"
+location: Sydney
 abstract: "Much of the Solaris team has been fired from Oracle. What now?"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - opensolaris

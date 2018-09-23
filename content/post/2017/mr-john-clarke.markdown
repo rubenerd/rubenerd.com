@@ -2,8 +2,10 @@
 title: "Mr John Clarke, one of the great satirists"
 date: "2017-05-02T08:25:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Thanks for your time"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - australia

@@ -2,8 +2,10 @@
 title: "Ansible: Unable to find in expected paths"
 date: "2017-09-10T22:02:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Turns out, you need to use the remote_src attribute"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - ansible

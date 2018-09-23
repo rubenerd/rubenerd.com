@@ -2,8 +2,10 @@
 title: "Recycling VHS tapes"
 date: "2017-07-12T09:22:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Surprisingly, few Sydney councils take them, gah!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - retro

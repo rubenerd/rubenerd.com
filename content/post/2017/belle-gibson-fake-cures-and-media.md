@@ -2,8 +2,10 @@
 title: "Belle Gibson, fake cures, and media"
 date: "2017-11-13T17:45:43+11:00"
 year: "2017"
+location: Sydney
 abstract: "A new book gives me some new thoughts on this terrible case."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - health

@@ -2,8 +2,10 @@
 title: "But I’d treat her better!"
 date: "2017-05-29T11:08:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "The red herring of nerds everywhere"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - music

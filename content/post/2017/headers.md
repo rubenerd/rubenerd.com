@@ -2,8 +2,10 @@
 title: "Headers"
 date: "2017-11-28T11:13:11+11:00"
 year: "2017"
+location: Sydney
 abstract: "People asking what the header on my blog and Twitter feed are."
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - photos

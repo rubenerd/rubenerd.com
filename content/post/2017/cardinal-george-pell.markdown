@@ -2,8 +2,10 @@
 title: "Cardinal George Pell charged"
 date: "2017-06-29T11:13:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Closure is overrated, but glad to see justice done."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - politics

@@ -2,8 +2,10 @@
 title: "Electroboom on the Right Hand Rule"
 date: "2017-09-08T14:27:30+10:00"
 year: "2017"
+location: Sydney
 abstract: "One of the greatest videos by one of the greatest YouTubers"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 tag:

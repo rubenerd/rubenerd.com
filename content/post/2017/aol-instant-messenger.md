@@ -2,8 +2,10 @@
 title: "AOL Instant Messenger"
 date: "2017-12-15T09:51:20+11:00"
 year: "2017"
+location: Sydney
 abstract: "Another 1990s icon bites the dust, with tremendous PR speak!"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - aol

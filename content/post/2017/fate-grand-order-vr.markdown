@@ -2,8 +2,10 @@
 title: "Fate/Grand Order VR feat. Mash Kyrielight"
 date: "2017-04-09T11:01:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Leaving aside her attire, this looks amazing"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - fate

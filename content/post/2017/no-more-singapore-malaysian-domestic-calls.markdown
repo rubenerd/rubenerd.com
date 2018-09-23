@@ -2,8 +2,10 @@
 title: "No more local Singapore-Malaysia calls, kinda"
 date: "2017-04-15T10:13:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "A symbolic move, if anything else."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - phones

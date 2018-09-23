@@ -2,8 +2,10 @@
 title: "Dad on the mend"
 date: "2017-02-26T23:05:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "We almost had an even smaller family, but he's recovering well."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - family

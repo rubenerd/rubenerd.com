@@ -2,8 +2,10 @@
 title: "Goodbye, del.icio.us"
 date: "2017-06-05T15:25:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "I'd stopped using the service last year, but goodbye again"
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - bookmarks

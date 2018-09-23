@@ -2,8 +2,10 @@
 title: "A Horse with No Name"
 date: "2017-09-25T15:56:28+10:00"
 year: "2017"
+location: Sydney
 abstract: "Wouldn’t that be its defacto name?"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - music

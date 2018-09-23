@@ -2,8 +2,10 @@
 title: "That's a big desktop VM"
 date: "2017-12-13T08:54:20+11:00"
 year: "2017"
+location: Sydney
 abstract: "Using GrandPerspective to figure out where hell of my drive space went"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - drives

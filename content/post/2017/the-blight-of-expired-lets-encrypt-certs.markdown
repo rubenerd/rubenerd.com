@@ -2,8 +2,10 @@
 title: "The blight of expired Let’s Encrypt certs"
 date: "2017-05-13T10:50:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "They're having an unintended side effect"
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - lets-encrypt

@@ -2,8 +2,10 @@
 title: "Social norms and coffee shops"
 date: "2017-06-07T09:15:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Most of us consider it normal, but not all."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - coffee

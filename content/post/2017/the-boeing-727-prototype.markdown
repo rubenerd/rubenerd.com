@@ -2,8 +2,10 @@
 title: "The Boeing 727 prototype"
 date: "2017-01-05T08:34:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "The paint scheme and classic design were something else!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - aviation

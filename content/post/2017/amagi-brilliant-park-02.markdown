@@ -2,8 +2,10 @@
 title: "Amagi Brilliant Park #02"
 date: "2017-09-16T11:10:48+10:00"
 year: "2017"
+location: Sydney
 abstract: "Kanie has his work cut out for him!"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - 2014-anime

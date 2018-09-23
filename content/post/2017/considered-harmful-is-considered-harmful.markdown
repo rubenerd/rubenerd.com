@@ -3,6 +3,7 @@ title: "Rubénerd Law of Headlines"
 date: "2017-09-14T19:01:00+10:00"
 summary: "There are legit, un-harmful ways to use tech in headlines stating they're considered harmful"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - news

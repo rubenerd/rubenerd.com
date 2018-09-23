@@ -2,8 +2,10 @@
 title: "Dangerous of reporting on “wiki” and “crypto”"
 date: "2017-12-01T10:21:51+11:00"
 year: "2017"
+location: Sydney
 abstract: "Please report on Wikipedia and digital currencies responsibility"
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - wikipedia

@@ -2,8 +2,10 @@
 title: "Pointless list #1: People I like and dislike"
 date: "2017-09-15T17:30:19+10:00"
 year: "2017"
+location: Sydney
 abstract: "Or why you shouldn’t write lists when stuck on a plane"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - lists

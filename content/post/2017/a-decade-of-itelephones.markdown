@@ -2,8 +2,10 @@
 title: "A decade of iTelephones"
 date: "2017-06-30T09:11:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Been a user of one ever since"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - apple

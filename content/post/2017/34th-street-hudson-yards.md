@@ -2,8 +2,10 @@
 title: "34th Street–Hudson Yards"
 date: "2017-11-23T11:40:00+11:00"
 year: "2017"
+location: Sydney
 abstract: "Travelling and missing this brand new New York subway station"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - travel

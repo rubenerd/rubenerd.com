@@ -2,6 +2,7 @@
 title: "MacVim's search replace"
 date: "2017-01-14T10:34:00+10:00"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - editors

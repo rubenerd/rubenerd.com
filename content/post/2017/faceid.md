@@ -2,8 +2,10 @@
 title: "FaceID"
 date: "2017-11-22T08:54:24+11:00"
 year: "2017"
+location: Sydney
 abstract: "I have reservations, surprising nobody!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - apple

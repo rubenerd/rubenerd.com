@@ -2,8 +2,10 @@
 title: "Ubuntu switching to Wayland"
 date: "2017-05-24T08:43:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "And why replacing packages isn't always easy"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - linux

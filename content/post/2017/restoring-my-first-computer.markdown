@@ -2,8 +2,10 @@
 title: "Restoring my first computer"
 date: "2017-04-09T09:49:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "So many pointless skills!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - creative

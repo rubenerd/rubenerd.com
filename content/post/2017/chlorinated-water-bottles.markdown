@@ -2,8 +2,10 @@
 title: "Chlorinated water bottles"
 date: "2017-03-06T17:37:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "It's been a crazy few weeks."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - personal

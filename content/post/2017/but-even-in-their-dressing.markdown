@@ -2,8 +2,10 @@
 title: "But even in their dressing"
 date: "2017-01-03T10:34:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "No, dressing a certain way doesn't give abusers an excuse"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - politics

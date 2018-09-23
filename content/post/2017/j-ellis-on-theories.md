@@ -2,8 +2,10 @@
 title: "J. Ellis on thoeries"
 date: "2017-10-16T08:26:30+11:00"
 year: "2017"
+location: Sydney
 abstract: "I’m interested in theories that can be tested"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - science

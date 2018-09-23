@@ -2,8 +2,10 @@
 title: "July 2017 Rubénerd spam"
 date: "2017-06-05T16:22:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "I messed up a git post update hook, and now, new posts!"
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - spam

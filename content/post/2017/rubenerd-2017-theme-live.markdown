@@ -2,8 +2,10 @@
 title: "Rubénerd 2017 theme live"
 date: "2017-09-11T09:25:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "You’re not supposed to discuss your blog on your blog."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - personal

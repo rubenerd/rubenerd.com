@@ -2,8 +2,10 @@
 title: "Manflu 2017"
 date: "2017-08-24T10:19:38+10:00"
 year: "2017"
+location: Sydney
 abstract: "It’s the worst manflu I’ve had since the last time I had the manflu"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - health

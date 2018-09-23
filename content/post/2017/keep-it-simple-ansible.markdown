@@ -2,8 +2,10 @@
 title: "Keep it simple, Ansible"
 date: "2017-03-26T11:29:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "If something feels complicated, it probably is"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - ansible

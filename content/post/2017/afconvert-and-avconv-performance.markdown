@@ -2,8 +2,10 @@
 title: "afconvert and avconv performance"
 date: "2017-01-29T09:02:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "avconv is cross platform, but fconvert is marginally faster."
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - audio

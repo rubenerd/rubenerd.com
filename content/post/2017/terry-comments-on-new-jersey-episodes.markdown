@@ -2,6 +2,7 @@
 title: "Terry comments on New Jersey episodes"
 date: "2017-02-14T09:14:00+10:00"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - comments

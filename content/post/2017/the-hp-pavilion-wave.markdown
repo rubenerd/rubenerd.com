@@ -2,8 +2,10 @@
 title: "The HP Pavilion Wave"
 date: "2017-04-08T16:33:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Speaking of the Mac Pro..."
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - desktops

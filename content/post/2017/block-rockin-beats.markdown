@@ -2,8 +2,10 @@
 title: "Block Rockin’ Beats"
 date: "2017-08-03T22:07:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Backlengrabdledableadamblockrockinbeat!"
 year: "2017"
+location: Sydney
 location: Osaka
 category: Media
 tag:

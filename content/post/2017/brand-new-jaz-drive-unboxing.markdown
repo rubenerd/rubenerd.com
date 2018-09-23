@@ -2,8 +2,10 @@
 title: "Unboxing a 1997 Iomega Jaz Drive"
 date: "2017-05-12T15:39:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "My first unboxing, naturally for a twenty-year-old disk drive!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - iomega

@@ -2,8 +2,10 @@
 title: "The new Mac Pro shall be"
 date: "2017-04-07T08:38:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "But the excitement masks a real business issue."
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - apple

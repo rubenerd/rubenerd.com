@@ -2,8 +2,10 @@
 title: "Amagi Brilliant Park #03"
 date: "2017-09-21T08:21:57+10:00"
 year: "2017"
+location: Sydney
 abstract: "The first steps to fixing things, with some more predictable than others"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - 2014-anime

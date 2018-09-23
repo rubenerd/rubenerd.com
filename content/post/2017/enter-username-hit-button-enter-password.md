@@ -2,8 +2,10 @@
 title: "Enter username, hit button, enter password"
 date: "2017-10-13T10:42:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "This design trend is awful, and you should feel awful for implementing or designing it."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - security

@@ -2,8 +2,10 @@
 title: "Marriage equality"
 date: "2017-09-19T09:41:20+10:00"
 year: "2017"
+location: Sydney
 abstract: ""
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - 

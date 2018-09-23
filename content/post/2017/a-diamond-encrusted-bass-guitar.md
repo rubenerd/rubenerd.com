@@ -2,8 +2,10 @@
 title: "A diamond encrusted bass guitar"
 date: "2017-11-22T16:48:52+11:00"
 year: "2017"
+location: Sydney
 abstract: "Or when I feel like I shouldn’t be judging people, other than for their poor taste!"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - news

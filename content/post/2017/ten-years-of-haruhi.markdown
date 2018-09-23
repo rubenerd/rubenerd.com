@@ -2,6 +2,7 @@
 title: "Ten years of Haruhi"
 date: "2017-02-04T08:35:06+10:00"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - 2006-anime

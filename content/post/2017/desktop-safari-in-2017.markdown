@@ -1,9 +1,11 @@
 ---
 title: "Safari in 2017"
 year: "2017"
+location: Sydney
 abstract: "It's getting closer to being usable"
 date: "2017-03-15T16:28:00+10:00"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - browsers

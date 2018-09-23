@@ -2,8 +2,10 @@
 title: "You've woken up to a 1980s breakfast"
 date: "2017-04-16T23:42:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "The graphics, type, and logos on the cups are amazing."
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - 1980s

@@ -2,8 +2,10 @@
 title: "Goodbye CodePlex"
 date: "2017-04-04T09:01:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Or how I learned to fear consolidation"
 year: "2017"
+location: Sydney
 category: Software
 tag: 
 - git

@@ -2,8 +2,10 @@
 title: "Deprecating homebrew-dupes"
 date: "2017-06-20T10:14:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Packages already in macOS now in the core repo"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - macos

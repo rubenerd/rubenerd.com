@@ -2,8 +2,10 @@
 title: "BBS automotive spam"
 date: "2017-01-15T09:21:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Everything about this email was wonderful."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - email

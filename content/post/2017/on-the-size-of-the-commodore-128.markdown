@@ -2,8 +2,10 @@
 title: "On the size of the Commodore 128"
 date: "2017-02-04T12:44:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Mind. Blown."
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - 1980s

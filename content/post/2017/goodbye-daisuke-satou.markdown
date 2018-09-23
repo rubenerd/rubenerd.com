@@ -2,8 +2,10 @@
 title: "Goodbye Daisuke Satō"
 date: "2017-03-29T19:29:00+10:00"
 year: "2017"
+location: Sydney
 abstract: ""
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - highschool-of-the-dead

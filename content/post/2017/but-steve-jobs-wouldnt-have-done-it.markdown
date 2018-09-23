@@ -2,8 +2,10 @@
 title: "But Steve Jobs wouldn’t have done it!"
 date: "2017-09-21T16:50:47+10:00"
 year: "2017"
+location: Sydney
 abstract: "He also wouldn’t have approved a hockey-puck mouse?"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - apple

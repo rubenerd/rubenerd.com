@@ -2,8 +2,10 @@
 title: "Who’s to blame for slow AU broadband?"
 date: "2017-06-28T08:18:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Government."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - australia

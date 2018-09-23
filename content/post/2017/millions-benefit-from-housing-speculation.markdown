@@ -1,9 +1,11 @@
 ---
 title: "Millions benefit from housing speculation"
 year: "2017"
+location: Sydney
 abstract: "Even reporting of Australia's housing bubble resort to such language."
 date: "2017-01-31T08:35:00+10:00"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - australia

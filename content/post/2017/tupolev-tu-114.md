@@ -2,8 +2,10 @@
 title: "The Tupolev Tu-114"
 date: "2017-11-21T09:10:47+11:00"
 year: "2017"
+location: Sydney
 abstract: "The early jet age plane I hadn’t ever heard of!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - 1950s

@@ -2,9 +2,11 @@
 title: "Hyouka's Chitanda, the unsung composer"
 date: "2017-01-16T12:43:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "So many search results for classical music, and them BAM."
 thumb: "https://rubenerd.com/files/2017/chitanda-composer@1x.png"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - 2012-anime

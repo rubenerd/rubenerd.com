@@ -2,8 +2,10 @@
 title: "Amagi Brilliant Park #01"
 date: "2017-09-03T22:46:15+10:00"
 year: "2017"
+location: Sydney
 abstract: "Catching up on the Kyoani shows I missed, here’s one from 2014"
 year: "2017"
+location: Sydney
 category: Anime
 tag:
 - 2014-anime

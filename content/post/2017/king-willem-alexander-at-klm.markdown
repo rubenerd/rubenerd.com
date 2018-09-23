@@ -2,8 +2,10 @@
 title: "King Willem-Alexander at KLM"
 date: "2017-10-01T22:37:41+11:00"
 year: "2017"
+location: Sydney
 abstract: "He flew their planes, and people often didn’t even know who he was"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - aviation

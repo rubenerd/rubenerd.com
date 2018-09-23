@@ -2,8 +2,10 @@
 title: "Hackensack text clipping"
 date: "2017-10-07T11:14:51+11:00"
 year: "2017"
+location: Sydney
 abstract: "Hackensa^K^K^K^K^K^K!"
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - music

@@ -2,8 +2,10 @@
 title: "Five hundred pages"
 date: "2017-08-28T10:31:07+10:00"
 year: "2017"
+location: Sydney
 abstract: "Which means five thousand posts! Not too shabby."
 year: "2017"
+location: Sydney
 category: Internet
 tag:
 - personal

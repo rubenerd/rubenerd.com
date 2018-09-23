@@ -2,8 +2,10 @@
 title: "Guarenteed market share"
 date: "2017-03-17T11:31:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Or lack thereof for Microsoft in 2017"
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - business

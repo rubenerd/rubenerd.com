@@ -2,8 +2,10 @@
 title: "Trump"
 date: "2017-09-15T18:14:42+10:00"
 year: "2017"
+location: Sydney
 abstract: "At least he’s remembered to wear pants."
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - politics

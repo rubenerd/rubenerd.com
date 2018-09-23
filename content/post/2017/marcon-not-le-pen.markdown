@@ -2,8 +2,10 @@
 title: "Marcon, not Le Pen"
 date: "2017-05-08T10:59:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Brexit, Trump, hard-right populism? Non!"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - france

@@ -2,9 +2,11 @@
 title: "3D-printed Penrose Triangle"
 date: "2017-02-07T11:41:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Finally, a use for a 3D printer!"
 thumb: ""
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - 3d-printing

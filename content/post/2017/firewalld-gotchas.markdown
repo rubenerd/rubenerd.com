@@ -2,8 +2,10 @@
 title: "firewalld gotchas"
 date: "2017-08-31T16:06:10+10:00"
 year: "2017"
+location: Sydney
 abstract: "Most of these could easily be avoided by RTFM, but putting here anyway."
 year: "2017"
+location: Sydney
 category: Software
 tag:
 - debian

@@ -2,8 +2,10 @@
 title: "The Rubénerd Show is back on iTunes"
 date: "2017-05-11T11:01:00+10:00"
 year: "2017"
+location: Sydney
 abstract: ""
 year: "2017"
+location: Sydney
 category: Media
 tag:
 - apple

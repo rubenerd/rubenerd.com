@@ -2,8 +2,10 @@
 title: "Two-tone beige keyboards in 2017"
 date: "2017-01-03T14:32:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "As far as I know, they no longer exist"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - keyboards

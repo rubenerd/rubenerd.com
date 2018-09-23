@@ -2,8 +2,10 @@
 title: "UK election 2017"
 date: "2017-06-09T11:07:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "Save the NHS"
 year: "2017"
+location: Sydney
 category: Thoughts
 tag:
 - news

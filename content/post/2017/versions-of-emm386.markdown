@@ -2,8 +2,10 @@
 title: "Versions of EMM386"
 date: "2017-03-07T16:22:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "I always wanted to know these!"
 year: "2017"
+location: Sydney
 category: Hardware
 tag:
 - dos

@@ -2,8 +2,10 @@
 title: "Prevent GELI password boot prompts"
 date: "2017-07-02T23:30:00+10:00"
 year: "2017"
+location: Sydney
 abstract: "While the prompt is useful, it’s not always wanted"
 year: "2017"
+location: Sydney
 category: Software
 tag: 
 - bsd
