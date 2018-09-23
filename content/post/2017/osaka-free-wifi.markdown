@@ -4,6 +4,7 @@ date: "2017-07-25T11:25:49+10:00"
 year: "2017"
 abstract: "Being asked to use a VPN is a refreshing change from data harvesting."
 year: "2017"
+location: Osaka
 category: Internet
 tag:
 - kansai

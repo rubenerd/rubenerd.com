@@ -4,6 +4,7 @@ date: "2017-07-31T18:58:11+09:00"
 year: "2017"
 abstract: "Typing away at the top of Namba Parks in Osaka, Japan"
 year: "2017"
+location: Osaka
 category: Thoughts
 tag:
 - japan

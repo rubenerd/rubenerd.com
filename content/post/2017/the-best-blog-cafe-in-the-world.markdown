@@ -4,6 +4,7 @@ date: "2017-07-19T01:11:39+10:00"
 year: "2017"
 abstract: "From the top of Victoria Peak in Hong Kong!"
 year: "2017"
+location: Hong-Kong
 category: Thoughts
 tag:
 - personal

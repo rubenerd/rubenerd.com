@@ -4,6 +4,7 @@ date: "2017-07-29T10:42:50+09:00"
 year: "2017"
 abstract: "Why is Section 44 a thing at all?"
 year: "2017"
+location: Osaka
 category: Thoughts
 tag:
 - australia
