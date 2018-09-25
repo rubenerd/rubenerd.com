@@ -2,6 +2,7 @@
 title: "The NSG uClean LD-1420 HMT"
 date: "2016-12-07T08:41:00+10:00"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - industrial-cleaning

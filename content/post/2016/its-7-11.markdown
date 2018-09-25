@@ -2,6 +2,7 @@
 title: "It’s 7-11"
 date: "2016-07-11T09:55:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - dates

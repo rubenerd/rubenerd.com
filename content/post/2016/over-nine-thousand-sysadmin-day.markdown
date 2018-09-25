@@ -2,6 +2,7 @@
 title: "Over 9,000 and Sysadmin Day"
 date: "2016-08-03T13:01:27+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - browsers

@@ -3,6 +3,7 @@ title: "Young Ace, June 2015"
 date: "2016-01-02T23:35:00+10:00"
 abstract: "My first manga magazine review!"
 year: "2016"
+location: Sydney
 category: Anime
 tag:
 - type-moon

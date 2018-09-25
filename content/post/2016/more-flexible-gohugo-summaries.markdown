@@ -2,6 +2,7 @@
 title: "More flexible gohugo summaries"
 date: "2016-07-30T14:19:10+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag: 
 - gohugo

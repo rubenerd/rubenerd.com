@@ -2,6 +2,7 @@
 title: "Leaked doc show long Medicare delays"
 date: "2016-09-26T08:06:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - australia

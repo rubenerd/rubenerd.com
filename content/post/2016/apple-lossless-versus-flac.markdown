@@ -2,6 +2,7 @@
 title: "Apple Lossless versus FLAC"
 date: "2016-04-26T12:14:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - audio

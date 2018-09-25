@@ -3,6 +3,7 @@ title: "Goodbye junk"
 date: "2016-12-21T08:30:00+10:00"
 abstract: "Finally decluttering all the things, and it feels goooooood!"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - decluttering

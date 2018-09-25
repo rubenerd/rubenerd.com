@@ -2,6 +2,7 @@
 title: "Collecting a decade of work"
 date: "2016-09-12T16:36:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - studies

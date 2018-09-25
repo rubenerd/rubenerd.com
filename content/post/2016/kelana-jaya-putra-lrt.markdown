@@ -3,6 +3,7 @@ title: "Kelana Jaya Putra LRT line"
 date: "2016-09-29T19:01:00+10:00"
 abstract: "Or how this now-thirty year old feels nostalgic for Malaysian trains"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - kuala-lumpur

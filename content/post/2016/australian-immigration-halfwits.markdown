@@ -3,6 +3,7 @@ title: "Australia's immigration dimwits"
 date: "2016-12-01T10:38:00+10:00"
 abstract: "From October 2016: Who needs compassion and the rule of law when you can just lock people up indefinitely?"
 year: "2016"
+location: Sydney
 category: thoughts
 tag:
 - australia

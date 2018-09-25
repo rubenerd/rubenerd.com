@@ -3,6 +3,7 @@ title: "youtube-dl through a proxy"
 abstract: "Or downloading YouTube videos you can’t view in your country"
 date: "2016-11-27T11:10:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - guides

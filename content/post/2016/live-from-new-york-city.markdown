@@ -2,7 +2,8 @@
 title: "Live from New York City"
 date: "2016-10-16T13:52:00-04:00"
 year: "2016"
-location: "New York"
+location: Sydney
+location: New-York
 category: Thoughts
 tag:
 - america

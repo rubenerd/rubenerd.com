@@ -4,6 +4,7 @@ title: "Infrequently asked questions"
 abstract: "A list of answers to predictable blog comment questions that I can refer to"
 date: "2016-11-17T15:25:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - comments

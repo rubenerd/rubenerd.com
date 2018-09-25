@@ -4,6 +4,7 @@ title: "Life event unlocked: SteamFest 2016"
 date: "2016-04-11T15:32:35+10:00"
 abstract: ""
 year: "2016"
+location: Sydney
 category: Thoughts
 ---
 Before I started school, my parents figured out they could keep me quiet for a few hours by putting on the "Pure Steam" VHS tape. A documentary produced by the ABC in 1980s, it documented the Flying Scotsman's journey around Australia for the Bicentennial celebrations.

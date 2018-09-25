@@ -2,6 +2,7 @@
 title: "Back on 20th August 2006"
 date: "2016-08-20T10:51:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - nostalgia

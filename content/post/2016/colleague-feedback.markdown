@@ -2,6 +2,7 @@
 title: "Colleague feedback"
 date: "2016-12-16T16:21:00+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - personal

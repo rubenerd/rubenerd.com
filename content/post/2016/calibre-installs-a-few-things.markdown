@@ -3,6 +3,7 @@ title: "Calibre installs a few things"
 date: "2016-03-21T10:40:00+10:00"
 abstract: "That’s a lot of dependencies"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - calibre

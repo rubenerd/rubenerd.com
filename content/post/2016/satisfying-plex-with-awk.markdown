@@ -2,9 +2,11 @@
 draft: true
 title: "Satisfying Plex with awk"
 year: "2016"
+location: Sydney
 category: "2016-03-20T16:43:00+10:00"
 abstract: "Batch renaming done the easy way"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - awk

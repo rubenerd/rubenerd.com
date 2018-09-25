@@ -2,6 +2,7 @@
 title: "Transport NSW Australian Tennis"
 date: "2016-04-08T09:44:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - australia

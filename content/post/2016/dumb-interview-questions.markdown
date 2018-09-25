@@ -2,6 +2,7 @@
 title: "Dumb interview questions"
 date: "2016-05-11T08:32:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - philosophy

@@ -3,6 +3,7 @@ title: "One Australian electorate against marriage equality"
 date: "2016-09-26T15:32:00+10:00"
 abstract: "You'd never guess which state"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - australia

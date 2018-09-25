@@ -3,6 +3,7 @@ title: "Recommended for you!"
 abstract: "I don't think this is what Martin Luther King had in mind!"
 date: "2016-10-28T10:25:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - advertising

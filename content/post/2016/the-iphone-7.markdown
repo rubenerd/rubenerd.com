@@ -2,6 +2,7 @@
 title: "The iPhone 7"
 date: "2016-09-08T10:15:00+10:00"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - apple

@@ -3,6 +3,7 @@ title: "The Venus is in the Horsehead Nebula"
 date: "2016-01-13T09:49:00+10:00"
 abstract: "Horoscope spam"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - nonsense

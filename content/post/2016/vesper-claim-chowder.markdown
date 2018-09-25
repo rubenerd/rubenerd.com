@@ -2,6 +2,7 @@
 title: "Vesper claim chowder"
 date: "2016-08-25T17:20:07+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - apple

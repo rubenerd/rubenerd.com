@@ -3,6 +3,7 @@ title: "Perl 5.20 in FreeBSD"
 date: "2016-01-07T15:46:00+10:00"
 abstract: "Symlink has been moved"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd

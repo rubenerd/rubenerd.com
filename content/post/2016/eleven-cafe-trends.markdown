@@ -3,6 +3,7 @@ draft: true
 title: "Eleven cafe trends"
 date: "2016-09-13T13:42:21+10:00"
 year: "2016"
+location: Sydney
 category:
 tag:
 - 

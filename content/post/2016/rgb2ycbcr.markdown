@@ -2,6 +2,7 @@
 title: "rgb2ycbcr and rgrep"
 date: "2016-09-05T08:41:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd

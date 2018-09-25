@@ -3,6 +3,7 @@ draft: true
 title: "The wonderful FreeBSD cal"
 date: "2016-09-09T15:37:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd

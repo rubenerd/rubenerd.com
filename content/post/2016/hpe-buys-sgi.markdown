@@ -2,6 +2,7 @@
 title: "HPE buys SGI"
 date: "2016-08-17T13:57:00+10:00"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - business

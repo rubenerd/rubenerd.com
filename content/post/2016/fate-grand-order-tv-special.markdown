@@ -3,6 +3,7 @@ title: "Fate/Grand Order TV special"
 abstract: "Megane Shielder!"
 date: "2016-12-07T09:05:00+10:00"
 year: "2016"
+location: Sydney
 category: Anime
 tag:
 - fate

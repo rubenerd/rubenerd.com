@@ -2,6 +2,7 @@
 title: "It’s IT Pro Day ‘16!"
 date: "2016-09-20T17:15:04+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - pointless-milestones

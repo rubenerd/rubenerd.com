@@ -3,6 +3,7 @@ draft: true
 title: "Recharge"
 date: "2016-07-15T11:18:50+10:00"
 year: "2016"
+location: Sydney
 category:
 tag:
 - 

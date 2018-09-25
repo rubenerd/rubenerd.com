@@ -2,6 +2,7 @@
 title: "Goodbye Gawker, and hopefully Gizmodo"
 date: "2016-08-17T12:02:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - gawker

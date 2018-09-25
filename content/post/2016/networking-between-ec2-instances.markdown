@@ -3,6 +3,7 @@ title: "Blocked networking between EC2 instances"
 abstract: "Check your Security Group for private traffic"
 date: "2016-03-14T15:41:00+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - amazon

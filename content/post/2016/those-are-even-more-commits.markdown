@@ -3,6 +3,7 @@ title: "Those are even more commits"
 date: "2016-10-04T15:37:00+10:00"
 abstract: "In 2015, I was 34801 commits behind Homebrew. It's a few more now!"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - git

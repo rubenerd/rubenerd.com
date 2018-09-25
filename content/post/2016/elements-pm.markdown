@@ -3,6 +3,7 @@ title: "Elements.pm"
 date: "2016-01-13T10:29:00+10:00"
 abstract: "The greatest hash of all time"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - chemistry

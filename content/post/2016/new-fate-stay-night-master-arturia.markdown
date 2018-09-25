@@ -3,6 +3,7 @@ title: "New Fate/Stay Night Master Arturia"
 date: "2016-02-20T11:44:00+11:00"
 abstract: "Damn it, Type/Moon and Alter!"
 year: "2016"
+location: Sydney
 category: Anime
 tag:
 - anime-figs

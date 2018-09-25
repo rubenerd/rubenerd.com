@@ -3,6 +3,7 @@ draft: true
 title: "Enforce 4k sectors in FreeBSD"
 date: "2016-08-30T17:35:27+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd

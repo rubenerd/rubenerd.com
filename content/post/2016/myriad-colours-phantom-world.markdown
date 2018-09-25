@@ -3,6 +3,7 @@ title: "Myriad Colours Phantom World"
 date: "2016-03-28T10:28:00+10:00"
 abstract:
 year: "2016"
+location: Sydney
 category: Anime
 tag:
 - 2016-anime

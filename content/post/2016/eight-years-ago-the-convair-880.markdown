@@ -4,6 +4,7 @@ title: "Eight years ago, the Convair 880"
 date: "2016-09-29T16:04:00+10:00"
 abstract: "Bolted-on aviation deck chairs were a thing"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - aviation

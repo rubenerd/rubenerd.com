@@ -3,6 +3,7 @@ title: "First of February"
 date: "2016-02-01T10:40:00+10:00"
 abstract: "Let that sink in"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - personal

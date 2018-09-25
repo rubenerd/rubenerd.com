@@ -2,6 +2,7 @@
 title: "WWDC 2016"
 date: "2016-06-16T13:53:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - apple

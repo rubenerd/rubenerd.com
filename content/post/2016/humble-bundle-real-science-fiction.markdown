@@ -2,6 +2,7 @@
 title: "Latest @humblebooks bundle: Science fiction by real scientists"
 date: "2016-09-21T13:40:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - books

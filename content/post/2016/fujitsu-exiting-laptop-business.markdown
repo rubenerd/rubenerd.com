@@ -2,6 +2,7 @@
 title: "Fujitsu exiting laptop business"
 date: "2016-12-13T23:13:00+10:00"
 year: "2016"
+location: Sydney
 category: Hardware
 tag:
 - from-old-drafts

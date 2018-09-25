@@ -2,6 +2,7 @@
 title: "Lesson 10 in grilled cheese sandwich observation"
 date: "2016-09-08T11:13:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - grilled-cheese-sandwich-observation

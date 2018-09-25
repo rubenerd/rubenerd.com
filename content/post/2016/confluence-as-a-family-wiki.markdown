@@ -2,6 +2,7 @@
 title: "Confluence as a family wiki"
 date: "2016-08-05T22:55:00+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - atlassian

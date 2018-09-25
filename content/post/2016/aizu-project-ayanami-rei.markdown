@@ -2,6 +2,7 @@
 title: "Aizu Project’s Ayanami Rei"
 date: "2016-05-13T13:56:00+10:00"
 year: "2016"
+location: Sydney
 category: Anime
 tag:
 - anime-figs

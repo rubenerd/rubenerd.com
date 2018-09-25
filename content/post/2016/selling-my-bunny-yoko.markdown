@@ -2,6 +2,7 @@
 title: "Selling my Yoko Littner bunny fig"
 date: "2016-09-23T09:13:00+10:00"
 year: "2016"
+location: Sydney
 category: Anime
 tag: 
 - 2008-anime

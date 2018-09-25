@@ -2,6 +2,7 @@
 title: "Check your election enrolment"
 date: "2016-05-23T13:20:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - australia

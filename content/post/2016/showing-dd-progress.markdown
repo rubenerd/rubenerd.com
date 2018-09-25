@@ -2,6 +2,7 @@
 title: "Showing dd progress"
 date: "2016-05-23T15:30:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd

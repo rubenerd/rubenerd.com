@@ -2,6 +2,7 @@
 title: "Thunderbird 1024"
 date: "2016-04-07T13:55:00+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - email

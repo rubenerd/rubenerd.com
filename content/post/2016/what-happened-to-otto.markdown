@@ -2,6 +2,7 @@
 title: "What happened to Otto?"
 date: "2016-08-24T14:32:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - devops

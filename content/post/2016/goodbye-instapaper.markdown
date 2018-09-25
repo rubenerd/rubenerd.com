@@ -2,6 +2,7 @@
 title: "Goodbye, Instapaper"
 date: "2016-08-24T17:44:36+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - instapaper

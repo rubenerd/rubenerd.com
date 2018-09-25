@@ -3,6 +3,7 @@ draft: true
 title: "Trump"
 date: "2016-11-10T14:31:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - america

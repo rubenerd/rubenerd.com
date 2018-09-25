@@ -2,6 +2,7 @@
 title: "FreeBSD and ZFS with Plex"
 date: "2016-09-02T12:19:00+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - bsd

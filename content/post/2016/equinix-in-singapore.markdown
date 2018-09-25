@@ -2,6 +2,7 @@
 title: "Singapore nostalgia at Equinix"
 date: "2016-08-04T08:25:04+10:00"
 year: "2016"
+location: Sydney
 category: Media
 tag:
 - 1990s

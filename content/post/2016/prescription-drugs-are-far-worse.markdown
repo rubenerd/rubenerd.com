@@ -3,6 +3,7 @@ title: "Prescription drugs are far worse"
 abstract: "Legalise pot already."
 date: "2016-12-20T16:15:00+10:00"
 year: "2016"
+location: Sydney
 category: Thoughts
 tag:
 - family

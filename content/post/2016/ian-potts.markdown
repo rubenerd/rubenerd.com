@@ -3,6 +3,7 @@ title: "Ian Potts"
 date: "2016-01-14T09:03:00+10:00"
 abstract: "New favourite name spam"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - spam

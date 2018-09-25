@@ -2,6 +2,7 @@
 title: "How likely to recommend emails"
 date: "2016-06-15T13:21:00+10:00"
 year: "2016"
+location: Sydney
 category: Internet
 tag:
 - email

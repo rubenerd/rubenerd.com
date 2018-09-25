@@ -2,6 +2,7 @@
 title: "freebsd-update timezone changes"
 date: "2016-12-13T09:05:00+10:00"
 year: "2016"
+location: Sydney
 category: Software
 tag:
 - bsd
