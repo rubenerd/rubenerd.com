@@ -3,6 +3,7 @@ title: "Markdown in Vim"
 date: "2015-11-19T13:17:00+10:00"
 abstract: "If you use the .markdown extension"
 year: "2015"
+location: Sydney
 category: Software
 tag:
 - editors

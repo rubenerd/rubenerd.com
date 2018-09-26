@@ -3,6 +3,7 @@ title: "The 2015 Toffee Nut Latte"
 date: "2015-11-26T10:16:00+10:00"
 abstract: "Starbucks still haven’t discontinued them!"
 year: "2015"
+location: Sydney
 category: Thoughts
 tag:
 - coffee

@@ -3,6 +3,7 @@ title: "WordPress 2015 Survey"
 date: "2015-11-16T13:32:00+10:00"
 abstract: "What's the most frustrating/useful thing about it?"
 year: "2015"
+location: Sydney
 category: Internet
 tag:
 - weblog

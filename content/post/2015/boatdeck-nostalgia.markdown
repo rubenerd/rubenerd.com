@@ -3,6 +3,7 @@ title: "Back at the Boatdeck Café"
 date: "2015-12-10T15:22:00+10:00"
 abstract: "So much of Rubénerd was written here!"
 year: "2015"
+location: Sydney
 category: Thoughts
 tag:
 - adelaide

@@ -3,6 +3,7 @@ title: "Why bother with fake meat?"
 date: "2015-10-16T11:04:00+10:00"
 abstract: "Because we want to?"
 year: "2015"
+location: Sydney
 category: Thoughts
 tag:
 - food
