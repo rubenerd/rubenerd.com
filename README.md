@@ -1,6 +1,6 @@
 # rubenerd.com
 
-This is the source for *[Rubénerd](https://rubenerd.com)*, a weblog and podcast of esoteric interests by Ruben Schade in s/Singapore/Sydney/ since 2004.
+This is the source for *[Rubenerd](https://rubenerd.com)*, a weblog and podcast of esoteric interests by Ruben Schade in s/Singapore/Sydney/ since 2004.
 
 
 ## Dependencies
