@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Going back to one of my and Felix’s old Singaporean haunts!"
 year: "2017"
-location: Sydney
 location: Osaka
 category: Thoughts
 tag:

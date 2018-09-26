@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Backlengrabdledableadamblockrockinbeat!"
 year: "2017"
-location: Sydney
 location: Osaka
 category: Media
 tag:

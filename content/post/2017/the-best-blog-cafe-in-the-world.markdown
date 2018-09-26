@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "From the top of Victoria Peak in Hong Kong!"
 year: "2017"
-location: Sydney
 location: Hong-Kong
 category: Thoughts
 tag:

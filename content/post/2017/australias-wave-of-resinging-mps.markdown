@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Why is Section 44 a thing at all?"
 year: "2017"
-location: Sydney
 location: Osaka
 category: Thoughts
 tag:

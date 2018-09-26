@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Being asked to use a VPN is a refreshing change from data harvesting."
 year: "2017"
-location: Sydney
 location: Osaka
 category: Internet
 tag:

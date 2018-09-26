@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Typing away at the top of Namba Parks in Osaka, Japan"
 year: "2017"
-location: Sydney
 location: Osaka
 category: Thoughts
 tag:

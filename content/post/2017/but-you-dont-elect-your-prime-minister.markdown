@@ -5,7 +5,6 @@ year: "2017"
 location: Sydney
 abstract: "Anyone who says otherwise is splitting hairs for no productive reason."
 year: "2017"
-location: Sydney
 location: Osaka
 category: Thoughts
 tag:
