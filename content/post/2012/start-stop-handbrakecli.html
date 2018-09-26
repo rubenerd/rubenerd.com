@@ -1,5 +1,5 @@
 ---
-title: 'HandBrakeCLI &#8211;start-at and &#8211;stop-at in' 
+title: 'HandBrakeCLI start-at and stop-at in' 
 date: "2012-09-23T06:58:44+10:00"
 year: "2012"
 category: Software
@@ -20,6 +20,6 @@ tag:
 <p><img src="https://rubenerd.com/files/uploads/icon.gnome3.terminal.128x93.png" alt="Icon from the Gnome desktop project" style="height:93px; width:128px; float:right; margin:0px 0px 10px 15px;" class="transparent" /></p>
 <p>When trying to use <a href="http://handbrake.fr/">HandBrakeCLI</a> to take a clip from movie, I couldn&#39;t figure out why it was ignoring the durations in seconds I was defining with <code>--start-at</code> and <code>--stop-at</code>.</p>
 <p>Turns out, you need to append the word &quot;duration&quot;, &quot;frame&quot; or &quot;pts&quot; before each value. For example, to create a 20 second clip starting at the 1 minute mark:</p>
-<pre>HandBrakeCLI […] --startAt duration:60 --stop-at duration:20</pre>
+<pre>HandBrakeCLI […] --start-at duration:60 --stop-at duration:20</pre>
 <p>Amazing what one can learn if one reads the manual page before wasting half an hour figuring out what&#39;s going wrong!</p>
  
