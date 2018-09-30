@@ -15,14 +15,21 @@ In this post, we'll explore some recent(ish) examples that employ half-rhymes in
 
 Foster the People's *Pumped Up Kicks*, famous for holding the Guinness record for longest song sung through a crappy telephone:
 
-> All the other kids;  
-> With their pumped up kicks. ♫
+> All the other **kids**;  
+> With their pumped up **kicks**. ♫
 
-And *Stitches* by Shawn Mendes:
+*Stitches* by Shawn Mendes:
 
-> I'm without your kisses;  
-> I'll be needing stitches. ♫
+> I'm without your **kisses**;  
+> I'll be needing **stitches**. ♫
+
+And *We Are Young* by Fun:
+
+> So let's set the world on **fire**.  
+> We can burn **brighter**;  
+> Than the sun ♫
 
 I'm still painfully sad she's not around, but at least she avoided these lyrical monstrosities.
 
 [gotten]: https://rubenerd.com/gotten/
+
