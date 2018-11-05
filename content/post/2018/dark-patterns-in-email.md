@@ -10,7 +10,7 @@ tag:
 - email
 - spam
 ---
-Harry Brignull coined the term *[dark patterns]* to refer to designs that trick us into performing actions we wouldn't otherwise. They rely upon scummy physiological deception and tricks, and need to be called out!
+Harry Brignull coined the term *[dark patterns]* to refer to designs that trick us into performing actions we wouldn't otherwise. They rely upon scummy psychological deception and tricks, and need to be called out!
 
 <img src="https://rubenerd.com/files/stock/tango-mail-mark-junk.svg" alt="Clear icon from the Tango Desktop Project" style="width:96px; height:96px; float:right; margin:0 0 1em 2em" /></p>
 
@@ -24,6 +24,8 @@ This is serious. A network outage will cause customer downtime, so it's an immed
 So I opened the email... and it was advertising for a new line of network monitoring gear.
 
 Mission accomplished from their side, I read their spam I'd have otherwise ignored. **But what poor form**. And entirely counterproductive, I sure as hell I won't be buying any of their devices now.
+
+*Update:* Spelling corrected from physiological to psychological. Though I suppose it could also be the former if you broke out in a sweat from nervousness or rage!*
 
 [dark patterns]: https://darkpatterns.org/
 
