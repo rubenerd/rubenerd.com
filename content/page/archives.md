@@ -34,13 +34,19 @@ There are far too many to list here. But if you see a recurring topic, chances a
 
 <h3 id="location">Posts by location</h3>
 
-I only started putting locations on posts in 2018. I'll get around to retroactively adding them one day.
+I only started putting locations on posts in 2018. I'll get around to retroactively adding them one day. Sorted in order of post count.
 
+* [Sydney](/location/sydney/)
+* [Singapore](/location/singapore/)
+* [San Francisco](/location/san-francisco/)
+* [Hong Kong](/location/hong-kong/)
 * [Los Angeles](/location/los-angeles/)
 * [Oakland](/location/oakland/)
-* [San Francisco](/location/san-francisco/)
-* [Sydney](/location/sydney/)
-
+* [Osaka](/location/osaka/)
+* [Odawara](/location/odawara/)
+* [Tokyo](/location/tokyo/)
+* [New York](/location/new-york/)
+* [New Jersey](/location/new-jersey/)
 
 <h3 id="year">Posts by year</h3>
 
