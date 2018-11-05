@@ -9,6 +9,7 @@ location: Sydney
 category: Media
 tag:
 - advertising
+- language
 - press
 ---
 It really grates when press say they're excited to announce something, and it's almost always for something questionably exciting. [Mel agrees]:  
@@ -19,9 +20,9 @@ It really grates when press say they're excited to announce something, and it's 
 > 
 > This is lazy writing.
 
-I put the word "excited" in the same bucket as those who describe awards as "prestigious", or a musician as "famous". If they were, you wouldn't need to say so. People don't say "a prestigous Nobel Prize" or "famous musician Rick Astley."
+I put the word *excited* in the same bucket as those who describe awards as *prestigious*, or a musician as *famous.* If they were, you wouldn't need to say so. People don't say *a prestigous Nobel Prize* or *famous musician Rick Astley.*
 
-I'm all for colourful, interesting language replacing this exhausted term. "Tickeled" is my favourite, but even "happy" conveys a more positive, genuine mood than "excited".
+I'm all for colourful, interesting language replacing this exhausted term. *Tickled* is my favourite, but even *happy* conveys a more positive, genuine mood than *excited.*
 
 [Mel agrees]: http://www.delightfulcommunications.com/blog/excited-press-releases/
 
