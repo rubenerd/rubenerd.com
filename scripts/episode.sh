@@ -30,7 +30,7 @@ _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
 _LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='San Francisco, California'
+_LOCATION='Sydney, Australia'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
@@ -179,7 +179,7 @@ $_DURATION – $_DESCRIPTION_TEXT
 
 Recorded in $_LOCATION. Licence for this track: $_LICENCE_TITLE. Attribution: $_HOST.
 
-Released $_ONSUG_RELEASE_DATE on Rubenerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.
+Released $_ONSUG_RELEASE_DATE on Rubenerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts; this one notwithstanding.
 
 EOF
 
@@ -216,7 +216,6 @@ eyeD3                                                               \
     --url-frame "WPUB:`escape $_URL`"                               \
     --text-frame "TDRL:$_YEAR"                                      \
     --text-frame "TRSN:Overnightscape Underground"                  \
-    --text-frame "TRSO:Frank Edward Nora"                           \
     --preserve-file-times                                           \
     "$_BUCKET/$_ID.mp3"
 
@@ -243,7 +242,6 @@ eyeD3                                                               \
     --url-frame "WPUB:http\://onsug.com/"                           \
     --text-frame "TDRL:$_YEAR"                                      \
     --text-frame "TRSN:Overnightscape Underground"                  \
-    --text-frame "TRSO:Frank Edward Nora"                           \
     --preserve-file-times                                           \
     "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 
@@ -289,7 +287,7 @@ tag:
 
 <p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
 
-<p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rub-nerd-show">Overcast</a> or add <a href="https://rubenerd.com/show/feed/">this feed</a> to your podcast client.</p>
+<p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rubenerd-show">Overcast</a> or add <a href="http://showfeed.rubenerd.com/">this feed</a> to your podcast client.</p>
 
 EOF
 
@@ -324,6 +322,7 @@ read _ENTER
 ###########################################################################
 ## Upload to Onsug
 
+upload() {
 ncftp onsug <<EOF
 binary
 cd "$_ONSUG_FILE_DATE"
@@ -333,7 +332,7 @@ put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 ls
 quit
 EOF
-
+}
 
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
