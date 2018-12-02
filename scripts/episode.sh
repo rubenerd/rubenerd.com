@@ -322,7 +322,6 @@ read _ENTER
 ###########################################################################
 ## Upload to Onsug
 
-upload() {
 ncftp onsug <<EOF
 binary
 cd "$_ONSUG_FILE_DATE"
@@ -332,7 +331,6 @@ put "onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 ls
 quit
 EOF
-}
 
 ###########################################################################
 ## Generate metadata and upload to Internet Archive
