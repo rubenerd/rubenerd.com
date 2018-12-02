@@ -4,7 +4,7 @@
 
 <footer id="site-info">
 <p>{{ .Site.Params.Info.Copyright }} <a href="{{ .Site.Params.Author.Profile }}">{{ .Site.Params.Author.Name }}</a> &bullet; Dedicated to <a href="{{ .Site.Params.Cite.Dedication_url }}">{{ .Site.Params.Cite.Dedication }}</a><br />
-{{ with .Site.Params.Cite }}Hosted on <a href="{{ .host_url }}">{{ .host }}</a> with <a href="{{ .software_url }}">{{ .software }}</a>, <a href="{{ .os_url }}">{{ .os }}</a>, and <a href="{{ .server_url }}">{{ .server }}</a></p>{{ end }}
+{{ with .Site.Params.Cite }}Powered by <a href="{{ .os_url }}">{{ .os }}</a> on <a href="{{ .host_url }}">{{ .host }}</a>, like a gentleman.</p>{{ end }}
 <p>Follow with <a href="/feed/">RSS</a> or on <a href="https://twitter.com/{{ .Site.Params.Info.Twitter }}">Twitter</a> &bullet; Show support with a <a href="{{ .Site.Params.Author.Coffee }}">cup of coffee</a>!</p>
 
 {{ partial "search.html" . }}
