@@ -1,21 +1,25 @@
 ---
-title: "More than one possible primary device found"
-date: "2018-11-06T13:34:50+11:00"
-abstract: ""
-thumb: ""
+title: "Xorg: More than one possible primary device found"
+date: "2018-12-02T13:34:50+11:00"
+abstract: "If you see this on an HP Microserver, disable it in the BIOS."
 year: "2018"
 location: Sydney
-category: Thoughts
+category: Hardware
 tag:
-- 
+- bsd
+- hp
+- freebsd
+- microserver
+- troubleshooting
+- xorg
 ---
-I saw this Xorg error on a FreeBSD Gen8 HP Microserver with a low profile PCI-E card:
+Wow it's a *scorcher* outside. No wonder this Microserver's fan is running like crazy. But I digress; I saw this Xorg error on a FreeBSD Gen8 HP Microserver with a low profile PCI-E card:
 
     (!!) More than one possible primary device found
 
-As the error suggests, Xorg is detecting multiple cards. One way is to configure xorg.conf manually, or xorg.conf.d files for each card. I don't use the onboard Matrox VGA, so I just disable it.
+As the error suggests, Xorg is detecting multiple cards. One way is to configure `xorg.conf` manually, or `xorg.conf.d` files for each card. I don't use the onboard Matrox VGA, so I just disable it.
 
-Reboot the Microserver and hit *F9* when prompted. Then choose *Advanced Options*, then *Video Options*, and choose *Optional Video Primary, Embedded Video Disabled*:
+Reboot the Microserver and hit *F9* when prompted. Then choose *Advanced Options*, then *Video Options*, and choose *Optional Video Primary, Embedded Video Disabled*, as this pseudo-screengrab shows:
 
 <pre style="line-height:1em !important">
 ROM-Based Setup Utility, Version 3.00 ...
