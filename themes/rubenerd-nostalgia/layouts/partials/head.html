@@ -5,7 +5,7 @@
 <meta charset="utf-8" />
 <title>{{ if eq .URL "/" }}{{ .Site.Title }}: {{ .Site.Params.Info.Tagline }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
 <link rel="canonical" title="{{ .Page.Title }}" href="{{ .Permalink }}" />
-<link rel="stylesheet" href="/style.css" />
+<link rel="stylesheet" href="/style-yule.css" />
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} feed" href="{{ .Site.BaseURL }}feed/" />
 {{ with .Site.Params.Podcast }}<link rel="alternate" type="application/rss+xml" title="{{ .title }} podcast feed" href="{{ .feed }}" />{{ end }}
 <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />

@@ -73,7 +73,7 @@ a:hover {
 
 /* Header */
 header {
-    background:#1b2712 url("leaves.png");
+    background:#1b2712 url("yuletide.png");
     padding:40px;
     text-shadow:1px 1px black;
 }
@@ -157,14 +157,14 @@ hr {
 #sidebar h2 {
     background:#8bc369;
     color:white;
-    font-size:13px;
+    font-size:12px;
     letter-spacing:0;
     margin-bottom:10px;
-    padding:4px 10px;
+    padding:3px 10px;
 }
 #sidebar ul li {
     display:inline;
-    margin-right:4px;
+    margin-right:3px;
 }
 #sidebar div {
     padding-bottom:20px;
@@ -403,8 +403,9 @@ footer #lyrics {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution:192dpi) {
 
     header {
-        background:#1b2712 url("leaves@2x.png");
-        background-size:1024px,260px;
+        background:#1b2712 url("yuletide.png");
+        background-size:cover;
+        /*background-size:1024px,260px;*/
     }
 
 }
