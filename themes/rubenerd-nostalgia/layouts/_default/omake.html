@@ -1,0 +1,18 @@
+{{ partial "head.html"    . }}
+{{ partial "header.html"  . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content">
+
+<article>
+<h2><a href="/omake-pages/">Omake</a>: <a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-content">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+</article>
+
+<hr />
+
+</main>
+
+{{ partial "footer.html" . }}
+

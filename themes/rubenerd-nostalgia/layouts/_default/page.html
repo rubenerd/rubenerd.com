@@ -1,0 +1,18 @@
+{{ partial "head.html"    . }}
+{{ partial "header.html"  . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content">
+
+<article>
+<h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-content"{{ with .Params.Schema }} itemscope="itemscope" itemprop="http://schema.org/{{ . }}"{{ end }}>
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+</article>
+
+<hr />
+
+</main>
+
+{{ partial "footer.html" . }}
+

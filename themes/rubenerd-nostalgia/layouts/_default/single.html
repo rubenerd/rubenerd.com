@@ -1,0 +1,32 @@
+{{ partial "head.html"    . }}
+{{ partial "header.html"  . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content">
+
+<article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<h2 itemprop="name headline"><a itemprop="identifier url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-content" itemprop="articleBody">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+<div class="post-meta">
+Posted <time itemprop="datePublished dateModified" datetime="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}"><a href="/year/{{ .Date.Format "2006" }}/">{{ .Date.Format "Monday 02 January 2006" }}</a></time> in {{ with .Params.category }}<a title="Filed under {{ . }} category" href="/{{ . | urlize }}/"><span itemprop="keywords">{{ . }}</span></a>{{ end }}<br />
+</div>
+</article>
+
+
+<nav id="pagination">
+<h2>Where to now?</h2>
+
+<ul>
+    {{ if .Next }}<li id="older"><a href="{{ .Next.RelPermalink }}">Older post</a>: {{ .Next.Title }}<p></p></li>{{ end }}
+    {{ if .Prev }}<li id="newer"><a href="{{ .Prev.RelPermalink }}">Newer post</a>: {{ .Prev.Title }}</li>{{ end }}
+</ul>
+
+</nav>
+
+<hr />
+
+</main>
+
+{{ partial "footer.html" . }}
+

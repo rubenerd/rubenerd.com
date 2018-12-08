@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Rubenerd</ShortName>
+  <Description>Search Rubenerd</Description>
+  <Contact>weblog2018@rubenschade.com</Contact>
+  <Url type="text/html" template="https://duckduckgo.com?q={searchTerms}">
+    <Param name="sites" value="rubenerd.com"/>
+    <Param name="ia" value="web"/>
+    <Param name="k7" value="w"/>
+    <Param name="k9" value="b"/>
+    <Param name="kaj" value="m"/>
+    <Param name="ks" value="l"/>
+  </Url>
+<Url type="application/opensearchdescription+xml" rel="self" template="https://rubenerd.com/osd.xml" />
+<LongName>Rubenerd</LongName>
+<Image height="144" width="144" type="image/png">https://rubenerd.com/itouch-icon.png</Image>
+<Query role="example" searchTerms="Suzumiya Haruhi" />
+<Tags>blog,podcast</Tags>
+<Developer>Ruben Schade</Developer>
+<SyndicationRight>open</SyndicationRight>
+<AdultContent>false</AdultContent>
+<Language>en-SG</Language>
+<OutputEncoding>UTF-8</OutputEncoding>
+<InputEncoding>UTF-8</InputEncoding>
+<moz:SearchForm>https://duckduckgo.com/</moz:SearchForm>
+</OpenSearchDescription>
+

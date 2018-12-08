@@ -1,0 +1,30 @@
+{{ partial "head.html"    . }}
+{{ partial "header.html"  . }}
+{{ partial "sidebar.html" . }}
+
+<main id="content">
+{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}{{ range $paginator.Pages }}
+
+<article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
+<h2 itemprop="name headline"><a itemprop="identifier url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-content" itemprop="articleBody">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+<div class="post-meta">
+<time itemprop="datePublished dateModified" datetime="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}">Posted <a href="/year/{{ .Date.Format "2006" }}/">{{ .Date.Format "Monday 02 January 2006" }}</a></time> in {{ with .Params.category }}<a title="{{ . }} category" href="/{{ . | urlize }}/"><span itemprop="keywords">{{ . }}</span></a>{{ end }}</div>
+</article>
+
+<hr />
+
+{{ end }}
+<nav id="pagination">
+<h2>You're on page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}. Where to now?</h2>
+
+  <ul>
+    {{ if .Paginator.HasNext }}<li id="older"><a href="{{ .Paginator.Next.URL }}">Older posts</a></li>{{ end }}<li id="page-number"><span></span></li>{{ if .Paginator.HasPrev }}<li id="newer"><a href="{{ .Paginator.Prev.URL }}">Newer posts</a></li>{{ end }}
+  </ul>
+</nav>
+
+</main>
+
+{{ partial "footer.html" . }}
+

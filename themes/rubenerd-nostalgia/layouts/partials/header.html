@@ -1,0 +1,16 @@
+<div id="css-decouples-logic-from-presentation-haha-yeah-nah">
+
+<header>
+<a href="{{ .Site.BaseURL }}"><img src="/logo.svg" style="width:64px;" alt="{{ .Site.Title }} logo" /></a>
+<h1 id="site-title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+</header>
+
+<a id="skip" href="#content">Skip to content</a>
+
+<nav id="site-navigation">
+<ul>{{ range .Site.Params.Navigation }}
+<li id="nav-{{ lower .title | urlize }}"><a {{ with .info }}title="{{ . }}" {{ end }}href="{{ .url }}">{{ .title }}</a></li>{{ end }}
+</ul>
+</nav>
+
+<hr />

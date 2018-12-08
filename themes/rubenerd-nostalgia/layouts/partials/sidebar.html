@@ -1,0 +1,84 @@
+<div id="sidebar">
+
+<div>
+<h2>About</h2>
+<span id="tagline">Ruben(nerd, <em>hah!</em>) is a technical writer and cloud engineer from s/Singapore/Sydney/. This is his blog of interests. <a href="/about/">Read more…</a></span>
+<p></p><img src="https://rubenerd.com/files/uploads/media.tree-glitter.gif" alt="A delightful yuletide tree" style="width:100px;" />
+</div>
+
+<div>
+<h2>Search</h2>
+<form role="search" method="get" action="https://duckduckgo.com/" id="search"> 
+<fieldset>
+<legend>Search blog posts with DuckDuckGo</legend>
+<input type="text" size="40" name="q" placeholder="Search with DuckDuck" /> 
+<input type="hidden" name="ia" value="web" />
+<input type="hidden" name="kaj" value="m" />
+<input type="hidden" name="k7" value="w" />
+<input type="hidden" name="k9" value="b" />
+<input type="hidden" name="ks" value="l" />
+<input type="hidden" name="sites" value="{{ .Site.BaseURL }}" />
+<input type="submit" value="Go!" /> 
+</fieldset>
+</form>
+</div>
+
+<div class="sidebar-block">
+<h2>Topics</h2>
+<ul>{{ range .Site.Params.Categories }}
+<li><a id="nav-{{ lower .title | urlize }}" {{ with .info }}title="{{ . }}" {{ end }}href="{{ .url }}">{{ .title }}</a></li>{{ end }}
+</ul>
+</div>
+
+<div id="sidebar-years">
+<h2>Years</h2>
+<ul>
+<li><a href="/year/2018/">2018</a></li>
+<li><a href="/year/2017/">2017</a></li>
+<li><a href="/year/2016/">2016</a></li>
+<li><a href="/year/2015/">2015</a></li>
+<li><a href="/year/2014/">2014</a></li>
+<li><a href="/year/2013/">2013</a></li>
+<li><a href="/year/2012/">2012</a></li>
+<li><a href="/year/2011/">2011</a></li>
+<li><a href="/year/2010/">2010</a></li>
+<li><a href="/year/2009/">2009</a></li>
+<li><a href="/year/2008/">2008</a></li>
+<li><a href="/year/2007/">2007</a></li>
+<li><a href="/year/2006/">2006</a></li>
+<li><a href="/year/2005/">2005</a></li>
+<li><a href="/year/2004/">2004</a></li>
+</ul>
+</div>
+
+<!--<div id="subscribe">
+<h2>Subscribe</h2>
+<ul>
+<li><a href="/feed/">Blog</a></li>
+<li><a href="{{ .Site.Params.Podcast.Feed }}">Podcast</a></li>
+<li><a href="https://twitter.com/{{ .Site.Params.Info.Twitter }}">Twitter</a></li>
+</ul>
+</div>-->
+
+<!--<div id="sidebar-remember">
+<h2>Remember these things?</h2>
+  <div class="badge badge-coffee">
+    <span class="badge-icon">Coffee</span><span class="badge-text">Fueled</span>
+  </div>
+  <div class="badge badge-rss">
+    <span class="badge-icon">RSS</span><span class="badge-text">Feed</span>
+  </div>
+  <div class="badge badge-bsd">
+    <span class="badge-icon">BSD</span><span class="badge-text">Powered</span>
+  </div>
+</div>-->
+
+<div id="rubi-chan">
+<h2>Rubi mascot by <a id="mascot-attribution" href="https://twitter.com/kirisveil">@kirisveil</a></h2>
+<a href="/mascot/"><img src="/rubi@1x.jpg" style="width:190px;" srcset="/rubi@1x.jpg 1x, /rubi@2x.jpg 2x" alt="Rubi, the Rubenerd mascot!" /></a>
+</div>
+
+</div><!-- /sidebar -->
+
+<hr />
+
