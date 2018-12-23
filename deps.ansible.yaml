@@ -1,0 +1,26 @@
+---
+- name: Build dependencies for rubenerd.com
+  hosts: rubenerd.com
+  
+  tasks:
+
+    - name: Install FreeBSD packages
+      pkgng:
+        name: "{{ item.name }}"
+        state: present
+      with_items:
+        - flac
+        - gohugo
+        - ImageMagick7-nox11
+        - jpegoptim
+        - ncftp
+        - pngcrush
+        - python
+        - py27-eyed3
+        - py27-internetarchive
+
+    - name: Build required ports
+      portinstall: 
+        name: audio/lame
+        state: present
+
