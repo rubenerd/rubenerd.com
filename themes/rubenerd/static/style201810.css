@@ -1,0 +1,329 @@
+/* * *
+ * Rubenerd Flex Hugo Theme, Desu 
+ */
+
+
+
+/* Master Reset */
+html, body, h1, h2, form, fieldset, figure, abbr, 
+#site-navigation ul, #site-navigation li,
+#pagination ul, #pagination li, 
+#archive ul, #archive li {
+    border:0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    vertical-align:baseline;
+}
+
+/* Stop clients fscking with these settings */
+* {
+    font-smooth:auto !important;
+    -moz-osx-font-smoothing:auto !important;
+    -webkit-font-smoothing:subpixel-antialiased !important;
+}
+
+
+/* Top Level Elements */
+body {
+    background:#ffffff;
+    color:#333333;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:16px;
+    margin:0 auto;
+}
+h1,h2,h3 {
+    color:black;
+    letter-spacing:-1px;
+}
+h2 {
+    font-size:24px;
+}
+h2 a, header a {
+    text-decoration:none;
+}
+a, .post-meta a:hover {
+    /*border-bottom:1px solid #d9e8f7;*/
+    color:#036ad3;
+    text-decoration:underline;
+}
+a:hover {
+    text-decoration:none;
+    background:#f4f8fd;
+}
+time::after {
+    /* content: " ☕︎ " */
+    content: " 🌲";
+    /* content: " 🎄"; */
+}
+dt {
+    font-weight:bold;
+}
+dd {
+    margin-bottom:1em;
+}
+
+
+
+/* Have browsers render non-Retina images correctly, rather
+   that crappy looking interpolation 
+   https://stackoverflow.com/questions/3900436/ */
+.pixelated {
+    image-rendering:optimizeSpeed;             /* Legal fallback */
+    image-rendering:-moz-crisp-edges;          /* Firefox        */
+    image-rendering:-o-crisp-edges;            /* Opera          */
+    image-rendering:-webkit-optimize-contrast; /* Safari         */
+    image-rendering:optimize-contrast;         /* CSS3 Proposed  */
+    image-rendering:crisp-edges;               /* CSS4 Proposed  */
+    image-rendering:pixelated;                 /* CSS4 Proposed  */
+    -ms-interpolation-mode:nearest-neighbor;   /* IE8+           */
+}
+
+
+
+/* A17n */
+#skip, #skip:hover, #skip:visited {
+    height:1px;
+    left:0px;
+    overflow:hidden;
+    position:absolute;
+    top:-1000px;
+    width:1px;
+}
+hr {
+    /* Visual markers for text browsers. USE THEM */
+    display:none;
+    visibility:hidden;
+}
+
+
+
+/* Header */
+#site-banner {
+    background:#004422 url("leaves.png") bottom no-repeat;
+    background-size:cover;
+    color:#ffffff;
+    display:flex;                /* To put navigation on top */
+    flex-direction:column;  /* but still make semantic sense */
+    margin-bottom:60px;
+    font-size:16px;
+    text-align:center;
+    text-shadow:1px 1px black;
+}
+#site-banner a {
+    color:#ffffff;
+    border:0;
+}
+#site-banner a:hover {
+    background:transparent;
+    color:#036ad3;
+}
+#site-title {
+    order:2;          /* Put below navigation, above tagline */
+    font-size:48px;
+    margin-top:0.6em;
+}
+#site-tagline {
+    order:3;            /* Put below navigation and tagline */
+    padding-bottom:3em;
+}
+
+
+
+/* Top Site Navigation */
+#site-navigation {
+    order:1;
+    padding:1em 0 1em 2em;
+    text-align:left;
+    background:transparent;
+    background:-moz-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:-o-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:-webkit-linear-gradient(bottom,rgba(0,0,0,0),rgba(0,0,0,255));
+    background:linear-gradient(to-top,rgba(0,0,0,0),rgba(0,0,0,255));
+}
+#site-navigation li {
+    display:inline;
+    margin-right:0.6em;
+}
+
+
+
+/* Main Content */
+#content {
+    margin:0 auto;
+    width:600px;
+}
+
+
+
+/* Posts */
+.post {
+    line-height:1.5em;
+    padding-bottom:100px;
+}
+.post-meta, .post-meta a, time {
+    color:#b0b0b6;
+    border-bottom:0;
+}
+.post-meta a {
+    /* border-bottom:1px solid #f0f0f0; */
+}
+.post-schema {
+    display:none;
+    visibility:hidden;
+}
+
+
+
+/* Post Content */
+h3 {
+    font-size:1.4em;
+    margin-top:1.8em;
+}
+figure {
+    text-align:left;
+}
+.post-content blockquote, .post-content li {
+    color:#666677;
+}
+.post-content blockquote {
+    border-left:1px solid #e6e6e6;
+    margin-left:1.2em;
+    margin-right:0;
+    padding:0 1.2em;
+}
+.post-content li p {
+    color:black;
+}
+.post-content figure img, .post-content iframe {
+    margin:0 auto;
+}
+.post-content img {
+    max-width:500px;
+    padding-top:0.4em;
+}
+.post-content code, pre {
+    background:#f4f8fd;
+    color:#036ad3;
+    font-size:14px;
+}
+.post-content pre {
+
+    line-height:18px;
+    padding:1.8em 2em;
+    overflow-x:scroll;
+}
+.post-content img {
+    color:#a4a6a7;
+}
+.post-content table {
+    border-collapse:collapse;
+    border:1px solid #f0f0f0;
+    line-height:1.5em;
+    font-size:14px;
+}
+.post-content table th {
+    background:#f0f0f0;
+    text-align:left;
+    vertical-align:top;
+}
+.post-content table th,
+.post-content table td {
+    padding:0.2em 1em;
+}
+.post-content table tr:nth-child(even) {
+    background:#f9f9f9;
+}  
+
+
+/* Page navigation */
+#pagination {
+    font-size:24px;
+    letter-spacing:-1px;
+}
+#pagination a {
+    border:0;
+}
+#pagination a:hover {
+    background:#d9e8f7;
+}
+#pagination ul {
+    margin:0 auto 90px auto;
+    text-align:center;
+}
+#pagination ul li {
+    display:inline;
+    padding:0 1em;
+    font-weight:bold;
+}
+
+
+
+/* Footer */
+#site-info {
+    border-top:1px solid #d9e8f7;
+    background:url("https://rubenerd.com/files/2017/pillow@2x.png") bottom right no-repeat;
+    background-size:774px, 265px;
+    line-height:1.4em;
+    margin:40px auto 0 auto;
+    padding:20px 0 320px 0;
+    text-align:center;
+    font-size:0.9em;
+}
+#site-info #site-lyrics {
+    font-style:italic;
+}
+#site-info input[type="text"] {
+    width:320px;
+}
+
+
+
+@media screen and (max-width: 660px) { 
+    #site-banner {
+        margin-bottom:3em;
+        padding-bottom:1.6em;
+    }
+    #site-title {
+        margin-top:0.3em;
+    }
+    #site-navigation {
+        padding-left:1.4em;
+    }
+    #site-tagline {
+        display:none;
+        visibility:hidden;
+    }
+
+    #content {
+        width:auto;
+        padding:0 1.4em;
+    }
+    .post-content figure,
+    .post-content img,
+    .post-content iframe {
+        height:auto !important;
+        max-width:100%;
+    }
+    #site-info {
+        background-position:bottom left;
+        padding:0 0.8em 240px 0.8em;
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+    #site-title {
+        margin:0.2em 0 0.4em 0;
+        font-size:2em;
+    }
+
+    #site-tagline {
+        display:none;
+        visibility:hidden;
+    }
+}
+
+
