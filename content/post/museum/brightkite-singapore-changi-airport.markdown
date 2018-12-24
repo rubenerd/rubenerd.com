@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: Singapore Changi Airport"
+title: "Brightkite: Singapore Changi Airport"
 date: "2009-07-09T09:06:11-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,9 @@ tag:
 - from-brightkite
 - written-in-singapore
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=103.93598556518555%2C1.290955973244459%2C104.03915405273438%2C1.4191511350319146&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-changiairport@2x.png" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into Singapore Changi Airport (Civil Aviation Authority of Singapore, Singapore Changi Airport, PO Box 1, Singapore, 918141, Singapore).
 

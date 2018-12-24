@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: Millenia Walk"
+title: "Brightkite: Millenia Walk"
 date: "2009-06-29T04:39:11-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,10 @@ tag:
 - from-brightkite
 - written-in-singapore
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=103.85227918624878%2C1.2766043939028335%2C103.86588335037231%2C1.3042134140382349&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-milleniawalk@2x.png
+" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into Millenia Walk (9 Raffles Boulevard, Singapore, Singapore 03, Singapore).
 

@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: Tanglin Mall"
+title: "Brightkite: Tanglin Mall"
 date: "2009-06-27T01:57:18-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,9 @@ tag:
 - from-brightkite
 - written-in-singapore
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=103.82314234972%2C1.3031032669324032%2C103.82389873266219%2C1.3065543748079576&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-tanglinmall@2x.png" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into Tanglin Mall (163 Tanglin Road, Singapore, Singapore 24, Singapore).
 

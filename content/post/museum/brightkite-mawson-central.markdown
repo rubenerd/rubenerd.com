@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: Mawson Central"
+title: "Brightkite: Mawson Central"
 date: "2009-08-25T16:51:36-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,9 @@ tag:
 - from-brightkite
 - written-in-adelaide
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=138.61431419849396%2C-34.811350113384734%2C138.61753821372986%2C-34.80805997505792&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-mawsoncentral@2x.png" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into Mawson Central (University Parade, The Levels, SA 5095, Australia).
 

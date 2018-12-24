@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: PastaMania (Cineleisure)"
+title: "Brightkite: PastaMania (Cineleisure)"
 date: "2009-07-03T00:39:17-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,9 @@ tag:
 - from-brightkite
 - written-in-singapore
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=103.83565753698349%2C1.3004592914209219%2C103.83726954460144%2C1.3024623846847405&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-pastamaniacineleisure@2x.png" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into PastaMania (Cineleisure) (8 Grange Rd, Orchard, Singapore 23, Singapore).
 

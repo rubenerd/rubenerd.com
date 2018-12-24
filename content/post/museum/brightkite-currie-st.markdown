@@ -1,5 +1,5 @@
 ---
-title: "#Brightkite: Currie St"
+title: "Brightkite: Currie St"
 date: "2009-08-26T00:44:56-06:00"
 year: "2009"
 category: Museum
@@ -7,9 +7,9 @@ tag:
 - from-brightkite
 - written-in-adelaide
 ---
-<p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
+<p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 
-<iframe style="width:498px; height:373px; border:1px solid;" src="http://www.openstreetmap.org/export/embed.html?bbox=138.58696103096008%2C-34.92647933406514%2C138.59018504619598%2C-34.923193799000316&amp;layer=mapnik"></iframe>
+<p><img src="https://rubenerd.com/files/museum/openstreetmap-curriest@2x.png" style="width:500px; height:333px;" alt="Map from OpenStreetMap" /></p>
 
 Checked into Currie St (Currie St, Adelaide SA 5000, Australia).
 
