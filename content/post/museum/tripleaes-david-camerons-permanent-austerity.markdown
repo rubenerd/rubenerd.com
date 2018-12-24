@@ -1,15 +1,16 @@
 ---
-title: "#TripleAES: David Cameron’s permanent austerity"
+title: "David Cameron’s permanent austerity"
 date: "2013-11-14T22:48:00+10:00"
-abstract: "From TripleAES, my short-lived side blog"
+abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
 category: Museum
 tag:
 - politics
 - uk
 - from-tripleaes
+- from-the-rubenerd-annexe
 ---
-*This originally appeared in my side-blog TripleAES⚂.*
+*This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/66959081154/david-camerons-permanent-austerity).*
 
 [Martin Kettle quoting Cameron in The Guardian]\:
 

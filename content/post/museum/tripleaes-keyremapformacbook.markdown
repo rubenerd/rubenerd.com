@@ -1,7 +1,7 @@
 ---
-title: "#TripleAES: KeyRemap4MacBook"
+title: "KeyRemap4MacBook"
 date: "2013-11-16T18:17:00+10:00"
-abstract: "From TripleAES, my short-lived side blog"
+abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
 category: Museum
 tag:
@@ -11,8 +11,9 @@ tag:
 - mac-os-x
 - os-x
 - from-tripleaes
+- from-the-rubenerd-annexe
 ---
-*This originally appeared in my side-blog TripleAES⚂.*
+*This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/67132536688/keyremap4macbook).*
 
 Mavericks does not persistently store the key mappings on my Model M clone. It's infuriating, and had me pondering a Mountain Lion downgrade.
 

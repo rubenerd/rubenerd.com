@@ -1,15 +1,16 @@
 ---
-title: "#TripleAES: The colour you see here"
+title: "The colour you see here"
 date: "2013-11-14T22:03:00+10:00"
-abstract: "From TripleAES, my short-lived side blog"
+abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
 category: Museum
 tag:
 - colour
 - design
 - from-tripleaes
+- from-the-rubenerd-annexe
 ---
-*This originally appeared in my side-blog TripleAES⚂.*
+*This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/66957599193/the-colour-you-see-here).*
 
 >“The first recorded use of Teal as a color name in English was in 1917”
 

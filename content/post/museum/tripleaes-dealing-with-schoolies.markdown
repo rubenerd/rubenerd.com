@@ -1,7 +1,7 @@
 ---
-title: "#TripleAES: Dealing with schoolies"
+title: "Dealing with schoolies"
 date: "2013-11-16T19:22:00+10:00"
-abstract: "From TripleAES, my short-lived side blog"
+abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
 category: Museum
 tag:
@@ -9,8 +9,9 @@ tag:
 - news
 - school
 - from-tripleaes
+- from-the-rubenerd-annexe
 ---
-**This originally appeared in my side-blog TripleAES⚂.
+*This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/67135411763/dealing-with-schoolies).*
 
 [Rhiannon Elston, reporting for SBS]\:
 

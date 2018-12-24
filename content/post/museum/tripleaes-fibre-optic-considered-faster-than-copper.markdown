@@ -1,7 +1,7 @@
 ---
-title: "#TripleAES: Fibre optic considered faster than copper"
+title: "Fibre optic considered faster than copper"
 date: "2013-11-21T21:10:00+10:00"
-abstract: "From TripleAES, my short-lived side blog"
+abstract: "From the Rubenerd Annexe, my side-blog."
 category: Hardware
 tag:
 - australia
@@ -9,8 +9,9 @@ tag:
 - telecommunications
 - nbn
 - from-tripleaes
+- from-the-rubenerd-annexe
 ---
-*This originally appeared in my side-blog TripleAES⚂.*
+*This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/67648368339/fibre-optic-considered-faster-than-copper).*
 
 [Brian Karlovsky writing for ARN]\:
 
