@@ -3,13 +3,13 @@ title: "Dealing with schoolies"
 date: "2013-11-16T19:22:00+10:00"
 abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
-category: Museum
+category: Annexe
 tag:
 - australia
 - news
 - school
 - from-tripleaes
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 *This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/67135411763/dealing-with-schoolies).*
 

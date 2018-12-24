@@ -2,7 +2,7 @@
 title: "Brightkite: Paragon Shopping Centre"
 date: "2009-07-07T19:48:39-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

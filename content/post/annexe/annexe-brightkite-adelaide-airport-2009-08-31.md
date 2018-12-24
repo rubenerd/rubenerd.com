@@ -2,7 +2,7 @@
 title: "Brightkite: Adelaide Airport (2009-08-31)"
 date: "2009-08-31T02:55:44-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-adelaide

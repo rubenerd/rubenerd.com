@@ -2,7 +2,7 @@
 title: "Brightkite: Laurent Bernard Chocolatier"
 date: "2009-07-03T10:26:15-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

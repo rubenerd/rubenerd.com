@@ -3,10 +3,10 @@ title: "Hello, world"
 date: "2013-11-14T21:34:00+10:00"
 abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
-category: Museum
+category: Annexe
 tag:
 - from-tripleaes
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 *This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/66956665572/hello-world).*
 

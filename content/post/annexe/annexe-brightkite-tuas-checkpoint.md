@@ -2,7 +2,7 @@
 title: "Brightkite: Tuas Checkpoint"
 date: "2009-07-14T19:39:47-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

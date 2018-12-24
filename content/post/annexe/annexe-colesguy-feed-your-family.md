@@ -2,10 +2,10 @@
 title: "ColesGuy: Feed your family"
 date: "2010-11-18T19:54:00+10:00"
 year: "2010"
-category: Museum
+category: Annexe
 tag:
 - from-colesguy
-- from-the-rubenerd-annexe
+- from-tumblr
 - memes
 ---
 <p style="font-style:italic">This originally appeared on the Annexe.</p>

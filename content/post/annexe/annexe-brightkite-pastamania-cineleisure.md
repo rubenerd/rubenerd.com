@@ -2,7 +2,7 @@
 title: "Brightkite: PastaMania (Cineleisure)"
 date: "2009-07-03T00:39:17-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

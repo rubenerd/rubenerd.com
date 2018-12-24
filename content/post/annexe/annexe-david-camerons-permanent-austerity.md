@@ -3,12 +3,12 @@ title: "David Cameron’s permanent austerity"
 date: "2013-11-14T22:48:00+10:00"
 abstract: "From the Rubenerd Annexe, my side-blog."
 year: "2013"
-category: Museum
+category: Annexe
 tag:
 - politics
 - uk
 - from-tripleaes
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 *This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/66959081154/david-camerons-permanent-austerity).*
 

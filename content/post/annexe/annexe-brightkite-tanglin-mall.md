@@ -2,7 +2,7 @@
 title: "Brightkite: Tanglin Mall"
 date: "2009-06-27T01:57:18-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

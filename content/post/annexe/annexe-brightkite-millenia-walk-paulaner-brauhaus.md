@@ -2,7 +2,7 @@
 title: "Brightkite: Millenia Walk - Paulaner Brauhaus"
 date: "2009-07-18T22:22:15-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

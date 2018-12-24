@@ -2,11 +2,11 @@
 title: "Farmer’s Union Iced Coffee now at Coles!"
 date: "2011-10-04T19:57:00+10:00"
 year: "2011"
-category: Museum
+category: Annexe
 tag:
 - coffee
 - from-twitpic
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 <p style="font-style:italic">This was imported into the Annexe from TwitPic, the early Twitter photo sharing service.</p>
 

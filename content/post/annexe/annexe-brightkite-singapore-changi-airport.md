@@ -2,7 +2,7 @@
 title: "Brightkite: Singapore Changi Airport"
 date: "2009-07-09T09:06:11-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

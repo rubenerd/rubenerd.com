@@ -2,10 +2,10 @@
 title: "ColesGuy Woolworths"
 date: "2011-01-01T18:06:00+10:00"
 year: "2011"
-category: Museum
+category: Annexe
 tag:
 - from-colesguy
-- from-the-rubenerd-annexe
+- from-tumblr
 - memes
 ---
 <p style="font-style:italic">This originally appeared on the Annexe.</p>

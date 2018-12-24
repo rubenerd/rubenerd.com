@@ -2,7 +2,7 @@
 title: "Brightkite: Near Race Course Village"
 date: "2009-07-17T02:02:56-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

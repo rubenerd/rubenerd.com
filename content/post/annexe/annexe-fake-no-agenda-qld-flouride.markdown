@@ -2,10 +2,10 @@
 title: "Fake No Agenda: It’s the lack of QLD flouride, duh"
 date: "2013-11-24T11:32:00+10:00"
 year: "2013"
-category: Museum
+category: Annexe
 tag:
 - from-fakenoagenda
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 <p style="font-style:italic;">This originally appeared on the Annexe, in a parody post series about the podcast. Art is by <a href="http://www.pixiv.net/member_illust.php?mode=medium&illust_id=39686291">zy2386262</a> on Pixiv.</p>
 

@@ -9,7 +9,7 @@ tag:
 - telecommunications
 - nbn
 - from-tripleaes
-- from-the-rubenerd-annexe
+- from-tumblr
 ---
 *This post originally appeared on the [Annexe](http://tripleaes.tumblr.com/post/67648368339/fibre-optic-considered-faster-than-copper).*
 

@@ -2,7 +2,7 @@
 title: "Brightkite: Millenia Walk"
 date: "2009-06-29T04:39:11-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-singapore

@@ -4,10 +4,10 @@ date: "2016-12-24T06:13:55+00:00"
 abstract: "From Clara's and my trip to NYC and Philly. Was a dream come true to on this!"
 thumb: "https://rubenerd.com/files/museum/trainsrubentaketh-acela.jpg"
 year: "2016"
-category: Museum
+category: Annexe
 tag: 
 - from-trains-ruben-taketh
-- from-the-rubenerd-annexe
+- from-tumblr
 - written-in-philadelphia
 ---
 Between 2010 and 2012, I documented trains I rode on in the unsurprisingly-titled *Trains Ruben Taketh* blog. Like so many pointless things, it was delightfully fun and a waste of mobile data. Take that, Snapchat.

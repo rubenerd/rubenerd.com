@@ -2,7 +2,7 @@
 title: "Brightkite: Mawson Central"
 date: "2009-08-25T16:51:36-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-adelaide

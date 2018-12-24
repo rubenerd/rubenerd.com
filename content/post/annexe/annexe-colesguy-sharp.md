@@ -2,10 +2,10 @@
 title: "ColesGuy: Sharp" 
 date: "2011-05-24T08:30:43+10:00"
 year: "2011"
-category: Museum 
+category: Annexe 
 tag: 
 - from-colesguy
-- from-the-rubenerd-annexe
+- from-tumblr
 - curtis-stone
 ---
 <p style="font-style:italic">This originally appeared on the Annexe.</p>

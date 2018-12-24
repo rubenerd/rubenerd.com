@@ -2,7 +2,7 @@
 title: "Brightkite: Mawson Lakes Railway Station"
 date: "2009-08-27T18:20:51-06:00"
 year: "2009"
-category: Museum
+category: Annexe
 tag:
 - from-brightkite
 - written-in-adelaide
