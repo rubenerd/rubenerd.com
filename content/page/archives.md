@@ -17,7 +17,7 @@ title: "Archives"
 
 <h3 id="other-categories">Posts by other category</h3>
 
-* [Museum](/museum/), posts imported from retired/dead services
+* [Annexe](/annexe/), posts imported from side blogs and retired social networks
 * [Pinboard](https://pinboard.in/u:Rubenerd), my external link blog, previously [del.icio.us](https://del.icio.us/rubenerd)
 * [Rubenerd Show](/show/), my long-running podcast of nerdish observations
 * [Unsub Me Already](http://unsub.rubenerd.com/), a Tumblr chronicling email (mis)adventures
