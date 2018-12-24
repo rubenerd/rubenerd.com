@@ -1,11 +1,8 @@
 ---
 title: "AOL Instant Messenger"
 date: "2017-12-15T09:51:20+11:00"
-year: "2017"
-location: Sydney
 abstract: "Another 1990s icon bites the dust, with tremendous PR speak!"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - aol
@@ -13,6 +10,7 @@ tag:
 - social-networking
 - nostalgia
 - 1990s
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/screenie.aol@1x.png" srcset="https://rubenerd.com/files/2017/screenie.aol@1x.png 1x, https://rubenerd.com/files/2017/screenie.aol@2x.png 2x" alt="Login screen for AOL Instant Messenger on Adium" style="width:500px" /></p>
 

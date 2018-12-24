@@ -3,12 +3,11 @@ title: "Sunrise, by everyone"
 date: "2018-01-10T20:50:18+11:00"
 abstract: "Four different artists singing songs with the same name."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - anime-figs
 - music
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/kagamine-len-tony-taka@1x.jpg" srcset="https://rubenerd.com/files/2018/kagamine-len-tony-taka@1x.jpg 1x, https://rubenerd.com/files/2018/kagamine-len-tony-taka@2x.jpg 2x" alt="Kagamine Len figure by Tony Taka" style="width:275px; height:400px;" /></p>
 

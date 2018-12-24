@@ -2,12 +2,15 @@
 title: "A true 757 replacement"
 date: "2018-06-11T13:04:27+10:00"
 abstract: "The NMA should be a 757-8"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/757-farnborough-fitzgerald@1x.jpg"
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Hardware
 tag:
 - aviation
+- boeing
+- boeing-757
+- transit
+- written-in-sydney
 ---
 Boeing is researching a new midsize aeroplane (NMA) concept, dubbed the 797. [According to Jon Ostrower], it'll be a smaller, twin-isle aircraft.
 

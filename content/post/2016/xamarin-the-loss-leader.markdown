@@ -2,11 +2,11 @@
 title: "Xamarin the loss–leader"
 date: "2016-04-29T10:14:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - microsoft
 - visual-studio
+- written-in-sydney
 ---
 Microsoft is releasing Xamarin for free with Visual Studio, resulting in much joy on the part of Windows developers. Peter Bright summarised the feeling in [Ars Technica]:
 

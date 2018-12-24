@@ -4,12 +4,12 @@ date: "2018-08-18T13:37:39+10:00"
 abstract: "If this is a design tip and business trend, count me out!"
 thumb: "https://rubenerd.com/files/2018/99-web-design@1x.jpg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - accessibility
 - design
 - popups
+- written-in-sydney
 ---
 While I'm talking about the [modern web], here it is writ large. If this is a design tip or business trend, especially in the context of a page explaining how to redesign your site, [count me out]!
 

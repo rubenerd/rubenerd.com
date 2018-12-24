@@ -4,12 +4,12 @@ date: "2018-11-05T21:51:37+11:00"
 abstract: "Everything about this song is perfect!"
 thumb: "https://rubenerd.com/files/2018/yt-9ujZz7nFkS0@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - japanese
 - music
 - music-monday
+- written-in-sydney
 ---
 <p><a title="TVアニメ『ガイコツ書店員 本田さん』ED主題歌 「Book-end, Happy-end」 MV Fullsize／TECHNOBOYS PULCRAFT GREEN-FUND feat.高野 寛" href="https://www.youtube.com/watch?v=9ujZz7nFkS0"><img src="https://rubenerd.com/files/2018/yt-9ujZz7nFkS0@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-9ujZz7nFkS0@1x.jpg 1x, https://rubenerd.com/files/2018/yt-9ujZz7nFkS0@2x.jpg 2x" alt="TVアニメ『ガイコツ書店員 本田さん』ED主題歌 「Book-end, Happy-end」 MV Fullsize／TECHNOBOYS PULCRAFT GREEN-FUND feat.高野 寛" style="width:500px; height:281px;" /></a></p>
 

@@ -1,11 +1,8 @@
 ---
 title: "Restoring my first computer"
 date: "2017-04-09T09:49:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "So many pointless skills!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - creative
@@ -15,6 +12,7 @@ tag:
 - nostalgia
 - retro
 - zip-drive
+- written-in-sydney
 ---
 My current pet project is restoring my first Pentium MMX computer. I'm [realising now] the real joy wasn't winning the primary school writing context that funded it, or even the machine itself, but that I built it with my dad ♡.
 

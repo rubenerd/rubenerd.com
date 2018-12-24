@@ -1,13 +1,12 @@
 ---
-draft: true
 title: "Overnightscape NY/NJ feedback"
 date: "2016-12-19T11:52:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - comments
 - personal
+- written-in-sydney
 ---
 The Escapist himself sent a really nice message about the latest Rubénerd Show and Overnightscape adventures in New York and New Jersey :)
 

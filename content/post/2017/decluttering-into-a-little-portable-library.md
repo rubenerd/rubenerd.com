@@ -1,16 +1,14 @@
 ---
 title: "Decluttering to a little portable library"
 date: "2017-11-17T16:55:55+11:00"
-year: "2017"
-location: Sydney
 abstract: "Isn’t it wonderful when doing one thing leads to something else that’s awesome?"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - books
 - manga
 - scanning
+- written-in-sydney
 ---
 I think it was in a DK Eyewitness books about writing that featured a photo of a thick book an English scholar carried. Upon opening the aforementioned leather-bound apparatus, it was in fact a tiny bookshelf with impossibly small tomes he could read with a magnifying glass.
 

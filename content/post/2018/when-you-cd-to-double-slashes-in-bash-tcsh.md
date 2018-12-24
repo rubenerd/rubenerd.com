@@ -3,7 +3,6 @@ title: "When you cd to double slashes in bash, tcsh"
 date: "2018-03-23T18:27:50+11:00"
 abstract: "bash says you’re in a double slash, other shells do not"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bash
@@ -11,6 +10,7 @@ tag:
 - bsd
 - freebsd
 - netbsd
+- written-in-sydney
 ---
 Here's something fun I discovered by accident. When you typo a path with double forward slashes in a bash prompt with a default PS1 listing the working directory with `\w`, you get double slashes:
 

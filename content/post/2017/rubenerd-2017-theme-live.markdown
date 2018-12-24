@@ -1,17 +1,15 @@
 ---
-title: "Rubénerd 2017 theme live"
+title: "Rubenerd 2017 theme live"
 date: "2017-09-11T09:25:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "You’re not supposed to discuss your blog on your blog."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
-Keen-eyed *Rubénerd* readers would have noticed no change here recently, because you get your content in an [RSS reader]. *Touché.* But others of you may have seen my new theme rollout.
+Keen-eyed *Rubenerd* readers would have noticed no change here recently, because you get your content in an [RSS reader]. *Touché.* But others of you may have seen my new theme rollout.
 
 It's pretty awful, but I like it for several reasons:
 
@@ -19,7 +17,7 @@ It's pretty awful, but I like it for several reasons:
 
 2. I love the dithered-colour aesthetic of yore, which also has the benefit of much smaller file sizes. You could say that was the entire point back when they were in use everywhere. I started using them for my [show art] in 2015, and now my header has it.
 
-3. All my best ideas came from my teens, so this theme is reminicient of what *Rubénerd* looked like circa 2003, sans the coloured tabs. Maybe I should be adding those back, too.
+3. All my best ideas came from my teens, so this theme is reminicient of what *Rubenerd* looked like circa 2003, sans the coloured tabs. Maybe I should be adding those back, too.
 
 4. I still don't load external fonts, because I'm a gentleman. It's rough though becuase text in Windows still looks so gosh darn awful. But with my Windows 10 game machine I realised [Segoe UI] is more tolerable than Arial rendered in ~~GrossType~~ ClearType, so that's the fallback if you don't have Helvetica Neue.
 
@@ -38,3 +36,4 @@ Old school blog rules stated you shouldn't blog about your blog on your blog, wh
 [mascot Rubi]: https://rubenerd.com/mascot/
 [show art]: https://archive.org/download/RubenerdShow364/RubenerdShow364.png
 [these are loafers]: https://www.youtube.com/watch?v=mHLVXsXGiYo
+

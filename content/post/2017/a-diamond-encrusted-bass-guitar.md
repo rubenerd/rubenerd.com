@@ -1,15 +1,13 @@
 ---
 title: "A diamond encrusted bass guitar"
 date: "2017-11-22T16:48:52+11:00"
-year: "2017"
-location: Sydney
 abstract: "Or when I feel like I shouldn’t be judging people, other than for their poor taste!"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - news
 - australia
+- written-in-sydney
 ---
 I'd never heard of this late mining magnate's daughter, or the fact she'd been wrestling with his estate for a greater share of her inheritance. But this was her wishlist, as quoted by [Joanna Menagh for the ABC]\:
 

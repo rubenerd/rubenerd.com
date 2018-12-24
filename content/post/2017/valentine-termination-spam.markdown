@@ -1,14 +1,12 @@
 ---
 title: "Valentine termination spam"
 date: "2017-02-06T18:01:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "The dichotomy in this spam is amazing."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - spam
+- written-in-sydney
 ---
 The dichotomy in this spam is amazing.
 

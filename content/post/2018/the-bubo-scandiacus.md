@@ -3,12 +3,12 @@ title: "The bubo scandiacus"
 date: "2018-02-17T18:29:00+11:00"
 abstract: "Another Wikipedia bird photo of the day!"
 year: "2018"
-location: Sydney
 thumb: "https://rubenerd.com/files/bubo-scandiacus@1x.jpg"
 category: Media
 tag:
 - wikipedia
 - birds
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/bubo-scandiacus@1x.jpg" alt="" style="width:400px; height:485px;" srcset="https://rubenerd.com/files/2018/bubo-scandiacus@1x.jpg 1x, https://rubenerd.com/files/2018/bubo-scandiacus@2x.jpg 2x" /></p>
 

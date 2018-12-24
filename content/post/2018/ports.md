@@ -1,10 +1,8 @@
 ---
 title: "Ports"
 date: "2018-11-24T10:05:06+11:00"
-abstract: ""
-thumb: ""
+abstract: "So many uses for this term, even within industries."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - bsd
@@ -12,6 +10,7 @@ tag:
 - language
 - networking
 - netbsd
+- written-in-sydney
 ---
 Every industry has its own parlance, but IT has the additional complexity of using the same word for multiple things. Take this shipping location or a sweet alcoholic beverage:
 

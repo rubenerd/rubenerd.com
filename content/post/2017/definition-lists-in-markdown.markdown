@@ -1,16 +1,14 @@
 ---
 title: "Definition lists in markdown"
 date: "2017-06-15T12:09:10+10:00"
-year: "2017"
-location: Sydney
 abstract: "Not everyone thinks like Jeff Atwood"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - markdown
 - gohugo
 - go
+- written-in-sydney
 ---
 [Standard Markdown] doesn't have a provision for definition lists. It seems like an odd omission, given John Gruber uses them extensively on Daring Fireball.
 

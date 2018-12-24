@@ -1,16 +1,14 @@
 ---
 title: "Here’s an email for a received message"
 date: "2017-05-26T15:44:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Stop emailing us to check inboxes"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - email
 - social-networks
 - spam
+- written-in-sydney
 ---
 I can't stand sites with their own inboxes. When we go to Flickr or eBay for example, we see those circled red numbers indicating the messages we've probably already read in email. It's one more thing we all need to check and clear.
 

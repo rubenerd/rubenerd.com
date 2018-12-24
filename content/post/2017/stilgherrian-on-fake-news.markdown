@@ -1,16 +1,14 @@
 ---
 title: "The @Stilgherrian on fake news"
 date: "2017-04-07T12:28:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Call fake news for what it is"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - news
 - podcasting
 - stilgherrian
+- written-in-sydney
 ---
 <p></p>
 

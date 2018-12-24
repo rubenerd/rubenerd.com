@@ -3,7 +3,6 @@ title: "Upgrading and locking FreeBSD 10+ ports in pkgng"
 date: "2016-01-12T17:22:00+10:00"
 abstract: "Lock packages to prevent them being overwritten"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - package-managers
 - pkgng
 - ports
+- written-in-sydney
 ---
 I was [very excited][excite] when [pkgng][pkgng] came to FreeBSD (and [pkgin][pkgin] on pkgsrc/NetBSD). It does make some aspects of maintaining a BSD system easier, though there are few new gotchas.
 

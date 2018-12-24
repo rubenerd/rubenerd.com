@@ -3,12 +3,12 @@ title: "Turnbull’s moot startup point"
 date: "2015-12-06T06:27:00+10:00"
 abstract: "What good is disruptive tech without internet?"
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - australia
 - nbn
 - politics
+- written-in-sydney
 ---
 The Murdoch rags are excitedly reporting on Prime Minister Malcolm Turnbull's push for more entrepreneurship, small business, disruption and startup culture in Australia. It's easy to be cynical about this sort of thing, but I'm cautiously optimistic.
 

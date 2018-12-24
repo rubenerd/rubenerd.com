@@ -1,11 +1,8 @@
 ---
 title: "On the size of the Commodore 128"
 date: "2017-02-04T12:44:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Mind. Blown."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - 1980s
@@ -14,6 +11,7 @@ tag:
 - commodore-64
 - nostalgia
 - retro
+- written-in-sydney
 ---
 I was born too late to be a (concious!) part of the 1980s home computer revolution, but that hasn't stopped me reading obsessively about all the machines from that era. If I could time travel, I'd only want to go back thirty years.
 

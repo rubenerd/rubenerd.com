@@ -1,11 +1,8 @@
 ---
 title: "Scott Ludlam"
 date: "2017-07-15T13:41:58+10:00"
-year: "2017"
-location: Sydney
 abstract: "Thank you for being a voice of logic, reason and compassion"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - scott-ludlam
@@ -15,6 +12,7 @@ tag:
 - net-neutrality
 - encryption
 - privacy
+- written-in-sydney
 ---
 On the same day Australia's leadership questioned the laws of mathematics, we got the one-two punch announcement that Scott Ludlam was retiring from politics [under section 44]. 
 

@@ -4,13 +4,12 @@ date: "2018-02-28T08:36:21+11:00"
 abstract: "No surprise the reasons why"
 thumb: "https://rubenerd.com/files/2018/ultimo-apartments@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - sydney
 - nsw
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sydneyapartments@1x.jpg" srcset="https://rubenerd.com/files/2018/sydneyapartments@1x.jpg 1x, https://rubenerd.com/files/2018/sydneyapartments@2x.jpg 2x" alt="Photo of apartments from the new convention centre in Sydney" style="width:500px; height:289px;" /></p>
 

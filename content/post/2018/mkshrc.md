@@ -3,12 +3,11 @@ title: "mkshrc"
 date: "2018-02-21T20:40:09+11:00"
 abstract: "This is the configuration file for the MirOS Korn shell"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - shells
 - korn-shell
-- postaday2018
+- written-in-sydney
 ---
 I found a .mkshrc while going through my home directory dotfiles. I couldn't even remember what it was, but it's a [MirOS Korn Shell] configuration file. I didn't know this; on NetBSD I'd used `.kshrc` with [ksh88].
 

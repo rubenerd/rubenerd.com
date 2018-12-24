@@ -1,16 +1,14 @@
 ---
 title: "Jerry Novak's June coffee"
 date: "2017-06-07T09:05:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Thank you for the latest coffee!"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - coffee
 - jerry-novak
 - weblog
+- written-in-sydney
 ---
 I wanted to give a shoutout and personal thanks to the Official Rubenerd Patron Sir Jerry Novak again for another caffeine-related donation. I'm drinking it as we speak!
 

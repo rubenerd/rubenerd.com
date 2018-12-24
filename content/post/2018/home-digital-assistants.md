@@ -3,14 +3,13 @@ title: "Home digital assistants"
 date: "2018-02-24T10:06:21+11:00"
 abstract: "Comparing in the context of who makes them"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - privacy
 - apple
 - google
 - amazon
-- postaday2018
+- written-in-sydney
 ---
 [Matthew JC Powell compared] the latest crop of home digital assistants in the context of who makes them:
 

@@ -1,16 +1,14 @@
 ---
 title: "Manflu 2017"
 date: "2017-08-24T10:19:38+10:00"
-year: "2017"
-location: Sydney
 abstract: "It’s the worst manflu I’ve had since the last time I had the manflu"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - health
 - personal
 - weblog
+- written-in-sydney
 ---
 As I now [somewhat infamously said] on Twitter, I haven't had a manflu this bad since the last time I had the manflu. Which [according to this blog] was in 2014, with reference to Best Girl&trade; from Nisekoi. You can claim someone else was a better character from that series, you'd just be wrong.
 

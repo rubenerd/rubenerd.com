@@ -1,6 +1,14 @@
 ---
 title: "The derived namespace"
 date: "2016-08-13T09:50:00+10:00"
+abstract: "An add-on to RSS 2.0 to provide context about the source of textual media."
+year: "2016"
+category: Internet
+tag:
+- feeds
+- rss
+- xml
+- written-in-sydney
 ---
 The *derived* namespace is an add-on to RSS 2.0 that provide context about the source code for textual media. 
 
@@ -13,7 +21,7 @@ Multiple attributes with different mime-types could be used, though having a sin
 
 ### Why?
 
-Like many sites, *Rubénerd* is written in Markdown and pre-rendered for clients in HTML. This link means smart clients could take the original markdown source, and render it for their specific viewport or client.
+Like many sites, *Rubenerd* is written in Markdown and pre-rendered for clients in HTML. This link means smart clients could take the original markdown source, and render it for their specific viewport or client.
 
 Facebook have shown with their "stories" feature that there's demand for refactoring/optimising content. I want the same ability for the open web using standard RSS.
 

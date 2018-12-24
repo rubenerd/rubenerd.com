@@ -1,15 +1,13 @@
 ---
 title: "Interest over values"
 date: "2017-06-06T09:54:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "This is what worries me about Trump"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - politics
 - united-states
+- written-in-sydney
 ---
 David Frum articulated this so well on the latest [Waking Up with Sam Harris], I had to quote him:
 

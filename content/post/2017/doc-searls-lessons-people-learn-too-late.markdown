@@ -1,15 +1,13 @@
 ---
 title: "Doc Searls: Lessons people learn too late"
 date: "2017-06-29T08:45:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Shamelessly quoting each one"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - doc-searls
 - life
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/stock/gnome-help-browser.svg" alt="Exclamation! Icon from the Gnome Project" style="float:right; margin:0 0 1em 1em; width:128px; height:128px;" /></p> 
 

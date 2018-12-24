@@ -3,12 +3,12 @@ title: "Followup NBN post"
 date: "2018-01-25T10:52:59+11:00"
 abstract: "Think of the phone system, it’s not hard"
 year: "2018"
-location: Sydney
 category: internet
 tag:
 - nbn
 - infrastructure
 - australia
+- written-in-sydney
 ---
 My [recent post about the NBN] drew ire from a couple of gentleman who'd be well served by blood pressure monitors and some class. Let me attempt to explain again.
 

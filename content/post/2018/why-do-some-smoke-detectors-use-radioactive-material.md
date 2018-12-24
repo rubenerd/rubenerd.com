@@ -2,13 +2,12 @@
 title: "Why do some smoke detectors use radioactive material?"
 date: "2018-10-22T15:48:42+11:00"
 abstract: "Smoke entering a chamber reduces ionisation, triggering the alarm."
-thumb: ""
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - science
 - til
+- written-in-sydney
 ---
 Oscar Lanzi [answered a question] I'd had for ages:
 

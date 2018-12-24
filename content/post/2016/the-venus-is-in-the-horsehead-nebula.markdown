@@ -3,11 +3,11 @@ title: "The Venus is in the Horsehead Nebula"
 date: "2016-01-13T09:49:00+10:00"
 abstract: "Horoscope spam"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - nonsense
 - spam
+- written-in-sydney
 ---
 I find spam thoroughly entertaining. This one was a bit more special, because they even got my name right. Someone leaked some account details somewhere, or based it off a social network profile?
 

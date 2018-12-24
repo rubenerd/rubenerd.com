@@ -3,14 +3,13 @@ title: "Fate/Grand Valentines"
 date: "2018-02-04T10:49:45+11:00"
 abstract: "Best, and cheesiest, FGO event ever."
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - games
 - mashu
 - fate
 - fate-grand-order
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fgo-valentine-mashu@1x.jpg" srcset="https://rubenerd.com/files/2018/fgo-valentine-mashu@1x.jpg 1x, https://rubenerd.com/files/2018/fgo-valentine-mashu@2x.jpg 2x" alt="Mashu: (Inhale... Exhale)... ...ahem, ahem." style="width:500px" /></p>
 

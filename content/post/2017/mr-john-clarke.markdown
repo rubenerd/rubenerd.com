@@ -1,16 +1,14 @@
 ---
 title: "Mr John Clarke, one of the great satirists"
 date: "2017-05-02T08:25:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Thanks for your time"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - australia
 - clark-and-dawe
 - new-zealand
+- written-in-sydney
 ---
 The witty, fabulous interviewee from the legendary Clarke and Dawe duo passed on last month, and I've been dragging my heels posting because nothing I write seems to do the bloke justice.
 

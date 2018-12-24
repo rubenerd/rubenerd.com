@@ -3,12 +3,11 @@ title: "It’s the first of March"
 date: "2018-03-01T19:00:12+11:00"
 abstract: "Not February!"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - dates
 - pointless-milestone
-- postaday2018
+- written-in-sydney
 ---
 The first of March — or March the first for my American friends — always feels weird. My body is attuned to thirty or thirty one day months. A couple of days of long overtime, or some bad sleep, and that one day difference disappears in a Gregorian fog.
 

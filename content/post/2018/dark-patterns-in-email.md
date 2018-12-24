@@ -3,12 +3,12 @@ title: "Dark patterns in networking email"
 date: "2018-09-30T09:58:44+10:00"
 abstract: "When a Network Outage is an ad."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - dark-patterns
 - email
 - spam
+- written-in-sydney
 ---
 Harry Brignull coined the term *[dark patterns]* to refer to designs that trick us into performing actions we wouldn't otherwise. They rely upon scummy psychological deception and tricks, and need to be called out!
 

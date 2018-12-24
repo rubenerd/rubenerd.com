@@ -4,13 +4,13 @@ date: "2018-12-05T10:21:30+11:00"
 abstract: "Back when I was a kid... something something KDE on CD-ROM!"
 thumb: "https://rubenerd.com/files/2018/redhat-bluecurve-desktop@1x.jpg"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - kde
 - linux
+- written-in-sydney
 ---
 The IT world has been consumed with thoughts around this [proposed IBM Red Hat buyout]. But buried towards the end of the [release notes for 7.6] of Red Hat Enterprise Linux was this bullet point:
 

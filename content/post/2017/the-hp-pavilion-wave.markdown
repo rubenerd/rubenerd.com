@@ -1,16 +1,15 @@
 ---
 title: "The HP Pavilion Wave"
 date: "2017-04-08T16:33:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Speaking of the Mac Pro..."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
+- apple
 - desktops
 - hp
 - mac-pro
+- written-in-sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/hpwave@1x.jpg" alt="" style="width:500px; height:315px" srcset="https://rubenerd.com/files/2017/hpwave@1x.jpg 1x, https://rubenerd.com/files/2017/hpwave@2x.jpg 2x" /></p></figure>
 

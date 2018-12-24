@@ -1,11 +1,8 @@
 ---
 title: "Mr Brandis, You Can (Not) Decrypt"
 date: "2017-06-12T10:12:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "With apologies to Evangelion"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - australia
@@ -13,6 +10,7 @@ tag:
 - security
 - encryption
 - politics
+- written-in-sydney
 ---
 With apologies to *Evangelion*. I almost can't believe this is still a thing, as reported by Gareth Hutchins in [The Guardian]:
 

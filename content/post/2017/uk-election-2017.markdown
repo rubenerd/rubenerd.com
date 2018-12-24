@@ -1,16 +1,14 @@
 ---
 title: "UK election 2017"
 date: "2017-06-09T11:07:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Save the NHS"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - news
 - politics
 - uk
+- written-in-sydney
 ---
 The fatherland is at the polls now, and indications are either a hung parliament, or at least a huge swing against the Tories. The Guardian has the [best interactive constituency map], not least for the cute SVG caricatures.
 

@@ -3,11 +3,11 @@ title: "Is Earth's clear sky unusual?"
 date: "2015-11-18T17:09:00+10:00"
 abstract: "A great Stack Exchange question and answer"
 year: "2015"
-location: Sydney
 category: Thoughts
 tag:
 - science
 - stack-exchange
+- written-in-sydney
 ---
 This is <a href="https://astronomy.stackexchange.com/questions/12531/is-earth-unique-in-its-fairly-clear-atmosphere">one of those sidebar Stack Exchange questions</a> that make my day. I remember asking this in 1996 when all the life on Mars stuff was coming out, but nobody could really answer in terms a 10 year old could understand.
 

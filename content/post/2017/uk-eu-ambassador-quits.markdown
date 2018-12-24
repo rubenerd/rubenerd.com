@@ -1,14 +1,14 @@
 ---
 title: "UK's EU ambassador quits"
 date: "2017-01-04T11:46:00+10:00"
-summary: "But the Leave crowd assure us he wasn't pressured or anything"
+abstract: "But the Leave crowd assure us he wasn't pressured or anything"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - news
 - politics
 - united-kingdom
+- written-in-sydney
 ---
 Jessica Elgot, Patrick Wintour and Peter Walker reported [this incredible news in The Guardian]:
 

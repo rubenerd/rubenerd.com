@@ -4,7 +4,6 @@ date: "2018-03-26T09:04:55+11:00"
 abstract: "Would have seemed like space-age stuff even recently."
 thumb: "https://rubenerd.com/files/2018/qantas-787@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - aviation
@@ -13,7 +12,7 @@ tag:
 - boeing
 - boeing-787
 - qantas
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/qantas-787@1x.jpg" srcset="https://rubenerd.com/files/2018/qantas-787@1x.jpg 1x, https://rubenerd.com/files/2018/qantas-787@2x.jpg 2x" alt="Photo of a Qantas 787 by Mertie" style="width:500px; height:292px;" /></p>
 

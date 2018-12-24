@@ -3,7 +3,6 @@ title: "mkfs.xfs on Debian"
 date: "2018-11-22T22:17:21+11:00"
 abstract: "By default mkfs on Debian has extX and... Minix!"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - ansible
@@ -12,6 +11,7 @@ tag:
 - freebsd
 - linux
 - xfs
+- written-in-sydney
 ---
 FreeBSD has `newfs` for baking UFS volumes, with a handy `newfs_msdos` shortcut for formatting FAT. `mkfs` has equivalent shortcuts on Linux for the file systems it supports, as shown by the following tab completion on Debian Stretch:
 

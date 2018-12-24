@@ -4,7 +4,6 @@ date: "2018-07-13T18:13:54-07:00"
 abstract: "They fixed my mistake without extra charge."
 thumb: "https://rubenerd.com/files/2018/southwest.png"
 year: "2018"
-location: Los-Angeles
 category: Thoughts
 tag:
 - aviation
@@ -12,6 +11,7 @@ tag:
 - feedback
 - travel
 - united-states
+- written-in-los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/southwest.png" alt="Southwest logo" style="width:89px; height:85px; float:right; margin:0 0 1em 2em" /></p>
 

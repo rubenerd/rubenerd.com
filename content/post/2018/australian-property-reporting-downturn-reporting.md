@@ -3,12 +3,12 @@ title: "Australian property downturn reporting"
 date: "2018-12-19T20:05:07+11:00"
 abstract: "You'll also be shocked to learn renters weren't mentioned."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - economics
 - journalism
+- written-in-sydney
 ---
 Every news story reporting on Australian property during the boom discussed investors, with nay a single toss given to renters, or those buying a home to... get this, *live in*. I know right, what a concept?
 

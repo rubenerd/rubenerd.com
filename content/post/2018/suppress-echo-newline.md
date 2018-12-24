@@ -3,7 +3,6 @@ title: "Suppress echo newlines"
 date: "2018-10-02T23:11:29+10:00"
 abstract: "I was reading the FreeBSD sh(1) manpage, like a gentleman."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - scripting
 - shell
 - things-you-already-know-unless-you-dont
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/uploads/bsd_daemon.jpg" alt="" style="width:75px; height:75px; float:right; margin:0 0 1em 2em;" /></p>
 

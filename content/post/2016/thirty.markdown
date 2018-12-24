@@ -3,12 +3,12 @@ title: "Thirty"
 abstract: "Or why I’m not ready for this!"
 date: "2016-03-26T11:33:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - birthdays
 - personal
 - weblog
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/30th.png" alt="Screenshot of an OS X Calendar notification saying my 30th birthday is tomorrow" style="width:500px; height:500px;" /></p>
 

@@ -3,10 +3,10 @@ title: "Friday fanmail: Business builder"
 date: "2018-06-25T12:52:23-07:00"
 abstract: "1st result on Random capitalisation!"
 year: "2018"
-location: San-Francisco
 category: Internet
 tag:
 - spam
+- written-in-san-francisco
 ---
 It's not even close to being Friday now! But have this draft anyway.
 

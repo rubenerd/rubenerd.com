@@ -3,11 +3,10 @@ title: "A railroad made of human bones"
 date: "2018-02-19T15:17:15+11:00"
 abstract: "The most powerful piece of journalism I’ve read this year"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - movies
-- postaday2018
+- written-in-sydney
 ---
 This is the most powerful, lucid piece of journalism I've read so far this year; and I don't even watch superhero movies. This is the opening of [Jelani Cobb's *Black Panther* review] for The New Yorker:
 

@@ -2,12 +2,12 @@
 title: "Check your election enrolment"
 date: "2016-05-23T13:20:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - elections
 - politics
+- written-in-sydney
 ---
 Australians, you have till 20:00 <abbr title="Australian Eastern Standard Time">AEST</abbr> to [confirm your enrolment]. You won't get another chance before the election in July.
 

@@ -3,11 +3,11 @@ title: "Australian household spending from savings"
 date: "2018-09-06T10:31:34+10:00"
 abstract: "People only spend their savings when they feel they don't have a choice."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - economics
+- written-in-sydney
 ---
 Australia's recent economic growth is encouraging, but its fuelled by something worrying. Greg Jerico's [recent Guardian article]\:
 

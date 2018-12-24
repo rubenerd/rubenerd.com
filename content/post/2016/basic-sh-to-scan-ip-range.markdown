@@ -2,7 +2,6 @@
 title: "Basic sh to scan an IP range"
 date: "2016-05-28T11:13:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - scripting
@@ -12,6 +11,7 @@ tag:
 - netbsd
 - linux
 - networking
+- written-in-sydney
 ---
 Here's a simple, cross platform way (read: no bashisms) to find hosts on a range of IP addresses:
 

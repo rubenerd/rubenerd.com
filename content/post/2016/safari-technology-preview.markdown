@@ -3,11 +3,11 @@ title: "Safari Technology Preview"
 date: "2016-04-09T10:09:13+10:00"
 abstract: "Downloadable from the App Store now"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - browsers
 - safari
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/safari-300x300.png" alt="Safari Technology Preview icon" style="width:150px; height:150px; float:right; margin:0 0 20px 20px;" /></p>
 

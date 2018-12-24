@@ -2,11 +2,11 @@
 title: "Vim’s smart undo without saving changes"
 date: "2016-06-29T14:23:57+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - macvim
 - vim
+- written-in-sydney
 ---
 Vim keeps finding ways to surprise me, even after all these years. And yes emacsen, that's (generally) a positive! 
 

@@ -3,11 +3,11 @@ title: "Retail abuse"
 date: "2018-12-22T10:10:11+11:00"
 abstract: "Some nice people really aren’t."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - retail
 - shopping
+- written-in-sydney
 ---
 I had an epiphany this morning, in a free falling water conveyance.
 

@@ -1,16 +1,14 @@
 ---
 title: "This press release is excited!"
 date: "2017-05-19T11:36:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "So excited, they can't find a thesaurus!"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - advertising
 - language
 - press
+- written-in-sydney
 ---
 It really grates when press say they're excited to announce something, and it's almost always for something questionably exciting. [Mel agrees]:  
 

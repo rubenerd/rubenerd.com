@@ -1,14 +1,15 @@
 ---
 title: "Going from Vegetarian to Pescetarian"
 date: "2017-08-11T00:15:47+10:00"
+abstract: "The best way for me to live heathly at the moment."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- food
+- pescetarianism
+- vegetarianism
+- ethics
+- written-in-sydney
 ---
 On the almost two year anniversary Clara and I became vegetarians, we decided to start eating a little fish again, for a few reasons, but for only one that matters.
 

@@ -4,13 +4,13 @@ date: "2018-10-17T22:12:38+11:00"
 abstract: "The biggest city in Mauritius doesn’t look real!"
 thumb: "https://rubenerd.com/files/2018/male@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - colour
 - photos
 - travel
 - work
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/male@1x.jpg" srcset="https://rubenerd.com/files/2018/male@1x.jpg 1x, https://rubenerd.com/files/2018/male@2x.jpg 2x" alt="Aerial photo of Malé in Mauritius" style="width:500px; height:256px;" /></p>
 

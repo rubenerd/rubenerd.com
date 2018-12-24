@@ -1,15 +1,16 @@
 ---
-draft: true
 title: "Xen and KVM in 2017"
 date: "2017-09-14T10:14:21+10:00"
+abstract: "KVMs ascendency that seemed all but assured in 2014 hasn't been borne out."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- kvm
+- linux
+- virtualisation
+- vms
+- xen
+- written-in-sydney
 ---
 It's been interesting watching the classic Vi/Emacs-style battle between Xen and KVM, particularly in the last few years. Tech analysts and journalists were predicting a swing towards KVM; not surprising given the push from Red Hat and OpenStack.
 

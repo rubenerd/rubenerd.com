@@ -4,7 +4,6 @@ date: "2018-08-19T09:55:19+10:00"
 abstract: "Kyoto Holmes, Kakuriyo, and Isekai Izakaya"
 thumb: "https://rubenerd.com/files/2018/cover-kakyriyo@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - 2018-anime
@@ -13,6 +12,7 @@ tag:
 - kakuriyo
 - kyoto
 - kyoto-holmes
+- written-in-sydney
 ---
 Clara and I are watching three series this season; a first for us in a while on account of work and other commitments. But there's some quality right now, despite what the sniveling hipsters may say :).
 

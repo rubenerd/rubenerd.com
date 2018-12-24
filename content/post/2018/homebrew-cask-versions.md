@@ -1,16 +1,15 @@
 ---
 title: "homebrew-cask-versions"
 date: "2018-11-11T14:51:40+11:00"
-abstract: ""
-thumb: ""
+abstract: "Lets you install previous or beta versions of popular GUI tools."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - apple
 - homebrew
 - mac
 - package-managers
+- written-in-sydney
 ---
 homebrew-cask-versions lets you install previous or beta versions of popular GUI tools that aren't in mainline [homebrew cask].
 

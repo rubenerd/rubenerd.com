@@ -1,17 +1,15 @@
 ---
 title: "Disabling VyOS console devices"
 date: "2017-12-23T12:04:45+11:00"
-year: "2017"
-location: Sydney
 abstract: "As with everyting VyOS: don’t mess with it outside its state machine!"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - networking
 - cloud-computing
 - joviam
 - vyos
+- written-in-sydney
 ---
 <p style="font-style:italic">It’s December, so time to crack open the drafts vault and publish a post that never was. This was originally written in... December 2017!? Why did I already forget about it then?!</p>
 

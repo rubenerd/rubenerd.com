@@ -2,7 +2,6 @@
 title: "Force overwrite with cp"
 date: "2016-08-29T15:11:00+10:00"
 year: "2016"
-location: Sydney
 category: software
 tag:
 - bsd
@@ -10,6 +9,7 @@ tag:
 - guides
 - linux
 - netbsd
+- written-in-sydney
 ---
 Like any self-respecting engineer with butter fingers, I've taken out insurance in my bashrc by aliasing potentially destructive commands. -i asks me before clobbering a target, and -v enables verbose output:
 

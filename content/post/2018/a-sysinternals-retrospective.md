@@ -3,12 +3,12 @@ title: "A Sysinternals retrospective"
 date: "2018-10-27T19:02:07+11:00"
 abstract: "The tools Mark used to discover the Sony DRM rootkit."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - books
 - tools
 - windows
+- written-in-sydney
 ---
 I've got a blog post about Windows 7 tools coming up, but in the interim I learned something about [Sysinternals].
 

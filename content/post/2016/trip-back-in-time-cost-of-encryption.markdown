@@ -2,9 +2,8 @@
 title: "Trip back in time: cost of encryption"
 date: "2016-12-14T12:09:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
-tag: 
+tag:
 - old-drafts
 - encryption
 - privacy

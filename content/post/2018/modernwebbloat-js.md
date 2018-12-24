@@ -3,13 +3,13 @@ title: "ModernWebBloat.js"
 date: "2018-08-15T12:01:05+10:00"
 abstract: "Imagine, if you can, a smaller version of the web."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - design
 - javascript
 - privacy
 - usability
+- written-in-sydney
 ---
 [tedu's description] of the modern web—in the context of his miniwebproxy client—is beautiful:
 

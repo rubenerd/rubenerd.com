@@ -3,12 +3,12 @@ title: "Not having an opinion"
 date: "2018-10-20T08:20:10+11:00"
 abstract: "Or morally defending not having facts to inform one."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
 - philosophy
 - religion
+- written-in-sydney
 ---
 My new year's goal last year was to not have an opinion on everything. It sounds wishy washy, but in 2018 it's a hard position to defend, especially on social media. Your lack of a visceral or positive response to a hot button issue, news story, or controversy, is somehow construed as endorsement.
 

@@ -2,7 +2,6 @@
 title: "Confluence as a family wiki"
 date: "2016-08-05T22:55:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - atlassian
@@ -10,6 +9,7 @@ tag:
 - guides
 - postgresql
 - wikis
+- written-in-sydney
 ---
 Clara and I have been wanting to run a wiki for years to collaborate on projects. We decided to try Atlassian Confluence, mostly because we use it everyday elsewhere and want to keep things simple. I'll also likely be administering it in the future, and wanted to get some experience.
 

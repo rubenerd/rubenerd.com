@@ -1,17 +1,15 @@
 ---
 title: "Irredentism"
 date: "2017-09-24T16:42:20+10:00"
-year: "2017"
-location: Sydney
 abstract: "... is any political or popular movement intended to reclaim an area considered lost."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - korea
 - politics
 - wikipedia
 - words
+- written-in-sydney
 ---
 I learned a new word today, [from Wikipedia]:
 

@@ -3,11 +3,11 @@ title: "Finding outdated homebrews"
 date: "2018-07-01T14:04:25-07:00"
 abstract: "Using the outdated command, surprising though it may seem."
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california2018
 - mac
+- written-in-san-francisco
 ---
 We have a few different ways to [check for outdated ports] on FreeBSD. [Homebrew] on macOS has a useful `outdated` command:
 

@@ -2,12 +2,12 @@
 title: "Latest @humblebooks bundle: Science fiction by real scientists"
 date: "2016-09-21T13:40:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - books
 - scifi
 - science
+- written-in-sydney
 ---
 If you want some really wonderful, hard science fiction written by real scientists, you have about seven days left to grab the latest [Humble Book Bundle]. I was already a fan of Stephen Webb, but there are dozens of authors with topics ranging from space exploration to medical science and engineering.
 

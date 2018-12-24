@@ -1,13 +1,19 @@
 ---
 title: "rsvg-convert svg to png"
 date: "2018-06-09T19:26:41+10:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "The easiest way to do it from the shell."
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Software
 tag:
-- 
+- bsd
+- debian
+- freebsd
+- graphics
+- guides
+- linux
+- netbsd
+- png
+- written-in-sydney
 ---
 There are a few ways to convert an SVG to a PNG without leaving the shell, including \*Magick and Inkscape, but I find rsvg-convert the easiest. 
 

@@ -4,7 +4,6 @@ date: "2018-10-01T08:08:07+10:00"
 abstract: "I remember going there as a kid!"
 thumb: "https://rubenerd.com/files/2018/starbucks-chermside@1x.png"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - 1990s
@@ -14,6 +13,7 @@ tag:
 - nostalgia
 - starbucks
 - wifi
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/starbucks-chermside@1x.png" srcset="https://rubenerd.com/files/2018/starbucks-chermside@1x.png 1x, https://rubenerd.com/files/2018/starbucks-chermside@2x.png 2x" alt="Starbucks Wi-Fi login screen with Chermside listed" style="width:500px; height:296px;" /></p>
 

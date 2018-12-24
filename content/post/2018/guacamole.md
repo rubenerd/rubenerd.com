@@ -4,12 +4,12 @@ date: "2018-07-11T00:11:46-07:00"
 abstract: "Celery is great in it, don’t listen to people without taste."
 thumb: "https://rubenerd.com/files/2018/avocado_icon.svg"
 year: "2018"
-location: Los-Angeles
 category: Thoughts
 tag:
 - california2018
 - family
 - food
+- written-in-los-angeles
 ---
 This is my first blog post from Los Angeles! Though the topic in question is perhaps only tangentially related to the place. Like a protractor. Clara found a soft toy protractor in Little Tokyo and came *this close* to buying it.
 

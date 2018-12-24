@@ -3,12 +3,12 @@ title: "youtube-dl through a proxy"
 abstract: "Or downloading YouTube videos you can’t view in your country"
 date: "2016-11-27T11:10:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - guides
 - ssh
 - youtube
+- written-in-sydney
 ---
 If you have access to an SSH box in a different region, you can use it as a SOCKS proxy to download YouTube videos with [youtube-dl] you can't view in your own country.
 

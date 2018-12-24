@@ -3,7 +3,6 @@ title: "The 80586 Pentium"
 date: "2018-12-20T14:03:05+11:00"
 abstract: "To celebrate 586 pages."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - cpus
@@ -11,6 +10,7 @@ tag:
 - pentium
 - nostalgia
 - vintage-computing
+- written-in-sydney
 ---
 *Rubenerd* has reached 586 pages. The 80586 was Intel's fifth generation CPU architecture, and the first to be given a name after they lost their case to trademark numbers.
 

@@ -3,7 +3,6 @@ title: "Fate/Grand Phone Case"
 abstract: "Or far too much detail on choosing a backup iPhone 6 case"
 date: "2016-11-23T11:23:00+10:00"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - fate
@@ -11,6 +10,7 @@ tag:
 - mobile-games
 - shielder
 - type-moon
+- written-in-sydney
 ---
 I've been using one of Apple's "Smart Battery Cases" for about a year now. They're a single colour, boring, and make your pocket bulge in a way that implies excitement, but the tactile feel and otherwise ungainly ridge on the back make the otherwise slippery iPhone surprisingly ergonomic.
 

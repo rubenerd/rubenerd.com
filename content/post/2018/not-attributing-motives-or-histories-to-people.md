@@ -3,13 +3,12 @@ title: "Not attributing motives or histories to people"
 date: "2018-01-09T08:55:38+11:00"
 abstract: "Everyone has circumstances that lead them to do things."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
 - pontificating
 - philosophy
-- postaday2018
+- written-in-sydney
 ---
 I didn't mention it in my [welcome to 2018] post, but another goal I had for this year was to try to stop attributing motives or histories to people I don't know. It was informed by a couple of incidents Clara and I had with random people last year:
 

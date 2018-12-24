@@ -2,14 +2,13 @@
 title: "Respect for sex education"
 date: "2018-05-18T10:59:18+10:00"
 abstract: "What about respect for sexual health?"
-thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - health
 - sex
+- written-in-sydney
 ---
 Michael Koziol reported on [this suppository of wisdom] in the Sydney Morning Herald on Monday:
 

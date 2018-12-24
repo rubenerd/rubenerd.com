@@ -3,12 +3,12 @@ title: "The 2015 Toffee Nut Latte"
 date: "2015-11-26T10:16:00+10:00"
 abstract: "Starbucks still haven’t discontinued them!"
 year: "2015"
-location: Sydney
 category: Thoughts
 tag:
 - coffee
 - holidays
 - yuletide
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/starbucksxmas2015.jpg" alt="The Starbucks Xmas drink line" style="width:500px; height:250px;" /></p>
 

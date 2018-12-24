@@ -3,11 +3,11 @@ title: "Communicating isn’t just stating facts"
 date: "2018-08-21T13:53:08+10:00"
 abstract: "It is about expressing things that are accurate in a way that the other party will understand."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - comments
 - interpersonal
+- written-in-sydney
 ---
 [This answer] on by *Upper_Case* appeared in the Hot Network Questions sidebar on StackExchange:
 

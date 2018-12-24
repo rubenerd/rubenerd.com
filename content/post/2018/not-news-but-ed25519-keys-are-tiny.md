@@ -3,7 +3,6 @@ title: "Not news, but ed25519 keys are tiny"
 date: "2018-11-26T08:13:03+11:00"
 abstract: "We’re almost in memorisation territory"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -15,6 +14,7 @@ tag:
 - openssh
 - security
 - ssh
+- written-in-sydney
 ---
 I owe a significant proportion of my livelihood and personal life to OpenSSH. You likely do too, perhaps without even knowing it. It makes me think where more donation dollars should be going.
 
@@ -46,5 +46,6 @@ As an aside, the ASCII art for that throwaway key was also oddly interesting. My
     | .o = +.o o.     |
     |.o+= + ... +..   |
     | ++o. ..  .o=    |
-    +----[SHA256]-----+
+- written-in-sydney
+---
 

@@ -4,12 +4,12 @@ date: "2018-11-12T10:36:18+11:00"
 abstract: "Everything about this is beautiful."
 thumb: "https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - japanese
 - music
 - music-monday
+- written-in-sydney
 ---
 <p><a href=https://www.youtube.com/watch?v=_4BLiOP1aaY title="Play BUMP OF CHICKEN「ray」"><img src="https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@1x.jpg 1x, https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@2x.jpg 2x" alt="Play BUMP OF CHICKEN「ray」" style="width:500px;height:281px;" /></a>
 

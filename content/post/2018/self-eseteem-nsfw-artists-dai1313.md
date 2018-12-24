@@ -4,7 +4,6 @@ date: "2018-07-15T11:19:42-07:00"
 abstract: "A Twitter discussion that deserves a proper post"
 thumb: "https://rubenerd.com/files/2018/fkey123@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Anime
 tag:
 - art
@@ -12,6 +11,7 @@ tag:
 - california2018
 - comments
 - feedback
+- written-in-san-francisco
 ---
 A Twitter thread made me think about a ton of things I've been trying to reconcile for a while, which deserved a proper blog post while I sit at this San Franciscan coffee shop like a good little hipster nerd.
 

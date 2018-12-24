@@ -3,11 +3,11 @@ title: "That rising temperature bet"
 date: "2018-10-21T14:16:51+11:00"
 abstract: "Surprisingly, climate skeptics didn’t honour the bet!"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - climate-change
 - science
+- written-in-sydney
 ---
 James Annan of the Japan Agency for Marine-Earth Science and Technology in Yokohama [placed a bet in 2005] with two climate skeptics. If temperatures fell by this year, he would pay solar physicists Galina Mashnich and Vladimir Bashkirtsev $10,000, and vica versa.
 

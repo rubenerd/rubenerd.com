@@ -2,11 +2,11 @@
 title: "Moving from del.ici.ous to Pinboard"
 date: "2016-09-14T11:43:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - delicious
 - pinboard
+- written-in-sydney
 ---
 Changing habits, and services you once loved dearly, are hard. But I’ve been using a Pinboard for a few days now, and it's so much better I'm regretting not switching sooner. You'd never guess the [terrible username] I chose!
 

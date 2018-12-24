@@ -1,16 +1,14 @@
 ---
 title: "Sydney house prices in 2017"
 date: "2017-06-09T08:47:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Just move to Gosford!"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - sydney
 - housing
+- written-in-sydney
 ---
 Worried you're priced out of the Sydney housing market? [Domain has the goods]\:
 

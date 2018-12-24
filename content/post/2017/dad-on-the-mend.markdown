@@ -1,15 +1,13 @@
 ---
 title: "Dad on the mend"
 date: "2017-02-26T23:05:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "We almost had an even smaller family, but he's recovering well."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - family
 - personal
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/dadme@1x.jpg" alt="Dad and me in 2008" style="width:500px; height:375px;" srcset="https://rubenerd.com/files/2017/dadme@1x.jpg 1x, https://rubenerd.com/files/2017/dadme@2x.jpg 2x" /></p>
 

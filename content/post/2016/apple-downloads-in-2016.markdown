@@ -3,13 +3,13 @@ title: "Mac downloads in 2016"
 abstract: "Everything Mac has been neglected, even site pages"
 date: "2016-10-27T12:18:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - mac-os-x
 - macos
 - os-x
+- written-in-sydney
 ---
 Apple is announcing their long-overdue Mac updates today; at least in US time. I'm still jetlagged from the switchover myself, those people over there need to get with the times.
 

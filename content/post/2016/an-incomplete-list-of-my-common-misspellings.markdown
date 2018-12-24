@@ -2,10 +2,10 @@
 title: "An incomplete list of my common misspellings"
 date: "2016-08-05T16:56:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - spelling
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/tohsaka.zettai.png" srcset="https://rubenerd.com/files/2016/tohsaka.zettai.png 1x, https://rubenerd.com/files/2016/tohsaka.zettai@2x.png 2x" alt="" style="height:290px; width:192px; float:right; margin:0 0 10px 10px" /></p>
 

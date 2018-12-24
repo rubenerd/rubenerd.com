@@ -1,16 +1,14 @@
 ---
 title: "Where oil rigs go to die"
 date: "2017-05-09T13:35:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "This article in The Guardian is amazing"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - environment
 - journalism
 - news
+- written-in-sydney
 ---
 [This article by Tom Lamont in The Guardian] is one of the finest pieces of long form journalism I've read in a long time. Here's a taste:
 

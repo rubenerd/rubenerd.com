@@ -3,14 +3,13 @@ title: "The Intercity-Scala"
 date: "2018-01-16T22:06:45+11:00"
 abstract: "Or when I looked at the cover of a Scala book, and saw a train."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - scala
 - trains
 - switzerland
 - europe
-- postaday2018
+- written-in-sydney
 ---
 When I saw [this book cover], my first thought was what train was depicted. Not to get all Merlin Mann on you, but *turns out* it's the *SBB-CFF-FFS RABDe 500*, a Swiss tilting train that tilts. At least part of that sentence was superfluous, much like this entire one. And this one.
 

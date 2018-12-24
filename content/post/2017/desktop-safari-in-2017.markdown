@@ -1,11 +1,8 @@
 ---
 title: "Safari in 2017"
-year: "2017"
-location: Sydney
-abstract: "It's getting closer to being usable"
 date: "2017-03-15T16:28:00+10:00"
+abstract: "It's getting closer to being usable"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - browsers
@@ -14,6 +11,7 @@ tag:
 - os-x
 - reviews
 - safari
+- written-in-sydney
 ---
 I used Safari as my default browser [for a week in 2015], but went back to Firefox. I wondered if much had changed in the intervening time, so I tried again.
 

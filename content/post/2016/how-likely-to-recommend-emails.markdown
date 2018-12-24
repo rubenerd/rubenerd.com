@@ -2,12 +2,12 @@
 title: "How likely to recommend emails"
 date: "2016-06-15T13:21:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - email
 - newsletters
 - spam
+- written-in-sydney
 ---
 I've seen a rise in emails that follow this formula:
 

@@ -3,12 +3,12 @@ title: "Scrolling to get to content"
 date: "2018-07-14T15:18:45-07:00"
 abstract: "It took two full spacebar hits to reach the text on a site"
 year: "2018"
-location: San-Francisco
 category: Internet
 tag:
 - accessibility
 - california2018
 - design
+- written-in-san-francisco
 ---
 Why does it take so long to scroll to the content of a contemporary site in 2018? Take [this otherwise great post] from *The Outline*. It takes about 1,300 pixels, or two hits of the spacebar on this MacBook, to reach the text of the post we've all come to read.
 

@@ -1,13 +1,12 @@
 ---
-draft: true
 title: "Vivaldi"
 date: "2016-06-06T11:51:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - browsers
 - vivaldi
+- written-in-sydney
 ---
 I’ve been a Firefox (ne Phoenix) and Camino user since the early 2000s. No browser before or since matched its flexibility, plugin library and community.
 
@@ -27,5 +26,5 @@ Then I tried Vivaldi, and within a few minutes I knew I was using something spec
 
 * One-click image disabling in the aforementioned status bar, so one can use expensive and slow Australian mobile internet.
 
-:wq
+I'm impressed.
 

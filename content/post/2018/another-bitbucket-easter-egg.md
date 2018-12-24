@@ -3,7 +3,6 @@ title: "Another Bitbucket easter egg"
 date: "2018-06-19T11:38:45-07:00"
 abstract: "Positive sentiment :)"
 year: "2018"
-location: San-Francisco
 category: Internet
 tag:
 - atlassian
@@ -11,6 +10,7 @@ tag:
 - bitbucket
 - california2018
 - git
+- written-in-san-francisco
 ---
 They're a bit more detailed now than the [message I saw in 2015]!
 

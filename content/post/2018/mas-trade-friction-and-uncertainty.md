@@ -3,13 +3,13 @@ title: "MAS: trade friction and uncertainty"
 date: "2018-10-12T13:33:42+11:00"
 abstract: "Mr Orange making the world great again."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - economics
 - finance
 - singapore
 - united-states
+- written-in-sydney
 ---
 The Monetary Authority of Singapore released its [2019 Monetary Policy Statement]. From section 6:
 

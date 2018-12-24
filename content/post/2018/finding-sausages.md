@@ -1,13 +1,16 @@
 ---
 title: "Finding sausages"
 date: "2018-06-03T10:39:14+10:00"
-abstract: "This made my morning"
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "This made my morning."
+thumb: "https://rubenerd.com/files/2018/reuters-dog.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
+- aviation
+- travel
 - memes
+- transit
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/reuters-dog.jpg" alt="Photo of a dog under the caption: UK airport sniffer dogs good at finding sausages, but not drugs" style="width:270px; height:255px;" /></p>
 

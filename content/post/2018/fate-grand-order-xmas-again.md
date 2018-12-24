@@ -4,7 +4,6 @@ date: "2018-11-22T21:50:01+11:00"
 abstract: "You'd like that trumpet? Some things are annoying because we can't have them."
 thumb: "https://rubenerd.com/files/2018/fgo-xmas-advice@1x.jpg"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - fate
@@ -12,6 +11,7 @@ tag:
 - games
 - mobile-games
 - type-moon
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fgo-xmas-mash@1x.jpg" srcset="https://rubenerd.com/files/2018/fgo-xmas-mash@1x.jpg 1x, https://rubenerd.com/files/2018/fgo-xmas-mash@2x.jpg 2x" alt="Mash, saying: I must say, Senpai, it's a great day for gift-giving – and Chaldea is in Christmas mode!" style="width:500px; height:281px;" /></p>
 

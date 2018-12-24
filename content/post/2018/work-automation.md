@@ -3,11 +3,11 @@ title: "Work automation"
 date: "2018-11-08T23:04:07+11:00"
 abstract: "Never read the comments, but if you do, these are common responses."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - economics
 - work
+- written-in-sydney
 ---
 Never read comments. But if you do, these are the most common responses to articles about work automation:
 

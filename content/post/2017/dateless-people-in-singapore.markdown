@@ -1,19 +1,20 @@
 ---
 title: "Lonely people in Singapore"
 date: "2017-07-09T10:19:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "This news report is sad, but unsurprising"
 year: "2017"
-location: Sydney
 category: Thoughts
+tag:
+- education
+- society
+- singapore
+- written-in-sydney
 ---
 Channel News Asia [shared some unsurprising stats]\:
 
 > Nearly half of singles in Singapore have not dated seriously before, although most wanted to get married in the future, according to the results of a study published on Saturday (Jul 8).
 > 
 > Commissioned by the National Population and Talent Division (NPTD), the Marriage and Parenthood study aims to understand public attitudes and perceptions towards marriage and parenthood. The recent study polled 2,940 single and 2,861 married Singapore residents aged 21 to 45 years old between August and December last year.
-
 
 I can empathise; I had my first girlfriend when I was 27. I believe the term is "late bloomer", and it was entirely due to shyness. This is distinct from "late boomer" who's more likely to complain that millennials have it easy because avocados.
 

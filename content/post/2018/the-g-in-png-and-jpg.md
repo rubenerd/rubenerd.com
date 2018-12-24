@@ -2,15 +2,14 @@
 title: "The G in PNG and JPG"
 date: "2018-10-05T10:02:56+10:00"
 abstract: "They both end with G, but for different reasons."
-thumb: ""
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - abbreviations
 - graphics
 - language
 - photography
+- written-in-sydney
 ---
 I had a series of shower thoughts this morning, in the shower no less. Or would it be no fewer, given I have a known quantity of showers?
 

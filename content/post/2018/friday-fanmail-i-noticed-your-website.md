@@ -3,12 +3,12 @@ title: "Friday fanmail: I noticed your website"
 date: "2018-03-23T14:43:34+11:00"
 abstract: "Let’s see if they really are!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - spam
 - email
 - friday-fanmail
+- written-in-sydney
 ---
 Friday fanmail! Each and every Friday, except when I don't, I post some of the fanmail I receive from my fans of the blog, so we may all share in their enthusiasm. Today is some fairly generic SEO spam:
 

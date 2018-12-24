@@ -1,15 +1,13 @@
 ---
 title: "The state of the Mac"
-year: "2017"
-location: Sydney
-abstract: "I don't mean to pile on, but it's getting pretty ridiculous."
 date: "2017-01-22T15:38:00+10:00"
+abstract: "I don't mean to pile on, but it's getting pretty ridiculous."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - mac
+- written-in-sydney
 ---
 2016 was a rough year for so many people, in so many parts of the world, that even by my own narrow definition of news on *Rubénerd* I feel a little indulgent discussing this. I also hate to pile on, and voice what increasingly sounds like a doomsday scenario.
 

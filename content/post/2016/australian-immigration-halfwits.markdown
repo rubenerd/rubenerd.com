@@ -3,11 +3,11 @@ title: "Australia's immigration dimwits"
 date: "2016-12-01T10:38:00+10:00"
 abstract: "From October 2016: Who needs compassion and the rule of law when you can just lock people up indefinitely?"
 year: "2016"
-location: Sydney
 category: thoughts
 tag:
 - australia
 - politics
+- written-in-sydney
 ---
 <p style="font-style:italic">I'm clearing out my burgeoning drafts folder before the end of the year. This was written in October 2016, and almost not published because of how angry I got. In light of recent protests which were dismissed by the Government and "opposition" as being against democracy, this seemed precient.</p>
 

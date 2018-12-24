@@ -2,12 +2,12 @@
 title: "Blank iTunes apps column"
 date: "2016-09-26T07:45:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - apple
 - guides
 - itunes
+- written-in-sydney
 ---
 I'm one of those weird people who still syncs his phone with iTunes. In fact I remember when doing so was one of the primary motivations for getting an iPhone; third party sync software on Mac was pretty awful once Palm Desktop stopped being maintained.
 

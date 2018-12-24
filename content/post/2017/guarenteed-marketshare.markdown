@@ -1,16 +1,14 @@
 ---
 title: "Guarenteed market share"
 date: "2017-03-17T11:31:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Or lack thereof for Microsoft in 2017"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - business
 - microsoft
 - windows
+- written-in-sydney
 ---
 Galen Gruman wrote [this interesting tidbit] at the end of a CIO review for Microsoft Teams:
 

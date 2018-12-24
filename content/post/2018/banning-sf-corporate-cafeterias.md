@@ -4,13 +4,13 @@ date: "2018-08-03T16:54:25+10:00"
 abstract: "An interesting thought experiment, with cliche comments!"
 thumb: "https://rubenerd.com/files/2018/sf-financialdist@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - economics
 - san-francisco
 - travel
 - united-states
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sf-financialdist@1x.jpg" srcset="https://rubenerd.com/files/2018/sf-financialdist@1x.jpg 1x, https://rubenerd.com/files/2018/sf-financialdist@2x.jpg 2x" alt="Market Strret in San Francisco" style="width:500px; height:333px;" /></p>
 

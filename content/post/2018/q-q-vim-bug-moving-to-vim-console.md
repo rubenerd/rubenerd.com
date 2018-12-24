@@ -3,7 +3,6 @@ title: "$q q Vim bug, and moving to vim-console"
 date: "2018-05-03T08:38:02+10:00"
 abstract: "When a mild irritation finally warranted further investigation!"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -12,6 +11,7 @@ tag:
 - pkgng
 - gvim
 - vim
+- written-in-sydney
 ---
 I had this weird Vim bug on a couple of FreeBSD box I maintain. The last line would always be partially clobbered with these characters when opening a file, or would be added to a new buffer:
 
@@ -41,7 +41,8 @@ Weird! Checking all available vim ports:
 Checking [vim-console in Freshports], the tireless maintainer adamw@ committed this change on the 11th of January:
 
 > Rename editors/vim-lite to editors/vim-console. The vim-console port isn't
-actually any lighter---it's built with exactly the same feature-set as
+- written-in-sydney
+---
 the main vim port. The only difference is lack of gtk20 GUI, and the
 language bindings are off by default.
 

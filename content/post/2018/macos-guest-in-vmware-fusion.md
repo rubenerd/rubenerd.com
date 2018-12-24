@@ -3,13 +3,13 @@ title: "macOS guest in VMware Fusion"
 date: "2018-11-21T08:40:39+11:00"
 abstract: "They have steps to do it"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - apple
 - macos
 - virtualisation
 - vmware-fusion
+- written-in-sydney
 ---
 You can legally run macOS 10.12 in a virtual machine, provided the hypervisor is itself a Mac. The suggested approach is to use the Recovery Partition on your Mac as the basis for a new macOS virtual machine in VMware Fusion, but this never worked for me.
 

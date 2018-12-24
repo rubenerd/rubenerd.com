@@ -1,14 +1,13 @@
 ---
-draft: true
 title: "Here's looking at you, Facebook"
 date: "2016-09-26T16:43:00+10:00"
 abstract: "I give up, time to start posting there too"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - facebook
 - fb
+- written-in-sydney
 ---
 I used to hate Facebook. It's blatant intrusiveness and downright creepiness (Mark invented it to get girls' phone numbers) were more of a stick than the perceived carrot. I've since come out of my cave, felt the sunlight singe my pasty skin, and realise that if I want to be a part of the twenty first century, I should probably use it.
 

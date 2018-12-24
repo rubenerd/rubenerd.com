@@ -1,11 +1,8 @@
 ---
 title: "Amagi Brilliant Park #01"
 date: "2017-09-03T22:46:15+10:00"
-year: "2017"
-location: Sydney
 abstract: "Catching up on the Kyoani shows I missed, here’s one from 2014"
 year: "2017"
-location: Sydney
 category: Anime
 tag:
 - 2014-anime
@@ -15,6 +12,7 @@ tag:
 - kyoto
 - kyoto-animation
 - travel
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/anime-abp01-02@1x.jpg" alt="" style="width:500px; height:281px" srcset="https://rubenerd.com/files/2017/anime-abp01-02@1x.jpg 1x, https://rubenerd.com/files/2017/anime-abp01-02@2x.jpg 2x" /></p>
 

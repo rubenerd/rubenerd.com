@@ -1,18 +1,16 @@
 ---
-title: "The Rubénerd Show is back on iTunes"
+title: "The Rubenerd Show is back on iTunes"
 date: "2017-05-11T11:01:00+10:00"
+abstract: "Thanks to Apple for their help."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Media
 tag:
 - apple
 - itunes
 - podcasting
+- written-in-sydney
 ---
-Many of you repoted issues accessing the *[Rubénerd Show]* earlier this year. Overnightscape Underground [master feed] subscribers were fine, but iTunes was returning this erroneous error when people were accessing this show directly in iTunes:
+Many of you repoted issues accessing the *[Rubenerd Show]* earlier this year. Overnightscape Underground [master feed] subscribers were fine, but iTunes was returning this erroneous error when people were accessing this show directly in iTunes:
 
 > "Item Not Available: The item you've requested is not currently
 > available in the Singapore/[Country] Store, but it is available

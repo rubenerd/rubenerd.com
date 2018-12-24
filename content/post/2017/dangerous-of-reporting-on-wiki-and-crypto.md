@@ -1,17 +1,15 @@
 ---
 title: "Dangerous of reporting on “wiki” and “crypto”"
 date: "2017-12-01T10:21:51+11:00"
-year: "2017"
-location: Sydney
 abstract: "Please report on Wikipedia and digital currencies responsibility"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - wikipedia
 - wikileaks
 - digital-currencies
 - bitcoin
+- written-in-sydney
 ---
 <p style="font-style:italic"><strong>2018 Update:</strong> This should have been titled <strong>Dangers</strong> not <strong>Dangerous</strong>. But I've already got this cross posted with its incorrect permalink and title everywhere. Lesson learned, don’t chide reporters when you can’t grammar yourself!</p>
 

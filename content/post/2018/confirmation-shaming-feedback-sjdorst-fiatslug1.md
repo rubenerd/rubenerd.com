@@ -3,11 +3,11 @@ title: "Confirmation shaming feedback from @sjdorst, @FiatSlug1"
 date: "2018-10-25T16:38:18+11:00"
 abstract: "Time to not give bad businesses our attention or money."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - dark-patterns
 - feedback
+- written-in-sydney
 ---
 I got some feedback from my [confirmation shaming] post. [Steven Dorst]\:
 

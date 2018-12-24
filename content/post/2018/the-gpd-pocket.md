@@ -4,7 +4,6 @@ date: "2018-03-24T10:20:11+11:00"
 abstract: "It’s the first laptop to follow in the footsteps of the Toshiba Libretto"
 thumb: "https://rubenerd.com/files/2018/gpd-xubuntu@2x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - bsd
@@ -13,7 +12,7 @@ tag:
 - xubuntu
 - gpdpocket
 - reviews
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gpd-libretto@1x.jpg" srcset="https://rubenerd.com/files/2018/gpd-libretto@1x.jpg 1x, https://rubenerd.com/files/2018/gpd-libretto@2x.jpg 2x" alt="My Libretto 70CT and GPD Pocket" style="width:500px; height:375px;" /></p>
 

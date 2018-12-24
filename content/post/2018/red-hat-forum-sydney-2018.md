@@ -4,7 +4,6 @@ date: "2018-11-21T22:31:36+11:00"
 abstract: "The Multicloud, and Ansible at scale."
 thumb: "https://rubenerd.com/files/2018/redhatforum2018-ansible@1x.jpg"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - australia
@@ -14,6 +13,7 @@ tag:
 - red-hat
 - sydney
 - work
+- written-in-sydney
 ---
 I was able to steal away some work time and go to the Red Hat Forum 2018 in Sydney. Even for a FreeBSD guy these conferences always have great talks. Conveniently, my two favourites were back to back in the same hall this year.
 

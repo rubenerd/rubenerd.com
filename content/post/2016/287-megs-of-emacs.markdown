@@ -2,11 +2,11 @@
 title: "287 megabytes of Emacs"
 date: "2016-09-30T09:49:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - emacs
 - vim
+- written-in-sydney
 ---
 This 11" MacBook Air is still an incredible machine for its size, though its aging 60GB SSD is getting a bit long in the tooth. While I decide what to replace it with, I've been trying to scrounge enough space to live on. 
 

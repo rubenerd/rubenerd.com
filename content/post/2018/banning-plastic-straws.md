@@ -3,12 +3,12 @@ title: "A straw-man argument on plastic"
 date: "2018-08-16T10:59:47+10:00"
 abstract: "There are worse issues, so we shouldn’t care?"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - environment
 - news
 - science
+- written-in-sydney
 ---
 Science journalists I respect are forwarding stories critical of plastic straw bans. The only redeeming fact was a delightful *grasping for straws* headline. They follow the same, predictable tick-tock news cycle; take an issue people are advocating for, then come up with a hot take saying why it's wrong. *Click click!*
 

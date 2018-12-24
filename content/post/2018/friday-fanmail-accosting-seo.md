@@ -3,11 +3,11 @@ title: "Friday Fanmail: Accosting SEO"
 date: "2018-10-12T08:32:02+11:00"
 abstract: "They've been accosting and collaborating!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - friday-fanmail
 - spam
+- written-in-sydney
 ---
 [Friday Fanmail] time! Each and every Friday, sometimes, I post some email from a fan such that we can all bask in their positive words.
 

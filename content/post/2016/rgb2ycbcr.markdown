@@ -2,7 +2,6 @@
 title: "rgb2ycbcr and rgrep"
 date: "2016-09-05T08:41:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -13,6 +12,7 @@ tag:
 - netbsd
 - os-x
 - serendipity
+- written-in-sydney
 ---
 I was trying to tab complete `rgrep`, but got this command instead. From its man(1) page:
 

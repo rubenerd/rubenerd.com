@@ -3,13 +3,13 @@ title: "Feather preening"
 date: "2018-10-08T08:41:38+11:00"
 abstract: "Yeah, well, that’s just your opinion!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - cafes
 - coffee
 - security
 - wifi
+- written-in-sydney
 ---
 Sitting in a coffee shop, listening to two computer nerds preening their feathers at each other. It's not so much eavesdropping, because they're practically shouting with the most stereotypically-nasal voices you can imagine!
 

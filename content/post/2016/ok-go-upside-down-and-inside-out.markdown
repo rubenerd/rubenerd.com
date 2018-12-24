@@ -2,12 +2,12 @@
 title: "OK Go: Upside Down & Inside Out"
 date: "2016-05-12T10:30:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - colour
 - music
 - music-videos
+- written-in-sydney
 ---
 This is one of the [greatest music videos] I’ve ever seen.
 

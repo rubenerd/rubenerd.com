@@ -2,11 +2,11 @@
 title: 'Default servers in nginx' 
 date: "2014-08-25T04:40:06+10:00"
 year: "2014"
-location: Sydney
 category: Internet
 tag:
 - guide
 - nginx 
+- written-in-sydney
 ---
 <p>Apache served me well from my teens till lighttpd, then in the last year I’ve moved all my own stuff to nginx. If you come from the perspective of someone learning to configure a webserver from scratch (without preconceived notions of how they should be configured from Apache), its rather lovely to configure and use.</p>
 <p>The cloud instance that runs this site also serves several others, so I have a series of virtual hosts, to borrow a term from Apache. Each domain has its own configuration within sites-available, then the servers I want active are symlinked into sites-enabled.</p>

@@ -3,11 +3,11 @@ title: "A new type of blog referral spam"
 date: "2018-11-04T10:02:36+11:00"
 abstract: "I noticed you shared this thing that's gone, link to us instead!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - digital-dark-age
 - spam
+- written-in-sydney
 ---
 If you've been blogging for a reasonable length of time, there's a fair to strong chance that websites you've linked to no longer exist. There's a wider question about the implications of this, but that's for a future post.
 

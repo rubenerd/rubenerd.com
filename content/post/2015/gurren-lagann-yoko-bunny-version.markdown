@@ -3,7 +3,6 @@ title: "Gurren Lagann Yoko bunny figure"
 date: "2015-12-31T22:00:00+10:00"
 abstract: "FREEing are releasing all the GAINAX characters!"
 year: "2015"
-location: Sydney
 category: anime
 tag:
 - 2008-anime
@@ -11,6 +10,7 @@ tag:
 - freeing
 - gurren-lagann
 - reviews
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/yokobunnyfig.jpg" alt="Yoko from Gurren Lagann in her new bunny attire" style="width:450px" /></p>
 

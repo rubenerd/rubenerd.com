@@ -1,13 +1,16 @@
 ---
 title: "Disabling Hyper-Threading for Spectre"
 date: "2018-08-27T17:24:28+10:00"
-abstract: ""
-thumb: ""
+abstract: "We’re dealing with this at work right now, fun times."
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Hardware
 tag:
-- 
+- cpus
+- hyperthreading
+- intel
+- meltdown
+- spectre
+- written-in-sydney
 ---
 It's too early to tell what the broad performance impact of the latest Spectre mitigations will be, but so far it's clear as mud. [Thomas Claburn wrote this] for The Register:
 

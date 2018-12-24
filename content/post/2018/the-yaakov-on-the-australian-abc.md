@@ -3,13 +3,13 @@ title: "The @yaakov_h on the Australian ABC"
 date: "2018-06-21T11:06:36-07:00"
 abstract: "Whoops!"
 year: "2018"
-location: San-Francisco
 category: Media
 tag:
 - australia
 - california2018
 - comments
 - news 
+- written-in-san-francisco
 ---
 The [imitable @yaakov_h] on Twitter, who's avatar is far handsomer than mine, rendered this observation of my recent [Australian ABC] post:
 

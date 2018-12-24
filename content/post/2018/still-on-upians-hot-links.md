@@ -3,11 +3,10 @@ title: "Still on Upian’s Hot Links!"
 date: "2018-02-07T08:12:59+11:00"
 abstract: "A site that still exists after a decade!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - nostalgia
-- postaday2018
+- written-in-sydney
 ---
 I've come to terms with the fact most sites I've linked to since this blog's inception in 2004 no longer exist, or 404 on newer versions of their sites. Ditto my [Pinboard] \(n.e. [del.icio.us]\). The Dark Web is real, and its a bit terrifying.
 

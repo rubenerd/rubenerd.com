@@ -4,13 +4,13 @@ date: "2018-10-28T17:15:51+11:00"
 abstract: "The most amazing dashboards I’ve ever seen."
 thumb: "https://rubenerd.com/files/2018/lagonda-instruments@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - cars
 - design
 - nostalgia
 - transit
+- written-in-sydney
 ---
 I don't know much about cars, have little desire to own and operate one, and lobby against road infrastructure coming at the expense of public transport. But I can appreciate them as works of design.
 

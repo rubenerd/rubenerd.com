@@ -3,11 +3,11 @@ title: "Interconnection is Key to Digital Transformation"
 date: "2018-12-11T16:55:38+11:00"
 abstract: "I have no idea what this means."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - advertising
 - marketing 
+- written-in-sydney
 ---
 I read this on a company website, name withheld:
 

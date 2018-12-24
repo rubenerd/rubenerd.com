@@ -4,12 +4,12 @@ date: "2018-08-05T20:38:15+10:00"
 abstract: "The 18th album of the world’s greatest singer/songwriter!"
 thumb: "https://rubenerd.com/files/2018/michaelfranks-aslong@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - jazz
 - michael-franks
 - music
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/michaelfranks-aslong@1x.jpg" srcset="https://rubenerd.com/files/2018/michaelfranks-aslong@2x.jpg 1x, https://rubenerd.com/files/2018/michaelfranks-aslong@2x.jpg 2x" alt="Album cover" style="width:310px; height:276px;" /></p>
 

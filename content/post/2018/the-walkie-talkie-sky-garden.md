@@ -1,13 +1,18 @@
 ---
 title: "The Walkie-Talkie Sky Garden"
 date: "2018-05-25T19:35:21+10:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "I guess it makes a better desktop background!"
+thumb: "https://rubenerd.com/files/2018/colin-sky-garden@1x.jpg"
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Media
 tag:
-- 
+- architecture
+- england
+- london
+- nature
+- photos
+- united-kingdom
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/colin-sky-garden@1x.jpg" srcset="https://rubenerd.com/files/2018/colin-sky-garden@1x.jpg 1x, https://rubenerd.com/files/2018/colin-sky-garden@2x.jpg 2x" alt="Photo of the Sky Garden by Colin on Wikimedia Commons" style="width:500px; height:334px;" /></p>
 

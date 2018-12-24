@@ -3,7 +3,6 @@ title: "The Android EU decision"
 date: "2018-07-23T10:57:26+10:00"
 abstract: "It’s the monopoly abuse, stupid."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - android
@@ -11,6 +10,7 @@ tag:
 - google
 - law
 - licencing
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/Flag_of_Europe.svg" alt="Flag of the European Union" style="width:128px; float:right; margin:0 0 1em 2em" /></p>
 

@@ -4,12 +4,12 @@ date: "2018-08-06T14:38:17+10:00"
 abstract: "Could Patrick Stewart could be any more awesome? Make it so."
 thumb: "https://rubenerd.com/files/2018/picard-data@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - jean-luc-picard
 - star-trek
 - tng
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/picard-data@1x.jpg" srcset="https://rubenerd.com/files/2018/picard-data@1x.jpg 1x, https://rubenerd.com/files/2018/picard-data@2x.jpg 2x" alt="" style="width:500px; height:213px;" /></p>
 

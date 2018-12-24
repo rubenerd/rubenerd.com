@@ -3,7 +3,6 @@ title: "Telstra feedback survey"
 date: "2018-10-11T08:27:48+11:00"
 abstract: "Mixed bag, mostly negative based on customer experience"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - australia
@@ -11,6 +10,7 @@ tag:
 - itelephone
 - optus
 - telstra
+- written-in-sydney
 ---
 I cancelled my Tesltra mobile plan, and was offered a questionnaire with multiple choice answers. The ones I chose are quoted below.
 

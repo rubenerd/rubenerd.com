@@ -2,7 +2,6 @@
 title: "Dismissing macOS modal dialogs"
 date: "2016-09-26T09:13:17+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -11,6 +10,7 @@ tag:
 - mac-os-x
 - os-x
 - ux
+- written-in-sydney
 ---
 There's a macOS convention that pressing Command along with the first letter of a push button will press it. This is most useful for quickly dismissing Save dialog boxes for documents I want to discard.
 

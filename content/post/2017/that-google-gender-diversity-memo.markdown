@@ -1,15 +1,13 @@
 ---
 title: "That Google gender-diversity memo"
 date: "2017-08-09T17:30:20+10:00"
-year: "2017"
-location: Sydney
 abstract: "Women spend more than men, really!?"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - dudebros
 - silicon-valley
+- written-in-sydney
 ---
 If you haven't read the furore surrounding this former Google engineer's diversity memo, or are reading this in the distant future, Louise Matsakis [broke the story] in Vice's Motherboard:
 

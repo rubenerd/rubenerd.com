@@ -1,11 +1,8 @@
 ---
 title: "Acela Express, then and now"
 date: "2017-01-01T23:38:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "As seen iRL, in Microsoft Train Simulator from 2001, and Train Simulator 2017. They nailed the skyline, so cool!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - acela-express
@@ -15,6 +12,7 @@ tag:
 - trains
 - train-simulator
 - united-states
+- written-in-sydney
 ---
 Welcome to 2017! Here's hoping it's a better one for the world... though, selfishly, mine was pretty good.
 

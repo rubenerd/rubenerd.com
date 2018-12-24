@@ -2,13 +2,13 @@
 title: "The first Lockheed L-1011 TriStar"
 date: "2016-09-13T21:09:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - aviation
 - aircraft
 - design
 - lockheed
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/firsttristar.jpg" alt="Photo of the first Lockheed Tristar" srcset="https://rubenerd.com/files/2016/firsttristar.jpg 1x, https://rubenerd.com/files/2016/firsttristar@2x.jpg 2x" style="width:500px; height:340px" /></p>
 

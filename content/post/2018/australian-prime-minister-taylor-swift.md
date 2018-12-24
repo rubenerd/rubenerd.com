@@ -3,11 +3,11 @@ title: "Australian Prime Minister Taylor Swift"
 date: "2018-11-29T22:54:01+11:00"
 abstract: "Good god."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - politics 
+- written-in-sydney
 ---
 Our conservative prime minster, [on record], during parlimentary question time:
 

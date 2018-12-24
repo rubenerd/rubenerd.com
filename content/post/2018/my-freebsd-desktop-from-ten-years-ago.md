@@ -2,14 +2,14 @@
 title: "My FreeBSD desktop from ten years ago"
 date: "2018-05-23T14:42:45+10:00"
 abstract: "I heard you like Code Geass"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/screenie.freebsd-exported@1x.png"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - code-geass
 - gnome
 - nostalgia
+- written-in-sydney
 ---
 Here's a blast from the past: a screenshot of my [FreeBSD desktop from almost a decade ago] to the day!
 

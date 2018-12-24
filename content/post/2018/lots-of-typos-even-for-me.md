@@ -3,11 +3,11 @@ title: "Lots of typos, even for me"
 date: "2018-07-29T08:46:31+10:00"
 abstract: "Here at Rubenerd we strive for professsionalismn."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - typos
 - weblog
+- written-in-sydney
 ---
 Hey, how are you? I'm doing pretty well, getting ready to die my hair. That's not true, but this dye exposes a limitation of spell checkers.
 

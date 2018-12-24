@@ -3,11 +3,10 @@ title: "Welcome to 2018!"
 date: "2018-01-01T22:49:42+11:00"
 abstract: "Best wishes, thoughts, and ideas for the year."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
-- postaday2018
+- written-in-sydney
 ---
 Hi, how are you? I hope you had a wonderful holiday season, regardless of how you celebrate. For us, it was family time over Christmas, then NYE – as they abbreviate it now – introducing Clara to *The Blues Brothers*. It was glorious!
 

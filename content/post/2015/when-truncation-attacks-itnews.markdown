@@ -3,7 +3,6 @@ title: "When Truncation Attacks: IT News"
 date: "2015-11-02T11:22:00+10:00"
 abstract: "Australia to develop. PSBA puts the A-team on"
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - australia
@@ -11,6 +10,7 @@ tag:
 - news
 - truncation
 - when-attacks
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/truncate.itnews.png" style="width:500px;" alt="Australia to develop. PSBA puts the A-team on" /></p>
 

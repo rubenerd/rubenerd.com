@@ -3,12 +3,12 @@ title: "A decade of Yuletide Steins;Gate"
 date: "2018-12-01T12:51:18+11:00"
 abstract: "Another reason I feel old!"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - desktop-backgrounds
 - steins-gate
 - yuletide
+- written-in-sydney
 ---
 It's another Yuletide season! And it reminds me of this desktop background by Karafuru Sekai Designs of everyone's favourite moe microwave time travelling scientists I [started using a decade ago]. That was a long sentence, unlike this one.
 

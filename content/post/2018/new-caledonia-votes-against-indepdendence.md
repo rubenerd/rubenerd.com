@@ -1,10 +1,8 @@
 ---
 title: "New Caledonia votes against independence"
 date: "2018-11-06T22:08:29+11:00"
-abstract: ""
-thumb: ""
+abstract: "I’m surprised we don’t hear much about them in Australia."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
@@ -12,6 +10,7 @@ tag:
 - new-caledonia
 - new-zealand
 - politics
+- written-in-sydney
 ---
 While Australia was obsessing over its yearly [disgusting horse race], and the rest of the world was looking at the US midterms, New Caledonia voted on its independence. Stephen Dziedzic [filed this report] with the ABC: 
 

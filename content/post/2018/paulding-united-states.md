@@ -4,7 +4,6 @@ date: "2018-08-29T13:55:38+10:00"
 abstract: "I love rural American photos like this"
 thumb: "https://rubenerd.com/files/2018/paulding@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - food
@@ -13,6 +12,7 @@ tag:
 - travel
 - united-states
 - wikipedia
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/paulding@1x.jpg" srcset="https://rubenerd.com/files/2018/paulding@1x.jpg 1x, https://rubenerd.com/files/2018/paulding@2x.jpg 2x" alt="" style="width:500px; height:332px;" /></p>
 

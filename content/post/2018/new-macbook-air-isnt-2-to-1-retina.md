@@ -3,7 +3,6 @@ title: "The new MacBook Air isn’t 2:1 Retina"
 date: "2018-11-04T21:21:02+11:00"
 abstract: "It’s not the first time Apple did this, but it’s still worrying."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
@@ -11,6 +10,7 @@ tag:
 - ergonomics
 - macbook-air
 - monitors
+- written-in-sydney
 ---
 I was doing some more research into the new kit Apple released last week, and came across this worrying FAQ on [Apple Insider]\:
 

@@ -1,19 +1,18 @@
 ---
-draft: true
 title: "Goodbye, Internet Explorer 6"
 date: "2016-09-06T11:38:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - browsers
 - design
 - ie6
 - microsoft
+- written-in-sydney
 ---
-I just realised something.
+I just realised:
 
-* *Rubénerd* started using Let's Encrypt SSL certs, mostly because this site is one long, over-engineered experiment.
+* *Rubenerd* started using Let's Encrypt SSL certs, mostly because this site is one long, over-engineered experiment.
 
 * All HTTP requests are redirected to HTTPS
 

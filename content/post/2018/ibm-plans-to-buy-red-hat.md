@@ -1,14 +1,14 @@
 ---
 title: "IBM plans to buy Red Hat"
 date: "2018-10-29T08:35:14+11:00"
-abstract: "I'm still mentally processing this"
-thumb: ""
+abstract: "I'm still mentally processing this."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - ibm
+- linux
 - red-hat
+- written-in-sydney
 ---
 [From the press release]\:
 

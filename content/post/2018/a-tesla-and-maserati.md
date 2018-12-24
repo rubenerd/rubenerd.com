@@ -4,13 +4,13 @@ date: "2018-05-09T18:08:39+10:00"
 abstract: "Ackchyually!"
 thumb: "https://rubenerd.com/files/2018/ackchyually.png"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - cars
 - environment
 - public-transport
 - tesla
+- written-in-sydney
 ---
 I observed something very *North Sydney* this afternoon. A shiny red Maserati cruised past us huddled around a pedestrian crossing. All but two people in the seething mass of peak-hour pedestrians ignored it. a Telsa drove past in such an unobtrusive colour I already can't remember it. I kid you not, more than half the crowd turned to look.
 

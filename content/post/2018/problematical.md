@@ -3,13 +3,13 @@ title: "WordNet and Problematical"
 date: "2018-11-04T12:51:24+11:00"
 abstract: "I didn’t know that was a word."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - bsd
 - freebsd
 - language
 - podcasts
+- written-in-sydney
 ---
 A few technical podcasters I listen to keep using the term *problematical*.
 I didn't think it was a word, but according to WordNet:

@@ -3,12 +3,12 @@ title: "Cloudflare’s domain registrar"
 date: "2018-10-16T08:52:45+11:00"
 abstract: "At-cost renewals, and no upselling would be nice."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - cloudflare
 - dns
 - domains
+- written-in-sydney
 ---
 Here's some [interesting news] for those of us with all too many domain names:
 

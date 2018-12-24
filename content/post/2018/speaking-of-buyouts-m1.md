@@ -3,12 +3,12 @@ title: "Speaking of buyouts, M1?"
 date: "2018-10-29T09:36:51+11:00"
 abstract: "Listed under More From Australia in ZDNet, for some reason"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - m1
 - phones
 - singapore
+- written-in-sydney
 ---
 ZDNet Australia had these articles under the **More From Australia** heading:
 

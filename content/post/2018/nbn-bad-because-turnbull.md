@@ -3,7 +3,6 @@ title: "The original NBN was bad, because Turnbull?"
 date: "2018-01-23T08:45:14+11:00"
 abstract: "Judging its based based on the current mob in charge"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - infrastructure
@@ -11,7 +10,7 @@ tag:
 - broadband
 - nbn
 - australia
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/nbn.jpg" srcset="https://rubenerd.com/files/2016/nbn.jpg 1x, https://rubenerd.com/files/2016/nbn@2x.jpg 2x" alt="NBN's weird new logo" style="width:500px; height:281px" /></p>
 

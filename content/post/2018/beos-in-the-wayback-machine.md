@@ -3,13 +3,13 @@ title: "BeOS in the Wayback Machine"
 date: "2018-01-27T10:02:23+11:00"
 abstract: "So many pointless search suggestions!"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - beos
 - wayback-machine
 - nostalgia
 - operating-systems
+- written-in-sydney
 ---
 I was trying to find the official website for the world's best desktop operating system in the [Wayback Machine], and these were the suggestions I got:
 

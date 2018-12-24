@@ -3,9 +3,8 @@ title: "A complete meal newsletter unsubscription"
 abstract: "Bad newsletter, bad!"
 date: "2016-11-18T13:50:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
-tag: 
+tag:
 - newsletters
 - spam
 ---

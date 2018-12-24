@@ -6,6 +6,7 @@ category: Software
 tag:
 - hacker-news
 - comments
+- written-in-sydney
 ---
 Or startups, or many other places. [This comment by brudges] on Hacker News is worthy of an entire blockquote:
 

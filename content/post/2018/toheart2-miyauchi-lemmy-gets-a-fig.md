@@ -4,12 +4,12 @@ date: "2018-09-29T12:40:04+10:00"
 abstract: "Is what you'd expect for a half-foreign character."
 thumb: "https://rubenerd.com/files/2018/fig-miyauchi-lemmy@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - figures
 - nostalgia
 - toheart2
+- written-in-sydney
 ---
 I'd argue Westerners are generally portrayed in anime more fairly than East Asian stereotypes in Hollywood movies and shows. But they do tend to fall into several predictable tropes.
 

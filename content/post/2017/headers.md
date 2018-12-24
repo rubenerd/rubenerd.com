@@ -1,16 +1,14 @@
 ---
 title: "Headers"
 date: "2017-11-28T11:13:11+11:00"
-year: "2017"
-location: Sydney
 abstract: "People asking what the header on my blog and Twitter feed are."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - photos
 - design
 - colour
+- written-in-sydney
 ---
 I've had a few people ask what the headers on this site and my Twitter feed are. I assume you're people, I'm not running a Turing Testificator on here.
 

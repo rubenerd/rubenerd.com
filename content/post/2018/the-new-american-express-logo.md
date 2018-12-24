@@ -2,9 +2,8 @@
 title: "The new American Express logo"
 date: "2018-10-07T11:47:00+11:00"
 abstract: "Goodbye, CA!"
-thumb: ""
+thumb: "https://rubenerd.com/files/2018/amex-montgomery@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - american-express
@@ -12,6 +11,7 @@ tag:
 - design
 - fonts
 - typeography
+- written-in-sydney
 ---
 *This post was originally written in August 2018, but I was trying to find a closer image of the posters in the MUNI station below. Never mind!*
 

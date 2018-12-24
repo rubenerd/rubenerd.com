@@ -1,14 +1,15 @@
 ---
 title: "Saber TYPE-MOON RACING fig"
 date: "2017-01-15T09:32:00+10:00"
+abstract: "Excaliparasol! Damn, now I actually really want this."
 year: "2017"
-location: Sydney
 category: Anime
 tag:
 - fate
 - fate-stay-night
 - race-queens
 - saber
+- written-in-sydney
 ---
 Late last month, I triumphantly announced I was [getting rid of stuff]. Decluttering sounded easy, until I started. Point is, I've made great progress getting rid of things, including certain items I thought I could never bear to part with. So much scanning and photography.
 

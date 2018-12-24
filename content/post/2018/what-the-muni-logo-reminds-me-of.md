@@ -4,13 +4,13 @@ date: "2018-06-28T00:37:26-07:00"
 abstract: "I like it hasn’t been reimagined or other marketing sillyness."
 thumb: "https://rubenerd.com/files/2018/muni@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Media
 tag:
 - california2018
 - san-francisco
 - design
 - logos
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/muni@1x.jpg" srcset="https://rubenerd.com/files/2018/muni@1x.jpg 1x, https://rubenerd.com/files/2018/muni@2x.jpg 2x" alt="" style="width:500px; height:375px;" /></p>
 

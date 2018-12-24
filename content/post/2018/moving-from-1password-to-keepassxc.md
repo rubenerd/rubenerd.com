@@ -4,7 +4,6 @@ date: "2018-04-18T17:41:24+10:00"
 abstract: "I need offline cross-platformness, which 1Password doesn't have."
 thumb: "https://rubenerd.com/files/2018/keepass@1x.png"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - security
@@ -16,6 +15,7 @@ tag:
 - macos
 - os-x
 - mac-os-x
+- written-in-sydney
 ---
 <p style="font-style:italic">This post was originally written on the 12th of April, but wasn’t pushed for some reason.</p>
 

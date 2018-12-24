@@ -4,13 +4,13 @@ date: "2018-10-22T22:17:20+11:00"
 abstract: "The music video was as delightful and fun as I hoped it’d be."
 thumb: "https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - gintama
 - japanese
 - music
 - music-monday
+- written-in-sydney
 ---
 <p><a title="Amplified - Mr. Raindrop" href="https://www.youtube.com/watch?v=lbHQmwD0wiA"><img src="https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@1x.jpg 1x, https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@2x.jpg 2x" alt="Amplified - Mr. Raindrop" style="width:500px; height:281px;" /></a></p>
 

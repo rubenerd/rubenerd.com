@@ -4,7 +4,6 @@ date: "2018-12-18T19:35:32+11:00"
 abstract: "I love wandering around Wikipedia and Wikimedia Commons."
 thumb: "https://rubenerd.com/files/2018/photo-sas-carvelle@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - aviation
@@ -15,6 +14,7 @@ tag:
 - scandanavia
 - transit
 - travel
+- written-in-sydney
 ---
 I love wandering around Wikipedia and Wikimedia Commons. Here's a 1960s photo of passengers and crew abord a [Scandanavian Airlines flight]; everything about this is amazing. Thanks to SAS for making this available:
 

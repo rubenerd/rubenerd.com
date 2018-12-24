@@ -2,7 +2,6 @@
 title: "IT snow days"
 date: "2016-08-12T20:16:17+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - infocomm
@@ -10,6 +9,7 @@ tag:
 - stack-overflow
 - server-fault
 - super-user
+- written-in-sydney
 ---
 This evening I went to Stack Exchange, and got this:
 

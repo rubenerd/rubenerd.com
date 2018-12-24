@@ -3,11 +3,11 @@ title: "You’re not part of the problem if you criticise FTTN"
 date: "2015-10-22T11:49:00+10:00"
 abstract: "Despite what others may assert"
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - australia
 - politics
+- written-in-sydney
 ---
 I respect Stilgherrian a great deal. I'm a long time schooner contributer to his [9PM Edict](https://stilgherrian.com/the_9pm_edict/) podcast, and revel in his passionate deconstructions of local politics and news. It's like No Agenda, without the conspiracy theories and guns.
 

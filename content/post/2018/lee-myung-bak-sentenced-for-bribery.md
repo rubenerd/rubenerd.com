@@ -3,7 +3,6 @@ title: "Lee Myung-bak sentenced for bribery"
 date: "2018-10-08T08:20:44+11:00"
 abstract: "They're more ethical than Apple, remember?"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
@@ -11,6 +10,7 @@ tag:
 - itelephones
 - politics
 - samsung
+- written-in-sydney
 ---
 [Shannon van Sant wrote for NPR]\:
 

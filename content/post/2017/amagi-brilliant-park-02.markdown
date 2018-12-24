@@ -1,17 +1,15 @@
 ---
 title: "Amagi Brilliant Park #02"
 date: "2017-09-16T11:10:48+10:00"
-year: "2017"
-location: Sydney
 abstract: "Kanie has his work cut out for him!"
 year: "2017"
-location: Sydney
 category: Anime
 tag:
 - 2014-anime
 - amagi-brilliant-park
 - kyoani
 - kyoto-animation
+- written-in-sydney
 ---
 <p style="font-style:italic;">In our continuing series reviewing <a href="https://rubenerd.com/tag/kyoani/">Kyoto Animation</a> shows that I missed when they first aired, we take another spoiler-riddled look at the next episode of <a href="https://rubenerd.com/tag/amagi-brilliant-park/">Amagi Brilliant Park</a>.</p>
 

@@ -3,7 +3,6 @@ title: "Fate/Grand Order TV special"
 abstract: "Megane Shielder!"
 date: "2016-12-07T09:05:00+10:00"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - fate
@@ -11,6 +10,7 @@ tag:
 - mobile-game
 - shielder
 - type-moon
+- written-in-sydney
 ---
 Having literally just spent hundreds of words explaning my need for a new Fate/Grand Order [phone case], we now get the news that a [TV special is planned] for New Years Eve based on the game!
 

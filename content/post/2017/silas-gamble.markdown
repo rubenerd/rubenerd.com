@@ -1,14 +1,12 @@
 ---
 title: "Sila’s gamble"
 date: "2017-03-22T16:27:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "So many potential new Sims character names"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - spam
+- written-in-sydney
 ---
 Below are a list of names from spam email over the last week, and the first association that came to me.
 

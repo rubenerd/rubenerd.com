@@ -1,15 +1,15 @@
 ---
 title: "Y2K was a planned fizzer"
 date: "2018-10-27T23:25:59+11:00"
-abstract: ""
-thumb: ""
+abstract: "Because those of us in IT did our jobs."
+thumb: "https://rubenerd.com/files/2018/time-y2k@1x.jpg"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - nostalgia
 - security
 - y2k
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/time-y2k@1x.jpg" srcset="https://rubenerd.com/files/2018/time-y2k@1x.jpg 1x, https://rubenerd.com/files/2018/time-y2k@2x.jpg 2x" alt="Time magazine cover showing Y2K" style="width:128px; height:168px; float:right; margin:0 0 1em 2em" /></p>
 

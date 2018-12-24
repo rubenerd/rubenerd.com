@@ -3,7 +3,7 @@ title: "Social media demands we not have nice things"
 date: "2018-12-10T18:37:00+10:00"
 abstract: "A Doug DeMuro video reminded me of electric razors"
 year: "2018"
-category: Thoughts
+category: Media
 tag:
 - doug-demuro
 - health
@@ -11,6 +11,7 @@ tag:
 - social-media
 - twitter
 - youtube
+- written-in-sydney
 ---
 I've been watching a lot of [Doug DeMuro on YouTube], as you can likely tell by now. I'm not even that into cars; he's just such an engaging and interesting reviewer with an admirable attention to detail.
  

@@ -4,13 +4,12 @@ date: "2018-02-27T19:54:34+11:00"
 abstract: "Missing it by a week! ;w;"
 thumb: "https://rubenerd.com/files/2018/idolmaster-tokyuhands@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - idolmaster
 - tokyu-hands
 - tokyotrip2018
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/idolmaster-tokyuhands@1x.jpg" srcset="https://rubenerd.com/files/2018/idolmaster-tokyuhands@1x.jpg 1x, https://rubenerd.com/files/2018/idolmaster-tokyuhands@2x.jpg 2x" alt="Advertisement for a Tokyu Hands Idolmaster collaboration, running from the 24th of March this year to the 6th of May" style="width:500px; height:369px;" /></p>
 

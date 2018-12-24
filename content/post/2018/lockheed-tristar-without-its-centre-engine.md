@@ -4,12 +4,12 @@ date: "2018-06-09T18:05:13+10:00"
 abstract: "Another great photo by Jon Proctor"
 thumb: "https://rubenerd.com/files/2018/jon-proctor-jetphotos@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - aviation
 - lockheed-tristar
 - photos
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/jon-proctor-jetphotos@1x.jpg" srcset="https://rubenerd.com/files/2018/jon-proctor-jetphotos@1x.jpg 1x, https://rubenerd.com/files/2018/jon-proctor-jetphotos@2x.jpg 2x" alt="Photo of the aforementioned plane on the ground" style="width:500px; height:355px;" /></p>
 

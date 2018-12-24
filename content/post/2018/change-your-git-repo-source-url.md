@@ -3,12 +3,12 @@ title: "Change your git repo source URL"
 date: "2018-10-15T08:37:49+11:00"
 abstract: "git remote set-url origin"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - git
 - guides
 - version-control
+- written-in-sydney
 ---
 Say you have a git repo, and you want to change its source URL from example.com to example.com. That wouldn't make sense, because they're the same. But assuming for the sake of the argument, or any other Japanese alcoholic comestible beverage of your choice, you can achieve it by:
 

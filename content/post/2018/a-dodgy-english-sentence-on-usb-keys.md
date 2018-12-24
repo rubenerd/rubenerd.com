@@ -3,12 +3,12 @@ title: "A dodgy English sentence on USB keys"
 date: "2018-12-15T13:17:33+11:00"
 abstract: "I’ve only had one other one brand new one fail in this way."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - english
 - language
 - typos
+- written-in-sydney
 ---
 This is the best sentence I've written in years:
 

@@ -1,11 +1,8 @@
 ---
 title: "34th Street–Hudson Yards"
 date: "2017-11-23T11:40:00+11:00"
-year: "2017"
-location: Sydney
 abstract: "Travelling and missing this brand new New York subway station"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - travel
@@ -14,6 +11,7 @@ tag:
 - united-states
 - public-transport
 - trains
+- written-in-sydney
 ---
 The New York City Subway System was one of the most fascinating warrens Clara and I have explored. Fast, convenient, at times utterly offensive. Now we've been to Japan, we understand the nomenclature of "local" trains versus others, and have a newfound appreciation for the ease of using it!
 

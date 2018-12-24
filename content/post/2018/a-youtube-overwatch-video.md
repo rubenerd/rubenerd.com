@@ -3,12 +3,12 @@ title: "A YouTube Overwatch video"
 date: "2018-11-20T22:36:35+11:00"
 abstract: "I had absolutely no clue about what was being said."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - games
 - language
 - video
+- written-in-sydney
 ---
 I watch a lot of YouTube thesedays, albeit in private mode and logged out of The Goog. It doesn't render following channels any trickier, just add their feed to your [RSS aggregator] of choice, and you can stop some of the more insidious forms of tracking.
 

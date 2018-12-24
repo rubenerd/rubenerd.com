@@ -2,12 +2,12 @@
 title: "Transport NSW Australian Tennis"
 date: "2016-04-08T09:44:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - australia
 - graphics
 - logos
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/tennis-logo.png" alt="" style="width:168px; height:114px;" /></p>
 

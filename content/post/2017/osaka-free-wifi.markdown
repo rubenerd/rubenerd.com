@@ -1,11 +1,8 @@
 ---
 title: "Osaka Free WiFi"
 date: "2017-07-25T11:25:49+10:00"
-year: "2017"
-location: Sydney
 abstract: "Being asked to use a VPN is a refreshing change from data harvesting."
 year: "2017"
-location: Osaka
 category: Internet
 tag:
 - kansai
@@ -16,6 +13,7 @@ tag:
 - security
 - travel
 - wifi
+- written-in-osaka
 ---
 <p><img src="https://rubenerd.com/files/stock/gnome-network-wireless-encrypted.svg" alt="Wireless security icon from the Gnome Colors project" style="width:96px; height:96px; float:right; margin:0 0 1em 1em" /></p>
 

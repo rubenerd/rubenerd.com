@@ -3,13 +3,13 @@ title: 'Build and use xva-img to extract raw images'
 date: "2015-02-11T06:39:46+10:00"
 abstract: "Converting XenServer xva images to something useful"
 year: "2015"
-location: Sydney
 category: Software
 tag:
 - disk-images
 - guides
 - virtualisation
 - xen 
+- written-in-sydney
 ---
 <p>Prior to <a href="https://support.citrix.com/proddocs/topic/xencenter-61/xs-xc-vms-exportimport-about.html" title="Share VMs with versions of XenServer earlier than 6.0.">version 6.0</a>, one of the export options for XenServer was the XVA format. It’s essentially a tar archive with disks stored as 1MiB stripes.</p>
 <p>Among others, the <a href="https://github.com/eriklax/xva-img">xva-img</a> tool by eriklax can be used to convert images from XVA to raw. It’s not in any major package manager, so we need to build it.</p>

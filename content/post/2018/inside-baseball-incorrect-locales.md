@@ -4,12 +4,12 @@ date: "2018-06-24T18:12:26-07:00"
 abstract: ""
 thumb: "https://rubenerd.com/files/2018/sf-third-street-traffic@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california-2018
 - timezones
 - travel
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/sf-third-street-traffic@1x.jpg" srcset="https://rubenerd.com/files/2018/sf-third-street-traffic@1x.jpg 1x, https://rubenerd.com/files/2018/sf-third-street-traffic@2x.jpg 2x" alt="Traffic backed up along 4th Street in Mission Bay" style="width:500px" /></p>
 

@@ -1,15 +1,13 @@
 ---
 title: "Building a Wall"
 date: "2017-07-11T08:31:32+10:00"
-year: "2017"
-location: Sydney
 abstract: "Lyrics from this song seem poignnant now."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - music
 - pet-shop-boys
+- written-in-sydney
 ---
 From the Pet Shop Boys 2009 album *Yes*:
 

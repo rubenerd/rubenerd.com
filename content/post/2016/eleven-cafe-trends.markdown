@@ -1,12 +1,14 @@
 ---
-draft: true
 title: "Eleven cafe trends"
 date: "2016-09-13T13:42:21+10:00"
 year: "2016"
-location: Sydney
-category:
+category: Thoughts
 tag:
-- 
+- cafes
+- coffee
+- food
+- sydney
+- written-in-sydney
 ---
 Matt Holden's list of terrible Australian café trends for the Sydney Morning Herald and the Age was so good, I'm brushing off my HTML definition lists instead of using Markdown.
 
@@ -30,7 +32,7 @@ Matt Holden's list of terrible Australian café trends for the Sydney Morning He
 <dd>Strongly agree. Kale isn't as bad as everyone says. It's worse.<p></p></dd>
 
 <dt style="font-weight:bold">Superfood salads</dt>
-<dd>Strongly agree. Quinoi is lovely in breakfast porridge, but psudo-science doesn't belong anywhere, not least salad.<p></p></dd>
+<dd>Strongly agree. Quinoa is lovely in breakfast porridge, but psudo-science doesn't belong anywhere, not least salad.<p></p></dd>
 
 <dt style="font-weight:bold">Pulled pork</dt>
 <dd>Mildly agree. Okay I did used to really like this. Most of what people sell it as barely qualifies though.<p></p></dd>

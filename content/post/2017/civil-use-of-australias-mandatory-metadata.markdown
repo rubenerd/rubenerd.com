@@ -1,15 +1,13 @@
 ---
 title: "Civil use of Australia's mandatory metadata"
 date: "2017-01-26T21:39:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Or when George Brandis said it wouldn't be used as such"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - australia
 - politics
+- written-in-sydney
 ---
 When parliament resumes, and the civil use of metadata is inevitably discussed, let's remember what everyone's favourite Attourney General Senator George Brandis QC [said on Q&A]:
 

@@ -4,14 +4,13 @@ date: "2018-02-11T20:40:09+11:00"
 abstract: "It looks so ’90s! Though I can’t quite figure out why"
 thumb: "https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - architecutre
 - bridges
 - moscow
 - russia
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg" alt="The Pushkinsky Bridge, with bright yellow frames between the panes of glass enclosing the deck" style="widht:500px; height:281px;" srcset="https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg 1x, https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@2x.jpg 2x" /></p>
 

@@ -3,11 +3,11 @@ title: "Friday Fanmail: Pressurising in your city"
 date: "2018-08-17T17:55:26+10:00"
 abstract: "I guess that’s one way to simplify a mail merge!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - friday-fanmail
 - spam
+- written-in-sydney
 ---
 It's [Friday Fanmail] time! Each and every Friday, except when I don't, I share some of the fanmail I receive about this blog, so that we may all share in the warm fuzzies.
 

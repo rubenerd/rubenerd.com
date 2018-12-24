@@ -3,13 +3,12 @@ title: "Music and phones in public"
 date: "2018-02-23T12:23:18+11:00"
 abstract: "We're all in this together, please think about other people"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - australia
 - music
 - phones
-- postaday2018
+- written-in-sydney
 ---
 [This article] by David McAlpine, Bill Thompson, and Megan Gilliver on ABC News makes the case for digital etiquette:
 

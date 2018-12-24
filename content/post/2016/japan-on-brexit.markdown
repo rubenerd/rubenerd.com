@@ -2,13 +2,13 @@
 title: "Japan on Brexit"
 date: "2016-09-07T09:58:15+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - brexit
 - economics
 - japan
 - uk
+- written-in-sydney
 ---
 As reported in the [International Business Times]:
 

@@ -1,13 +1,13 @@
 ---
 title: "Moving in 2017, and all that fun stuff"
 date: "2017-06-19T17:09:00+10:00"
-absctract: "A reminder that I'm lucky"
+abstract: "A reminder that I'm lucky"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - moving
 - personal
+- written-in-sydney
 ---
 I haven't had time to podcast the last few weeks, basically because we're moving house. 
 

@@ -4,7 +4,6 @@ date: "2018-08-09T09:28:18+10:00"
 abstract: "I love seeing old photos like this."
 thumb: "https://rubenerd.com/files/2018/maury-george-mary@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - cunard
@@ -12,6 +11,7 @@ tag:
 - transit
 - travel
 - uk
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/maury-george-mary@1x.jpg" srcset="https://rubenerd.com/files/2018/maury-george-mary@1x.jpg 1x, https://rubenerd.com/files/2018/maury-george-mary@2x.jpg 2x" alt="Photo of the RMS Mauretania with the royal tender in front" style="width:500px; height:277px;" /></p>
 

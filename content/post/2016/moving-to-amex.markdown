@@ -1,11 +1,17 @@
 ---
-draft: true
 title: "Moving to Amex"
 date: "2016-08-16T16:56:00+10:00"
+abstract: "Some quick points in day-to-day usage."
+year: "2016"
+category: Thoughts
+tag:
+- amex
+- finances
+- written-in-sydney 
 ---
 I made the mistake a few weeks ago of innocuously asking Twitter where I could top up my Opal card with American Express. I know I know, what should I have expected?
 
-(For those precious few who don't understand why that would have been an issue, let me summarise for you: HUUR DUUR MERCHANT FEES ACTUALLY POINTS COST OF BUSINESS ACTUALLY DIE IN A FIRE ACTUALLY YOUR OWN FAULT FOR NOT USING MASTERCARD ACTUALLY WHAT DID YOU EXPECT ACTUALLY!)
+*(For those precious few who don't understand why that would have been an issue, let me summarise for you: HUUR DUUR MERCHANT FEES ACTUALLY POINTS COST OF BUSINESS ACTUALLY DIE IN A FIRE ACTUALLY YOUR OWN FAULT FOR NOT USING MASTERCARD ACTUALLY WHAT DID YOU EXPECT ACTUALLY!)*
 
 Fortunately, there was one voice of reason who suggested Woolworths. Done.
 

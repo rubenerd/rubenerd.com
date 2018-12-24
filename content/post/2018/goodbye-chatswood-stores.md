@@ -3,10 +3,10 @@ title: "Goodbye, Chatswood stores"
 date: "2018-10-25T18:29:54+11:00"
 abstract: "PappaRich and the Contageous Computer Store"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - sydney
+- written-in-sydney
 ---
 Today we bid adieu to two semi-recent establishments in the northern Sydney suburb of Chatswood that have since ceased to exist, perhaps akin to a certain Pythonian parrot.
 

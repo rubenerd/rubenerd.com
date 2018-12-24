@@ -1,16 +1,17 @@
 ---
 title: "Boxed–up posts"
 date: "2016-06-16T17:18:00+10:00"
+abstract: "Posts on Rubened are in boxes are again. Boom!"
 year: "2016"
-location: Sydney
 category: Internet
-tag: 
+tag:
 - design
 - nostalgia
 - pointless
 - weblog
+- written-in-sydney
 ---
-In what's likely the most mundane news you've read all week, posts on *[Rubénerd]* are now in boxes again. Boom!
+In what's likely the most mundane news you've read all week, posts on *[Rubenerd]* are now in boxes again. Boom!
 
 I tried the whole miniamlism thing, but I like the clean breaks between sections. I think it renders the site more readable, and easier to visually separate the wheat from the chaff (admittedly a risk when most of your site content is the aforementioned chaff, including this post). The drop shadows and borders also harken back to DOS in a delightfully tacky way.
 

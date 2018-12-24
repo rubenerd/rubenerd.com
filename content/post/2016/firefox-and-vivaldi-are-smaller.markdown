@@ -3,7 +3,6 @@ title: "Firefox and Vivaldi are smaller"
 date: "2016-12-22T08:45:00+10:00"
 abstract: "They're better and less creepy than Chrome, and they're smaller!"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - firefox
@@ -12,6 +11,7 @@ tag:
 - homebrew
 - homebrew-cask
 - vivaldi
+- written-in-sydney
 ---
 For some reason I had Chrome installed. I wouldn't have done it on purpose; maybe I accidently added it instead of Chromium while in a fugue state. I almost wrote that as fudge, which not only would have been deliciously hilarious, but would also explain how I could have confused Chrome with Chromium.
 

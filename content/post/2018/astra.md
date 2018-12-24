@@ -4,12 +4,12 @@ date: "2018-10-11T21:05:06+11:00"
 abstract: "Cars, manga, a contrived PBX..."
 thumb: "https://rubenerd.com/files/2018/astra-volume4@1x.jpg"
 year: "2018"
-location: Melbourne
 category: Anime
 tag:
 - astra-lost-in-space
 - manga
 - nostalgia
+- written-in-melbourne
 ---
 *This post was originally written on Tuesday. But the flight was so badly delayed, I didn't get home till after midnight to post this.*
 

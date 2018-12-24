@@ -1,11 +1,8 @@
 ---
 title: "Only upgrade Apple on .2 releases now"
 date: "2017-12-05T09:12:15+11:00"
-year: "2017"
-location: Sydney
 abstract: "Root exploit fun, unstable iOS, this is bad."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -13,6 +10,7 @@ tag:
 - macos
 - mac-os-x
 - os-x
+- written-in-sydney
 ---
 With this latest root exploit fun and [usability problems] on High Sierra, and the unstable mess of iOS 11, my decade-long advice to wait for the first `.1` release before upgrading no longer stands.
 

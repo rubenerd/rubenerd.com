@@ -4,13 +4,13 @@ date: "2018-08-07T22:05:15+10:00"
 abstract: "I missed it the first time, but check out this island!"
 thumb: "https://rubenerd.com/files/2018/fgo-summer-memory@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - architecture
 - fate-grand-order
 - mobile-gaming
 - tamamo
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fgo-summer-memory@1x.jpg" srcset="https://rubenerd.com/files/2018/fgo-summer-memory@1x.jpg 1x, https://rubenerd.com/files/2018/fgo-summer-memory@2x.jpg 2x" alt="" style="width:500px; height:281px;" /></p>
 

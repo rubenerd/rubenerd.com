@@ -3,12 +3,12 @@ title: "Cancelling PayPal subscriptions"
 date: "2015-10-27T11:55:00+10:00"
 abstract: "PayPal's docs are wrong. Here's how to do it."
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - finance
 - guides
 - paypal
+- written-in-sydney
 ---
 PayPal's instuctions on [cancelling subscriptions](https://www.paypal.com/selfhelp/article/FAQ1067/1) are wrong. I'd know, I spent the morning trying to figrure it out. As of the date this post was published, here's how you actually do it:
 

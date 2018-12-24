@@ -3,13 +3,13 @@ title: "Curiosity Stream"
 date: "2016-03-12T09:47:00+10:00"
 abstract: "More Michio Kaku, less Deepak Chopra please"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - michio-kaku
 - science
 - streaming
 - television
+- written-in-sydney
 ---
 I saw this ad for a new streaming service:
 

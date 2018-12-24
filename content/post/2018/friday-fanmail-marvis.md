@@ -6,6 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - spam
+- written-in-sydney
 ---
 Here's an email from someone calling themselves Marvis:
 

@@ -3,12 +3,12 @@ title: "Using rsyncd instead of rsync over SSH"
 date: "2018-05-20T15:11:34+10:00"
 abstract: "The performance difference can be huge in trusted environments"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - rsync 
+- written-in-sydney
 ---
 The easiest way to use [rsync] is with the default SSH transport option. It's easy, secure, and reasonably fast. Machines will bottleneck elsewhere before your CPUs will encrypting/decrypting the ssh streams, from my experience. And you get all the SSH niceties, like pre-shared keys and host config files.
 
@@ -41,7 +41,8 @@ The [manpage is your friend], but [this Everything Linux guide from 1999] is sti
 I transferred a 1GiB test file generated with urandom three times, and averaged the transfer times. These were the rough results:
 
 Transfer method         | Reported speed
-------------------------|----------------
+- written-in-sydney
+---
 rsync with default SSH  | 28.11MB/s
 rsync with arcfour SSH  | 32.61MB/s
 rsyncd                  | 48.77MB/s

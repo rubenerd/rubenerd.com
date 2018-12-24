@@ -1,17 +1,15 @@
 ---
 title: "Paring back to an essential vimrc"
 date: "2017-10-16T08:40:32+11:00"
-year: "2017"
-location: Sydney
 abstract: "Turns out much of my config wasn’t needed in 2017."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - nvi
 - vi
 - vim
 - text-editors
+- written-in-sydney
 ---
 I'd let a lot of cruft accumulate in my vimrc, as I'm sure we all have with software we've used for a long time. I'd had [replacement configs like this] in the back of mind, as well as plugins in light of the latest Vim 8.0 release, but never got around to implementing either.
 

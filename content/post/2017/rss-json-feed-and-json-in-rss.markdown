@@ -1,17 +1,15 @@
 ---
 title: "JSON Feed, and JSON in RSS"
 date: "2017-07-08T10:24:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "When the web syndication wheel was reinvented, again"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - atom
 - dave-winer
 - rss
 - json
+- written-in-sydney
 ---
 The open web is made possible with syndication feeds. The big games in town can be broadly split into four camps:
 

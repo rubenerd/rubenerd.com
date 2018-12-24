@@ -4,13 +4,13 @@ date: "2018-10-15T10:08:59+11:00"
 abstract: "Gintama is amazing, and so is this music video"
 thumb: "https://rubenerd.com/files/2018/N9mDw3TpqqA@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - gintama
 - jpop
 - music
 - music-monday
+- written-in-sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=N9mDw3TpqqA"><img src="https://rubenerd.com/files/2018/yt-N9mDw3TpqqA@1x.jpg" srcset="https://rubenerd.com/files/2018/N9mDw3TpqqA@1x.jpg 1x, https://rubenerd.com/files/2018/yt-N9mDw3TpqqA@2x.jpg 2x" alt="" style="width:480px; height:360px;" /></a></p>
 

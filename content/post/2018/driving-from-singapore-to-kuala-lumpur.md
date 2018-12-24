@@ -4,13 +4,13 @@ date: "2018-12-21T14:57:04+11:00"
 abstract: "My first in a series of publishing older photos."
 thumb: "https://rubenerd.com/files/2018/photo-mine-2007-sgkl@2x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - malaysia
 - photos
 - singapore
 - transit
+- written-in-sydney
 ---
 I realised I have all these photos taken over the years, but I've barely shared any of them. I'm going to change this, in a new post series called [Ruben Mines His Photo Archive]. Wow, I gave that title no thought at all.
 

@@ -3,7 +3,6 @@ title: "The WQ command is unknown to FreeBSD nvi"
 date: "2018-06-26T17:05:53-07:00"
 abstract: "Not an editor command!"
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - bsd
@@ -13,6 +12,7 @@ tag:
 - nvi
 - vi
 - vim
+- written-in-san-francisco
 ---
 In 2015 I realised there was a [direct correlation] between the time of night, and the prevalence of these error messages in Vim:
 

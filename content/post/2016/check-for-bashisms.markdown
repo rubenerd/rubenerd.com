@@ -3,11 +3,11 @@ title: "Check for bashisms"
 date: "2016-09-28T18:23:00+10:00"
 abstract: "Using checkbashisms"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - fb
 - shell-scripting
+- written-in-sydney
 ---
 For better or worse (depending on your disposition), GNU/Linux has become the *defacto* \*nix standard. But there are still plenty of unices out there, even Debian uses ash during start. If you're concerned with script portability, you should abstain from bashisms.
 

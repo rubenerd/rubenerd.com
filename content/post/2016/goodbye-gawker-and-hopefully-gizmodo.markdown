@@ -2,11 +2,11 @@
 title: "Goodbye Gawker, and hopefully Gizmodo"
 date: "2016-08-17T12:02:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - gawker
 - journalism
+- written-in-sydney
 ---
 Gawker Media has gone bankrupt, for reasons that are beyond the scope of this post. I can't speak to their celebrity, political or gaming coverage, but I'm hoping it signals the end of Gizmodo.
 

@@ -1,16 +1,14 @@
 ---
 title: "Belle Gibson, fake cures, and media"
 date: "2017-11-13T17:45:43+11:00"
-year: "2017"
-location: Sydney
 abstract: "A new book gives me some new thoughts on this terrible case."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - health
 - personal
 - family
+- written-in-sydney
 ---
 Back in 2015, Australia witnessed the downfall of [Belle Gibson], an author and app developer made famous by Instagram, breakfast television, and Apple's featured app lists. Her message was simple: eat healthy, and you can reduce the spread of your cancer too.
 

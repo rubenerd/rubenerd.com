@@ -1,17 +1,15 @@
 ---
 title: "Old driver decision tree"
 date: "2017-05-13T10:20:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "It's a painful journey to find old drivers"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - drivers
 - forums
 - nostalgia
 - social-networking
+- written-in-sydney
 ---
 Finding vintage computer hardware for sale online is challenging, but finding drivers is arguably just as difficult. The following tree based on my latest adventures updating my [vintage tower]. Bold text denotes a branch end.
 

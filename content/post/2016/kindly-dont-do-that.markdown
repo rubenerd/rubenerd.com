@@ -1,13 +1,12 @@
 ---
-draft: true
 title: "Kindly, Don’t Do That"
 date: "2016-07-12T14:18:50+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - cliches
 - weblog
+- written-in-sydney
 ---
 I’ve started a new blog called *[Kindly, Don’t Do That]*.
 
@@ -26,9 +25,9 @@ This may be extended further in the future to include:
 
 * Use of the word “gotten”
 
-Like so many secondary blogs I start, this will likely be folded back into the main *[Rubénerd]* site at some point in the future.
+Like so many secondary blogs I start, this will likely be folded back into the main *[Rubenerd]* site at some point in the future.
 
 [Kindly, Don’t Do That]: https://kindlydontdothat.tumblr.com/
-[Rubénerd]: https://rubenerd.com/
+[Rubenerd]: https://rubenerd.com/
 
 

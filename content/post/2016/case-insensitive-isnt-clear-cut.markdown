@@ -3,7 +3,6 @@ title: "Case-insensitive file systems aren't clear cut"
 date: "2016-12-10T10:48:00+10:00"
 abstract: "Means different things in different contexts"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -14,6 +13,7 @@ tag:
 - os-x
 - samba
 - windows
+- written-in-sydney
 ---
 <p style="font-style:italic">This was originally drafted in August 2015, and discovered in my drafts folder yesterday. I suspect I wanted to include ZFS examples, but never did.</p>
 

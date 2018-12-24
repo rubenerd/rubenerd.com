@@ -3,13 +3,13 @@ title: "Fate/Grand Order whales"
 date: "2018-12-09T21:11:41+11:00"
 abstract: "And now I know!"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - fate
 - fate-grand-order
 - games
 - mobile-games
+- written-in-sydney
 ---
 I know of mobile game whales, but not their etymology. Philipp on the Arqade StackExchange [explained]:
 

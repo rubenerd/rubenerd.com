@@ -4,11 +4,11 @@ date: "2018-07-06T16:45:02-07:00"
 abstract: "It has a coffee machine and couches!"
 thumb: "https://rubenerd.com/files/2018/missionbaywindows@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
 - san-francisco
+- written-in-san-francisco
 ---
 This evening’s office for us is the common area in my boss's apartment complex in [Mission Bay]. It has a coffee machine, couches, lots of natural light, free Wi-Fi, and did I mention couches?
 

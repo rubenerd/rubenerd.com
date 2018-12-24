@@ -3,11 +3,11 @@ title: "2016 and masculinity"
 date: "2016-12-28T10:22:00+10:00"
 abstract: "For all the bad things this year, at least I finally figured something out."
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - masculinity
 - philosophy
+- written-in-sydney
 ---
 2016 has been a rough year. Train and plane crashes seemingly every other week. Brexit, Trump and Pauline Hanson pushed back on the idea the world was trending towards a kinder, more inclusive place.
 

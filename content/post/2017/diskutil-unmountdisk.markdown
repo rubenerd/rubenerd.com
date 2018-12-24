@@ -1,11 +1,8 @@
 ---
 title: "diskutil unmountDisk"
 date: "2017-04-21T16:14:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "So much easier than multiple unmounts."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -13,6 +10,7 @@ tag:
 - mac-os-x
 - macos
 - os-x
+- written-in-sydney
 ---
 I was running a QEMU lab on my Mac, and needed raw disk access to a USB device with multiple partitions. QEMU needs these partitions unmounted on the host before they can access them, for good reason. I tried writing on the same paper as a friend was in real time once, it ended up a huge mess.
 

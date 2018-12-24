@@ -1,11 +1,8 @@
 ---
 title: "The origin of DirectX green"
 date: "2017-10-12T09:27:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "And Steve Jobs said Microsoft lacks taste, can you believe it?"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - gaming
@@ -13,6 +10,7 @@ tag:
 - windows
 - direct-x
 - xbox
+- written-in-sydney
 ---
 Have you ever wondered where the [X and green colour] for DirectX came from? Former Windows game evangelist Alex St John gave the lowdown for [Shack News in 2007]\:
 
@@ -23,7 +21,8 @@ And Steve Jobs said Microsoft [has no taste], can you believe it? Then there's t
 In their defence, Microsoft PR came down hard on them for it.
 
 [Shack News in 2007]: http://www.shacknews.com/article/46338/alex-st-john-interview
-[has no taste]: https://www.computerworld.com/article/2471632/network-software/steve-jobs-on-microsoft---they-just-have-no-taste--.html "ComputerWorld: Steve Jobs on Microsoft"
+- written-in-sydney
+---
 [X and green colour]: https://en.wikipedia.org/wiki/File:Directx9.png "DirectX 9 logo on Wikipedia"
 [Cerenkov radiation]: https://en.wikipedia.org/wiki/Cherenkov_radiation#Nuclear_reactors
 

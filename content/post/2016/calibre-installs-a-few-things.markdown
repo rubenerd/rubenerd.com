@@ -3,12 +3,12 @@ title: "Calibre installs a few things"
 date: "2016-03-21T10:40:00+10:00"
 abstract: "That’s a lot of dependencies"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - calibre
 - ebooks
 - package-managers
+- written-in-sydney
 ---
 I'm cleaning out my apartment, including donating a ton of my books to save valuable space. It's a little heartbreaking, I won't lie.
 

@@ -3,7 +3,6 @@ title: "Being mostly wrong about diesel cars"
 date: "2015-10-26T09:59:00+10:00"
 abstract: "The hyperbole is strong in this one"
 year: "2015"
-location: Sydney
 category: Hardware
 tag:
 - cars
@@ -11,6 +10,7 @@ tag:
 - environment
 - health
 - news
+- written-in-sydney
 ---
 Jason Perlow's article for ZDNet is the [latest defence](http://www.zdnet.com/article/volkswagen-lied-but-elon-musk-is-dead-wrong-about-diesel-cars/) I’ve read of passenger diesel. It starts with the following quote, then follows on about how he has a diesel car, why he likes it, and why he's frustrated at VW for gambling their reputation:
 

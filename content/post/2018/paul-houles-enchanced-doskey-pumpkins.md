@@ -4,13 +4,13 @@ date: "2018-05-17T15:20:09+10:00"
 abstract: "This homepage photo is the greatest thing of all time"
 thumb: "https://rubenerd.com/files/2018/paul-houle@1x.jpg"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - dos
 - keyboards
 - memory
 - photos
+- written-in-sydney
 ---
 Want DOSKEY, but with tab completion and other goodies? You want Paul Houle's [Enhanced DOSKEY]:
 

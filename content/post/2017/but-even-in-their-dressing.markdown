@@ -1,15 +1,13 @@
 ---
 title: "But even in their dressing"
 date: "2017-01-03T10:34:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "No, dressing a certain way doesn't give abusers an excuse"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - politics
 - women
+- written-in-sydney
 ---
 New year celebrations aren't my cup of tea. But at least I'm a caucasian gent who doesn't have to put up with this crap, as reported by [Michael Safi at The Guardian]:
 

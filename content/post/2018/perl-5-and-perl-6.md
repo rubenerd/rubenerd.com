@@ -3,11 +3,10 @@ title: "Perl 5 and Perl 6"
 date: "2018-02-06T08:29:05+11:00"
 abstract: "Or the naming scheme that’s causing problems"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - perl
-- postaday2018
+- written-in-sydney
 ---
 I use and love Perl. I haven't been a full time developer for several years now, and have used half a dozen other languages, but Perl still feels the most natural and in tune with the way my mind works. Read into that how you will.
 

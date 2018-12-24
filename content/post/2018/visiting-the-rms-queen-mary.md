@@ -4,7 +4,6 @@ date: "2018-07-20T00:12:12-07:00"
 abstract: "Childhood dream realised!"
 thumb: "https://rubenerd.com/files/2018/qm-dusk@1x.jpg"
 year: "2018"
-location: Los-Angeles
 category: Thoughts
 tag:
 - california2018
@@ -12,6 +11,7 @@ tag:
 - los-angeles
 - ocean-liners
 - travel
+- written-in-los-angeles
 ---
 *This post was largely written from Los Angeles, but was posted once back in Sydney where I could download the accompanying photographic photos. As opposed to a non-photographic photo, whatever that would be.*
 

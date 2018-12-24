@@ -1,17 +1,15 @@
 ---
 title: "Fate/Grand Order VR feat. Mash Kyrielight"
 date: "2017-04-09T11:01:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Leaving aside her attire, this looks amazing"
 year: "2017"
-location: Sydney
 category: Anime
 tag:
 - fate
 - fate-grand-order
 - games
 - vr
+- written-in-sydney
 ---
 Poe's Law comes into full effect on April Fools day, especially in the current media climate, or landscape, or media climate landscape paradigm synergies. So when an amazing, exciting, awesome announcement is amazingly, excitedly, awesomely announced on or around that day, its perfectly reasonable to assume the aforementioned announcement is too good to be true.
 

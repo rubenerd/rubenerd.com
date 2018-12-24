@@ -3,13 +3,13 @@ title: "ssh, sftp, scp, tftp port fun"
 date: "2016-04-09T10:01:00+10:00"
 abstract: "Slash dot dash dot inconsistent"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - ftp
 - scp
 - sftp
 - ssh
+- written-in-sydney
 ---
 To start an SSH session on a specific port:
 

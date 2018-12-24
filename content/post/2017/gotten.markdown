@@ -1,16 +1,14 @@
 ---
 title: "Gotten"
 date: "2017-07-06T12:02:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "It's either not a word, or its a lazy one"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - language
 - united states
+- written-in-sydney
 ---
 I've witnessed an explosion in the use of that alleged word that even rivals *nuance*. It needs to be stomped out, for two reasons:
 

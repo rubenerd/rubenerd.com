@@ -2,7 +2,6 @@
 title: "Multiple GoToMeeting versions"
 date: "2016-09-26T09:13:17+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - mac
@@ -10,6 +9,7 @@ tag:
 - mac-os-x
 - os-x
 - gotomeeting
+- written-in-sydney
 ---
 I like to keep a pretty tight ship as far as software goes. It's why I only begrugingly use Microsoft and Adobe software with their rheems of supporting tools, updaters and other cruft clogging my Applications folder and menubar and other unmentionable places. What?
 

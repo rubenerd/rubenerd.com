@@ -4,12 +4,12 @@ date: "2018-06-21T13:07:07-07:00"
 abstract: "No idea how I got to this video, but it was oddly fascinating."
 thumb: "https://rubenerd.com/files/2018/project-farm-tape@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Hardware
 tag:
 - california2018
 - home
 - video
+- written-in-san-francisco
 ---
 <p><a href="https://www.youtube.com/watch?v=UbXy3c2oAfA"><img src="https://rubenerd.com/files/2018/project-farm-tape@1x.jpg" srcset="https://rubenerd.com/files/2018/project-farm-tape@1x.jpg 1x, https://rubenerd.com/files/2018/project-farm-tape@2x.jpg 2x" alt="Link to Project Farm's video comparing duck tape" style="width:500px; height:281px;" /></a></p>
 

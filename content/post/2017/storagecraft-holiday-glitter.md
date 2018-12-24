@@ -1,16 +1,14 @@
 ---
 title: "StorageCraft’s holiday glitter"
 date: "2017-12-22T15:23:21+11:00"
-year: "2017"
-location: Sydney
 abstract: "Winning!"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - storagecraft
 - cloud-computing
 - backups
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/storagecraft-xmas@1x.jpg" srcset="https://rubenerd.com/files/2017/storagecraft-xmas@1x.jpg 1x, https://rubenerd.com/files/2017/storagecraft-xmas@2x.jpg 2x" alt="" style="width:300px; height:375px;" /></p>
 

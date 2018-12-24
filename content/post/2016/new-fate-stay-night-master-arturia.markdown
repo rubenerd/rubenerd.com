@@ -3,7 +3,6 @@ title: "New Fate/Stay Night Master Arturia"
 date: "2016-02-20T11:44:00+11:00"
 abstract: "Damn it, Type/Moon and Alter!"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - anime-figs
@@ -11,6 +10,7 @@ tag:
 - reviews
 - saber
 - type-moon
+- written-in-sydney
 ---
 [Clara] and I have a fig problem. They're everywhere in our apartment, and the situation is only getting worse. The first step towards overcoming an addiction is admitting it, right?
 

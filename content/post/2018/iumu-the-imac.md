@@ -3,14 +3,13 @@ title: "iUmu, the iMac"
 date: "2018-02-09T09:32:31+11:00"
 abstract: "My first iMac since 1999!"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - imac
 - personal
 - home
-- postaday2018
+- written-in-sydney
 ---
 So after two years of squirreling away a bit into the discretionary budget each month, I got a new iMac!
 

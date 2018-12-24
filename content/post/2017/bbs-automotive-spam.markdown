@@ -1,15 +1,13 @@
 ---
 title: "BBS automotive spam"
 date: "2017-01-15T09:21:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Everything about this email was wonderful."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - email
 - spam
+- written-in-sydney
 ---
 I didn't get time to do fanmail submissions last Friday, so I thought I'd quote this delightful piece we got at work recently. Everything about this message is wonderful.
 

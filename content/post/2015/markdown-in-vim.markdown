@@ -3,12 +3,12 @@ title: "Markdown in Vim"
 date: "2015-11-19T13:17:00+10:00"
 abstract: "If you use the .markdown extension"
 year: "2015"
-location: Sydney
 category: Software
 tag:
 - editors
 - markdown
 - vim
+- written-in-sydney
 ---
 I use .md for my Markdown extensions. I know Gruber prefers .txt, but I like having syntax highlighting and the ability to process batches of them in a folder mixed with plain text files.
 

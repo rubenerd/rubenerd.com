@@ -4,12 +4,12 @@ date: "2018-07-05T11:32:11-07:00"
 abstract: "Thanks, Medhi!"
 thumb: "https://rubenerd.com/files/2018/muskimeter@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Hardware
 tag:
 - california2018
 - electroboom
 - electronics
+- written-in-san-francisco
 ---
 This purchase, and subsequent post, have been more than half a decade in the making. At least six years, which is slightly more than half a decade. Hence, my use of the phrase *more than* in the first sentence. Are you going to mock my spelling of *multimeter* soon too?
 

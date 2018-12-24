@@ -3,12 +3,12 @@ title: "We don’t need Australian state taxes"
 date: "2016-03-30T23:44:00+10:00"
 abstract: "Turnbull's latest idea is a step backwards"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - economics
 - news
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/hetalia-aus.jpg" srcset="https://rubenerd.com/files/2016/hetalia-aus.jpg 1x, https://rubenerd.com/files/2016/hetalia-aus@2x.jpg 2x" alt="Advance Australia Fair by scrii on DeviantArt" style="width:500px; height:300px" /></p>
 

@@ -3,12 +3,12 @@ title: "The Internet Archive Python CLI tool"
 date: "2018-06-22T11:44:26-07:00"
 abstract: "If you’re used to the FTP upload method, try this instead."
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california2018
 - guides
 - internet-archive
+- written-in-san-francisco
 ---
 If you're used to the older FTP method of uploading material to the Internet Archive, you owe it to yourself and your password to try out their excellent Python command line tools.
 

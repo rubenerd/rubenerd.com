@@ -1,15 +1,13 @@
 ---
 title: "A decade of iTelephones"
 date: "2017-06-30T09:11:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Been a user of one ever since"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - iphone
+- written-in-sydney
 ---
 It's been a big couple of years for decade celebrations. Not only did the [Haruhi anime start] ten years ago last year, but Apple started selling the original iPhone in the United States. As I [wrote exactly ten years ago]:
 

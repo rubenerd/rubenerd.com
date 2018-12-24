@@ -1,15 +1,13 @@
 ---
 title: "No more plain text Zendesk"
 date: "2017-09-18T10:09:29+10:00"
-year: "2017"
-location: Sydney
 abstract: "Because, as a gentleman, I send plain text email"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - email
 - zendesk
+- written-in-sydney
 ---
 I missed this [news from Zendesk] owing to... an errant spam filer. There's [Morissetian-irony] there somewhere.
 

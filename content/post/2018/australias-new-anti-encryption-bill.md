@@ -3,13 +3,13 @@ title: "Australia’s new anti-encryption bill"
 date: "2018-12-08T10:08:03+11:00"
 abstract: "I can't even."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - australia
 - economics
 - privacy
 - security
+- written-in-sydney
 ---
 *This post was roughly adapted from a letter I've sent to my local MP and senators. I'm releasing this post into the [public domain]; copy as much as you want if you find it useful.*
 

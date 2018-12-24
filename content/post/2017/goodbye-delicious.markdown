@@ -1,17 +1,15 @@
 ---
 title: "Goodbye, del.icio.us"
 date: "2017-06-05T15:25:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "I'd stopped using the service last year, but goodbye again"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - bookmarks
 - delicious
 - social-networking
 - pinboard
+- written-in-sydney
 ---
 I remember sitting in a Burger King in Singapore listening to an early episode of The Gilmor Gang. They'd been talking about this new trend called podcasting, and how businesses were already considering how they could use them. The conversation steered toward social networking, and how sites like del.icio.us were shaking things up.
 

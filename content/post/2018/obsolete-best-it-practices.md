@@ -3,12 +3,12 @@ title: "Obsolete best IT practices"
 date: "2018-10-16T08:17:29+11:00"
 abstract: "Use a padlock on your Zip disk box, damn it!"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - iomega
 - networking
 - nostalgia 
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/scsi-chain@1x.png" srcset="https://rubenerd.com/files/2018/scsi-chain@1x.png 1x, https://rubenerd.com/files/2018/scsi-chain@2x.png 2x" alt="Instructions for terminating SCSI devices." style="width:400px; height:310px" /></p>
 

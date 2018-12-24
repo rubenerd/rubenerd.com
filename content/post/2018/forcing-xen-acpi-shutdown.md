@@ -3,13 +3,13 @@ title: "Forcing Xen ACPI shutdown"
 date: "2018-04-09T08:19:15+10:00"
 abstract: "Using the -F flag, albeit in the wrong order!"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - debian
 - linux
 - xen
 - virtualisation
+- written-in-sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2014/Xen-Fu-Panda-500px.png" alt="Xen's Panda mascot" style="width:250px;" /></p></figure>
 
@@ -18,8 +18,10 @@ If you've got a Xen domU [misbehaving], you can force an ACPI shutdown with the 
 For example, say you have the following:
 
     Name                  ID   Mem VCPUs  State Time(s)
-    Domain-0               0 59839    16 r----- 14529.0
-    borked-windows-server 32  4096     1 r-----     0.1
+- written-in-sydney
+---
+- written-in-sydney
+---
 
 To force shutdown domain 32:
 

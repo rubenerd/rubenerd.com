@@ -2,11 +2,11 @@
 title: "Four power supplies"
 date: "2016-09-05T08:33:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - hp
 - servers
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/l_22602210.jpg" srcset="https://rubenerd.com/files/2016/l_22602210.jpg 1x, https://rubenerd.com/files/2016/l_22602210@2x.jpg 2x" alt="" style="width:300px; height:266px" /></p>
 

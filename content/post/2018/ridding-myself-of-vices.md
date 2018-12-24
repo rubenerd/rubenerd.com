@@ -3,12 +3,11 @@ title: "Ridding myself of vices"
 date: "2018-02-09T08:26:52+11:00"
 abstract: "The first step in what I hope will become a productive enterprise of self betterment."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
 - pointless
-- postaday2018
+- written-in-sydney
 ---
 I'll be blogging about various vices I've rid myself of over the coming weeks. It is my hope, and intention, that a typed record will keep me accontable, and motivate me to cultivate positive habits.
 

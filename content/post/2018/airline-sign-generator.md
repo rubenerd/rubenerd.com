@@ -2,15 +2,15 @@
 title: "Airline Sign Generator"
 date: "2018-08-23T23:03:34+10:00"
 abstract: "Inspired!"
-thumb: ""
+thumb: "https://rubenerd.com/files/2018/airwaysairlines.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - aviation
 - pointless
 - sign-generator
 - transit
+- written-in-sydney
 ---
 I remembered this old [sign generator site] from years back, and saw they have a slew of new ones. This is my latest creation!
 

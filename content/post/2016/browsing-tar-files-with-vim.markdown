@@ -3,7 +3,6 @@ title: "Browsing tar files with Vim"
 abstract: "You can!"
 date: "2016-03-16T14:31:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -14,6 +13,7 @@ tag:
 - nvi
 - vi
 - vim
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/houkistare.jpg" srcset="https://rubenerd.com/files/2016/houkistare.jpg 1x, https://rubenerd.com/files/2016/houkistare@2x.jpg 2x" alt="Houki isn’t sure why she’s in a tape archive" style="width:500px; height:281px" /></p>
 

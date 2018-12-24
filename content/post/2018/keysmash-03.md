@@ -4,7 +4,6 @@ date: "2018-03-03T21:44:54+10:00"
 abstract: "I like doing keysmashes into the Mac Dictionary.app"
 thumb: "https://rubenerd.com/files/2018/icon-macdict@1x.png"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - economics
@@ -14,6 +13,7 @@ tag:
 - os-x
 - macos
 - apple
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/icon-macdict@1x.png" srcset="https://rubenerd.com/files/2018/icon-macdict@1x.png 1x, https://rubenerd.com/files/2018/icon-macdict@2x.png 2x" alt="Dictionary.app icon" style="width:128px; height:128px; float:right; margin:0 0 1em 0" /></p>
 

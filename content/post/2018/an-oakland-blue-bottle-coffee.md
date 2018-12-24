@@ -4,13 +4,13 @@ date: "2018-07-08T16:12:14-07:00"
 abstract: "My day trip to the city across the bay from San Francisco"
 thumb: "https://rubenerd.com/files/2018/old-oakland@1x.jpg"
 year: "2018"
-location: Oakland
 category: Thoughts
 tag:
 - california2018
 - travel
 - oakland
 - united-states
+- written-in-oakland
 ---
 <p><img src="https://rubenerd.com/files/2018/oakland-blue-bottle@1x.jpg" srcset="https://rubenerd.com/files/2018/oakland-blue-bottle@1x.jpg 1x, https://rubenerd.com/files/2018/oakland-blue-bottle@2x.jpg 2x" alt="That's a nice coffee!" style="width:500px; height:375px;" /></p>
 

@@ -1,16 +1,14 @@
 ---
 title: "Boeing 757 Heavy"
 date: "2017-06-28T07:49:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Heavy isn’t just for widebodies"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - aviation
 - boeing
 - boeing-757
+- written-in-sydney
 ---
 [Speaking of aviation], today I learned the heavy designation isn't limited to widebodies.
 

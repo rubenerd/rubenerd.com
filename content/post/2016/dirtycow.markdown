@@ -2,11 +2,11 @@
 title: "DirtyCOW"
 date: "2016-10-24T15:14:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
-tag: 
+tag:
 - linux
 - security
+- written-in-sydney
 ---
 I go on leave for three weeks, and [this happens].
 

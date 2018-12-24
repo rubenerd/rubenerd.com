@@ -1,14 +1,20 @@
 ---
 title: "London Underground schwag"
 date: "2018-02-18T14:18:45+11:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "So much cool stuff. Howzabout some soft toys?"
+thumb: "https://rubenerd.com/files/2018/tube-soft-toy@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
-- 
-- postaday2018
+- england
+- europe
+- london
+- london-underground
+- metros
+- trains
+- transit
+- united-kingdom
+- written-in-sydney
 ---
 Ever wanted a [soft toy tube train] to cuddle?
 

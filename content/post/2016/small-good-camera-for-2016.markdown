@@ -1,12 +1,11 @@
 ---
-draft: true
 title: "Small, good camera for 2016"
 date: "2016-08-30T10:54:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - photography
+- written-in-sydney
 ---
 I adore my Nikon D60 DSLR, but my iPhone's appreciably worse camera gets more use because I always have it. With an epic trip approaching, I decided to check out whether I should lug it with me, change the lens, or replace it entirely.
 
@@ -20,7 +19,8 @@ My father used to know a National Geographic photographer. He would tell me the 
 
 A larger, heavier camera can potentially help with the first point, but if its too big to always have with you, you'll never hit point three. The best camera you have is the one you've got on you when the opportunity strikes, and a bulky SLR at home isn't going to be it.
 
-So with that in min
+So with that in mind, here are some options.
+
 
 ### Pancake lens for my D60
 
@@ -30,13 +30,13 @@ There are plenty of pancake detractors, but I would refer them to the third poin
 
 My beloved NIKKOR stopped making pancakes after 2005, but there are still plenty selling their 50mm f1.8 for a few hundred dollars. It's incredible you can get an f1.8 pancake in the first place, though for my subject matter I far prefer 24 or 35mm on APS-C sized-sensors. 
 
+
 ### Pentax Pancakes
 
 I've kind of had a soft spot for Pentax cameras, and almost went with one back in the day before settling on Nikon so I could share my old man's lenses. Pentax make some interesting pancakes, including a 40mm f2.8 which autofocuses on all their contemporary DSLRs (take that, Nikon!).
 
 If I were to get one of their cute KS-2 SLRs in white, or a K-70 with its crazy-high ISO, I could get a pancake lens and upgrade my kit all at once. Photos online show the pancake barely protruding further than the flash mount, so it would be big but much flatter than my current D60+35mm combo, but allow me to get some more glass for macro and distrance photography when I wanted.
 
-James Lin on Amazon showed what this would look like:
 
 ### FujiFilm X100T
 
@@ -53,3 +53,4 @@ So we come to the final one that I'm most likely going to get. This tiny Panason
 It's still not quite pocket size, but it could be enough to always have in my bag. I love buying new glass, but realistically most of the time this camera's lens would suit my needs.
 
 [Sunk cost is a fallacy]: https://en.wikipedia.org/wiki/Escalation_of_commitment
+

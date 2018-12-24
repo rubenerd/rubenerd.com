@@ -4,13 +4,13 @@ date: "2018-10-04T22:55:17+10:00"
 abstract: "With coffee!"
 thumb: "https://rubenerd.com/files/2018/amakura@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - art
 - fate
 - fate-grand-order
 - nitocris
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/amakura@1x.jpg" srcset="https://rubenerd.com/files/2018/amakura@1x.jpg 1x, https://rubenerd.com/files/2018/amakura@2x.jpg 2x" alt="" style="width:420px; height:636px;" /></p>
 

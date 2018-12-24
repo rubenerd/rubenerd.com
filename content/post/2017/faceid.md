@@ -1,11 +1,8 @@
 ---
 title: "FaceID"
 date: "2017-11-22T08:54:24+11:00"
-year: "2017"
-location: Sydney
 abstract: "I have reservations, surprising nobody!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - apple
@@ -13,6 +10,7 @@ tag:
 - authentication
 - privacy
 - phones
+- written-in-sydney
 ---
 I haven't done a thinking out loud post for a long time, where I scrawl out my ideas in one continuous stream then revisit it later.
 

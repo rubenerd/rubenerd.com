@@ -4,13 +4,13 @@ date: "2018-11-19T21:14:00+11:00"
 abstract: "These memes are awful, and I love them."
 thumb: "https://rubenerd.com/files/2018/photo-nthsyd-encouragement@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - happy
 - north-sydney
 - sydney
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-nthsyd-encouragement@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-nthsyd-encouragement@1x.jpg 1x, https://rubenerd.com/files/2018/photo-nthsyd-encouragement@2x.jpg 2x" alt="You can do this, you have encourage-mint!" style="width:500px" /></p>
 

@@ -1,16 +1,14 @@
 ---
 title: "Fibre to the Node"
 date: "2017-07-06T18:33:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Thanks for nothing, Malcolm Turnbull"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - australia
 - nbn
 - politics
+- written-in-sydney
 ---
 We've moved from a house sporting a Fibre to the Premisis (FTTP) connection, to one that only has Fibre to the Node (FTTN). And it's even more painful than I was expecting:
 

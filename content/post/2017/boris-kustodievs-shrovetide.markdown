@@ -1,16 +1,14 @@
 ---
 title: "Boris Kustodiev’s Shrovetide"
 date: "2017-02-13T08:39:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "One of my favourite paintings of all time."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - art
 - boris-kustodiev
 - colour
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/BorisKustodievShrovetide@1x.jpg" alt="" style="width:500px; height:233px" srcset="https://rubenerd.com/files/2017/BorisKustodievShrovetide@1x.jpg 1x, https://rubenerd.com/files/2017/BorisKustodievShrovetide@2x.jpg 2x" /></p>
 

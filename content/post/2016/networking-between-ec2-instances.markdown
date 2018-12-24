@@ -3,7 +3,6 @@ title: "Blocked networking between EC2 instances"
 abstract: "Check your Security Group for private traffic"
 date: "2016-03-14T15:41:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - amazon
@@ -11,6 +10,7 @@ tag:
 - cloud-computing
 - ec2
 - servers
+- written-in-sydney
 ---
 Every cloud handles networking between instances differently. Generally you want to avoid using public networks given transit may be more expensive, and has to go through the same public firewall rules your web-facing traffic does.
 

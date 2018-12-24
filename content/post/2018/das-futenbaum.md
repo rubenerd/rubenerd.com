@@ -3,12 +3,12 @@ title: "Das FütenBaum"
 date: "2018-07-16T12:58:56-07:00"
 abstract: "A new term my colleague is trying to get going"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
 - language
 - work
+- written-in-san-francisco
 ---
 My colleague posted this on our internal chat:
 

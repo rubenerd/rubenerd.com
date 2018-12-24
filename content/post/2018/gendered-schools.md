@@ -1,13 +1,16 @@
 ---
 title: "Gendered schools"
 date: "2018-11-05T21:47:22+11:00"
-abstract: ""
-thumb: ""
+abstract: "Are they still relevent? No."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- australia
+- gender
+- education
+- politics
+- sydney
+- written-in-sydney
 ---
 Christopher Scanlon [asked in the *Sydney Morning Herald*]:
 

@@ -1,11 +1,8 @@
 ---
 title: "What’s new in the Debian installer"
 date: "2017-09-21T09:10:41+10:00"
-year: "2017"
-location: Sydney
 abstract: "No more PowerPC, defaulting to 32bit, and HTTPS apt in the installer"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - linux
@@ -15,6 +12,7 @@ tag:
 - powerpc
 - apple
 - ibook
+- written-in-sydney
 ---
 I missed a few of these nuggets when Debian 9 Stretch came out:
 

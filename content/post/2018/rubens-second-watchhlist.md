@@ -4,13 +4,13 @@ date: "2018-10-21T21:37:04+11:00"
 abstract: "Three more videos I watched this week"
 thumb: "https://rubenerd.com/files/2018/yt-oGMx_Cw0lCc@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - mustard
 - watchlist
 - video
 - youtube
+- written-in-sydney
 ---
 Here are three more videos I [watched this week].
 

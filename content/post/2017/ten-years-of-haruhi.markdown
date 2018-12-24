@@ -1,8 +1,8 @@
 ---
 title: "Ten years of Haruhi"
 date: "2017-02-04T08:35:06+10:00"
+abstract: "I feel old!"
 year: "2017"
-location: Sydney
 category: Anime
 tag:
 - 2006-anime
@@ -10,6 +10,7 @@ tag:
 - nagato-yuki
 - nostalgia
 - suzumiya-haruhi
+- written-in-sydney
 ---
 <p style="font-style:italic">In our ongoing series of posts cleared from my long-neglected draft folder, have this post originally written on 14th of August 2016. I think I couldn't find the screenshot at the time.</p>
 

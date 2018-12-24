@@ -4,12 +4,12 @@ date: "2018-10-27T23:54:38+11:00"
 abstract: "I see what they did there."
 thumb: "https://rubenerd.com/files/2018/Purple_HeartCollab@2x.png"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - art
 - azur-lane
 - hyperdimension-neptunia
+- written-in-sydney
 ---
 Back in January — wow how is it almost November — I blogged about an inexplicable [Azur Lane Neptunia] collaboration:
 

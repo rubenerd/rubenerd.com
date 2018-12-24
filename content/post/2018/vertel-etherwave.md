@@ -4,12 +4,12 @@ date: "2018-04-12T09:45:10+10:00"
 abstract: "When reducing jitter isn't respected by the Firefox PDF renderer."
 thumb: "https://rubenerd.com/files/2018/etherwave@1x.jpg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - firefox
 - pdfs
 - networking
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/etherwave@1x.jpg" srcset="https://rubenerd.com/files/2018/etherwave@1x.jpg 1x, https://rubenerd.com/files/2018/etherwave@2x.jpg 2x" alt="A borked PDF render of Etherwave" style="width:500px" /></p>
 

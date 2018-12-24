@@ -4,13 +4,13 @@ date: "2018-08-24T08:41:04+10:00"
 abstract: "That’s some great graphic work!"
 thumb: "https://rubenerd.com/files/2018/spam-performance-management.jpg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - design
 - friday-fanmail
 - spam
 - typography
+- written-in-sydney
 ---
 Friday Fanmail time! Each and every Friday, except when I either forget or couldn't be bothered, I post a piece of fanmail sent to me regarding this blog, so that we may all pay witness to their [majestic words].
 

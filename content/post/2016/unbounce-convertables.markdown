@@ -1,21 +1,15 @@
 ---
-draft: true
 title: "Unbounce Convertables"
 date: "2016-11-24T15:10:00+10:00"
 abstract: "Make no mistake, lightboxes and overlays are user-hostile popups."
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - advertising
 - design
 - user-hostile
+- written-in-sydney
 ---
-
-The above art by XX is XX in a convertable. This has nothing to do with the convertables discussed in this post, thereby rendering its inclusion and this entire paragraph delightfully pointless.
-
-You know what else is pointless? A blunt pencil.
-
 Unbounce is a very useful tool for developing landing pages. They're latest feature in beta is worrying though:
 
 > Convertables IN BETA

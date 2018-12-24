@@ -3,13 +3,13 @@ title: "The Great GitHub Outage of 2016"
 date: "2016-02-01T10:30:00+10:00"
 abstract: "Fail unicorns!"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - development
 - git
 - github
 - outages
+- written-in-sydney
 ---
 <p><img alt="GitHub's Fail Unicorn" src="https://rubenerd.com/files/2016/failunicorn.png" style="width:200px;" /></p>
 

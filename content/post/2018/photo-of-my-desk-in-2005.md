@@ -2,16 +2,15 @@
 title: "Photo of my desk in 2005"
 date: "2018-02-25T22:24:08+11:00"
 abstract: "A slice of life with the iPod, Palm, and iBook G3!"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/photo-2005desk@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - palm
 - apple
 - iomega
 - tungsten
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-2005desk@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-2005desk@1x.jpg 1x, https://rubenerd.com/files/2018/photo-2005desk@2x.jpg 2x" alt="Photo of my desk from 2005, with the below features" style="width:500px" /></p>
 

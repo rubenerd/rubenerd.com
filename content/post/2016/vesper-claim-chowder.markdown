@@ -2,12 +2,12 @@
 title: "Vesper claim chowder"
 date: "2016-08-25T17:20:07+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - apple
 - daring-fireball
 - john-gruber
+- written-in-sydney
 ---
 *"Claim chowder"* is a Mr John Gruber term for demonstratably-ridiculous predictions levelled at Apple by pundits who should know better by now. He's not immune to them himself though, as can be seen in [this post from 2013]\:
 

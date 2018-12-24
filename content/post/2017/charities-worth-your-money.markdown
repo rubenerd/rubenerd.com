@@ -1,14 +1,12 @@
 ---
 title: "Charities worth your time and money"
 date: "2017-05-15T09:18:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "I can vouch for these fine organisations."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - charities
+- written-in-sydney
 ---
 The latest Australian budget has cut our national foreign aid budget again, so I'm putting my money where my mouth is and donating a larger part of my income. If you're Australian, I can vouch for, and donate to, these:
 

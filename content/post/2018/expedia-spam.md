@@ -3,11 +3,10 @@ title: "Expedia spam"
 date: "2018-02-14T11:39:22+11:00"
 abstract: "Welcome! Useful info. Less useful info. Feedback! Upsell! Feedback!"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - 
-- postaday2018
+- written-in-sydney
 ---
 I booked a business trip with Expedia on Sunday. By this morning, I've received the following trove of messages. Important one(s) are highlighted <span style="color:green; font-weight:bold">green</span>.
 

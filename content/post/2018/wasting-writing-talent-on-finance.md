@@ -3,13 +3,13 @@ title: "Wasting writing talent on finance"
 date: "2018-07-13T17:34:34-07:00"
 abstract: "The writer of SG Wealth Builder should be a science fiction writer, or sports commentator!"
 year: "2018"
-location: Los-Angeles
 category: Thoughts
 tag:
 - banks
 - california2018
 - finance
 - singapore
+- written-in-los-angeles
 ---
 I'm sitting at gate 9 in one of <abbr title="Los Angeles">LAX's</abbr> domestic terminals, and it's lovely. Proper chairs, power points, carpet, nice and quiet. People have told me horror stories about LAX, but either they've cleaned up their act, or I've had a string of very good luck the last few times I've been through here. But I digress.
 

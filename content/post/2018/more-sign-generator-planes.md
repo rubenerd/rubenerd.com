@@ -4,13 +4,13 @@ date: "2018-08-27T08:32:37+10:00"
 abstract: "Neither of us should quit our day jobs."
 thumb: "https://rubenerd.com/files/2018/plain-airlines@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - aircraft
 - airlines
 - pointless
 - transit
+- written-in-sydney
 ---
 Happy Monday! [Last Thursday I rediscovered] an [old sign-generator site] where you can create your own airlines. I've since thought of another:
 

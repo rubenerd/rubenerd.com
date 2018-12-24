@@ -3,12 +3,12 @@ title: "Apple New York event wish list"
 date: "2018-10-30T21:07:30+11:00"
 abstract: "New Mac Mini would be nice!"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - mac-mini
 - mac-pro
+- written-in-sydney
 ---
 Apple have their event tomorrow in New York. This is my personal wish list, which must not be construed as what Apple *should* do, just what I'd love for them to. Though I'm willing to take a consulting role at the company if they so desire.
 

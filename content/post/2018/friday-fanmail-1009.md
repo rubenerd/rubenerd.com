@@ -3,10 +3,10 @@ title: "Friday Fanmail: $1009"
 date: "2018-05-02T08:18:53+10:00"
 abstract: "BITCOIN PROGRAM!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - spam
+- written-in-sydney
 ---
 It's time for some more Friday fanmail! Though I accidently forgot to post this last Friday, so it'll be Wednesday. That means it's either two days early, or very late.
 

@@ -2,11 +2,11 @@
 title: "Being an ISFJ"
 date: "2016-06-09T16:50:00+10:00"
 year: "2016"
-location: Sydney
-category: thoughts
+category: Thoughts
 tag:
 - personality
 - personal
+- written-in-sydney
 ---
 I did a Myers Briggs test today (insert your derision here), and was surprised at how I’ve changed. As a teenager right through my 20s, I was overwhelmingly an [INTJ] "architect", but according to this [obviously reputable site], I've tipped over to being an [ISFJ-T] "defender" now. 
 

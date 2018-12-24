@@ -3,13 +3,13 @@ title: "Privatising the Australian ABC"
 date: "2018-06-19T15:34:33-07:00"
 abstract: "The Coalition have zero credibility on this"
 year: "2018"
-location: San-Francisco
 category: Media
 tag:
 - australia
 - abc
 - california2018
 - news
+- written-in-san-francisco
 ---
 The big news in Australia has been the centre-right Liberal party's peak council voting overwhelmingly to privatise the national broadcaster, the ABC. MPs were quick to assuage concerns, or attempt to, as [Amy Remeikis reports]\:
 

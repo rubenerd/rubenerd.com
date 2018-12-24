@@ -3,7 +3,6 @@ title: "800×600 in a Retina world"
 date: "2018-02-05T09:10:58+11:00"
 abstract: "Taking a screenshot at that res, then looking at it on a Retina screen."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - resolutions
@@ -14,7 +13,7 @@ tag:
 - os-x
 - mac-os-x
 - macos
-- postaday2018
+- written-in-sydney
 ---
 Here's some fun. My work MacBook Pro machine erroneously detected itself as having an 800×600 resolution yesterday, because *High Sierra*. I took and screenshot, then restored its native resolution, which rendered the screenshot at this exact size:
 

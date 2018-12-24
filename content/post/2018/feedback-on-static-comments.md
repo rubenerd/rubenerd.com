@@ -3,11 +3,11 @@ title: "Feedback on static comments"
 date: "2018-04-21T08:46:08+10:00"
 abstract: "Thanks to X Y Z!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - comments
 - weblog
+- written-in-sydney
 ---
 Last Thursday I put out an <abbr title="request for comment">RFC</abbr> on comment systems, and how I'd include them again on this statically-generated blog. I got some great feedback! 
 

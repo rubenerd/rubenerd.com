@@ -1,15 +1,13 @@
 ---
 title: "Replace FTP client with NcFTP on High Sierra"
 date: "2017-12-19T11:23:12+11:00"
-year: "2017"
-location: Sydney
 abstract: "High Sierra no longer bundles"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - ftp
 - macos
+- written-in-sydney
 ---
 macOS High Sierra no longer bundles an ftp client or server. Regardless of technical merit or justification, there are still large install bases for ftp, especially in embedded and legacy hardware. The same goes for telnet, but that's for another discussion.
 

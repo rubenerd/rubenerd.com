@@ -3,12 +3,11 @@ title: "The daily bird, via @sjdorst"
 date: "2018-01-07T10:33:38+11:00"
 abstract: "The Lady Bullfinch bird is adorable!"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - photos
 - birds
-- postaday2018
+- written-in-sydney
 ---
 Steven Dorst, writer of the [eponymously URL'd blog] and [@sjdorst] on The Twitters – whom you should be following – send this to me last week:
 

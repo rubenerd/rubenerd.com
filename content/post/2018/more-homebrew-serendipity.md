@@ -3,7 +3,6 @@ title: "More Homebrew serendipity"
 date: "2018-10-08T10:37:38+11:00"
 abstract: "fzf, git-annex, hyperfine, glowinthedarksnorkel"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -11,6 +10,7 @@ tag:
 - homebrew
 - mac
 - package-managers
+- written-in-sydney
 ---
 I always see interesting stuff when updating [Homebrew]. I had some [serendipity in February], here are some more packages I hadn't heard of:
 

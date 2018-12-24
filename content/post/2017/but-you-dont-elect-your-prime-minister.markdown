@@ -1,15 +1,13 @@
 ---
 title: "In fact, we do elect our Prime Ministers"
 date: "2017-08-03T17:11:01+10:00"
-year: "2017"
-location: Sydney
 abstract: "Anyone who says otherwise is splitting hairs for no productive reason."
 year: "2017"
-location: Osaka
 category: Thoughts
 tag:
 - australia
 - politics
+- written-in-osaka
 ---
 We're always reminded on Twitter and the like that we don't elect our leaders, as the Americans or French do. [Kevin07], and [The Turnbull Coalition Team] election symbols, were just that. It's technically correct, assuming you don't follow people's thought processes. It's also irrelevant.
 

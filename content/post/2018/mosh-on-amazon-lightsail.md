@@ -3,7 +3,6 @@ title: "Mosh on Amazon Lightsail"
 date: "2018-09-28T17:40:32+10:00"
 abstract: "Mosh’s sanity-maintaining buffering in remote availability zones"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - amazon
@@ -13,6 +12,7 @@ tag:
 - firewalls
 - security
 - ssh
+- written-in-sydney
 ---
 [Amazon Lightsail] is great for getting something up quickly, but the default firewall rules preclude using [mosh]. I can't imagine accessing remote availability zone instances without mosh's sanity-maintaining buffer.
 

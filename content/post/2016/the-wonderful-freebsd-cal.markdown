@@ -1,9 +1,7 @@
 ---
-draft: true
 title: "The wonderful FreeBSD cal"
 date: "2016-09-09T15:37:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -13,10 +11,11 @@ tag:
 - freebsd
 - linux
 - netbsd
+- written-in-sydney
 ---
 You have a calendar on your Mac, Linux and BSD box called cal, another fine utility by Wolfgang Helbig over at FreeBSD. If you don't, your distrubution is terrible and you should switch.
 
-What I love using it for is looking at hysterial historical calendars using the `-d` option. As you can see above, I was born a long time ago, on a Thursday.
+What I love using it for is looking at ~~hysterial~~ historical calendars using the `-d` option. As you can see above, I was born a long time ago, on a Thursday.
 
      $ cal -d 1986-03
     
@@ -30,3 +29,4 @@ What I love using it for is looking at hysterial historical calendars using the 
      ==> 30 31
 
 My main gripe is it doesn't support stardates.
+

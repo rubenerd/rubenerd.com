@@ -4,13 +4,13 @@ date: "2018-08-17T17:21:40+10:00"
 abstract: "The flavours have really soaked in!"
 thumb: "https://rubenerd.com/files/2018/altria-food8@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - games
 - mobile-games
 - saber
 - type-moon
+- written-in-sydney
 ---
 The Fate/Grand Order [summer event] is now over, and we had her [first culinary critique]. This was her second!
 

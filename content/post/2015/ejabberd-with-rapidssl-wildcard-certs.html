@@ -3,13 +3,13 @@ title: "ejabberd with RapidSSL wildcard certs"
 date: "2015-09-16T17:29:00+10:00"
 abstract: "Add the intermediate cert as well."
 year: "2015"
-location: Sydney
 category: Software
 tag:
 - ejabberd
 - guide
 - ssl
 - xmpp
+- written-in-sydney
 ---
 <p>The ejabberd XMPP server requires the server key and certificate in the one pem file, in that order. Alas, writing these out caused new connections to drop. Oops.</p>
 
@@ -17,10 +17,12 @@ tag:
 
 <pre>
 $ ls -l server.pem
-==&gt; -r-------- 1 root root 6124 Sep 16 05:56 server.pem
+- written-in-sydney
+---
 
 $ chown ejabberd:ejabberd server.pem
-==&gt; -r-------- 1 ejabberd ejabberd 6124 Sep 16 05:56 server.pem
+- written-in-sydney
+---
 </pre>
 
 <p>Connections could now be established, but verification failed:</p>

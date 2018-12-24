@@ -3,12 +3,12 @@ title: "Evolution, a decade ago"
 date: "2018-01-26T21:33:53+11:00"
 abstract: "Science is just as under attack as back then."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - science
 - evolution
 - richard-dawkins
+- written-in-sydney
 ---
 Here's a post I wrote [a decade ago] on the *Rubenerd Annexe*, back when I had shorter snippets on a side blog. Only I didn't write it, it was a comment by [Ec5618 on YouTube] of all places.
 

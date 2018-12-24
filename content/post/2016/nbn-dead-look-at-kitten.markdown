@@ -1,6 +1,14 @@
 ---
 title: "The NBN is dead, but look at the kitten!"
 date: "2016-06-02T10:35:00+10:00"
+year: "2016"
+location: Sydney
+category: Internet
+tag:
+- australia
+- nbn
+- politics
+- written-in-sydney
 ---
 It's a political trope as old as time:
 
@@ -19,6 +27,5 @@ A solid national broadband network would have done far more for those in regiona
 I also hate when [blog networks say I look stupid], but Hayley had the best summary.
 
 [Lifehacker Australia]: http://www.lifehacker.com.au/2016/06/malcolm-turnbull-has-pledged-another-15-million-for-incubators-and-accelerators/
-
 [blog networks say I look stupid]: https://rubenerd.com/gizmodo-australia-said-i-looked-stupid/
 

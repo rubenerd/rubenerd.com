@@ -3,11 +3,11 @@ title: "Megaport newsletters"
 date: "2016-12-14T10:19:00+10:00"
 abstract: "Hi, and welcome to the very first edition of The Interconnect... d'oh!"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - newsletters
 - spam
+- written-in-sydney
 ---
 I got this email from Megaport this morning:
 

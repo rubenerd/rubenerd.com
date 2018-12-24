@@ -4,13 +4,13 @@ date: "2018-04-02T17:50:37+10:00"
 abstract: "I heard you liked floppy drives, so I..."
 thumb: "https://rubenerd.com/files/2018/epson-sd700-sd800@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware 
 tag:
 - disks
 - epson
 - floppy-drives
 - nostalgia
+- written-in-sydney
 ---
 You can learn a lot about computer history, or any history now that I think about it, just by looking through eBay.
 

@@ -2,14 +2,15 @@
 title: "Replacing social networks with RSS"
 date: "2018-04-04T20:58:31+10:00"
 abstract: "A discussion started by Screenbeard from The Geekorium"
-thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - facebook
+- privacy
+- screenbeard
 - social-networks
 - weblog
+- written-in-sydney
 ---
 The imitable Screenbeard over at The Geekorium [wrote a post in response] to my [farewell to Digg Reader] last week. I'll admit, it was fun reading someone's response like this; it reminded me of the blogosphere of old. Yes the term was a bit cringe, but it described something real.
 

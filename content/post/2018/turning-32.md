@@ -11,6 +11,7 @@ tag:
 - freebsd
 - birthdays
 - pointless-milestone
+- written-in-sydney
 ---
 I've been waiting to announce this since my sixteenth birthday in Singapore, which was now sixteen years ago (and a [decade after turning twenty-two] when promising I wouldn't [wear one]):
 

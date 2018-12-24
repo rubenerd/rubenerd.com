@@ -3,11 +3,11 @@ title: "Migraine coping techniques"
 date: "2018-11-14T08:49:30+11:00"
 abstract: "What do you do?"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - health
 - personal
+- written-in-sydney
 ---
 *This was originally written on Tuesday, but I forgot to commit it!*
 

@@ -4,7 +4,6 @@ date: "2018-07-07T23:51:23-07:00"
 abstract: "When you need a rescue root?"
 thumb: "https://rubenerd.com/files/2018/rescuerooter@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Hardware
 tag:
 - australia
@@ -12,6 +11,7 @@ tag:
 - english
 - language
 - united-states
+- written-in-san-francisco
 ---
 Australian pronunciations and words are interesting. Much of what we say and spell is derived from British English, or what the internet has come to refer to as [Commonwealth English]. But we let slip with a few American terms that I had to get used to coming back from Singapore, like *truck* for *lorry*, *soccer* for *football*, and we also called our upper house a *senate*.
 

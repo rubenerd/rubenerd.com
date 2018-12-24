@@ -3,13 +3,12 @@ title: "Two-factor auth and password managers"
 date: "2018-01-22T13:44:25+11:00"
 abstract: "Neither are solutions to auth, they’re just bandaids."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - authentication
 - privacy
 - security
-- postaday2018
+- written-in-sydney
 ---
 Happy Monday! Iain Thompson [wrote this Register article], subtitled *Your daily dose of ditigal depression*:
 

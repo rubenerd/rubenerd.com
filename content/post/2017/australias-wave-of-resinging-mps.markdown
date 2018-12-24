@@ -1,16 +1,14 @@
 ---
 title: "Australia’s wave of resigning MPs"
 date: "2017-07-29T10:42:50+09:00"
-year: "2017"
-location: Sydney
 abstract: "Why is Section 44 a thing at all?"
 year: "2017"
-location: Osaka
 category: Thoughts
 tag:
 - australia
 - news
 - politics
+- written-in-osaka
 ---
 Reading about Australia's latest political fallout from overseas has made it seem almost unreal. Like when I read about the Labor spills from Singapore. I wouldn't be as self absorbed as to assume that big things go down back home when I'm in Asia, but wow.
 

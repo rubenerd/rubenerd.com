@@ -4,13 +4,13 @@ date: "2018-08-19T14:56:30+10:00"
 abstract: "What lives and talent."
 thumb: "https://rubenerd.com/files/2018/mattguitarmurphy-arethafranklin@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - blues
 - blues-brothers
 - music
 - nostalgia
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/mattguitarmurphy-arethafranklin@1x.jpg" srcset="https://rubenerd.com/files/2018/mattguitarmurphy-arethafranklin@1x.jpg 1x, https://rubenerd.com/files/2018/mattguitarmurphy-arethafranklin@2x.jpg 2x" alt="Matt Guitar Murphy and Aretha Franklin in The Blues Brothers" style="width:500px; height:272px" /></p>
 

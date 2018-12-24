@@ -1,14 +1,13 @@
 ---
-draft: true
 title: "Infrequently asked questions"
 abstract: "A list of answers to predictable blog comment questions that I can refer to"
 date: "2016-11-17T15:25:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - comments
 - pages
+- written-in-sydney
 ---
 Most comments on technical posts end up divolving into several predictable anti-patterns. Rather than preempting them each time, I've included them below to link to for future reference, along with a few other common ones.</p>
 

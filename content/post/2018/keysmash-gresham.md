@@ -3,7 +3,6 @@ title: "Keysmash #1: Gresham"
 date: "2018-01-15T09:29:54+11:00"
 abstract: "I like doing keysmashes into the Mac Dictionary.app"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - economics
@@ -13,6 +12,7 @@ tag:
 - os-x
 - macos
 - apple
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/icon-macdict@1x.png" srcset="https://rubenerd.com/files/2018/icon-macdict@1x.png 1x, https://rubenerd.com/files/2018/icon-macdict@2x.png 2x" alt="Dictionary.app icon" style="width:128px; height:128px; float:right; margin:0 0 1em 0" /></p>
 

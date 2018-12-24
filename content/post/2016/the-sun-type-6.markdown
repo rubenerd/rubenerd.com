@@ -3,11 +3,11 @@ title: "The Sun Type 6"
 date: "2016-03-09T21:01:00+10:00"
 abstract: "Another keyboard I probably won't ever own"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - keyboards
 - sun-microsystems
+- written-in-sydney
 ---
 It's been at least a few months since we had a keyboard discussion. This cannot stand; in part given you'd be sitting to use one.
 

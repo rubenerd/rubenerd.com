@@ -3,10 +3,10 @@ title: "Getting into blogging"
 date: "2016-12-19T08:47:00+10:00"
 abstract: "Don't worry if you suck at first, we all did"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - weblog
+- written-in-sydney
 ---
 A colleague of mine talked about how he'd tried to get into blogging, but every time he wrote a few posts he'd end up deleting the whole site out of frustration of what he wrote. Clara has said the same thing.
 

@@ -3,12 +3,12 @@ title: "An Australian public energy retailer"
 date: "2018-09-28T11:32:07+10:00"
 abstract: "The private sector should have nothing to fear"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - environment
 - politics
+- written-in-sydney
 ---
 Power in much of Australia operates as an energy market. Privatisation promised to introduce competition to drive down prices, and to allocate resources more efficiently.
 

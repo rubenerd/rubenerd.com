@@ -3,12 +3,12 @@ title: "Micro‐beads"
 date: "2018-05-25T09:09:41+10:00"
 abstract: "Get this crap out of toiletries, NOW."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - environment
 - health
+- written-in-sydney
 ---
 *This was written quickly in a brief fit of anger, and may not be up to the usual quality of posts here on Rubenerd. Because if I'm known for anything, its quality writing; see what I did there?*
 

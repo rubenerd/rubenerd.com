@@ -3,12 +3,12 @@ title: "Australia's failed NBN"
 date: "2016-03-04T11:20:00+10:00"
 abstract: "Thanks, Malcom Turnbull"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - australia
 - nbn
 - singapore
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/nbn.jpg" srcset="https://rubenerd.com/files/2016/nbn.jpg 1x, https://rubenerd.com/files/2016/nbn@2x.jpg 2x" alt="NBN's weird new logo" style="width:500px; height:281px" /></p>
 

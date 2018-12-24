@@ -1,6 +1,13 @@
 ---
 title: "Facebook privacy"
 date: "2016-05-20T08:22:00+10:00"
+abstract: "I needed a laugh this morning."
+year: "2016"
+category: Internet
+tag:
+- facebook
+- privacy
+- written-in-sydney 
 ---
 I logged into my profile for the first time in a few weeks.
 

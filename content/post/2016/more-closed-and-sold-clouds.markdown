@@ -3,7 +3,6 @@ title: "More sold and closed OpenStack clouds"
 date: "2016-12-20T14:49:00+10:00"
 abstract: "Cisco, HPE, Rackspace have all divested themselves from OpenStack"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - cisco
@@ -12,6 +11,7 @@ tag:
 - hpe
 - openstack
 - virtualisation
+- written-in-sydney
 ---
 I could have gone with "precipitating clouds" or "trouble in the sky" or something equally cringeworthy, but I thought I'd spare you.
 

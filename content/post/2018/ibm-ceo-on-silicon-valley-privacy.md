@@ -3,12 +3,12 @@ title: "IBM CEO on Silicon Valley privacy"
 date: "2018-11-29T22:43:34+11:00"
 abstract: "Without naming names, but we know whom she speaks of."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - business
 - ibm
 - privacy
+- written-in-sydney
 ---
 IBM's CEO Ginni Rometty [had choice words] for Silicon Valley companies, as reported by Bloomberg:
 

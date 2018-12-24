@@ -4,12 +4,12 @@ date: "2018-04-08T10:19:06+10:00"
 abstract: "I had no idea they came in anything other than blue at these larger sizes!"
 thumb: "https://rubenerd.com/files/2018/zipinsider-beige@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - iomega
 - retro
 - zip-drive
+- written-in-sydney
 ---
 Speaking of [eBay learnings], TiL that Iomega made a beige 5.25" Zip Insider drive. From [stevencasteel's PowerComputing] tower auction:
 

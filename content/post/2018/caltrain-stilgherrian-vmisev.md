@@ -4,7 +4,6 @@ date: "2018-07-01T17:24:37-07:00"
 abstract: "Such orange, so Matt Damon!"
 thumb: "https://rubenerd.com/files/2018/caltrain-yard@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california2018
@@ -12,6 +11,7 @@ tag:
 - san-francisco
 - train-simulator
 - trains
+- written-in-san-francisco
 ---
 Stilgherrian [podcasted and rode the *Caltrain*] for us back in Australia in 2014, so we didn't have to. Exactly four years and one day later, Clara and I were wandering around the Caltrain station in San Francisco, and made many overlapping observations.
 

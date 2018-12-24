@@ -2,13 +2,13 @@
 title: "rar files in Debian Jessie"
 date: "2016-04-23T11:38:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - compression
 - debian
 - guides
 - rar
+- written-in-sydney
 ---
 People keep sending me rar files like its 1999. 7zip is free, open source, and has higher compression ratios: please use it!
 

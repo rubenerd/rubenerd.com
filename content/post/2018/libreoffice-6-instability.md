@@ -3,12 +3,11 @@ title: "LibreOffice 6 instability"
 date: "2018-02-10T23:28:23+11:00"
 abstract: "Disable OpenGL on Mac, and you’ll be fine"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - libreoffice
 - office
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/lo6-error.png" alt="LibreOffice 6.0 Document Recovery error dialogue box" style="width:500px;" /></p>
 

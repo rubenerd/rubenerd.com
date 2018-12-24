@@ -2,11 +2,11 @@
 title: "If it isn’t right for you right now"
 date: "2016-08-24T16:10:14+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - newsletters
 - spam
+- written-in-sydney
 ---
 The ease (or lack thereof) of unsubscribing from opt-out email newsletters has become something of a meme here. And for good reason; the state of email marketing is pretty grim. So we may as well have fun with some of the more egregious examples! 
 

@@ -3,12 +3,12 @@ title: "When Macworld isn’t"
 date: "2018-10-03T08:45:19+10:00"
 abstract: "A collection of headlines from one day"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - ios
 - mac
+- written-in-sydney
 ---
 I was reading *Macworld* yesterday, and collated a list of headlines from their home page. Not included are cross-posts from TechHive or PCWorld, which included a vaccum cleaner review. 
 

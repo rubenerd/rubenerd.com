@@ -2,12 +2,12 @@
 title: "FreeBSD and ZFS with Plex"
 date: "2016-09-02T12:19:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - bsd
 - freebsd
 - plex
+- written-in-sydney
 ---
 The Gen8 HP MicroServers are wonderful little boxes. For less money than most NAS devices, you can get a tiny, server-grade cube with four drive bays, ECC memory and Xeon CPU support. I used to use mine with 4 drives in RAIDZ1, but now I use two mirrored pairs for performance and easier upgrading.
 

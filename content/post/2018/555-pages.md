@@ -3,10 +3,10 @@ title: "555 pages"
 date: "2018-03-20T10:54:35+11:00"
 abstract: "And the world’s most widely-used IC"
 year: "2018"
-location: Tokyo
 category: Hardware
 tag:
 - pointless-milestone
+- written-in-tokyo
 ---
 According to my site pagination heading, we're at 555 pages of posts here. Naturally I thought that was a great repeating number, and also the number of the world's [most widely-used IC]:
 

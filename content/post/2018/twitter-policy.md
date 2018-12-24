@@ -3,11 +3,11 @@ title: "My own Twitter policy"
 date: "2018-10-26T07:56:08+11:00"
 abstract: "If you’re a dick, you’re muted or blocked."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - social-media
 - twitter 
+- written-in-sydney
 ---
 I'm back on Twitter again, against [well-informed advice]. To make it more pleasant, I'm making my own Twitter policy, linked to in my profile.
 

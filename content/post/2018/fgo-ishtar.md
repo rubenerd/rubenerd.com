@@ -4,7 +4,6 @@ date: "2018-11-29T23:06:03+11:00"
 abstract: "Don’t read the pun on the last line."
 thumb: "https://rubenerd.com/files/2018/screenie-ishtar"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - fate-grand-order
@@ -13,6 +12,7 @@ tag:
 - mobile-games
 - toosaka-rin
 - unlimited-blade-works
+- written-in-sydney
 ---
 I'd say *[Fate/Grand Order]* is my favourite mobile game, but to be fair it's the only one I've ever been able to get into. I loved that I could summon the servants from the original *Fate/Stay Night* that left such a lasting impression on me more than a decade ago.
 

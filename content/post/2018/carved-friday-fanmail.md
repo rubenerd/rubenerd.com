@@ -3,11 +3,11 @@ title: "Carved Friday Fanmail"
 date: "2018-08-10T15:09:03+10:00"
 abstract: "What am I, a turkey?"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - friday-fanmail
 - spam
+- written-in-sydney
 ---
 It's [Friday Fanmail] time! Friday Fanmail time! Each and every Friday, except when I don't, I share a piece of fanmail sent to me about this blog, so we may all share in the warm fuzzies.
 

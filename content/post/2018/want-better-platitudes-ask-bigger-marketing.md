@@ -4,12 +4,12 @@ date: "2018-11-11T08:54:55+11:00"
 abstract: ""
 thumb: "https://rubenerd.com/files/2018/emptymarketing@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - advertising
 - language
 - sydney
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/emptymarketing@1x.jpg" srcset="https://rubenerd.com/files/2018/emptymarketing@1x.jpg 1x, https://rubenerd.com/files/2018/emptymarketing@2x.jpg 2x" alt="Banner saying Want better answers? Ask bigger questions." style="width:500px" /></p>
 

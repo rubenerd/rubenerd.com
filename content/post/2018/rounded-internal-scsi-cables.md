@@ -3,12 +3,12 @@ title: "Rounded internal SCSI cables"
 date: "2018-11-03T21:04:45+11:00"
 abstract: "I was searching for these today, believe it or not."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - retro
 - scsi
 - vintage
+- written-in-sydney
 ---
 Need to connect a series of internal SCSI hardware in your vintage computer, but you don't want to restrict airflow with a ribbon? [PC Pitstop] has your covered:
 

@@ -1,15 +1,13 @@
 ---
 title: "Songs with the word ceiling in their title"
 date: "2017-11-24T17:57:05+11:00"
-year: "2017"
-location: Sydney
 abstract: "According to iTunes, I have the following songs titled with the word ceiling, in case you wondered."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - music
 - pointless
+- written-in-sydney
 ---
 According to my iTunes playlist started in 2001, I have the following songs titled with the word *ceiling*:
 

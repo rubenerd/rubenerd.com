@@ -4,13 +4,13 @@ date: "2018-07-06T13:24:07-07:00"
 abstract: "Remember the ribbon?"
 thumb: "https://rubenerd.com/files/2018/shot_menu_excel_800_600.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
 - microsoft
 - microsoft-office
 - software
+- written-in-san-francisco
 ---
 Remember the ribbon? There was such furore from users and interface designers when it was announced with Office 2007, not least because it replaced text with inscrutable little icons for everything, and took up precious vertical real estate right when the world was going to widescreen displays. But over time we all came to tolerate it with the abject resignation one feels having fought head winds long enough.
 

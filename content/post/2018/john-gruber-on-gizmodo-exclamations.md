@@ -3,13 +3,13 @@ title: "John Gruber on Gizmodo, exclamations"
 date: "2018-12-18T19:57:53+11:00"
 abstract: "... whoops!"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - daring-fireball
 - gizmodo
 - john-gruber
 - journalism
+- written-in-sydney
 ---
 John [ended a comment] on a Gizmodo tablet review with the following line.
 

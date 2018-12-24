@@ -1,11 +1,8 @@
 ---
 title: "Versions of EMM386"
 date: "2017-03-07T16:22:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "I always wanted to know these!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - dos
@@ -13,6 +10,7 @@ tag:
 - memory
 - nostalgia
 - windows-31
+- written-in-sydney
 ---
 EMM386 was a MS/PC DOS utility for loading TSRs into high memory. QEMM, UMBPCI and others were arguably more efficient, but EMM386 was broadly compatible and always there.
 

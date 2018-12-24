@@ -3,11 +3,11 @@ title: "Schady’s back, tell a friend"
 date: "2018-09-27T10:11:26+10:00"
 abstract: "Guess who’s back? Back again?"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-emptypeaktrain@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-emptypeaktrain@1x.jpg 1x, https://rubenerd.com/files/2018/photo-emptypeaktrain@2x.jpg 2x" alt="" style="width:500px" /></p>
 

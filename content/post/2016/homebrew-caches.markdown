@@ -2,7 +2,6 @@
 title: "brew cask move yourself"
 date: "2016-06-14T11:58:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - homebrew
@@ -11,6 +10,7 @@ tag:
 - macos
 - os-x
 - package-managers
+- written-in-sydney
 ---
 I got a surprise this morning (June 8) when updating [Homebrew]:
 

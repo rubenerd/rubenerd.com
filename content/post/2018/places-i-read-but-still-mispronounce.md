@@ -3,13 +3,13 @@ title: "Places I read but still mispronounce"
 date: "2018-08-22T09:41:20+10:00"
 abstract: "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - travel
 - wales
 - united-kingdom
 - united-states
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/ours-shinjuku-night@1x.jpg" srcset="https://rubenerd.com/files/2018/ours-shinjuku-night@1x.jpg 1x, https://rubenerd.com/files/2018/ours-shinjuku-night@2x.jpg 2x" alt="" style="width:500px" /></p>
 

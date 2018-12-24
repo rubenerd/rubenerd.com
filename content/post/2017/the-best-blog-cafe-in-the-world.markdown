@@ -1,16 +1,14 @@
 ---
 title: "The best blog café in the world"
 date: "2017-07-19T01:11:39+10:00"
-year: "2017"
-location: Sydney
 abstract: "From the top of Victoria Peak in Hong Kong!"
 year: "2017"
-location: Hong-Kong
 category: Thoughts
 tag:
 - personal
 - travel
 - weblog
+- written-in-hong-kong
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/victoriapeak@2x.jpg" alt="View of Hong Kong from the top of Victoria Peak" style="width:500px; height:313px;" /></p></figure>
 

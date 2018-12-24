@@ -4,7 +4,6 @@ date: "2018-10-13T21:37:52+11:00"
 abstract: "Didn't get Bride Umu, but got three Nero Claudii"
 thumb: "https://rubenerd.com/files/2018/fgo-nerofest2018@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - fate
@@ -12,6 +11,7 @@ tag:
 - games
 - mobile-games
 - nero-claudius
+- written-in-sydney
 ---
 *This post was originally written in mid-September 2018. We're already onto the Halloween event for English FGO!*
 

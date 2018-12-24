@@ -1,14 +1,14 @@
 ---
 title: "Marriage equality"
 date: "2017-09-19T09:41:20+10:00"
+abstract: "The Australian postal survey we don’t need."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- australia
+- human-rights
+- politics
+- written-in-sydney
 ---
 I sent in my postal survey answer on Australian marriage equality this morning, because it's perfectly reasonable to "vote" on the rights of a minority! But the absurdity is just beginning.
 

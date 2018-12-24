@@ -2,11 +2,11 @@
 title: "iTerm2 3.0.9"
 date: "2016-09-13T13:33:36+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - iterm
 - terminal
+- written-in-sydney
 ---
 The tireless [iTerm2] contributers keep pumping out awesomeness. The second point in their 3.0.9 release notes shows especially shows the care and attention they put into this:
 

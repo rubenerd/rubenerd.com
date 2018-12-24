@@ -1,15 +1,13 @@
 ---
 title: "Goodbye Daisuke Satō"
 date: "2017-03-29T19:29:00+10:00"
+abstract: "The writer behind some fascinating alternate-history books, and Highschool of the Dead."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Anime
 tag:
 - highschool-of-the-dead
-- seito
+- seito-daisuke
+- written-in-sydney
 ---
 We had some sad news this week in the manga world, as translated by the [Anime News Network]:
 

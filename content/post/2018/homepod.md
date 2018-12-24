@@ -3,13 +3,13 @@ title: "HomePod"
 date: "2018-02-08T08:50:44+11:00"
 abstract: "Almost looked like a great idea"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - music
 - apple
 - homepod
 - speakers
+- written-in-sydney
 ---
 I've been reading HomePod news out of interest; as opposed to non-interest, which would be counter productive. I have credit cards for the points, but I always keep reserve cash in the bank and pay them at the end of the month. The only interest I get is the paltry stuff from savings. How's that for a digression.
 

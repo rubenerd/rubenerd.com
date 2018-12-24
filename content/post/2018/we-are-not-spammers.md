@@ -3,11 +3,10 @@ title: "We are not spammers"
 date: "2018-02-12T16:18:33+11:00"
 abstract: "Best footer for spam ever"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - spam
-- postaday2018
+- written-in-sydney
 ---
 There must be an English term to describe those who are betrayed by their descriptions. Like a **prestigious** award winner; if the award were prestigious, you wouldn't need to qualify it. Or an **exciting** announcement; if it were exciting, you wouldn't need to... you get the idea. 
 

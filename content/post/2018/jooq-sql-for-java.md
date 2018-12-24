@@ -3,11 +3,11 @@ title: "jOOQ SQL for Java"
 date: "2018-01-12T16:36:43+11:00"
 abstract: "It makes SQL look and work like Java"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - java
 - sql
+- written-in-sydney
 ---
 The [jOOQ] framework is pretty cool; it makes SQL look and work like Java. 
 

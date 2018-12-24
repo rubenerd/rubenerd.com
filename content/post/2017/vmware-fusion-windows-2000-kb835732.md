@@ -1,11 +1,8 @@
 ---
 title: "VMware Windows 2000 KB835732 additions error"
 date: "2017-12-02T11:02:49+11:00"
-year: "2017"
-location: Sydney
 abstract: "Install the Update Rollup 1 for SP4, and it’ll work"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - virtualisation
@@ -13,6 +10,7 @@ tag:
 - vmware-fusion
 - windows
 - windows-2000
+- written-in-sydney
 ---
 Windows 2000 still has official Guest Additions support on VMware Fusion 10, the latest release at the time of writing. But if you try installing on a fresh Windows 2000 VM, even with the latest SP4, you'll get this error:
 

@@ -3,13 +3,13 @@ title: "No more Optus dialup"
 date: "2018-06-19T08:54:25-07:00"
 abstract: "Another end of an era"
 year: "2018"
-location: San-Francisco
 category: Internet
 tag:
 - australia
 - news
 - nostalgia
 - pointless-misaka-reference
+- written-in-san-francisco
 ---
 Steven Kiernan [reported on the end of an era]\:
 

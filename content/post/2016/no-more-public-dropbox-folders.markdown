@@ -3,11 +3,11 @@ title: "No more public Dropbox folders"
 date: "2016-12-17T10:41:00+10:00"
 abstract: "You know it’s not going to be good when marketing speak comes in"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - cloud
 - dropbox
+- written-in-sydney
 ---
 If you use Dropbox, you would have got this email today.
 

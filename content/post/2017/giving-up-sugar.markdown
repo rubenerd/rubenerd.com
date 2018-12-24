@@ -1,11 +1,13 @@
 ---
 title: "Giving up refined sugar"
 date: "2017-05-20T12:34:00+10:00"
+abstract: "It’s going to make giving up meat look easy!"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - food
+- sugar
+- written-in-sydney
 ---
 Becoming a vegetarian in 2015 was suspiciously easy. I'm an indecisive person by nature (I think), so it made choosing the lone item on a menu easier! Keeping a clean kitchen is much easier without ever touching raw meat. Food cooks faster. I'm eating more vegetables.
 
@@ -31,3 +33,4 @@ So I'm giving it up for a few weeks, and seeing how I go. Maybe after that I'll 
 If you're reading this, all but point four does not replace advice from your healthcare professional.
 
 [recent interview]: https://www.samharris.org/podcast/item/what-should-we-eat
+

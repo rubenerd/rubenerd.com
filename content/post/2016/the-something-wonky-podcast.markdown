@@ -2,13 +2,13 @@
 title: "The @wellmaywesay podcast"
 date: "2016-11-27T10:53:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - audio
 - australia
 - podcasts
 - politics
+- written-in-sydney
 ---
 I just left an overdue-review for [Well May We Say] on iTunes. Given the fickle nature of these services, I'm also recording it here for posterity:
 

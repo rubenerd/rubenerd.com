@@ -4,10 +4,10 @@ date: "2018-07-29T10:13:50+10:00"
 abstract: "One of the more harrowing experiences my sheltered self has had!"
 thumb: "https://rubenerd.com/files/2018/715584639-thumb@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
+- written-in-sydney
 ---
 There are certain life events that, despite differences in our backgrounds or world views, we can all come together and recognise as being truly horrifying. I had one such experience this afternoon while attemoting to extricate myself from the bathroom in our studio apartment.
 

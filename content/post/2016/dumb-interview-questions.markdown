@@ -2,11 +2,11 @@
 title: "Dumb interview questions"
 date: "2016-05-11T08:32:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - philosophy
 - work
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/railgun01_paper.jpg" srcset="https://rubenerd.com/files/2016/railgun01_paper.jpg 1x, https://rubenerd.com/files/2016/railgun01_paper@2x.jpg 2x" alt="" style="width:500px" /></p>
 

@@ -3,12 +3,12 @@ title: "High-vis economics"
 date: "2018-11-29T08:49:34+11:00"
 abstract: "Or standing in front of construction sites."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - economics
 - news
+- written-in-sydney
 ---
 Greg Jericho's [Grogonomics column this morning] had this gem:
 

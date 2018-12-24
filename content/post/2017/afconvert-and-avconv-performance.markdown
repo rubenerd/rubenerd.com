@@ -1,11 +1,8 @@
 ---
 title: "afconvert and avconv performance"
 date: "2017-01-29T09:02:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "avconv is cross platform, but fconvert is marginally faster."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - audio
@@ -16,6 +13,7 @@ tag:
 - music
 - os-x
 - podcasting
+- written-in-sydney
 ---
 My [Rubénerd Show] podcast episodes are produced with a series of shell scripts to save me time and effort, so I'm always looking for ways to optimise them.
 

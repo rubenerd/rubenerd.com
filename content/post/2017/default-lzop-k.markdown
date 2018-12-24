@@ -1,15 +1,13 @@
 ---
 title: "Happy anniversary and tricks from lzop!"
 date: "2017-09-23T10:19:25+10:00"
-year: "2017"
-location: Sydney
 abstract: "Ten years of lightning-fast compression."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - compression
 - lzop
+- written-in-sydney
 ---
 [lzop] by the imitable [Markus F.X.J. Oberhumer] is an infeasibly-fast file compressor. This post is a thank you for its existence, an anniversary update, and my discovery of default operation that all such tools should be doing.
 

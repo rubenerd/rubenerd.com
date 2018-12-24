@@ -1,14 +1,12 @@
 ---
 title: "That's a big desktop VM"
 date: "2017-12-13T08:54:20+11:00"
-year: "2017"
-location: Sydney
 abstract: "Using GrandPerspective to figure out where hell of my drive space went"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - drives
+- written-in-sydney
 ---
 Where'd all the drive space on this MacBook Pro go? What a handsome question. Let's ask [GrandPerspective], the tool every Mac user should have. [WinDirStat] and [QDirStat] are useful analogues for those of you on Windows or Linux/BSD.
 

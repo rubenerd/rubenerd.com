@@ -3,7 +3,6 @@ title: "FreeBSD ZFS catching mismatched disks"
 date: "2018-08-13T17:22:38+10:00"
 abstract: "invalid vdev specification"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - freebsd
 - orionvm
 - zfs
+- written-in-sydney
 ---
 I was creating a ZFS mirrored pool on a FreeBSD cloud instance with two identical data disks, like a gentleman:
 

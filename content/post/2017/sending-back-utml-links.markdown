@@ -1,15 +1,13 @@
 ---
 title: "Sending back UTM links"
 date: "2017-04-21T17:28:00+10:00"
+abstract: "utm_medium = shaddup"
 year: "2017"
-location: Sydney
-abstract: "utm_medium=shaddup"
-year: "2017"
-location: Sydney
 category: Internet
 tag:
 - spam
 - urls
+- written-in-sydney
 ---
 It really feels like a race-to-the-bottom for user tracking online. If you copy a link to send to a friend, or to write a blog post about, chances are you'll have a ton of [UTM spam] attached. 
 

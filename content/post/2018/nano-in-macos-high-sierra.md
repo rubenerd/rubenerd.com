@@ -3,7 +3,6 @@ title: "nano in macOS High Sierra"
 date: "2018-02-02T11:54:28+11:00"
 abstract: "It still ships with 2.0.6, more than a decade old."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - macos
@@ -11,7 +10,7 @@ tag:
 - os-x
 - nano
 - editors
-- postaday2018
+- written-in-sydney
 ---
 One thing I [forgot to mention with High Sierra] was what nano version it ships with. I haven't used nano for a long time, but I've referenced it as a bellwether on *Rubenerd* over the years to show how fresh bundled macOS software is.
 

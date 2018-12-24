@@ -2,14 +2,14 @@
 title: "Saber Kimono Dress figure"
 date: "2018-06-02T10:28:08+10:00"
 abstract: "This may be the most beautiful anime fig ever, damn it!"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/saber-kimono@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - anime-figures
 - fate-stay-night
 - saber
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/saber-kimono@1x.jpg" srcset="https://rubenerd.com/files/2018/saber-kimono@1x.jpg 1x, https://rubenerd.com/files/2018/saber-kimono@2x.jpg 2x" alt="Photo of the Saber Kimono Dress prototype anime figure" style="width:500px; height:425px;" /></p>
 

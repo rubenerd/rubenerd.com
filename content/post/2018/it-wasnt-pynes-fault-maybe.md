@@ -3,12 +3,12 @@ title: "It wasn’t Pyne’s fault, maybe!"
 date: "2018-10-31T08:50:53+11:00"
 abstract: "When people don't own up to a mistake, or just blame it on someone else."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - news
 - politics
+- written-in-sydney
 ---
 *This was originally written in early September 2018, but I didn't post it. I try to keep politics off Rubenerd.com thesedays, but I guess I already wrote about the Victorian opposition leader's [suppository of wisdom], so let's run with it.*
 

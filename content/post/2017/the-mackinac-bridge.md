@@ -1,15 +1,13 @@
 ---
 title: "The Mackinac Bridge"
 date: "2017-12-19T15:03:29+11:00"
-year: "2017"
-location: Sydney
 abstract: "If you're scared of bridges, you can have the bridge staff drive your car for you. This is wonderful on so many levels."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - photos
 - wikipedia
+- written-in-sydney
 ---
 I'd seen the split shape of the US state of Michigan, and wondered if there was a way to cross from one to the other without going through another state. For example, one has to travel through the East Malaysian state of Sarawak to get between the two halves of Brunei.
 

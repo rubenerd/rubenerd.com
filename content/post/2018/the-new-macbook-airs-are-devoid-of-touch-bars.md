@@ -3,11 +3,11 @@ title: "The new MacBook Airs are devoid of touch bars!"
 date: "2018-11-01T08:49:37+11:00"
 abstract: "Phew!"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - macbook-air
+- written-in-sydney
 ---
 Imagine I'm using my old man voice: *back when I was a kid, I used to get so excited going to the Apple website after a new Mac came out!* I do to an extent today, but it's tinged with slight trepidation. What regressive design trend have they introduced, etc?
 

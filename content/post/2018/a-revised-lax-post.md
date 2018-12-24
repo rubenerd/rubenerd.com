@@ -2,9 +2,7 @@
 title: "A revised LAX post"
 date: "2018-07-14T15:06:58-07:00"
 abstract: "I recant my earlier statement about this airport!"
-thumb: "https://rubenerd.com/files/2018/"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - airports
@@ -13,6 +11,7 @@ tag:
 - los-angeles
 - travel
 - united-states
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-lax@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-lax@1x.jpg 1x, https://rubenerd.com/files/2018/photo-lax@2x.jpg 2x" alt="Photo of the Theme Building at LAX, taken from my phone" style="width:500px; height:333px;" /></p>
 

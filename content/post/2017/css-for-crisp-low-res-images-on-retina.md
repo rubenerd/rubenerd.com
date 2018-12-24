@@ -1,14 +1,15 @@
 ---
 title: "Retina image downscaling with CSS"
 date: "2017-12-02T11:45:22+11:00"
+abstract: "CSS is still awful, but this is a useful trick"
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
-category: Thoughts
+category: Internet
 tag:
-- 
+- css
+- design
+- displays
+- retina
+- written-in-sydney
 ---
 I learned a new CSS trick today! It's possible to make lower resolution images not look like blurry crap on Retina-class displays, and all it takes is a typical phonebook-length list of attributes. From [Phrogz on Stack Overflow]\:
 

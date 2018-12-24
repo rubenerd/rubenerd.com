@@ -2,7 +2,6 @@
 title: "Alternative Let’s Encrypt Clients"
 date: "2016-07-15T14:20:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - netbsd
 - ssl
 - tls
+- written-in-sydney
 ---
 I haven't blogged about Lets Encrypt yet, but I've been using it professionally and [personally] since it came out of beta, and am very impressed. I'd argue the client and automation even beat the fact its free.
 

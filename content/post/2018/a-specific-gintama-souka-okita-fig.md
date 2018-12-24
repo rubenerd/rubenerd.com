@@ -4,12 +4,12 @@ date: "2018-11-06T20:39:45+11:00"
 abstract: "Having just watched an infamous earlier episode"
 thumb: "https://rubenerd.com/files/2018/okita-fig-02@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - 2006-anime
 - anime-figures
 - gintama
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gintama-s01e24@1x.jpg" srcset="https://rubenerd.com/files/2018/gintama-s01e24@1x.jpg 1x, https://rubenerd.com/files/2018/gintama-s01e24@2x.jpg 2x" alt="" style="width:500px; height:281px;" /></p>
 

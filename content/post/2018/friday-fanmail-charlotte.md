@@ -4,12 +4,12 @@ date: "2018-05-11T12:11:43+10:00"
 abstract: "Charlotte, Charlotte, or this Charlotte?"
 thumb: "https://rubenerd.com/files/2018/charlotte_kurashima_tomoyasu@1x.jpg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - friday-fanmail
 - spam
 - infinite-stratos
+- written-in-sydney
 ---
 It's [Friday Fanmail] time! Today's message came from Charlotte:
 

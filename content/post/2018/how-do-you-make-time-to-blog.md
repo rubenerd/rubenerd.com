@@ -3,10 +3,10 @@ title: "How do you make time to blog!?"
 date: "2018-08-31T09:06:43+10:00"
 abstract: "Blogging is cathartic."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - weblog
+- written-in-sydney
 ---
 I've been asked by a few gentleman how I'm able to blog when I'm otherwise completely busy. There are a few reasons, though in Australia we call them sultanas:
 

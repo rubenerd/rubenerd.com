@@ -4,13 +4,13 @@ date: "2018-12-04T19:37:24+11:00"
 abstract: "Or why I can’t stop watching Doug DeMuro"
 thumb: "https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - cars
 - doug-demuro
 - transit
 - video
+- written-in-sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=sa8kHgmZIiQ" title="Play Here's Why the Mercedes Metris is the Worst Minivan Ever Made"><img src="https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@1x.jpg 1x, https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@2x.jpg 2x" alt="Play Here's Why the Mercedes Metris is the Worst Minivan Ever Made" style="width:500px;height:281px;" /></a>
 

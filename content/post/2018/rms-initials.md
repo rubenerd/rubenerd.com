@@ -3,10 +3,10 @@ title: "RMS initials and acronyms"
 date: "2018-11-22T08:51:15+11:00"
 abstract: "I knew my name was common as much, but there was another I didn’t know."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - personal
+- written-in-sydney
 ---
 I knew the RMS initials were common as muck, but there were even more than I expected. Ones I knew already:
 

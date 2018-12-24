@@ -1,17 +1,15 @@
 ---
 title: "firewalld gotchas"
 date: "2017-08-31T16:06:10+10:00"
-year: "2017"
-location: Sydney
 abstract: "Most of these could easily be avoided by RTFM, but putting here anyway."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - debian
 - firewalld
 - linux
 - ubuntu
+- written-in-sydney
 ---
 FreeBSD with OpenBSD's pf is preferable, but I've been learning [firewalld] on Debian. The console interface is almost as nice as [ufw], provided you avoid a few common gotchas.
 

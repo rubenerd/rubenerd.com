@@ -2,14 +2,14 @@
 title: "Selling my Yoko Littner bunny fig"
 date: "2016-09-23T09:13:00+10:00"
 year: "2016"
-location: Sydney
 category: Anime
-tag: 
+tag:
 - 2008-anime
 - anime-figs
 - freeing
 - gurren-lagann
 - yoko-littner
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/lightningmaid1471266850.jpg" alt="" srcset="https://rubenerd.com/files/2016/lightningmaid1471266850.jpg 1x, https://rubenerd.com/files/2016/lightningmaid1471266850@2x.jpg 2x" style="width:500px; height:px" /></p>
 

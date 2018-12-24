@@ -3,7 +3,6 @@ title: "Addressable SMB"
 date: "2018-10-31T15:27:03+11:00"
 abstract: "Reading a Cisco small to medium business track as something else."
 year: "2018"
-location: Sydney
 category: software
 tag:
 - cisco
@@ -11,6 +10,7 @@ tag:
 - news
 - samba
 - smb
+- written-in-sydney
 ---
 [Matt Brown wrote this for CRN]\:
 

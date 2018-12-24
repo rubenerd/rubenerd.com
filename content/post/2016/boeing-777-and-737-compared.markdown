@@ -2,13 +2,13 @@
 title: "Boeing 777 and narrow-bodies compared"
 date: "2016-11-29T14:34:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - aviation
 - boeing
 - boeing-777
 - boeing-737
+- written-in-sydney
 ---
 When you think about huge commercial planes, you probably think of the venerable 747. Or the gigantic An-225. More recently, it'd be the Airbus A380, or the Rubenerd 2048, so named for it's supersonic cruising speed. At least one of those was made up.
 

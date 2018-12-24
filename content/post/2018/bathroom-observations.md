@@ -3,12 +3,12 @@ title: "Bathroom observations"
 date: "2018-05-30T16:49:20+10:00"
 abstract: "Don’t read this post"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - health
 - personal
 - pointless
+- written-in-sydney
 ---
 <p style="font-style:italic">Addendum, a day later: Not to get all <strong>Turns Out</strong> on you, but went to the GP, and it's a throat infection that spread to my sinuses. I <strong>knew</strong> it was worse than a regular cold, damn it!</p>
 

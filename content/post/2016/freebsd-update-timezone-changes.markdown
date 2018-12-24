@@ -2,7 +2,6 @@
 title: "freebsd-update timezone changes"
 date: "2016-12-13T09:05:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - myanmar
 - russia
 - southeast-asia
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/barnaul.jpg" alt="Photo of Barnaul, by Andrew White on Wikimedia Commons" style="width:500px; height:313px;" srcset="https://rubenerd.com/files/2016/barnaul.jpg 1x, https://rubenerd.com/files/2016/barnaul@2x.jpg 2x" /></p>
 

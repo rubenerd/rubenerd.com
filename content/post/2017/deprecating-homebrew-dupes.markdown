@@ -1,11 +1,8 @@
 ---
 title: "Deprecating homebrew-dupes"
 date: "2017-06-20T10:14:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Packages already in macOS now in the core repo"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - macos
@@ -13,6 +10,7 @@ tag:
 - os-x
 - homebrew
 - package-managers
+- written-in-sydney
 ---
 The Homebrew devs originally decided not to duplicate software bundled in macOS, and to build against what was already available. I could see advantages to this, but Apple often left us with such outdated stuff.
 

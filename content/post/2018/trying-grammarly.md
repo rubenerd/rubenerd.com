@@ -3,11 +3,11 @@ title: "Trying Grammarly"
 date: "2018-10-16T15:18:07+11:00"
 abstract: "Wasn’t that useful."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - language
 - weblog
+- written-in-sydney
 ---
 I tried Grammarly on a [recent post]. These were the sentences it highlighted:
 

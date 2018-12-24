@@ -3,11 +3,11 @@ title: "The Facebook market failure"
 date: "2018-03-21T09:16:27+11:00"
 abstract: "Not even Cambridge Analytica news should come as a surprise"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - privacy
 - rights
+- written-in-sydney
 ---
 The thought-terminating cliche about Facebook goes *if you don't like it, you don't have to use it.* And it's transparently specious:
 

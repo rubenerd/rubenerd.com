@@ -4,7 +4,6 @@ date: "2018-07-17T16:18:59-07:00"
 abstract: "It was a great idea, all it needed was more sensor."
 thumb: "https://rubenerd.com/files/2018/nikon-1-j1@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
@@ -12,6 +11,7 @@ tag:
 - nikon
 - olympus
 - photography
+- written-in-san-francisco
 ---
 I was fully intending to buy the Fuji X100T in 2016. All the reviewers said it was *hands down* the best digital camera and lens in its price range. But one fateful afternoon I held the Olympus OM-D E-M10 II, and fell in love with its beautifully crafted body and mechanical dials. So I bought it instead!
 

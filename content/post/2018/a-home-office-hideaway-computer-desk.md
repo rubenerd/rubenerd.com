@@ -2,14 +2,14 @@
 title: "A home-office hideaway computer desk"
 date: "2018-03-30T20:01:30+11:00"
 abstract: "I’m starting to see the appeal of something like this now"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/hideaway-desk@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - home
 - furniture
 - desks
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/hideaway-desk@1x.jpg" srcset="https://rubenerd.com/files/2018/hideaway-desk@1x.jpg 1x, https://rubenerd.com/files/2018/hideaway-desk@2x.jpg 2x" alt="" style="width:384px; height:290px;" /></p>
 
@@ -24,6 +24,7 @@ Better still, wouldn't it be great having one of these setups and only having vi
 Hmm, wonder if they ship halfway across the world? I [know a plane] they could shove it on.
 
 [English furniture manufacturer]: https://www.mrsflatpack.co.uk/
-[hideaway computer desk]: https://www.mrsflatpack.co.uk/home-office-hideaway-computer-desk---beech-m1710-and-walnut-m1860-58-p.asp
+- written-in-sydney
+---
 [know a plane]: https://rubenerd.com/first-direct-flights-from-australia-to-the-uk/ "Blog post: First direct flights from Australia to the UK"
 

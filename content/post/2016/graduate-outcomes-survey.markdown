@@ -3,12 +3,12 @@ title: "Graduate Outcomes Survey"
 abstract: "My supervisor, if I had one, shouldn't be spammed like this"
 date: "2016-11-17T12:33:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - australia
 - studies
 - uts
+- written-in-sydney
 ---
 When you graduate from an Australian university, you get an email asking to fill out a [Graduate Outcomes Survey]. As far as I know, its not affiliated with the university you went to.
 

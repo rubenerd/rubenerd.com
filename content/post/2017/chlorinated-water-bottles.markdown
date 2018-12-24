@@ -1,15 +1,13 @@
 ---
 title: "Chlorinated water bottles"
 date: "2017-03-06T17:37:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "It's been a crazy few weeks."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/chlorinated-water-bottles@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/chlorinated-water-bottles@1x.jpg 1x, https://rubenerd.com/files/2017/chlorinated-water-bottles@2x.jpg 2x" /></p>
 

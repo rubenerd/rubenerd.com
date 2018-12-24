@@ -1,17 +1,15 @@
 ---
 title: "VASP"
 date: "2017-06-16T15:52:53+10:00"
-year: "2017"
-location: Sydney
 abstract: "I always read it as WASP"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - avaiation
 - mcdonnell-douglas
 - md-11
 - brazil
+- written-in-sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@1x.jpg" alt="" style="width:500px; height:340px" srcset="https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@1x.jpg 1x, https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@2x.jpg 2x" /></p></figure>
 

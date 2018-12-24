@@ -1,16 +1,14 @@
 ---
 title: "del.icio.us in IFTTT"
 date: "2017-04-08T17:16:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Another step in the decline of the once-great service."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - delicious
 - ifttt
 - pinboard
+- written-in-sydney
 ---
 I hosted my linkblog on [del.icio.us] from the early days, but [moved] to [Pinboard] after it'd been sold/bought and changed one too many times. 
 

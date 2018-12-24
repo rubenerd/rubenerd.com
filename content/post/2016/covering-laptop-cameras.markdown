@@ -2,11 +2,11 @@
 title: "Covering laptop camers"
 date: "2016-07-18T15:14:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - privacy
 - security
+- written-in-sydney
 ---
 Leading *Daring Fireball* prognosticator John Gruber had a rare slip when admitting he was less than enthusiastic about [covering laptop cameras] with tape:
 

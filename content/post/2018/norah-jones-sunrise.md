@@ -3,14 +3,13 @@ title: "Norah Jones, Sunrise"
 date: "2018-01-05T09:06:25+11:00"
 abstract: "Still one of my favourite songs of all time, but I'd never seen the music video!"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - music
 - jazz
 - norah-jones
 - nostalgia
-- postaday2018
+- written-in-sydney
 ---
 <p></p>
 

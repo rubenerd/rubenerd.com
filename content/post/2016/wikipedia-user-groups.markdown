@@ -3,10 +3,10 @@ title: "Wikipedia user groups"
 abstract: "Or when you need to obfuscate your intentions..."
 date: "2016-11-28T09:50:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - wikipedia
+- written-in-sydney
 ---
 This is an [actual Wikipedia user group]:
 

@@ -1,13 +1,18 @@
 ---
 title: "rmdir versus rm"
 date: "2018-12-17T22:55:37+11:00"
-abstract: ""
-thumb: ""
+abstract: "As long as the folder is empty..."
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Software
 tag:
+- bsd
+- debian
+- freebsd
+- linux
+- netbsd
 - things-you-already-know-unless-you-dont
+- ubuntu
+- written-in-sydney
 ---
 In our continuing series of [things you already know unless you don't], we take a look at deleting directories in your \*nix shell. Generally you would do this:
 

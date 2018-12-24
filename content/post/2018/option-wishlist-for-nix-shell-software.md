@@ -3,7 +3,6 @@ title: "Option wishlist for shell software"
 date: "2018-12-06T21:09:48+11:00"
 abstract: "Verbose output, please!"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -15,6 +14,7 @@ tag:
 - opensolaris
 - solaris
 - troubleshooting
+- written-in-sydney
 ---
 This is my fantasy manpage for features every *nix shell program should support. I know steering open source software developers is akin to hearding cats, but I think these are reasonable.
 

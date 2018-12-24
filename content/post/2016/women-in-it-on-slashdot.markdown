@@ -3,12 +3,12 @@ title: "Women in IT on Slashdot"
 date: "2016-10-27T15:56:10+10:00"
 abstract: "Someone has actually thought about the issue of women in IT"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - news
 - slashdot
 - women-in-it
+- written-in-sydney
 ---
 I delight (too strong a term) in reading the veritable butthurt on Slashdot whenever an article about women in IT appears. Surprisingly, there was a voice of reason there for once, which I will quote here in its entirety.
 

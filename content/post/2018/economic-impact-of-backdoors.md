@@ -3,13 +3,13 @@ title: "Economic impact of back doors"
 date: "2018-11-26T08:36:56+11:00"
 abstract: "Pass this bill, and you won’t have a local security industry."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - australia
 - politics
 - privacy
 - security
+- written-in-sydney
 ---
 Simon Sharwood has done an excellent job reporting on the onerous new backdoor laws being debated in Australia. For those who haven't seen them, this is how he opened his [most recent report]:
 

@@ -1,10 +1,9 @@
 ---
 title: "Evil fake Scotch"
 date: "2018-06-28T21:11:17-07:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "Not to be confused with Scotch tape, or other scotch."
+thumb: "https://rubenerd.com/files/2018/literalmeme@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - australia
@@ -13,6 +12,7 @@ tag:
 - food
 - news
 - scotland
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/literalmeme@1x.jpg" srcset="https://rubenerd.com/files/2018/literalmeme@1x.jpg 1x, https://rubenerd.com/files/2018/literalmeme@2x.jpg 2x" alt="I don't always use memes literally... wait" style="width:160px; height:200px; float:right; margin:0 0 1em 2em;" /></p>
 

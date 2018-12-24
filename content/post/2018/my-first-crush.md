@@ -4,12 +4,12 @@ date: "2018-06-12T21:37:25+10:00"
 abstract: "I'm late to this meme, cough!"
 thumb: "https://rubenerd.com/files/2018/first-crush-mercury@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - memes
 - sailor-mercury
 - sailor-moon
+- written-in-sydney
 ---
 I'm three months late to [this meme], but **cough**! ^^;
 

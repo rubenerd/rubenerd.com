@@ -3,11 +3,11 @@ title: "Wikia now Fandom"
 date: "2018-11-20T21:54:19+11:00"
 abstract: "It seems misguided."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - wikipedia
 - wikis
+- written-in-sydney
 ---
 The [Wikimedia Foundation] and its sites are strictly non-commercial, with a mission to spread knowledge under free licences. But if you wanted a personal wiki, or one targeting a specific niche or industry, you could create one on [Wikia], the commercial offshot also co-created by Jimmy Wales.
 

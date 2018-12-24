@@ -1,15 +1,13 @@
 ---
 title: "OSUNIX"
 date: "2017-09-11T16:13:03+10:00"
-year: "2017"
-location: Sydney
 abstract: "Where is this OpenSolaris system? Is it abandonware?"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - osunix
 - solaris
+- written-in-sydney
 ---
 [Speaking of Solaris], [again], what ever happened to OSUNIX? Software in the Public Interest still lists it on their [project page], right alongside Debian, Postgres, and plenty of other well-known free/open source systems. From [their page]\:
 

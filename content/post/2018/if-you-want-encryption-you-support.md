@@ -3,13 +3,13 @@ title: "If you want encryption, you support…"
 date: "2018-12-03T08:52:43+11:00"
 abstract: "No surprise it's about The Terrorisms."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - australia
 - encryption
 - privacy
 - security
+- written-in-sydney
 ---
 Last week I [commented] on the Australian government's proposed draconian encryption backdoors. The agencies tasked with soliciting industry feedback should return a single comment: break encryption, and you'll break the economy, to say nothing of civil liberties.
 

@@ -3,12 +3,12 @@ title: "This month's unsubscribe fun: Pinterest"
 date: "2016-01-03T11:52:00+10:00"
 abstract: "An unsubscribe link that they say you can't use!"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - newsletters
 - pinterest
 - spam
+- written-in-sydney
 ---
 A [recurring theme](https://rubenerd.com/tag/newsletters/) on *Rubénerd* is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
 

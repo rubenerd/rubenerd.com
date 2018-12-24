@@ -3,11 +3,11 @@ title: "Half-rhyme patrol"
 date: "2018-09-01T11:37:02+10:00"
 abstract: "Half-rhymes are not rhymes."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - half-rhyme-patrol
 - music
+- written-in-sydney
 ---
 My mum imparted several words of wisdom before moving off this mortal coil. Always leave the last button on a blazer undone. [Gotten] isn't a word. And half-rhymes aren't rhymes, and have no business being in songs.
 

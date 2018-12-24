@@ -1,10 +1,8 @@
 ---
-draft: true
 title: "Review of BusyCal for Mac"
 date: "2018-10-30T10:15:17+10:00"
 abstract: "The first calendar I've been able to grok since Lotus Organiser"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -15,6 +13,7 @@ tag:
 - mac-os-x
 - os-x
 - personal
+- written-in-sydney
 ---
 *This post was originally written in early October 2018*
 
@@ -39,3 +38,4 @@ Outlook *kinda* does something similar, but its not the same. It's also superfic
 What makes this a killer app from the techical side is support for CalDav tasks, which Outlook for Mac can't do. Shame on you if you don't use Fastmail, but if you do, BusyCal works great with it.
 
 In five words: **it's expensive, but worth it.**
+

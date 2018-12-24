@@ -3,14 +3,13 @@ title: "The red-backed fairy-wren"
 date: "2018-01-04T09:53:56+11:00"
 abstract: "I’m a sucker for cute birds!"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - photos
 - australia
 - cute-birds
 - wikipedia
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/Red-backed_Fairy-wren@1x.jpg" srcset="https://rubenerd.com/files/2018/Red-backed_Fairy-wren@1x.jpg 1x, https://rubenerd.com/files/2018/Red-backed_Fairy-wren@2x.jpg 2x" alt="" style="width:500px; height:375px;" /></p>
 

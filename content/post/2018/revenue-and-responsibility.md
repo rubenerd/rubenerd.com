@@ -3,12 +3,12 @@ title: "Revenue and responsibility"
 date: "2018-12-14T11:45:24+11:00"
 abstract: "They preach the open internet on the back of the most opaque machines..."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - business
 - new-zealand
 - privacy
+- written-in-sydney
 ---
 Our Kiwi friends across the pond are subject to a court-ordered suppression order. A certain large tech company let details slip, arguably because they index the stuff we all publish online. But instead of showing contrition, they... well, you can guess.
 

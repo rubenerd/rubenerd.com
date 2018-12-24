@@ -4,12 +4,12 @@ date: "2018-04-19T08:43:37+10:00"
 abstract: "When a bird is a Wikipedia picture of the day, I don't have a choice."
 thumb: "https://rubenerd.com/files/2018/eurasian-blue-tit@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - birds
 - photos
 - wikipedia
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/eurasian-blue-tit@1x.jpg" srcset="https://rubenerd.com/files/2018/eurasian-blue-tit@1x.jpg 1x, https://rubenerd.com/files/2018/eurasian-blue-tit@2x.jpg 2x" alt="Photo of the Eurasian Blue Tit, by Francis Franklin" style="width:500px" /></p>
 

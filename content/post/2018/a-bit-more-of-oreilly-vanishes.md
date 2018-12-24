@@ -4,11 +4,11 @@ date: "2018-06-07T16:29:37+10:00"
 abstract: "Goodbye, outbound brains"
 thumb: "https://rubenerd.com/files/2018/essentialblogging@1x.jpg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - cory-doctorow
 - oreilly
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/essentialblogging@1x.jpg" srcset="https://rubenerd.com/files/2018/essentialblogging@1x.jpg 1x, https://rubenerd.com/files/2018/essentialblogging@2x.jpg 2x" alt="Essential Blogging" style="width:192px; margin:0 0 1em 2em; float:right;" /></p>
 

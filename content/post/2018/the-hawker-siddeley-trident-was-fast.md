@@ -3,13 +3,12 @@ title: "The Hawker Siddeley Trident was fast"
 date: "2018-01-31T09:43:18+11:00"
 abstract: "It could outfly the current Boeing 777 by 100km/h"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - aviation
 - aeroplanes
 - uk
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/trident@1x.png" srcset="https://rubenerd.com/files/2018/trident@1x.png 1x, https://rubenerd.com/files/2018/trident@2x.png 2x" alt="A BEA Trident, Drawn by Emoscopes" style="width:378px" /></p>
 

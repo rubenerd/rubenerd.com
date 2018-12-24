@@ -1,16 +1,14 @@
 ---
 title: "LibreOffice HTML table paste"
 date: "2017-04-05T10:25:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "It works for Excel, but LibreOffice is problematic"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - excel
 - libreoffice
 - spreadsheet
+- written-in-sydney
 ---
 I still prefer [LibreOffice], but 5.3.1.2 can't seem to handle HTML tables pasted from the clipboard any more. Time to hit up their issue tracker.
 

@@ -1,15 +1,13 @@
 ---
 title: "Rick’s 10GbE home network"
 date: "2017-07-12T15:42:23+10:00"
-year: "2017"
-location: Sydney
 abstract: "That cable management is a work of art."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - networking
 - video
+- written-in-sydney
 ---
 <p></p>
 

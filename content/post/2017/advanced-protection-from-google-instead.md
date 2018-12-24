@@ -1,17 +1,15 @@
 ---
 title: "Advanced protection from Google instead?"
 date: "2017-10-24T10:39:42+11:00"
-year: "2017"
-location: Sydney
 abstract: "The Advanced Protection Program does not assuage my primary concern with digital surveillance."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - google
 - privacy
 - security
 - surveillance
+- written-in-sydney
 ---
 There's been universal praise for Google's recently announced Advanced Protection Program, but very little critical thinking. [From their new site]\:
 

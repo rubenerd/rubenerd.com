@@ -1,14 +1,13 @@
 ---
-draft: true
 title: "Weaning off streaming music"
 date: "2016-12-05T08:44:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - apple-music
 - music
 - spotify
+- written-in-sydney
 ---
 For someone who came so late to the streaing music game, I'm surprised how much Spotify and Apple Music crawled in and became an inseparable part of my life. They have three major benefits:
 

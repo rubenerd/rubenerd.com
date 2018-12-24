@@ -2,11 +2,11 @@
 title: "Back on 20th August 2006"
 date: "2016-08-20T10:51:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - nostalgia
 - ten-years-of-rubenerd
+- written-in-sydney
 ---
 Rubénerd became a blog in 2004, but I didn't really start writing seriously on it till 2006. That was a decade ago already (wow), so I thought it'd be fun to see what I was talking about exactly ten years ago.
 

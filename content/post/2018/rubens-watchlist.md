@@ -4,7 +4,6 @@ date: "2018-10-04T23:46:10+10:00"
 abstract: "Thermite Cheese Ansible"
 thumb: "https://rubenerd.com/files/2018/yt-H-PubIM6O_4@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - ansible
@@ -13,6 +12,7 @@ tag:
 - magic
 - video
 - watchlist
+- written-in-sydney
 ---
 Here are three videos I watched this week. This may become a regular [feature](https://rubenerd.com/tag/watchlist/), now that I have a script to auto-generate thumbnails without doing embeds.
 

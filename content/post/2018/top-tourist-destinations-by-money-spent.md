@@ -4,11 +4,11 @@ date: "2018-10-14T08:44:33+11:00"
 abstract: "Holy Macau!"
 thumb: "https://rubenerd.com/files/2018/international-tourism-destinations-final-dcf7@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - finances
 - travel
+- written-in-sydney
 ---
 A friend sent me [this fascinating visualisation] from HowMuch.net. Click through to the original article to see the full resolution and some fascinating discussion.
 

@@ -1,15 +1,13 @@
 ---
 title: "But I’d treat her better!"
 date: "2017-05-29T11:08:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "The red herring of nerds everywhere"
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - music
 - school
+- written-in-sydney
 ---
 I heard [this song] again today, and I feel compelled to reach out and comment. You may have heard it, the chorus says:
 

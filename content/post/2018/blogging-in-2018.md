@@ -3,11 +3,11 @@ title: "Blogging in 2018"
 date: "2018-01-03T09:39:22+11:00"
 abstract: "The modern web sucks, but at least we can reimplement retro stuff!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
 I'm rather partial to blogging. Problem is, I used to love it. There are several reasons I can think of, as opposed to divine from another source:
 

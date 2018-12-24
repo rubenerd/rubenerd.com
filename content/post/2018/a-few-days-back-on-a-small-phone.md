@@ -4,12 +4,12 @@ date: "2018-08-26T21:07:17+10:00"
 abstract: "Living back on an iPhone 5s"
 thumb: "https://rubenerd.com/files/2018/photo.iphone7plus-5s@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - iphone
 - iphone-5s
 - iphone-7-plus
+- written-in-sydney
 ---
 On the day Australia's prime minister [lost power], so too did my iPhone 7+. The [Lightning-headphone adapter] I begrudgingly used had been working sporadically since last Thursday, further fuelling my resentment for its necessity and existence.
 

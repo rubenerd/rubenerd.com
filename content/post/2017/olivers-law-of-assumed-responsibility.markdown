@@ -1,15 +1,13 @@
 ---
 title: "Oliver’s law of assumed responsibility"
 date: "2017-05-12T14:27:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "If you’re seen fixing it, you will be blamed for breaking it."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - quotes
 - troubleshooting
+- written-in-sydney
 ---
 > If you're seen fixing it, you will be blamed for breaking it.
 

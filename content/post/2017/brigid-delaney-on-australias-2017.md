@@ -1,17 +1,15 @@
 ---
 title: "Brigid Delaney on Australia’s 2017"
 date: "2017-12-29T09:26:35+11:00"
-year: "2017"
-location: Sydney
 abstract: "Such a great summary."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - news
 - australia
 - politics
 - human-rights 
+- written-in-sydney
 ---
 [Such a great summary in The Guardian last week]\:
 

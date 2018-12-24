@@ -2,14 +2,14 @@
 title: "IBM selling Lotus"
 date: "2018-12-08T23:14:37+11:00"
 abstract: "It was better to adminster than Exchange, though you're not supposed to admit that."
-thumb: ""
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - ibm
 - lotus
 - lotus-notes
+- nostalgia
+- written-in-sydney
 ---
 IBM is selling Lotus, presumably to empty some seats from Red Hat. User *hey!* on Slashdot [wrote a great comment] I have to quote verbatim:
 

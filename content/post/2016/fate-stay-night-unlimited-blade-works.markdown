@@ -2,7 +2,6 @@
 title: "Fate/Stay Night: Unlimited Blade Works"
 date: "2016-08-11T22:20:02+10:00"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - 2014-anime
@@ -12,6 +11,7 @@ tag:
 - tohsaka-rin
 - unlimited-blade-works
 - zettai-ryouiki
+- written-in-sydney
 ---
 <p style="font-style:italic;">(This post was originally written Sunday 7th August 2016).</p>
 

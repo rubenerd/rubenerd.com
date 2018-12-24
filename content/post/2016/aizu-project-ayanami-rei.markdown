@@ -2,12 +2,12 @@
 title: "Aizu Project’s Ayanami Rei"
 date: "2016-05-13T13:56:00+10:00"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - anime-figs
 - ayanami-rei
 - evangelion
+- written-in-sydney
 ---
 As [discussed on the show], I'm trying minimalism. New objects have to justify their existence, and with as little space as possible. It's been hard getting rid of stuff, but I feel a veritable weight has been lifted off my shoulders (and the apartment foundations).
 

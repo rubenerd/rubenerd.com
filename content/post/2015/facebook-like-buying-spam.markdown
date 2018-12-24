@@ -3,11 +3,11 @@ title: "Facebook like-buying #Spam"
 date: "2015-11-26T13:41:00+10:00"
 abstract: "And what’s wrong with Turkish likes?"
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - facebook
 - spam
+- written-in-sydney
 ---
 That could be read as Facebook enjoying the purchasing of spam, and I'm not sure my hyphen cleared this up much. Oh well, you like some, you lose some.
 

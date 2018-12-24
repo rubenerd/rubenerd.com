@@ -1,14 +1,13 @@
 ---
-draft: true
 title: "Trump"
 date: "2016-11-10T14:31:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - america
 - politics
 - usa
+- written-in-sydney
 ---
 [Me, on Twitter](https://twitter.com/Rubenerd/status/796478765643669504):
 

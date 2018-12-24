@@ -3,12 +3,12 @@ title: "A dev quote attributed to Maurice Wilkes"
 date: "2018-12-11T14:54:57+11:00"
 abstract: "The remainder of my life was going to be spent in finding errors in my own programs"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
 - development
 - freebsd
+- written-in-sydney
 ---
 Via the [FreeBSD Questions] mailing list:
 

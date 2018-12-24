@@ -3,13 +3,13 @@ title: "Light iTerm colour schemes"
 date: "2016-04-15T09:24:49+10:00"
 abstract: "When Solarized Dark doesn’t cut it"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - colour
 - design
 - iterm
 - mac-os-x
+- written-in-sydney
 ---
 I use and love [Solarized Dark] for my afternoon and evening work, but I find its equivalent Light theme and spelling lacking. I need bright colours in the morning to wake up, especially after a late night that may not have involved the aforementioned dark theme.
 

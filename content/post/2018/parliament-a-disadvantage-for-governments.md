@@ -1,14 +1,13 @@
 ---
 title: "Parliament a disadvatage for governments?"
 date: "2018-12-17T10:27:03+11:00"
-abstract: ""
-thumb: ""
+abstract: "Peter Dutton edges closer to fascism."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - politics
+- written-in-sydney
 ---
 This is already a week old, but it's incredible. The Australian government's Home Affairs Minister [told Sky News]\:
 

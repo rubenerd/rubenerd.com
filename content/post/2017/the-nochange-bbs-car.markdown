@@ -1,16 +1,14 @@
 ---
 title: "The NOCHANGE BBS car"
 date: "2017-01-28T08:22:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Jim Kloss delivers the goods."
 thumb: "https://rubenerd.com/files/2017/nochange-bbs-car.png"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - cars
 - jim-kloss
+- written-in-sydney
 ---
 Earlier this month, I [asked a question] regarding the procurement of a certain fantastical automobile device:
 

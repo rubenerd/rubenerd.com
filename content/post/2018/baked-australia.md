@@ -3,11 +3,11 @@ title: "Baked Australia"
 date: "2018-01-06T12:31:57+11:00"
 abstract: "Please stay safe everyone"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - weather
+- written-in-sydney
 ---
 It's going to be really, really hot in Australia this weekend. This is our little continent on Saturday according to the [Bureau of Meteorology]\:
 

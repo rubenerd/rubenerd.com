@@ -1,17 +1,15 @@
 ---
 title: "Atlassian, I am disappoint"
 date: "2017-02-11T12:55:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Why do I need third-party cookies?"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - atlassian
 - confluence
 - errors
 - wikis
+- written-in-sydney
 ---
 I tried to log into our Atlassian-hosted Confluence wiki this morning:
 

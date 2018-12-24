@@ -3,13 +3,12 @@ title: "Looking at slabs of glass"
 date: "2018-02-26T09:05:36+11:00"
 abstract: "A common attempt at compelling, biting commentary leaves me unconvinced"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - singapore
 - myopia
 - society
-- postaday2018
+- written-in-sydney
 ---
 People lamenting the current state of the world often mention our fixation on slabs of glass. We wake up, check our phones, work in offices staring at monitors all day, then relax by looking at computer screens. There's usually a followup comment that visiting aliens would be perplexed and unimpressed by the seething masses doing this.
 

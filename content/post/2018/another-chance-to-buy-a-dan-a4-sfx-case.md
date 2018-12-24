@@ -4,11 +4,11 @@ date: "2018-10-29T09:04:10+11:00"
 abstract: "Until 4th November"
 thumb: "https://rubenerd.com/files/2018/dancase-inside@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - cases
 - dan-a4-sfx
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/dancase-inside@1x.jpg" srcset="https://rubenerd.com/files/2018/dancase-inside@1x.jpg 1x, https://rubenerd.com/files/2018/dancase-inside@2x.jpg 2x" alt="Photo showing the inside of the case." style="width:332px; height:252px;" /></p>
 

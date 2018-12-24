@@ -3,12 +3,12 @@ title: "RHEL also deprecating btrfs"
 date: "2018-12-05T10:36:45+11:00"
 abstract: "Whew."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - btrfs
 - file-systems
 - red-hat
+- written-in-sydney
 ---
 [Speaking of] the latest [Red Hat Release Notes], here's a decision that's a relief rather than a point of sadness:
 

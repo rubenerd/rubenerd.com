@@ -2,11 +2,11 @@
 title: "Domain: All you need are rich parents"
 date: "2016-12-09T11:47:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - politics
+- written-in-sydney
 ---
 Australia has among the least-affordable housing in the world. What used to cost two to three times the average wage in capital cities now takes up to eleven times. And that's not accounting for the six figures even needed for most house deposits. Facts.
 

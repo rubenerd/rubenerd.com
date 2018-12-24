@@ -1,15 +1,13 @@
 ---
 title: "Bootstrapping Perl with Perlbrew and CPAN"
 date: "2017-09-04T17:37:07+10:00"
-year: "2017"
-location: Sydney
 abstract: "Perlbrew is still the best way to install Perl in 2017."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - package-managers
 - perl
+- written-in-sydney
 ---
 [@Stilgherrian] reminded me that there are still Perl devs out there. It can be a lonely existence, what with all these newfangled languages that don't act like Swiss Army Chainsaws. And [Perlbrew] by the illustrious [gugod and friends] is still the best way to get it, for three reasons:
 

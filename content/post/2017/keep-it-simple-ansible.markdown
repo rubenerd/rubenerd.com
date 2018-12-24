@@ -1,11 +1,8 @@
 ---
 title: "Keep it simple, Ansible"
 date: "2017-03-26T11:29:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "If something feels complicated, it probably is"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - ansible
@@ -13,6 +10,7 @@ tag:
 - freebsd
 - linux
 - netbsd
+- written-in-sydney
 ---
 In case my love for Ansible weren't obvious, I thought this line in their [best practices] section was great:
 

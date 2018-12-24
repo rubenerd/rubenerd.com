@@ -3,12 +3,12 @@ title: "From the not‐this‐again department"
 date: "2018-05-22T11:50:07+10:00"
 abstract: "The Catholic Church... you know how this ends."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - health
 - human-rights
 - religion
+- written-in-sydney
 ---
 The Catholic Church... you know how this ends. [Nancy Notzon filed this] for ABC News Australia:
 

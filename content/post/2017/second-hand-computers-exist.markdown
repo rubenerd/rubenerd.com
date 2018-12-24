@@ -1,15 +1,13 @@
 ---
 title: "Second–hand computers do exist"
 date: "2017-07-12T08:08:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "So why are they still not included in metrics?"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - laptops
 - sales
+- written-in-sydney
 ---
 Here's [something I wrote] eight years ago:
 

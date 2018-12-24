@@ -1,15 +1,13 @@
 ---
-title: "I'm 31"
+title: "I’m 31"
 date: "2017-03-27T16:37:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "I have much to be thankful for"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - birthdays
 - personal
+- written-in-sydney
 ---
 A pretty low-key birthday today, but that's [always been my style]. I was terrified about turning 30, but recent family adventures render me happy, relieved and feeling very fortunate for making it this far ^_^.
 

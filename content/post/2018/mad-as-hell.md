@@ -1,13 +1,17 @@
 ---
 title: "Mad as Hell!"
 date: "2018-04-05T10:24:45+10:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "I didn't know he had videos on YouTube!"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- australia
+- comedy
+- gender
+- politics
+- north-korea
+- united-states
+- written-in-sydney
 ---
 I didn't know Shaun Michallef's Mad as Hell had clips on YouTube! Though I'm not sure if they're geoblocked outside Australia.
 

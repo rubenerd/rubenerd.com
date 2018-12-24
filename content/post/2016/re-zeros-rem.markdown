@@ -2,12 +2,12 @@
 title: "Re:Zero's Rem"
 date: "2016-08-12T22:29:00+10:00"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - 2016-anime
 - design
 - re-zero
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/emilia-ram-rem.jpg" srcset="https://rubenerd.com/files/2016/emilia-ram-rem.jpg 1x, https://rubenerd.com/files/2016/emilia-ram-rem@2x.jpg 2x" alt="" style="width:500px" /></p>
 

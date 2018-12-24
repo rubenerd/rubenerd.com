@@ -2,15 +2,14 @@
 title: "Greyed out VMware Fusion NIC settings"
 date: "2018-12-01T12:06:27+11:00"
 abstract: "The all-too-familiar bug asserts itself again"
-thumb: ""
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - vmware
 - vmware-fusion
+- written-in-sydney
 ---
 I've yet to upgrade to VMware Fusion 11 from 10, but I've been bitten by the all-too-familiar greyed out network options bug again. If you go to configure the NIC for a VM, you're presented with this quandary:
 

@@ -3,12 +3,12 @@ title: "GitHub asks for username with SSH configured"
 abstract: "Re-clone from the SSH url!"
 date: "2016-03-08T11:45:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - git
 - github
 - guides
+- written-in-sydney
 ---
 If you use GitHub in any capacity, you should be using a [public key] with your account. It's one of those blissfully–rare occurrences where security and convenience intersect. GitHub recommends using HTTPS URLs, but I still reckon SSH is easier.
 

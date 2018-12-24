@@ -3,13 +3,13 @@ title: "GitHub supported manifest files"
 date: "2018-01-11T21:09:19+11:00"
 abstract: "We have both kinds"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - documentation
 - language
 - programming
 - github
+- written-in-sydney
 ---
 GitHub has the concept of a dependency graph you can view in a public or private repo, to view relationships between dependencies and be alerted to security issues. According to one of my  public repos, emphasis added:
 

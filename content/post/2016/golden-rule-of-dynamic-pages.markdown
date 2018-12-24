@@ -2,11 +2,11 @@
 title: "Four rules for web form design"
 date: "2016-09-09T11:56:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - design
 - html
+- written-in-sydney
 ---
 Based on a harrowingly unproductive experience this afternoon, I'm proposing the following rules:
 

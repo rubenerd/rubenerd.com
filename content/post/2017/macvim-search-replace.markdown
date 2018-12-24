@@ -1,13 +1,13 @@
 ---
 title: "MacVim's search replace"
 date: "2017-01-14T10:34:00+10:00"
-year: "2017"
-location: Sydney
+abstract: "Generic Mac search boxes miss much of the Vim's search power, but in a pinch it can be a real time saver."
 category: Software
 tag:
 - editors
 - macvim
 - vim
+- written-in-sydney
 ---
 The MacVim maintainers continue to surprise me. If you do a search/replace the Vim way:
 

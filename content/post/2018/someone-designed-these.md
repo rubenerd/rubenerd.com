@@ -3,11 +3,11 @@ title: "Someone designed these"
 date: "2018-09-05T08:23:19+10:00"
 abstract: "Presumably while not high."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - design
 - silly
+- written-in-sydney
 ---
 There are certain questionable design decisions out there, but there's an entire other class that make you try and picture the meeting where people signed off on it. Here are some examples.
 

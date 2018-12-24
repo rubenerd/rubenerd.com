@@ -4,13 +4,13 @@ date: "2018-11-03T21:50:01+11:00"
 abstract: "Don’t think that’s ever happened to me before"
 thumb: "https://rubenerd.com/files/2018/screenie-two-finders.png"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - apple
 - errors
 - finder
 - macos
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/screenie-two-finders.png" alt="Force Quit Applications showing multiple Finders" style="width:337px; height:280px;" /></p>
 

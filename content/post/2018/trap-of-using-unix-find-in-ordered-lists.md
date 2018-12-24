@@ -3,14 +3,13 @@ title: "The trap of using Unix find in ordered lists"
 date: "2018-01-18T08:56:21+11:00"
 abstract: "Things you already know, unless you don’t"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - things-you-already-know-unless-you-dont
 - bash
 - shell-scripting
 - back-to-work
-- postaday2018
+- written-in-sydney
 ---
 Merlin Mann and Dan Benjamin have a newish segment on *[Back To Work]* entitled *Things you already know, unless you don't already know them*. As they say, you're definitely an intelligent computer operator, so you you *already know* about this topic. In which case, be quiet, and let those without your snark or obvious intellect learn something. I'm [shamelessly ripping off] this idea.
 

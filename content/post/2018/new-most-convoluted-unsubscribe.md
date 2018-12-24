@@ -2,13 +2,12 @@
 title: "The new most convoluted unsubscribe process"
 date: "2018-11-18T10:20:00+11:00"
 abstract: "It took four, count it four, unsubscribe clicks!"
-thumb: ""
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - spam
 - unsubscribe
+- written-in-sydney
 ---
 We have a new winner in the unsubscribe stakes. Prepare your iTelephone LED torches and join me in this dark, meandering tunnel of redundancy and glory.
 

@@ -4,12 +4,12 @@ date: "2018-06-12T11:11:39+10:00"
 abstract: "Windows Team Git Foundation Server Enterprise Tool for Business"
 thumb: "https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - git
 - github
 - microsoft
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png" srcset="https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png 1x, https://rubenerd.com/files/2018/gh-to-bitbucket@2x.png 2x" alt="" style="width:494px; height:169px;" /></p>
 

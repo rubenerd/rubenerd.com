@@ -1,17 +1,14 @@
 ---
-draft: true
 title: "Buried under eBay chargers"
 date: "2017-12-08T11:34:37+11:00"
-year: "2017"
-location: Sydney
 abstract: "There must be a better way than two dozen negative search terms!"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - ebay
 - shopping
 - spam
+- written-in-sydney
 ---
 The biggest problem with eBay is the rheems of accessories, cases, chargers, adaptors and other junk that appears for something, rather than the thing itself. The signal to noise ratio seems
 

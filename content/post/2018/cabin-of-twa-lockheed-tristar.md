@@ -1,13 +1,16 @@
 ---
 title: "Cabin of a TWA Lockheed TriStar"
 date: "2018-05-29T19:43:41+10:00"
-abstract: ""
-thumb: "https://rubenerd.com/files/2018/"
+abstract: "Every part of the description sounds awesome."
+thumb: "https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@1x.jpg"
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Hardware
 tag:
-- 
+- aviation
+- lockheed
+- lockheed-tristar
+- transit
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@1x.jpg" srcset="https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@1x.jpg 1x, https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@2x.jpg 2x" alt="" style="width:500px" /></p>
 

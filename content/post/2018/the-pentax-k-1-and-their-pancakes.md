@@ -4,13 +4,13 @@ date: "2018-07-22T09:11:56+10:00"
 abstract: "I may... need this!"
 thumb: "https://rubenerd.com/files/2018/1519249541000_1391311@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Hardware
 tag:
 - california2018
 - cameras
 - pentax
 - photography
+- written-in-san-francisco
 ---
 Speaking of cameras, I completely missed that Pentax released a [revision to their first full frame SLR], and it looks *awesome*.
 

@@ -1,14 +1,12 @@
 ---
 title: "Selling on eBay, December 2017"
 date: "2017-12-04T09:24:59+11:00"
+abstract: "Want some cards, or books, or Flight Simulator handbooks?"
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- shopping
+- written-in-sydney
 ---
 I'm selling a few things on eBay. Free shipping in Australia!
 

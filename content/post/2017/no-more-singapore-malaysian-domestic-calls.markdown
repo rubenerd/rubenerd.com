@@ -1,11 +1,8 @@
 ---
 title: "No more local Singapore-Malaysia calls, kinda"
 date: "2017-04-15T10:13:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "A symbolic move, if anything else."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - phones
@@ -13,6 +10,7 @@ tag:
 - nostalgia
 - politics
 - singapore
+- written-in-sydney
 ---
 Singapore, Malaysia and Brunei have interesting arrangements. Singaporeans can spend their currency in Brunei, and vice-versa. There's a high speed train line being built between Singapore and Kuala Lumpur. They share cultural ties, and each have Malay as one of their official languages. Many Malaysians commute and work in Brunei and Singapore, and people from the latter two holiday in Malaysia. Malaysian Proton taxis hang around Sim Lim Square, and Singaporean commuter buses can be taken into Johor. Singapore was even a state of Malaysia for a few years, and still buys water from them.
 

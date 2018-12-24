@@ -1,18 +1,16 @@
 ---
 title: "3D-printed Penrose Triangle"
 date: "2017-02-07T11:41:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Finally, a use for a 3D printer!"
-thumb: ""
+thumb: "https://rubenerd.com/files/2017/JW830003@1x.jpg"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - 3d-printing
 - art
 - impossible-drawings
 - optical-illusions
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/JW830003@1x.jpg" alt="" style="width:314px; height:236px" srcset="https://rubenerd.com/files/2017/JW830003@1x.jpg 1x, https://rubenerd.com/files/2017/JW830003@2x.jpg 2x" /></p>
 

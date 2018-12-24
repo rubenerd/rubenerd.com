@@ -3,12 +3,12 @@ title: "Amazon's vexillology needs some work"
 date: "2016-03-26T09:06:00+10:00"
 abstract: "Flags on their home page are all wrong!"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - amazon
 - design
 - flags
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/amazonflags@2x.png" alt="Flags on the Amazon site" style="width:500px; height:231px" /></p>
 

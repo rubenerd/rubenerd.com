@@ -2,11 +2,11 @@
 title: "S. R. Nathan"
 date: "2016-08-23T15:05:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - rip
 - singapore
+- written-in-sydney
 ---
 <img src="https://rubenerd.com/files/2016/srnathan.jpg" srcset="https://rubenerd.com/files/2016/srnathan.jpg 1x, https://rubenerd.com/files/2016/srnathan@2x.jpg 2x" alt="Remembering S. R. Nathan" style="width:375px" /></p>
 

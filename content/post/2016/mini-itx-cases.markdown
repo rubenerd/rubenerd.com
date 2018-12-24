@@ -2,12 +2,12 @@
 title: "Choosing a minimalistic Mini-ITX case"
 date: "2016-05-07T10:17:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - cases
 - diy
 - mini-itx
+- written-in-sydney
 ---
 I'm building a gaming machine for the first time since I was 17. It's bringing back all the wonderful memories pouring over price lists.
 

@@ -2,11 +2,11 @@
 title: "What happened to Otto?"
 date: "2016-08-24T14:32:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - devops
 - hashicorp
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/otto.png" srcset="https://rubenerd.com/files/2016/otto.png 1x, https://rubenerd.com/files/2016/otto@2x.png 2x" alt="" style="width:500px; height:190px;" /></p>
 

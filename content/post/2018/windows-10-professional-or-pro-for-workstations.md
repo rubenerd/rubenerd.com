@@ -3,12 +3,12 @@ title: "Windows 10 Professional, or Pro for Workstations"
 date: "2018-06-25T13:38:31-07:00"
 abstract: "Good grief"
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california2018
 - windows
 - windows-10
+- written-in-san-francisco
 ---
 This is fresh from the *Microsoft Volume Licence Service Centre*, or VLSC for those in the know and likely supporting several habits now:
 

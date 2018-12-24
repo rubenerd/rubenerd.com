@@ -3,7 +3,6 @@ title: "raindog308 on CentOS 7 and systemd"
 date: "2015-06-20T10:17:00+10:00"
 abstract: "It's an ugly world in Linux right now"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - reviews
@@ -11,6 +10,7 @@ tag:
 - rhel
 - systemd
 - fedora
+- written-in-sydney
 ---
 <p>raindog308 has some <a href="https://raindog308.com/centos7/">choice words</a> about the latest CentOS:</p>
 

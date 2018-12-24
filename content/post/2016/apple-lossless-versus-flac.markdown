@@ -2,7 +2,6 @@
 title: "Apple Lossless versus FLAC"
 date: "2016-04-26T12:14:00+10:00"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - audio
@@ -11,6 +10,7 @@ tag:
 - apple-lossless
 - flac
 - music
+- written-in-sydney
 ---
 As you can [tell by the archive], I've been podcasting (terrible stuff) for a while. I've also got a significant archive of other recoded audio (events, snippets, audio journals) that may one day find themselves in a podcast, or other audio production. For this irreplacable audio, I trust [FLAC].
 

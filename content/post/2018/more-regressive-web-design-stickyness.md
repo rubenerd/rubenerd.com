@@ -2,14 +2,13 @@
 title: "More regressive web design stickyness"
 date: "2018-03-04T10:59:58+11:00"
 abstract: "Fortunately we have Kill Sticky Headers"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/regressive-persistant-elements.png"
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Internet
 tag:
 - design
 - regressive-web-design
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/regressive-persistant-elements.png" alt="A website screenshot showing a persistent chat window and newsletter signup popup over the page content" style="width:500px;" /></p>
 

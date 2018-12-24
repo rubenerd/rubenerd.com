@@ -1,12 +1,13 @@
 ---
 title: "More flexible gohugo summaries"
 date: "2016-07-30T14:19:10+10:00"
+abstract: "You could probably do the same thing by detecting the presence of a more comment, but this works."
 year: "2016"
-location: Sydney
 category: Software
 tag: 
 - gohugo
 - static-site-generation
+- written-in-sydney
 ---
 There was a genuine debate in the blogosphere era (remember that term?) surrounding the use of "read more..." links. Proponents claimed a page of summaries were easier to skim than entire posts, but detractors lamented the extra clicks involved to get to content.
 

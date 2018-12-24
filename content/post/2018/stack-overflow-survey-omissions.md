@@ -3,13 +3,12 @@ title: "Stack Overflow survey omission"
 date: "2018-01-13T23:32:32+11:00"
 abstract: "No mention of privacy in advertising questions."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - advertising
 - privacy
 - security
-- postaday2018
+- written-in-sydney
 ---
 I just did the Stack Overflow developer survey; advertising, AI ethics, and employment were the big themes. Most of the questions were rote, but this one gave me pause:
 

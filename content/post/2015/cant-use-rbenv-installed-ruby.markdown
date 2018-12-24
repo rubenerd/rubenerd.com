@@ -3,11 +3,11 @@ title: "Can't use rbenv–installed Ruby?"
 date: "2015-11-04T15:43:00+10:00"
 abstract: "Forgot to issue rbenv local!"
 year: "2015"
-location: Sydney
 category: Software
 tag:
 - package-managers
 - ruby
+- written-in-sydney
 ---
 I’ve previously used RVM to install Ruby and gems, but this week I decided to try rbenv.
 

@@ -3,12 +3,12 @@ title: "Ground Control to Major Tom"
 date: "2016-01-12T11:54:00+10:00"
 abstract: "Goodbye David Bowie"
 year: "2016"
-location: Sydney
 category: Media
 tag:
 - david-bowie
 - music
 - rip
+- written-in-sydney
 ---
 <p><iframe width="500" height="315" src="//www.youtube.com/embed/9G4jnaznUoQ" ></iframe></p>
 

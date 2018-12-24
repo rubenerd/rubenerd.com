@@ -2,13 +2,13 @@
 title: "Building beautiful websites"
 date: "2018-05-09T13:39:51+10:00"
 abstract: "When did we start attributing designs with this weird adjective?"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/stock/tango-internet-web-browser.svg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - design
 - websites
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/stock/tango-internet-web-browser.svg" alt="Clear icon from the Tango Desktop Project" style="width:128px; height:128px; float:right; margin:0 0 1em 1em" /></p>
 

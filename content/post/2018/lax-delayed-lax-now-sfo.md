@@ -3,7 +3,6 @@ title: "LAX, delayed LAX, now SFO"
 date: "2018-07-15T10:30:41-07:00"
 abstract: "A warning from United about delays to airport security!"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - airports
@@ -12,6 +11,7 @@ tag:
 - security
 - travel
 - united-states
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/Aiga_departingflights.svg" alt="Clear icon from the Tango Desktop Project" style="width:96px; height:96px; float:right; margin:0 0 1em 2em" /></p>
 

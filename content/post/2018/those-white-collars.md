@@ -3,12 +3,12 @@ title: "Those white collars"
 date: "2018-11-28T08:45:26+11:00"
 abstract: "A man with a briefcase can steal more money than a man with a gun."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - finance
 - privacy
 - security
+- written-in-sydney
 ---
 Speaking of [overhearing lyrics] in coffee shops, this was from "Gimme what You Got" by Don Henley:
 

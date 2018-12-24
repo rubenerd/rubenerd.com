@@ -1,11 +1,8 @@
 ---
 title: "An Osaka Coffee Bean and Tea Leaf"
 date: "2017-07-25T11:20:47+10:00"
-year: "2017"
-location: Sydney
 abstract: "Going back to one of my and Felix’s old Singaporean haunts!"
 year: "2017"
-location: Osaka
 category: Thoughts
 tag:
 - beverages
@@ -16,6 +13,7 @@ tag:
 - hkjp-trip
 - osaka
 - singapore
+- written-in-osaka
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@1x.jpg 1x, https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@2x.jpg 2x" /></p></figure>
 

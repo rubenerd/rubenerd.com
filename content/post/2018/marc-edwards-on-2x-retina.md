@@ -3,13 +3,13 @@ title: "Marc Edwards on 2x Retina"
 date: "2018-11-30T17:25:03+11:00"
 abstract: "Complete with an animated GIF, pronounced GIF."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - accessibility
 - apple
 - displays
 - retina
+- written-in-sydney
 ---
 Earlier this month I [lamented the direction Apple was taking] with their Retina displays in two areas:
 

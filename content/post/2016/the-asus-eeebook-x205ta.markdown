@@ -2,13 +2,13 @@
 title: "The ASUS EeeBook X205TA"
 date: "2016-08-09T15:49:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - asus
 - laptops
 - intel-atom
 - notebooks
+- written-in-sydney
 ---
 I'm still a Mac desktop user, but I've been looking at PC laptops again. For remotely fixing servers, I've resigned myself to the fact I have to carry a laptop around with me permanently, so I want the lightest one I can get.
 

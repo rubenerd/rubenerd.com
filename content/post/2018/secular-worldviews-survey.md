@@ -4,13 +4,13 @@ date: "2018-06-21T12:25:41-07:00"
 abstract: "Worth doing if you're not religious, but may still be spiritual."
 thumb: "https://rubenerd.com/files/2018/secularsurvey@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
 - religion
 - science
 - spiritual
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/secularsurvey@1x.jpg" srcset="https://rubenerd.com/files/2018/secularsurvey@1x.jpg 1x, https://rubenerd.com/files/2018/secularsurvey@2x.jpg 2x" alt="Secular Worldviews survey" style="width:500px" /></p>
 

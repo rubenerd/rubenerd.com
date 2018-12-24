@@ -3,7 +3,6 @@ title: "Argument mnemonics"
 date: "2018-08-21T22:21:39+10:00"
 abstract: "Cola on an LRT"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - linux
 - mnemonics
 - netbsd
+- written-in-sydney
 ---
 I like argument and option mnemonics. I can see why standard usage documentation prefers to sort arguments <abbr title="lexographically">l15y</abbr>, but this way makes them much easier to remember.
 

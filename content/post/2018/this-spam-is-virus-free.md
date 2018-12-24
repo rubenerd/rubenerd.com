@@ -3,13 +3,12 @@ title: "This spam is virus free!"
 date: "2018-01-29T11:23:14+11:00"
 abstract: "Why do people append these footers?"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - security
 - spam
 - anti-virus
-- postaday2018
+- written-in-sydney
 ---
 Here's some legit&trade; email I received over my morning coffee:
 

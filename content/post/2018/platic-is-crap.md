@@ -1,13 +1,12 @@
 ---
 title: "More plastic, via @Georgiecel"
 date: "2018-10-23T23:31:45+11:00"
-abstract: ""
-thumb: ""
+abstract: "Microbeads were bad enough."
 year: "2018"
-location: Sydney
-category: Thoughts
+category: Hardware
 tag:
-- 
+- environment
+- written-in-sydney
 ---
 Remember my [rant against cosmetic microbeads]? The illustrious [@Georgiecel] shared [this Guardian report] by Fiona Harvey and Jonathan Watts:
 

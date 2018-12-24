@@ -3,7 +3,6 @@ title: "Wildcard and DNS Let’s Encrypt certificates"
 date: "2018-08-03T15:12:49+10:00"
 abstract: "They’re wonderful, use them!"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - eff
@@ -11,6 +10,7 @@ tag:
 - security
 - ssl
 - tls
+- written-in-sydney
 ---
 I migrated as many services I maintain to *Let's Encrypt* as soon as it was humanly possible. The entire toolchain and ease of use is enough for me to encourage its adoption; the fact they're free is a happy bonus.
 

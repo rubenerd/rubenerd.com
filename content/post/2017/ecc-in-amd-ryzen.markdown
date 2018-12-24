@@ -1,19 +1,17 @@
 ---
 title: "ECC in AMD Ryzen"
 date: "2017-03-26T19:24:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "I could be going back to AMD for my next NAS"
 year: "2017"
-location: Sydney
 category: Hardware
-tag: 
+tag:
 - amd
 - cpus
 - intel
 - memory
 - ryzen
 - xeon
+- written-in-sydney
 ---
 <figure><img src="https://rubenerd.com/files/2017/ryzen@1x.jpg" alt="" style="width:400px; height:160px" srcset="https://rubenerd.com/files/2017/ryzen@1x.jpg 1x, https://rubenerd.com/files/2017/ryzen@2x.jpg 2x" /></figure>
 

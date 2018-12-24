@@ -1,18 +1,18 @@
 ---
 title: "FreeBSD.org using Let’s Encrypt"
 date: "2017-11-28T11:36:11+11:00"
+abstract: "Using openssl’s s_client to verify the website of the world’s favourite OS."
 year: "2017"
-location: Sydney
-abstract: ""
-year: "2017"
-location: Sydney
 category: Internet
 tag:
-- freebsd
 - bsd
+- freebsd
+- https
 - lets-encrypt
+- security
+- written-in-sydney
 ---
-This is cool ^_^:
+This is cool ^_^\:
 
     $ openssl s_client -connect freebsd.org:443
     ==> CONNECTED(00000005)

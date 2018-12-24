@@ -3,12 +3,12 @@ title: "Meltdown and Spectre"
 date: "2018-01-05T11:32:28+11:00"
 abstract: "These wouldn’t be serious bugs without names, logos, and a website."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - security
 - cpus
 - intel
+- written-in-sydney
 ---
 <img src="https://rubenerd.com/files/2018/meltdown.min.svg" alt="Logo for Meltdown" style="width:100px;" /><img src="https://rubenerd.com/files/2018/spectre.min.svg" alt="Logo for Spectre" style="width:200px;" />
 

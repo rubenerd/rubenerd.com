@@ -4,7 +4,6 @@ date: "2018-07-03T19:48:17-07:00"
 abstract: "A new Coffee Omake page entrant, and great oat milk"
 thumb: "https://rubenerd.com/files/2018/cafereveille-coffee@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - california2018
@@ -12,6 +11,7 @@ tag:
 - food
 - mission-bay
 - reviews
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/cafereveille-inside@1x.jpg" srcset="https://rubenerd.com/files/2018/cafereveille-inside@1x.jpg 1x, https://rubenerd.com/files/2018/cafereveille-inside@2x.jpg 2x" alt="" style="width:500px; height:375px;" /></p>
 

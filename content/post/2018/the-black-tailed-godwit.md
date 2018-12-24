@@ -4,11 +4,11 @@ date: "2018-06-04T21:15:57+10:00"
 abstract: "Today’s cute Wikipedia featured bird image"
 thumb: "https://rubenerd.com/files/2018/black-tailed-godwit@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - birds
 - photos
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/black-tailed-godwit@1x.jpg" srcset="https://rubenerd.com/files/2018/black-tailed-godwit@1x.jpg 1x, https://rubenerd.com/files/2018/black-tailed-godwit@2x.jpg 2x" alt="The black-tailed godwit" style="width:500px; height:333px;" /></p>
 

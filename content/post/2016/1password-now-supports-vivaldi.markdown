@@ -2,13 +2,13 @@
 title: "Vivaldi gets some 1Password love"
 date: "2016-06-06T11:35:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - 1password
 - passwords
 - security
 - vivaldi
+- written-in-sydney
 ---
 Over the last few years I’ve used the following as desktop password stores:
 

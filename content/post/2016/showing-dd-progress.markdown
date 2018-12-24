@@ -2,13 +2,13 @@
 title: "Showing dd progress"
 date: "2016-05-23T15:30:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - linux
 - netbsd
+- written-in-sydney
 ---
 By default, dd doesn't show progress during block copying.
 

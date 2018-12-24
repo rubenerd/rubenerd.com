@@ -1,11 +1,8 @@
 ---
 title: "The Boeing 727 prototype"
 date: "2017-01-05T08:34:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "The paint scheme and classic design were something else!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - aviation
@@ -15,6 +12,7 @@ tag:
 - design
 - nostalgia
 - photos
+- written-in-sydney
 ---
 I was going through my old [Pinboard] \(previously [del.icio.us]\) links, and remembered Robert A. Bogash's [incredible photo archive] of the original 727! Among images of blueprints, building the fuselange and test flights, this was my favourite:
 

@@ -4,7 +4,6 @@ date: "2018-07-11T15:51:49-07:00"
 abstract: "Taking the lyrics to their 1997 classic to 2018 Santa Monica."
 thumb: "https://rubenerd.com/files/2018/santamonica-boulevard@1x.jpg"
 year: "2018"
-location: Los-Angeles
 category: Thoughts
 tag:
 - australia
@@ -13,6 +12,7 @@ tag:
 - music
 - savage-garden
 - travel
+- written-in-los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/santamonica-cb@1x.jpg" srcset="https://rubenerd.com/files/2018/santamonica-cb@1x.jpg 1x, https://rubenerd.com/files/2018/santamonica-cb@2x.jpg 2x" alt="Stereotypical shot of laptop with Coffee Bean cups I've been taking here for years" style="width:500px; height:333px;" /></p>
 

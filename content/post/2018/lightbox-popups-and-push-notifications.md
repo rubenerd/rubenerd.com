@@ -2,16 +2,15 @@
 title: "Lightbox popups and push notifications"
 date: "2018-02-27T15:24:53+11:00"
 abstract: "When you see either of these, the answer is no."
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/lightbox-newsletter.png"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - spam
 - newsletters
 - popups
 - user-hostile-design
-- postaday2018
+- written-in-sydney
 ---
 When you see either of these appear on a page, the answer is **No**.
 

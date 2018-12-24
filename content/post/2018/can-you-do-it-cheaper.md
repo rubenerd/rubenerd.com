@@ -3,7 +3,6 @@ title: "Can you do it cheaper?"
 date: "2018-11-07T11:04:48+11:00"
 abstract: "Best graphic ever"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -11,6 +10,7 @@ tag:
 - quality
 - work
 - zfs
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/ifyoucandocheaper.jpg" alt="Pencil drawing of a horse, showing a graual decline in detail, with the caption: when your client asks if you can do it cheaper..." style="width:480px; height:480px;" /></p>
 

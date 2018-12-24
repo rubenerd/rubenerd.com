@@ -2,12 +2,15 @@
 title: "Brexit and paranoid fantasies"
 date: "2018-11-17T09:54:49+11:00"
 abstract: "Fintan O’Toole’s book on the subject is the best I’ve read thus far."
-thumb: ""
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
-- 
+- europe
+- germany
+- journalism
+- news
+- united-kingdom
+- written-in-sydney
 ---
 The unfolding drama around Brexit is utterly bewildering to watch. As these [famous political scientists] sang:
 

@@ -3,11 +3,11 @@ title: "CRN mobile network outage poll"
 date: "2018-05-10T10:10:13+10:00"
 abstract: "Disappointing but unavoidable, or unacceptable at any time?"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - mobile-phones
 - networking
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/stock/gnome-network-wireless-encrypted.svg" alt="Wireless security icon from the Gnome Colors project" style="width:128px; height:128px; float:right; margin:0 0 1em 1em" /></p>
 

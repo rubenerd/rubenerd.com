@@ -4,7 +4,6 @@ date: "2018-07-29T15:02:40+10:00"
 abstract: "The most fun Twitter meme in ages!"
 thumb: "https://rubenerd.com/files/2018/favouritecharbingo@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime 
 tag:
 - barakamon
@@ -32,6 +31,7 @@ tag:
 - switch
 - toradora
 - yuru-camp
+- written-in-sydney
 ---
 Happy Sunday, especially to [@Dekopatchi] for cluing me into the **most fun Twitter meme in ages**! Hers is also the closest I've come to winning, including Homuhomu and Rikka who didn't make my cut here by the narrowest of margins (damn it!).
 

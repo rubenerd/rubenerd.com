@@ -1,19 +1,18 @@
 ---
-draft: true
 title: "Extracting more money from renters"
 date: "2016-08-16T11:52:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - housing
 - politics
 - rent
+- written-in-sydney
 ---
 I’ve had Creative Commons licenced material on Flickr for years, so my photos pop up all over the place. Nobody respects the share-alike provision though, either because they don't understand that their article would also need to be licenced under the same terms, or they don't care.
 
-So I noticed <a href="http://ourmortgageoptions.com.au/how-to-increase-the-rent-of-your-investment-property/" rel="nofollow">Our Mortgage Options</a> had used a tenacy agreement photo of mine for their article "How to Increase the Rent of your Investment Property".
+So I noticed <a href="http://ourmortgageoptions.com.au/how-to-increase-the-rent-of-your-investment-property/" rel="nofollow">Our Mortgage Options</a> had used a tenancy agreement photo of mine for their article "How to Increase the Rent of your Investment Property".
 
 > At a macro level, general economic variables and currency fluctuations can also cause rental prices to increase or decrease.
 
@@ -31,11 +30,11 @@ But what to do with those good tenants?
 
 > Give your tenants at least the minimum required notice. In all Australian states, except the Northern Territory, landlords are required to give tenants 60 days written notice before increasing the rent. Do this sooner, if you can.
 
-Good god, those poor people in the NT. 60 days is barely enough time to research alternative accomodation, sign a new lease, pack, get time off work and move.
+Good god, those poor people in the NT. 60 days is barely enough time to research alternative housing, sign a new lease, pack, get time off work and move.
 
 > Keep in mind that rent cannot be increased in fixed term agreements unless specifically outlined in the tenancy agreement. And, rent cannot be increased more than once every 6 months.
 
-Tenants: read your agreement. Yes contracts don't override the law, and you can contest them, but good luck maintaing a cordial relationship with your landlord after a protracted legal battle.
+Tenants: read your agreement. Yes contracts don't override the law, and you can contest them, but good luck maintaining a cordial relationship with your landlord after a protracted legal battle.
 
 > Explain to your tenants why the rent is increasing. It is acceptable to raise rental prices in line with CPI.
 

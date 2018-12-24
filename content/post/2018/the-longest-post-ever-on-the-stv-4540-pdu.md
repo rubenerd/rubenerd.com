@@ -4,12 +4,12 @@ date: "2018-08-30T08:32:55+10:00"
 abstract: "This may be the longest post I’ve ever published."
 thumb: "https://rubenerd.com/files/2018/STV-45402@1x.png"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - data-centre
 - power
 - servers
+- written-in-sydney
 ---
 This may be the longest post I've ever published, regarding the Server Technology [PRO1 Switched STV-4540 Rack PDU]\:
 

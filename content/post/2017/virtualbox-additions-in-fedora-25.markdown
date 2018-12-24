@@ -1,16 +1,14 @@
 ---
 title: "VirtualBox guest additions in Fedora 25"
 date: "2017-05-15T13:42:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Maybe you'll have better luck than me"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - fedora
 - linux
 - troubleshooting
+- written-in-sydney
 ---
 Fedora and I have a [long and colourful history] with screen issues. This is the latest chapter, today dealing with installing guest additions.
 

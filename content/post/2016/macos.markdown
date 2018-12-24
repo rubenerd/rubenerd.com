@@ -2,13 +2,13 @@
 title: "macOS"
 date: "2016-06-09T10:43:00+10:00"
 year: "2016"
-location: Sydney
 category: software
 tag:
 - apple
 - macos
 - mac-os-x
 - os-x
+- written-in-sydney
 ---
 Apple has referred to their desktop platform as macOS in their [iTunes Partner FAQ]:
 

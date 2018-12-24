@@ -2,7 +2,6 @@
 title: "Fujitsu exiting laptop business"
 date: "2016-12-13T23:13:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - from-old-drafts
@@ -10,6 +9,7 @@ tag:
 - laptops
 - news
 - notebooks
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/0063_02_l.jpg" alt="The Fujitsu FMV Biblo Loox S5/53W" style="width:400px; height:325px;" srcset="https://rubenerd.com/files/2016/0063_02_l.jpg 1x, https://rubenerd.com/files/2016/0063_02_l@2x.jpg 2x" /></p>
 

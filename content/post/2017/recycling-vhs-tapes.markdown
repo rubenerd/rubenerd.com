@@ -1,17 +1,15 @@
 ---
 title: "Recycling VHS tapes"
 date: "2017-07-12T09:22:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Surprisingly, few Sydney councils take them, gah!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - retro
 - nostalgia
 - tapes
 - 1990s
+- written-in-sydney
 ---
 Remember VHS tapes? The labels from video rental stores imploring you to rewind after use, the read-write tabs to make sure you couldn't overwrite them, making sure you had your timestamps listed on labels so you could squeeze another episode of *Star Trek Voyager* on one. Spoiler: Kes was the best character.
 

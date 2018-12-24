@@ -3,7 +3,6 @@ title: "Scoop is another Windows package manager"
 date: "2018-11-28T09:18:39+11:00"
 abstract: "Uses the same methadology as Homebrew"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - chocolately
@@ -11,6 +10,7 @@ tag:
 - scoop
 - software
 - windows
+- written-in-sydney
 ---
 [Chocolately] is among the first things I install on any Windows machine I find myself forced to use. The \*nix world has thoroughly spoiled me with package managers, so to use a system with wizard installers isn't so much foreign as an absolute affront.
 

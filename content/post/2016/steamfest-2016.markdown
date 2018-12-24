@@ -1,11 +1,14 @@
 ---
-draft: true
 title: "Life event unlocked: SteamFest 2016"
 date: "2016-04-11T15:32:35+10:00"
-abstract: ""
 year: "2016"
-location: Sydney
-category: Thoughts
+category: Media
+tag: 
+- australia
+- steam-trains
+- trains
+- transit
+- written-in-sydney
 ---
 Before I started school, my parents figured out they could keep me quiet for a few hours by putting on the "Pure Steam" VHS tape. A documentary produced by the ABC in 1980s, it documented the Flying Scotsman's journey around Australia for the Bicentennial celebrations.
 
@@ -22,4 +25,6 @@ Like the video, some of New South Wales' best locomotives were on living display
 Holding my girlfriend's hand, SLR or iPhone videoing in the other, as these magnificent beasts flew past and alongside us for fourty minutes was breathtaking. Easily one of the most memorable events of my life.
 
 Thank you to all the tireless volunteers and engineers, to the Canberra Steam Society for letting us borrow your locos, and to everyone I shared the carriage with for the festive spirit and fun. You made this grown up boy very happy.
+
+Photos will be added soon.
 

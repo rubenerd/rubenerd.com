@@ -3,7 +3,6 @@ title: "VMDK candidate candidates"
 date: "2018-07-05T09:42:55-07:00"
 abstract: "This post mentions the word candidate"
 year: "2018"
-location: San-Francisco
 category: Software
 tag:
 - california2018
@@ -11,6 +10,7 @@ tag:
 - firewalls
 - linux
 - security
+- written-in-san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2014/virtualbox-vmdk.png" alt="VMDK" style="width:128px; height:128px; float:right; margin:0 0 1em 2em;" /></p>
 

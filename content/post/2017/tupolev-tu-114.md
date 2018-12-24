@@ -1,11 +1,8 @@
 ---
 title: "The Tupolev Tu-114"
 date: "2017-11-21T09:10:47+11:00"
-year: "2017"
-location: Sydney
 abstract: "The early jet age plane I hadn’t ever heard of!"
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - 1950s
@@ -14,6 +11,7 @@ tag:
 - history
 - tupolev
 - ussr
+- written-in-sydney
 ---
 I spent most of my early teens obsessed with the early jet age. The technology was fascinating, as too was seeing society react and adjust to almost the whole world being a day away for the first time in history. It was the same reason I was captivated by turn of the century ocean liners.
 

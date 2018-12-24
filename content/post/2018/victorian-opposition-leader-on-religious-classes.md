@@ -3,12 +3,12 @@ title: "Victorian opposition leader on religious classes"
 date: "2018-10-30T10:41:23+11:00"
 abstract: "He says religious instruction classes will be re-introduced."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - politics
 - religion
+- written-in-sydney
 ---
 Victorian state opposition leader Matthew Guy had this *suppository of wisdom* to share, as [reported by Henrietta Cook in The Age]:
 

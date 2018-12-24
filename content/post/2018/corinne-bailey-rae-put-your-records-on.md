@@ -2,9 +2,8 @@
 title: "Corrine Bailey Rae, Put Your Records On"
 date: "2018-11-26T22:02:20+11:00"
 abstract: "I’ve been hearing this song everywhere again"
-thumb: ""
+thumb: "https://rubenerd.com/files/2018/yt-rjOhZZyn30k@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - australia
@@ -13,6 +12,7 @@ tag:
 - music-monday
 - nostalgia
 - sydney
+- written-in-sydney
 ---
 <p><a href=https://www.youtube.com/watch?v=rjOhZZyn30k title="Play Corinne Bailey Rae - Put Your Records On"><img src="https://rubenerd.com/files/2018/yt-rjOhZZyn30k@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-rjOhZZyn30k@1x.jpg 1x, https://rubenerd.com/files/2018/yt-rjOhZZyn30k@2x.jpg 2x" alt="Play Corinne Bailey Rae - Put Your Records On" style="width:500px;height:281px;" /></a>
 

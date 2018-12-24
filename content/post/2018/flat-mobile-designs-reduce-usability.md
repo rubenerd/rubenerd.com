@@ -3,12 +3,11 @@ title: "Flat, mobile designs reduce usability"
 date: "2018-03-06T08:03:01+11:00"
 abstract: "It shouldn’t be a surprise, but here we are"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - design
 - ui
-- postaday2018
+- written-in-sydney
 ---
 While we're [talking usability], Zorro shared [this Register story] on [Slashdot] reporting that users navigate flat UI designs 22 percent slower. An [AC posted this] in response, which I have to quote in full:
 

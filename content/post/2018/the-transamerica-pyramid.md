@@ -4,13 +4,13 @@ date: "2018-06-17T02:34:00-07:00"
 abstract: "Ticking my third-favourite building off the list!"
 thumb: "https://rubenerd.com/files/2018/tapyramid1@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - architecture
 - california-2018
 - design
 - san-francisco
+- written-in-san-francisco
 ---
 I've been tracking a [list of my favourite buildings] since I was old enough to read paper encyclopædias at school, then Encarta, then Wikipedia. I never thought I'd ever get to see some of them, let alone all, but Clara and I have been ticking them off!
 

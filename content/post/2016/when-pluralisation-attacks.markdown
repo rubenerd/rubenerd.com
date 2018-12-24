@@ -3,12 +3,12 @@ title: "When pluralisation attacks"
 date: "2016-03-18T15:50:00+10:00"
 abstract: "It’s virtualbox-extension-pack, not extensions!"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - virtualbox
 - virtualisation
 - when-x-attacks
+- written-in-sydney
 ---
 Or why you shouldn't attempt package manager installs before coffee.
 
@@ -34,10 +34,12 @@ Or why you shouldn't attempt package manager installs before coffee.
     $ cowsay -e "><"  "Mumble grumble"
      ________________ 
     < mumble grumble >
-     ---------------- 
+- written-in-sydney
+---
             \   ^__^
              \  (><)\_______
                 (__)\       )\/\
-                    ||----w |
+- written-in-sydney
+---
                     ||     ||
 

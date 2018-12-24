@@ -3,13 +3,13 @@ title: "Concat VMDKs with VMware Fusion"
 date: "2018-05-23T09:27:02+10:00"
 abstract: "De-select Split into multiple files"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - disk-images
 - virtual-machines
 - vmdk
 - vmware-fusion
+- written-in-sydney
 ---
 VMware Fusion—and as far as I can remember, VMware Workstation—default to splitting disk images into multiple files. There are benefits to doing this, but it might not be what you want depending on your use case.
 

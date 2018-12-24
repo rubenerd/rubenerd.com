@@ -3,7 +3,6 @@ title: "Xorg: More than one possible primary device found"
 date: "2018-12-02T13:34:50+11:00"
 abstract: "If you see this on an HP Microserver, disable it in the BIOS."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - bsd
@@ -12,6 +11,7 @@ tag:
 - microserver
 - troubleshooting
 - xorg
+- written-in-sydney
 ---
 Wow it's a *scorcher* outside. No wonder this Microserver's fan is running like crazy. But I digress; I saw this Xorg error on a FreeBSD Gen8 HP Microserver with a low profile PCI-E card:
 

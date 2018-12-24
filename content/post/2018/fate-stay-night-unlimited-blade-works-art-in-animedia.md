@@ -2,9 +2,8 @@
 title: "Fate/Stay Night UBW art in Animedia"
 date: "2018-05-28T19:08:14+10:00"
 abstract: "This is the most unreasonably-adorable picture of my two favourite characters"
-thumb: "https://rubenerd.com/files/2018/"
+thumb: "https://rubenerd.com/files/2018/fsn-ubw-animedia@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - fate
@@ -12,6 +11,7 @@ tag:
 - unlimited-blade-works
 - archer
 - toosaka-rin
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fsn-ubw-animedia@1x.jpg" srcset="https://rubenerd.com/files/2018/fsn-ubw-animedia@1x.jpg 1x, https://rubenerd.com/files/2018/fsn-ubw-animedia@2x.jpg 2x" alt="Full page magazine spread showing Archer carrying Rin" style="width:500px; height:317px" /></p>
 

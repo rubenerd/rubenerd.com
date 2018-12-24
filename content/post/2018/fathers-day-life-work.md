@@ -4,11 +4,11 @@ date: "2018-09-03T08:34:09+10:00"
 abstract: "Yesterday was pretty great, which was a welcome change!"
 thumb: "https://rubenerd.com/files/2018/fathersday2018@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - family
 - personal
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fathersday2018@1x.jpg" srcset="https://rubenerd.com/files/2018/fathersday2018@1x.jpg 1x, https://rubenerd.com/files/2018/fathersday2018@2x.jpg 2x" alt="My dad and folks after Father's day lunch" style="width:500px; height:375px;" /></p>
 

@@ -3,11 +3,11 @@ title: "Listerine mouth wash taste guide"
 date: "2018-01-02T14:11:20+11:00"
 abstract: "One should not purchase mouth wash based purely on taste. That said, here’s how they rank."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - health
 - pointless
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/listerine@1x.jpg" srcset="https://rubenerd.com/files/2017/listerine@1x.jpg 1x, https://rubenerd.com/files/2017/listerine@2x.jpg 2x" alt="A bottle of Listerine" style="width:128px; height:304px; margin:0 0 1em 2em; float:right" /></p>
 

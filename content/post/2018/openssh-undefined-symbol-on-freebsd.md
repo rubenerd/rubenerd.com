@@ -3,7 +3,6 @@ title: "OpenSSH undefined symbol on FreeBSD"
 date: "2018-12-17T10:33:40+11:00"
 abstract: "Chances are, you’ve got an incomplete freebsd-upgrade"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
@@ -12,6 +11,7 @@ tag:
 - security
 - ssh
 - troubleshooting
+- written-in-sydney
 ---
 I had one of the more surreal experiences I've had since entering IT a decade ago. I was trying to SSH into a FreeBSD box, like a gentleman:
 

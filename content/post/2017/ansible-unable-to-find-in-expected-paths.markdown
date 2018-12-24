@@ -1,15 +1,13 @@
 ---
 title: "Ansible: Unable to find in expected paths"
 date: "2017-09-10T22:02:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Turns out, you need to use the remote_src attribute"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - ansible
 - orchestration
+- written-in-sydney
 ---
 I was copying a file on a remote server to another location, to modify with required settings. I often prefer this to using templates, so I'm always working with the latest config. 
 

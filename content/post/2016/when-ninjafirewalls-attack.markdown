@@ -3,12 +3,12 @@ title: "When NinjaFirewall attacks"
 date: "2016-03-18T12:05:00+10:00"
 abstract: "Yeah nah, I'll just move on"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - firewalls
 - security
 - when-x-attacks
+- written-in-sydney
 ---
 While attempting to find information on, of all things, nginx http2:
 

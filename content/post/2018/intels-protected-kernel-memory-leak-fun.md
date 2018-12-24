@@ -3,11 +3,11 @@ title: "Intel’s protected kernel memory leak fun"
 date: "2018-01-03T13:28:23+11:00"
 abstract: "Can’t be patched in microcode, and fix has a performance impact. Uh oh."
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - intel
 - cpus
+- written-in-sydney
 ---
 John Leyden and Chris Williams have done [excellent work] reporting this news for The Register. Read it in full for all the details; I could barely believe it.
 

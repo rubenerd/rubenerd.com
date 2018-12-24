@@ -3,13 +3,13 @@ title: "Fate/Grand Order yukata figs"
 date: "2018-01-07T10:21:15+11:00"
 abstract: "Damn it, Type-Moon!"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - fate
 - fate-grand-order
 - mobile-games
 - figures
+- written-in-sydney
 ---
 One unintended side effect of [ridding myself of things] is I'm now wary of procuring more. Everything I buy now has to be deliberate, considered, and necessary; lest it become something else taking up precious mental and physical space that needs to be carted around, sold, or disposed of at some point.
 

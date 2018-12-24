@@ -1,16 +1,14 @@
 ---
 title: "The unrecyclable, unsellable stuff"
 date: "2017-12-11T08:48:10+11:00"
-year: "2017"
-location: Sydney
 abstract: "Channeling environmental guilt into not buying pointless shit again."
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - decluttering
 - minimalism
 - personal
+- written-in-sydney
 ---
 I set a goal for myself in 2016 to get rid of most of my stuff. Growing up my parents had tons of stuff, as [this post from a decade ago] shows! While I could appreciate their reasons, I didn't ever want my future plans or anxiety to be encumbered by stuff.
 

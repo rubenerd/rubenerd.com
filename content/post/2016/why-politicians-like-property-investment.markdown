@@ -2,13 +2,13 @@
 title: "Why politicians like property investment"
 date: "2016-12-10T11:08:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - housing-affordability-crisis
 - news
 - politics
+- written-in-sydney
 ---
 Speaking of the [housing affordability crisis] in Australia, [Senator Scott Ludlam] said this in February:
 

@@ -1,16 +1,14 @@
 ---
 title: "FreeBSD swapinfo"
 date: "2017-12-07T18:12:17+11:00"
-year: "2017"
-location: Sydney
 abstract: "Seeing how much virtual memory you’re using."
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - ram
+- written-in-sydney
 ---
 Today I learned:
 

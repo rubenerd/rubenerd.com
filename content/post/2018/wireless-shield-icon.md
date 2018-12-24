@@ -4,11 +4,11 @@ date: "2018-05-11T10:05:16+10:00"
 abstract: "The Twitterati asked why I used it in a previous post"
 thumb: "https://rubenerd.com/files/stock/gnome-network-wireless-encrypted.svg"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - hyphens
 - wifi
+- written-in-sydney
 ---
 I had a Twitter DM yesterday about my previous [CRN Australia poll post]. This is opposed to *first past the post*, which is a polling method; and not Poczta Polska, which is the [national post carrier for Poles]\:
 

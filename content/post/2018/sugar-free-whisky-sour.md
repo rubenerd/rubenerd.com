@@ -3,11 +3,11 @@ title: "Sugar-free whisky sour"
 date: "2018-12-13T22:58:49+11:00"
 abstract: "It's possible, but I wonder would it be any good without sugar at all?"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - beverages
 - food
+- written-in-sydney
 ---
 I've given up most sugar. Which lead me to think whether some of my favourite cocktails could be made without it. [Laura Dolson of Very Well Fit] gave some history to the drink I didn't realise:
 

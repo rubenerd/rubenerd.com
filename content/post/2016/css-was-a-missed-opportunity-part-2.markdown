@@ -3,11 +3,11 @@ title: "CSS was a missed opportunity, part 2"
 date: "2016-01-06T16:32:00+10:00"
 abstract: "Remember td align decimal?"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - css
 - html
+- written-in-sydney
 ---
 There are still a few things I long for classic HTML for. Take this gem from HTML3:
 

@@ -2,12 +2,12 @@
 title: "No offline OneNote"
 date: "2016-09-09T16:53:00+10:00"
 year: "2016"
-location: Sydney
 category: Software
 tag:
 - microsoft
 - microsoft-office
 - onenote
+- written-in-sydney
 ---
 Work has started mandating use of Microsoft Office for Mac. I’ve been happily using Open/Neo/LibreOffice for almost my entire professional and personal life, so I'm having to do a lot of learning and relearning. For example, Microsoft has this tool called OneNote, which for someone who uses nvALT and similar tools looks fascinating.
 

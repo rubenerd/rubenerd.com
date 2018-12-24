@@ -1,15 +1,13 @@
 ---
 title: "iTunes 12.7"
 date: "2017-09-22T10:52:54+10:00"
-year: "2017"
-location: Sydney
 abstract: "The File Sharing feature slightly mitigates this terrible release"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - apple
 - itunes
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/icon-ipa@1x.png" srcset="https://rubenerd.com/files/2017/icon-ipa@1x.png 1x, https://rubenerd.com/files/2017/icon-ipa@2x.png 2x" alt="Apple icon for IPA mobile applications" style="width:128px; height:128px; float:right; margin:0 0 1em 1em;" /></p>
 

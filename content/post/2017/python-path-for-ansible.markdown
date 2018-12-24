@@ -1,9 +1,15 @@
 ---
 title: "Python interpreter for Ansible"
 date: "2017-03-21T10:28:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "The other elephant in the room when used with FreeBSD"
+year: "2017"
+category: Software
+tag:
+- ansible
+- bsd
+- freebsd
+- python
+- written-in-sydney
 ---
 Last week I talked about [using Ansible for FreeBSD automation], but forgot to address the other elephant in the room: Ansible can't find Python on FreeBSD hosts.
 

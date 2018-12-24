@@ -3,13 +3,14 @@ title: "Something to do with KVMs"
 date: "2015-10-27T10:00:00+10:00"
 abstract: "A quick table of KVMs and their capabilities"
 year: "2015"
-location: Sydney
 category: Hardware
 tag:
 - kvms
+- written-in-sydney
 ---
 | KVM                         | Input        | Video | Switching        | Notes           |
-|-----------------------------|--------------|-------|------------------|-----------------|
+- written-in-sydney
+---
 | ATEN<br />MasterView CS84A  | 2x PS/2      | VGA   | Hotkey, buttons  |                 |
 | BELKIN<br />SOHO F1DS104LAU | USB hub      | VGA   | Hotkey, button   | Expensive       |
 | ServerLink<br />SL-471-D    | USB hub      | DVI-D | Button           | No VGA passthru |

@@ -4,13 +4,13 @@ date: "2018-08-13T17:21:40+10:00"
 abstract: "Stew. Stew. Sounds good. Very...good."
 thumb: "https://rubenerd.com/files/2018/altria-food4@1x.jpg"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - games
 - mobile-games
 - saber
 - type-moon
+- written-in-sydney
 ---
 Speaking of the Fate/Grand Order [summer event]! Saber has good taste.
 

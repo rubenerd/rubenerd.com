@@ -3,11 +3,11 @@ title: "WordPress 2015 Survey"
 date: "2015-11-16T13:32:00+10:00"
 abstract: "What's the most frustrating/useful thing about it?"
 year: "2015"
-location: Sydney
 category: Internet
 tag:
 - weblog
 - wordpress
+- written-in-sydney
 ---
 WordPress are running their [yearly survey](http://wp-survey.polldaddy.com/s/wp-2015) again, as I'm sure you already surmised from the title of this post. Most were multiple choice, but two were free-form text. I leave these here for whatever they're worth.
 

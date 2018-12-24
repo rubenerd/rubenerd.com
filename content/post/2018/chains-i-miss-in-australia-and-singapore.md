@@ -3,7 +3,6 @@ title: "Chains I miss in Australia and Singapore"
 date: "2018-12-19T13:53:06+11:00"
 abstract: "Probably Borders the most."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
@@ -11,6 +10,7 @@ tag:
 - music
 - shopping
 - singapore
+- written-in-sydney
 ---
 There were a few Twitter threads about Australian store chains people miss. My family moved to Singapore when I was in late primary school, so this is a mix of both places:
 

@@ -3,12 +3,12 @@ title: "Cancelling your Australian My Health Record"
 date: "2018-07-25T08:34:05+10:00"
 abstract: "People have talked about opting out, but few have cancelled."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
 - health
 - politics
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/logo-hr.svg" alt="My Health Record icon" style="width:128px; float:right; margin:0 0 1em 2em" /></p>
 

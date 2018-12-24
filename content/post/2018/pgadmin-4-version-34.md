@@ -4,12 +4,12 @@ date: "2018-10-05T18:56:52+10:00"
 abstract: "The best PostgreSQL client"
 thumb: "https://rubenerd.com/files/2018/pgadmin4-dashboard.png"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - databases
 - postgresql
 - reviews
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/pgadmin4-dashboard.png" alt="Screenshot from their website showing the latest release" style="width:488px; height:275px;" />
 

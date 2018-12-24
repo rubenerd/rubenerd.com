@@ -1,11 +1,8 @@
 ---
 title: "Citibank Australia and Safari"
 date: "2017-07-14T08:46:55+10:00"
-year: "2017"
-location: Sydney
 abstract: "Internet banking says to use the latest Safari, but it doesn’t support it."
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - banks
@@ -15,6 +12,7 @@ tag:
 - mac-os-x
 - os-x
 - safari
+- written-in-sydney
 ---
 I got this alert when signing in:
 

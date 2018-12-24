@@ -3,13 +3,13 @@ title: "Linux to FreeBSD: lspci to pciconf"
 date: "2018-11-07T08:24:23+11:00"
 abstract: "The first in a series helping people make the switch"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - bsd
 - freebsd
 - linux
 - linux-to-freebsd
+- written-in-sydney
 ---
 I'm seeing a lot of renewed interest in FreeBSD from GNU/Linux people. This is encouraging! You should be familiar with much of the userland, but there are a few differences, which I hope this new [post series] will help with.
 

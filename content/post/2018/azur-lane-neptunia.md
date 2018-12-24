@@ -3,7 +3,6 @@ title: "Azur Lane Neptunia"
 date: "2018-01-30T20:21:13+11:00"
 abstract: "This may be the best mobile game post I’ll ever type."
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - kancolle
@@ -13,6 +12,7 @@ tag:
 - 2018-anime
 - mobile-games
 - games
+- written-in-sydney
 ---
 I left Twitter for a few weeks, and it seems half my feed is basically *Azur Lane* and lamentations on the current decaying state of global politics.
 

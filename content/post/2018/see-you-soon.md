@@ -3,11 +3,11 @@ title: "See you soon"
 date: "2018-09-05T08:41:48+10:00"
 abstract: "Taking a blogging and Twitter sabbatical"
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/outside-soma@1x.jpg" srcset="https://rubenerd.com/files/2018/outside-soma@1x.jpg 1x, https://rubenerd.com/files/2018/outside-soma@2x.jpg 2x" alt="Sitting in Soma" style="width:500px" /></p>
 

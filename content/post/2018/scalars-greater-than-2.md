@@ -3,12 +3,12 @@ title: "Scalars greater than 2"
 date: "2018-08-20T22:00:02+10:00"
 abstract: "Something to add to your vast store of useless information."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - numerology
 - pointless
 - vast-store-of-useless-information
+- written-in-sydney
 ---
 Happy Monday! My grandfather delighted in regaling *facts to add to your vast store of useless information*. I endeavour to [continue] this fine tradition.
 

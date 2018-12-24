@@ -1,11 +1,8 @@
 ---
 title: "You've woken up to a 1980s breakfast"
 date: "2017-04-16T23:42:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "The graphics, type, and logos on the cups are amazing."
 year: "2017"
-location: Sydney
 category: Media
 tag:
 - 1980s
@@ -16,6 +13,7 @@ tag:
 - nostalgia
 - typeography
 - retro
+- written-in-sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/80sbreakfast@1x.jpg" alt="" style="width:500px; height:387px" srcset="https://rubenerd.com/files/2017/80sbreakfast@1x.jpg 1x, https://rubenerd.com/files/2017/80sbreakfast@2x.jpg 2x" /></p></figure>
 

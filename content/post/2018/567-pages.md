@@ -3,12 +3,12 @@ title: "567 pages"
 date: "2018-08-10T09:08:53+10:00"
 abstract: "We’ve reached another pointless milestone."
 year: "2018"
-location: Sydney
 category: Internet
 tag:
 - numbers
 - pointless-milestones
 - tennant
+- written-in-sydney
 ---
 Speaking of [questionable numerology], I haven't done I haven't done a [pointless milestone] here for a long time. *(I haven't done... I haven't done?)*
 

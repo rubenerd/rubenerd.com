@@ -4,14 +4,13 @@ date: "2018-02-13T09:04:38+11:00"
 abstract: "Some websites may not show me ads from tracking!!1!eleventy!"
 thumb: "https://rubenerd.com/files/2018/icon-chrome@2x.png"
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - chrome
 - google
 - browsers
 - privacy
-- postaday2018
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/icon-chrome@1x.png" srcset="https://rubenerd.com/files/2018/icon-chrome@1x.png 1x, https://rubenerd.com/files/2018/icon-chrome@2x.png 2x" alt="Chrome HAL icon" style="width:128px; float:right; margin:0 0 2em 2em;" /></p>
 

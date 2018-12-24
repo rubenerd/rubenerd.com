@@ -1,11 +1,8 @@
 ---
 title: "Apple’s September 2017 kit"
 date: "2017-09-15T10:03:05+10:00"
-year: "2017"
-location: Sydney
 abstract: "As usual, some decent looking kit, with reservations."
 year: "2017"
-location: Sydney
 category: Hardware
 tag:
 - apple
@@ -15,6 +12,7 @@ tag:
 - itelephone
 - oled
 - lcds
+- written-in-sydney
 ---
 I'm sure everyone's waiting with baited breath about my ***hotcakes*** on the Apple announcement this weeks. That should have been ***hot take***, but hotcakes is a delightful autocorrect.
 

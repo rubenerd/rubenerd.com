@@ -3,7 +3,6 @@ title: "Australian ISPs to block torrent sites"
 abstract: "Trotting out all the usual memes, and without thinking of the implications."
 date: "2016-12-22T17:24:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - australia
@@ -11,6 +10,7 @@ tag:
 - copyright
 - p2p
 - politics
+- written-in-sydney
 ---
 Speaking of news that's [hardly surprising], Australian ISPs now have 15 days to implement site blocks for a range of torrent sites. So bemused was I on the train, I had to smash out this post.
 

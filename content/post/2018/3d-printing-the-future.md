@@ -1,15 +1,14 @@
 ---
 title: "3D printing the future"
 date: "2018-12-16T22:56:43+11:00"
-abstract: ""
-thumb: ""
+abstract: "I’m thinking reuse is more exciting than 3D-printed steak."
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - 3d-printers
 - economics
 - printers
+- written-in-sydney
 ---
 Replicators are a key part of the *Star Trek* universe. When you have a device that can create almost anything you could want or need, the compulsion to amass material wealth, or flaunt riches, totally vanishes. What's the point of trying to keep up with the Jonses in a world like that?
 

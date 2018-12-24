@@ -1,15 +1,13 @@
 ---
 title: "Verifying my Micro.blog"
 date: "2017-11-29T10:48:26+11:00"
-year: "2017"
-location: Sydney
 abstract: "Otherwise please disregard"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - personal
 - weblog
+- written-in-sydney
 ---
 From the Micro.blog [verification page]\:
 

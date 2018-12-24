@@ -3,13 +3,13 @@ title: "Loud coffee shops"
 date: "2018-11-30T15:55:29+11:00"
 abstract: "I knew they were noisy, but 73 decibels?"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - cafes
 - coffee
 - singapore
 - sydney
+- written-in-sydney
 ---
 An anonymous Slashdot contributer shared this fascinating [Atlantic story by Kate Wagner]\:
 

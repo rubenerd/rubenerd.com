@@ -3,13 +3,13 @@ title: "Amagi Brilliant Park #04"
 date: "2018-01-26T11:17:02+11:00"
 abstract: "Catching up once again on my Kyoani backlog!"
 year: "2018"
-location: Sydney
 category: Anime
 tag:
 - 2014-anime
 - amagi-brilliant-park
 - kyoani
 - kyoto-animation
+- written-in-sydney
 ---
 <p style="font-style:italic;">In our continuing series reviewing <a href="https://rubenerd.com/tag/kyoani/">Kyoto Animation</a> shows that I missed when they first aired, we take another spoiler-riddled look at the next episode of <a href="https://rubenerd.com/tag/amagi-brilliant-park/">Amagi Brilliant Park</a>.</p>
 

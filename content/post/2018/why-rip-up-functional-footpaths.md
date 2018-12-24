@@ -4,12 +4,12 @@ date: "2018-11-25T18:45:47+11:00"
 abstract: "North Sydney has me head scratching."
 thumb: "https://rubenerd.com/files/2018/photo-northsydneytiles@1x.jpg"
 year: "2018"
-location: Sydney
 category: Hardware
 tag:
 - australia
 - sydney
 - transit
+- written-in-sydney
 ---
 North Sydney workers and residents have been dealing with road works for a while. The stretch of Pacific Highway near the post office and Vodafone buildings had deep excavation pits for what seemed like months. I saw equal parts plumbers and fibre engineers; I guess they were killing two birds with one phone.
 

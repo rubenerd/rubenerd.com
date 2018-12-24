@@ -4,7 +4,6 @@ date: "2018-04-26T09:01:14+10:00"
 abstract: "I can see the utility of international orange"
 thumb: "https://rubenerd.com/files/2018/sydneyfog@1x.jpg"
 year: "2018"
-location: Sydney
 category: Thoughts
 tag:
 - australia
@@ -12,6 +11,7 @@ tag:
 - colour
 - nonsense
 - sydney
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sydneyfog@1x.jpg" srcset="https://rubenerd.com/files/2018/sydneyfog@1x.jpg 1x, https://rubenerd.com/files/2018/sydneyfog@2x.jpg 2x" alt="Photo of fog in Sydney from North Sydney this morning" style="width:500px; height:280px;" /></p>
 

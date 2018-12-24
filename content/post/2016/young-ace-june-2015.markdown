@@ -3,13 +3,13 @@ title: "Young Ace, June 2015"
 date: "2016-01-02T23:35:00+10:00"
 abstract: "My first manga magazine review!"
 year: "2016"
-location: Sydney
 category: Anime
 tag:
 - type-moon
 - fate-stay-night
 - nagato-yuki
 - reviews
+- written-in-sydney
 ---
 <p style="font-style:italic;">I’m publishing some accumulated drafts as a part of a new year cleanout. This was originally written back in 2015-05-09.</p>
 

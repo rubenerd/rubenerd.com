@@ -3,7 +3,6 @@ title: "My personal RSA whoops"
 date: "2018-10-17T22:17:28+11:00"
 abstract: "When you sss-rsa yourself."
 year: "2018"
-location: Sydney
 category: Software
 tag:
 - errors
@@ -11,6 +10,7 @@ tag:
 - security
 - ssh
 - whoops
+- written-in-sydney
 ---
 There's been much talk about [OpenSSH user enumeration vulnerabilities]. This is a more pedestrian post, or stationary one if you were sitting down.
 

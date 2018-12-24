@@ -2,13 +2,13 @@
 title: "The iPhone 7"
 date: "2016-09-08T10:15:00+10:00"
 year: "2016"
-location: Sydney
 category: Hardware
 tag:
 - apple
 - audio
 - design
 - iphone
+- written-in-sydney
 ---
 The technical specifications and design of the new iPhone look amazing, but the conversation has been fixated on the lack of a [headphone jack]. This shouldn't surprise anyone.
 

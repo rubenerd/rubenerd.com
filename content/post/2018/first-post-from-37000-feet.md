@@ -4,7 +4,6 @@ date: "2018-06-14T22:53:05-07:00"
 abstract: "In-flight Wi-Fi is awesome, though laggy, sauce"
 thumb: "https://rubenerd.com/files/2018/unitedwifi@1x.jpg"
 year: "2018"
-location: San-Francisco
 category: Thoughts
 tag:
 - aviation
@@ -12,6 +11,7 @@ tag:
 - travel
 - united-airlines
 - united-states
+- written-in-san-francisco
 ---
 I'm flying from Sydney to San Francisco, to work from the company's US office for a while. United has in-flight Wi-Fi and powerpoints, so I can post from the sky for the first time. What a time to be alive.
 

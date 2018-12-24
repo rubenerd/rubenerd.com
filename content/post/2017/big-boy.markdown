@@ -1,14 +1,12 @@
 ---
 title: "Big Boy"
 date: "2017-04-21T17:23:00+10:00"
-year: "2017"
-location: Sydney
 abstract: "Flattery will get you nowhere"
 year: "2017"
-location: Sydney
 category: Internet
 tag:
 - spam
+- written-in-sydney
 ---
 I haven't done a Friday fanmail in a few weeks. Here's a recent message:
 

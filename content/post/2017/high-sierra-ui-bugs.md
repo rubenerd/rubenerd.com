@@ -1,11 +1,8 @@
 ---
 title: "MacOS High Sierra UI bugs"
 date: "2017-11-12T11:20:25+11:00"
-year: "2017"
-location: Sydney
 abstract: "There are enough of these things to make me want to downgrade!"
 year: "2017"
-location: Sydney
 category: Software
 tag:
 - apple
@@ -14,6 +11,7 @@ tag:
 - os-x
 - design
 - bugs
+- written-in-sydney
 ---
 I've been running High Sierra for a few days now, and there are several niggling UI bugs that make me want to do something with the business end of an umbrella and a staircase.
 

@@ -4,11 +4,11 @@ date: "2018-07-17T08:18:03-07:00"
 abstract: "One of the weirder, more interesting buildings I’ve ever seen!"
 thumb: "https://rubenerd.com/files/2018/112_United_Overseas_Bank_Bangkok_1000_0001@1x.jpg"
 year: "2018"
-location: Los-Angeles
 category: Media
 tag:
 - architecture
 - california2018
+- written-in-los-angeles
 ---
 *This post was originally written last week, presumably like a boss.*
 

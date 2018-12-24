@@ -2,11 +2,11 @@
 title: "Collecting a decade of work"
 date: "2016-09-12T16:36:00+10:00"
 year: "2016"
-location: Sydney
 category: Thoughts
 tag:
 - studies
 - uts
+- written-in-sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/kon-graduate.jpg" srcset="https://rubenerd.com/files/2016/kon-graduate.jpg 1x, https://rubenerd.com/files/2016/kon-graduate@2x.jpg 2x" alt="" style="width:500px; height:314px;" /></p>
 

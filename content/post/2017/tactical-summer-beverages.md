@@ -1,16 +1,14 @@
 ---
 title: "Tactical summer beverages"
 date: "2017-12-29T12:35:55+11:00"
-year: "2017"
-location: Sydney
 abstract: "Hanging out in Starbucks, beating the heat"
 year: "2017"
-location: Sydney
 category: Thoughts
 tag:
 - beverages
 - coffee
 - uuids
+- written-in-sydney
 ---
 Clara and I have spent much of our week off at Starbucks, for reasons:
 

@@ -2,14 +2,15 @@
 title: "SORTEDFood visualising time"
 date: "2018-12-20T13:44:29+11:00"
 abstract: "Is that half an hour?"
-thumb: ""
+thumb: "https://rubenerd.com/files/2018/sorted-time-04@1x.jpg"
 year: "2018"
-location: Sydney
 category: Media
 tag:
+- cooking
 - food
 - sortedfood
 - united-kingdom
+- written-in-sydney
 ---
 > Is that *half* an hour?
 
