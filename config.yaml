@@ -63,6 +63,9 @@ params:
       info:  "Extra goodies"
 
   categories:
+    - title: "Annexe"
+      url:   "/annexe/"
+      info:  "Posts imported from other blogs and social networks"
     - title: "Anime"
       url:   "/anime/"
       info:  "Posts about anime, manga, weebness, and figs"
@@ -75,9 +78,6 @@ params:
     - title: "Media"
       url:   "/media/"
       info:  "Posts about photography, music, journalism, and related stuff"
-    - title: "Museum"
-      url:   "/museum/"
-      info:  "Posts imported from retired or deleted services"
     - title: "Podcast"
       url:   "/show/"
       info:  "Rubénerd Show: My harmless podcast of observations"
