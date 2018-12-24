@@ -1,11 +1,11 @@
 ---
 title: "#Brightkite: Near Ingle Farm"
 date: "2009-08-31T05:54:48-06:00"
-location: Adelaide
 year: "2009"
 category: Museum
 tag:
 - from-brightkite
+- written-in-adelaide
 ---
 <p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
 

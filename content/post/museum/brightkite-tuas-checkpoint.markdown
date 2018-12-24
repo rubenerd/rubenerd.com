@@ -1,11 +1,11 @@
 ---
 title: "#Brightkite: Tuas Checkpoint"
 date: "2009-07-14T19:39:47-06:00"
-location: Singapore
 year: "2009"
 category: Museum
 tag:
 - from-brightkite
+- written-in-singapore
 ---
 <p style="font-style:italic">This checkin originally appeared on <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks. It’s <a title="View all posts in the museum" href="https://rubenerd.com/museum/">preserved here</a> here for posterity.</p>
 
