@@ -1,5 +1,5 @@
 ---
-title: "Fake No Agenda: US economy recovering from John's 2013 crash?"
+title: "Fake No Agenda: Recovering from John's 2013 crash?"
 date: "2013-11-25T02:18:00+10:00"
 year: "2013"
 category: Museum
