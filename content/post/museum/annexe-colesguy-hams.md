@@ -8,7 +8,7 @@ tag:
 - from-the-rubenerd-annexe
 - memes
 ---
-<p style="font-style:italic">This originally appeared on the Annexe</p>.
+<p style="font-style:italic">This originally appeared on the Annexe.</p>
 
 <p><img src="https://rubenerd.com/files/2010/colesguy-hams.jpg" alt="ColesGuy: In ur supermarkets, throwing hams" style="width:500px; height:385px" /></p>
 
