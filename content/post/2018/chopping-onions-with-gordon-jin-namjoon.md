@@ -5,6 +5,7 @@ abstract: "So many techniques!"
 year: "2018"
 category: Media
 tag:
+- bts
 - food
 - korea
 - variety-shows
@@ -14,9 +15,7 @@ tag:
 ---
 <p></p>
 
-<iframe style="width:500px;height:275px;border:0;" src="https://www.youtube-nocookie.com/embed/dCGS067s0zo?rel=0&amp;controls=0" allow="encrypted-media"></iframe>
-
-<iframe style="width:500px;height:275px;border:0;" src="https://www.youtube-nocookie.com/embed/c26-jkyQz8g?rel=0&amp;controls=0" allow="encrypted-media"></iframe>
+<p><a href="https://www.youtube.com/?v=dCGS067s0zo" title="Play How To Finely Chop An Onion - Gordon Ramsay"><img src="https://rubenerd.com/files/2018/yt-dCGS067s0zo@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-dCGS067s0zo@1x.jpg 1x, https://rubenerd.com/files/2018/yt-dCGS067s0zo@2x.jpg 2x" alt="Play How To Finely Chop An Onion - Gordon Ramsay" style="width:500px;height:281px;" /></a><br /><a href="https://www.youtube.com/?v=c26-jkyQz8g" title="Play 151216 Weekly idol BTS - Rap monster cutting onions."><img src="https://rubenerd.com/files/2018/yt-c26-jkyQz8g@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-c26-jkyQz8g@1x.jpg 1x, https://rubenerd.com/files/2018/yt-c26-jkyQz8g@2x.jpg 2x" alt="Play 151216 Weekly idol BTS - Rap monster cutting onions." style="width:500px;height:281px;" /></a></p>
 
 So many techniques! ^^;
 
