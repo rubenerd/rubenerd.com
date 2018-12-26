@@ -25,7 +25,7 @@ YEAR=`date '+%Y'`
 ## Generate image URLs
 ## TODO: Make clipboard copy work on FreeBSD, not just macOS
 FILE="https://rubenerd.com/files/$YEAR/yt-$ID"
-HTML="<p><a href="$1" title=\"Play $TITLE\"><img src=\"$FILE@1x.jpg\" srcset=\"$FILE@1x.jpg 1x, $FILE@2x.jpg 2x\" alt=\"Play $TITLE\" style=\"width:500px;height:281px;\" /></a>"
+HTML="<p><a href=\"$1\" title=\"Play $TITLE\"><img src=\"$FILE@1x.jpg\" srcset=\"$FILE@1x.jpg 1x, $FILE@2x.jpg 2x\" alt=\"Play $TITLE\" style=\"width:500px;height:281px;\" /></a></p>"
 echo $HTML | pbcopy
 
 ## Create thumbnails
