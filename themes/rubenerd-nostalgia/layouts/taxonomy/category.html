@@ -5,7 +5,7 @@
 <main id="content">
 
 <div class="post" id="archive">
-{{ if eq .Title "Show" }}{{ partial "show.html" }}{{ else }}
+{{ if eq .Title "Show" }}{{ partial "show.html" }}{{ else if eq .Title "Annexe" }}{{ partial "annexe.html" }}{{ else }}
 <h2>{{ .Title }} archive</h2>
 {{ end }}
     <p></p>
