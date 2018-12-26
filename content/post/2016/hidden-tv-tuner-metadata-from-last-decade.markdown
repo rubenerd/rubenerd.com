@@ -3,7 +3,6 @@ title: "Hidden TV Tuner metadata from last decade"
 date: "2016-04-12T23:19:59+11:00"
 abstract: "Ten Adelaide, NINE Digital, lots of other random stuff."
 year: "2018"
-location: Sydney
 category: Media
 tag:
 - elgato

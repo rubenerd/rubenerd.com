@@ -2,7 +2,6 @@
 title: "The NBN is dead, but look at the kitten!"
 date: "2016-06-02T10:35:00+10:00"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - australia

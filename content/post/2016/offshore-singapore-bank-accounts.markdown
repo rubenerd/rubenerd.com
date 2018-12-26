@@ -3,7 +3,6 @@ title: "Offshore Singapore bank accounts"
 date: "2016-12-14T14:37:00+10:00"
 abstract: "Or why money launderes and tax evaders mean we can't have nice things"
 year: "2016"
-location: Sydney
 category: Internet
 tag:
 - finances
