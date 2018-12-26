@@ -36,17 +36,17 @@ There are far too many to list here. But if you see a recurring topic, chances a
 
 I only started putting locations on posts in 2018. I'll get around to retroactively adding them one day. Sorted in order of post count.
 
-* [Sydney](/location/sydney/)
-* [Singapore](/location/singapore/)
-* [San Francisco](/location/san-francisco/)
-* [Hong Kong](/location/hong-kong/)
-* [Los Angeles](/location/los-angeles/)
-* [Oakland](/location/oakland/)
-* [Osaka](/location/osaka/)
-* [Odawara](/location/odawara/)
-* [Tokyo](/location/tokyo/)
-* [New York](/location/new-york/)
-* [New Jersey](/location/new-jersey/)
+* [Sydney](/tag/written-in-sydney/)
+* [Singapore](/tag/written-in-singapore/)
+* [San Francisco](/tag/written-in-san-francisco/)
+* [Hong Kong](/tag/written-in-hong-kong/)
+* [Los Angeles](/tag/written-in-los-angeles/)
+* [Oakland](/tag/written-in-oakland/)
+* [Osaka](/tag/written-in-osaka/)
+* [Odawara](/tag/written-in-odawara/)
+* [Tokyo](/tag/written-in-tokyo/)
+* [New York](/tag/written-in-new-york/)
+* [New Jersey](/tag/written-in-new-jersey/)
 
 <h3 id="year">Posts by year</h3>
 
