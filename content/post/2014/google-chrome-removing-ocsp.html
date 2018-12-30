@@ -1,0 +1,28 @@
+---
+title: 'Google Chrome removing OCSP'
+date: "2014-05-16T16:51:00+11:00"
+year: "2018"
+category: Software
+tag:
+- chrome
+- google
+- security
+- ssl
+- tls
+- web-browsers
+- written-in-sydney
+---
+<p>Whether or not this individual issue will negatively impact users, this baffling exclusion gives me little confidence in their other design decisions.</p>
+
+<p>By taking the same view seatbelts are pointless because they don't prevent all road fatalities, Google Chrome has infamously removed support for OCSP. The protocol allows for HTTPS certificates to be "stapled" with a frequently updated assertion that the certificate is still valid. In light of heartbleed, you can see why this would be important.</p>
+
+<p>All other major browsers default to soft fail, meaning that clients will assume certs are valid if they can't access a cert authority's OSCP server. Google asserts (heh) this is evidence that OCSP is broken, and Chrome would no longer be supporting it.</p>
+
+<p>This is troubling. While soft fail and seatbelts aren't ideal, they're still better than nothing. Chrome users no longer have them.</p>
+
+<p>The good news is they're being called out for it. From the <a href="https://casecurity.org/2014/05/08/casc-heartbleed-response/">Certificate Authority Security Council</a>:</p>
+
+<blockquote><p>Google moved away from supporting OCSP without adequately informing Chrome users of this fact. Although IE and Safari also soft-fail if an OCSP response is not received, those browsers still use OCSP by default. The engineers creating those browsers apparently have not concluded that OCSP is broken. Even if revocation checking by OCSP isn’t 100 percent accurate, it can still protect a high percentage of users who navigate to a site with a revoked certificate and receive an OCSP response indicating revocation. Turning off revocation checking for everyone means that no one is protected.</p></blockquote>
+
+<p>For privacy minded users, Chrome was always questionable. Now I would put it with IE.</p>
+ 
