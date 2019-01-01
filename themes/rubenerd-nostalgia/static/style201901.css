@@ -73,7 +73,7 @@ a:hover {
 
 /* Header */
 header {
-    background:#1b2712 url("yuletide.png");
+    background:#1b2712 url("leaves.png");
     padding:40px;
     text-shadow:1px 1px black;
 }
@@ -403,9 +403,9 @@ footer #lyrics {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution:192dpi) {
 
     header {
-        background:#1b2712 url("yuletide.png");
-        background-size:cover;
-        /*background-size:1024px,260px;*/
+        background:#1b2712 url("leaves@2x.png");
+        /*background-size:cover;*/
+        background-size:1024px,260px;
     }
 
 }
