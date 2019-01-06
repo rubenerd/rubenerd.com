@@ -3,7 +3,7 @@ title: "Gurren Lagann Yoko bunny figure"
 date: "2015-12-31T22:00:00+10:00"
 abstract: "FREEing are releasing all the GAINAX characters!"
 year: "2015"
-category: anime
+category: Anime
 tag:
 - 2008-anime
 - figures
