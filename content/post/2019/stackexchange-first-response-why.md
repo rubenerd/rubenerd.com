@@ -1,5 +1,5 @@
 ---
-title: "Stack-Exchange first response: why?"
+title: "Stack Exchange first response: why?"
 date: "2019-01-04T08:19:21+11:00"
 abstract: "I feel like starting a new blog post series on people who respond to StackExchange questions this way"
 year: "2019"
