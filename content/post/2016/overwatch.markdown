@@ -2,7 +2,7 @@
 title: "Overwatch"
 date: "2016-06-13T10:51:11+11:00"
 year: "2016"
-category: software
+category: Software
 tag:
 - games
 - overwatch

@@ -2,7 +2,7 @@
 title: "macOS"
 date: "2016-06-09T10:43:00+10:00"
 year: "2016"
-category: software
+category: Software
 tag:
 - apple
 - macos
