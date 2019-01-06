@@ -1,12 +1,12 @@
 ---
 title: "The Ghost blog editor"
 date: "2019-01-04T16:15:04+11:00"
-abstract: ""
-thumb: ""
+abstract: "It’s too slow for me to use, unfortunately."
 year: "2019"
-category: Thoughts
+category: Software
 tag:
-- 
+- blogging
+- ghost
 - written-in-sydney
 ---
 I've been trialling Ghost, and been impressed by its clean design. I've got it working nicely in a set of FreeBSD jails, with nginx proxying the requests and fixing up some of the headers, and Varnish for caching.
