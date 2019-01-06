@@ -1,12 +1,15 @@
 ---
 title: "Selectively disabling gohugo RSS feeds"
 date: "2019-01-06T11:07:13+11:00"
-abstract: ""
-thumb: ""
+abstract: "Can’t be done, but you can create empty templates."
 year: "2019"
-category: Thoughts
+category: Software
 tag:
-- 
+- blogging
+- feeds
+- gohugo
+- rss
+- xml
 - written-in-sydney
 ---
 The Hugo static site generator creates [four types of RSS feeds], for:
