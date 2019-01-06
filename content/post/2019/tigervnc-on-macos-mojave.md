@@ -2,9 +2,8 @@
 title: "TigerVNC on macOS Mojave"
 date: "2019-01-05T11:00:36+11:00"
 abstract: "Delete your ~/.vnc folder if it doesn’t load."
-thumb: ""
 year: "2019"
-category: Thoughts
+category: Software
 tag:
 - apple
 - macos
