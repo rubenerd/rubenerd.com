@@ -9,9 +9,9 @@ tag:
 - video
 - written-in-sydney
 ---
-<p></p>
+I love [seeing homelabs like this], but this especially is the most gorgeous home cable management I've seen.
 
-<iframe style="width:500px; height:281px; border:0;" src="https://www.youtube.com/embed/1MzRNGlDcLs"></iframe>
+**Update 2019:** The video no longer exists.
 
-I love seeing homelabs like this, but this especially is the most gorgeous home cable management I've seen.
+[seeing homelabs like this]: https://www.youtube.com/watch?v=1MzRNGlDcLs
 
