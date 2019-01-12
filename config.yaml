@@ -1,117 +1,84 @@
 ---
-baseURL:           "https://rubenerd.com"
-canonifyURLs:      true
+baseURL: https://rubenerd.com/
+disableKinds: [section]
 disableLiveReload: true
-editor:            "vim"
-languageCode:      "en-SG"
-metaDataFormat:    "yaml"
-paginate:          10
-theme:             "rubenerd-nostalgia"
-title:             "Rubenerd"
+editor: vim
+languageCode: en-SG
+theme: rubenerd-rubi
+title: Rubenerd
 
 params:
 
   author:
-    coffee:   "http://ko-fi.com/A625HL" 
-    email:    "weblog2018@rubenschade.com"
-    failbook: "ruben.schade"
-    name:     "Ruben Schade"
-    profile:  "/about/"
-    twitter:  "Rubenerd"
-    wishlist: "https://www.wishlistr.com/rubenerd"
+    first: Ruben
+    last: Schade
+    city: Sydney
+    country: Australia
+    twitter: rubenerd
+    why: These map to schema.org data.
 
-  cite:
-    dedication:     "my mum"
-    dedication_url: "/dedication/"
-    host:           "Joviam"
-    host_url:       "https://joviam.com/"
-    os:             "FreeBSD"
-    os_url:         "https://www.freebsd.org/"
-    software:       "Hugo"
-    software_url:   "https://gohugo.io/"
-    server:         "nginx"
-    server_url:     "https://nginx.org/"
-    
-  info:
-    copyright: "Original material © 2004–18"
-    feed:      "/feed/"
-    logo:      "logo.png"
-    logo_rss:  "logo.rss.png"
-    lyrics:    "Time for a meeting, in digital space;<br />Because for thousands of years, we couldn't agree on a place."
-    tagline:   "By Ruben Schade in s/Singapore/Sydney/"
-    twitter:   "Rubenerd_Blog"
-
-  licence:
-    title: "Creative Commons Attribution Share-Alike 3.0"
-    url:   "https://creativecommons.org/licenses/by-sa/3.0/"
-
-  navigation:
-    - title: "Home"
-      url:   "/"
-      info:  "Latest posts!"
-    - title: "About"
-      url:   "/about/"
-      info:  "Author and site information"
-    - title: "Archives"
-      url:   "/archives/"
-      info:  "Lists of all posts, ordered by category"
-    - title: "Buy coffee"
-      url:   "http://ko-fi.com/A625HL"
-      info:  "Show your support with a up of caffeinated beverage!"
-    - title: "Omake…"
-      url:   "/omake-pages/"
-      info:  "Extra goodies"
-
-  categories:
-    - title: "Annexe"
-      url:   "/annexe/"
-      info:  "Posts imported from other blogs and social networks"
-    - title: "Anime"
-      url:   "/anime/"
-      info:  "Posts about anime, manga, weebness, and figs"
-    - title: "Hardware"
-      url:   "/hardware/"
-      info:  "Posts on computers, servers, phones, jaffle irons"
-    - title: "Internet"
-      url:   "/internet/"
-      info:  "Posts on websites, online privacy and security, standards"
-    - title: "Media"
-      url:   "/media/"
-      info:  "Posts about photography, music, journalism, and related stuff"
-    - title: "Podcast"
-      url:   "/show/"
-      info:  "Rubénerd Show: My harmless podcast of observations"
-    - title: "Software"
-      url:   "/software/"
-      info:  "Mostly posts on macOS, FreeBSD, (GNU/)Linux"
-    - title: "Thoughts"
-      url:   "/thoughts/"
-      info:  "Posts on multifarious observations"
+  description: By Ruben Schade in s/ Singapore/ Sydney/ since 2004-ish.
+  licence_title: Creative Commons Attribution Share-Alike 3.0
+  licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+  logo: logo.png
+  logo_rss: rss.png
+  twitter: rubenerd_blog
 
   podcast:
-    category:        "show"
-    cover:           "http://showfeed.rubenerd.com/itunes-cover.png"
-    explicit:        "no"
-    feed:            "http://showfeed.rubenerd.com/"
-    itunes:          "https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071"
-    itunes_category: "Society & Culture"
-    itunes_sub:      "Personal Journals"
-    keywords:        "australia,sydney,singapore,thoughts,tech,anime,jazz,ruben schade,onsug,overnightscape underground"
-    overcast:        "https://overcast.fm/itunes1003680071/rub-nerd-show"
-    pocket_casts:    "http://pca.st/ybXl"
-    publisher:       "me@rubenschade.com"
-    summary:         "Ruben's longrunning harmless podcast of observations from Singapore, Malaysia, and Australia."
-    tagline:         "A harmless show of observations, since 2005."
-    title:           "Rubenerd Show"
+    category: show
+    cover: http://showfeed.rubenerd.com/itunes-cover.png
+    explicit: no
+    feed: http://showfeed.rubenerd.com/
+    itunes: https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071
+    itunes_category: Society & Culture
+    itunes_sub: Personal Journals
+    keywords: australia,sydney,singapore,thoughts,tech,anime,jazz,ruben schade,onsug,overnightscape underground
+    overcast: https://overcast.fm/itunes1003680071/rubenerd-show
+    pocket_casts: http://pca.st/ybXl
+    publisher: me@rubenschade.com
+    summary: Ruben's longrunning harmless podcast of observations from Singapore, Malaysia, and Australia.
+    tagline: A harmless show of observations, since 2005
+    title: Rubenerd Show
+
+menu:
+  header:
+  - identifier: home
+    name: Latest posts
+    title: Home
+    url: /
+    weight: 1
+    identifier: about
+  - name: Author, dedication, and site information
+    title: About
+    url: /about/
+    weight: 2
+  - identifier: archives
+    name: Lists of all posts by year, category, and writing location
+    title: Archives
+    url: /archives/
+    weight: 3
+  - identifier: podcast
+    name: My harmless podcast of observations
+    title: Podcast
+    url: /show/
+    weight: 4
+  - identifier: omake
+    name: Extra goodies
+    title: Omake
+    url: /omake-pages/
+    weight: 5
 
 permalinks:
-  page:  "/:filename/"
-  post:  "/:filename/"
-  omake: "/omake/:filename/"
+  omake: /omake/:filename/
+  page: /:filename/
+  post: /:filename/
 
 taxonomies:
-  category: "category"
-  location: "location"
-  tag: "tag"
-  year: "year"
+  category: category
+  tag: tag
+  year: year
+
+disableKinds:
+- categories
+- tags
 
