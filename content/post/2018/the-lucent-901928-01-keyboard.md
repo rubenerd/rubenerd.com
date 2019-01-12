@@ -4,7 +4,7 @@ date: "2018-12-27T19:34:17+11:00"
 abstract: "I’ve never seen a Clr/Rfrsh key before"
 thumb: "https://rubenerd.com/files/2018/keyboard-lucent-clr@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Hardware
 tag:
 - keyboards
 - nostalgia
