@@ -3,7 +3,7 @@ title: "A YouTube Overwatch video"
 date: "2018-11-20T22:36:35+11:00"
 abstract: "I had absolutely no clue about what was being said."
 year: "2018"
-category: Thoughts
+category: Media
 tag:
 - games
 - language
