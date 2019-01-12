@@ -1,13 +1,13 @@
 ---
 title: "Sydney restaurants that take Amex"
-date: "2016-08-0501:07:00+11:00"
+date: "2016-08-05T01:07:00+11:00"
 abstract: "This originally appeared on the Annexe"
 year: "2016"
 category: Thoughts
 tag:
 - australia
 - american-express
-- finances
+- finance
 - restaurants
 - sydney
 - written-in-sydney
