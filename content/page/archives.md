@@ -5,6 +5,23 @@ title: "Archives"
 *Rubenerd* has 6,000+ posts and podcast episodes. This page lists ways you can view them all, in a somewhat less tedious fashion than employing pagination links.
 
 
+<h3 id="search">By search</h3>
+<p>
+<form role="search" method="get" action="https://duckduckgo.com/" id="search">
+<fieldset>
+<legend>Search blog posts with DuckDuckGo</legend>
+<input type="text" size="40" name="q" placeholder="Search with DuckDuck" />
+<input type="hidden" name="ia" value="web" />
+<input type="hidden" name="kaj" value="m" />
+<input type="hidden" name="k7" value="w" />
+<input type="hidden" name="k9" value="b" />
+<input type="hidden" name="ks" value="l" />
+<input type="hidden" name="sites" value="https://rubenerd.com/" />
+<input type="submit" value="Go!" />
+</fieldset>
+</form></p>
+
+
 <h3 id="category">By category</h3>
 
 * [Anime](/anime/), now rarely added to, but I used to be a good little weeb
