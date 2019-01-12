@@ -32,8 +32,6 @@ This is tedious for multiple partitions without easily-iteratable names. So I th
 
 ... that was clearly the [wrong snippet]. 
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/nmsTwQb1csc" style="border:0;"></iframe>
-
 Check it out now, the funk soul brother:
 
     # diskutil unmount /dev/diskX
@@ -61,5 +59,5 @@ From the manpage (8):
 Boom! Much easier.
 
 [next bout of short-sightedness]: http://www.macworld.com/article/2987201/operating-systems/hands-on-with-disk-utility-in-el-capitan-tool-for-storage-devices-gets-a-facelift.html
-[wrong snippet]: https://www.youtube.com/watch?v=nmsTwQb1csc
+[wrong snippet]: https://www.youtube.com/watch?v=FMrIy9zm7QY
 
