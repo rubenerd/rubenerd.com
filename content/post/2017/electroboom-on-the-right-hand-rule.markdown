@@ -12,17 +12,15 @@ tag:
 - youtube
 - written-in-sydney
 ---
-*[ElectroBOOM]* is the world's greatest YouTube Channel, [right behind mine] where I replaced the fan on my first generation MacBook Pro nine years ago. Don't watch that.
+*[ElectroBOOM]* is the world's greatest YouTube Channel, [right behind mine] where I replaced the fan on my first generation MacBook Pro nine years ago. Don't watch that. Anyway, Mehdi Sadaghdar is hilarious, educational, and [FULL BRIDGE RECTIFIER]. I'm a proud [Patreon subscriber], and you should be too.
 
-Mehdi Sadaghdar is hilarious, educational, and [FULL BRIDGE RECTIFIER]. I'm a proud [Patreon subscriber], and you should be too.
-
-<iframe style="width:500px; height:281px; border:0;" src="https://www.youtube.com/embed/NJRDclzi5Vg?start=69"></iframe>
+<p><a href="https://www.youtube.com/watch?v=NJRDclzi5Vg?start=69" title="Play Science behind Railgun, ElectroBOOM Style"><img src="https://rubenerd.com/files/2017/yt-NJRDclzi5Vg@1x.jpg" srcset="https://rubenerd.com/files/2017/yt-NJRDclzi5Vg@1x.jpg 1x, https://rubenerd.com/files/2017/yt-NJRDclzi5Vg@2x.jpg 2x" alt="Play Science behind Railgun, ElectroBOOM Style" style="width:500px;height:281px;" /></a></p>
 
 For you Friday viewing pleasure, [have this earworm] that's been stuck in my head all day. Mission accomplished!
 
 [ElectroBOOM]: https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA
 [FULL BRIDGE RECTIFIER]: https://www.youtube.com/watch?v=sI5Ftm1-jik
 [Patreon subscriber]: http://www.patreon.com/electroboom
-[have this earworm]: https://www.youtube.com/watch?v=NJRDclzi5Vg
+[have this earworm]: https://www.youtube.com/watch?v=NJRDclzi5Vg?start=69
 [right behind mine]: https://www.youtube.com/user/rubenerd
 

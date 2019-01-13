@@ -8,9 +8,7 @@ tag:
 - music
 - written-in-sydney
 ---
-<p></p>
-
-<iframe src="https://www.youtube.com/embed/eS3AZ12xf6s" style="border:0px; width:500px; height:280px"></iframe>
+<p><a href="https://www.youtube.com/watch?v=eS3AZ12xf6s" title="Play The Avalanches - Frontier Psychiatrist - Official (HQ)"><img src="https://rubenerd.com/files/2016/yt-eS3AZ12xf6s@1x.jpg" srcset="https://rubenerd.com/files/2016/yt-eS3AZ12xf6s@1x.jpg 1x, https://rubenerd.com/files/2016/yt-eS3AZ12xf6s@2x.jpg 2x" alt="Play The Avalanches - Frontier Psychiatrist - Official (HQ)" style="width:500px;height:281px;" /></a></p>
 
 This is not to be confused with the *best songs of all time*, to be published later. It's also subject to review and addition.
 

@@ -9,9 +9,7 @@ tag:
 - music
 - written-in-sydney
 ---
-<p></p>
-
-<iframe style="width:500px; height:281px" src="https://www.youtube.com/embed/dgfR3AKCAQI" frameborder="0" allowfullscreen></iframe>
+<p><a href="https://www.youtube.com/watch?v=dgfR3AKCAQI" title="Play Icehouse - "Electric Blue" (1987)"><img src="https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@1x.jpg" srcset="https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@1x.jpg 1x, https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@2x.jpg 2x" alt="Play Icehouse - "Electric Blue" (1987)" style="width:500px;height:281px;" /></a></p>
 
 These last couple of weeks have been nothing short of shithouse, so I thought I'd assuage my melancholoy and fear with some classic Icehouse. Everything about this music video is **perfect**, right down to the mullets!
 

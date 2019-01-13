@@ -7,11 +7,10 @@ category: Media
 tag:
 - australia
 - sydney
+- video
 - written-in-sydney
 ---
-<p></p>
-
-<iframe src="https://player.vimeo.com/video/234257069" style="width:500px; height:281px; border:0;"></iframe>
+<p><a href="https://vimeo.com/23425706" title="Play Bit dusty next door on Vimeo"><img src="https://rubenerd.com/files/2017/vimeo-655790472@1x.jpg" srcset="https://rubenerd.com/files/2017/vimeo-655790472@1x.jpg 1x, https://rubenerd.com/files/2017/vimeo-655790472@2x.jpg 2x" alt="Play Bit dusty next door on Vimeo" style="width:500px; height:281px;" /></a></p>
 
 So that's why our office balcony was [covered in grit] this morning!
 

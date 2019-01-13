@@ -8,9 +8,7 @@ tag:
 - music
 - written-in-sydney
 ---
-<p></p>
-
-<iframe src="https://www.youtube.com/embed/FLPLgJqeZJw" style="border:0px; width:500px; height:280px"></iframe>
+<p><a href="https://www.youtube.com/watch?v=FLPLgJqeZJw" title="Play 임창정-문을 여시오 M/V Full ver."><img src="https://rubenerd.com/files/2016/yt-FLPLgJqeZJw@1x.jpg" srcset="https://rubenerd.com/files/2016/yt-FLPLgJqeZJw@1x.jpg 1x, https://rubenerd.com/files/2016/yt-FLPLgJqeZJw@2x.jpg 2x" alt="Play 임창정-문을 여시오 M/V Full ver." style="width:500px;height:281px;" /></a></p>
 
 How had I not posted [this music video] here before?! Thanks to [Clara] for reminding me.
 

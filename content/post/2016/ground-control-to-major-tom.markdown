@@ -8,9 +8,10 @@ tag:
 - david-bowie
 - music
 - rip
+- video
 - written-in-sydney
 ---
-<p><iframe width="500" height="315" src="//www.youtube.com/embed/9G4jnaznUoQ" ></iframe></p>
+<p><a href="https://www.youtube.com/watch?v=iYYRH4apXDo" title="Play David Bowie – Space Oddity (Official Video)"><img src="https://rubenerd.com/files/2016/yt-iYYRH4apXDo@1x.jpg" srcset="https://rubenerd.com/files/2016/yt-iYYRH4apXDo@1x.jpg 1x, https://rubenerd.com/files/2016/yt-iYYRH4apXDo@2x.jpg 2x" alt="Play David Bowie – Space Oddity (Official Video)" style="width:500px;height:281px;" /></a></p>
 
 I thought [this tweet][tweet] was the best:
 

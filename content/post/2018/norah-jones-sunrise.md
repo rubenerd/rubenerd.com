@@ -5,15 +5,14 @@ abstract: "Still one of my favourite songs of all time, but I'd never seen the m
 year: "2018"
 category: Media
 tag:
-- music
 - jazz
+- music
 - norah-jones
 - nostalgia
+- video
 - written-in-sydney
 ---
-<p></p>
-
-<iframe style="width:500px; height:275px; border:0px;" src="https://www.youtube.com/embed/fd02pGJx0s0"></iframe>
+<p><a href="https://www.youtube.com/watch?v=fd02pGJx0s0" title="Play Norah Jones - Sunrise"><img src="https://rubenerd.com/files/2019/yt-fd02pGJx0s0@1x.jpg" srcset="https://rubenerd.com/files/2019/yt-fd02pGJx0s0@1x.jpg 1x, https://rubenerd.com/files/2019/yt-fd02pGJx0s0@2x.jpg 2x" alt="Play Norah Jones - Sunrise" style="width:500px;height:281px;" /></a></p>
 
 This is among my favourite songs of all time, but until today I hadn't seen the [music video]. This is one of the most adorable, wonderful things ever.
 
@@ -21,6 +20,6 @@ I [started this blog] and graduated high school in 2004, when this song came out
 
 Given the fun the global IT community is having right now, felt it was as good a time as any to share this.
 
-[music video]: https://www.youtube.com/fd02pGJx0s0
+[music video]: https://www.youtube.com/watch?v=fd02pGJx0s0
 [started this blog]: https://rubenerd.com/the-first-post/ "The first post on Rubenerd!"
 

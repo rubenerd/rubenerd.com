@@ -17,7 +17,7 @@ Fortunately, this news was real, I was just learning of it on this inauspicious 
 
 The evil geniuses behind one of animu's most enduring franchises is continuing their path toward global moe dominance with a [VR rendition] of the world's greatest mobile game, and featuring [best girl]!
 
-<iframe src="https://www.youtube.com/embed/6A3hdSY1qW0" style="width:500px; height:281px; border:0;" ></iframe>
+<p><a href="https://www.youtube.com/watch?v=6A3hdSY1qW0" title="Play 『Fate/Grand Order VR feat.マシュ・キリエライト』PV"><img src="https://rubenerd.com/files/2017/yt-6A3hdSY1qW0@1x.jpg" srcset="https://rubenerd.com/files/2017/yt-6A3hdSY1qW0@1x.jpg 1x, https://rubenerd.com/files/2017/yt-6A3hdSY1qW0@2x.jpg 2x" alt="Play 『Fate/Grand Order VR feat.マシュ・キリエライト』PV" style="width:500px;height:281px;" /></a></p>
 
 The [official promo] was light on details, save for it being made available on the PlayStation 4. Just when I'd given up my brief foray into console gaming and gone back to gaming machines, darn.
 
@@ -33,3 +33,4 @@ Regardless, the idea of playing FGO in a VR world sounds like too much fun, I ho
 [official promo]: https://www.youtube.com/watch?v=6A3hdSY1qW0
 [VR rendition]: http://vr.fate-go.jp
 [each stage in the game]: http://vignette3.wikia.nocookie.net/fategrandorder/images/3/32/Shielder3.png/revision/latest?cb=20170206150347
+

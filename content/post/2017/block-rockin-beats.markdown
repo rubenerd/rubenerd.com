@@ -6,11 +6,11 @@ year: "2017"
 category: Media
 tag:
 - music
+- nostalgia
+- video
 - written-in-osaka
 ---
-<p></p>
-
-<figure><iframe style="width:500px; height:275px; border:0;" src="https://www.youtube.com/embed/iTxOKsyZ0Lw"></iframe></figure>
+<p><a href="https://www.youtube.com/watch?v=iTxOKsyZ0Lw" title="Play The Chemical Brothers - Block Rockin' Beats"><img src="https://rubenerd.com/files/2017/yt-iTxOKsyZ0Lw@1x.jpg" srcset="https://rubenerd.com/files/2017/yt-iTxOKsyZ0Lw@1x.jpg 1x, https://rubenerd.com/files/2017/yt-iTxOKsyZ0Lw@2x.jpg 2x" alt="Play The Chemical Brothers - Block Rockin' Beats" style="width:500px;height:281px;" /></a></p>
 
 Backlengrabdledableadamblockrockinbeats! 1997.
 
