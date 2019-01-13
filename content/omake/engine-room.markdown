@@ -2,83 +2,81 @@
 layout: omake
 title: "Engine room"
 ---
-<p><img src="/cog_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+This page lists the tech that makes this blog possible.
+
 
 ### What runs the site
 
-* **[Hugo](http://gohugo.io)**. After running dynamic CMSs for years (see below), I got on the static site generator bandwagon in 2013. Of all the ones I've tried, Hugo is the only one that can handle 5,000 posts.
+**[Hugo](http://gohugo.io)**
 
-* **[FreeBSD](https://www.freebsd.org/)**: Still my OS weapon of choice since I started hacking on it in high school. I run it in the [Joviam cloud](https://joviam.com.au) with ZFS, pf and the tirelessly maintained ports system.
+: This is the Porsche of static site generators; it's difficult to handle at times with Go's inscrutable templating, but its the only one around that can handle 6,000+ blog posts without taking the heat death of several universes to complete.<p></p>
 
-* **[nginx](https://nginx.org/)**: Fast, simple to configure web server and reverse proxy. Thanks to the maintainers of the [nginx-devel](https://www.freshports.org/www/nginx-devel) FreeBSD port.
+**[FreeBSD](https://www.freebsd.org/)**
 
-* **[Let's Encrypt](https://letsencrypt.org/)**: I bought HTTPS certs in the past, but Let's Encrypt makes the process so simple there's no point not using it.
-It can also handle subdomains without having to pay extra (or at all).</p></li>
+: It's still my preferred server operating system since trying it in high school. I use cloud instances with jails to keep things secure and easy to update.<p></p>
 
-* **[Ansible](https://www.ansible.com/)**: All the site configuration, package installs and updates are carried out with Ansible playbooks.
+**[nginx](https://nginx.org/)**
 
-* **[Bourne shell scripts](https://en.wikipedia.org/wiki/Bourne_shell)**: These are the glue for everything else, for podcast pages, encoding audio, scaling Retina&trade; images, uploading generated assets, and other tasks.
+: The fast, simple to configure web server and reverse proxy. Thanks to the maintainers of the [nginx-devel](https://www.freshports.org/www/nginx-devel) FreeBSD port.<p></p>
+
+**[Let's Encrypt](https://letsencrypt.org/)**
+
+: I bought HTTPS certs in the past, but this makes the process so simple. It can also now handle subdomains with little fuss.<p></p>
+
+**[Ansible](https://www.ansible.com/)**
+
+: All the site configuration, package installs and updates are carried out with Ansible playbooks.<p></p>
+
+**[Bourne shell scripts](https://en.wikipedia.org/wiki/Bourne_shell)**
+
+: These are the glue for everything else, for podcast pages, encoding audio, scaling Retina&trade; images, uploading generated assets, and other tasks. No bashisms.<p></p>
+
 
 <hr />
 ### What used to run the site
 
-<ul>
-<li><p><strong><a href="http://jekyllrb.org">Jekyll</a> (2013-15)</strong>:
-My return to static-site generation after nearly a decade. <em>Rubénerd</em> was being delivered
-faster, used less resources, and had full revision history and tracking in a Git repo! Alas
-it took over 20 minutes to generate all my posts.</p></li>
+**[Jekyll](http://jekyllrb.org) (2013–15)**
 
-<li><p><strong><a href="http://wordpress.org/">WordPress</a> (2006-13)</strong>:
-The Mac Daddy of blogging software. Movable Type had gone commercial at that stage, and
+: I still think Liquid is the nicest templating system I've used, but alas Jekyll simply couldn't handle all my posts. For smaller projects, I couldn't recommend it highly enough.
+
+**[WordPress](http://wordpress.org/) (2006–13)**
+
+: The Mac Daddy of blogging software. Movable Type had gone commercial at that stage, and
 Radio UserLand looked to be in its last throes, so I followed the pack to WordPress. For all
 the security issues and poorly written plugins, it served me surprisingly well for many
-years.</p></li>
+years.
 
-<li><p><strong><a href="http://realmacsoftware.com/rapidweaver/">RapidWeaver</a> (2005)</strong>:
-An intruiging and pleasent Mac application that generated static pages, but I soon ran into
-its limitations.</p></li>
+**[RapidWeaver](http://realmacsoftware.com/rapidweaver/) (2005)**
 
-<li><p><strong><a href="http://perl.org/">Perl CGI scripts</a> (2004):</strong>
-I wrote my first site engine when at my first job out of high school, before university
+: An intriguing and pleasant Mac application that generated static pages, but I soon ran into limitations with updating sites from different places.
+
+**[Perl CGI scripts](http://perl.org/) (2004-05)**
+
+: I wrote my first site engine when at my first job out of high school, before university
 started. It used CGI, which was a terrible idea but not enough people went to it to spawn
-too many threads, so I avoided disaster!</p></li>
-</ul>
+too many threads, so I avoided disaster!
 
 
 <hr />
 ### How I write posts
 
-<p><img src="/edit_font_awesome.svg" alt="" style="width:96px; height:96px; float:right; margin:0 0 20px 30px;" /></p>
+**[Vim](https://vim.org) and [MacVim](https://macvim-dev.github.io/macvim/)**
 
-<ul>
-<li><p><strong><a href="http://vim.org">Vim</a></strong>:
-I&rsquo;ve used nano, joe, emacs (albeit briefly), TextMate, Sublime Text and Atom, but I keep
-coming back to this inexplicably wonderful mode of typing each time. I&rsquo;m still learning new
-things with it, while likely forgetting other things.</p></li>
+: I've tried everything, and keep coming back to this legendary editor. I'm still learning new things with it even after a decade. [NERDTree](https://github.com/scrooloose/nerdtree) is still my favourite plugin.<p></p>
 
-<li><p><strong><a href="http://brettterpstra.com/projects/nvalt/">nvALT</a></strong>:
-A fantastic note-taking tool that splits ideas into separate, searchable text files. It&rsquo;s
-akin to having your own text-based wiki.</p></li>
+**Topre Keyboard**
 
-<li><p><strong><a href="http://www.apple.com/sg/macbook-air/">11&rdquo; MacBook Air</a></strong>:
-I&rsquo;m still surprised how versitile this machine is. It fits on every coffee shop and
-aeroplane table, but still packs enough punch for photo editing and dev work with a docking
-station and peripherals. All I miss is Parallels working fast enough for games, and the
-Retina screen from my work machine.</p></li>
+: When I'm at home, everything is typed on this beautiful ten-keyless board I bought in Akihabara. Topres are the best mechanical keyswitches around.
 
-<li><p><strong><a href="https://www.microsoft.com/accessories/en-us/products/keyboards/sculpt-ergonomic-desktop/l5v-00001">Microsoft Sculpt Ergonomic Keyboard</a></strong>:
-I prefer mechanical keyboards, but went the split-keyboard route when I started getting
-upper-arm pain. It&rsquo;s surprisingly snappy, especially compared to the mushy plastic feel of
-the previous models.</p></li>
+**[Git](https://git-scm.org/)**
 
-<li><p><strong><a href="http://www.michaelfranks.com/">Michael Franks</a></strong>:
-My jam since I was a kid. He&rsquo;s a jazzy singler/songwriter with witty lyrics and albums for
-every mood and time of day stretching over his half-century career. Incidently, I wrote all
-but two of his albums on Wikipedia!</p></li>
+: Each blog post and site asset is version controlled with Git, which makes updates easier. I used and prefer Mercirual/hg, but I ~~forced~~ trained myself to use it.<p></p>
 
-<li><p><strong><a href="http://us.akg.com/akg-product-detail_us/k551slv.html">AKG K551</a></strong>:
-I bought these headphones as per Marco Arment&rsquo;s recommendation. I&rsquo;m not all about the bass
-(sorry Meghan Trainor) so these headphones sound amazing. The level of midrange detail
-continues to blow my socks off, and the giant pads are soft and comfortable.</p></li>
-</ul>
+**[Michael Franks](http://www.michaelfranks.com/)**
+
+: I'm often writing while listening to my favourite singer/songwriter of all time. His over half a century career include albums for every mood and time of day. Incidently, I wrote all but two of his albums on Wikipedia.<p></p>
+
+**[Coffee shops](/omake/coffee/)**
+
+: If there's an environment more conducive to positive thought and writing, I don't want to know.
 
