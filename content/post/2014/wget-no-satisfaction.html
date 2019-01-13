@@ -10,30 +10,40 @@ tag:
 - wget 
 - written-in-sydney
 ---
-<p><iframe style="width:500px; height:315px; border:0px " src="//www.youtube.com/embed/poXvMBhjSWk"></iframe></p>
+<p><a href="https://www.youtube.com/watch?v=poXvMBhjSWk" title="Play The Rolling Stones - (I Can't Get No) Satisfaction - Glastonbury 2013 (HD)"><img src="https://rubenerd.com/files/2014/yt-poXvMBhjSWk@1x.jpg" srcset="https://rubenerd.com/files/2014/yt-poXvMBhjSWk@1x.jpg 1x, https://rubenerd.com/files/2014/yt-poXvMBhjSWk@2x.jpg 2x" alt="Play The Rolling Stones - (I Can't Get No) Satisfaction - Glastonbury 2013 (HD)" style="width:500px;height:281px;" /></a></p>
+
 <p style="font-style:italic">The video is the Rolling Stones singing <a href="https://www.youtube.com/watch?v=poXvMBhjSWk">(I Can’t Get No) Satisfaction</a>, for those who can’t see the iframe.</p>
+
 <p>We have another corker of a Linux bug to patch on all our systems this morning, this time in the nearly-ubiquitous <a href="https://www.gnu.org/software/wget/">GNU wget</a>. In light of the fact all vulnerabilities need catchy names now, I’m dubbing this one <strong>#wgetNoSatisfaction</strong>. You’re welcome.</p>
+
 <p><a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-4877">From MITRE</a>:</p>
+
 <blockquote>
 <p>Absolute path traversal vulnerability in GNU Wget before 1.16, when recursion is enabled, allows remote FTP servers to write to arbitrary files, and consequently execute arbitrary code, via a LIST response that references the same filename within two entries, one of which indicates that the filename is for a symlink.</p>
 </blockquote>
+
 <p>Wget 1.16 patches this. If you can’t update, enforce the <code>--retr-symlinks</code> option in the relevent place(s) for your system, such as:</p>
+
 <pre>
 # echo 'retr-symlinks=on' &gt;&gt; /usr/local/etc/wgetrc
 </pre>
+
 <p><a href="http://manpages.debian.org/cgi-bin/man.cgi?query=wget">From the Wget manpage</a>:</p>
+
 <blockquote>
-<p>Usually, when retrieving FTP directories recursively and a symbolic<br />
-link is encountered, the linked-to file is not downloaded.<br />
-Instead, a matching symbolic link is created on the local<br />
-filesystem.  The pointed-to file will not be downloaded unless this<br />
-recursive retrieval would have encountered it separately and<br />
+<p>Usually, when retrieving FTP directories recursively and a symbolic
+link is encountered, the linked-to file is not downloaded.
+Instead, a matching symbolic link is created on the local
+filesystem.  The pointed-to file will not be downloaded unless this
+recursive retrieval would have encountered it separately and
 downloaded it anyway.</p>
-<p>When <code>--retr-symlinks</code> is specified, however, symbolic<br />
-links are traversed and the pointed-to files are retrieved.  At this<br />
-time, this option does not cause Wget to traverse symlinks to<br />
-directories and recurse through them, but in the future it should be<br />
+
+<p>When <code>--retr-symlinks</code> is specified, however, symbolic
+links are traversed and the pointed-to files are retrieved.  At this
+time, this option does not cause Wget to traverse symlinks to
+directories and recurse through them, but in the future it should be
 enhanced to do this.</p>
 </blockquote>
+
 <p>As with <a href="//rubenerd.com/bash-code-injection-vulnerability/">Shellshock</a>, FreeBSD is unaffected unless you’ve pulled wget from ports.</p>
  
