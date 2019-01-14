@@ -6,7 +6,7 @@ year: "2016"
 category: Thoughts
 tag:
 - amex
-- finances
+- finance
 - written-in-sydney 
 ---
 I made the mistake a few weeks ago of innocuously asking Twitter where I could top up my Opal card with American Express. I know I know, what should I have expected?
@@ -25,7 +25,7 @@ I switched to American Express as my daily card recently for the same reasons ev
 
 * Apple Pay works, and I was surpried how convenient it actually was
 
-* Their PayPass equivilent is so much faster than Visa and MasterCard; its like the difference between 
+* Their PayPass equivilent is so much faster than Visa and MasterCard
 
 * Their iOS app is also so far ahead of Citibank and HSBC it's not even funny.
 
