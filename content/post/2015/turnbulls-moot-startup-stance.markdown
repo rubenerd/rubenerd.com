@@ -8,7 +8,7 @@ tag:
 - australia
 - nbn
 - politics
-- written-in-sydney
+location: sydney
 ---
 The Murdoch rags are excitedly reporting on Prime Minister Malcolm Turnbull's push for more entrepreneurship, small business, disruption and startup culture in Australia. It's easy to be cynical about this sort of thing, but I'm cautiously optimistic.
 

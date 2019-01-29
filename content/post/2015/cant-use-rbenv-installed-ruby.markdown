@@ -7,7 +7,7 @@ category: Software
 tag:
 - package-managers
 - ruby
-- written-in-sydney
+location: sydney
 ---
 I’ve previously used RVM to install Ruby and gems, but this week I decided to try rbenv.
 

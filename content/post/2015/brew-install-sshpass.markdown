@@ -10,7 +10,7 @@ tag:
 - package-managers
 - security
 - ssh
-- written-in-sydney
+location: sydney
 ---
 Installing sshpass from Homebrew? Be prepared for this:
 

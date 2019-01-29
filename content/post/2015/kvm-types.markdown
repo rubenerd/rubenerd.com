@@ -6,10 +6,10 @@ year: "2015"
 category: Hardware
 tag:
 - kvms
-- written-in-sydney
+location: sydney
 ---
 | KVM                         | Input        | Video | Switching        | Notes           |
-- written-in-sydney
+location: sydney
 ---
 | ATEN<br />MasterView CS84A  | 2x PS/2      | VGA   | Hotkey, buttons  |                 |
 | BELKIN<br />SOHO F1DS104LAU | USB hub      | VGA   | Hotkey, button   | Expensive       |

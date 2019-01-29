@@ -7,7 +7,7 @@ category: Internet
 tag:
 - weblog
 - wordpress
-- written-in-sydney
+location: sydney
 ---
 WordPress are running their [yearly survey](http://wp-survey.polldaddy.com/s/wp-2015) again, as I'm sure you already surmised from the title of this post. Most were multiple choice, but two were free-form text. I leave these here for whatever they're worth.
 

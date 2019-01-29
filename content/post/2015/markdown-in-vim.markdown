@@ -8,7 +8,7 @@ tag:
 - editors
 - markdown
 - vim
-- written-in-sydney
+location: sydney
 ---
 I use .md for my Markdown extensions. I know Gruber prefers .txt, but I like having syntax highlighting and the ability to process batches of them in a folder mixed with plain text files.
 

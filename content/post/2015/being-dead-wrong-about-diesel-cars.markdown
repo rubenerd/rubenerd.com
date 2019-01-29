@@ -10,7 +10,7 @@ tag:
 - environment
 - health
 - news
-- written-in-sydney
+location: sydney
 ---
 Jason Perlow's article for ZDNet is the [latest defence](http://www.zdnet.com/article/volkswagen-lied-but-elon-musk-is-dead-wrong-about-diesel-cars/) I’ve read of passenger diesel. It starts with the following quote, then follows on about how he has a diesel car, why he likes it, and why he's frustrated at VW for gambling their reputation:
 

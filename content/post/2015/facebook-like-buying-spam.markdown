@@ -7,7 +7,7 @@ category: Internet
 tag:
 - facebook
 - spam
-- written-in-sydney
+location: sydney
 ---
 That could be read as Facebook enjoying the purchasing of spam, and I'm not sure my hyphen cleared this up much. Oh well, you like some, you lose some.
 

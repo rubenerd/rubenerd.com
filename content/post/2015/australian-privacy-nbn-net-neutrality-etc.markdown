@@ -9,7 +9,7 @@ tag:
 - politics
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 November is shaping up to be the most hectic I’ve had in a long time, and not just because I dropped a perfectly good [grilled cheese sandwich](https://rubenerd.com/tag/grilled-cheese-sandwiches/) recently. Actions by our political class certainly haven't helped.  
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - adelaide
 - boatdeck-cafe
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/boatdeck2015.jpg" alt="" style="width:500px;"></p>
 

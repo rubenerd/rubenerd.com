@@ -8,7 +8,7 @@ tag:
 - coffee
 - holidays
 - yuletide
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/starbucksxmas2015.jpg" alt="The Starbucks Xmas drink line" style="width:500px; height:250px;" /></p>
 

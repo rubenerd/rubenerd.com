@@ -8,7 +8,7 @@ tag:
 - finance
 - guides
 - paypal
-- written-in-sydney
+location: sydney
 ---
 PayPal's instuctions on [cancelling subscriptions](https://www.paypal.com/selfhelp/article/FAQ1067/1) are wrong. I'd know, I spent the morning trying to figrure it out. As of the date this post was published, here's how you actually do it:
 

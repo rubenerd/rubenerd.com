@@ -9,7 +9,7 @@ tag:
 - life
 - slashdot
 - vegetarianism
-- written-in-sydney
+location: sydney
 ---
 [A Slashdot discussion](http://science.slashdot.org/story/15/10/14/1858256/a-fresh-take-on-fake-meat) linked to an article regarding [new mock meat](http://techcrunch.com/2015/10/06/impossible-foods-raises-a-whopping-108-million-for-its-plant-based-burgers/#.sgaspp:x3oA). Unsurprisingly, this comment was representative:
 

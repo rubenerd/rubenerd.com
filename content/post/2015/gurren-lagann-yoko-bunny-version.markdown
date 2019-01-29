@@ -10,7 +10,7 @@ tag:
 - freeing
 - gurren-lagann
 - reviews
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/yokobunnyfig.jpg" alt="Yoko from Gurren Lagann in her new bunny attire" style="width:450px" /></p>
 

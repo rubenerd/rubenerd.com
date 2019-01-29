@@ -10,7 +10,7 @@ tag:
 - news
 - truncation
 - when-attacks
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/truncate.itnews.png" style="width:500px;" alt="Australia to develop. PSBA puts the A-team on" /></p>
 

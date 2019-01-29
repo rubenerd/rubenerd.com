@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - science
 - stack-exchange
-- written-in-sydney
+location: sydney
 ---
 This is <a href="https://astronomy.stackexchange.com/questions/12531/is-earth-unique-in-its-fairly-clear-atmosphere">one of those sidebar Stack Exchange questions</a> that make my day. I remember asking this in 1996 when all the life on Mars stuff was coming out, but nobody could really answer in terms a 10 year old could understand.
 

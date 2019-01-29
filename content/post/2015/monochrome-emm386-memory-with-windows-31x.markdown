@@ -8,7 +8,7 @@ tag:
 - dos
 - memory
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 It's the weekend, so time to break into some more nostalgic DOS fun. Because I was born in the 80s, grew up in the 90s, and spend my spare time doing things I love rather than mocking people who revel in archaic technology. Yes, it's at the point where I even need to defend myself from trolls before I even start, darn.
 
