@@ -9,7 +9,7 @@ tag:
 - back-to-work
 - merlin-mann
 - accidental-tech-podcast
-- written-in-sydney
+location: sydney
 ---
 Here are some random quotes from recent podcast episodes I've listen to:
 
