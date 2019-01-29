@@ -8,7 +8,7 @@ tag:
 - core-intuition
 - daniel-jalkut
 - podcasting
-- written-in-sydney
+location: sydney
 ---
 I just left this review for the [Bitsplitting Podcast] on iTunes:
 
