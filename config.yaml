@@ -10,14 +10,20 @@ title: Rubenerd
 params:
 
   author:
-    first: Ruben
-    last: Schade
     city: Sydney
     country: Australia
+    first: Ruben
+    gender: Male
+    last: Schade
+    nationality: Australian
+    place: https://en.wikipedia.org/wiki/Sydney
+    state: New South Wales
     twitter: rubenerd
     why: These map to schema.org data.
 
   description: By Ruben Schade in s/ Singapore/ Sydney/ since 2004-ish.
+  inception: 2004
+  keywords: [ australia, singapore, sydney, anime, tech, freebsd, travel, coffee ]
   licence_title: Creative Commons Attribution Share-Alike 3.0
   licence_url: https://creativecommons.org/licenses/by-sa/3.0/
   logo: logo.png
@@ -36,7 +42,7 @@ params:
     overcast: https://overcast.fm/itunes1003680071/rubenerd-show
     pocket_casts: http://pca.st/ybXl
     publisher: me@rubenschade.com
-    summary: Ruben's longrunning harmless podcast of observations from Singapore, Malaysia, and Australia.
+    summary: Ruben's long-running harmless podcast of observations from Singapore, Malaysia, and Australia.
     tagline: A harmless show of observations, since 2005
     title: Rubenerd Show
 
@@ -75,6 +81,7 @@ permalinks:
 
 taxonomies:
   category: category
+  location: location
   tag: tag
   year: year
 
