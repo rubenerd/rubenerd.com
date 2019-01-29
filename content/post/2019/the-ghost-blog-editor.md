@@ -7,7 +7,7 @@ category: Software
 tag:
 - blogging
 - ghost
-- written-in-sydney
+location: sydney
 ---
 I've been trialling Ghost, and been impressed by its clean design. I've got it working nicely in a set of FreeBSD jails, with nginx proxying the requests and fixing up some of the headers, and Varnish for caching.
 

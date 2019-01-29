@@ -10,7 +10,7 @@ tag:
 - design
 - double-decker-doug-and-kirill
 - plants
-- written-in-sydney
+location: sydney
 ---
 Clara and I are halfway through *Double Decker! Doug and Kirill* and it's already one of our new favourite series. The Japanese/Western style harkens back to *Tiger and Bunny* that many of the staff also produced. Only this time the art, costumes, and situations are even more colourful and fabulous.
 

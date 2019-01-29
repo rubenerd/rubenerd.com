@@ -9,7 +9,7 @@ tag:
 - lyrics
 - music
 - pet-shop-boys
-- written-in-sydney
+location: sydney
 ---
 The [Pet Shop Boys], "A Face Like That", from their 2012 album *[Elysium]*:
 

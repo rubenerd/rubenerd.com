@@ -11,7 +11,7 @@ tag:
 - sam-harris
 - security
 - social-networks
-- written-in-sydney
+location: sydney
 ---
 Sam Harris’s podcast with Renee Diresta titled [Information War] should be required listening for anyone who uses the internet in 2019. It’s written in the context of Russian meme propagation in the United States, but could easily apply to anywhere.
 

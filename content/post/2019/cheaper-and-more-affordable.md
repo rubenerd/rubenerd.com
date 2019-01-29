@@ -8,7 +8,7 @@ tag:
 - australia
 - nbn
 - politics 
-- written-in-sydney
+location: sydney
 ---
 Remember these delightful suppositories of wisdom from our former Prime Minister Malcolm Turnbull?
 

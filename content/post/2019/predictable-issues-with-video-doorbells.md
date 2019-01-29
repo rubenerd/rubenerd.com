@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Sam Biddle wrote [this article for The Intercept] about a brand of Internet-enabled video doorbell. You can probably guess what comes next.
 

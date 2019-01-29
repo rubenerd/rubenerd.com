@@ -8,7 +8,7 @@ tag:
 - australia
 - health
 - politics
-- written-in-sydney
+location: sydney
 ---
 There's a debate raging in Australia about whether music festivals should do pill testing. I couldn't understand the logic for years; why should people demand a venue test their illegal substances? In what other context would that be logical? Wouldn't it also be the very definition of probable cause for law enforcement?
 

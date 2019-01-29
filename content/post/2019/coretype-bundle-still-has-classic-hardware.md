@@ -9,7 +9,7 @@ tag:
 - apple
 - ibook
 - macbook-pro
-- written-in-sydney
+location: sydney
 ---
 It's felt as though the Mac has been losing some of its charm, like the startup chime and the classic Finder icon. But I'm relieved and happy to see the `CoreTypes.bundle` still has all the New World ROM and Intel Macs, in high resolution glory.
 

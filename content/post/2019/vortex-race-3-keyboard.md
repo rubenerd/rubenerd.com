@@ -7,7 +7,7 @@ year: "2019"
 category: Hardware
 tag:
 - keyboards
-- written-in-sydney
+location: sydney
 ---
 For reasons that were ~~not entirely~~ my fault, my beloved IBM Model M4 compact keyboard bit the dust late last year. It was smaller, quieter, and arguably less tactile than my Model M, but it was also two-tone beige and matched my computer so well. eBay has more, but they've gone up in price steeply since I bought this a decade ago.
 

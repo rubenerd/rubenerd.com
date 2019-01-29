@@ -8,7 +8,7 @@ year: "2019"
 category: Thoughts
 tag:
 - 
-- written-in-sydney
+location: sydney
 ---
 I'll keep this as non-specific and vague as possible. Having worked for myself, with family, and for businesses, there are certain clients who won't pay invoices on time. Or ever. I probably shouldn't make this public, but I've generally been poor at chasing people for payment. I figure they have their reasons.
 
@@ -23,8 +23,6 @@ In those cases though, I contacted people, explained my situation, and asked if 
 What I'm beginning to resent, unfortunately, are people who don't pay for months at a time, then only claim financial hardship when you ask. 
 
 Part of that is knowing that most were outright lying to me, and using it as a stalling tactic. Having lived through those aforementioned family events, may bees nest in your armpits if you claim your partner has cancer when they don't.
-
-For the people really doing it tough though, please, just tell us in advance. I can't speak for all your debtors, but you'll get a symathetic ear from me. 
 
 [family medical events]: https://rubenerd.com/dedication/
 

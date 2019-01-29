@@ -8,7 +8,7 @@ tag:
 - canada
 - privacy
 - telecommunications
-- written-in-sydney
+location: sydney
 ---
 [The Canadian Press is reporting]\:
 

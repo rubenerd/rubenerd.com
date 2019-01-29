@@ -9,7 +9,7 @@ tag:
 - music
 - music-monday
 - vulfpeck
-- written-in-sydney
+location: sydney
 ---
 <p><a href="http://www.youtube.com/watch?v=WrdsotPDrRg" title="Play "><img src="https://rubenerd.com/files/2019/yt-WrdsotPDrRg@1x.jpg" srcset="https://rubenerd.com/files/2019/yt-WrdsotPDrRg@1x.jpg 1x, https://rubenerd.com/files/2019/yt-WrdsotPDrRg@2x.jpg 2x" alt="Play Darwin Derby by Vulfpeck" style="width:500px;height:281px;" /></a></p>
 

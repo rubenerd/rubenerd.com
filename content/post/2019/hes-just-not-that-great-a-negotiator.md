@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - politics
 - youtube
-- written-in-sydney
+location: sydney
 ---
 My brain has got to the point where it filters news about Mr Orange automatically. But this one slipped through the cracks, like a supine slurry of cheap citrus cordial; desperate to taste like the real thing, but fooling fewer and fewer people. Or *less* people, as he'd say.
 

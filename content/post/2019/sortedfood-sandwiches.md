@@ -8,7 +8,7 @@ category: Thoughts
 tag:
 - food
 - sortedfood
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=VQ2kyrlUia8" title="Play 3 First Class Sandwich Fillings To Make Lunch Great Again"><img src="https://rubenerd.com/files/2019/yt-VQ2kyrlUia8@1x.jpg" srcset="https://rubenerd.com/files/2019/yt-VQ2kyrlUia8@1x.jpg 1x, https://rubenerd.com/files/2019/yt-VQ2kyrlUia8@2x.jpg 2x" alt="Play 3 First Class Sandwich Fillings To Make Lunch Great Again" style="width:500px;height:281px;" /></a></p>
 

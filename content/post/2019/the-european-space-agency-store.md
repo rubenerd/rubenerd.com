@@ -10,7 +10,7 @@ tag:
 - sailor-moon
 - science
 - space
-- written-in-sydney
+location: sydney
 ---
 I mentioned the European Space Agency in my [Chrysler Building post] because I found out today they have a [web store]. It's one of those outsourced, print to order places, but they still have some cool stuff.
 

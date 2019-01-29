@@ -10,7 +10,7 @@ tag:
 - gohugo
 - rss
 - xml
-- written-in-sydney
+location: sydney
 ---
 The Hugo static site generator creates [four types of RSS feeds], for:
 

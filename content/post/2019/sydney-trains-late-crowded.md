@@ -9,7 +9,7 @@ tag:
 - public-transport
 - trains
 - transit 
-- written-in-sydney
+location: sydney
 ---
 Matt O’Sullivan [wrote this for the Sydney Morning Herald] this morning, having received material from a state government freedom of information request:
 

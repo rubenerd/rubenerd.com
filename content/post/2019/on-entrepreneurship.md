@@ -6,7 +6,7 @@ year: "2019"
 category: Thoughts
 tag:
 - business
-- written-in-sydney
+location: sydney
 ---
 [holoduke] on a Hacker News thread:
 

@@ -10,7 +10,7 @@ tag:
 - fate-grand-order
 - mobile-games
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 My *[Fate/Grand Order]* luck has been hit and miss of late. I [summoned Ishtar] who I wanted from the start, but I didn't get the angelically handsome and supremely useful Merlin, or the [Bride version] of everyone's favourite Umu from last year.
 

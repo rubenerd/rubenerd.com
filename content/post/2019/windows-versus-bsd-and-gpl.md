@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - linux
-- written-in-sydney
+location: sydney
 ---
 [This Slashdot user] defended the GPL compared to the BSD licence back in 1999:
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - advice
 - personal
-- written-in-sydney
+location: sydney
 ---
 This was from [@NyadolNyuon]\:
 

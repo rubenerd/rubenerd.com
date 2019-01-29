@@ -7,7 +7,7 @@ category: Software
 tag:
 - debian
 - linux
-- written-in-sydney
+location: sydney
 ---
 Trying to [kill] a process:
 

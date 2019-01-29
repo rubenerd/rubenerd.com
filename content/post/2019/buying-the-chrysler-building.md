@@ -12,7 +12,7 @@ tag:
 - new-york
 - personal
 - united-states
-- written-in-sydney
+location: sydney
 ---
 Everyone's done those hypothetical about what one would do with a million dollars. I feel its somewhat less exciting for my generation, given that amount would barely cover an apartment in Singapore or Sydney. But if we took absolute numbers out, and assumed selfishness in lieu of altruism, what would you buy?
 

@@ -8,7 +8,7 @@ tag:
 - john-roderick
 - podcasts
 - road-work
-- written-in-sydney
+location: sydney
 ---
 John Roderick:
 

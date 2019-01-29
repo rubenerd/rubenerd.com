@@ -9,7 +9,7 @@ tag:
 - macos
 - tigervnc
 - vnc
-- written-in-sydney
+location: sydney
 ---
 [TigerVNC] is *by far* my favourite cross-platform VNC client. Others try to shoehorn all these extra features, but TigerVNC presents you with a connection dialog. It's not Retina/HiDPI, but nothing I'm connecting to is anyway.
 

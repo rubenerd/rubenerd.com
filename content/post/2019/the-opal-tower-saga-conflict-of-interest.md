@@ -9,7 +9,7 @@ tag:
 - australia
 - design
 - politics
-- written-in-sydney
+location: sydney
 ---
 I thought I had a rough Christmas and New Years on account of stomach fun, but at least my apartment building wasn't in danger. [Biwa Kwan summarised the situation] for SBS News:
 

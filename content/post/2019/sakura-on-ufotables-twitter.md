@@ -10,7 +10,7 @@ tag:
 - fate-stay-night
 - heavens-feel
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 Clara shared ufotable's Twitter account with me this afternoon. They've understandably been [heavily spruiking] the second *Heavens Feel* movie starring everyone's favourite purple haired character. 
 

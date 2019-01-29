@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - cafes
 - coffee
-- written-in-sydney
+location: sydney
 ---
 Have some things I've heard in the last five minutes, as I sit here beveraging this coffee. I'm making *beverage* a verb, try and stop me.
 
