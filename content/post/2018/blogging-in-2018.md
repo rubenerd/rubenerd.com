@@ -7,7 +7,7 @@ category: Internet
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I'm rather partial to blogging. Problem is, I used to love it. There are several reasons I can think of, as opposed to divine from another source:
 

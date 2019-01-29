@@ -10,7 +10,7 @@ tag:
 - freebsd
 - kde
 - linux
-- written-in-sydney
+location: sydney
 ---
 The IT world has been consumed with thoughts around this [proposed IBM Red Hat buyout]. But buried towards the end of the [release notes for 7.6] of Red Hat Enterprise Linux was this bullet point:
 

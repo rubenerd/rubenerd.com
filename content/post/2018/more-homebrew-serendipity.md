@@ -10,7 +10,7 @@ tag:
 - homebrew
 - mac
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 I always see interesting stuff when updating [Homebrew]. I had some [serendipity in February], here are some more packages I hadn't heard of:
 

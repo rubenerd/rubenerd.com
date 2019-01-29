@@ -8,7 +8,7 @@ tag:
 - australia
 - news
 - politics
-- written-in-sydney
+location: sydney
 ---
 *This was originally written in early September 2018, but I didn't post it. I try to keep politics off Rubenerd.com thesedays, but I guess I already wrote about the Victorian opposition leader's [suppository of wisdom], so let's run with it.*
 

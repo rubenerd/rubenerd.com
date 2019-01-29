@@ -10,7 +10,7 @@ tag:
 - photos
 - singapore
 - transit
-- written-in-sydney
+location: sydney
 ---
 I realised I have all these photos taken over the years, but I've barely shared any of them. I'm going to change this, in a new post series called [Ruben Mines His Photo Archive]. Wow, I gave that title no thought at all.
 

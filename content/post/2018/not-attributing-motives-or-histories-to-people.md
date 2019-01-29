@@ -8,7 +8,7 @@ tag:
 - personal
 - pontificating
 - philosophy
-- written-in-sydney
+location: sydney
 ---
 I didn't mention it in my [welcome to 2018] post, but another goal I had for this year was to try to stop attributing motives or histories to people I don't know. It was informed by a couple of incidents Clara and I had with random people last year:
 

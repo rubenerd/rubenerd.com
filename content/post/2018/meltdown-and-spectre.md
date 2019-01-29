@@ -8,7 +8,7 @@ tag:
 - security
 - cpus
 - intel
-- written-in-sydney
+location: sydney
 ---
 <img src="https://rubenerd.com/files/2018/meltdown.min.svg" alt="Logo for Meltdown" style="width:100px;" /><img src="https://rubenerd.com/files/2018/spectre.min.svg" alt="Logo for Spectre" style="width:200px;" />
 

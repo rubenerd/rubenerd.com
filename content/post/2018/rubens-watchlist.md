@@ -12,7 +12,7 @@ tag:
 - magic
 - video
 - watchlist
-- written-in-sydney
+location: sydney
 ---
 Here are three videos I watched this week. This may become a regular [feature](https://rubenerd.com/tag/watchlist/), now that I have a script to auto-generate thumbnails without doing embeds.
 

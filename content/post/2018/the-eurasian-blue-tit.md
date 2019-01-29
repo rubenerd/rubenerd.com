@@ -9,7 +9,7 @@ tag:
 - birds
 - photos
 - wikipedia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/eurasian-blue-tit@1x.jpg" srcset="https://rubenerd.com/files/2018/eurasian-blue-tit@1x.jpg 1x, https://rubenerd.com/files/2018/eurasian-blue-tit@2x.jpg 2x" alt="Photo of the Eurasian Blue Tit, by Francis Franklin" style="width:500px" /></p>
 

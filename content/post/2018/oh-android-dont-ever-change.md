@@ -8,7 +8,7 @@ category: Hardware
 tag:
 - android
 - mobile-phones
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/Motorola-P30@1x.jpg" srcset="https://rubenerd.com/files/2018/Motorola-P30@1x.jpg 1x, https://rubenerd.com/files/2018/Motorola-P30@2x.jpg 2x" alt="Leaked photo of the Motorola P30" style="width:210px" /></p>
 

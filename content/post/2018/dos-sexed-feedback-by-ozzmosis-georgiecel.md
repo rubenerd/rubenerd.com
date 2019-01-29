@@ -9,7 +9,7 @@ tag:
 - comments
 - health
 - feedback
-- written-in-sydney
+location: sydney
 ---
 [The @ozzmosis commented] on my [DOSKEY post]\:
 

@@ -6,7 +6,7 @@ year: "2018"
 category: Thoughts
 tag:
 - sydney
-- written-in-sydney
+location: sydney
 ---
 Today we bid adieu to two semi-recent establishments in the northern Sydney suburb of Chatswood that have since ceased to exist, perhaps akin to a certain Pythonian parrot.
 

@@ -10,7 +10,7 @@ tag:
 - environment
 - public-transport
 - tesla
-- written-in-sydney
+location: sydney
 ---
 I observed something very *North Sydney* this afternoon. A shiny red Maserati cruised past us huddled around a pedestrian crossing. All but two people in the seething mass of peak-hour pedestrians ignored it. a Telsa drove past in such an unobtrusive colour I already can't remember it. I kid you not, more than half the crowd turned to look.
 

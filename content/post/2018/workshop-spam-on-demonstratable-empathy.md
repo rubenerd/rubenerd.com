@@ -8,7 +8,7 @@ tag:
 - communication
 - empathy
 - spam
-- written-in-sydney
+location: sydney
 --- 
 Here's some fun spam:
 

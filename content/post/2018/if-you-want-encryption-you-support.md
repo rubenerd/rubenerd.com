@@ -9,7 +9,7 @@ tag:
 - encryption
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Last week I [commented] on the Australian government's proposed draconian encryption backdoors. The agencies tasked with soliciting industry feedback should return a single comment: break encryption, and you'll break the economy, to say nothing of civil liberties.
 

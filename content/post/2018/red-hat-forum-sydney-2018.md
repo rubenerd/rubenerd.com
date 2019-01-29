@@ -13,7 +13,7 @@ tag:
 - red-hat
 - sydney
 - work
-- written-in-sydney
+location: sydney
 ---
 I was able to steal away some work time and go to the Red Hat Forum 2018 in Sydney. Even for a FreeBSD guy these conferences always have great talks. Conveniently, my two favourites were back to back in the same hall this year.
 

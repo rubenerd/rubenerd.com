@@ -9,7 +9,7 @@ tag:
 - abc
 - california2018
 - news
-- written-in-san-francisco
+location: san-francisco
 ---
 The big news in Australia has been the centre-right Liberal party's peak council voting overwhelmingly to privatise the national broadcaster, the ABC. MPs were quick to assuage concerns, or attempt to, as [Amy Remeikis reports]\:
 

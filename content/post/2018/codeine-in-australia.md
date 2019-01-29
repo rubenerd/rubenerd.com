@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - health
 - personal
-- written-in-sydney
+location: sydney
 ---
 While I'm [doing politics today], here's something else!
 

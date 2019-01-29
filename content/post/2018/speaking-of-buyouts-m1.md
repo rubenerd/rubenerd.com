@@ -8,7 +8,7 @@ tag:
 - m1
 - phones
 - singapore
-- written-in-sydney
+location: sydney
 ---
 ZDNet Australia had these articles under the **More From Australia** heading:
 

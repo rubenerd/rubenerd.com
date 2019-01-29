@@ -9,7 +9,7 @@ tag:
 - midsomer-murders
 - television
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/midsomer-murders-s07e01@1x.jpg" srcset="https://rubenerd.com/files/2018/midsomer-murders-s07e01@1x.jpg 1x, https://rubenerd.com/files/2018/midsomer-murders-s07e01@2x.jpg 2x" alt="DCI Barnaby hovering over a computer" style="width:500px; height:144px;" /></p>
 

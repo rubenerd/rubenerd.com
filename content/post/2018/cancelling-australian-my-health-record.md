@@ -8,7 +8,7 @@ tag:
 - australia
 - health
 - politics
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/logo-hr.svg" alt="My Health Record icon" style="width:128px; float:right; margin:0 0 1em 2em" /></p>
 

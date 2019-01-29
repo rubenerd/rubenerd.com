@@ -9,7 +9,7 @@ tag:
 - coffee
 - security
 - wifi
-- written-in-sydney
+location: sydney
 ---
 Sitting in a coffee shop, listening to two computer nerds preening their feathers at each other. It's not so much eavesdropping, because they're practically shouting with the most stereotypically-nasal voices you can imagine!
 

@@ -8,7 +8,7 @@ tag:
 - bsd
 - development
 - freebsd
-- written-in-sydney
+location: sydney
 ---
 Via the [FreeBSD Questions] mailing list:
 

@@ -8,7 +8,7 @@ category: Media
 tag:
 - 44876-album
 - music
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/stingshaggy44876@1x.jpg" srcset="https://rubenerd.com/files/2018/stingshaggy44876@1x.jpg 1x, https://rubenerd.com/files/2018/stingshaggy44876@2x.jpg 2x" alt="Cover art for 44/876" style="width:192px; height:192px; float:right; margin:0 0 1em 2em; background:#e3e8ed" /></p>
 

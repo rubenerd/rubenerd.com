@@ -11,7 +11,7 @@ tag:
 - unlimited-blade-works
 - archer
 - toosaka-rin
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fsn-ubw-animedia@1x.jpg" srcset="https://rubenerd.com/files/2018/fsn-ubw-animedia@1x.jpg 1x, https://rubenerd.com/files/2018/fsn-ubw-animedia@2x.jpg 2x" alt="Full page magazine spread showing Archer carrying Rin" style="width:500px; height:317px" /></p>
 

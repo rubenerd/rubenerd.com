@@ -10,7 +10,7 @@ tag:
 - security
 - ssh
 - whoops
-- written-in-sydney
+location: sydney
 ---
 There's been much talk about [OpenSSH user enumeration vulnerabilities]. This is a more pedestrian post, or stationary one if you were sitting down.
 

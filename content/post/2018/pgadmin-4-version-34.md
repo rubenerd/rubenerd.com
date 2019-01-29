@@ -9,7 +9,7 @@ tag:
 - databases
 - postgresql
 - reviews
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/pgadmin4-dashboard.png" alt="Screenshot from their website showing the latest release" style="width:488px; height:275px;" />
 

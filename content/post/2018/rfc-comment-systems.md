@@ -7,7 +7,7 @@ category: Internet
 tag:
 - comments
 - weblog
-- written-in-sydney
+location: sydney
 ---
 This throwaway line on my recent post about [replacing social networks with RSS] generated some interest:
 

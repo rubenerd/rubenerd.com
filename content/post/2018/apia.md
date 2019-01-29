@@ -8,7 +8,7 @@ tag:
 - australia
 - geography
 - samoa
-- written-in-sydney
+location: sydney
 ---
 The last time I was in the vicinity of Australian television on a regular basis, I was inundated with dozens of ads for *Apia*, the *Australian Pensioners Insurance Agency*. It perhaps says more about the demographic still watching television than the networks care to admit.
 

@@ -8,7 +8,7 @@ tag:
 - english
 - language
 - typos
-- written-in-sydney
+location: sydney
 ---
 This is the best sentence I've written in years:
 

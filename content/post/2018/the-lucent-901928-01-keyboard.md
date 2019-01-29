@@ -8,7 +8,7 @@ category: Hardware
 tag:
 - keyboards
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/keyboard-lucent-full@1x.jpg" srcset="https://rubenerd.com/files/2018/keyboard-lucent-full@1x.jpg 1x, https://rubenerd.com/files/2018/keyboard-lucent-full@2x.jpg 2x" alt="" style="width:500px" /></p>
 

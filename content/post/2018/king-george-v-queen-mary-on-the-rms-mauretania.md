@@ -11,7 +11,7 @@ tag:
 - transit
 - travel
 - uk
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/maury-george-mary@1x.jpg" srcset="https://rubenerd.com/files/2018/maury-george-mary@1x.jpg 1x, https://rubenerd.com/files/2018/maury-george-mary@2x.jpg 2x" alt="Photo of the RMS Mauretania with the royal tender in front" style="width:500px; height:277px;" /></p>
 

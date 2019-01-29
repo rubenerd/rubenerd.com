@@ -9,7 +9,7 @@ tag:
 - homebrew
 - mac
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 homebrew-cask-versions lets you install previous or beta versions of popular GUI tools that aren't in mainline [homebrew cask].
 

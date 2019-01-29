@@ -9,7 +9,7 @@ tag:
 - wales
 - united-kingdom
 - united-states
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/ours-shinjuku-night@1x.jpg" srcset="https://rubenerd.com/files/2018/ours-shinjuku-night@1x.jpg 1x, https://rubenerd.com/files/2018/ours-shinjuku-night@2x.jpg 2x" alt="" style="width:500px" /></p>
 

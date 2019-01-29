@@ -9,7 +9,7 @@ tag:
 - git
 - github
 - microsoft
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png" srcset="https://rubenerd.com/files/2018/gh-to-bitbucket@1x.png 1x, https://rubenerd.com/files/2018/gh-to-bitbucket@2x.png 2x" alt="" style="width:494px; height:169px;" /></p>
 

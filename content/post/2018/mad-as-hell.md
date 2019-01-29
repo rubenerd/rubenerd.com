@@ -11,7 +11,7 @@ tag:
 - politics
 - north-korea
 - united-states
-- written-in-sydney
+location: sydney
 ---
 I didn't know Shaun Michallef's Mad as Hell had clips on YouTube! Though I'm not sure if they're geoblocked outside Australia.
 

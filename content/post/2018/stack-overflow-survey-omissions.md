@@ -8,7 +8,7 @@ tag:
 - advertising
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 I just did the Stack Overflow developer survey; advertising, AI ethics, and employment were the big themes. Most of the questions were rote, but this one gave me pause:
 

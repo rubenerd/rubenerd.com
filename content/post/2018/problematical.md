@@ -9,7 +9,7 @@ tag:
 - freebsd
 - language
 - podcasts
-- written-in-sydney
+location: sydney
 ---
 A few technical podcasters I listen to keep using the term *problematical*.
 I didn't think it was a word, but according to WordNet:

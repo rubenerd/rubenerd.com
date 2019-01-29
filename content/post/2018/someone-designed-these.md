@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - design
 - silly
-- written-in-sydney
+location: sydney
 ---
 There are certain questionable design decisions out there, but there's an entire other class that make you try and picture the meeting where people signed off on it. Here are some examples.
 

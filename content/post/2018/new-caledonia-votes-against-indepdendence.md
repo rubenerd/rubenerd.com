@@ -10,7 +10,7 @@ tag:
 - new-caledonia
 - new-zealand
 - politics
-- written-in-sydney
+location: sydney
 ---
 While Australia was obsessing over its yearly [disgusting horse race], and the rest of the world was looking at the US midterms, New Caledonia voted on its independence. Stephen Dziedzic [filed this report] with the ABC: 
 

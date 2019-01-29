@@ -11,7 +11,7 @@ tag:
 - feedback
 - travel
 - united-states
-- written-in-los-angeles
+location: los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/southwest.png" alt="Southwest logo" style="width:89px; height:85px; float:right; margin:0 0 1em 2em" /></p>
 

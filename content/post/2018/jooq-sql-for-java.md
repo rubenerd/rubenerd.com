@@ -7,7 +7,7 @@ category: Software
 tag:
 - java
 - sql
-- written-in-sydney
+location: sydney
 ---
 The [jOOQ] framework is pretty cool; it makes SQL look and work like Java. 
 

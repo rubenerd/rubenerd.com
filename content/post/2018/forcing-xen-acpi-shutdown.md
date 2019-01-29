@@ -9,7 +9,7 @@ tag:
 - linux
 - xen
 - virtualisation
-- written-in-sydney
+location: sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2014/Xen-Fu-Panda-500px.png" alt="Xen's Panda mascot" style="width:250px;" /></p></figure>
 
@@ -18,9 +18,9 @@ If you've got a Xen domU [misbehaving], you can force an ACPI shutdown with the 
 For example, say you have the following:
 
     Name                  ID   Mem VCPUs  State Time(s)
-- written-in-sydney
+location: sydney
 ---
-- written-in-sydney
+location: sydney
 ---
 
 To force shutdown domain 32:

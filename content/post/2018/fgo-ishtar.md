@@ -12,7 +12,7 @@ tag:
 - mobile-games
 - toosaka-rin
 - unlimited-blade-works
-- written-in-sydney
+location: sydney
 ---
 I'd say *[Fate/Grand Order]* is my favourite mobile game, but to be fair it's the only one I've ever been able to get into. I loved that I could summon the servants from the original *Fate/Stay Night* that left such a lasting impression on me more than a decade ago.
 

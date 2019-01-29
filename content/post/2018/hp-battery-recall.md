@@ -10,7 +10,7 @@ tag:
 - notebooks
 - batteries
 - safety
-- written-in-sydney
+location: sydney
 ---
 HP have announced they're [doing a battery recall]:
 

@@ -11,7 +11,7 @@ tag:
 - freebsd
 - linux
 - xfs
-- written-in-sydney
+location: sydney
 ---
 FreeBSD has `newfs` for baking UFS volumes, with a handy `newfs_msdos` shortcut for formatting FAT. `mkfs` has equivalent shortcuts on Linux for the file systems it supports, as shown by the following tab completion on Debian Stretch:
 

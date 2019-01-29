@@ -8,7 +8,7 @@ tag:
 - games
 - language
 - video
-- written-in-sydney
+location: sydney
 ---
 I watch a lot of YouTube thesedays, albeit in private mode and logged out of The Goog. It doesn't render following channels any trickier, just add their feed to your [RSS aggregator] of choice, and you can stop some of the more insidious forms of tracking.
 

@@ -10,7 +10,7 @@ tag:
 - apple
 - iomega
 - tungsten
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-2005desk@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-2005desk@1x.jpg 1x, https://rubenerd.com/files/2018/photo-2005desk@2x.jpg 2x" alt="Photo of my desk from 2005, with the below features" style="width:500px" /></p>
 

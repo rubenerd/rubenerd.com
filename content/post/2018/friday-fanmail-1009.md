@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 It's time for some more Friday fanmail! Though I accidently forgot to post this last Friday, so it'll be Wednesday. That means it's either two days early, or very late.
 

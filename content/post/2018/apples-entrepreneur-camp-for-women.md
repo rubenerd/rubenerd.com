@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - apple
 - business
-- written-in-sydney
+location: sydney
 ---
 Apple has announced its [Apple Entrepreneur Camp], for organisations founded and lead by women. I think it's a terrific idea. From the landing page:
 

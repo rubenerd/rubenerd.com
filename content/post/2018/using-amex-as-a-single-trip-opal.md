@@ -11,7 +11,7 @@ tag:
 - trains
 - sydney
 - australia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-gordon@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-gordon@1x.jpg 1x, https://rubenerd.com/files/2018/photo-gordon@2x.jpg 2x" alt="Photo I took upstairs at Gordon station last weekend" style="width:500px" /></p>
 

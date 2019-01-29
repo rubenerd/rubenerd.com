@@ -8,7 +8,7 @@ tag:
 - photos
 - moment-of-calm
 - wikipedia
-- written-in-sydney
+location: sydney
 ---
 I love finding tranquil pictures on Wikipedia or Wikimedia Commons; they make great desktop backgrounds for work machines. [This image] of the Mulgrave River was taken and uploaded by [04marjees] in 2007, which is already a decade ago. That's not tranquil, that's crazy!
 

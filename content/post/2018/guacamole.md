@@ -9,7 +9,7 @@ tag:
 - california2018
 - family
 - food
-- written-in-los-angeles
+location: los-angeles
 ---
 This is my first blog post from Los Angeles! Though the topic in question is perhaps only tangentially related to the place. Like a protractor. Clara found a soft toy protractor in Little Tokyo and came *this close* to buying it.
 

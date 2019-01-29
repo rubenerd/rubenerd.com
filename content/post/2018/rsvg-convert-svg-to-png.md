@@ -13,7 +13,7 @@ tag:
 - linux
 - netbsd
 - png
-- written-in-sydney
+location: sydney
 ---
 There are a few ways to convert an SVG to a PNG without leaving the shell, including \*Magick and Inkscape, but I find rsvg-convert the easiest. 
 

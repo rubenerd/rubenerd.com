@@ -7,7 +7,7 @@ category: Internet
 tag:
 - privacy
 - rights
-- written-in-sydney
+location: sydney
 ---
 The thought-terminating cliche about Facebook goes *if you don't like it, you don't have to use it.* And it's transparently specious:
 

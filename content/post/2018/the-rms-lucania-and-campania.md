@@ -8,7 +8,7 @@ category: Thoughts
 tag:
 - design
 - ocean-liners
-- written-in-sydney
+location: sydney
 ---
 The 1890s were a fascinating time for engineering. Steel-hulled ocean liners were transforming society with their regularly scheduled ocean crossings, in ways nobody could have predicted.
 

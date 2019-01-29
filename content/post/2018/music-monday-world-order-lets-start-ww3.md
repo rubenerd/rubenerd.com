@@ -12,7 +12,7 @@ tag:
 - politics
 - united-states
 - world-order
-- written-in-sydney
+location: sydney
 ---
 <p><a title="WORLD ORDER Let's start WW3" href="https://www.youtube.com/watch?v=FMrqlo_L-gY"><img src="https://rubenerd.com/files/2018/yt-FMrqlo_L-gY@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-FMrqlo_L-gY@1x.jpg 1x, https://rubenerd.com/files/2018/yt-FMrqlo_L-gY@2x.jpg 2x" alt="WORLD ORDER Let's start WW3" style="width:500px" /></a></p>
 

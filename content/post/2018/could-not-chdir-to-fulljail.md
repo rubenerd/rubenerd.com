@@ -10,7 +10,7 @@ tag:
 - freebsd
 - jails
 - security
-- written-in-sydney
+location: sydney
 ---
 I've been meaning to try `iocage` on FreeBSD, but Dirk Engling and the team have done such a good job with `ezjail`, I keep using it for everything. But I was reminded of an issue when using ezjail on standard zroot installs.
 

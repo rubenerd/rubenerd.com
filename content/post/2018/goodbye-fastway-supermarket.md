@@ -10,7 +10,7 @@ tag:
 - food
 - north-sydney
 - sydney
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-fastway@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-fastway@1x.jpg 1x, https://rubenerd.com/files/2018/photo-fastway@2x.jpg 2x" alt="Photo outside the now-abandoned Fastway Supermarket in North Sydney" style="width:500px; height:333px;" /></p>
 

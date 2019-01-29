@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I've been asked by a few gentleman how I'm able to blog when I'm otherwise completely busy. There are a few reasons, though in Australia we call them sultanas:
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - dates
 - pointless-milestone
-- written-in-sydney
+location: sydney
 ---
 The first of March — or March the first for my American friends — always feels weird. My body is attuned to thirty or thirty one day months. A couple of days of long overtime, or some bad sleep, and that one day difference disappears in a Gregorian fog.
 

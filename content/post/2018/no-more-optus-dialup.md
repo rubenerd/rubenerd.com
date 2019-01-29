@@ -9,7 +9,7 @@ tag:
 - news
 - nostalgia
 - pointless-misaka-reference
-- written-in-san-francisco
+location: san-francisco
 ---
 Steven Kiernan [reported on the end of an era]\:
 

@@ -8,7 +8,7 @@ tag:
 - browsers
 - facebook
 - javascript
-- written-in-sydney
+location: sydney
 ---
 Via Clara, if you attempt to do anything against Facebook, such as attempt to circumnavigate paywalls: 
 

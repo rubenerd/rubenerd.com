@@ -9,7 +9,7 @@ tag:
 - imac
 - personal
 - home
-- written-in-sydney
+location: sydney
 ---
 So after two years of squirreling away a bit into the discretionary budget each month, I got a new iMac!
 

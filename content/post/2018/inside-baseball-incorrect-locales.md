@@ -9,7 +9,7 @@ tag:
 - california-2018
 - timezones
 - travel
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/sf-third-street-traffic@1x.jpg" srcset="https://rubenerd.com/files/2018/sf-third-street-traffic@1x.jpg 1x, https://rubenerd.com/files/2018/sf-third-street-traffic@2x.jpg 2x" alt="Traffic backed up along 4th Street in Mission Bay" style="width:500px" /></p>
 

@@ -8,7 +8,7 @@ tag:
 - australia
 - economics
 - news
-- written-in-sydney
+location: sydney
 ---
 Greg Jericho's [Grogonomics column this morning] had this gem:
 

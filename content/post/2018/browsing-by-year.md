@@ -7,7 +7,7 @@ category: Internet
 tag:
 - weblog
 - hugo
-- written-in-sydney
+location: sydney
 ---
 You can now browse posts here by year again, which is kinda cool. The links are now in the sidebar and archive pages. For those reading this via [RSS], these are the browsable years:
 

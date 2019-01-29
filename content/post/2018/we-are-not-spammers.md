@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 There must be an English term to describe those who are betrayed by their descriptions. Like a **prestigious** award winner; if the award were prestigious, you wouldn't need to qualify it. Or an **exciting** announcement; if it were exciting, you wouldn't need to... you get the idea. 
 

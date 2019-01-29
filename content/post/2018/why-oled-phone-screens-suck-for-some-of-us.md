@@ -8,7 +8,7 @@ tag:
 - apple
 - iphone
 - oled
-- written-in-sydney
+location: sydney
 ---
 I've been on record here many times discussing why I can't stand OLED screens. I was hoping the flickering, strobing effect was the result of cheap Android panels, but I can't even look at an iPhone X or XS for more than a few seconds without feeling pain in my eyes, and the start of a headache within a few minutes.
 

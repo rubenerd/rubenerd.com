@@ -9,7 +9,7 @@ tag:
 - apple
 - homepod
 - speakers
-- written-in-sydney
+location: sydney
 ---
 I've been reading HomePod news out of interest; as opposed to non-interest, which would be counter productive. I have credit cards for the points, but I always keep reserve cash in the bank and pay them at the end of the month. The only interest I get is the paltry stuff from savings. How's that for a digression.
 

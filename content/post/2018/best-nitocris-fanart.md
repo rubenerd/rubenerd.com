@@ -10,7 +10,7 @@ tag:
 - fate
 - fate-grand-order
 - nitocris
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/amakura@1x.jpg" srcset="https://rubenerd.com/files/2018/amakura@1x.jpg 1x, https://rubenerd.com/files/2018/amakura@2x.jpg 2x" alt="" style="width:420px; height:636px;" /></p>
 

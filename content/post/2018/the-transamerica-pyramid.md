@@ -10,7 +10,7 @@ tag:
 - california-2018
 - design
 - san-francisco
-- written-in-san-francisco
+location: san-francisco
 ---
 I've been tracking a [list of my favourite buildings] since I was old enough to read paper encyclopædias at school, then Encarta, then Wikipedia. I never thought I'd ever get to see some of them, let alone all, but Clara and I have been ticking them off!
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - spam
 - unsubscribe
-- written-in-sydney
+location: sydney
 ---
 We have a new winner in the unsubscribe stakes. Prepare your iTelephone LED torches and join me in this dark, meandering tunnel of redundancy and glory.
 

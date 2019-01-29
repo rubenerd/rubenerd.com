@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - exercise
 - swimming
-- written-in-sydney
+location: sydney
 ---
 Clara and I are looking to excercise more, given our Apple Watches have been guilt tripping us with incomplete activity circles. Well, maybe not anymore, given Clara's [popped its screen] when the battery swelled up. Ouch!
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - politics 
-- written-in-sydney
+location: sydney
 ---
 Our conservative prime minster, [on record], during parlimentary question time:
 

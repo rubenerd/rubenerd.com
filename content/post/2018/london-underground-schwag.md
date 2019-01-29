@@ -14,7 +14,7 @@ tag:
 - trains
 - transit
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 Ever wanted a [soft toy tube train] to cuddle?
 

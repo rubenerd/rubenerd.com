@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - economics
-- written-in-sydney
+location: sydney
 ---
 Australia's recent economic growth is encouraging, but its fuelled by something worrying. Greg Jerico's [recent Guardian article]\:
 

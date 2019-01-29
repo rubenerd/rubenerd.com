@@ -13,7 +13,7 @@ tag:
 - nostalgia
 - starbucks
 - wifi
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/starbucks-chermside@1x.png" srcset="https://rubenerd.com/files/2018/starbucks-chermside@1x.png 1x, https://rubenerd.com/files/2018/starbucks-chermside@2x.png 2x" alt="Starbucks Wi-Fi login screen with Chermside listed" style="width:500px; height:296px;" /></p>
 

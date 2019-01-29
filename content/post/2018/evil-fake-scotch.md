@@ -12,7 +12,7 @@ tag:
 - food
 - news
 - scotland
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/literalmeme@1x.jpg" srcset="https://rubenerd.com/files/2018/literalmeme@1x.jpg 1x, https://rubenerd.com/files/2018/literalmeme@2x.jpg 2x" alt="I don't always use memes literally... wait" style="width:160px; height:200px; float:right; margin:0 0 1em 2em;" /></p>
 

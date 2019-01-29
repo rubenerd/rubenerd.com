@@ -9,7 +9,7 @@ tag:
 - economics
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 *This post was roughly adapted from a letter I've sent to my local MP and senators. I'm releasing this post into the [public domain]; copy as much as you want if you find it useful.*
 

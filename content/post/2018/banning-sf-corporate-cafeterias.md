@@ -10,7 +10,7 @@ tag:
 - san-francisco
 - travel
 - united-states
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sf-financialdist@1x.jpg" srcset="https://rubenerd.com/files/2018/sf-financialdist@1x.jpg 1x, https://rubenerd.com/files/2018/sf-financialdist@2x.jpg 2x" alt="Market Strret in San Francisco" style="width:500px; height:333px;" /></p>
 

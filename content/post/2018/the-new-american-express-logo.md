@@ -11,7 +11,7 @@ tag:
 - design
 - fonts
 - typeography
-- written-in-sydney
+location: sydney
 ---
 *This post was originally written in August 2018, but I was trying to find a closer image of the posters in the MUNI station below. Never mind!*
 

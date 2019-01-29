@@ -12,7 +12,7 @@ tag:
 - mac-os-x
 - os-x
 - macos
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/klm-font@2x.png" alt="Font Book showing KLM in the middle line of the font preview" /></p>
 

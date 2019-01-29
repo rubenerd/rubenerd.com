@@ -9,7 +9,7 @@ tag:
 - accessibility
 - design
 - popups
-- written-in-sydney
+location: sydney
 ---
 While I'm talking about the [modern web], here it is writ large. If this is a design tip or business trend, especially in the context of a page explaining how to redesign your site, [count me out]!
 

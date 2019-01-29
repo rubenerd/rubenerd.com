@@ -8,7 +8,7 @@ tag:
 - security
 - spam
 - anti-virus
-- written-in-sydney
+location: sydney
 ---
 Here's some legit&trade; email I received over my morning coffee:
 

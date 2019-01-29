@@ -10,7 +10,7 @@ tag:
 - freebsd
 - orionvm
 - zfs
-- written-in-sydney
+location: sydney
 ---
 I was creating a ZFS mirrored pool on a FreeBSD cloud instance with two identical data disks, like a gentleman:
 

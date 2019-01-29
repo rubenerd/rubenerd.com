@@ -9,7 +9,7 @@ tag:
 - memes
 - sailor-mercury
 - sailor-moon
-- written-in-sydney
+location: sydney
 ---
 I'm three months late to [this meme], but **cough**! ^^;
 

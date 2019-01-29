@@ -8,7 +8,7 @@ category: Internet
 tag:
 - asana
 - task-managers
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/how-likely-to-recommend-spam.png" alt="How likely are you to recommend REDACTED to a friend or colleague?" style="width:500px" /></p>
 

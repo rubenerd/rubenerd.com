@@ -9,7 +9,7 @@ tag:
 - lotus
 - lotus-notes
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 IBM is selling Lotus, presumably to empty some seats from Red Hat. User *hey!* on Slashdot [wrote a great comment] I have to quote verbatim:
 

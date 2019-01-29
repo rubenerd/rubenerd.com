@@ -10,7 +10,7 @@ tag:
 - cameras
 - pentax
 - photography
-- written-in-san-francisco
+location: san-francisco
 ---
 Speaking of cameras, I completely missed that Pentax released a [revision to their first full frame SLR], and it looks *awesome*.
 

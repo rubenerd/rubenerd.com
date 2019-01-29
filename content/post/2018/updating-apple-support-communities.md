@@ -10,7 +10,7 @@ tag:
 - documentation
 - graphics
 - retina
-- written-in-sydney
+location: sydney
 ---
 I saw this message in lieu of an *Apple Support Communities* page. It looks sharp on a Retina screen here because its scaled 50%; the original graphic was stretched like it was living in 2009. Also note the skeuomorphic paper, a term likely 90% of tech pundits didn't know prior to iOS 7.
 

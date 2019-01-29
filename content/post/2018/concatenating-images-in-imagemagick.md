@@ -8,7 +8,7 @@ tag:
 - photos
 - imagemagick
 - guides
-- written-in-sydney
+location: sydney
 ---
 *<strong>UPDATE:</strong> I've since been told an [even better way].*
 

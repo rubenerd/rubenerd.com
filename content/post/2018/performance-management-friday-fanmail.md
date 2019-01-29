@@ -10,7 +10,7 @@ tag:
 - friday-fanmail
 - spam
 - typography
-- written-in-sydney
+location: sydney
 ---
 Friday Fanmail time! Each and every Friday, except when I either forget or couldn't be bothered, I post a piece of fanmail sent to me regarding this blog, so that we may all pay witness to their [majestic words].
 

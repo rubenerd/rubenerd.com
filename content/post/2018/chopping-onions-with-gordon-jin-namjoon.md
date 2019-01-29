@@ -11,7 +11,7 @@ tag:
 - variety-shows
 - television
 - gordon-ramsay
-- written-in-sydney
+location: sydney
 ---
 <p></p>
 

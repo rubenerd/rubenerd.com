@@ -11,7 +11,7 @@ tag:
 - netbsd
 - security
 - ssh
-- written-in-sydney
+location: sydney
 ---
 There's a ton of tech I take for granted but barely discuss. Mosh has received all but one blog mention here, but I use it daily. I consider it mandatory for administering FreeBSD, NetBSD, and Linux servers in remote availability zones.
 

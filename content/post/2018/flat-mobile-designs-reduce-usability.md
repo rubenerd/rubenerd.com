@@ -7,7 +7,7 @@ category: Software
 tag:
 - design
 - ui
-- written-in-sydney
+location: sydney
 ---
 While we're [talking usability], Zorro shared [this Register story] on [Slashdot] reporting that users navigate flat UI designs 22 percent slower. An [AC posted this] in response, which I have to quote in full:
 

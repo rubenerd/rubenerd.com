@@ -13,7 +13,7 @@ tag:
 - mac-os-x
 - os-x
 - personal
-- written-in-sydney
+location: sydney
 ---
 *This post was originally written in early October 2018*
 

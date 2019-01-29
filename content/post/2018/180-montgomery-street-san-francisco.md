@@ -10,7 +10,7 @@ tag:
 - california-2018
 - san-francisco
 - travel
-- written-in-san-francisco
+location: san-francisco
 ---
 Barely any sleep was had on [the aforementioned flight]; we had strong turbulence the entire time. It also didn't help that I was congested! So I've decided to stay awake and force myself to sleep at the normal time here.
 

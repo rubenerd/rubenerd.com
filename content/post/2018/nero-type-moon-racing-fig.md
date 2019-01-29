@@ -10,7 +10,7 @@ tag:
 - fate
 - type-moon
 - figures
-- written-in-sydney
+location: sydney
 ---
 I preface this blog post with a giant chunk of text from a [related fig release] last year:
 

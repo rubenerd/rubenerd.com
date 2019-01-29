@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - linux
-- written-in-sydney
+location: sydney
 ---
 The first thing I do on apt systems is install net-tools to get `ifconfig` back. The reason being that some Linux distros have removed it entirely in lieu of `ip`. There are a few stated reasons why:
 

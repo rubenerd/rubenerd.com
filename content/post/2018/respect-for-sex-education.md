@@ -8,7 +8,7 @@ tag:
 - australia
 - health
 - sex
-- written-in-sydney
+location: sydney
 ---
 Michael Koziol reported on [this suppository of wisdom] in the Sydney Morning Herald on Monday:
 

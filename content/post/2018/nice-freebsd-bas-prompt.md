@@ -9,7 +9,7 @@ tag:
 - bsd
 - freebsd
 - shell
-- written-in-sydney
+location: sydney
 ---
 Every now and then I get the following upon logging into a FreeBSD box:
 

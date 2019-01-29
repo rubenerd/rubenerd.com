@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - science
 - til
-- written-in-sydney
+location: sydney
 ---
 Oscar Lanzi [answered a question] I'd had for ages:
 

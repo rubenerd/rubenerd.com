@@ -10,7 +10,7 @@ tag:
 - scripting
 - shell
 - things-you-already-know-unless-you-dont
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/uploads/bsd_daemon.jpg" alt="" style="width:75px; height:75px; float:right; margin:0 0 1em 2em;" /></p>
 

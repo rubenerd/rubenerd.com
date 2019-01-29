@@ -9,7 +9,7 @@ tag:
 - iphone
 - iphone-5s
 - iphone-7-plus
-- written-in-sydney
+location: sydney
 ---
 On the day Australia's prime minister [lost power], so too did my iPhone 7+. The [Lightning-headphone adapter] I begrudgingly used had been working sporadically since last Thursday, further fuelling my resentment for its necessity and existence.
 

@@ -12,7 +12,7 @@ tag:
 - macos
 - os-x
 - virtualisation
-- written-in-sydney
+location: sydney
 ---
 Create a new blank file with 1.44 MiB:
 

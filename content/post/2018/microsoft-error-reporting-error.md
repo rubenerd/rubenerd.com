@@ -9,7 +9,7 @@ tag:
 - apple
 - macos
 - microsoft
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/msft-error-error@1x.png" srcset="https://rubenerd.com/files/2018/msft-error-error@1x.png 1x, https://rubenerd.com/files/2018/msft-error-error@2x.png 2x" alt="Microsoft Error Reporting is not optimised for your Mac" style="width:499px; height:238px;" /></p>
 

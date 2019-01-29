@@ -6,7 +6,7 @@ year: "2018"
 category: Software
 tag:
 - calculators
-- written-in-sydney
+location: sydney
 ---
 I know, never read the comments. But [this one left on the Fedora Magazine] site was a work of art; name withheld:
 

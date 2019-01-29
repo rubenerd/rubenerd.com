@@ -9,7 +9,7 @@ tag:
 - apple
 - itunes
 - mac
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/itunes-not-available.png" alt="The item you've requested is not currently available in the Australia Store, but it is available in the U.S. Store. ... The item you've requested is not currently available in the U.S. store" style="width:490px; height:401px;" /></p>
 

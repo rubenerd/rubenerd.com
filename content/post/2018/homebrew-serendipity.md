@@ -11,7 +11,7 @@ tag:
 - mac-os-x
 - homebrew
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 I always see interesting stuff when updating [Homebrew], much of which I have no idea what it is:
 

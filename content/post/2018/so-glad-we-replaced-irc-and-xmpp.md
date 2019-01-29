@@ -9,7 +9,7 @@ tag:
 - irc
 - messaging
 - xmpp
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/too-many-clients.png" alt="Messages, Line, Signal, Slack, Skype, HipChat (RIP), Mattermost" style="width:500px; height:83px;" /></p>
 

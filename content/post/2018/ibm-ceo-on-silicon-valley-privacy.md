@@ -8,7 +8,7 @@ tag:
 - business
 - ibm
 - privacy
-- written-in-sydney
+location: sydney
 ---
 IBM's CEO Ginni Rometty [had choice words] for Silicon Valley companies, as reported by Bloomberg:
 

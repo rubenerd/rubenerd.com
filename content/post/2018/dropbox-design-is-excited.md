@@ -8,7 +8,7 @@ tag:
 - color
 - design
 - dropbox
-- written-in-sydney
+location: sydney
 ---
 A coworker reminded me of [Dropbox's design page]. It was a bit cliché, but I enjoyed scrolling around and reading the story.
 

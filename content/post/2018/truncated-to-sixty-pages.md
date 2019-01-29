@@ -8,12 +8,12 @@ tag:
 - errors
 - hugo
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I updated Hugo, the static site generator, and for some reason only the first sixty pages are generated now, inclusive of the home page:
 
                        |  EN    
-- written-in-sydney
+location: sydney
 ---
       Pages            | 14250  
       Paginator pages  |    59
@@ -31,7 +31,7 @@ Three problems. First, you're allegedly not supposed to start sentences with num
 Well, then! I generated on my FreeBSD cloud instance instead, and now all the pages are restored.
 
                        |  EN    
-- written-in-sydney
+location: sydney
 ---
       Pages            | 19330  
       Paginator pages  |   567  

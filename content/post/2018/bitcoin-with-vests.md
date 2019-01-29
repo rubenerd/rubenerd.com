@@ -8,7 +8,7 @@ tag:
 - spam
 - bitcoin
 - currency
-- written-in-sydney
+location: sydney
 ---
 It [began], then [continued], now it's happening again. This will be the last one before putting this series to bed.
 

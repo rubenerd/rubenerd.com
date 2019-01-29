@@ -11,7 +11,7 @@ tag:
 - social-media
 - twitter
 - youtube
-- written-in-sydney
+location: sydney
 ---
 I've been watching a lot of [Doug DeMuro on YouTube], as you can likely tell by now. I'm not even that into cars; he's just such an engaging and interesting reviewer with an admirable attention to detail.
  

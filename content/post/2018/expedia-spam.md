@@ -6,7 +6,7 @@ year: "2018"
 category: Thoughts
 tag:
 - 
-- written-in-sydney
+location: sydney
 ---
 I booked a business trip with Expedia on Sunday. By this morning, I've received the following trove of messages. Important one(s) are highlighted <span style="color:green; font-weight:bold">green</span>.
 

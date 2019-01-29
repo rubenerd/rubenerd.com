@@ -7,7 +7,7 @@ category: Media
 tag:
 - language
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I tried Grammarly on a [recent post]. These were the sentences it highlighted:
 

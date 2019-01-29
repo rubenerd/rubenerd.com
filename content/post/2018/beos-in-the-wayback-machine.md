@@ -9,7 +9,7 @@ tag:
 - wayback-machine
 - nostalgia
 - operating-systems
-- written-in-sydney
+location: sydney
 ---
 I was trying to find the official website for the world's best desktop operating system in the [Wayback Machine], and these were the suggestions I got:
 

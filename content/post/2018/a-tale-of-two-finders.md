@@ -10,7 +10,7 @@ tag:
 - errors
 - finder
 - macos
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/screenie-two-finders.png" alt="Force Quit Applications showing multiple Finders" style="width:337px; height:280px;" /></p>
 

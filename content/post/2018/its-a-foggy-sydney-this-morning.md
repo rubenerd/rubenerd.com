@@ -11,7 +11,7 @@ tag:
 - colour
 - nonsense
 - sydney
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sydneyfog@1x.jpg" srcset="https://rubenerd.com/files/2018/sydneyfog@1x.jpg 1x, https://rubenerd.com/files/2018/sydneyfog@2x.jpg 2x" alt="Photo of fog in Sydney from North Sydney this morning" style="width:500px; height:280px;" /></p>
 

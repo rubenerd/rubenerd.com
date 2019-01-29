@@ -11,7 +11,7 @@ tag:
 - photos
 - sydney
 - transit
-- written-in-sydney
+location: sydney
 ---
 Clara and I got up and took the ferry into town from North Sydney for New Years. The weather was beautiful!
 

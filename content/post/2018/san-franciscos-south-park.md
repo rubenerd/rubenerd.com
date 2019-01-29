@@ -11,7 +11,7 @@ tag:
 - san-francisco
 - travel
 - united-states
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-southpark@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-southpark@1x.jpg 1x, https://rubenerd.com/files/2018/photo-southpark@2x.jpg 2x" alt="" style="width:500px" /></p>
 

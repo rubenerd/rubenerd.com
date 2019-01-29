@@ -10,7 +10,7 @@ tag:
 - lockheed
 - lockheed-tristar
 - transit
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@1x.jpg" srcset="https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@1x.jpg 1x, https://rubenerd.com/files/2018/TWA_Lockheed_L-1011_TriStar_coach_cabin@2x.jpg 2x" alt="" style="width:500px" /></p>
 

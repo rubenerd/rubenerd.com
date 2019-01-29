@@ -11,7 +11,7 @@ tag:
 - san-francisco
 - train-simulator
 - trains
-- written-in-san-francisco
+location: san-francisco
 ---
 Stilgherrian [podcasted and rode the *Caltrain*] for us back in Australia in 2014, so we didn't have to. Exactly four years and one day later, Clara and I were wandering around the Caltrain station in San Francisco, and made many overlapping observations.
 

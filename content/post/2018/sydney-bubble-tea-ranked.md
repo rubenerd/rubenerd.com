@@ -11,7 +11,7 @@ tag:
 - australia
 - singapore
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 I got my first taste of bubble tea during the craze that swept Singapore during the early 2000s. It seemed for a while you couldn't walk down anywhere from Orchard to Toa Payoh without bumping into someone slurping away at those large-strawed beverage apparatuses. *Apperatii?* Aiyo.
 

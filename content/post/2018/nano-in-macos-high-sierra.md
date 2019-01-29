@@ -10,7 +10,7 @@ tag:
 - os-x
 - nano
 - editors
-- written-in-sydney
+location: sydney
 ---
 One thing I [forgot to mention with High Sierra] was what nano version it ships with. I haven't used nano for a long time, but I've referenced it as a bellwether on *Rubenerd* over the years to show how fresh bundled macOS software is.
 

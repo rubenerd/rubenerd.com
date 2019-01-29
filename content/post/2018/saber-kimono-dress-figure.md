@@ -9,7 +9,7 @@ tag:
 - anime-figures
 - fate-stay-night
 - saber
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/saber-kimono@1x.jpg" srcset="https://rubenerd.com/files/2018/saber-kimono@1x.jpg 1x, https://rubenerd.com/files/2018/saber-kimono@2x.jpg 2x" alt="Photo of the Saber Kimono Dress prototype anime figure" style="width:500px; height:425px;" /></p>
 

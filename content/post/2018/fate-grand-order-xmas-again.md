@@ -11,7 +11,7 @@ tag:
 - games
 - mobile-games
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fgo-xmas-mash@1x.jpg" srcset="https://rubenerd.com/files/2018/fgo-xmas-mash@1x.jpg 1x, https://rubenerd.com/files/2018/fgo-xmas-mash@2x.jpg 2x" alt="Mash, saying: I must say, Senpai, it's a great day for gift-giving – and Chaldea is in Christmas mode!" style="width:500px; height:281px;" /></p>
 

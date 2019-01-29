@@ -8,7 +8,7 @@ category: Media
 tag:
 - architecture
 - california2018
-- written-in-los-angeles
+location: los-angeles
 ---
 *This post was originally written last week, presumably like a boss.*
 

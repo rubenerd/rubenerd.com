@@ -10,7 +10,7 @@ tag:
 - design
 - nostalgia
 - transit
-- written-in-sydney
+location: sydney
 ---
 I don't know much about cars, have little desire to own and operate one, and lobby against road infrastructure coming at the expense of public transport. But I can appreciate them as works of design.
 

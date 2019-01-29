@@ -7,7 +7,7 @@ year: "2018"
 category: Internet
 tag:
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Please disregard, testing if my new [Hugo] frontmatter generator works :).
 

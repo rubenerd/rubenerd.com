@@ -14,7 +14,7 @@ tag:
 - scandanavia
 - transit
 - travel
-- written-in-sydney
+location: sydney
 ---
 I love wandering around Wikipedia and Wikimedia Commons. Here's a 1960s photo of passengers and crew abord a [Scandanavian Airlines flight]; everything about this is amazing. Thanks to SAS for making this available:
 

@@ -9,7 +9,7 @@ tag:
 - fate-grand-order
 - mobile-games
 - figures
-- written-in-sydney
+location: sydney
 ---
 One unintended side effect of [ridding myself of things] is I'm now wary of procuring more. Everything I buy now has to be deliberate, considered, and necessary; lest it become something else taking up precious mental and physical space that needs to be carted around, sold, or disposed of at some point.
 

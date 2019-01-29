@@ -9,7 +9,7 @@ tag:
 - trains
 - switzerland
 - europe
-- written-in-sydney
+location: sydney
 ---
 When I saw [this book cover], my first thought was what train was depicted. Not to get all Merlin Mann on you, but *turns out* it's the *SBB-CFF-FFS RABDe 500*, a Swiss tilting train that tilts. At least part of that sentence was superfluous, much like this entire one. And this one.
 

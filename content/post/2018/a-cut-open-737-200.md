@@ -10,7 +10,7 @@ tag:
 - boeing
 - boeing-737
 - engineering 
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/USAir-732@1x.jpg" srcset="https://rubenerd.com/files/2018/USAir-732@1x.jpg 1x, https://rubenerd.com/files/2018/USAir-732@2x.jpg 2x" alt="" style="width:500px; height:281px;" /></p>
 

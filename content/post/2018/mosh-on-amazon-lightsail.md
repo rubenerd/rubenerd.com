@@ -12,7 +12,7 @@ tag:
 - firewalls
 - security
 - ssh
-- written-in-sydney
+location: sydney
 ---
 [Amazon Lightsail] is great for getting something up quickly, but the default firewall rules preclude using [mosh]. I can't imagine accessing remote availability zone instances without mosh's sanity-maintaining buffer.
 

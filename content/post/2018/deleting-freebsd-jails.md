@@ -7,7 +7,7 @@ category: Software
 tag:
 - freebsd
 - jails
-- written-in-sydney
+location: sydney
 ---
 There are tons of guides online for creating jails, and an always excellent page in the [handbook], but precious few instructions for deleting them.
 

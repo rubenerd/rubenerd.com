@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - health
 - personal
-- written-in-sydney
+location: sydney
 ---
 *This was originally written on Tuesday, but I forgot to commit it!*
 

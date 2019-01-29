@@ -10,7 +10,7 @@ tag:
 - journalism
 - news
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 The unfolding drama around Brexit is utterly bewildering to watch. As these [famous political scientists] sang:
 

@@ -14,7 +14,7 @@ tag:
 - openssh
 - security
 - ssh
-- written-in-sydney
+location: sydney
 ---
 I owe a significant proportion of my livelihood and personal life to OpenSSH. You likely do too, perhaps without even knowing it. It makes me think where more donation dollars should be going.
 
@@ -46,6 +46,6 @@ As an aside, the ASCII art for that throwaway key was also oddly interesting. My
     | .o = +.o o.     |
     |.o+= + ... +..   |
     | ++o. ..  .o=    |
-- written-in-sydney
+location: sydney
 ---
 

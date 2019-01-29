@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - health
 - pointless
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/listerine@1x.jpg" srcset="https://rubenerd.com/files/2017/listerine@1x.jpg 1x, https://rubenerd.com/files/2017/listerine@2x.jpg 2x" alt="A bottle of Listerine" style="width:128px; height:304px; margin:0 0 1em 2em; float:right" /></p>
 

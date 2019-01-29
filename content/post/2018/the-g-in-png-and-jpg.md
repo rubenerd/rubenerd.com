@@ -9,7 +9,7 @@ tag:
 - graphics
 - language
 - photography
-- written-in-sydney
+location: sydney
 ---
 I had a series of shower thoughts this morning, in the shower no less. Or would it be no fewer, given I have a known quantity of showers?
 

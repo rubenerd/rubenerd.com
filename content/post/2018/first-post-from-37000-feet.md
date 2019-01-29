@@ -11,7 +11,7 @@ tag:
 - travel
 - united-airlines
 - united-states
-- written-in-san-francisco
+location: san-francisco
 ---
 I'm flying from Sydney to San Francisco, to work from the company's US office for a while. United has in-flight Wi-Fi and powerpoints, so I can post from the sky for the first time. What a time to be alive.
 

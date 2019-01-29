@@ -8,7 +8,7 @@ tag:
 - australia
 - news
 - united-states
-- written-in-sydney
+location: sydney
 ---
 With 2019 almost upon us, I thought it'd be an opportunity to reflect on one of the goals I had for 2018.
 

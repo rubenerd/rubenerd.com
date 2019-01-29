@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - economics
 - work
-- written-in-sydney
+location: sydney
 ---
 Never read comments. But if you do, these are the most common responses to articles about work automation:
 

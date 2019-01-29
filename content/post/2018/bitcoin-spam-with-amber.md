@@ -9,7 +9,7 @@ tag:
 - economics
 - currency
 - spam
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/bitcoin-iphone@1x.jpg" srcset="https://rubenerd.com/files/2018/bitcoin-iphone@1x.jpg 1x, https://rubenerd.com/files/2018/bitcoin-iphone@2x.jpg 2x" alt="iPhone screenshot showing bitcoin spam" style="width:500px; height:450px;" /></p>
 

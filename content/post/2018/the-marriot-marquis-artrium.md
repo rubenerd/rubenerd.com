@@ -10,7 +10,7 @@ tag:
 - brutalism
 - design
 - united-states
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-atlanta-marriott-marquis@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-atlanta-marriott-marquis@1x.jpg 1x, https://rubenerd.com/files/2018/photo-atlanta-marriott-marquis@2x.jpg 2x" alt="" style="width:500px" /></p>
 

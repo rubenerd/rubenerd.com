@@ -7,7 +7,7 @@ category: Internet
 tag:
 - wikipedia
 - wikis
-- written-in-sydney
+location: sydney
 ---
 The [Wikimedia Foundation] and its sites are strictly non-commercial, with a mission to spread knowledge under free licences. But if you wanted a personal wiki, or one targeting a specific niche or industry, you could create one on [Wikia], the commercial offshot also co-created by Jimmy Wales.
 

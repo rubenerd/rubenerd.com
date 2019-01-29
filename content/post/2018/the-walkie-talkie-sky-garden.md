@@ -12,7 +12,7 @@ tag:
 - nature
 - photos
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/colin-sky-garden@1x.jpg" srcset="https://rubenerd.com/files/2018/colin-sky-garden@1x.jpg 1x, https://rubenerd.com/files/2018/colin-sky-garden@2x.jpg 2x" alt="Photo of the Sky Garden by Colin on Wikimedia Commons" style="width:500px; height:334px;" /></p>
 

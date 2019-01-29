@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - politics
 - australia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-rogue@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-rogue@1x.jpg 1x, https://rubenerd.com/files/2018/photo-rogue@2x.jpg 2x" alt="Photo of a bus with an advertisement reading ‘ROGUE’ driving in Chatswood" style="width:500px; height:375px;" /></p>
 

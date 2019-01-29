@@ -8,7 +8,7 @@ tag:
 - finance
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Speaking of [overhearing lyrics] in coffee shops, this was from "Gimme what You Got" by Don Henley:
 

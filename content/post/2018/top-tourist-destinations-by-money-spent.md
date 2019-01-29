@@ -8,7 +8,7 @@ category: Thoughts
 tag:
 - finances
 - travel
-- written-in-sydney
+location: sydney
 ---
 A friend sent me [this fascinating visualisation] from HowMuch.net. Click through to the original article to see the full resolution and some fascinating discussion.
 

@@ -7,7 +7,7 @@ year: "2018"
 category: Thoughts
 tag:
 - transit
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-nimrod-mr2@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-nimrod-mr2@1x.jpg 1x, https://rubenerd.com/files/2018/photo-nimrod-mr2@2x.jpg 2x" alt="Photo of a Hawker Siddeley Nimrod MR2, by Dale Coleman." style="width:500px; height:331px;" /></p>
 

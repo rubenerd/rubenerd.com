@@ -11,7 +11,7 @@ tag:
 - latte-panda
 - raspberry-pi
 - single-board-computers
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/lattepanda@1x.jpg" srcset="https://rubenerd.com/files/2018/lattepanda@1x.jpg 1x, https://rubenerd.com/files/2018/lattepanda@2x.jpg 2x" alt="Photo of the LattePanda with an external screen" style="width:450px; height:300px;" /></p>
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - climate-change
 - science
-- written-in-sydney
+location: sydney
 ---
 James Annan of the Japan Agency for Marine-Earth Science and Technology in Yokohama [placed a bet in 2005] with two climate skeptics. If temperatures fell by this year, he would pay solar physicists Galina Mashnich and Vladimir Bashkirtsev $10,000, and vica versa.
 

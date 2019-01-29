@@ -9,7 +9,7 @@ tag:
 - jazz
 - michael-franks
 - music
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/michaelfranks-aslong@1x.jpg" srcset="https://rubenerd.com/files/2018/michaelfranks-aslong@2x.jpg 1x, https://rubenerd.com/files/2018/michaelfranks-aslong@2x.jpg 2x" alt="Album cover" style="width:310px; height:276px;" /></p>
 

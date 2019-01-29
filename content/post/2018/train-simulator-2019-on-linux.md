@@ -10,7 +10,7 @@ tag:
 - linux
 - steam
 - trains
-- written-in-sydney
+location: sydney
 ---
 Valve announced a [new version of Steam Play] back in August, with a newer Proton engine and substantial work done to Wine:
 

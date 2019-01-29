@@ -9,7 +9,7 @@ tag:
 - california2018
 - finance
 - singapore
-- written-in-los-angeles
+location: los-angeles
 ---
 I'm sitting at gate 9 in one of <abbr title="Los Angeles">LAX's</abbr> domestic terminals, and it's lovely. Proper chairs, power points, carpet, nice and quiet. People have told me horror stories about LAX, but either they've cleaned up their act, or I've had a string of very good luck the last few times I've been through here. But I digress.
 

@@ -10,7 +10,7 @@ tag:
 - newsletters
 - popups
 - user-hostile-design
-- written-in-sydney
+location: sydney
 ---
 When you see either of these appear on a page, the answer is **No**.
 

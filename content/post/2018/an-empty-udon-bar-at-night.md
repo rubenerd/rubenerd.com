@@ -11,7 +11,7 @@ tag:
 - japan
 - restaurants
 - sydney
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/emptyudon@1x.jpg" srcset="https://rubenerd.com/files/2018/emptyudon@1x.jpg 1x, https://rubenerd.com/files/2018/emptyudon@2x.jpg 2x" alt="Photo upstairs at Marukame Udon, without anyone else." style="width:500px; height:333px;" /></p>
 

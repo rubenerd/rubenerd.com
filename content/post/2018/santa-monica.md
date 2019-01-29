@@ -12,7 +12,7 @@ tag:
 - music
 - savage-garden
 - travel
-- written-in-los-angeles
+location: los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/santamonica-cb@1x.jpg" srcset="https://rubenerd.com/files/2018/santamonica-cb@1x.jpg 1x, https://rubenerd.com/files/2018/santamonica-cb@2x.jpg 2x" alt="Stereotypical shot of laptop with Coffee Bean cups I've been taking here for years" style="width:500px; height:333px;" /></p>
 

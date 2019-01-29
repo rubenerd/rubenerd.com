@@ -10,7 +10,7 @@ tag:
 - screenbeard
 - social-networks
 - weblog
-- written-in-sydney
+location: sydney
 ---
 The imitable Screenbeard over at The Geekorium [wrote a post in response] to my [farewell to Digg Reader] last week. I'll admit, it was fun reading someone's response like this; it reminded me of the blogosphere of old. Yes the term was a bit cringe, but it described something real.
 

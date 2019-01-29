@@ -8,7 +8,7 @@ tag:
 - australia
 - environment
 - politics
-- written-in-sydney
+location: sydney
 ---
 Power in much of Australia operates as an energy market. Privatisation promised to introduce competition to drive down prices, and to allocate resources more efficiently.
 

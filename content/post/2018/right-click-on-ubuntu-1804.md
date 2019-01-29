@@ -10,7 +10,7 @@ tag:
 - mac
 - mouse
 - ubuntu
-- written-in-sydney
+location: sydney
 ---
 Patrick Kilgore has commented on the way [right-clicks work in the latest Ubuntu LTS]:
 

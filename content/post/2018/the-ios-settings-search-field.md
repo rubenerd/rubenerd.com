@@ -8,7 +8,7 @@ tag:
 - apple
 - ios
 - iphone
-- written-in-sydney
+location: sydney
 ---
 I keep hearing podcasters advising us to use the Settings search field, in lieu of navigating multiple levels of menus. *It's easier, it's faster, it slices and dices!*
 

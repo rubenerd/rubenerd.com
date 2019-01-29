@@ -9,7 +9,7 @@ tag:
 - california2018
 - electroboom
 - electronics
-- written-in-san-francisco
+location: san-francisco
 ---
 This purchase, and subsequent post, have been more than half a decade in the making. At least six years, which is slightly more than half a decade. Hence, my use of the phrase *more than* in the first sentence. Are you going to mock my spelling of *multimeter* soon too?
 

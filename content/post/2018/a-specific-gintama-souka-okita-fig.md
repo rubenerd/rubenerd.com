@@ -9,7 +9,7 @@ tag:
 - 2006-anime
 - anime-figures
 - gintama
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gintama-s01e24@1x.jpg" srcset="https://rubenerd.com/files/2018/gintama-s01e24@1x.jpg 1x, https://rubenerd.com/files/2018/gintama-s01e24@2x.jpg 2x" alt="" style="width:500px; height:281px;" /></p>
 

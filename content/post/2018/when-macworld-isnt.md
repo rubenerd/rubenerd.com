@@ -8,7 +8,7 @@ tag:
 - apple
 - ios
 - mac
-- written-in-sydney
+location: sydney
 ---
 I was reading *Macworld* yesterday, and collated a list of headlines from their home page. Not included are cross-posts from TechHive or PCWorld, which included a vaccum cleaner review. 
 

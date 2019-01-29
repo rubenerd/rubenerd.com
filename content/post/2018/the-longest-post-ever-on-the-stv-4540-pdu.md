@@ -9,7 +9,7 @@ tag:
 - data-centre
 - power
 - servers
-- written-in-sydney
+location: sydney
 ---
 This may be the longest post I've ever published, regarding the Server Technology [PRO1 Switched STV-4540 Rack PDU]\:
 

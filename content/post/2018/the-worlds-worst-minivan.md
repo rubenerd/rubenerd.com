@@ -10,7 +10,7 @@ tag:
 - doug-demuro
 - transit
 - video
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=sa8kHgmZIiQ" title="Play Here's Why the Mercedes Metris is the Worst Minivan Ever Made"><img src="https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@1x.jpg 1x, https://rubenerd.com/files/2018/yt-sa8kHgmZIiQ@2x.jpg 2x" alt="Play Here's Why the Mercedes Metris is the Worst Minivan Ever Made" style="width:500px;height:281px;" /></a>
 

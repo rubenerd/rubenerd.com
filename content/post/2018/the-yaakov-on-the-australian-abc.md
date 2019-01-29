@@ -9,7 +9,7 @@ tag:
 - california2018
 - comments
 - news 
-- written-in-san-francisco
+location: san-francisco
 ---
 The [imitable @yaakov_h] on Twitter, who's avatar is far handsomer than mine, rendered this observation of my recent [Australian ABC] post:
 

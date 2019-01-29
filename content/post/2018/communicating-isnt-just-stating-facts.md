@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - comments
 - interpersonal
-- written-in-sydney
+location: sydney
 ---
 [This answer] on by *Upper_Case* appeared in the Hot Network Questions sidebar on StackExchange:
 

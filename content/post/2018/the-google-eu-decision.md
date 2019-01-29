@@ -10,7 +10,7 @@ tag:
 - google
 - law
 - licencing
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/Flag_of_Europe.svg" alt="Flag of the European Union" style="width:128px; float:right; margin:0 0 1em 2em" /></p>
 

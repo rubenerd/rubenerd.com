@@ -8,7 +8,7 @@ tag:
 - california2018
 - windows
 - windows-10
-- written-in-san-francisco
+location: san-francisco
 ---
 This is fresh from the *Microsoft Volume Licence Service Centre*, or VLSC for those in the know and likely supporting several habits now:
 

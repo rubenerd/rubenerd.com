@@ -9,7 +9,7 @@ tag:
 - australia
 - photos
 - sydney
-- written-in-sydney
+location: sydney
 ---
 These were taken over the last couple of months around Sydney, for no particular reason. This is part one of three.
 

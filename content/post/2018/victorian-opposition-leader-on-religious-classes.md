@@ -8,7 +8,7 @@ tag:
 - australia
 - politics
 - religion
-- written-in-sydney
+location: sydney
 ---
 Victorian state opposition leader Matthew Guy had this *suppository of wisdom* to share, as [reported by Henrietta Cook in The Age]:
 

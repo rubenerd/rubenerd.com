@@ -12,7 +12,7 @@ tag:
 - iphone
 - itelephone
 - screenshots
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/iphone-xmas2018@1x.jpg" srcset="https://rubenerd.com/files/2018/iphone-xmas2018@1x.jpg 1x, https://rubenerd.com/files/2018/iphone-xmas2018@2x.jpg 2x" alt="iPhone home screen showing certain Saber and Toooooosaka characters" style="width:375px; height:667px;" /></p>
 

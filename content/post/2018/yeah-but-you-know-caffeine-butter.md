@@ -11,7 +11,7 @@ tag:
 - sydney
 - coffee
 - food
-- written-in-sydney
+location: sydney
 ---
 I was sitting at a coffee shop across from our office this morning, like a gentleman, and someone was being grilled for their drink preferences:
 

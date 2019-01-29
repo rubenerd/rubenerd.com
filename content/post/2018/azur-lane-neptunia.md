@@ -12,7 +12,7 @@ tag:
 - 2018-anime
 - mobile-games
 - games
-- written-in-sydney
+location: sydney
 ---
 I left Twitter for a few weeks, and it seems half my feed is basically *Azur Lane* and lamentations on the current decaying state of global politics.
 

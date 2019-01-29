@@ -8,7 +8,7 @@ category: Internet
 tag:
 - cory-doctorow
 - oreilly
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/essentialblogging@1x.jpg" srcset="https://rubenerd.com/files/2018/essentialblogging@1x.jpg 1x, https://rubenerd.com/files/2018/essentialblogging@2x.jpg 2x" alt="Essential Blogging" style="width:192px; margin:0 0 1em 2em; float:right;" /></p>
 

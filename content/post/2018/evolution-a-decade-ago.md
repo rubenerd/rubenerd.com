@@ -8,7 +8,7 @@ tag:
 - science
 - evolution
 - richard-dawkins
-- written-in-sydney
+location: sydney
 ---
 Here's a post I wrote [a decade ago] on the *Rubenerd Annexe*, back when I had shorter snippets on a side blog. Only I didn't write it, it was a comment by [Ec5618 on YouTube] of all places.
 

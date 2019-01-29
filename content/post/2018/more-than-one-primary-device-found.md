@@ -11,7 +11,7 @@ tag:
 - microserver
 - troubleshooting
 - xorg
-- written-in-sydney
+location: sydney
 ---
 Wow it's a *scorcher* outside. No wonder this Microserver's fan is running like crazy. But I digress; I saw this Xorg error on a FreeBSD Gen8 HP Microserver with a low profile PCI-E card:
 

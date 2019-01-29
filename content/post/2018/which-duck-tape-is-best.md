@@ -9,7 +9,7 @@ tag:
 - california2018
 - home
 - video
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><a href="https://www.youtube.com/watch?v=UbXy3c2oAfA"><img src="https://rubenerd.com/files/2018/project-farm-tape@1x.jpg" srcset="https://rubenerd.com/files/2018/project-farm-tape@1x.jpg 1x, https://rubenerd.com/files/2018/project-farm-tape@2x.jpg 2x" alt="Link to Project Farm's video comparing duck tape" style="width:500px; height:281px;" /></a></p>
 

@@ -10,7 +10,7 @@ tag:
 - itelephone
 - optus
 - telstra
-- written-in-sydney
+location: sydney
 ---
 I cancelled my Tesltra mobile plan, and was offered a questionnaire with multiple choice answers. The ones I chose are quoted below.
 

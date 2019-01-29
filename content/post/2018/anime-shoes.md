@@ -11,7 +11,7 @@ tag:
 - evangelion
 - fashion
 - shoes
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/dbzshoes@1x.jpg" srcset="https://rubenerd.com/files/2018/dbzshoes@1x.jpg 1x, https://rubenerd.com/files/2018/dbzshoes@2x.jpg 2x" alt="Side view of the Dragon Ball Z shoe mentioned below" style="width:417px; height:235px;" /></p>
 

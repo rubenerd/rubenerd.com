@@ -9,7 +9,7 @@ tag:
 - australia
 - sydney
 - nsw
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/sydneyapartments@1x.jpg" srcset="https://rubenerd.com/files/2018/sydneyapartments@1x.jpg 1x, https://rubenerd.com/files/2018/sydneyapartments@2x.jpg 2x" alt="Photo of apartments from the new convention centre in Sydney" style="width:500px; height:289px;" /></p>
 

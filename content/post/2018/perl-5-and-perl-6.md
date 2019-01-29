@@ -6,7 +6,7 @@ year: "2018"
 category: Software
 tag:
 - perl
-- written-in-sydney
+location: sydney
 ---
 I use and love Perl. I haven't been a full time developer for several years now, and have used half a dozen other languages, but Perl still feels the most natural and in tune with the way my mind works. Read into that how you will.
 

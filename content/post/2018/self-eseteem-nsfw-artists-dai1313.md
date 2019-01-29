@@ -11,7 +11,7 @@ tag:
 - california2018
 - comments
 - feedback
-- written-in-san-francisco
+location: san-francisco
 ---
 A Twitter thread made me think about a ton of things I've been trying to reconcile for a while, which deserved a proper blog post while I sit at this San Franciscan coffee shop like a good little hipster nerd.
 

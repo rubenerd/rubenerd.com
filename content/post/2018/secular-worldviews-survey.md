@@ -10,7 +10,7 @@ tag:
 - religion
 - science
 - spiritual
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/secularsurvey@1x.jpg" srcset="https://rubenerd.com/files/2018/secularsurvey@1x.jpg 1x, https://rubenerd.com/files/2018/secularsurvey@2x.jpg 2x" alt="Secular Worldviews survey" style="width:500px" /></p>
 

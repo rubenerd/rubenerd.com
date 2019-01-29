@@ -10,7 +10,7 @@ tag:
 - boeing
 - boeing-757
 - transit
-- written-in-sydney
+location: sydney
 ---
 Boeing is researching a new midsize aeroplane (NMA) concept, dubbed the 797. [According to Jon Ostrower], it'll be a smaller, twin-isle aircraft.
 

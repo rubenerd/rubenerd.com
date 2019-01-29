@@ -9,7 +9,7 @@ tag:
 - gizmodo
 - john-gruber
 - journalism
-- written-in-sydney
+location: sydney
 ---
 John [ended a comment] on a Gizmodo tablet review with the following line.
 

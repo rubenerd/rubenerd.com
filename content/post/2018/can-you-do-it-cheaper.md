@@ -10,7 +10,7 @@ tag:
 - quality
 - work
 - zfs
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/ifyoucandocheaper.jpg" alt="Pencil drawing of a horse, showing a graual decline in detail, with the caption: when your client asks if you can do it cheaper..." style="width:480px; height:480px;" /></p>
 

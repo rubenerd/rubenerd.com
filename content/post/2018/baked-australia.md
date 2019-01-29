@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - weather
-- written-in-sydney
+location: sydney
 ---
 It's going to be really, really hot in Australia this weekend. This is our little continent on Saturday according to the [Bureau of Meteorology]\:
 

@@ -8,7 +8,7 @@ tag:
 - australia
 - environment
 - health
-- written-in-sydney
+location: sydney
 ---
 *This was written quickly in a brief fit of anger, and may not be up to the usual quality of posts here on Rubenerd. Because if I'm known for anything, its quality writing; see what I did there?*
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - feminism
 - personal
-- written-in-sydney
+location: sydney
 ---
 [This Hacker News thread response] was like a flash of lightning:
 

@@ -8,7 +8,7 @@ tag:
 - health
 - family
 - personal
-- written-in-sydney
+location: sydney
 ---
 The ABC have [updated us on this tragic news]\:
 

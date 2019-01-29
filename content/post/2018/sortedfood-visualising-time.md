@@ -10,7 +10,7 @@ tag:
 - food
 - sortedfood
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 > Is that *half* an hour?
 

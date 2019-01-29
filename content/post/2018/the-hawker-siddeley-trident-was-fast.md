@@ -8,7 +8,7 @@ tag:
 - aviation
 - aeroplanes
 - uk
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/trident@1x.png" srcset="https://rubenerd.com/files/2018/trident@1x.png 1x, https://rubenerd.com/files/2018/trident@2x.png 2x" alt="A BEA Trident, Drawn by Emoscopes" style="width:378px" /></p>
 

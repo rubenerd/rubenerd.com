@@ -10,7 +10,7 @@ tag:
 - intel
 - meltdown
 - spectre
-- written-in-sydney
+location: sydney
 ---
 It's too early to tell what the broad performance impact of the latest Spectre mitigations will be, but so far it's clear as mud. [Thomas Claburn wrote this] for The Register:
 

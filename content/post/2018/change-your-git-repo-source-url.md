@@ -8,7 +8,7 @@ tag:
 - git
 - guides
 - version-control
-- written-in-sydney
+location: sydney
 ---
 Say you have a git repo, and you want to change its source URL from example.com to example.com. That wouldn't make sense, because they're the same. But assuming for the sake of the argument, or any other Japanese alcoholic comestible beverage of your choice, you can achieve it by:
 

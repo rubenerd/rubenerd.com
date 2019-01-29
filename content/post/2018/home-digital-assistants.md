@@ -9,7 +9,7 @@ tag:
 - apple
 - google
 - amazon
-- written-in-sydney
+location: sydney
 ---
 [Matthew JC Powell compared] the latest crop of home digital assistants in the context of who makes them:
 

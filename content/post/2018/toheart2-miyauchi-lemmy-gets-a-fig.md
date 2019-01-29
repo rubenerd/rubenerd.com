@@ -9,7 +9,7 @@ tag:
 - figures
 - nostalgia
 - toheart2
-- written-in-sydney
+location: sydney
 ---
 I'd argue Westerners are generally portrayed in anime more fairly than East Asian stereotypes in Hollywood movies and shows. But they do tend to fall into several predictable tropes.
 

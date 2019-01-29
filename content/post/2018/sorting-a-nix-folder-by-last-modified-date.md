@@ -13,7 +13,7 @@ tag:
 - centos
 - fedora
 - things-you-already-know-unless-you-dont
-- written-in-sydney
+location: sydney
 ---
 In my continuing series of [things you already know, unless you don't], this command sorts the contents of a folder by modification date, then lexicographical:
 

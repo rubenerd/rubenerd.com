@@ -10,7 +10,7 @@ tag:
 - watchlist
 - video
 - youtube
-- written-in-sydney
+location: sydney
 ---
 Here are three more videos I [watched this week].
 

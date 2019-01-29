@@ -9,7 +9,7 @@ tag:
 - coffee
 - singapore
 - sydney
-- written-in-sydney
+location: sydney
 ---
 An anonymous Slashdot contributer shared this fascinating [Atlantic story by Kate Wagner]\:
 

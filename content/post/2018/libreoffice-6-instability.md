@@ -7,7 +7,7 @@ category: Software
 tag:
 - libreoffice
 - office
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/lo6-error.png" alt="LibreOffice 6.0 Document Recovery error dialogue box" style="width:500px;" /></p>
 

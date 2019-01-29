@@ -8,7 +8,7 @@ category: Media
 tag:
 - bill-wurtz
 - music
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=ldaQLGOoJW0"><img src="https://rubenerd.com/files/2018/yt-ldaQLGOoJW0@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-ldaQLGOoJW0@1x.jpg 1x, https://rubenerd.com/files/2018/yt-ldaQLGOoJW0@2x.jpg 2x" alt="" style="width:500px; height:281px;" /></a></p>
 

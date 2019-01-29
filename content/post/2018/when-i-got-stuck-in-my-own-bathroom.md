@@ -7,7 +7,7 @@ year: "2018"
 category: Thoughts
 tag:
 - personal
-- written-in-sydney
+location: sydney
 ---
 There are certain life events that, despite differences in our backgrounds or world views, we can all come together and recognise as being truly horrifying. I had one such experience this afternoon while attemoting to extricate myself from the bathroom in our studio apartment.
 

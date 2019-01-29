@@ -8,7 +8,7 @@ tag:
 - health
 - human-rights
 - religion
-- written-in-sydney
+location: sydney
 ---
 The Catholic Church... you know how this ends. [Nancy Notzon filed this] for ABC News Australia:
 

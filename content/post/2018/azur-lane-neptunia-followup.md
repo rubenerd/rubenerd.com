@@ -9,7 +9,7 @@ tag:
 - art
 - azur-lane
 - hyperdimension-neptunia
-- written-in-sydney
+location: sydney
 ---
 Back in January — wow how is it almost November — I blogged about an inexplicable [Azur Lane Neptunia] collaboration:
 

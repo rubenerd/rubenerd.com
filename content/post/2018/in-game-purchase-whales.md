@@ -9,7 +9,7 @@ tag:
 - fate-grand-order
 - games
 - mobile-games
-- written-in-sydney
+location: sydney
 ---
 I know of mobile game whales, but not their etymology. Philipp on the Arqade StackExchange [explained]:
 

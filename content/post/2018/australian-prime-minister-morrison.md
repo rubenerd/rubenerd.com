@@ -8,7 +8,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/scottmorrison@1x.jpg" srcset="https://rubenerd.com/files/2018/scottmorrison@1x.jpg 1x, https://rubenerd.com/files/2018/scottmorrison@2x.jpg 2x" alt="Our new prime minister, second from the right" style="width:470px; height:312px;" /></p>
 

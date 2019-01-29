@@ -8,7 +8,7 @@ tag:
 - android
 - ios
 - phones
-- written-in-sydney
+location: sydney
 ---
 Sherisse Pham [reported for CNN Tech]\:
 

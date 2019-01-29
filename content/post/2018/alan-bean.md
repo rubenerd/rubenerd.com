@@ -9,7 +9,7 @@ tag:
 - nasa
 - rip
 - space
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/alan_bean@1x.jpg" srcset="https://rubenerd.com/files/2018/alan_bean@1x.jpg 1x, https://rubenerd.com/files/2018/alan_bean@2x.jpg 2x" alt="Photo of Alan Bean in his studio" style="width:500px" /></p>
 

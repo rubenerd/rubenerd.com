@@ -11,7 +11,7 @@ tag:
 - nikon
 - olympus
 - photography
-- written-in-san-francisco
+location: san-francisco
 ---
 I was fully intending to buy the Fuji X100T in 2016. All the reviewers said it was *hands down* the best digital camera and lens in its price range. But one fateful afternoon I held the Olympus OM-D E-M10 II, and fell in love with its beautifully crafted body and mechanical dials. So I bought it instead!
 

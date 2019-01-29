@@ -7,7 +7,7 @@ category: Internet
 tag:
 - comments
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Last Thursday I put out an <abbr title="request for comment">RFC</abbr> on comment systems, and how I'd include them again on this statically-generated blog. I got some great feedback! 
 

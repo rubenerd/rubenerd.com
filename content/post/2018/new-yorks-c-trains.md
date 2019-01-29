@@ -11,7 +11,7 @@ tag:
 - sydney
 - trains
 - united-states
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/r32@1x.jpg" srcset="https://rubenerd.com/files/2018/r32@1x.jpg 1x, https://rubenerd.com/files/2018/r32@2x.jpg 2x" alt="R32 set J train at Marcy Avenue, by R38R40 on Wikimedia Commons" style="width:500px; height:375px;" /></p>
 

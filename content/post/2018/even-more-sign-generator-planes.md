@@ -11,7 +11,7 @@ tag:
 - boeing-757
 - pointless
 - travel
-- written-in-sydney
+location: sydney
 ---
 Last month I [rediscovered], then [re-rediscovered] RedKid's fabulous sign generator site. I thought of a couple more:
 

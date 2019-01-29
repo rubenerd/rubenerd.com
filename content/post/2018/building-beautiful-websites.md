@@ -8,7 +8,7 @@ category: Internet
 tag:
 - design
 - websites
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/stock/tango-internet-web-browser.svg" alt="Clear icon from the Tango Desktop Project" style="width:128px; height:128px; float:right; margin:0 0 1em 1em" /></p>
 

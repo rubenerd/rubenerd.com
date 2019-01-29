@@ -10,7 +10,7 @@ tag:
 - travel
 - oakland
 - united-states
-- written-in-oakland
+location: oakland
 ---
 <p><img src="https://rubenerd.com/files/2018/oakland-blue-bottle@1x.jpg" srcset="https://rubenerd.com/files/2018/oakland-blue-bottle@1x.jpg 1x, https://rubenerd.com/files/2018/oakland-blue-bottle@2x.jpg 2x" alt="That's a nice coffee!" style="width:500px; height:375px;" /></p>
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - beverages
 - food
-- written-in-sydney
+location: sydney
 ---
 I've given up most sugar. Which lead me to think whether some of my favourite cocktails could be made without it. [Laura Dolson of Very Well Fit] gave some history to the drink I didn't realise:
 

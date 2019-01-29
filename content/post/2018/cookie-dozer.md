@@ -9,7 +9,7 @@ tag:
 - games
 - ios
 - mobile-games
-- written-in-sydney
+location: sydney
 ---
 I had a text file in nvALT titled `iOS Apps` that hadn't been edited since 2013. It contained two words: `Cookie Dozer`. Wait, what?
 

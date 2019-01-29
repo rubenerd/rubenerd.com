@@ -8,7 +8,7 @@ tag:
 - books
 - tools
 - windows
-- written-in-sydney
+location: sydney
 ---
 I've got a blog post about Windows 7 tools coming up, but in the interim I learned something about [Sysinternals].
 

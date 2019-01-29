@@ -10,7 +10,7 @@ tag:
 - microsoft
 - microsoft-office
 - software
-- written-in-san-francisco
+location: san-francisco
 ---
 Remember the ribbon? There was such furore from users and interface designers when it was announced with Office 2007, not least because it replaced text with inscrutable little icons for everything, and took up precious vertical real estate right when the world was going to widescreen displays. But over time we all came to tolerate it with the abject resignation one feels having fought head winds long enough.
 

@@ -8,7 +8,7 @@ tag:
 - language
 - pointless
 - spelling
-- written-in-sydney
+location: sydney
 ---
 I wrote this in my post about [ed25519 public keys] last month\:
 

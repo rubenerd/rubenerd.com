@@ -8,7 +8,7 @@ tag:
 - bitcoin
 - economics
 - currency
-- written-in-sydney
+location: sydney
 ---
 It has begun.
 

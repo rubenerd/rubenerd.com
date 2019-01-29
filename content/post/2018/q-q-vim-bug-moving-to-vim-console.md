@@ -11,7 +11,7 @@ tag:
 - pkgng
 - gvim
 - vim
-- written-in-sydney
+location: sydney
 ---
 I had this weird Vim bug on a couple of FreeBSD box I maintain. The last line would always be partially clobbered with these characters when opening a file, or would be added to a new buffer:
 
@@ -41,7 +41,7 @@ Weird! Checking all available vim ports:
 Checking [vim-console in Freshports], the tireless maintainer adamw@ committed this change on the 11th of January:
 
 > Rename editors/vim-lite to editors/vim-console. The vim-console port isn't
-- written-in-sydney
+location: sydney
 ---
 the main vim port. The only difference is lack of gtk20 GUI, and the
 language bindings are off by default.

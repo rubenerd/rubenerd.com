@@ -11,7 +11,7 @@ tag:
 - games
 - mobile-games
 - nero-claudius
-- written-in-sydney
+location: sydney
 ---
 *This post was originally written in mid-September 2018. We're already onto the Halloween event for English FGO!*
 

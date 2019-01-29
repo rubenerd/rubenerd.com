@@ -14,7 +14,7 @@ tag:
 - opensolaris
 - solaris
 - troubleshooting
-- written-in-sydney
+location: sydney
 ---
 This is my fantasy manpage for features every *nix shell program should support. I know steering open source software developers is akin to hearding cats, but I think these are reasonable.
 

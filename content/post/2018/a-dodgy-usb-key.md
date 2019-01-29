@@ -9,7 +9,7 @@ tag:
 - freebsd
 - storage
 - usb
-- written-in-sydney
+location: sydney
 ---
 I was having trouble with a USB 3.0 Kingston DataTraveller drive on my MacBook Pro. I was willing to assume it was a dodgy USB C adaptor cable, so I plugged it into my FreeBSD tower, like a gentleman. I hadn't seen `dmesg` output like this in a long time:
 

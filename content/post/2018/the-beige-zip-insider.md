@@ -9,7 +9,7 @@ tag:
 - iomega
 - retro
 - zip-drive
-- written-in-sydney
+location: sydney
 ---
 Speaking of [eBay learnings], TiL that Iomega made a beige 5.25" Zip Insider drive. From [stevencasteel's PowerComputing] tower auction:
 

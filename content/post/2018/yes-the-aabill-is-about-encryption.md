@@ -10,7 +10,7 @@ tag:
 - politics
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 I wrote this update to my #AAbill post last week:
 

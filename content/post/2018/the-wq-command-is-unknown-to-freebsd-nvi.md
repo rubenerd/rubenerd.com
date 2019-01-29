@@ -12,7 +12,7 @@ tag:
 - nvi
 - vi
 - vim
-- written-in-san-francisco
+location: san-francisco
 ---
 In 2015 I realised there was a [direct correlation] between the time of night, and the prevalence of these error messages in Vim:
 

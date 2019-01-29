@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - spam
-- written-in-san-francisco
+location: san-francisco
 ---
 It's not even close to being Friday now! But have this draft anyway.
 

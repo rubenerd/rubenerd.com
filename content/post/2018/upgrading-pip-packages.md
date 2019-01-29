@@ -7,7 +7,7 @@ category: Software
 tag:
 - python
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 Let's upgrade something, like Jinja2:
 

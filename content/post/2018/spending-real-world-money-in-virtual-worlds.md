@@ -10,7 +10,7 @@ tag:
 - mobile-games
 - news
 - virtual-worlds
-- written-in-sydney
+location: sydney
 ---
 I found another cache of old bookmarks, some of which have aged in interesting ways. Take this article from the American ABC about [spending money in virtual worlds], published in April 2010:
 

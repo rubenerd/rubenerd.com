@@ -10,7 +10,7 @@ tag:
 - japanese
 - music
 - music-monday
-- written-in-sydney
+location: sydney
 ---
 <p><a title="Amplified - Mr. Raindrop" href="https://www.youtube.com/watch?v=lbHQmwD0wiA"><img src="https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@1x.jpg 1x, https://rubenerd.com/files/2018/yt-lbHQmwD0wiA@2x.jpg 2x" alt="Amplified - Mr. Raindrop" style="width:500px; height:281px;" /></a></p>
 

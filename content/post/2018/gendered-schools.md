@@ -10,7 +10,7 @@ tag:
 - education
 - politics
 - sydney
-- written-in-sydney
+location: sydney
 ---
 Christopher Scanlon [asked in the *Sydney Morning Herald*]:
 

@@ -8,7 +8,7 @@ tag:
 - btrfs
 - file-systems
 - red-hat
-- written-in-sydney
+location: sydney
 ---
 [Speaking of] the latest [Red Hat Release Notes], here's a decision that's a relief rather than a point of sadness:
 

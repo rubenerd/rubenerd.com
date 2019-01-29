@@ -10,7 +10,7 @@ tag:
 - airlines
 - pointless
 - transit
-- written-in-sydney
+location: sydney
 ---
 Happy Monday! [Last Thursday I rediscovered] an [old sign-generator site] where you can create your own airlines. I've since thought of another:
 

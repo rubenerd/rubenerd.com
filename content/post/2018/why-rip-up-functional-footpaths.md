@@ -9,7 +9,7 @@ tag:
 - australia
 - sydney
 - transit
-- written-in-sydney
+location: sydney
 ---
 North Sydney workers and residents have been dealing with road works for a while. The stretch of Pacific Highway near the post office and Vodafone buildings had deep excavation pits for what seemed like months. I saw equal parts plumbers and fibre engineers; I guess they were killing two birds with one phone.
 

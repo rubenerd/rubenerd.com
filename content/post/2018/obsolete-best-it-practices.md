@@ -8,7 +8,7 @@ tag:
 - iomega
 - networking
 - nostalgia 
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/scsi-chain@1x.png" srcset="https://rubenerd.com/files/2018/scsi-chain@1x.png 1x, https://rubenerd.com/files/2018/scsi-chain@2x.png 2x" alt="Instructions for terminating SCSI devices." style="width:400px; height:310px" /></p>
 

@@ -8,7 +8,7 @@ tag:
 - photos
 - media
 - imagemagick
-- written-in-sydney
+location: sydney
 ---
 Last Tuesday I mentioned the way I use ImageMagick to [concatenate images]. The [@ozzmosis shared] an alternative:
 

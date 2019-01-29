@@ -8,7 +8,7 @@ tag:
 - personal
 - philosophy
 - politics
-- written-in-sydney
+location: sydney
 ---
 [Nick Hodge posted this]\:
 

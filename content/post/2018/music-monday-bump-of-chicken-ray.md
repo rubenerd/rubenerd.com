@@ -9,7 +9,7 @@ tag:
 - japanese
 - music
 - music-monday
-- written-in-sydney
+location: sydney
 ---
 <p><a href=https://www.youtube.com/watch?v=_4BLiOP1aaY title="Play BUMP OF CHICKEN「ray」"><img src="https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@1x.jpg" srcset="https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@1x.jpg 1x, https://rubenerd.com/files/2018/yt-_4BLiOP1aaY@2x.jpg 2x" alt="Play BUMP OF CHICKEN「ray」" style="width:500px;height:281px;" /></a>
 

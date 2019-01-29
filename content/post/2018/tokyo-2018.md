@@ -11,7 +11,7 @@ tag:
 - freebsd
 - netbsd
 - openbsd
-- written-in-tokyo
+location: tokyo
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-tokyobsdsakura@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-tokyobsdsakura@1x.jpg 1x, https://rubenerd.com/files/2018/photo-tokyobsdsakura@2x.jpg 2x" alt="Photo holding my bag with sakura!" style="width:500px" /></p>
 

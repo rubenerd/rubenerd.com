@@ -9,7 +9,7 @@ tag:
 - bash
 - shell-scripting
 - back-to-work
-- written-in-sydney
+location: sydney
 ---
 Merlin Mann and Dan Benjamin have a newish segment on *[Back To Work]* entitled *Things you already know, unless you don't already know them*. As they say, you're definitely an intelligent computer operator, so you you *already know* about this topic. In which case, be quiet, and let those without your snark or obvious intellect learn something. I'm [shamelessly ripping off] this idea.
 

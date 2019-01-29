@@ -7,7 +7,7 @@ category: Software
 tag:
 - california2018
 - mac
-- written-in-san-francisco
+location: san-francisco
 ---
 We have a few different ways to [check for outdated ports] on FreeBSD. [Homebrew] on macOS has a useful `outdated` command:
 

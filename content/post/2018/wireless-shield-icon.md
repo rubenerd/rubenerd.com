@@ -8,7 +8,7 @@ category: Internet
 tag:
 - hyphens
 - wifi
-- written-in-sydney
+location: sydney
 ---
 I had a Twitter DM yesterday about my previous [CRN Australia poll post]. This is opposed to *first past the post*, which is a polling method; and not Poczta Polska, which is the [national post carrier for Poles]\:
 

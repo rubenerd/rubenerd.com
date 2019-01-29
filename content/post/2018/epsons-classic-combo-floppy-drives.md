@@ -10,7 +10,7 @@ tag:
 - epson
 - floppy-drives
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 You can learn a lot about computer history, or any history now that I think about it, just by looking through eBay.
 

@@ -12,7 +12,7 @@ tag:
 - melbourne
 - politics
 - sydney
-- written-in-sydney
+location: sydney
 ---
 Sydney and Melbourne, Australia's two largets cities, have *ridiculous* housing prices. There's an irony to a country as vast and underpopulated as Australia having two cities that are among the least affordable *in the world*.
 

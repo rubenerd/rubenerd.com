@@ -8,7 +8,7 @@ tag:
 - nbn
 - infrastructure
 - australia
-- written-in-sydney
+location: sydney
 ---
 My [recent post about the NBN] drew ire from a couple of gentleman who'd be well served by blood pressure monitors and some class. Let me attempt to explain again.
 

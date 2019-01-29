@@ -8,7 +8,7 @@ tag:
 - environment
 - news
 - science
-- written-in-sydney
+location: sydney
 ---
 Science journalists I respect are forwarding stories critical of plastic straw bans. The only redeeming fact was a delightful *grasping for straws* headline. They follow the same, predictable tick-tock news cycle; take an issue people are advocating for, then come up with a hot take saying why it's wrong. *Click click!*
 

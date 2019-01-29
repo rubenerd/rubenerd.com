@@ -8,7 +8,7 @@ tag:
 - ipv6
 - linux
 - ubuntu
-- written-in-sydney
+location: sydney
 ---
 I just noticed one of the Ubuntu mirrors has the following IPv6 address:
 

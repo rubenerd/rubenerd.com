@@ -8,7 +8,7 @@ tag:
 - cloudflare
 - dns
 - domains
-- written-in-sydney
+location: sydney
 ---
 Here's some [interesting news] for those of us with all too many domain names:
 

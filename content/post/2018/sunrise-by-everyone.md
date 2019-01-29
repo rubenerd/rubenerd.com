@@ -7,7 +7,7 @@ category: Media
 tag:
 - anime-figs
 - music
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/kagamine-len-tony-taka@1x.jpg" srcset="https://rubenerd.com/files/2018/kagamine-len-tony-taka@1x.jpg 1x, https://rubenerd.com/files/2018/kagamine-len-tony-taka@2x.jpg 2x" alt="Kagamine Len figure by Tony Taka" style="width:275px; height:400px;" /></p>
 

@@ -8,7 +8,7 @@ tag:
 - spam
 - email
 - friday-fanmail
-- written-in-sydney
+location: sydney
 ---
 Friday fanmail! Each and every Friday, except when I don't, I post some of the fanmail I receive from my fans of the blog, so we may all share in their enthusiasm. Today is some fairly generic SEO spam:
 

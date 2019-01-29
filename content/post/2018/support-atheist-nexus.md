@@ -8,7 +8,7 @@ tag:
 - atheism
 - religion
 - philosophy
-- written-in-sydney
+location: sydney
 ---
 I got this worrying email from Richard Haynes this morning:
 

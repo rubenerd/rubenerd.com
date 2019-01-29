@@ -10,7 +10,7 @@ tag:
 - ergonomics
 - macbook-air
 - monitors
-- written-in-sydney
+location: sydney
 ---
 I was doing some more research into the new kit Apple released last week, and came across this worrying FAQ on [Apple Insider]\:
 

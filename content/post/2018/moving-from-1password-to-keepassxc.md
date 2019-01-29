@@ -15,7 +15,7 @@ tag:
 - macos
 - os-x
 - mac-os-x
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">This post was originally written on the 12th of April, but wasn’t pushed for some reason.</p>
 

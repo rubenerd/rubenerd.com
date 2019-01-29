@@ -10,7 +10,7 @@ tag:
 - language
 - networking
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 Every industry has its own parlance, but IT has the additional complexity of using the same word for multiple things. Take this shipping location or a sweet alcoholic beverage:
 

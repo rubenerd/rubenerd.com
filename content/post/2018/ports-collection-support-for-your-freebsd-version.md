@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - troubleshooting
-- written-in-sydney
+location: sydney
 ---
 I was upgrading a port on a FreeBSD box, like a gentleman:
 

@@ -8,7 +8,7 @@ tag:
 - jazz
 - music
 - wikipedia
-- written-in-sydney
+location: sydney
 ---
 It's important that any change to Wikipedia come with a clear [edit summary], just as you would add a message to a git commit.
 

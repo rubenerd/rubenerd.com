@@ -10,7 +10,7 @@ tag:
 - google
 - browsers
 - privacy
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/icon-chrome@1x.png" srcset="https://rubenerd.com/files/2018/icon-chrome@1x.png 1x, https://rubenerd.com/files/2018/icon-chrome@2x.png 2x" alt="Chrome HAL icon" style="width:128px; float:right; margin:0 0 2em 2em;" /></p>
 

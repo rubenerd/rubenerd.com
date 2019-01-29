@@ -10,7 +10,7 @@ tag:
 - news
 - samba
 - smb
-- written-in-sydney
+location: sydney
 ---
 [Matt Brown wrote this for CRN]\:
 

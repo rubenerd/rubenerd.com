@@ -9,7 +9,7 @@ tag:
 - finance
 - singapore
 - united-states
-- written-in-sydney
+location: sydney
 ---
 The Monetary Authority of Singapore released its [2019 Monetary Policy Statement]. From section 6:
 

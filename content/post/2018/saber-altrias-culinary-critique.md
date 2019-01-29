@@ -10,7 +10,7 @@ tag:
 - mobile-games
 - saber
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 Speaking of the Fate/Grand Order [summer event]! Saber has good taste.
 

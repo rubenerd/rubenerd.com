@@ -9,7 +9,7 @@ tag:
 - errors
 - screenshot
 - steins-gate
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/screenie-stucktooltip@2x.jpg" alt="Screenshot from my Christmas Steins;Gate background with a stuck tooltip saying 'View Note' next to Makise's eye." style="width:500px; height:333px;" /></p>
 

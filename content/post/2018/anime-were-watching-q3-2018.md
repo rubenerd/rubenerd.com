@@ -12,7 +12,7 @@ tag:
 - kakuriyo
 - kyoto
 - kyoto-holmes
-- written-in-sydney
+location: sydney
 ---
 Clara and I are watching three series this season; a first for us in a while on account of work and other commitments. But there's some quality right now, despite what the sniveling hipsters may say :).
 

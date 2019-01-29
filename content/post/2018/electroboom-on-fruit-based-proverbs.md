@@ -9,7 +9,7 @@ tag:
 - electroboom
 - engineering
 - funny
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/electroboom-doctor-away-01@1x.jpg" srcset="https://rubenerd.com/files/2018/electroboom-doctor-away-01@1x.jpg 1x, https://rubenerd.com/files/2018/electroboom-doctor-away-01@2x.jpg 2x" alt="Medhi says: You know they say an apple a day keeps the doctor away?" style="width:500px; height:265px;" /></p>
 

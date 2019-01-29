@@ -8,7 +8,7 @@ tag:
 - apple
 - mac-mini
 - mac-pro
-- written-in-sydney
+location: sydney
 ---
 Apple have their event tomorrow in New York. This is my personal wish list, which must not be construed as what Apple *should* do, just what I'd love for them to. Though I'm willing to take a consulting role at the company if they so desire.
 

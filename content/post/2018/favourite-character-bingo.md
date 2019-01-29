@@ -31,7 +31,7 @@ tag:
 - switch
 - toradora
 - yuru-camp
-- written-in-sydney
+location: sydney
 ---
 Happy Sunday, especially to [@Dekopatchi] for cluing me into the **most fun Twitter meme in ages**! Hers is also the closest I've come to winning, including Homuhomu and Rikka who didn't make my cut here by the narrowest of margins (damn it!).
 

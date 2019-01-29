@@ -8,7 +8,7 @@ tag:
 - singapore
 - myopia
 - society
-- written-in-sydney
+location: sydney
 ---
 People lamenting the current state of the world often mention our fixation on slabs of glass. We wake up, check our phones, work in offices staring at monitors all day, then relax by looking at computer screens. There's usually a followup comment that visiting aliens would be perplexed and unimpressed by the seething masses doing this.
 

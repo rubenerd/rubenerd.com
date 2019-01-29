@@ -12,7 +12,7 @@ tag:
 - os-x
 - macos
 - apple
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/icon-macdict@1x.png" srcset="https://rubenerd.com/files/2018/icon-macdict@1x.png 1x, https://rubenerd.com/files/2018/icon-macdict@2x.png 2x" alt="Dictionary.app icon" style="width:128px; height:128px; float:right; margin:0 0 1em 0" /></p>
 

@@ -10,7 +10,7 @@ tag:
 - bsd
 - freebsd
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 Here's something fun I discovered by accident. When you typo a path with double forward slashes in a bash prompt with a default PS1 listing the working directory with `\w`, you get double slashes:
 

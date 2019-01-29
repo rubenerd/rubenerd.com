@@ -9,7 +9,7 @@ tag:
 - freebsd
 - linux
 - linux-to-freebsd
-- written-in-sydney
+location: sydney
 ---
 I'm seeing a lot of renewed interest in FreeBSD from GNU/Linux people. This is encouraging! You should be familiar with much of the userland, but there are a few differences, which I hope this new [post series] will help with.
 

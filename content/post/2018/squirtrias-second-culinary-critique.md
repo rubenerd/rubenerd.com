@@ -10,7 +10,7 @@ tag:
 - mobile-games
 - saber
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 The Fate/Grand Order [summer event] is now over, and we had her [first culinary critique]. This was her second!
 

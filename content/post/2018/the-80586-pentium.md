@@ -10,7 +10,7 @@ tag:
 - pentium
 - nostalgia
 - vintage-computing
-- written-in-sydney
+location: sydney
 ---
 *Rubenerd* has reached 586 pages. The 80586 was Intel's fifth generation CPU architecture, and the first to be given a name after they lost their case to trademark numbers.
 

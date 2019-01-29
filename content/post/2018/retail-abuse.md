@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - retail
 - shopping
-- written-in-sydney
+location: sydney
 ---
 I had an epiphany this morning, in a free falling water conveyance.
 

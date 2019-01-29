@@ -9,7 +9,7 @@ tag:
 - bicycles
 - photos
 - transit
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-sharebikes@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-sharebikes@1x.jpg 1x, https://rubenerd.com/files/2018/photo-sharebikes@2x.jpg 2x" alt="Four share bikes." style="width:500px; height:333px;" /></p>
 

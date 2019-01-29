@@ -6,7 +6,7 @@ year: "2018"
 category: Media
 tag:
 - movies
-- written-in-sydney
+location: sydney
 ---
 This is the most powerful, lucid piece of journalism I've read so far this year; and I don't even watch superhero movies. This is the opening of [Jelani Cobb's *Black Panther* review] for The New Yorker:
 

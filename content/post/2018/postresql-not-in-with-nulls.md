@@ -12,7 +12,7 @@ tag:
 - netbsd
 - postgres
 - sql
-- written-in-sydney
+location: sydney
 ---
 Earlier this week my colleague clued me into a potential Postgres pitfall I'd yet to be bitten by, but it could happen.
 

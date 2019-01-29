@@ -8,7 +8,7 @@ tag:
 - california2018
 - language
 - work
-- written-in-san-francisco
+location: san-francisco
 ---
 My colleague posted this on our internal chat:
 

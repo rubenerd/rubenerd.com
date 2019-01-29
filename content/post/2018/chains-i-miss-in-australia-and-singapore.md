@@ -10,7 +10,7 @@ tag:
 - music
 - shopping
 - singapore
-- written-in-sydney
+location: sydney
 ---
 There were a few Twitter threads about Australian store chains people miss. My family moved to Singapore when I was in late primary school, so this is a mix of both places:
 

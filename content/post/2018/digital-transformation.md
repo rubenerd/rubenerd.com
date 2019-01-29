@@ -7,7 +7,7 @@ category: Media
 tag:
 - advertising
 - marketing 
-- written-in-sydney
+location: sydney
 ---
 I read this on a company website, name withheld:
 

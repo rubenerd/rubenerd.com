@@ -12,7 +12,7 @@ tag:
 - netbsd
 - things-you-already-know-unless-you-dont
 - ubuntu
-- written-in-sydney
+location: sydney
 ---
 In our continuing series of [things you already know unless you don't], we take a look at deleting directories in your \*nix shell. Generally you would do this:
 

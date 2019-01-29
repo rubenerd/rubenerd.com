@@ -7,7 +7,7 @@ category: Internet
 tag:
 - social-media
 - twitter 
-- written-in-sydney
+location: sydney
 ---
 I'm back on Twitter again, against [well-informed advice]. To make it more pleasant, I'm making my own Twitter policy, linked to in my profile.
 

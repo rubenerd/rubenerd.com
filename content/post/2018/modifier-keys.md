@@ -10,7 +10,7 @@ tag:
 - mac-os-x
 - macos
 - os-x
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/screenie-macos-modifiers@2x.png" alt="Screenshot of the Keyboard Modifier with Escape mapped to Caps Lock, Command mapped to Option, and Option mapped to command" style="width:500px; height:206px;" /></p>
 

@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 This is already a week old, but it's incredible. The Australian government's Home Affairs Minister [told Sky News]\:
 

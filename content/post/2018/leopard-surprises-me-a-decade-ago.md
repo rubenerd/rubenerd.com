@@ -8,7 +8,7 @@ tag:
 - time
 - weblog
 - personal
-- written-in-sydney
+location: sydney
 ---
 This was in a post I [wrote about iCal]\: 
 

@@ -8,7 +8,7 @@ tag:
 - authentication
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Happy Monday! Iain Thompson [wrote this Register article], subtitled *Your daily dose of ditigal depression*:
 

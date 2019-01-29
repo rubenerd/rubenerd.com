@@ -8,7 +8,7 @@ category: Annexe
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-xmas-chatswood-chase@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-xmas-chatswood-chase@1x.jpg 1x, https://rubenerd.com/files/2018/photo-xmas-chatswood-chase@2x.jpg 2x" alt="Photo of Christmas trees in Chatswood Chase in... Chatswood" style="width:500px; height:333px;" /></p>
 

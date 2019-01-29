@@ -7,7 +7,7 @@ category: Internet
 tag:
 - friday-fanmail
 - spam
-- written-in-sydney
+location: sydney
 ---
 It's [Friday Fanmail] time! Each and every Friday, except when I don't, I share some of the fanmail I receive about this blog, so that we may all share in the warm fuzzies.
 

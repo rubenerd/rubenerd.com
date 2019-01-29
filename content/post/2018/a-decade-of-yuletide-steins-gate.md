@@ -8,7 +8,7 @@ tag:
 - desktop-backgrounds
 - steins-gate
 - yuletide
-- written-in-sydney
+location: sydney
 ---
 It's another Yuletide season! And it reminds me of this desktop background by Karafuru Sekai Designs of everyone's favourite moe microwave time travelling scientists I [started using a decade ago]. That was a long sentence, unlike this one.
 

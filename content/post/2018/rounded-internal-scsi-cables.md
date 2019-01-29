@@ -8,7 +8,7 @@ tag:
 - retro
 - scsi
 - vintage
-- written-in-sydney
+location: sydney
 ---
 Need to connect a series of internal SCSI hardware in your vintage computer, but you don't want to restrict airflow with a ribbon? [PC Pitstop] has your covered:
 

@@ -8,7 +8,7 @@ tag:
 - dark-patterns
 - language
 - popups
-- written-in-sydney
+location: sydney
 ---
 Alongside [misleading email subjects], newsletter popups are another pervasive, perverse dark pattern. You browse a site, only to have a div take over the screen and demand your email address. [Closed Tab; Didn't Read] documents the most egregious examples, and I've complained about them a lot here.
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - dark-patterns
 - feedback
-- written-in-sydney
+location: sydney
 ---
 I got some feedback from my [confirmation shaming] post. [Steven Dorst]\:
 

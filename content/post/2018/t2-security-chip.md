@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - hardware
 - privacy
-- written-in-sydney
+location: sydney
 ---
 Apple's [T2 Security Chip Security Overview] notes on their T2 security chip had this pragmatic gem that made me smile:
 

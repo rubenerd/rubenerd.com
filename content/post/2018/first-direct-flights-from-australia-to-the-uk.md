@@ -12,7 +12,7 @@ tag:
 - boeing
 - boeing-787
 - qantas
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/qantas-787@1x.jpg" srcset="https://rubenerd.com/files/2018/qantas-787@1x.jpg 1x, https://rubenerd.com/files/2018/qantas-787@2x.jpg 2x" alt="Photo of a Qantas 787 by Mertie" style="width:500px; height:292px;" /></p>
 

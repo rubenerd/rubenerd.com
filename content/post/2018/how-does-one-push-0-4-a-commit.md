@@ -9,7 +9,7 @@ tag:
 - github
 - git
 - graphics
-- written-in-sydney
+location: sydney
 ---
 [Speaking of GitHub], I noticed this delightful graph on a new private repo.
 

@@ -9,7 +9,7 @@ tag:
 - apple
 - displays
 - retina
-- written-in-sydney
+location: sydney
 ---
 Earlier this month I [lamented the direction Apple was taking] with their Retina displays in two areas:
 

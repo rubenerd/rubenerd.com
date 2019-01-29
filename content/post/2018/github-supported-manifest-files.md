@@ -9,7 +9,7 @@ tag:
 - language
 - programming
 - github
-- written-in-sydney
+location: sydney
 ---
 GitHub has the concept of a dependency graph you can view in a public or private repo, to view relationships between dependencies and be alerted to security issues. According to one of my  public repos, emphasis added:
 

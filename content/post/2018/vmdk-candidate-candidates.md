@@ -10,7 +10,7 @@ tag:
 - firewalls
 - linux
 - security
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2014/virtualbox-vmdk.png" alt="VMDK" style="width:128px; height:128px; float:right; margin:0 0 1em 2em;" /></p>
 

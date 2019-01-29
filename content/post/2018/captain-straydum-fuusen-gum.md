@@ -10,7 +10,7 @@ tag:
 - jpop
 - music
 - music-monday
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=N9mDw3TpqqA"><img src="https://rubenerd.com/files/2018/yt-N9mDw3TpqqA@1x.jpg" srcset="https://rubenerd.com/files/2018/N9mDw3TpqqA@1x.jpg 1x, https://rubenerd.com/files/2018/yt-N9mDw3TpqqA@2x.jpg 2x" alt="" style="width:480px; height:360px;" /></a></p>
 

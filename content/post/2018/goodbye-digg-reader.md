@@ -9,7 +9,7 @@ tag:
 - rss
 - feeds
 - goodbye
-- written-in-sydney
+location: sydney
 ---
 2018 hadn't had a *goodbye post* yet, until now:
 

@@ -8,7 +8,7 @@ tag:
 - media
 - news
 - punwatch
-- written-in-sydney
+location: sydney
 ---
 I haven't done a [Punwatch] in six years. This cannot stand. Or sit, or whatever.
 

@@ -13,7 +13,7 @@ tag:
 - os-x
 - mac-os-x
 - macos
-- written-in-sydney
+location: sydney
 ---
 Here's some fun. My work MacBook Pro machine erroneously detected itself as having an 800×600 resolution yesterday, because *High Sierra*. I took and screenshot, then restored its native resolution, which rendered the screenshot at this exact size:
 

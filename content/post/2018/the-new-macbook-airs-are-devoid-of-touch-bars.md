@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - apple
 - macbook-air
-- written-in-sydney
+location: sydney
 ---
 Imagine I'm using my old man voice: *back when I was a kid, I used to get so excited going to the Apple website after a new Mac came out!* I do to an extent today, but it's tinged with slight trepidation. What regressive design trend have they introduced, etc?
 

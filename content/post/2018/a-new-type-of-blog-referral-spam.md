@@ -7,7 +7,7 @@ category: Internet
 tag:
 - digital-dark-age
 - spam
-- written-in-sydney
+location: sydney
 ---
 If you've been blogging for a reasonable length of time, there's a fair to strong chance that websites you've linked to no longer exist. There's a wider question about the implications of this, but that's for a future post.
 

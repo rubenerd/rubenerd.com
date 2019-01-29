@@ -9,7 +9,7 @@ tag:
 - astra-lost-in-space
 - manga
 - nostalgia
-- written-in-melbourne
+location: melbourne
 ---
 *This post was originally written on Tuesday. But the flight was so badly delayed, I didn't get home till after midnight to post this.*
 

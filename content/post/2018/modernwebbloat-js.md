@@ -9,7 +9,7 @@ tag:
 - javascript
 - privacy
 - usability
-- written-in-sydney
+location: sydney
 ---
 [tedu's description] of the modern web—in the context of his miniwebproxy client—is beautiful:
 

@@ -10,7 +10,7 @@ tag:
 - scoop
 - software
 - windows
-- written-in-sydney
+location: sydney
 ---
 [Chocolately] is among the first things I install on any Windows machine I find myself forced to use. The \*nix world has thoroughly spoiled me with package managers, so to use a system with wizard installers isn't so much foreign as an absolute affront.
 

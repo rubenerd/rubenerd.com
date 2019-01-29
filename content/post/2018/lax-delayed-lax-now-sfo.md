@@ -11,7 +11,7 @@ tag:
 - security
 - travel
 - united-states
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/Aiga_departingflights.svg" alt="Clear icon from the Tango Desktop Project" style="width:96px; height:96px; float:right; margin:0 0 1em 2em" /></p>
 

@@ -11,7 +11,7 @@ tag:
 - food
 - mission-bay
 - reviews
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/cafereveille-inside@1x.jpg" srcset="https://rubenerd.com/files/2018/cafereveille-inside@1x.jpg 1x, https://rubenerd.com/files/2018/cafereveille-inside@2x.jpg 2x" alt="" style="width:500px; height:375px;" /></p>
 

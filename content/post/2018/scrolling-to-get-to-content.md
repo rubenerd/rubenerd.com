@@ -8,7 +8,7 @@ tag:
 - accessibility
 - california2018
 - design
-- written-in-san-francisco
+location: san-francisco
 ---
 Why does it take so long to scroll to the content of a contemporary site in 2018? Take [this otherwise great post] from *The Outline*. It takes about 1,300 pixels, or two hits of the spacebar on this MacBook, to reach the text of the post we've all come to read.
 

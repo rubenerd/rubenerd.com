@@ -7,7 +7,7 @@ category: Media
 tag:
 - photos
 - birds
-- written-in-sydney
+location: sydney
 ---
 Steven Dorst, writer of the [eponymously URL'd blog] and [@sjdorst] on The Twitters – whom you should be following – send this to me last week:
 

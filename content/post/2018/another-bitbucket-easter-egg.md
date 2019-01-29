@@ -10,7 +10,7 @@ tag:
 - bitbucket
 - california2018
 - git
-- written-in-san-francisco
+location: san-francisco
 ---
 They're a bit more detailed now than the [message I saw in 2015]!
 

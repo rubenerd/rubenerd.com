@@ -7,7 +7,7 @@ category: Internet
 tag:
 - typos
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Hey, how are you? I'm doing pretty well, getting ready to die my hair. That's not true, but this dye exposes a limitation of spell checkers.
 

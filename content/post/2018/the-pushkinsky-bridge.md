@@ -10,7 +10,7 @@ tag:
 - bridges
 - moscow
 - russia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg" alt="The Pushkinsky Bridge, with bright yellow frames between the panes of glass enclosing the deck" style="widht:500px; height:281px;" srcset="https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@1x.jpg 1x, https://rubenerd.com/files/2018/gorky-park-pushkinsky-bridge@2x.jpg 2x" /></p>
 

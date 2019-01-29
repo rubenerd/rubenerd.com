@@ -6,7 +6,7 @@ year: "2018"
 category: Hardware
 tag:
 - environment
-- written-in-sydney
+location: sydney
 ---
 Remember my [rant against cosmetic microbeads]? The illustrious [@Georgiecel] shared [this Guardian report] by Fiona Harvey and Jonathan Watts:
 

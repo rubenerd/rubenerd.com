@@ -8,7 +8,7 @@ tag:
 - hall-and-oats
 - music
 - pointless
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/halloates.png" alt="Screenshot from iTunes showing Hall and Oates" style="width:378px; height:97px;" /></p>
 

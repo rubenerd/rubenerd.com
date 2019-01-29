@@ -10,7 +10,7 @@ tag:
 - keyboards
 - memory
 - photos
-- written-in-sydney
+location: sydney
 ---
 Want DOSKEY, but with tab completion and other goodies? You want Paul Houle's [Enhanced DOSKEY]:
 

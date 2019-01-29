@@ -10,7 +10,7 @@ tag:
 - photos
 - travel
 - work
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/male@1x.jpg" srcset="https://rubenerd.com/files/2018/male@1x.jpg 1x, https://rubenerd.com/files/2018/male@2x.jpg 2x" alt="Aerial photo of Malé in Mauritius" style="width:500px; height:256px;" /></p>
 

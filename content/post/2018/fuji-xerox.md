@@ -8,7 +8,7 @@ tag:
 - nostalgia
 - business
 - printers
-- written-in-sydney
+location: sydney
 ---
 There are certain names you take for granted. Or more accurately, that I take for granted. Though you might, too.
 

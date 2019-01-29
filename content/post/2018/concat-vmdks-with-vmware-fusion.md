@@ -9,7 +9,7 @@ tag:
 - virtual-machines
 - vmdk
 - vmware-fusion
-- written-in-sydney
+location: sydney
 ---
 VMware Fusion—and as far as I can remember, VMware Workstation—default to splitting disk images into multiple files. There are benefits to doing this, but it might not be what you want depending on your use case.
 

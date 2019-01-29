@@ -11,7 +11,7 @@ tag:
 - english
 - language
 - united-states
-- written-in-san-francisco
+location: san-francisco
 ---
 Australian pronunciations and words are interesting. Much of what we say and spell is derived from British English, or what the internet has come to refer to as [Commonwealth English]. But we let slip with a few American terms that I had to get used to coming back from Singapore, like *truck* for *lorry*, *soccer* for *football*, and we also called our upper house a *senate*.
 

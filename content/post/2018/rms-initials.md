@@ -6,7 +6,7 @@ year: "2018"
 category: Thoughts
 tag:
 - personal
-- written-in-sydney
+location: sydney
 ---
 I knew the RMS initials were common as muck, but there were even more than I expected. Ones I knew already:
 

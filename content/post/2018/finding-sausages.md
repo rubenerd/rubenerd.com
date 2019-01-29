@@ -10,7 +10,7 @@ tag:
 - travel
 - memes
 - transit
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/reuters-dog.jpg" alt="Photo of a dog under the caption: UK airport sniffer dogs good at finding sausages, but not drugs" style="width:270px; height:255px;" /></p>
 

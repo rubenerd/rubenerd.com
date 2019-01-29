@@ -7,7 +7,7 @@ year: "2018"
 category: Media
 tag:
 - birds
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/treeswallow-Iiii-I-I-I@1x.jpg" srcset="https://rubenerd.com/files/2018/treeswallow-Iiii-I-I-I@1x.jpg 1x, https://rubenerd.com/files/2018/treeswallow-Iiii-I-I-I@2x.jpg 2x" alt="Photo by Iiii I I I" style="width:420px; height:573px;" /></p>
 

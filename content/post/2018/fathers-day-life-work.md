@@ -8,7 +8,7 @@ category: Thoughts
 tag:
 - family
 - personal
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/fathersday2018@1x.jpg" srcset="https://rubenerd.com/files/2018/fathersday2018@1x.jpg 1x, https://rubenerd.com/files/2018/fathersday2018@2x.jpg 2x" alt="My dad and folks after Father's day lunch" style="width:500px; height:375px;" /></p>
 

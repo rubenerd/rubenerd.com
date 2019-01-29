@@ -9,7 +9,7 @@ tag:
 - friday-fanmail
 - spam
 - infinite-stratos
-- written-in-sydney
+location: sydney
 ---
 It's [Friday Fanmail] time! Today's message came from Charlotte:
 

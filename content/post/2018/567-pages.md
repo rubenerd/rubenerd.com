@@ -8,7 +8,7 @@ tag:
 - numbers
 - pointless-milestones
 - tennant
-- written-in-sydney
+location: sydney
 ---
 Speaking of [questionable numerology], I haven't done I haven't done a [pointless milestone] here for a long time. *(I haven't done... I haven't done?)*
 

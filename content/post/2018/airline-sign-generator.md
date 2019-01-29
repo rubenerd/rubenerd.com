@@ -10,7 +10,7 @@ tag:
 - pointless
 - sign-generator
 - transit
-- written-in-sydney
+location: sydney
 ---
 I remembered this old [sign generator site] from years back, and saw they have a slew of new ones. This is my latest creation!
 

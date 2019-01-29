@@ -9,7 +9,7 @@ tag:
 - aviation
 - concorde
 - travel
-- written-in-los-angeles
+location: los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/low-boom@1x.jpg" srcset="https://rubenerd.com/files/2018/low-boom@1x.jpg 1x, https://rubenerd.com/files/2018/low-boom@2x.jpg 2x" alt="Mockup concent photo of the X-59 flying over a rural town" style="width:500px; height:333px;" /></p>
 

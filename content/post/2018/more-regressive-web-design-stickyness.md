@@ -8,7 +8,7 @@ category: Internet
 tag:
 - design
 - regressive-web-design
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/regressive-persistant-elements.png" alt="A website screenshot showing a persistent chat window and newsletter signup popup over the page content" style="width:500px;" /></p>
 

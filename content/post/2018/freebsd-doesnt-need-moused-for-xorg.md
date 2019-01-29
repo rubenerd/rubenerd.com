@@ -9,7 +9,7 @@ tag:
 - bsd
 - freebsd
 - guides
-- written-in-sydney
+location: sydney
 ---
 I often see third-party [FreeBSD desktop guides] that include this:
 

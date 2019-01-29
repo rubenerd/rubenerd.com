@@ -9,7 +9,7 @@ tag:
 - batteries
 - laptops
 - screenshots
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/screenie-zeropercent@1x.png" srcset="https://rubenerd.com/files/2018/screenie-zeropercent@1x.png 1x, https://rubenerd.com/files/2018/screenie-zeropercent@2x.png 2x" alt="Screenshot showing my MacBook battery charging at 0%." style="width:500px; height:116px;" /></p>
 

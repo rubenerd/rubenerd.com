@@ -8,7 +8,7 @@ tag:
 - poetry
 - mathematics
 - science 
-- written-in-sydney
+location: sydney
 ---
 Leo Moser being quite delightful, as [quoted on Wikipedia]:
 

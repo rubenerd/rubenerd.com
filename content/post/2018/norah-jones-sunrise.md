@@ -10,7 +10,7 @@ tag:
 - norah-jones
 - nostalgia
 - video
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=fd02pGJx0s0" title="Play Norah Jones - Sunrise"><img src="https://rubenerd.com/files/2019/yt-fd02pGJx0s0@1x.jpg" srcset="https://rubenerd.com/files/2019/yt-fd02pGJx0s0@1x.jpg 1x, https://rubenerd.com/files/2019/yt-fd02pGJx0s0@2x.jpg 2x" alt="Play Norah Jones - Sunrise" style="width:500px;height:281px;" /></a></p>
 

@@ -9,7 +9,7 @@ tag:
 - advertising
 - language
 - sydney
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/emptymarketing@1x.jpg" srcset="https://rubenerd.com/files/2018/emptymarketing@1x.jpg 1x, https://rubenerd.com/files/2018/emptymarketing@2x.jpg 2x" alt="Banner saying Want better answers? Ask bigger questions." style="width:500px" /></p>
 

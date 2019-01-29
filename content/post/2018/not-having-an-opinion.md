@@ -8,7 +8,7 @@ tag:
 - personal
 - philosophy
 - religion
-- written-in-sydney
+location: sydney
 ---
 My new year's goal last year was to not have an opinion on everything. It sounds wishy washy, but in 2018 it's a hard position to defend, especially on social media. Your lack of a visceral or positive response to a hot button issue, news story, or controversy, is somehow construed as endorsement.
 

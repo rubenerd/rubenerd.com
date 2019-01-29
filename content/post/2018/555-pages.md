@@ -6,7 +6,7 @@ year: "2018"
 category: Hardware
 tag:
 - pointless-milestone
-- written-in-tokyo
+location: tokyo
 ---
 According to my site pagination heading, we're at 555 pages of posts here. Naturally I thought that was a great repeating number, and also the number of the world's [most widely-used IC]:
 

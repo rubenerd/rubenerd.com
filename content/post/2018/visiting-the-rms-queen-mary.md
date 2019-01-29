@@ -11,7 +11,7 @@ tag:
 - los-angeles
 - ocean-liners
 - travel
-- written-in-los-angeles
+location: los-angeles
 ---
 *This post was largely written from Los Angeles, but was posted once back in Sydney where I could download the accompanying photographic photos. As opposed to a non-photographic photo, whatever that would be.*
 

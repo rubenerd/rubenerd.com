@@ -11,7 +11,7 @@ tag:
 - los-angeles
 - travel
 - united-states
-- written-in-san-francisco
+location: san-francisco
 ---
 <p><img src="https://rubenerd.com/files/2018/photo-lax@1x.jpg" srcset="https://rubenerd.com/files/2018/photo-lax@1x.jpg 1x, https://rubenerd.com/files/2018/photo-lax@2x.jpg 2x" alt="Photo of the Theme Building at LAX, taken from my phone" style="width:500px; height:333px;" /></p>
 

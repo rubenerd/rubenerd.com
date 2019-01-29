@@ -8,7 +8,7 @@ tag:
 - numerology
 - pointless
 - vast-store-of-useless-information
-- written-in-sydney
+location: sydney
 ---
 Happy Monday! My grandfather delighted in regaling *facts to add to your vast store of useless information*. I endeavour to [continue] this fine tradition.
 

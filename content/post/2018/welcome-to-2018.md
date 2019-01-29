@@ -6,7 +6,7 @@ year: "2018"
 category: Thoughts
 tag:
 - personal
-- written-in-sydney
+location: sydney
 ---
 Hi, how are you? I hope you had a wonderful holiday season, regardless of how you celebrate. For us, it was family time over Christmas, then NYE – as they abbreviate it now – introducing Clara to *The Blues Brothers*. It was glorious!
 

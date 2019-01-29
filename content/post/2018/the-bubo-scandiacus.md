@@ -8,7 +8,7 @@ category: Media
 tag:
 - wikipedia
 - birds
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2018/bubo-scandiacus@1x.jpg" alt="" style="width:400px; height:485px;" srcset="https://rubenerd.com/files/2018/bubo-scandiacus@1x.jpg 1x, https://rubenerd.com/files/2018/bubo-scandiacus@2x.jpg 2x" /></p>
 

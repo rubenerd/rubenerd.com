@@ -9,7 +9,7 @@ tag:
 - europe
 - germany
 - photos
-- written-in-sydney
+location: sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2018/Enkheimer_Ried@1x.jpg" srcset="https://rubenerd.com/files/2018/Enkheimer_Ried@1x.jpg 1x, https://rubenerd.com/files/2018/Enkheimer_Ried@2x.jpg 2x" alt="Photo of the Enkheimer Ried in Frankfurt, Germany" style="width:500px" /></p></figure>
 

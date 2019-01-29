@@ -10,7 +10,7 @@ tag:
 - security
 - ssl
 - tls
-- written-in-sydney
+location: sydney
 ---
 I migrated as many services I maintain to *Let's Encrypt* as soon as it was humanly possible. The entire toolchain and ease of use is enough for me to encourage its adoption; the fact they're free is a happy bonus.
 

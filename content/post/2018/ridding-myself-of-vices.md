@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - personal
 - pointless
-- written-in-sydney
+location: sydney
 ---
 I'll be blogging about various vices I've rid myself of over the coming weeks. It is my hope, and intention, that a typed record will keep me accontable, and motivate me to cultivate positive habits.
 

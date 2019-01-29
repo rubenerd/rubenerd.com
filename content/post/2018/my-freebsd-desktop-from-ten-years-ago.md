@@ -9,7 +9,7 @@ tag:
 - code-geass
 - gnome
 - nostalgia
-- written-in-sydney
+location: sydney
 ---
 Here's a blast from the past: a screenshot of my [FreeBSD desktop from almost a decade ago] to the day!
 

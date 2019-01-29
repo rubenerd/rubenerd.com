@@ -9,7 +9,7 @@ tag:
 - amagi-brilliant-park
 - kyoani
 - kyoto-animation
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic;">In our continuing series reviewing <a href="https://rubenerd.com/tag/kyoani/">Kyoto Animation</a> shows that I missed when they first aired, we take another spoiler-riddled look at the next episode of <a href="https://rubenerd.com/tag/amagi-brilliant-park/">Amagi Brilliant Park</a>.</p>
 

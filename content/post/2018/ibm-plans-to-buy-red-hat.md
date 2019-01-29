@@ -8,7 +8,7 @@ tag:
 - ibm
 - linux
 - red-hat
-- written-in-sydney
+location: sydney
 ---
 [From the press release]\:
 

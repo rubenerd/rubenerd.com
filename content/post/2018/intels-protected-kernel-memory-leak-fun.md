@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - intel
 - cpus
-- written-in-sydney
+location: sydney
 ---
 John Leyden and Chris Williams have done [excellent work] reporting this news for The Register. Read it in full for all the details; I could barely believe it.
 

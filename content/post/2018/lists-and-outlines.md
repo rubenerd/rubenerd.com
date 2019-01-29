@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - lists 
-- written-in-sydney
+location: sydney
 ---
 I gravitate towards websites that let me make lists and outlines. Yesterday I learned of Kit.com, which sounds like it'd be about a snappable chocolate snack. Instead, it lets you make lists of stuff you use.
 

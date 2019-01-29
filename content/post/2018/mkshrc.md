@@ -7,7 +7,7 @@ category: Software
 tag:
 - shells
 - korn-shell
-- written-in-sydney
+location: sydney
 ---
 I found a .mkshrc while going through my home directory dotfiles. I couldn't even remember what it was, but it's a [MirOS Korn Shell] configuration file. I didn't know this; on NetBSD I'd used `.kshrc` with [ksh88].
 

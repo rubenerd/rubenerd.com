@@ -8,7 +8,7 @@ tag:
 - australia
 - economics
 - journalism
-- written-in-sydney
+location: sydney
 ---
 Every news story reporting on Australian property during the boom discussed investors, with nay a single toss given to renters, or those buying a home to... get this, *live in*. I know right, what a concept?
 

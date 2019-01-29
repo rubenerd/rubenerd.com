@@ -9,7 +9,7 @@ tag:
 - politics
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Simon Sharwood has done an excellent job reporting on the onerous new backdoor laws being debated in Australia. For those who haven't seen them, this is how he opened his [most recent report]:
 

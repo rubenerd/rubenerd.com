@@ -8,7 +8,7 @@ tag:
 - australia
 - music
 - phones
-- written-in-sydney
+location: sydney
 ---
 [This article] by David McAlpine, Bill Thompson, and Megan Gilliver on ABC News makes the case for digital etiquette:
 

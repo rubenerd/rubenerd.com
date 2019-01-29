@@ -10,7 +10,7 @@ tag:
 - itelephones
 - politics
 - samsung
-- written-in-sydney
+location: sydney
 ---
 [Shannon van Sant wrote for NPR]\:
 
