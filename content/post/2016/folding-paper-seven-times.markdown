@@ -8,7 +8,7 @@ tag:
 - paper
 - science
 - video
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=KuG_CeEZV6w" title="Play Can you fold paper more than 7 times with hydraulic press"><img src="https://rubenerd.com/files/2016/yt-KuG_CeEZV6w@1x.jpg" srcset="https://rubenerd.com/files/2016/yt-KuG_CeEZV6w@1x.jpg 1x, https://rubenerd.com/files/2016/yt-KuG_CeEZV6w@2x.jpg 2x" alt="Play Can you fold paper more than 7 times with hydraulic press" style="width:500px;height:281px;" /></a></p>
 

@@ -6,7 +6,7 @@ year: "2016"
 category: Internet
 tag:
 - wikipedia
-- written-in-sydney
+location: sydney
 ---
 This is an [actual Wikipedia user group]:
 

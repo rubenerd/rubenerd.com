@@ -7,7 +7,7 @@ category: Internet
 tag:
 - pointless
 - spam
-- written-in-sydney
+location: sydney
 ---
 It's Friday, which means its time to reach into the mailbag for some fan messages!
 

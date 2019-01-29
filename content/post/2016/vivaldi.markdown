@@ -6,7 +6,7 @@ category: Software
 tag:
 - browsers
 - vivaldi
-- written-in-sydney
+location: sydney
 ---
 I’ve been a Firefox (ne Phoenix) and Camino user since the early 2000s. No browser before or since matched its flexibility, plugin library and community.
 

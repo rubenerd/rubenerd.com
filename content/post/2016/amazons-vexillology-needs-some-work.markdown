@@ -8,7 +8,7 @@ tag:
 - amazon
 - design
 - flags
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/amazonflags@2x.png" alt="Flags on the Amazon site" style="width:500px; height:231px" /></p>
 

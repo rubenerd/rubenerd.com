@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - philosophy
 - work
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/railgun01_paper.jpg" srcset="https://rubenerd.com/files/2016/railgun01_paper.jpg 1x, https://rubenerd.com/files/2016/railgun01_paper@2x.jpg 2x" alt="" style="width:500px" /></p>
 

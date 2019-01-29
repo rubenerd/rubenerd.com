@@ -9,7 +9,7 @@ tag:
 - scp
 - sftp
 - ssh
-- written-in-sydney
+location: sydney
 ---
 To start an SSH session on a specific port:
 

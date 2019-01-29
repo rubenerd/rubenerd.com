@@ -8,7 +8,7 @@ tag:
 - freebsd
 - hard-drives
 - zfs
-- written-in-sydney
+location: sydney
 ---
 FreeBSD defaults to 512k sectors, and there's no provision in ZFS on FreeBSD to change this. If you try the following that works on Solaris and ZFSonLinux, you'll be told the option doesn't exist:
 

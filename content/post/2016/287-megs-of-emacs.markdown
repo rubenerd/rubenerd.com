@@ -6,7 +6,7 @@ category: Software
 tag:
 - emacs
 - vim
-- written-in-sydney
+location: sydney
 ---
 This 11" MacBook Air is still an incredible machine for its size, though its aging 60GB SSD is getting a bit long in the tooth. While I decide what to replace it with, I've been trying to scrounge enough space to live on. 
 

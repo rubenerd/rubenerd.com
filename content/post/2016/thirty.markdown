@@ -8,7 +8,7 @@ tag:
 - birthdays
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/30th.png" alt="Screenshot of an OS X Calendar notification saying my 30th birthday is tomorrow" style="width:500px; height:500px;" /></p>
 

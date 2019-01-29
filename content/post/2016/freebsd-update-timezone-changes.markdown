@@ -10,7 +10,7 @@ tag:
 - myanmar
 - russia
 - southeast-asia
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/barnaul.jpg" alt="Photo of Barnaul, by Andrew White on Wikimedia Commons" style="width:500px; height:313px;" srcset="https://rubenerd.com/files/2016/barnaul.jpg 1x, https://rubenerd.com/files/2016/barnaul@2x.jpg 2x" /></p>
 

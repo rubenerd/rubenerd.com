@@ -8,7 +8,7 @@ tag:
 - australia
 - passwords
 - security
-- written-in-sydney
+location: sydney
 ---
 I registered for an OfficeWorks account recently. A [risky move] for an online Australian store, but I like to live on the wild side.
 

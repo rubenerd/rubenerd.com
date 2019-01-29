@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - keyboards
 - sun-microsystems
-- written-in-sydney
+location: sydney
 ---
 It's been at least a few months since we had a keyboard discussion. This cannot stand; in part given you'd be sitting to use one.
 

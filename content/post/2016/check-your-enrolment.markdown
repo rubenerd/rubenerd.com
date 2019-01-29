@@ -7,7 +7,7 @@ tag:
 - australia
 - elections
 - politics
-- written-in-sydney
+location: sydney
 ---
 Australians, you have till 20:00 <abbr title="Australian Eastern Standard Time">AEST</abbr> to [confirm your enrolment]. You won't get another chance before the election in July.
 

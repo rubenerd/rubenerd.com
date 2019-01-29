@@ -9,7 +9,7 @@ tag:
 - dan-benjamin
 - onsug
 - podcasts
-- written-in-sydney
+location: sydney
 ---
 My heart (and ears) belong firmly in the Overnightscape Underground, but I'm also been a 5by5 fan for many years.
 

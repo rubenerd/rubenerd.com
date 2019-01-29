@@ -9,7 +9,7 @@ tag:
 - stack-overflow
 - server-fault
 - super-user
-- written-in-sydney
+location: sydney
 ---
 This evening I went to Stack Exchange, and got this:
 

@@ -6,7 +6,7 @@ category: Internet
 tag:
 - design
 - html
-- written-in-sydney
+location: sydney
 ---
 Based on a harrowingly unproductive experience this afternoon, I'm proposing the following rules:
 

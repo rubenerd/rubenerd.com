@@ -8,7 +8,7 @@ tag:
 - git
 - github
 - guides
-- written-in-sydney
+location: sydney
 ---
 If you use GitHub in any capacity, you should be using a [public key] with your account. It's one of those blissfully–rare occurrences where security and convenience intersect. GitHub recommends using HTTPS URLs, but I still reckon SSH is easier.
 

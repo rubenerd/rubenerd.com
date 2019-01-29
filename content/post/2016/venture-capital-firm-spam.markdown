@@ -6,7 +6,7 @@ year: "2016"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 Fastmail does a great job with most spam, but every now and then a piece makes it through the cracks. And they're almost always wonderful.
 

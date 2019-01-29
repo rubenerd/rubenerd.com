@@ -8,7 +8,7 @@ tag:
 - hp
 - hpe
 - sgi
-- written-in-sydney
+location: sydney
 ---
 Without further introductory comment (save for this one), have [this news] from Hewlett Packard Enterprise:
 

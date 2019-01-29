@@ -7,7 +7,7 @@ category: Software
 tag: 
 - gohugo
 - static-site-generation
-- written-in-sydney
+location: sydney
 ---
 There was a genuine debate in the blogosphere era (remember that term?) surrounding the use of "read more..." links. Proponents claimed a page of summaries were easier to skim than entire posts, but detractors lamented the extra clicks involved to get to content.
 

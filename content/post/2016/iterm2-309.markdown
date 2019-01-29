@@ -6,7 +6,7 @@ category: Software
 tag:
 - iterm
 - terminal
-- written-in-sydney
+location: sydney
 ---
 The tireless [iTerm2] contributers keep pumping out awesomeness. The second point in their 3.0.9 release notes shows especially shows the care and attention they put into this:
 

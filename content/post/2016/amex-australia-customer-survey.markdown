@@ -8,7 +8,7 @@ tag:
 - australia
 - banks
 - finances
-- written-in-sydney
+location: sydney
 ---
 People are so quick to go online and write about negative experiences, so I'm attempting to balance with positivity. In this case Amex asked me to do a user survey based on an automated call I'd done earlier in the week.
 

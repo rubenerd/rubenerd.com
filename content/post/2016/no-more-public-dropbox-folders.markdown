@@ -7,7 +7,7 @@ category: Internet
 tag:
 - cloud
 - dropbox
-- written-in-sydney
+location: sydney
 ---
 If you use Dropbox, you would have got this email today.
 

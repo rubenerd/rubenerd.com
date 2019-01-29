@@ -5,7 +5,7 @@ year: "2016"
 category: Media
 tag:
 - spelling
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/tohsaka.zettai.png" srcset="https://rubenerd.com/files/2016/tohsaka.zettai.png 1x, https://rubenerd.com/files/2016/tohsaka.zettai@2x.png 2x" alt="" style="height:290px; width:192px; float:right; margin:0 0 10px 10px" /></p>
 

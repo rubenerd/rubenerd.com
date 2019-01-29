@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - perl
-- written-in-sydney
+location: sydney
 ---
 Running [Perl][perl] in [FreeBSD][freebsd]? You should be [using env][env], but a heads up by the tireless maintainers:
 

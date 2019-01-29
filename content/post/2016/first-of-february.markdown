@@ -8,7 +8,7 @@ tag:
 - personal
 - life
 - time
-- written-in-sydney
+location: sydney
 ---
 Let that sink in. I can't yet, it doesn't feel real. Weren't we just watching the fireworks last weekend?
 

@@ -7,7 +7,7 @@ tag:
 - colour
 - music
 - music-videos
-- written-in-sydney
+location: sydney
 ---
 This is one of the [greatest music videos] I’ve ever seen.
 

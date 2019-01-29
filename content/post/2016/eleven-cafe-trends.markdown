@@ -8,7 +8,7 @@ tag:
 - coffee
 - food
 - sydney
-- written-in-sydney
+location: sydney
 ---
 Matt Holden's list of terrible Australian café trends for the Sydney Morning Herald and the Age was so good, I'm brushing off my HTML definition lists instead of using Markdown.
 

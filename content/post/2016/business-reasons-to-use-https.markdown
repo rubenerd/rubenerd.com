@@ -10,7 +10,7 @@ tag:
 - security
 - ssl
 - tls
-- written-in-sydney
+location: sydney
 ---
 I got an awesome sandwich for lunch today. I also got this email from Symantec:
 

@@ -11,7 +11,7 @@ tag:
 - tohsaka-rin
 - unlimited-blade-works
 - zettai-ryouiki
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic;">(This post was originally written Sunday 7th August 2016).</p>
 

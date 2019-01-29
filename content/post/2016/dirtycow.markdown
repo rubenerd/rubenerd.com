@@ -6,7 +6,7 @@ category: Software
 tag:
 - linux
 - security
-- written-in-sydney
+location: sydney
 ---
 I go on leave for three weeks, and [this happens].
 

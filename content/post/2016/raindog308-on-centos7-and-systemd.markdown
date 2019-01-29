@@ -10,7 +10,7 @@ tag:
 - rhel
 - systemd
 - fedora
-- written-in-sydney
+location: sydney
 ---
 <p>raindog308 has some <a href="https://raindog308.com/centos7/">choice words</a> about the latest CentOS:</p>
 

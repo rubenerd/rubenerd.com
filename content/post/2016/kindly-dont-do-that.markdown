@@ -6,7 +6,7 @@ category: Internet
 tag:
 - cliches
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I’ve started a new blog called *[Kindly, Don’t Do That]*.
 

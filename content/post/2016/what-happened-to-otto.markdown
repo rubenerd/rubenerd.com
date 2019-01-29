@@ -6,7 +6,7 @@ category: Software
 tag:
 - devops
 - hashicorp
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/otto.png" srcset="https://rubenerd.com/files/2016/otto.png 1x, https://rubenerd.com/files/2016/otto@2x.png 2x" alt="" style="width:500px; height:190px;" /></p>
 

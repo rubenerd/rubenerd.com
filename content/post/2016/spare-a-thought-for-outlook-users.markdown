@@ -7,7 +7,7 @@ tag:
 - email
 - microsoft
 - outlook
-- written-in-sydney
+location: sydney
 ---
 I noticed this when checking my Outlook Web Access email filters:
 

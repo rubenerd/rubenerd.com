@@ -8,7 +8,7 @@ tag:
 - housing-affordability-crisis
 - news
 - politics
-- written-in-sydney
+location: sydney
 ---
 Speaking of the [housing affordability crisis] in Australia, [Senator Scott Ludlam] said this in February:
 

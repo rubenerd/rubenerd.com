@@ -8,7 +8,7 @@ tag:
 - debian
 - guides
 - rar
-- written-in-sydney
+location: sydney
 ---
 People keep sending me rar files like its 1999. 7zip is free, open source, and has higher compression ratios: please use it!
 

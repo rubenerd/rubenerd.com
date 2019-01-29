@@ -8,7 +8,7 @@ tag:
 - virtualbox
 - virtualisation
 - when-x-attacks
-- written-in-sydney
+location: sydney
 ---
 Or why you shouldn't attempt package manager installs before coffee.
 
@@ -34,12 +34,12 @@ Or why you shouldn't attempt package manager installs before coffee.
     $ cowsay -e "><"  "Mumble grumble"
      ________________ 
     < mumble grumble >
-- written-in-sydney
+location: sydney
 ---
             \   ^__^
              \  (><)\_______
                 (__)\       )\/\
-- written-in-sydney
+location: sydney
 ---
                     ||     ||
 

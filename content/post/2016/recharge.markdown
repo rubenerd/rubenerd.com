@@ -10,7 +10,7 @@ tag:
 - personal
 - transit
 - travel
-- written-in-sydney
+location: sydney
 ---
 Like most of us in the world now, I've always lived in cities. I appreciate the convenience, infrastructure, employment and education, arts, and the illogical calm an introvert can derive from being surrounded by people without interaction. They're communities, on a scale of millions.
 

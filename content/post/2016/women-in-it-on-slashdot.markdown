@@ -8,7 +8,7 @@ tag:
 - news
 - slashdot
 - women-in-it
-- written-in-sydney
+location: sydney
 ---
 I delight (too strong a term) in reading the veritable butthurt on Slashdot whenever an article about women in IT appears. Surprisingly, there was a voice of reason there for once, which I will quote here in its entirety.
 

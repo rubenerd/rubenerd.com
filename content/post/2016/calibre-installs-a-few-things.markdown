@@ -8,7 +8,7 @@ tag:
 - calibre
 - ebooks
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 I'm cleaning out my apartment, including donating a ton of my books to save valuable space. It's a little heartbreaking, I won't lie.
 

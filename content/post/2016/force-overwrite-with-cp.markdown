@@ -9,7 +9,7 @@ tag:
 - guides
 - linux
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 Like any self-respecting engineer with butter fingers, I've taken out insurance in my bashrc by aliasing potentially destructive commands. -i asks me before clobbering a target, and -v enables verbose output:
 

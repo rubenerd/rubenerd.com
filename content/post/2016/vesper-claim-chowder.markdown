@@ -7,7 +7,7 @@ tag:
 - apple
 - daring-fireball
 - john-gruber
-- written-in-sydney
+location: sydney
 ---
 *"Claim chowder"* is a Mr John Gruber term for demonstratably-ridiculous predictions levelled at Apple by pundits who should know better by now. He's not immune to them himself though, as can be seen in [this post from 2013]\:
 

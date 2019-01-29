@@ -8,7 +8,7 @@ tag:
 - economics
 - japan
 - uk
-- written-in-sydney
+location: sydney
 ---
 As reported in the [International Business Times]:
 

@@ -8,7 +8,7 @@ tag:
 - pointless
 - travel
 - united-states
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/nynjph2016-licences.svg" alt="Map of the United States with Arizona, Conneticut, Delaware, Georgia, Maryland, Michigan, Minnesota, New Jersey, New York, North Carolina, Iowa, Ohio, Pennsylvania, Texas and Virginia highlighted" style="width:500px;" />
 

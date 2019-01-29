@@ -11,7 +11,7 @@ tag:
 - netbsd
 - linux
 - networking
-- written-in-sydney
+location: sydney
 ---
 Here's a simple, cross platform way (read: no bashisms) to find hosts on a range of IP addresses:
 

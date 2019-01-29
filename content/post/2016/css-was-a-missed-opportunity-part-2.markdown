@@ -7,7 +7,7 @@ category: Internet
 tag:
 - css
 - html
-- written-in-sydney
+location: sydney
 ---
 There are still a few things I long for classic HTML for. Take this gem from HTML3:
 

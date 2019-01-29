@@ -7,7 +7,7 @@ tag:
 - america
 - politics
 - usa
-- written-in-sydney
+location: sydney
 ---
 [Me, on Twitter](https://twitter.com/Rubenerd/status/796478765643669504):
 

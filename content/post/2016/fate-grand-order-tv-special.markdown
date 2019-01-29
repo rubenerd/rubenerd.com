@@ -10,7 +10,7 @@ tag:
 - mobile-game
 - shielder
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 Having literally just spent hundreds of words explaning my need for a new Fate/Grand Order [phone case], we now get the news that a [TV special is planned] for New Years Eve based on the game!
 

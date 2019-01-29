@@ -6,7 +6,7 @@ category: Internet
 tag:
 - instapaper
 - pinterest
-- written-in-sydney
+location: sydney
 ---
 Instapaper has been bought by Pinterest. For those of you who reasonably assumed I just spoke French, Instapaper was a read-it-later service that would render plain, easy to read text from bookmarked pages. Pinterest is a social network where people republish other people's material on specific topics or a criteria of their choosing.
 

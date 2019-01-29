@@ -8,7 +8,7 @@ tag:
 - laptops
 - intel-atom
 - notebooks
-- written-in-sydney
+location: sydney
 ---
 I'm still a Mac desktop user, but I've been looking at PC laptops again. For remotely fixing servers, I've resigned myself to the fact I have to carry a laptop around with me permanently, so I want the lightest one I can get.
 

@@ -6,7 +6,7 @@ year: "2016"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 Fastmail is generally pretty good with spam, but an oddly-specific source of the nefarious junk has been filtering through. It started with this in early March:
 

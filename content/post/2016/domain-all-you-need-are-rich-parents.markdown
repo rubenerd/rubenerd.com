@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 Australia has among the least-affordable housing in the world. What used to cost two to three times the average wage in capital cities now takes up to eleven times. And that's not accounting for the six figures even needed for most house deposits. Facts.
 

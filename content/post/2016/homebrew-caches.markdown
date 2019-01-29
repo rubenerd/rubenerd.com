@@ -10,7 +10,7 @@ tag:
 - macos
 - os-x
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 I got a surprise this morning (June 8) when updating [Homebrew]:
 

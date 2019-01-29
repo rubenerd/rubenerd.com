@@ -8,7 +8,7 @@ tag:
 - art
 - aviation
 - moe-anthropomorphism
-- written-in-sydney
+location: sydney
 ---
 Moe anthropomorphism just keeps going. Today, [nenchi illustrates] how a tactical Russian jet would operate with a person at supercruise speeds.
 

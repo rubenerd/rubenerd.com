@@ -9,7 +9,7 @@ tag:
 - kyoani
 - kyoto-animation
 - myriad-colours-phantom-world
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/anime-mcpw01-cast.jpg" srcset="https://rubenerd.com/files/2016/anime-mcpw01-cast.jpg 1x, https://rubenerd.com/files/2016/anime-mcpw01-cast@2x.jpg 2x" alt="" style="width:500px; height:281px" /></p>
 

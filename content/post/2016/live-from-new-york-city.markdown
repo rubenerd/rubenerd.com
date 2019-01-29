@@ -10,7 +10,7 @@ tag:
 - nyc
 - personal
 - travel
-- written-in-new-york
+location: new-york
 ---
 <p><img src="https://rubenerd.com/files/2016/bryantpark.jpg" alt="Beautiful mid-morning view of Bryant Park and the street outside this coffee shop" style="width:500px; height:375px;" srcset="https://rubenerd.com/files/2016/bryantpark.jpg 1x, https://rubenerd.com/files/2016/bryantpark@2x.jpg 2x" /></p>
 

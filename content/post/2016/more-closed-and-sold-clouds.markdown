@@ -11,7 +11,7 @@ tag:
 - hpe
 - openstack
 - virtualisation
-- written-in-sydney
+location: sydney
 ---
 I could have gone with "precipitating clouds" or "trouble in the sky" or something equally cringeworthy, but I thought I'd spare you.
 

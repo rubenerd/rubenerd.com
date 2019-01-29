@@ -9,7 +9,7 @@ tag:
 - nostalgia
 - pointless
 - weblog
-- written-in-sydney
+location: sydney
 ---
 In what's likely the most mundane news you've read all week, posts on *[Rubenerd]* are now in boxes again. Boom!
 

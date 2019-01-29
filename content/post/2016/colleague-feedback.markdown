@@ -6,7 +6,7 @@ category: Internet
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 *Rubénerd* got some impromtu feedback from a work colleague today:
 

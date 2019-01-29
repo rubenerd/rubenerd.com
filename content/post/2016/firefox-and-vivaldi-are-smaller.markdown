@@ -11,7 +11,7 @@ tag:
 - homebrew
 - homebrew-cask
 - vivaldi
-- written-in-sydney
+location: sydney
 ---
 For some reason I had Chrome installed. I wouldn't have done it on purpose; maybe I accidently added it instead of Chromium while in a fugue state. I almost wrote that as fudge, which not only would have been deliciously hilarious, but would also explain how I could have confused Chrome with Chromium.
 

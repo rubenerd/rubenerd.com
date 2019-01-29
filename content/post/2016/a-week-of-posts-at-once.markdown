@@ -8,7 +8,7 @@ tag:
 - energy
 - south-australia
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Last night, South Australia lost its entire energy grid.
 

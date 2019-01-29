@@ -6,7 +6,7 @@ category: Software
 tag:
 - microsoft
 - visual-studio
-- written-in-sydney
+location: sydney
 ---
 Microsoft is releasing Xamarin for free with Visual Studio, resulting in much joy on the part of Windows developers. Peter Bright summarised the feeling in [Ars Technica]:
 

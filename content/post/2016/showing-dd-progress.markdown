@@ -8,7 +8,7 @@ tag:
 - freebsd
 - linux
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 By default, dd doesn't show progress during block copying.
 

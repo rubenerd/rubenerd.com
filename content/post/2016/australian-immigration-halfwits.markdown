@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">I'm clearing out my burgeoning drafts folder before the end of the year. This was written in October 2016, and almost not published because of how angry I got. In light of recent protests which were dismissed by the Government and "opposition" as being against democracy, this seemed precient.</p>
 

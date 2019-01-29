@@ -8,7 +8,7 @@ tag:
 - feeds
 - rss
 - xml
-- written-in-sydney
+location: sydney
 ---
 The *derived* namespace is an add-on to RSS 2.0 that provide context about the source code for textual media. 
 

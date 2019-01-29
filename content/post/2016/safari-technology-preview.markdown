@@ -7,7 +7,7 @@ category: Software
 tag:
 - browsers
 - safari
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/safari-300x300.png" alt="Safari Technology Preview icon" style="width:150px; height:150px; float:right; margin:0 0 20px 20px;" /></p>
 

@@ -8,7 +8,7 @@ tag:
 - passwords
 - security
 - vivaldi
-- written-in-sydney
+location: sydney
 ---
 Over the last few years I’ve used the following as desktop password stores:
 

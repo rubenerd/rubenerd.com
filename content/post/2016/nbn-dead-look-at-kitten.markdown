@@ -7,7 +7,7 @@ tag:
 - australia
 - nbn
 - politics
-- written-in-sydney
+location: sydney
 ---
 It's a political trope as old as time:
 

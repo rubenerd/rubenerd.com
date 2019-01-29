@@ -7,7 +7,7 @@ category: Internet
 tag:
 - amazon
 - cdns
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/screenie.deathbycloudfront.png" alt="Screenshot showing four distinct, random CloudFront end points in NoScript that all have to be enabled" style="width:424px; height:462px;" /></p>
 

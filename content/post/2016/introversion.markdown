@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - introversion
 - personal
-- written-in-sydney
+location: sydney
 ---
 I've been an introvert for as long as I can remember. I have no problem hanging out with groups of people, provided I'm given a chance to mentally and physically recharge after. 
 

@@ -7,7 +7,7 @@ tag:
 - apple-music
 - music
 - spotify
-- written-in-sydney
+location: sydney
 ---
 For someone who came so late to the streaing music game, I'm surprised how much Spotify and Apple Music crawled in and became an inseparable part of my life. They have three major benefits:
 

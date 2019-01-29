@@ -7,7 +7,7 @@ category: Internet
 tag:
 - facebook
 - fb
-- written-in-sydney
+location: sydney
 ---
 I used to hate Facebook. It's blatant intrusiveness and downright creepiness (Mark invented it to get girls' phone numbers) were more of a stick than the perceived carrot. I've since come out of my cave, felt the sunlight singe my pasty skin, and realise that if I want to be a part of the twenty first century, I should probably use it.
 

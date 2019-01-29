@@ -9,7 +9,7 @@ tag:
 - korea
 - language
 - news
-- written-in-sydney
+location: sydney
 ---
 Or at least, so far. [Damien Kingsbury wrote this for The Drum][drum]: 
 

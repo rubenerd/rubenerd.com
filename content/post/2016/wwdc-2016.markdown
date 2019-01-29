@@ -9,7 +9,7 @@ tag:
 - macos
 - mac-os-x
 - os-x
-- written-in-sydney
+location: sydney
 ---
 I used to follow the Apple rumour sites, MacWorld (RIP) and WWDC with gusto. Cynical folk would have referred to the condition as rabid fanboyism, but I considered it reasonable for one who's personal and professional life revolve around the use of a specific collection of products.
 

@@ -6,7 +6,7 @@ category: Hardware
 tag:
 - privacy
 - security
-- written-in-sydney
+location: sydney
 ---
 Leading *Daring Fireball* prognosticator John Gruber had a rare slip when admitting he was less than enthusiastic about [covering laptop cameras] with tape:
 

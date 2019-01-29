@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - masculinity
 - philosophy
-- written-in-sydney
+location: sydney
 ---
 2016 has been a rough year. Train and plane crashes seemingly every other week. Brexit, Trump and Pauline Hanson pushed back on the idea the world was trending towards a kinder, more inclusive place.
 

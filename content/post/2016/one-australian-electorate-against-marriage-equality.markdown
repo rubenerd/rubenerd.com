@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 Adam Morton reported this in the [Sydney Morning Herald]:
 

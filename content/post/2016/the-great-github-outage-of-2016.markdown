@@ -9,7 +9,7 @@ tag:
 - git
 - github
 - outages
-- written-in-sydney
+location: sydney
 ---
 <p><img alt="GitHub's Fail Unicorn" src="https://rubenerd.com/files/2016/failunicorn.png" style="width:200px;" /></p>
 

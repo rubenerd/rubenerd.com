@@ -10,7 +10,7 @@ tag:
 - reviews
 - saber
 - type-moon
-- written-in-sydney
+location: sydney
 ---
 [Clara] and I have a fig problem. They're everywhere in our apartment, and the situation is only getting worse. The first step towards overcoming an addiction is admitting it, right?
 

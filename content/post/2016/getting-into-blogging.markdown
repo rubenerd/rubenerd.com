@@ -6,7 +6,7 @@ year: "2016"
 category: Internet
 tag:
 - weblog
-- written-in-sydney
+location: sydney
 ---
 A colleague of mine talked about how he'd tried to get into blogging, but every time he wrote a few posts he'd end up deleting the whole site out of frustration of what he wrote. Clara has said the same thing.
 

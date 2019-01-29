@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - nostalgia
 - ten-years-of-rubenerd
-- written-in-sydney
+location: sydney
 ---
 Rubénerd became a blog in 2004, but I didn't really start writing seriously on it till 2006. That was a decade ago already (wow), so I thought it'd be fun to see what I was talking about exactly ten years ago.
 

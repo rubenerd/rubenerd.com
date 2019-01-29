@@ -10,7 +10,7 @@ tag:
 - copyright
 - p2p
 - politics
-- written-in-sydney
+location: sydney
 ---
 Speaking of news that's [hardly surprising], Australian ISPs now have 15 days to implement site blocks for a range of torrent sites. So bemused was I on the train, I had to smash out this post.
 

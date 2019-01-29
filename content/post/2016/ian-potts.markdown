@@ -6,7 +6,7 @@ year: "2016"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 Speaking of [spam], this was another I got yesterday:
 

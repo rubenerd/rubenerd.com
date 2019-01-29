@@ -11,7 +11,7 @@ tag:
 - freebsd
 - linux
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 You have a calendar on your Mac, Linux and BSD box called cal, another fine utility by Wolfgang Helbig over at FreeBSD. If you don't, your distrubution is terrible and you should switch.
 

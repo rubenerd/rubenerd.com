@@ -7,7 +7,7 @@ category: Internet
 tag:
 - javascript
 - noscript
-- written-in-sydney
+location: sydney
 ---
 [From Slashdot today]\:
 

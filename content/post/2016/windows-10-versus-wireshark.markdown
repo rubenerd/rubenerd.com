@@ -8,7 +8,7 @@ tag:
 - privacy
 - windows
 - windows-10
-- written-in-sydney
+location: sydney
 ---
 Jimbo and others have asked me what I think of the surveillance in Windows 10, and whether its worth holding off upgrading to preserve privacy. In a nutshell, while reporters have likely sensationalised the story, there are still legitimate concerns about what Microsoft is collecting, how they are, and why the built-in mechanisms for opting out of tracking are ineffective in their stated purpose.
 

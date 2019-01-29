@@ -10,7 +10,7 @@ tag:
 - package-managers
 - pkgng
 - ports
-- written-in-sydney
+location: sydney
 ---
 I was [very excited][excite] when [pkgng][pkgng] came to FreeBSD (and [pkgin][pkgin] on pkgsrc/NetBSD). It does make some aspects of maintaining a BSD system easier, though there are few new gotchas.
 

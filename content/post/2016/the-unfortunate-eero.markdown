@@ -6,7 +6,7 @@ category: Hardware
 tag:
 - ero
 - wifi
-- written-in-sydney
+location: sydney
 ---
 I've seen a lot of podcasts and blogs being sponsored by this new WiFi equipment manufacturer. They're seemingly unaware of the [slang term] and its [common abbreviation].
 

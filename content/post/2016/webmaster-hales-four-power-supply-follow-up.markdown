@@ -7,7 +7,7 @@ tag:
 - hp
 - hpe
 - servers
-- written-in-sydney
+location: sydney
 ---
 The imitable Webmaster Hales sent the following feedback about my [four power supplies] post yesterday:
 

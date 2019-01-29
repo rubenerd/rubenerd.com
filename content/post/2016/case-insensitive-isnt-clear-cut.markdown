@@ -13,7 +13,7 @@ tag:
 - os-x
 - samba
 - windows
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">This was originally drafted in August 2015, and discovered in my drafts folder yesterday. I suspect I wanted to include ZFS examples, but never did.</p>
 

@@ -6,7 +6,7 @@ category: Media
 tag:
 - lyrics
 - music
-- written-in-sydney
+location: sydney
 ---
 Katy Perry:
 

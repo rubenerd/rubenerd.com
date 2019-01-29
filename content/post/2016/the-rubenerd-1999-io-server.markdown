@@ -6,7 +6,7 @@ year: "2016"
 category: Software
 tag:
 - dave-winer
-- written-in-sydney
+location: sydney
 ---
 I’ve installed Dave Winer's 1999.io blogging software, at the uninspired location of:
 

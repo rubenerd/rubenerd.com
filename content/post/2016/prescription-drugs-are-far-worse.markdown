@@ -8,7 +8,7 @@ tag:
 - family
 - health
 - personal
-- written-in-sydney
+location: sydney
 ---
 [Christopher Knaus of The Guardian] reported on findings that are less than surprising:
 

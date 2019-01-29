@@ -8,7 +8,7 @@ tag:
 - audio
 - design
 - iphone
-- written-in-sydney
+location: sydney
 ---
 The technical specifications and design of the new iPhone look amazing, but the conversation has been fixated on the lack of a [headphone jack]. This shouldn't surprise anyone.
 

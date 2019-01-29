@@ -8,7 +8,7 @@ tag:
 - guides
 - ssh
 - youtube
-- written-in-sydney
+location: sydney
 ---
 If you have access to an SSH box in a different region, you can use it as a SOCKS proxy to download YouTube videos with [youtube-dl] you can't view in your own country.
 

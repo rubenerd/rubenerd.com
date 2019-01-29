@@ -7,7 +7,7 @@ category: Software
 tag:
 - comments
 - pages
-- written-in-sydney
+location: sydney
 ---
 Most comments on technical posts end up divolving into several predictable anti-patterns. Rather than preempting them each time, I've included them below to link to for future reference, along with a few other common ones.</p>
 

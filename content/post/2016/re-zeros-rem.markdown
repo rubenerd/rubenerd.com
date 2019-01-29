@@ -7,7 +7,7 @@ tag:
 - 2016-anime
 - design
 - re-zero
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/emilia-ram-rem.jpg" srcset="https://rubenerd.com/files/2016/emilia-ram-rem.jpg 1x, https://rubenerd.com/files/2016/emilia-ram-rem@2x.jpg 2x" alt="" style="width:500px" /></p>
 

@@ -9,7 +9,7 @@ tag:
 - photos
 - singapore
 - wifi
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/captiveportal-loginhero.jpg" alt="1999 skyline of Singapore from the Equinix WiFi login screen" style="width:500px" /></p>
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - nonsense
 - spam
-- written-in-sydney
+location: sydney
 ---
 I find spam thoroughly entertaining. This one was a bit more special, because they even got my name right. Someone leaked some account details somewhere, or based it off a social network profile?
 

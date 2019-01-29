@@ -8,7 +8,7 @@ tag:
 - australia
 - education
 - politics
-- written-in-sydney
+location: sydney
 ---
 As a former university student performing some long term budgeting and forecasting, I learned something I should probably have known already. Things are about to get [much more expensive]:
 

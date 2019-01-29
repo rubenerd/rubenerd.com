@@ -8,7 +8,7 @@ tag:
 - advertising
 - design
 - user-hostile
-- written-in-sydney
+location: sydney
 ---
 Unbounce is a very useful tool for developing landing pages. They're latest feature in beta is worrying though:
 

@@ -8,7 +8,7 @@ tag:
 - aviation
 - convair-880
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Almsot eight years ago, I [wrote a post about the Convair 880], one of the earliest commercial jets.
 

@@ -8,7 +8,7 @@ tag:
 - macos
 - mac-os-x
 - os-x
-- written-in-sydney
+location: sydney
 ---
 Apple has referred to their desktop platform as macOS in their [iTunes Partner FAQ]:
 

@@ -7,7 +7,7 @@ tag:
 - books
 - scifi
 - science
-- written-in-sydney
+location: sydney
 ---
 If you want some really wonderful, hard science fiction written by real scientists, you have about seven days left to grab the latest [Humble Book Bundle]. I was already a fan of Stephen Webb, but there are dozens of authors with topics ranging from space exploration to medical science and engineering.
 

@@ -10,7 +10,7 @@ tag:
 - economics
 - news
 - shopping
-- written-in-sydney
+location: sydney
 ---
 I know, right? I read the [above subject line] in my inbox, and heaved a sigh of relief for all those Dick Smith employees so uncertain about their future. Being told the company you're working for has suddenly gone into receivership would have been pretty scary.
 

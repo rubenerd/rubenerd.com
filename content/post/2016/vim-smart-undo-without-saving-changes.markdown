@@ -6,7 +6,7 @@ category: Software
 tag:
 - macvim
 - vim
-- written-in-sydney
+location: sydney
 ---
 Vim keeps finding ways to surprise me, even after all these years. And yes emacsen, that's (generally) a positive! 
 

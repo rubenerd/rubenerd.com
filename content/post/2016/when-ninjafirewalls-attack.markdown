@@ -8,7 +8,7 @@ tag:
 - firewalls
 - security
 - when-x-attacks
-- written-in-sydney
+location: sydney
 ---
 While attempting to find information on, of all things, nginx http2:
 

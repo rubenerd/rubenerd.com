@@ -7,7 +7,7 @@ category: Software
 tag:
 - git
 - homebrew
-- written-in-sydney
+location: sydney
 ---
 I [noted this] back in August 2015:
 

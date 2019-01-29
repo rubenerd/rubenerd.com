@@ -7,7 +7,7 @@ tag:
 - cases
 - diy
 - mini-itx
-- written-in-sydney
+location: sydney
 ---
 I'm building a gaming machine for the first time since I was 17. It's bringing back all the wonderful memories pouring over price lists.
 

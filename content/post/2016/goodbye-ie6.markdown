@@ -8,7 +8,7 @@ tag:
 - design
 - ie6
 - microsoft
-- written-in-sydney
+location: sydney
 ---
 I just realised:
 

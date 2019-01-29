@@ -8,7 +8,7 @@ tag:
 - australia
 - podcasts
 - politics
-- written-in-sydney
+location: sydney
 ---
 I just left an overdue-review for [Well May We Say] on iTunes. Given the fickle nature of these services, I'm also recording it here for posterity:
 

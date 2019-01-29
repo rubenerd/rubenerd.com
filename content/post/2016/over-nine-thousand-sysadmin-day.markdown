@@ -8,7 +8,7 @@ tag:
 - logo
 - milestones
 - tim-berners-lee
-- written-in-sydney
+location: sydney
 ---
 There were some big milestones and events over the last week which I'd be remissed not covering here for posterity.
 

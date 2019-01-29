@@ -6,7 +6,7 @@ year: "2016"
 category: Hardware
 tag:
 - decluttering
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">(This post was originally written earlier this month, but was published by accident before I added photos, etc. Reading it now, I think it’s fine the way it is).</p>
 

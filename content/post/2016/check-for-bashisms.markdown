@@ -7,7 +7,7 @@ category: Software
 tag:
 - fb
 - shell-scripting
-- written-in-sydney
+location: sydney
 ---
 For better or worse (depending on your disposition), GNU/Linux has become the *defacto* \*nix standard. But there are still plenty of unices out there, even Debian uses ash during start. If you're concerned with script portability, you should abstain from bashisms.
 

@@ -12,7 +12,7 @@ tag:
 - netbsd
 - scp
 - ssh
-- written-in-sydney
+location: sydney
 ---
 I’ve been doing a ton of data re-arranging and backing up with another HP Microserver. With ZFS of course, I'm not an animal.
 

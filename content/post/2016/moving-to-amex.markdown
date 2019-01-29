@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - amex
 - finance
-- written-in-sydney 
+location: sydney 
 ---
 I made the mistake a few weeks ago of innocuously asking Twitter where I could top up my Opal card with American Express. I know I know, what should I have expected?
 

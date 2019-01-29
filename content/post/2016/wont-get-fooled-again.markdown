@@ -8,7 +8,7 @@ tag:
 - music
 - the-who
 - video
-- written-in-sydney
+location: sydney
 ---
 Happy April Fools! No cringe-worthy jokes or Windows Vista reviews this year, just one of the greatest rock songs of all time (and I didn't even [sing it myself] this time). Enjoy!
 

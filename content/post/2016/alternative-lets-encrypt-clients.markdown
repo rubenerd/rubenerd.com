@@ -10,7 +10,7 @@ tag:
 - netbsd
 - ssl
 - tls
-- written-in-sydney
+location: sydney
 ---
 I haven't blogged about Lets Encrypt yet, but I've been using it professionally and [personally] since it came out of beta, and am very impressed. I'd argue the client and automation even beat the fact its free.
 

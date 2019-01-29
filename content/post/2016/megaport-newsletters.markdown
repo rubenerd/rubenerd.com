@@ -7,7 +7,7 @@ category: Internet
 tag:
 - newsletters
 - spam
-- written-in-sydney
+location: sydney
 ---
 I got this email from Megaport this morning:
 

@@ -6,7 +6,7 @@ category: Internet
 tag:
 - delicious
 - pinboard
-- written-in-sydney
+location: sydney
 ---
 Changing habits, and services you once loved dearly, are hard. But I’ve been using a Pinboard for a few days now, and it's so much better I'm regretting not switching sooner. You'd never guess the [terrible username] I chose!
 

@@ -12,7 +12,7 @@ tag:
 - netbsd
 - os-x
 - serendipity
-- written-in-sydney
+location: sydney
 ---
 I was trying to tab complete `rgrep`, but got this command instead. From its man(1) page:
 

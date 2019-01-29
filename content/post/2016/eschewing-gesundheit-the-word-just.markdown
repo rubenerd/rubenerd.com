@@ -6,7 +6,7 @@ year: "2016"
 category: Thoughts
 tag:
 - language
-- written-in-sydney 
+location: sydney 
 ---
 The word *just* preceiding a statemet or task implies it will be simple or straightforward. How often is that really the case?
 

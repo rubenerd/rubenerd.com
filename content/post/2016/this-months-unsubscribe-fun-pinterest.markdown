@@ -8,7 +8,7 @@ tag:
 - newsletters
 - pinterest
 - spam
-- written-in-sydney
+location: sydney
 ---
 A [recurring theme](https://rubenerd.com/tag/newsletters/) on *Rubénerd* is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
 

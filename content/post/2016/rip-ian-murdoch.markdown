@@ -7,7 +7,7 @@ category: Software
 tag:
 - debian
 - rip
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/ripianmurdoch.jpg" alt="Ian Murdoch" style="width:500px;" /></p>
 

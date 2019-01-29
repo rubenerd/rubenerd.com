@@ -8,7 +8,7 @@ tag:
 - chemistry
 - hashes
 - perl
-- written-in-sydney
+location: sydney
 ---
 Perl legend (monk, you could say) Brian D. Foy [recently commited] this amazing hash to his Elements.pm:
 

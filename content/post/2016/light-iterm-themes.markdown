@@ -9,7 +9,7 @@ tag:
 - design
 - iterm
 - mac-os-x
-- written-in-sydney
+location: sydney
 ---
 I use and love [Solarized Dark] for my afternoon and evening work, but I find its equivalent Light theme and spelling lacking. I need bright colours in the morning to wake up, especially after a late night that may not have involved the aforementioned dark theme.
 

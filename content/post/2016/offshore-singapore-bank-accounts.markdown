@@ -8,7 +8,7 @@ tag:
 - finances
 - security
 - singapore
-- written-in-sydney
+location: sydney
 ---
 [The International Investor] had some updates on an article I should have expected:
 

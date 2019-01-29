@@ -5,7 +5,7 @@ year: "2016"
 category: Software
 tag:
 - pointless-milestones
-- written-in-sydney
+location: sydney
 ---
 Yes, it's basically an advertisement. And yes, it's horrifying that anyone in this day and age would resort to using 2 digits to represent the year. Damn it though, I'll [take what I can get]!
 

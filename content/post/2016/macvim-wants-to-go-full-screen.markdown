@@ -8,7 +8,7 @@ tag:
 - macvim
 - mac-os-x
 - vim
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/screenie.vim.fullscreen.png" alt="Menu showing Enter Full Screen half a dozen times" style="width:281px; height:401px;" /></p>
 

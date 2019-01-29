@@ -8,7 +8,7 @@ tag:
 - australia
 - design
 - javascript
-- written-in-sydney
+location: sydney
 ---
 I went to [Melbourne IT], and all I got was this <del>fridge magnet</del> message:
 

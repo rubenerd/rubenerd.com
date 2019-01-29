@@ -6,7 +6,7 @@ year: "2016"
 category: Media
 tag:
 - advertising
-- written-in-sydney
+location: sydney
 ---
 *Recommended For You* links are the latest in a proud tradition of web annoyances. They don't interrupt us like Web 1.0 popups or CSS lightboxes asking for newsletter subscriptions, but they're just as disrepectful and tasteless.
 

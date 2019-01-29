@@ -8,7 +8,7 @@ tag:
 - aircraft
 - design
 - lockheed
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/firsttristar.jpg" alt="Photo of the first Lockheed Tristar" srcset="https://rubenerd.com/files/2016/firsttristar.jpg 1x, https://rubenerd.com/files/2016/firsttristar@2x.jpg 2x" style="width:500px; height:340px" /></p>
 

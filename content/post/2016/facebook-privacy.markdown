@@ -7,7 +7,7 @@ category: Internet
 tag:
 - facebook
 - privacy
-- written-in-sydney 
+location: sydney 
 ---
 I logged into my profile for the first time in a few weeks.
 

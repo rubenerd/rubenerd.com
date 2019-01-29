@@ -6,7 +6,7 @@ category: Hardware
 tag:
 - hp
 - servers
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/l_22602210.jpg" srcset="https://rubenerd.com/files/2016/l_22602210.jpg 1x, https://rubenerd.com/files/2016/l_22602210@2x.jpg 2x" alt="" style="width:300px; height:266px" /></p>
 

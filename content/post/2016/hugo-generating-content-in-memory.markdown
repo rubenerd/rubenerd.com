@@ -6,7 +6,7 @@ category: Software
 tag:
 - gohugo
 - weblog
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/hugoboss.jpg" srcset="https://rubenerd.com/files/2016/hugoboss.jpg 1x, https://rubenerd.com/files/2016/hugoboss@2x.jpg 2x" alt="" style="width:120px; height:224px; float:right; margin:0 0 10px 20px;" /></p>
 

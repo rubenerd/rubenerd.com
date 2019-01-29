@@ -8,7 +8,7 @@ tag:
 - housing
 - politics
 - rent
-- written-in-sydney
+location: sydney
 ---
 I’ve had Creative Commons licenced material on Flickr for years, so my photos pop up all over the place. Nobody respects the share-alike provision though, either because they don't understand that their article would also need to be licenced under the same terms, or they don't care.
 

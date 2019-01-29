@@ -9,7 +9,7 @@ tag:
 - fate-stay-night
 - nagato-yuki
 - reviews
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic;">I’m publishing some accumulated drafts as a part of a new year cleanout. This was originally written back in 2015-05-09.</p>
 

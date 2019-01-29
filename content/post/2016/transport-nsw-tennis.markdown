@@ -7,7 +7,7 @@ tag:
 - australia
 - graphics
 - logos
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/tennis-logo.png" alt="" style="width:168px; height:114px;" /></p>
 

@@ -7,7 +7,7 @@ tag:
 - australia
 - medical
 - politics
-- written-in-sydney
+location: sydney
 ---
 You know it's big news when <a href="http://www.skynews.com.au/news/top-stories/2016/09/25/leaked-documents-reveal-long-medicare-delays.html" rel="nofollow">even the Murdoch press has to report on it</a>.
 

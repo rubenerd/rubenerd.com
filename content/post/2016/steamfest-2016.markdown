@@ -8,7 +8,7 @@ tag:
 - steam-trains
 - trains
 - transit
-- written-in-sydney
+location: sydney
 ---
 Before I started school, my parents figured out they could keep me quiet for a few hours by putting on the "Pure Steam" VHS tape. A documentary produced by the ABC in 1980s, it documented the Flying Scotsman's journey around Australia for the Bicentennial celebrations.
 

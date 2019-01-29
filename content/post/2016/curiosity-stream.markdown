@@ -9,7 +9,7 @@ tag:
 - science
 - streaming
 - television
-- written-in-sydney
+location: sydney
 ---
 I saw this ad for a new streaming service:
 

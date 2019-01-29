@@ -8,7 +8,7 @@ tag:
 - australia
 - economics
 - news
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/hetalia-aus.jpg" srcset="https://rubenerd.com/files/2016/hetalia-aus.jpg 1x, https://rubenerd.com/files/2016/hetalia-aus@2x.jpg 2x" alt="Advance Australia Fair by scrii on DeviantArt" style="width:500px; height:300px" /></p>
 

@@ -9,7 +9,7 @@ tag:
 - mac-os-x
 - macos
 - os-x
-- written-in-sydney
+location: sydney
 ---
 Apple is announcing their long-overdue Mac updates today; at least in US time. I'm still jetlagged from the switchover myself, those people over there need to get with the times.
 

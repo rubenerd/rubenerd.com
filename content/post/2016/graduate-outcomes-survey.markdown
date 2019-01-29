@@ -8,7 +8,7 @@ tag:
 - australia
 - studies
 - uts
-- written-in-sydney
+location: sydney
 ---
 When you graduate from an Australian university, you get an email asking to fill out a [Graduate Outcomes Survey]. As far as I know, its not affiliated with the university you went to.
 

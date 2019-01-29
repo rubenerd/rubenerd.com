@@ -7,7 +7,7 @@ tag:
 - email
 - newsletters
 - spam
-- written-in-sydney
+location: sydney
 ---
 I've seen a rise in emails that follow this formula:
 

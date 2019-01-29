@@ -10,7 +10,7 @@ tag:
 - cloud-computing
 - ec2
 - servers
-- written-in-sydney
+location: sydney
 ---
 Every cloud handles networking between instances differently. Generally you want to avoid using public networks given transit may be more expensive, and has to go through the same public firewall rules your web-facing traffic does.
 

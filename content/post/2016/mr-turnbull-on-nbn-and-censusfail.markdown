@@ -7,7 +7,7 @@ tag:
 - australia
 - census
 - nbn
-- written-in-sydney
+location: sydney
 ---
 Prime Minister Malcolm Turnbull is infamous in the Australian IT space for his demotion of Labor's *Fibre to the Premesis* (FttP) network to a slower, more costly, and less affordable *Fibre to the Node* (FttN), *Higher Failure Copper* (HFC) and *Multi–Technology Mess* (MTM) mix.
 

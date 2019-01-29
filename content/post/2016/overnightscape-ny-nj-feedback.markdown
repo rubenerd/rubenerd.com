@@ -6,7 +6,7 @@ category: Media
 tag:
 - comments
 - personal
-- written-in-sydney
+location: sydney
 ---
 The Escapist himself sent a really nice message about the latest Rubénerd Show and Overnightscape adventures in New York and New Jersey :)
 

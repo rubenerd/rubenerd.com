@@ -10,7 +10,7 @@ tag:
 - mac-os-x
 - os-x
 - ux
-- written-in-sydney
+location: sydney
 ---
 There's a macOS convention that pressing Command along with the first letter of a push button will press it. This is most useful for quickly dismissing Save dialog boxes for documents I want to discard.
 

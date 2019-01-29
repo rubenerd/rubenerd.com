@@ -7,7 +7,7 @@ tag:
 - anime-figs
 - ayanami-rei
 - evangelion
-- written-in-sydney
+location: sydney
 ---
 As [discussed on the show], I'm trying minimalism. New objects have to justify their existence, and with as little space as possible. It's been hard getting rid of stuff, but I feel a veritable weight has been lifted off my shoulders (and the apartment foundations).
 

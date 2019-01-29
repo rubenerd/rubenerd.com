@@ -8,7 +8,7 @@ tag:
 - australia
 - nbn
 - singapore
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/nbn.jpg" srcset="https://rubenerd.com/files/2016/nbn.jpg 1x, https://rubenerd.com/files/2016/nbn@2x.jpg 2x" alt="NBN's weird new logo" style="width:500px; height:281px" /></p>
 

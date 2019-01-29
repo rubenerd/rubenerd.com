@@ -7,7 +7,7 @@ tag:
 - design
 - fonts
 - windows
-- written-in-sydney
+location: sydney
 ---
 A couple of months ago, I built a gaming machine for the first time since I was a teenager. It was tons of fun, and the kick arse GTX970 was only rendered (HAH!) outdated after a couple of weeks! Darn you NVidia and your 1070.
 

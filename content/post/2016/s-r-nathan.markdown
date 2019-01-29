@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - rip
 - singapore
-- written-in-sydney
+location: sydney
 ---
 <img src="https://rubenerd.com/files/2016/srnathan.jpg" srcset="https://rubenerd.com/files/2016/srnathan.jpg 1x, https://rubenerd.com/files/2016/srnathan@2x.jpg 2x" alt="Remembering S. R. Nathan" style="width:375px" /></p>
 

@@ -10,7 +10,7 @@ tag:
 - mobile-game
 - type-moon
 - shielder
-- written-in-sydney
+location: sydney
 ---
 TGIF. I couldn't help but notice I hadn't posted about Shielder for a few days. This needs to be rectified, and what better way than by [referencing an event] I'm almost a full four months too late for.
 

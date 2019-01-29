@@ -8,7 +8,7 @@ tag:
 - nostalgia
 - numbers
 - pointless
-- written-in-sydney
+location: sydney
 ---
 If you write your dates correctly, it's 7-11 today!:
 

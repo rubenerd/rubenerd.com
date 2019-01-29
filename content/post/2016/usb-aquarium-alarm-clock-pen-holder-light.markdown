@@ -6,7 +6,7 @@ category: Hardware
 tag:
 - clocks
 - pointless
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/usb-fishtank-alarm.jpg" alt="" srcset="https://rubenerd.com/files/2016/usb-fishtank-alarm.jpg 1x, https://rubenerd.com/files/2016/usb-fishtank-alarm@2x.jpg 2x" style="width:500px; height:px" /></p>
 

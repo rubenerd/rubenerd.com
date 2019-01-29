@@ -6,7 +6,7 @@ category: Thoughts
 tag:
 - lifehack
 - spelling
-- written-in-sydney
+location: sydney
 ---
 I was in primary school when Office 95 came out. Even then it was a big deal, because it came bundled with its much-touted autocorrect **and** squiggly-red-line highlighting of misspelled words. No more hitting up the Spelling feature and scrolling endlessly through a long document to find and correct mistakes.
 

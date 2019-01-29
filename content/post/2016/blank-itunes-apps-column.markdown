@@ -7,7 +7,7 @@ tag:
 - apple
 - guides
 - itunes
-- written-in-sydney
+location: sydney
 ---
 I'm one of those weird people who still syncs his phone with iTunes. In fact I remember when doing so was one of the primary motivations for getting an iPhone; third party sync software on Mac was pretty awful once Palm Desktop stopped being maintained.
 

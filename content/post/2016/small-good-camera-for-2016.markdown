@@ -5,7 +5,7 @@ year: "2016"
 category: Media
 tag:
 - photography
-- written-in-sydney
+location: sydney
 ---
 I adore my Nikon D60 DSLR, but my iPhone's appreciably worse camera gets more use because I always have it. With an epic trip approaching, I decided to check out whether I should lug it with me, change the lens, or replace it entirely.
 

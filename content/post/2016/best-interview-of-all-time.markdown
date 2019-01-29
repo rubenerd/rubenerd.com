@@ -10,7 +10,7 @@ tag:
 - robbie-williams
 - television
 - video
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=lvPxRyIWWX8" title="Play The Best Interview In The History Of Television [Robin Williams]"><img src="https://rubenerd.com/files/2016/yt-lvPxRyIWWX8@1x.jpg" srcset="https://rubenerd.com/files/2016/yt-lvPxRyIWWX8@1x.jpg 1x, https://rubenerd.com/files/2016/yt-lvPxRyIWWX8@2x.jpg 2x" alt="Play The Best Interview In The History Of Television [Robin Williams]" style="width:500px;height:281px;" /></a></p>
 

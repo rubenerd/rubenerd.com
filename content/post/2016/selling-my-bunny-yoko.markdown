@@ -9,7 +9,7 @@ tag:
 - freeing
 - gurren-lagann
 - yoko-littner
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/lightningmaid1471266850.jpg" alt="" srcset="https://rubenerd.com/files/2016/lightningmaid1471266850.jpg 1x, https://rubenerd.com/files/2016/lightningmaid1471266850@2x.jpg 2x" style="width:500px; height:px" /></p>
 
