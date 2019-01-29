@@ -8,7 +8,7 @@ tag:
 - imagemagick
 - rinne-no-lagrange
 - graphicsmagic
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

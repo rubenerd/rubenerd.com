@@ -8,7 +8,7 @@ tag:
 - centos
 - qemu
 - virtualisation
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

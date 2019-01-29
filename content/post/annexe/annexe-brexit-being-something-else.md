@@ -8,7 +8,7 @@ tag:
 - brexit
 - economics
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

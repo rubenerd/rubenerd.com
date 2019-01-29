@@ -9,7 +9,7 @@ tag:
 - iceland
 - panama-papers
 - news
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the [Annexe](https://rubenerd.tumblr.com/post/142271651265/icelandic-pm-faces-no-confidence-vote-over-panama).*
 

@@ -7,7 +7,7 @@ category: Annexe
 tag:
 - hard-drives
 - windows
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

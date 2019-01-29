@@ -9,7 +9,7 @@ tag:
 - debian
 - linux
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

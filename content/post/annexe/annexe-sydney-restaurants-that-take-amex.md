@@ -10,7 +10,7 @@ tag:
 - finance
 - restaurants
 - sydney
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

@@ -10,7 +10,7 @@ tag:
 - os-x
 - notational-velocity
 - nvalt
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

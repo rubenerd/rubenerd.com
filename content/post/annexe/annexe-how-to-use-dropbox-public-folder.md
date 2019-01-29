@@ -6,7 +6,7 @@ year: "2012"
 category: Thoughts
 tag:
 - dropbox
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

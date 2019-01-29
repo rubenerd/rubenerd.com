@@ -7,7 +7,7 @@ category: Annexe
 tag:
 - ascii
 - urls
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

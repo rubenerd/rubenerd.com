@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - html
 - xhtml
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

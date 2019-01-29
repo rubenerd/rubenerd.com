@@ -6,7 +6,7 @@ year: "2017"
 category: Annexe
 tag:
 - ansible
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

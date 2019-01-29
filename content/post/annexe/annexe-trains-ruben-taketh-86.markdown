@@ -8,7 +8,7 @@ category: Annexe
 tag: 
 - from-trains-ruben-taketh
 - from-tumblr
-- written-in-philadelphia
+location: philadelphia
 ---
 Between 2010 and 2012, I documented trains I rode on in the unsurprisingly-titled *Trains Ruben Taketh* blog. Like so many pointless things, it was delightfully fun and a waste of mobile data. Take that, Snapchat.
 

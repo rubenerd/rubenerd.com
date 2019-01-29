@@ -5,7 +5,7 @@ year: "2009"
 category: Annexe
 tag:
 - from-brightkite
-- written-in-singapore
+location: singapore
 ---
 <p style="font-style:italic">This check-in was imported to the Annexe from <a href="https://rubenerd.com/tag/from-brightkite/" title="View all posts imported from Brightkite">Brightkite</a>, one of the first geolocation social networks.</p> 
 

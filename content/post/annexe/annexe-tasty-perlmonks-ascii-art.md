@@ -8,7 +8,7 @@ tag:
 - ascii-art
 - food
 - perl
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

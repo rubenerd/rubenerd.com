@@ -9,7 +9,7 @@ tag:
 - tls
 - openssl
 - security
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

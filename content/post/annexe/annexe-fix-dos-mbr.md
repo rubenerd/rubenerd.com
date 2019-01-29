@@ -10,7 +10,7 @@ tag:
 - microsoft
 - ms-dos 
 - troubleshooting
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe.*
 

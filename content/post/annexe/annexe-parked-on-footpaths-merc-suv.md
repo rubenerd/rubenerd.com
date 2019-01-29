@@ -7,7 +7,7 @@ year: "2016"
 category: Annexe
 tag:
 - from-parked-on-footpaths
-- written-in-sydney
+location: sydney
 ---
 *This originally appeared on the Annexe, when I documented inconsiderate drivers parked illegally on Mascot footpaths. It used to bug me no end!*
 
