@@ -1,0 +1,28 @@
+{{ partial "header.html" . }}{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}{{ range $paginator.Pages }}
+
+
+{{ safeHTML "<!-- Blog post です -->" }}
+<article class="post" resource="{{ .Permalink }}">
+<header>
+<h2>{{ .Title }} <a title="Permalink to this post" href="{{ .Permalink }}">&rarr;</a></h2>
+</header>
+<div class="post-content">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>{{ safeHTML "<!-- /post-content -->" }}
+<footer class="post-meta">
+{{ printf "<time datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ .Date.Format "Monday 02 January 2006" }}</time>
+{{ with .Params.Category }}<a title="Filed under the {{ . }} category" href="/{{ . | urlize }}/">{{ . }}</a>{{ end }}
+</footer>
+</article>
+
+
+<hr />{{ safeHTML "<!-- ******************************** -->" }}{{ end }}
+
+
+{{ safeHTML "<!-- Pagination links です -->" }}
+<nav id="pagination">{{ if .Paginator.HasPrev }}<a id="page-newer" href="{{ .Paginator.Prev.URL }}">Newer posts</a> <span aria-hidden="true" class="page-arrow">&larr;</span>{{ end }}
+<span id="page-number">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+{{ if .Paginator.HasNext }}<span aria-hidden="true" class="page-arrow">&rarr;</span> <a id="page-older" href="{{ .Paginator.Next.URL }}">Older posts</a>{{ end }}
+</nav>
+
+
+{{ partial "footer.html" . }}

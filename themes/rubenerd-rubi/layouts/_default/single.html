@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+<article class="post">
+<header>
+<h2>{{ .Title }}</h2>
+</header>
+<div class="post-content" property="articleBody">
+{{ replace .Content "\n\n" "\n" | safeHTML }}</div>
+{{ if eq .Section "post" }}<footer class="post-meta">
+{{ printf "<time datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ .Date.Format "Monday 02 January 2006" }}</time>
+{{ with .Params.Category }}<a title="Filed under the {{ . }} category" href="/{{ . | urlize }}/">{{ . }}</a>{{ end }}
+</footer>{{ end }}
+</article>
+
+
+<hr />{{ "<!-- ******************************** -->" | safeHTML }}
+
+
+{{ if eq .Section "post" }}{{ "<!-- Post navigation です -->" | safeHTML }}
+<nav id="pagination">
+{{ if .NextPage }}Newer post <span aria-hidden="true" class="page-arrow">&larr;</span> <a href="{{ .Prev.RelPermalink }}">{{ .NextPage.Title }}</a><br />{{ end }}
+{{ if .PrevPage }}Older post <span aria-hidden="true" class="page-arrow">&rarr;</span> <a href="{{ .Next.RelPermalink }}">{{ .PrevPage.Title }}</a>{{ end }}
+</nav>{{ else if eq .Section "omake" }}
+<nav id="pagination">
+<span aria-hidden="true" class="page-arrow">&larr;</span> <a href="/omake-pages/">Back to the Omake page</a>
+</nav>{{ end }}
+
+
+{{ partial "footer.html" . }}

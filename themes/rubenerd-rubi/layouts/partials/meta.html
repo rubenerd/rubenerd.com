@@ -1,0 +1,83 @@
+{{ safeHTML "<!-- Redundant metadata です -->" }}
+<meta name="twitter:title" property="og:title" content="{{ .Title }}" /> 
+<meta name="twitter:description" property="og:description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ safeHTML .Site.Params.Description }}{{ end }}" />
+<meta name="twitter:image:src" property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Logo }}" />
+<meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@{{ .Site.Params.Author.Twitter }}" />
+<meta name="twitter:site" content="@{{ .Site.Params.Twitter }}" />
+<meta property="og:locale" content="{{ replace .Site.LanguageCode "-" "_" }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
+<meta property="og:type" content="{{ if eq .Type "post" }}article{{ else }}website{{ end }}" />{{ if eq .Type "post" }}
+<meta property="article:modified_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
+<meta property="article:published_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
+<meta property="article:section" content="{{ .Params.Category }}" />{{ if .Params.Tag }}
+<meta property="article:tag" content="{{ delimit .Params.Tag "," }}" />{{ end }}{{ end }}
+
+
+{{ safeHTML "<!-- Schema RDF serialised in JSON; developers have spoken です -->" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": {{ if eq .Type "post" }}"BlogPosting"{{ else }}"Blog"{{ end }},
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rubenerd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ .Site.BaseURL }}{{ .Site.Params.Logo }}"
+    }
+  },
+  "author": {
+    "@type": "Person",
+    "address": {
+      "@type": "PostalAddress",{{ with .Site.Params.Author.Country }}
+      "addressCountry": {
+        "@type": "Country",
+        "name": "{{ . }}",
+        "hasMap": "https://www.openstreetmap.org/search?query={{ . }}",
+        "sameAs": "https://en.wikipedia.org/wiki/{{ . }}"
+      },{{ end }}
+      "addressLocality": "{{ .Site.Params.Author.City }}",
+      "addressRegion": "{{ .Site.Params.Author.State }}",
+      "sameAs": "{{ .Site.Params.Author.Place }}"
+    },
+    "familyName": "{{ .Site.Params.Author.Last }}",
+    "gender": "{{ .Site.Params.Author.Gender }}",
+    "givenName": "{{ .Site.Params.Author.First }}",
+    "name": "{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}",
+    "nationality": "{{ .Site.Params.Author.Nationality }}",
+    "url": "{{ .Site.BaseURL }}about/"
+  },
+  "copyrightYear": {{ if eq .Type "post" }}{{ printf "\"%s\"" (.Date.Format "2006") | safeHTML }}{{ else }}{{ .Site.Params.Inception }}{{ end }},
+  "description": "{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}",
+  "headline": "{{ .Title }}",
+  "image": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
+  "inLanguage": "{{ .Site.LanguageCode }}",{{ if .Params.Tag }}
+  "keywords": "{{ with .Params.Category }}{{ lower . }},{{ end }}{{ delimit .Params.Tag "," }}",{{ end }}{{ with .Params.Location }}
+  "locationCreated": {
+    "@type": "Place",
+    "address": "{{ . }}",
+    "hasMap": "https://www.openstreetmap.org/search?query={{ . }}"
+  },{{ end }}
+  "license": "{{ .Site.Params.Licence_Url }}",
+  "name": "{{ .Title }}",
+  "thumbnailUrl": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
+  "url": "{{ .Permalink }}",{{ if eq .Type "post" }}
+  "dateModified": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},
+  "datePublished": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},
+  "wordCount": "{{ .WordCount }}",{{ end }}{{ if .Params.enclosure_file }}
+  "audio": {
+    "@type": "AudioObject",
+    "bitrate": "{{ if .Params.enclosure_bitrate }}{{ .Params.enclosure_bitrate }}{{ else }}128{{ end }} kbps",
+    "contentUrl": "{{ .Params.enclosure_file }}",
+    "duration": "{{ .Params.enclosure_duration }}",
+    "encodingFormat": "{{ .Params.enclosure_type }}"
+  },{{ end }}
+  "mainEntityOfPage": {
+    "@type": "Blog",
+    "@id": "{{ .Site.BaseURL }}",
+    "name": "{{ .Site.Title }}"
+  }
+}
+</script>
