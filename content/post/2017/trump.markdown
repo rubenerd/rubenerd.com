@@ -9,7 +9,7 @@ tag:
 - trump
 - united-states
 - world
-- written-in-sydney
+location: sydney
 ---
 There are big Australian political movements going down now, from electricity rates and renewable plants, to LGBTI and refugee rights. Meanwhile, Singapore has a new president, and there are questions about the reliability of the MRT of late.
 

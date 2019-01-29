@@ -7,7 +7,7 @@ category: Software
 tag:
 - ansible
 - orchestration
-- written-in-sydney
+location: sydney
 ---
 I was copying a file on a remote server to another location, to modify with required settings. I often prefer this to using templates, so I'm always working with the latest config. 
 

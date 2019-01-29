@@ -11,7 +11,7 @@ tag:
 - new-zealand
 - politics
 - video
-- written-in-sydney
+location: sydney
 ---
 The witty, fabulous interviewee from the legendary Clarke and Dawe duo passed on last month, and I've been dragging my heels posting because nothing I write seems to do the bloke justice.
 

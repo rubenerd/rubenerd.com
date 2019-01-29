@@ -7,7 +7,7 @@ category: Software
 tag:
 - osunix
 - solaris
-- written-in-sydney
+location: sydney
 ---
 [Speaking of Solaris], [again], what ever happened to OSUNIX? Software in the Public Interest still lists it on their [project page], right alongside Debian, Postgres, and plenty of other well-known free/open source systems. From [their page]\:
 

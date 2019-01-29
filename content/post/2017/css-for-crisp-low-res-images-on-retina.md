@@ -9,7 +9,7 @@ tag:
 - design
 - displays
 - retina
-- written-in-sydney
+location: sydney
 ---
 I learned a new CSS trick today! It's possible to make lower resolution images not look like blurry crap on Retina-class displays, and all it takes is a typical phonebook-length list of attributes. From [Phrogz on Stack Overflow]\:
 

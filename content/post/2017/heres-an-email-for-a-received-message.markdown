@@ -8,7 +8,7 @@ tag:
 - email
 - social-networks
 - spam
-- written-in-sydney
+location: sydney
 ---
 I can't stand sites with their own inboxes. When we go to Flickr or eBay for example, we see those circled red numbers indicating the messages we've probably already read in email. It's one more thing we all need to check and clear.
 

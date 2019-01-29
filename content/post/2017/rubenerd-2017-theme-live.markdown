@@ -7,7 +7,7 @@ category: Internet
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Keen-eyed *Rubenerd* readers would have noticed no change here recently, because you get your content in an [RSS reader]. *Touché.* But others of you may have seen my new theme rollout.
 

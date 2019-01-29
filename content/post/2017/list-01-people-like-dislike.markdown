@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - lists
 - pointless
-- written-in-sydney
+location: sydney
 ---
 I wasn't [stuck] between the moon and New York City this week, but I **was** stuck on the tarmac at Sydney Airport for half an hour. Sorry [Russel Brand], you were no [Dudley Moore].
 

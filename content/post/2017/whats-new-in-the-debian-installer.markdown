@@ -12,7 +12,7 @@ tag:
 - powerpc
 - apple
 - ibook
-- written-in-sydney
+location: sydney
 ---
 I missed a few of these nuggets when Debian 9 Stretch came out:
 

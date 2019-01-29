@@ -7,7 +7,7 @@ category: Internet
 tag:
 - email
 - spam
-- written-in-sydney
+location: sydney
 ---
 I created a new filter to send anything with the above line to spam. It's shocking how many it's caught.
 

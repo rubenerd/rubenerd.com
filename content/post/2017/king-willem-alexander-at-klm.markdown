@@ -8,7 +8,7 @@ tag:
 - aviation
 - news
 - politics
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/fokker-70@1x.jpg" srcset="https://rubenerd.com/files/2017/fokker-70@1x.jpg 1x, https://rubenerd.com/files/2017/fokker-70@2x.jpg 2x" alt="Photo of a KLM Fokker 70 by Laurent ERRERA" style="width:500px; height:333px;" /></p>
 

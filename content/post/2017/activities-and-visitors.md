@@ -7,7 +7,7 @@ category: Internet
 tag:
 - email
 - spam
-- written-in-sydney
+location: sydney
 ---
 It's a bit early in the week for Friday fanmail, but this one was awesome.
 

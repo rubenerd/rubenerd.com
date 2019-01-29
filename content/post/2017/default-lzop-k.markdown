@@ -7,7 +7,7 @@ category: Software
 tag:
 - compression
 - lzop
-- written-in-sydney
+location: sydney
 ---
 [lzop] by the imitable [Markus F.X.J. Oberhumer] is an infeasibly-fast file compressor. This post is a thank you for its existence, an anniversary update, and my discovery of default operation that all such tools should be doing.
 

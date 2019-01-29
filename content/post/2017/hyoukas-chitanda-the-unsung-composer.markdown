@@ -10,7 +10,7 @@ tag:
 - chitanda
 - hyouka
 - kyoani
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/chitanda-composer@1x.png" alt="" style="width:500px; height:260px" srcset="https://rubenerd.com/files/2017/chitanda-composer@1x.png 1x, https://rubenerd.com/files/2017/chitanda-composer@2x.png 2x" /></p>
 

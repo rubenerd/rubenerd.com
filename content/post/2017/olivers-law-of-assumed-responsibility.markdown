@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - quotes
 - troubleshooting
-- written-in-sydney
+location: sydney
 ---
 > If you're seen fixing it, you will be blamed for breaking it.
 

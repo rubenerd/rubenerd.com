@@ -8,7 +8,7 @@ tag:
 - beverages
 - coffee
 - uuids
-- written-in-sydney
+location: sydney
 ---
 Clara and I have spent much of our week off at Starbucks, for reasons:
 

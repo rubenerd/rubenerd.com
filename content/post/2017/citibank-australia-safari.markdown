@@ -12,7 +12,7 @@ tag:
 - mac-os-x
 - os-x
 - safari
-- written-in-sydney
+location: sydney
 ---
 I got this alert when signing in:
 

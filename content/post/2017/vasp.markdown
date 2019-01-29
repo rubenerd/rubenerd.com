@@ -9,7 +9,7 @@ tag:
 - mcdonnell-douglas
 - md-11
 - brazil
-- written-in-sydney
+location: sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@1x.jpg" alt="" style="width:500px; height:340px" srcset="https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@1x.jpg 1x, https://rubenerd.com/files/2017/VASP_MD-11_PP-SOW_REC_1998@2x.jpg 2x" /></p></figure>
 

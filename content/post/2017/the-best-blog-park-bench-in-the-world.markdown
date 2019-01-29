@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - japan
 - osaka
-- written-in-osaka
+location: osaka
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/photo.namba-parks@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/photo.namba-parks@1x.jpg 1x, https://rubenerd.com/files/2017/photo.namba-parks@2x.jpg 2x" /></p></figure>
 

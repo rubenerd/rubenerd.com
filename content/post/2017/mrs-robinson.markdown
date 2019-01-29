@@ -7,7 +7,7 @@ category: Media
 tag:
 - music
 - simon-and-garfunkel
-- written-in-sydney
+location: sydney
 ---
 > Put it in your pantry with your cupcakes ♫
 

@@ -9,7 +9,7 @@ tag:
 - broadband
 - nbn
 - politics
-- written-in-sydney
+location: sydney
 ---
 [CRN Australia] are running a poll. The options are:
 

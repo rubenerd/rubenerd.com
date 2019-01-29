@@ -8,7 +8,7 @@ tag:
 - australia
 - economics
 - housing
-- written-in-sydney
+location: sydney
 ---
 People become cynical when their concerns appear to be viewed as somehow less valid or important.
 

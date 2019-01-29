@@ -9,7 +9,7 @@ tag:
 - forums
 - nostalgia
 - social-networking
-- written-in-sydney
+location: sydney
 ---
 Finding vintage computer hardware for sale online is challenging, but finding drivers is arguably just as difficult. The following tree based on my latest adventures updating my [vintage tower]. Bold text denotes a branch end.
 

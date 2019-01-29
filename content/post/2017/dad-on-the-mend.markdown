@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - family
 - personal
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/dadme@1x.jpg" alt="Dad and me in 2008" style="width:500px; height:375px;" srcset="https://rubenerd.com/files/2017/dadme@1x.jpg 1x, https://rubenerd.com/files/2017/dadme@2x.jpg 2x" /></p>
 

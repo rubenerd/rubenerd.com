@@ -6,7 +6,7 @@ year: "2017"
 category: Thoughts
 tag:
 - shopping
-- written-in-sydney
+location: sydney
 ---
 I'm selling a few things on eBay. Free shipping in Australia!
 

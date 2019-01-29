@@ -9,7 +9,7 @@ tag:
 - nostalgia
 - retro
 - zip-drive
-- written-in-sydney
+location: sydney
 ---
 I'm a bit of an Iomega aficionado. They were the quintessential 1990s consumer IT company, and even had coloured peripherals before the original iMac.
 

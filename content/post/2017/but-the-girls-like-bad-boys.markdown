@@ -7,7 +7,7 @@ category: Media
 tag:
 - music
 - school
-- written-in-sydney
+location: sydney
 ---
 I heard [this song] again today, and I feel compelled to reach out and comment. You may have heard it, the chorus says:
 

@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - ram
-- written-in-sydney
+location: sydney
 ---
 Today I learned:
 

@@ -8,7 +8,7 @@ tag:
 - australia
 - news
 - politics
-- written-in-osaka
+location: osaka
 ---
 Reading about Australia's latest political fallout from overseas has made it seem almost unreal. Like when I read about the Labor spills from Singapore. I wouldn't be as self absorbed as to assume that big things go down back home when I'm in Asia, but wow.
 

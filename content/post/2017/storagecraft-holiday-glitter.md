@@ -8,7 +8,7 @@ tag:
 - storagecraft
 - cloud-computing
 - backups
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/storagecraft-xmas@1x.jpg" srcset="https://rubenerd.com/files/2017/storagecraft-xmas@1x.jpg 1x, https://rubenerd.com/files/2017/storagecraft-xmas@2x.jpg 2x" alt="" style="width:300px; height:375px;" /></p>
 

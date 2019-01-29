@@ -9,7 +9,7 @@ tag:
 - confluence
 - errors
 - wikis
-- written-in-sydney
+location: sydney
 ---
 I tried to log into our Atlassian-hosted Confluence wiki this morning:
 

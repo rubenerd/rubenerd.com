@@ -9,7 +9,7 @@ tag:
 - pointless
 - git-link
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I have no idea where this file came from. It was sitting in my [2017 archives folder], and appeared if you clicked the Older Post link on the site enough times.
 

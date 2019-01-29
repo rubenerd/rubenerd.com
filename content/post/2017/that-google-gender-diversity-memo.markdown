@@ -7,7 +7,7 @@ category: Media
 tag:
 - dudebros
 - silicon-valley
-- written-in-sydney
+location: sydney
 ---
 If you haven't read the furore surrounding this former Google engineer's diversity memo, or are reading this in the distant future, Louise Matsakis [broke the story] in Vice's Motherboard:
 

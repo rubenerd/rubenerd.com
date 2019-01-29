@@ -7,7 +7,7 @@ category: Internet
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 From the Micro.blog [verification page]\:
 

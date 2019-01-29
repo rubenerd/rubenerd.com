@@ -11,7 +11,7 @@ tag:
 - commodore-64
 - nostalgia
 - retro
-- written-in-sydney
+location: sydney
 ---
 I was born too late to be a (concious!) part of the 1980s home computer revolution, but that hasn't stopped me reading obsessively about all the machines from that era. If I could time travel, I'd only want to go back thirty years.
 

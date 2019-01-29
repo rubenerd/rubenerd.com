@@ -8,7 +8,7 @@ tag:
 - fedora
 - linux
 - troubleshooting
-- written-in-sydney
+location: sydney
 ---
 Fedora and I have a [long and colourful history] with screen issues. This is the latest chapter, today dealing with installing guest additions.
 

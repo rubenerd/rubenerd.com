@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/chlorinated-water-bottles@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/chlorinated-water-bottles@1x.jpg 1x, https://rubenerd.com/files/2017/chlorinated-water-bottles@2x.jpg 2x" /></p>
 

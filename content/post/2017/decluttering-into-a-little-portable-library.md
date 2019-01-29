@@ -8,7 +8,7 @@ tag:
 - books
 - manga
 - scanning
-- written-in-sydney
+location: sydney
 ---
 I think it was in a DK Eyewitness books about writing that featured a photo of a thick book an English scholar carried. Upon opening the aforementioned leather-bound apparatus, it was in fact a tiny bookshelf with impossibly small tomes he could read with a magnifying glass.
 

@@ -6,7 +6,7 @@ year: "2017"
 category: Software
 tag:
 - drives
-- written-in-sydney
+location: sydney
 ---
 Where'd all the drive space on this MacBook Pro go? What a handsome question. Let's ask [GrandPerspective], the tool every Mac user should have. [WinDirStat] and [QDirStat] are useful analogues for those of you on Windows or Linux/BSD.
 

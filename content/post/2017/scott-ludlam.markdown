@@ -12,7 +12,7 @@ tag:
 - net-neutrality
 - encryption
 - privacy
-- written-in-sydney
+location: sydney
 ---
 On the same day Australia's leadership questioned the laws of mathematics, we got the one-two punch announcement that Scott Ludlam was retiring from politics [under section 44]. 
 

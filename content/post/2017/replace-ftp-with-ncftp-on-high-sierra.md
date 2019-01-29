@@ -7,7 +7,7 @@ category: Software
 tag:
 - ftp
 - macos
-- written-in-sydney
+location: sydney
 ---
 macOS High Sierra no longer bundles an ftp client or server. Regardless of technical merit or justification, there are still large install bases for ftp, especially in embedded and legacy hardware. The same goes for telnet, but that's for another discussion.
 

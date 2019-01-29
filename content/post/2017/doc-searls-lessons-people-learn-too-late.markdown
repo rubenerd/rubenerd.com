@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - doc-searls
 - life
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/stock/gnome-help-browser.svg" alt="Exclamation! Icon from the Gnome Project" style="float:right; margin:0 0 1em 1em; width:128px; height:128px;" /></p> 
 

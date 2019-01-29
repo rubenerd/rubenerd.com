@@ -11,7 +11,7 @@ tag:
 - food
 - personal
 - working
-- written-in-sydney
+location: sydney
 ---
 Today we bid a fond farewell to a dear friend and constant companion, my Keep Calm and Drink Coffee mug.
 

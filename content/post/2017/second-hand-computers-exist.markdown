@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - laptops
 - sales
-- written-in-sydney
+location: sydney
 ---
 Here's [something I wrote] eight years ago:
 

@@ -10,7 +10,7 @@ tag:
 - security
 - encryption
 - politics
-- written-in-sydney
+location: sydney
 ---
 With apologies to *Evangelion*. I almost can't believe this is still a thing, as reported by Gareth Hutchins in [The Guardian]:
 

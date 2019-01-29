@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - birthdays
 - personal
-- written-in-sydney
+location: sydney
 ---
 A pretty low-key birthday today, but that's [always been my style]. I was terrified about turning 30, but recent family adventures render me happy, relieved and feeling very fortunate for making it this far ^_^.
 

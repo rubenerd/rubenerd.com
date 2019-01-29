@@ -8,7 +8,7 @@ tag:
 - markdown
 - gohugo
 - go
-- written-in-sydney
+location: sydney
 ---
 [Standard Markdown] doesn't have a provision for definition lists. It seems like an odd omission, given John Gruber uses them extensively on Daring Fireball.
 

@@ -9,7 +9,7 @@ tag:
 - bsd
 - freebsd
 - python
-- written-in-sydney
+location: sydney
 ---
 Last week I talked about [using Ansible for FreeBSD automation], but forgot to address the other elephant in the room: Ansible can't find Python on FreeBSD hosts.
 

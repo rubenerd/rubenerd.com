@@ -6,7 +6,7 @@ year: "2017"
 category: Thoughts
 tag:
 - charities
-- written-in-sydney
+location: sydney
 ---
 The latest Australian budget has cut our national foreign aid budget again, so I'm putting my money where my mouth is and donating a larger part of my income. If you're Australian, I can vouch for, and donate to, these:
 

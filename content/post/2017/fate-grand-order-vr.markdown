@@ -9,7 +9,7 @@ tag:
 - fate-grand-order
 - games
 - vr
-- written-in-sydney
+location: sydney
 ---
 Poe's Law comes into full effect on April Fools day, especially in the current media climate, or landscape, or media climate landscape paradigm synergies. So when an amazing, exciting, awesome announcement is amazingly, excitedly, awesomely announced on or around that day, its perfectly reasonable to assume the aforementioned announcement is too good to be true.
 

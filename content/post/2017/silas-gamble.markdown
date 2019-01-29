@@ -6,7 +6,7 @@ year: "2017"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 Below are a list of names from spam email over the last week, and the first association that came to me.
 

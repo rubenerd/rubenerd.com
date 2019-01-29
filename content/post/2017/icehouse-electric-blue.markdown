@@ -7,7 +7,7 @@ category: Media
 tag:
 - australia
 - music
-- written-in-sydney
+location: sydney
 ---
 <p><a href="https://www.youtube.com/watch?v=dgfR3AKCAQI" title="Play Icehouse - "Electric Blue" (1987)"><img src="https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@1x.jpg" srcset="https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@1x.jpg 1x, https://rubenerd.com/files/2017/yt-dgfR3AKCAQI@2x.jpg 2x" alt="Play Icehouse - "Electric Blue" (1987)" style="width:500px;height:281px;" /></a></p>
 

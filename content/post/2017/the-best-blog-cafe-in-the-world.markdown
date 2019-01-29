@@ -8,7 +8,7 @@ tag:
 - personal
 - travel
 - weblog
-- written-in-hong-kong
+location: hong-kong
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/victoriapeak@2x.jpg" alt="View of Hong Kong from the top of Victoria Peak" style="width:500px; height:313px;" /></p></figure>
 

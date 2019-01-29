@@ -10,7 +10,7 @@ tag:
 - social-networking
 - nostalgia
 - 1990s
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/screenie.aol@1x.png" srcset="https://rubenerd.com/files/2017/screenie.aol@1x.png 1x, https://rubenerd.com/files/2017/screenie.aol@2x.png 2x" alt="Login screen for AOL Instant Messenger on Adium" style="width:500px" /></p>
 

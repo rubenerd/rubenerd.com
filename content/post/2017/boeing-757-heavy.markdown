@@ -8,7 +8,7 @@ tag:
 - aviation
 - boeing
 - boeing-757
-- written-in-sydney
+location: sydney
 ---
 [Speaking of aviation], today I learned the heavy designation isn't limited to widebodies.
 

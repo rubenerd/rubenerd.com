@@ -12,7 +12,7 @@ tag:
 - design
 - nostalgia
 - photos
-- written-in-sydney
+location: sydney
 ---
 I was going through my old [Pinboard] \(previously [del.icio.us]\) links, and remembered Robert A. Bogash's [incredible photo archive] of the original 727! Among images of blueprints, building the fuselange and test flights, this was my favourite:
 

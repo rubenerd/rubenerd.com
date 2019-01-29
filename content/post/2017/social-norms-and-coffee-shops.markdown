@@ -8,7 +8,7 @@ tag:
 - coffee
 - cafes
 - weblog
-- written-in-sydney
+location: sydney
 ---
 The title of this post sounds like a [Crash Test Dummies song].
 

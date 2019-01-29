@@ -8,7 +8,7 @@ tag:
 - excel
 - libreoffice
 - spreadsheet
-- written-in-sydney
+location: sydney
 ---
 I still prefer [LibreOffice], but 5.3.1.2 can't seem to handle HTML tables pasted from the clipboard any more. Time to hit up their issue tracker.
 

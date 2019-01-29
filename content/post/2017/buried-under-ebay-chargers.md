@@ -8,7 +8,7 @@ tag:
 - ebay
 - shopping
 - spam
-- written-in-sydney
+location: sydney
 ---
 The biggest problem with eBay is the rheems of accessories, cases, chargers, adaptors and other junk that appears for something, rather than the thing itself. The signal to noise ratio seems
 

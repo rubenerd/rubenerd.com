@@ -11,7 +11,7 @@ tag:
 - os-x
 - reviews
 - safari
-- written-in-sydney
+location: sydney
 ---
 I used Safari as my default browser [for a week in 2015], but went back to Firefox. I wondered if much had changed in the intervening time, so I tried again.
 

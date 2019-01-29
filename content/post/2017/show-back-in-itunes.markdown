@@ -8,7 +8,7 @@ tag:
 - apple
 - itunes
 - podcasting
-- written-in-sydney
+location: sydney
 ---
 Many of you repoted issues accessing the *[Rubenerd Show]* earlier this year. Overnightscape Underground [master feed] subscribers were fine, but iTunes was returning this erroneous error when people were accessing this show directly in iTunes:
 

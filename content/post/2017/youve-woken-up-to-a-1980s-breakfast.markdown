@@ -13,7 +13,7 @@ tag:
 - nostalgia
 - typeography
 - retro
-- written-in-sydney
+location: sydney
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/80sbreakfast@1x.jpg" alt="" style="width:500px; height:387px" srcset="https://rubenerd.com/files/2017/80sbreakfast@1x.jpg 1x, https://rubenerd.com/files/2017/80sbreakfast@2x.jpg 2x" /></p></figure>
 

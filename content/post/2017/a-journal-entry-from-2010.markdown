@@ -8,7 +8,7 @@ tag:
 - dates
 - tine
 - timestamps
-- written-in-sydney
+location: sydney
 ---
 I was cleaning out my ancient Google Docs account, and found a single file which I will share with you now.
 

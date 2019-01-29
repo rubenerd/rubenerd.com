@@ -9,7 +9,7 @@ tag:
 - firewalld
 - linux
 - ubuntu
-- written-in-sydney
+location: sydney
 ---
 FreeBSD with OpenBSD's pf is preferable, but I've been learning [firewalld] on Debian. The console interface is almost as nice as [ufw], provided you avoid a few common gotchas.
 

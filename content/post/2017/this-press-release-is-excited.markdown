@@ -8,7 +8,7 @@ tag:
 - advertising
 - language
 - press
-- written-in-sydney
+location: sydney
 ---
 It really grates when press say they're excited to announce something, and it's almost always for something questionably exciting. [Mel agrees]:  
 

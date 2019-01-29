@@ -14,7 +14,7 @@ tag:
 - webkit
 - design
 - usability
-- written-in-sydney
+location: sydney
 ---
 [I used Safari for a week in 2015], and commented:
 

@@ -13,7 +13,7 @@ tag:
 - security
 - travel
 - wifi
-- written-in-osaka
+location: osaka
 ---
 <p><img src="https://rubenerd.com/files/stock/gnome-network-wireless-encrypted.svg" alt="Wireless security icon from the Gnome Colors project" style="width:96px; height:96px; float:right; margin:0 0 1em 1em" /></p>
 

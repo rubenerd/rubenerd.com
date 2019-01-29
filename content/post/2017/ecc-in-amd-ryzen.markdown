@@ -11,7 +11,7 @@ tag:
 - memory
 - ryzen
 - xeon
-- written-in-sydney
+location: sydney
 ---
 <figure><img src="https://rubenerd.com/files/2017/ryzen@1x.jpg" alt="" style="width:400px; height:160px" srcset="https://rubenerd.com/files/2017/ryzen@1x.jpg 1x, https://rubenerd.com/files/2017/ryzen@2x.jpg 2x" /></figure>
 

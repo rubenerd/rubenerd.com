@@ -11,7 +11,7 @@ tag:
 - badminton
 - singapore
 - australia
-- written-in-sydney
+location: sydney
 ---
 *It's December, so time to crack open the drafts vault and publish a post that never was. This was from mid-2016, but seems precient given [what happened in Australia] last week.* 
 

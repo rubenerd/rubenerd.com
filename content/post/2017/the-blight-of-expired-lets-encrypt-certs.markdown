@@ -10,7 +10,7 @@ tag:
 - security
 - ssl
 - tls
-- written-in-sydney
+location: sydney
 ---
 As Let's Encrypt has made it affordable and easy to generate and install HTTPS certificates, so too have the number of sites exploded with expired certificate warnings.
 

@@ -8,7 +8,7 @@ tag:
 - coffee
 - jerry-novak
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I wanted to give a shoutout and personal thanks to the Official Rubenerd Patron Sir Jerry Novak again for another caffeine-related donation. I'm drinking it as we speak!
 

@@ -10,7 +10,7 @@ tag:
 - windows
 - direct-x
 - xbox
-- written-in-sydney
+location: sydney
 ---
 Have you ever wondered where the [X and green colour] for DirectX came from? Former Windows game evangelist Alex St John gave the lowdown for [Shack News in 2007]\:
 
@@ -21,7 +21,7 @@ And Steve Jobs said Microsoft [has no taste], can you believe it? Then there's t
 In their defence, Microsoft PR came down hard on them for it.
 
 [Shack News in 2007]: http://www.shacknews.com/article/46338/alex-st-john-interview
-- written-in-sydney
+location: sydney
 ---
 [X and green colour]: https://en.wikipedia.org/wiki/File:Directx9.png "DirectX 9 logo on Wikipedia"
 [Cerenkov radiation]: https://en.wikipedia.org/wiki/Cherenkov_radiation#Nuclear_reactors

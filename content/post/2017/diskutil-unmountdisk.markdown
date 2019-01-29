@@ -10,7 +10,7 @@ tag:
 - mac-os-x
 - macos
 - os-x
-- written-in-sydney
+location: sydney
 ---
 I was running a QEMU lab on my Mac, and needed raw disk access to a USB device with multiple partitions. QEMU needs these partitions unmounted on the host before they can access them, for good reason. I tried writing on the same paper as a friend was in real time once, it ended up a huge mess.
 

@@ -13,7 +13,7 @@ tag:
 - oracle
 - solaris
 - sun
-- written-in-sydney
+location: sydney
 ---
 Here's a thought. With [Solaris on the rocks], what does the future hold for AIX and HP/UX?
 

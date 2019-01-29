@@ -8,7 +8,7 @@ tag:
 - git
 - microsoft
 - msdn
-- written-in-sydney
+location: sydney
 ---
 Brian Harry [wrote this on the MSDN blog] at the end of March:
 

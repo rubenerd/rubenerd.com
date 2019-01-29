@@ -9,7 +9,7 @@ tag:
 - oracle
 - solaris
 - unix
-- written-in-sydney
+location: sydney
 ---
 *[Betteridge's Law]* states headlines ending with a question mark can be answered with **no**. I hope he's right in this case, because the situation for Solaris users and fans is looking increasingly dire. 
 

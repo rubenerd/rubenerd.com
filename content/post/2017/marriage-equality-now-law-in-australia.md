@@ -9,7 +9,7 @@ tag:
 - news
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 [Scott Jenkins]\:
 

@@ -8,7 +8,7 @@ tag:
 - apple
 - authentication
 - software-gore
-- written-in-sydney
+location: sydney
 ---
 You know those "secret questions" sites often ask for? They're designed as an extra level of verification when you lose access to your account, such as when you forget your password, or email, or password to your email.
 

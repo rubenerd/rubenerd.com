@@ -7,7 +7,7 @@ category: Media
 tag:
 - news
 - australia
-- written-in-sydney
+location: sydney
 ---
 I'd never heard of this late mining magnate's daughter, or the fact she'd been wrestling with his estate for a greater share of her inheritance. But this was her wishlist, as quoted by [Joanna Menagh for the ABC]\:
 

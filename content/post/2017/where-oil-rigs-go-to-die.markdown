@@ -8,7 +8,7 @@ tag:
 - environment
 - journalism
 - news
-- written-in-sydney
+location: sydney
 ---
 [This article by Tom Lamont in The Guardian] is one of the finest pieces of long form journalism I've read in a long time. Here's a taste:
 

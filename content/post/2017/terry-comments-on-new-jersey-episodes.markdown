@@ -6,7 +6,7 @@ year: "2017"
 category: Media
 tag:
 - comments
-- written-in-sydney
+location: sydney
 ---
 Speaking of my evil drafts folder, Frank Nora and I got this wonderful message from Terry late last year:
 

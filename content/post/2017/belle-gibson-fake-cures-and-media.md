@@ -8,7 +8,7 @@ tag:
 - health
 - personal
 - family
-- written-in-sydney
+location: sydney
 ---
 Back in 2015, Australia witnessed the downfall of [Belle Gibson], an author and app developer made famous by Instagram, breakfast television, and Apple's featured app lists. Her message was simple: eat healthy, and you can reduce the spread of your cancer too.
 

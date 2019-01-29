@@ -10,7 +10,7 @@ tag:
 - nagato-yuki
 - nostalgia
 - suzumiya-haruhi
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">In our ongoing series of posts cleared from my long-neglected draft folder, have this post originally written on 14th of August 2016. I think I couldn't find the screenshot at the time.</p>
 

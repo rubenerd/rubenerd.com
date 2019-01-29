@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - moving
 - personal
-- written-in-sydney
+location: sydney
 ---
 I haven't had time to podcast the last few weeks, basically because we're moving house. 
 

@@ -8,7 +8,7 @@ tag:
 - bsd
 - freebsd
 - guides
-- written-in-sydney
+location: sydney
 ---
 I've seen [sites listing this] as the way to add a FreeBSD user to a group:
 

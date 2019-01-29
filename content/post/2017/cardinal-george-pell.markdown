@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - politics
 - religion
-- written-in-sydney
+location: sydney
 ---
 The [ABC are reporting] wonderful–if long overdue–news:
 

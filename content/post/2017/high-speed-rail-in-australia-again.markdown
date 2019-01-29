@@ -10,7 +10,7 @@ tag:
 - trains
 - health
 - politics
-- written-in-sydney
+location: sydney
 ---
 Gareth Hutchens of The Guardian wrote a review of an article on decentralisation in the latest Australian Quaterly magazine. [From the report]\:
 

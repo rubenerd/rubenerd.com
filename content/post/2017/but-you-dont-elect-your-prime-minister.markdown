@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - australia
 - politics
-- written-in-osaka
+location: osaka
 ---
 We're always reminded on Twitter and the like that we don't elect our leaders, as the Americans or French do. [Kevin07], and [The Turnbull Coalition Team] election symbols, were just that. It's technically correct, assuming you don't follow people's thought processes. It's also irrelevant.
 

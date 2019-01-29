@@ -12,7 +12,7 @@ tag:
 - itelephone
 - oled
 - lcds
-- written-in-sydney
+location: sydney
 ---
 I'm sure everyone's waiting with baited breath about my ***hotcakes*** on the Apple announcement this weeks. That should have been ***hot take***, but hotcakes is a delightful autocorrect.
 

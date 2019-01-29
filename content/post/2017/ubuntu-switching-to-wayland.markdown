@@ -9,7 +9,7 @@ tag:
 - ubuntu
 - wayland
 - xorg
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">This was originally written on the 19th of April, but it never left the draft folder.</p>
 

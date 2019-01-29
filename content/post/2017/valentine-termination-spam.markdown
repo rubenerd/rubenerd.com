@@ -6,7 +6,7 @@ year: "2017"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 The dichotomy in this spam is amazing.
 

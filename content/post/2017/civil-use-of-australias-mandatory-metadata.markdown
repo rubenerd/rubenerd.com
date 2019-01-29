@@ -7,7 +7,7 @@ category: Internet
 tag:
 - australia
 - politics
-- written-in-sydney
+location: sydney
 ---
 When parliament resumes, and the civil use of metadata is inevitably discussed, let's remember what everyone's favourite Attourney General Senator George Brandis QC [said on Q&A]:
 

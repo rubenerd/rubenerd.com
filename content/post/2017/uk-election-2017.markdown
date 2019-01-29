@@ -8,7 +8,7 @@ tag:
 - news
 - politics
 - uk
-- written-in-sydney
+location: sydney
 ---
 The fatherland is at the polls now, and indications are either a hung parliament, or at least a huge swing against the Tories. The Guardian has the [best interactive constituency map], not least for the cute SVG caricatures.
 

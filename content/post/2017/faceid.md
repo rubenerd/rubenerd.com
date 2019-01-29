@@ -10,7 +10,7 @@ tag:
 - authentication
 - privacy
 - phones
-- written-in-sydney
+location: sydney
 ---
 I haven't done a thinking out loud post for a long time, where I scrawl out my ideas in one continuous stream then revisit it later.
 

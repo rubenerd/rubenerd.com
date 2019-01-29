@@ -10,7 +10,7 @@ tag:
 - virtualisation
 - vms
 - xen
-- written-in-sydney
+location: sydney
 ---
 It's been interesting watching the classic Vi/Emacs-style battle between Xen and KVM, particularly in the last few years. Tech analysts and journalists were predicting a swing towards KVM; not surprising given the push from Red Hat and OpenStack.
 

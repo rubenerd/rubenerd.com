@@ -11,7 +11,7 @@ tag:
 - united-states
 - public-transport
 - trains
-- written-in-sydney
+location: sydney
 ---
 The New York City Subway System was one of the most fascinating warrens Clara and I have explored. Fast, convenient, at times utterly offensive. Now we've been to Japan, we understand the nomenclature of "local" trains versus others, and have a newfound appreciation for the ease of using it!
 

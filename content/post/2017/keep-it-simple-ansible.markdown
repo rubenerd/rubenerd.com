@@ -10,7 +10,7 @@ tag:
 - freebsd
 - linux
 - netbsd
-- written-in-sydney
+location: sydney
 ---
 In case my love for Ansible weren't obvious, I thought this line in their [best practices] section was great:
 

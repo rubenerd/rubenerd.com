@@ -11,7 +11,7 @@ tag:
 - oled
 - iphone
 - itelephone
-- written-in-sydney
+location: sydney
 ---
 Zak Islam reported this for [Tom's Hardware]:
 

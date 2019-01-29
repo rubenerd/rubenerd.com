@@ -7,7 +7,7 @@ category: Media
 tag:
 - music
 - pointless
-- written-in-sydney
+location: sydney
 ---
 According to my iTunes playlist started in 2001, I have the following songs titled with the word *ceiling*:
 

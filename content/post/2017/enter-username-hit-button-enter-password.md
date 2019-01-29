@@ -7,7 +7,7 @@ category: Internet
 tag:
 - security
 - design
-- written-in-sydney
+location: sydney
 ---
 Hello web developers and designers, thanks for coming. I want you to look at this screenshot and tell me what's wrong with it.
 

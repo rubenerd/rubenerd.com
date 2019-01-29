@@ -10,7 +10,7 @@ tag:
 - mehdi-sadaghdar
 - electroboom
 - youtube
-- written-in-sydney
+location: sydney
 ---
 *[ElectroBOOM]* is the world's greatest YouTube Channel, [right behind mine] where I replaced the fan on my first generation MacBook Pro nine years ago. Don't watch that. Anyway, Mehdi Sadaghdar is hilarious, educational, and [FULL BRIDGE RECTIFIER]. I'm a proud [Patreon subscriber], and you should be too.
 

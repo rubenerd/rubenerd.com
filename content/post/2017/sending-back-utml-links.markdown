@@ -7,7 +7,7 @@ category: Internet
 tag:
 - spam
 - urls
-- written-in-sydney
+location: sydney
 ---
 It really feels like a race-to-the-bottom for user tracking online. If you copy a link to send to a friend, or to write a blog post about, chances are you'll have a ton of [UTM spam] attached. 
 

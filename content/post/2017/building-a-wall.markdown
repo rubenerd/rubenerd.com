@@ -7,7 +7,7 @@ category: Media
 tag:
 - music
 - pet-shop-boys
-- written-in-sydney
+location: sydney
 ---
 From the Pet Shop Boys 2009 album *Yes*:
 

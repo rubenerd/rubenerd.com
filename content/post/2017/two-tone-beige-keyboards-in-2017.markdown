@@ -6,7 +6,7 @@ year: "2017"
 category: Hardware
 tag:
 - keyboards
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/unicomp-twotone.jpg" alt="Unicomp Ultrra Classic keyboard" style="width:400px; height:240px;" srcset="https://rubenerd.com/files/2017/unicomp-twotone.jpg 1x, https://rubenerd.com/files/2017/unicomp-twotone@2x.jpg 2x" /></p>
 

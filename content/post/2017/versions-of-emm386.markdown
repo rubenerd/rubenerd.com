@@ -10,7 +10,7 @@ tag:
 - memory
 - nostalgia
 - windows-31
-- written-in-sydney
+location: sydney
 ---
 EMM386 was a MS/PC DOS utility for loading TSRs into high memory. QEMM, UMBPCI and others were arguably more efficient, but EMM386 was broadly compatible and always there.
 

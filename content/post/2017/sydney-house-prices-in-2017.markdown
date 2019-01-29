@@ -8,7 +8,7 @@ tag:
 - australia
 - sydney
 - housing
-- written-in-sydney
+location: sydney
 ---
 Worried you're priced out of the Sydney housing market? [Domain has the goods]\:
 

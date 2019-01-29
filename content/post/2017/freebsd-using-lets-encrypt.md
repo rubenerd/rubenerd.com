@@ -10,7 +10,7 @@ tag:
 - https
 - lets-encrypt
 - security
-- written-in-sydney
+location: sydney
 ---
 This is cool ^_^\:
 

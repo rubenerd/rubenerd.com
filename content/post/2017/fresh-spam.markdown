@@ -6,7 +6,7 @@ year: "2017"
 category: Internet
 tag:
 - spam
-- written-in-sydney
+location: sydney
 ---
 I haven't done any Friday fanmail in a while. This one was a gem.
 

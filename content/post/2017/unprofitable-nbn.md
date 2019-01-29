@@ -7,7 +7,7 @@ category: Internet
 tag:
 - australia
 - nbn
-- written-in-sydney
+location: sydney
 ---
 *It's December, so time to crack open the drafts vault and publish a post that never was. This was from October 2017.*
 

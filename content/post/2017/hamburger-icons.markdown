@@ -5,7 +5,7 @@ abstract: "Hamburger/meatstack icons are top of the list"
 year: "2017"
 category: Internet
 tag:
-- written-in-sydney
+location: sydney
 ---
 There is only one permissible use, and that's to render commander–rank, quantum–universe Star Trek combadges:
 

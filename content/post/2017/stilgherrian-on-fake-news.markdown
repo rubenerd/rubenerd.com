@@ -8,7 +8,7 @@ tag:
 - news
 - podcasting
 - stilgherrian
-- written-in-sydney
+location: sydney
 ---
 <p></p>
 

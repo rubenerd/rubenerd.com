@@ -7,7 +7,7 @@ category: Software
 tag:
 - package-managers
 - perl
-- written-in-sydney
+location: sydney
 ---
 [@Stilgherrian] reminded me that there are still Perl devs out there. It can be a lonely existence, what with all these newfangled languages that don't act like Swiss Army Chainsaws. And [Perlbrew] by the illustrious [gugod and friends] is still the best way to get it, for three reasons:
 

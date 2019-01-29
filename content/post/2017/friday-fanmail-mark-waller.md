@@ -7,7 +7,7 @@ category: Internet
 tag:
 - spam
 - email
-- written-in-sydney
+location: sydney
 ---
 This photo of Peruvian salt mines by [Diego Delso on Wikimedia Commons] is of salt evaporation ponds in Peru, surprising though it may seem. Related to this with the utmost tenuousness, this week's Friday Fanmail comes from someone purporting to be called Mark Waller.
 

@@ -8,7 +8,7 @@ tag:
 - music
 - lyrics
 - pointless
-- written-in-sydney
+location: sydney
 ---
 I've been on a role with these lyric posts of late. I had this "Untitled clipping.textClipping" on my desktop:
 

@@ -6,7 +6,7 @@ year: "2017"
 category: Media
 tag:
 - nathan-fillion
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/castle@1x.jpg" alt="" style="width:500px; height:281px" srcset="https://rubenerd.com/files/2017/castle@1x.jpg 1x, https://rubenerd.com/files/2017/castle@2x.jpg 2x" /></p>
 

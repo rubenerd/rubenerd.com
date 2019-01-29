@@ -12,7 +12,7 @@ tag:
 - nostalgia
 - retro
 - zip-drive
-- written-in-sydney
+location: sydney
 ---
 My current pet project is restoring my first Pentium MMX computer. I'm [realising now] the real joy wasn't winning the primary school writing context that funded it, or even the machine itself, but that I built it with my dad ♡.
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - spam
 - weblog
-- written-in-sydney
+location: sydney
 ---
 Two weeks ago I updated my git post update hook, and today I realised I broke it. As such, there are a few posts that have all come through the pipe at once, including:
 

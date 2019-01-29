@@ -8,7 +8,7 @@ tag:
 - delicious
 - ifttt
 - pinboard
-- written-in-sydney
+location: sydney
 ---
 I hosted my linkblog on [del.icio.us] from the early days, but [moved] to [Pinboard] after it'd been sold/bought and changed one too many times. 
 

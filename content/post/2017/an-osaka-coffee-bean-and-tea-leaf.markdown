@@ -13,7 +13,7 @@ tag:
 - hkjp-trip
 - osaka
 - singapore
-- written-in-osaka
+location: osaka
 ---
 <figure><p><img src="https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@1x.jpg" alt="" style="width:500px; height:375px" srcset="https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@1x.jpg 1x, https://rubenerd.com/files/2017/photo.coffeebean-osaka.20170725@2x.jpg 2x" /></p></figure>
 

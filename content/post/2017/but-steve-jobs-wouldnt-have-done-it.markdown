@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - apple
 - design
-- written-in-sydney
+location: sydney
 ---
 Steve Jobs wouldn't have released an iPhone 8 and a X! He wouldn't have approved of the notch, or the Pencil, or the charging port on the new mouse, or a gold Apple Watch!
 

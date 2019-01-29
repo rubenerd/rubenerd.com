@@ -9,7 +9,7 @@ tag:
 - vi
 - vim
 - text-editors
-- written-in-sydney
+location: sydney
 ---
 I'd let a lot of cruft accumulate in my vimrc, as I'm sure we all have with software we've used for a long time. I'd had [replacement configs like this] in the back of mind, as well as plugins in light of the latest Vim 8.0 release, but never got around to implementing either.
 

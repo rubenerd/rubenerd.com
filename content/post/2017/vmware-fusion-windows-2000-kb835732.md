@@ -10,7 +10,7 @@ tag:
 - vmware-fusion
 - windows
 - windows-2000
-- written-in-sydney
+location: sydney
 ---
 Windows 2000 still has official Guest Additions support on VMware Fusion 10, the latest release at the time of writing. But if you try installing on a fresh Windows 2000 VM, even with the latest SP4, you'll get this error:
 

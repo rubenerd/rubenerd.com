@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - politics
 - women
-- written-in-sydney
+location: sydney
 ---
 New year celebrations aren't my cup of tea. But at least I'm a caucasian gent who doesn't have to put up with this crap, as reported by [Michael Safi at The Guardian]:
 

@@ -8,7 +8,7 @@ tag:
 - australia
 - news
 - politics
-- written-in-sydney
+location: sydney
 ---
 Australia continues to swelter under an unprecedented heat wave, which is a fancy way of saying its damned hot down here. And people used to tell me they couldn't live in Singapore because it was too hot, hah!
 

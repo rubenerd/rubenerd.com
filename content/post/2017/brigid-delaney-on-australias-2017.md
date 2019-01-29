@@ -9,7 +9,7 @@ tag:
 - australia
 - politics
 - human-rights 
-- written-in-sydney
+location: sydney
 ---
 [Such a great summary in The Guardian last week]\:
 

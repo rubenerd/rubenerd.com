@@ -7,7 +7,7 @@ category: Media
 tag:
 - photos
 - wikipedia
-- written-in-sydney
+location: sydney
 ---
 I'd seen the split shape of the US state of Michigan, and wondered if there was a way to cross from one to the other without going through another state. For example, one has to travel through the East Malaysian state of Sarawak to get between the two halves of Brunei.
 

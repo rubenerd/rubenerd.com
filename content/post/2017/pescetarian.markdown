@@ -9,7 +9,7 @@ tag:
 - pescetarianism
 - vegetarianism
 - ethics
-- written-in-sydney
+location: sydney
 ---
 On the almost two year anniversary Clara and I became vegetarians, we decided to start eating a little fish again, for a few reasons, but for only one that matters.
 

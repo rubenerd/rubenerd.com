@@ -8,7 +8,7 @@ tag:
 - ebay
 - retro
 - shopping
-- written-in-sydney
+location: sydney
 ---
 <figure><img src="https://rubenerd.com/files/2017/one-not-like-others@1x.png" alt="Tea cup listing in among lots of old school graphics cards" srcset="https://rubenerd.com/files/2017/one-not-like-others@1x.png 1x, https://rubenerd.com/files/2017/one-not-like-others@2x.png 2x" style="width:375px; height:412px;" /></figure>
 

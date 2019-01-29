@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - food
 - sugar
-- written-in-sydney
+location: sydney
 ---
 Becoming a vegetarian in 2015 was suspiciously easy. I'm an indecisive person by nature (I think), so it made choosing the lone item on a menu easier! Keeping a clean kitchen is much easier without ever touching raw meat. Food cooks faster. I'm eating more vegetables.
 

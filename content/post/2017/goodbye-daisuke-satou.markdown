@@ -7,7 +7,7 @@ category: Anime
 tag:
 - highschool-of-the-dead
 - seito-daisuke
-- written-in-sydney
+location: sydney
 ---
 We had some sad news this week in the manga world, as translated by the [Anime News Network]:
 

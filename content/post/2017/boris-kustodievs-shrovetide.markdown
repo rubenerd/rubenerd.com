@@ -8,7 +8,7 @@ tag:
 - art
 - boris-kustodiev
 - colour
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/BorisKustodievShrovetide@1x.jpg" alt="" style="width:500px; height:233px" srcset="https://rubenerd.com/files/2017/BorisKustodievShrovetide@1x.jpg 1x, https://rubenerd.com/files/2017/BorisKustodievShrovetide@2x.jpg 2x" /></p>
 

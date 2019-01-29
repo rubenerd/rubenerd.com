@@ -8,7 +8,7 @@ tag:
 - australia
 - language
 - united states
-- written-in-sydney
+location: sydney
 ---
 I've witnessed an explosion in the use of that alleged word that even rivals *nuance*. It needs to be stomped out, for two reasons:
 

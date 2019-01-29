@@ -9,7 +9,7 @@ tag:
 - politics
 - wikipedia
 - words
-- written-in-sydney
+location: sydney
 ---
 I learned a new word today, [from Wikipedia]:
 

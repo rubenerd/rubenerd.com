@@ -7,7 +7,7 @@ category: Internet
 tag:
 - email
 - spam
-- written-in-sydney
+location: sydney
 ---
 I didn't get time to do fanmail submissions last Friday, so I thought I'd quote this delightful piece we got at work recently. Everything about this message is wonderful.
 

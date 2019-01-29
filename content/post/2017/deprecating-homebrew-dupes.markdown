@@ -10,7 +10,7 @@ tag:
 - os-x
 - homebrew
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 The Homebrew devs originally decided not to duplicate software bundled in macOS, and to build against what was already available. I could see advantages to this, but Apple often left us with such outdated stuff.
 

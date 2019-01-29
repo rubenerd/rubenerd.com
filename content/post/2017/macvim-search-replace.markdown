@@ -7,7 +7,7 @@ tag:
 - editors
 - macvim
 - vim
-- written-in-sydney
+location: sydney
 ---
 The MacVim maintainers continue to surprise me. If you do a search/replace the Vim way:
 

@@ -12,7 +12,7 @@ tag:
 - mac-os-x
 - os-x
 - terminal
-- written-in-sydney
+location: sydney
 ---
 I did the whole [Solarised colour theme] thing for a few years, but (ironically) I never found the contrast great. So now I've gone old school and installed a Borland theme; it's nostalgic, clear, and convinced my colleagues that my machine had crashed.
 

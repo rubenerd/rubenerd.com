@@ -9,7 +9,7 @@ tag:
 - jaz
 - unboxing
 - video
-- written-in-sydney
+location: sydney
 ---
 <p><a title="Play Unboxing a 1997 Iomega Jaz Drive on Vimeo" href="https://vimeo.com/217124964"><img src="https://rubenerd.com/files/2017/vimeo-634265093@1x.jpg" srcset="https://rubenerd.com/files/2017/vimeo-634265093@1x.jpg 1x, https://rubenerd.com/files/2017/vimeo-634265093@2x.jpg 2x" alt="Play Unboxing a 1997 Iomega Jaz Drive on Vimeo" style="width:480px; height:270px;" /></a></p>
 

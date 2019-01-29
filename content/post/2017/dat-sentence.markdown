@@ -7,7 +7,7 @@ category: Media
 tag:
 - language
 - weblog
-- written-in-sydney
+location: sydney
 ---
 I don't like these sentence structures.
 

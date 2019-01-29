@@ -9,7 +9,7 @@ tag:
 - public-transport
 - trains
 - sydney
-- written-in-sydney
+location: sydney
 ---
 Based on past experience and recent travels.
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - bitcoin
 - harry-potter
-- written-in-sydney
+location: sydney
 ---
 A coworker [shared a story about Bitcoin] by Aaron van Wirdum today; specifically this paragraph:
 

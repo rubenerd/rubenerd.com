@@ -9,6 +9,6 @@ tag:
 - equality
 - human-rights
 - politics
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/yes@1x.png" srcset="https://rubenerd.com/files/2017/yes@1x.png 1x, https://rubenerd.com/files/2017/yes@2x.png 2x" alt="Yes Equality!" style="width:500px" /></p>

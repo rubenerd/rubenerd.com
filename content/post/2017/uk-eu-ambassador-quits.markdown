@@ -8,7 +8,7 @@ tag:
 - news
 - politics
 - united-kingdom
-- written-in-sydney
+location: sydney
 ---
 Jessica Elgot, Patrick Wintour and Peter Walker reported [this incredible news in The Guardian]:
 

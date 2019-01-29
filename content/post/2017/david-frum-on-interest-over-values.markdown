@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - politics
 - united-states
-- written-in-sydney
+location: sydney
 ---
 David Frum articulated this so well on the latest [Waking Up with Sam Harris], I had to quote him:
 

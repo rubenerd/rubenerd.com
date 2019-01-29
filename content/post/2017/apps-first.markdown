@@ -7,7 +7,7 @@ category: Software
 tag:
 - phones
 - iphone
-- written-in-sydney
+location: sydney
 ---
 Here's a sign of the times. My alma matar [UTS] emailed me this morning:
 

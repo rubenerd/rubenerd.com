@@ -13,7 +13,7 @@ tag:
 - music
 - os-x
 - podcasting
-- written-in-sydney
+location: sydney
 ---
 My [Rubénerd Show] podcast episodes are produced with a series of shell scripts to save me time and effort, so I'm always looking for ways to optimise them.
 

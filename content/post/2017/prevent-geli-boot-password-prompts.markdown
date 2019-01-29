@@ -10,7 +10,7 @@ tag:
 - geli
 - freebsd
 - privacy
-- written-in-sydney
+location: sydney
 ---
 While it can be useful for FreeBSD's geli to prompt for passwords on boot, it's not always wanted. Case in point, you can't BMC or remote access the box to enter the password.
 

@@ -8,7 +8,7 @@ category: Hardware
 tag:
 - cars
 - jim-kloss
-- written-in-sydney
+location: sydney
 ---
 Earlier this month, I [asked a question] regarding the procurement of a certain fantastical automobile device:
 

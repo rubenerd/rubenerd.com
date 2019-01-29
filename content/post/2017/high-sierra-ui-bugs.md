@@ -11,7 +11,7 @@ tag:
 - os-x
 - design
 - bugs
-- written-in-sydney
+location: sydney
 ---
 I've been running High Sierra for a few days now, and there are several niggling UI bugs that make me want to do something with the business end of an umbrella and a staircase.
 

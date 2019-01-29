@@ -11,7 +11,7 @@ tag:
 - os-x
 - homebrew
 - package-managers
-- written-in-sydney
+location: sydney
 ---
 I wanted to use a fresher version of Python2 and pip. Fortunately Homebrew retired their old attitude that they wouldn't duplicate what was already on Mac OS X, OS X, macOS, OSXMac or MacXos.
 

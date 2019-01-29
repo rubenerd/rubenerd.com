@@ -9,7 +9,7 @@ tag:
 - microsoft
 - outlook
 - spam
-- written-in-sydney
+location: sydney
 ---
 This is my new favourite Outlook Web Access email experience!
 

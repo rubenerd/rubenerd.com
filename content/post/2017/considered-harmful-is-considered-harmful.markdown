@@ -6,7 +6,7 @@ year: "2017"
 category: Media
 tag:
 - news
-- written-in-sydney
+location: sydney
 ---
 Betteridge's Law of Headlines states that the answer to headings ending in a question is no. For example, "Does X cure cancer?" wouldn't need the question mark if the answer was yes. It's an exercise in journalistic hedge betting.
 

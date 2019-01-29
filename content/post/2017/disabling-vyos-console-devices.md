@@ -9,7 +9,7 @@ tag:
 - cloud-computing
 - joviam
 - vyos
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic">It’s December, so time to crack open the drafts vault and publish a post that never was. This was originally written in... December 2017!? Why did I already forget about it then?!</p>
 

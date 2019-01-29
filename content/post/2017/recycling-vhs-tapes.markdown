@@ -9,7 +9,7 @@ tag:
 - nostalgia
 - tapes
 - 1990s
-- written-in-sydney
+location: sydney
 ---
 Remember VHS tapes? The labels from video rental stores imploring you to rewind after use, the read-write tabs to make sure you couldn't overwrite them, making sure you had your timestamps listed on labels so you could squeeze another episode of *Star Trek Voyager* on one. Spoiler: Kes was the best character.
 

@@ -8,7 +8,7 @@ tag:
 - silly
 - ogden-nash
 - poems
-- written-in-sydney
+location: sydney
 ---
 > I think that I shall never see  
 > A billboard lovely as a tree  

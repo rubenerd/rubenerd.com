@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - apple
 - iphone
-- written-in-sydney
+location: sydney
 ---
 It's been a big couple of years for decade celebrations. Not only did the [Haruhi anime start] ten years ago last year, but Apple started selling the original iPhone in the United States. As I [wrote exactly ten years ago]:
 

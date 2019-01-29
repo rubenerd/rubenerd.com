@@ -8,7 +8,7 @@ tag:
 - decluttering
 - minimalism
 - personal
-- written-in-sydney
+location: sydney
 ---
 I set a goal for myself in 2016 to get rid of most of my stuff. Growing up my parents had tons of stuff, as [this post from a decade ago] shows! While I could appreciate their reasons, I didn't ever want my future plans or anxiety to be encumbered by stuff.
 

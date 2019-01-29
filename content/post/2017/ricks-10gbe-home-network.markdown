@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - networking
 - video
-- written-in-sydney
+location: sydney
 ---
 I love [seeing homelabs like this], but this especially is the most gorgeous home cable management I've seen.
 

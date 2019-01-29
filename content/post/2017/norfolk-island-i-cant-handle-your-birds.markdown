@@ -9,7 +9,7 @@ tag:
 - nature
 - norfolk-island
 - photopgraphy
-- written-in-sydney
+location: sydney
 ---
 Norfolk Island is famous for its beautiful pines, but I didn't realise it has such adorable fauna. Below we have the [Gannet] and the [White Tern], photographed by Steve Daggar and uploaded to Wikimedia Commons.
 

@@ -9,7 +9,7 @@ tag:
 - privacy
 - security
 - surveillance
-- written-in-sydney
+location: sydney
 ---
 There's been universal praise for Google's recently announced Advanced Protection Program, but very little critical thinking. [From their new site]\:
 

@@ -8,7 +8,7 @@ tag:
 - education
 - society
 - singapore
-- written-in-sydney
+location: sydney
 ---
 Channel News Asia [shared some unsurprising stats]\:
 

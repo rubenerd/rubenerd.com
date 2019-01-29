@@ -9,7 +9,7 @@ tag:
 - delicious
 - social-networking
 - pinboard
-- written-in-sydney
+location: sydney
 ---
 I remember sitting in a Burger King in Singapore listening to an early episode of The Gilmor Gang. They'd been talking about this new trend called podcasting, and how businesses were already considering how they could use them. The conversation steered toward social networking, and how sites like del.icio.us were shaking things up.
 

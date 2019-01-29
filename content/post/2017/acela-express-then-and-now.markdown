@@ -12,7 +12,7 @@ tag:
 - trains
 - train-simulator
 - united-states
-- written-in-sydney
+location: sydney
 ---
 Welcome to 2017! Here's hoping it's a better one for the world... though, selfishly, mine was pretty good.
 

@@ -11,7 +11,7 @@ tag:
 - mac-pro
 - news
 - lance-ulanoff
-- written-in-sydney
+location: sydney
 ---
 [Lance Ulanoff] and [John Gruber] got the Apple scoops of the century yestrday, and I'm still processing it all myself.
 

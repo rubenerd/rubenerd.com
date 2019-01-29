@@ -9,7 +9,7 @@ tag:
 - dave-winer
 - rss
 - json
-- written-in-sydney
+location: sydney
 ---
 The open web is made possible with syndication feeds. The big games in town can be broadly split into four camps:
 

@@ -11,7 +11,7 @@ tag:
 - sydney
 - trains
 - transit 
-- written-in-sydney
+location: sydney
 ---
 Because billboards in train stations weren't being leveraged enough to inform us of exciting retail opportunities, some City Circle and Northern Line stations have been graced with giant LED screens and speakers. These play loud, flashy video advertisements; though for safety reasons they're respectfully turned off when trains approach.
 

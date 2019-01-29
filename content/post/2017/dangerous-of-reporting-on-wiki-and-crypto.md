@@ -9,7 +9,7 @@ tag:
 - wikileaks
 - digital-currencies
 - bitcoin
-- written-in-sydney
+location: sydney
 ---
 <p style="font-style:italic"><strong>2018 Update:</strong> This should have been titled <strong>Dangers</strong> not <strong>Dangerous</strong>. But I've already got this cross posted with its incorrect permalink and title everywhere. Lesson learned, don’t chide reporters when you can’t grammar yourself!</p>
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - css
 - html
-- written-in-sydney
+location: sydney
 ---
 Speaking of amazing satire, [this mock interview] with Marc Andreessen is almost too real:
 

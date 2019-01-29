@@ -7,7 +7,7 @@ category: Media
 tag:
 - music
 - lyrics
-- written-in-sydney
+location: sydney
 ---
 Speaking of [lyrical observations]\: if you keep referring to your horse as [one with no name], isn't that its *defacto* name? That feeling in your head is your mind being blown. Don't worry, I'm used to it.
 

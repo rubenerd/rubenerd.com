@@ -10,7 +10,7 @@ tag:
 - transport
 - public-transport
 - mrt
-- written-in-sydney
+location: sydney
 ---
 [John Gruber commented] on [this Bloomberg story] about Singapore capping the number of cars:
 

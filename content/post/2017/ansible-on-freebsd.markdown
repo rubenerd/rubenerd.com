@@ -9,7 +9,7 @@ tag:
 - orchestration
 - cloud-computing
 - ansible
-- written-in-sydney
+location: sydney
 ---
 I use Ansible where possible at work; it's really wonderful stuff for Linux. Unfortunately, its support for the BSDs has never been fantastic, evidenced by their zero-dependency claim when a Python interpreter is required!
 

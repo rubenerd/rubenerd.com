@@ -10,7 +10,7 @@ tag:
 - macos
 - mac-os-x
 - os-x
-- written-in-sydney
+location: sydney
 ---
 With this latest root exploit fun and [usability problems] on High Sierra, and the unstable mess of iOS 11, my decade-long advice to wait for the first `.1` release before upgrading no longer stands.
 

@@ -7,7 +7,7 @@ category: Internet
 tag:
 - email
 - zendesk
-- written-in-sydney
+location: sydney
 ---
 I missed this [news from Zendesk] owing to... an errant spam filer. There's [Morissetian-irony] there somewhere.
 

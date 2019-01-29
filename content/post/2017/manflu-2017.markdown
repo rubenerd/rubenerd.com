@@ -8,7 +8,7 @@ tag:
 - health
 - personal
 - weblog
-- written-in-sydney
+location: sydney
 ---
 As I now [somewhat infamously said] on Twitter, I haven't had a manflu this bad since the last time I had the manflu. Which [according to this blog] was in 2014, with reference to Best Girl&trade; from Nisekoi. You can claim someone else was a better character from that series, you'd just be wrong.
 

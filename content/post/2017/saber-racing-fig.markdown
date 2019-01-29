@@ -9,7 +9,7 @@ tag:
 - fate-stay-night
 - race-queens
 - saber
-- written-in-sydney
+location: sydney
 ---
 Late last month, I triumphantly announced I was [getting rid of stuff]. Decluttering sounded easy, until I started. Point is, I've made great progress getting rid of things, including certain items I thought I could never bear to part with. So much scanning and photography.
 

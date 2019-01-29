@@ -7,7 +7,7 @@ category: Hardware
 tag:
 - blogging
 - news
-- written-in-sydney
+location: sydney
 ---
 Western pundits, podcasters and press have dealt with the transition to the Asian century poorly.
 

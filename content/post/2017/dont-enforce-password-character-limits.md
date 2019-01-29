@@ -7,7 +7,7 @@ category: Software
 tag:
 - passwords
 - security
-- written-in-sydney 
+location: sydney 
 ---
 MyBB sites, such as forum.vyos.net, enforce bad password policies:
 

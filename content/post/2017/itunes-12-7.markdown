@@ -7,7 +7,7 @@ category: Software
 tag:
 - apple
 - itunes
-- written-in-sydney
+location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/icon-ipa@1x.png" srcset="https://rubenerd.com/files/2017/icon-ipa@1x.png 1x, https://rubenerd.com/files/2017/icon-ipa@2x.png 2x" alt="Apple icon for IPA mobile applications" style="width:128px; height:128px; float:right; margin:0 0 1em 1em;" /></p>
 

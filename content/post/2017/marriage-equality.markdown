@@ -8,7 +8,7 @@ tag:
 - australia
 - human-rights
 - politics
-- written-in-sydney
+location: sydney
 ---
 I sent in my postal survey answer on Australian marriage equality this morning, because it's perfectly reasonable to "vote" on the rights of a minority! But the absurdity is just beginning.
 

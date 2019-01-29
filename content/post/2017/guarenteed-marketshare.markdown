@@ -8,7 +8,7 @@ tag:
 - business
 - microsoft
 - windows
-- written-in-sydney
+location: sydney
 ---
 Galen Gruman wrote [this interesting tidbit] at the end of a CIO review for Microsoft Teams:
 
