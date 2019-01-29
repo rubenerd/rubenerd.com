@@ -1,8 +1,8 @@
-u!/bin/sh
+#!/bin/sh
 
 ######
-## Create a new blog post with pre-defined frontmatter
-## I'm sure there's a hugo-ish way to do this.
+## New blog post creator, with pre-populated frontmatter
+## I should use gohugo's archetypes instead
 
 _PERMALINK=$1
 _DATE=`date "+%FT%H:%M:%S%:z"`
@@ -19,10 +19,10 @@ date: "$_DATE"
 abstract: ""
 thumb: ""
 year: "$_YEAR"
-location: 
-category:
+category: Thoughts
 tag:
 - 
+location: 
 ---
 
 EOF
