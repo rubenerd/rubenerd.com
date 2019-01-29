@@ -31,23 +31,24 @@ I make a living as a technical writer and solutions architect for an IaaS compan
 
 <h3 id="site">The site</h3>
 
-*Rubenerd* is my weblog and [podcast] of things that have interested me since 2004. An artisanal blogging expert once said blogs should be single topic affairs; I've endeavoured not to follow this.
+*Rubenerd* is my weblog and [podcast] of things that have interested me since 2004. I write it because it's fun; if people enjoy reading it, so much the better. Topics include anime, travel, public transport, operating systems, digital privacy, Asia, and coffee.
 
-The latest design is the simplest I could make it, partly in protest of what the modern web [has become]. There's no JavaScript, embeds, popups, newsletter signup prompts, sticky navbars, autoplaying videos, iframes, or design sense.
+The latest design is the simplest I could make it, partly in protest of what the modern web has become. There's no JavaScript, downloading fonts, embeds, hamburger icons, looping background videos, popups, newsletter signup prompts, sticky navbars, autoplaying videos, iframes, or design sense. Wait, I needed that last one, whoops.
  
-It's proudly powered by FreeBSD, the world's greatest operating system. More information can be found on the [Engine Room Omake] page.
+It's proudly powered by [FreeBSD], everyone's favourite operating system. More information can be found on the [Engine Room Omake] page.
 
 [Engine Room Omake]: https://rubenerd.com/omake/engine-room/
 [has become]: https://rubenerd.com/modernwebbloat-js/ "Blog post on ModernWebBloat.js"
+[FreeBSD]: https://www.freebsd.org/
 
 
 <h3 id="mascot">Rubi the mascot</h3>
 
 Rubi is the site's mascot, drawn by Clara Tse. Her mismatching, Miku-esque boots elude to my predilection for not wearing matching socks.
 
-*Funny story, I was chided for wearing orange and red socks during a high school work experience day, with the implication that I wasn't taking the assignment seriously. The day I'm looked over for hiring because of my socks is the day I miss a bullet.*
+*(Funny story, I was chided for wearing orange and red socks during a high school work experience day, with the implication that I wasn't taking the assignment seriously. The day I'm looked over on account of my socks is when I miss a bullet).*
 
-We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by frequent trips to the pool and nature hiking in the Hokkaido wilderness. She enjoys listening to jazz music, reading, cosplaying, and watches romantic comedy anime that may or may not also be mechas.
+We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by frequent trips to the pool and nature hiking in the Hokkaido wilderness. She enjoys listening to jazz music, reading, cosplaying, and watches slice-of-life anime that may or may not have robots.
 
 
 <h3 id="geek-code">Geek code</h3>
@@ -68,7 +69,7 @@ The easiest way is via [Twitter], which for better or worse I still use. Otherwi
 
 I no longer use PGP.
 
-I'm also on [Pinboard], [Instagram], [Wikipedia], and [GitHub]. I used to post to [Flickr], [YouTube], and [Vimeo]. I have a [Facebook], but log in maybe once a year.
+I'm also on [Pinboard], [Instagram], [Wikipedia], and [GitHub]. I used to post to [Flickr], [YouTube], and [Vimeo]. I have a [Facebook], but avoid that ethical quagmire as much as humanly possible.
 
 
 [Twitter]: https://twitter.com/rubenerd
