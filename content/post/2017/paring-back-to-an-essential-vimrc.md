@@ -25,6 +25,7 @@ It's been a few weeks, and I'm still using it:
     set expandtab                "" convert evil tabs to nice spaces
     set shiftwidth=4             "" indent by 4 spaces
     set tabstop=4                "" tighter spacing for tabs
+    set encoding=utf-8           "" turn vim into a multi-byte editor
 
 Almost half the settings are just for tab spacing. I've tried over the years to adapt to how Vim does things out of the box, but I use spaces instead of tabs, like a gentleman.
 
@@ -36,7 +37,7 @@ As for the settings I didn't add back in, a few were easy wins:
 
 * All my abbreviations/snippets live in [Alfred] now, so I didn't need all my `abbr` lines
 
-As another bonus, this config is also nvi compatible for my embedded, FreeBSD and NetBSD machines, so it's just a matter of renaming or symlinking it to .nexrc.
+**Update 2019:** Added encoding line.
 
 [replacement configs like this]: https://github.com/amix/vimrc "The ultimate Vim configuration"
 [MacVim]: https://github.com/macvim-dev/macvim
