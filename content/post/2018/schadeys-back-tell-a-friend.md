@@ -23,5 +23,5 @@ There's a larger metaphor there that someone with sufficient mental acuity could
 
 *(For those too old or young to get the title reference, it was an Eminem song when I was in high school. I didn't like his music, but owing to my last name I'd always stand when people asked where the real Slim Schadey was).*
 
-[wrote]: https://rubenerd.com/annexe-im-back/ "I'm back"
+[wrote]: https://rubenerd.com/http://static/https://static-im-back/ "I'm back"
 
