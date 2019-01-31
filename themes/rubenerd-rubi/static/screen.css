@@ -1,0 +1,172 @@
+/**************************
+ *  Rubenerd Rubi theme   *
+ **************************/
+
+
+/***** TOP LEVEL です*****/
+html, body, h1, h2, h3, form, fieldset, #archive ol, #archive li {
+  border:0;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+body {
+  background:#ffffff url("rubi@1x.jpg") fixed no-repeat;
+  background-position:right 30px top 30px;
+  font:1em "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
+  height:100%;
+  overflow-y:scroll;
+  padding:40px 40px 240px 40px;
+  width:580px;
+}
+code, pre {
+  background:#f3f8fd;
+  color:#036ad3;
+  font:13px Menlo,Consolas,monospace;  /* jeepers Windows fonts are ugly */
+}
+article, figure, footer, header, main, nav, section { display:block }
+
+
+/***** PALETTE です*****/
+body { color:black } /* https://www.nngroup.com/articles/low-contrast/ */
+a { color:#036ad3 }
+#site-navigation a, .post-meta, .post-meta a, time { color:#2b9c27 }
+
+
+/***** http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ です *****/
+* {
+  -moz-osx-font-smoothing:auto !important;
+  -webkit-font-smoothing:subpixel-antialiased !important;
+  font-smooth:always !important;
+}
+
+
+/***** HEADERS/ANCHORS です*****/
+h1, h2, h3 { letter-spacing:-1px }
+h1 a, h2 a, a:hover { text-decoration:none }
+
+
+/***** ACCESSIBILITY です*****/
+hr {
+  display:none;
+  visibility:hidden;
+}
+#skip, #skip:hover, #skip:visited, legend {
+  height:1px;
+  left:0px;
+  overflow:hidden;
+  position:absolute;
+  top:-1000px;
+  width:1px;
+}
+
+
+/*** NAVIGATION です***/
+#site-navigation { padding-top:20px }
+#site-navigation a { margin-right:5px }
+
+
+/***** POST です*****/
+.post {
+  line-height:24px;
+  padding-top:70px;
+}
+.post h2 { padding-bottom:5px }
+.post h3 { padding-top:20px }
+.post-meta, time {
+  font-size:14px;
+  margin:0;
+  padding:0;
+}
+.post-meta time::after { content: " 🌲 " }
+
+
+/***** POST CONTENT です*****/
+.post img {
+  max-width:500px;
+  margin-top:5px;
+}
+.post pre {
+  line-height:18px;
+  padding:20px;
+  overflow-x:auto;
+}
+table {
+  border-collapse:collapse;
+  font-size:14px;
+  margin:1.4em 0;
+  width:100%;
+}
+table tr { border:1px solid #e3e8ed; }
+table th { background:#f3f8fd; }
+table th, table td {
+  border:1px solid #e3e8ed;
+  vertical-align:top;
+  padding:0.4em 1em;
+}
+figure {
+  margin-left:0;
+  margin-right:0;
+  max-width:500px;
+}
+figcaption {
+  font-size:14px;
+  font-style:italic;
+  text-align:center;
+}
+
+/***** ARCHIVE です*****/
+#archive a { margin-left: 5px }
+
+
+/***** PAGINATION です*****/
+#pagination {
+  font-weight:bold;
+  line-height:24px;
+  padding-top:65px;
+}
+#pagination a { font-weight:normal }
+#pagination #page-number { font-weight:bold }
+
+
+/***** FOOTER です*****/
+#boots { padding-top:70px }
+
+
+/***** RETINA です*****/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution:192dpi) {
+  body {
+    background-image: url("rubi@2x.jpg");
+    background-size:190px 559px;
+  }
+}
+
+
+/***** SMALL SCREEN です*****/
+@media screen and (max-width: 870px) {
+  body {
+    background-image:none;
+    margin:0 auto;
+    padding-left:0;
+    padding-right:0;
+  }
+}
+
+
+/***** CLARA-SIZED SCREEN です*****/
+@media screen and (max-width: 630px) {
+  body {
+    padding:30px 15px;
+    width:auto;
+  }
+  .post img, figure {
+    max-width:100% !important;
+    height:auto !important;
+    width:auto !important;
+  }
+  table, iframe, pre { overflow-x:scroll }
+}
+
+
+/***** EOF です*****/
+

@@ -1,0 +1,74 @@
+<rss version="2.0"
+  xml:base="{{ .Site.BaseURL }}{{ if eq .Title "Show" }}/show/{{ end }}"
+  xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:source="http://source.smallpict.com/2014/07/12/theSourceNamespace.html"{{ if eq .Title "Show" }}
+  xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"{{ end }}>
+
+<channel>
+
+  <title>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title> 
+  <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}/show/{{ end }}</link>
+  <description>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Tagline }}{{ else }}{{ .Site.Params.Info.Tagline }}{{ end }}</description>
+  <copyright>{{ .Site.Params.Info.Copyright }} {{ .Site.Params.Author.Name }}.</copyright>
+  <language>{{ .Site.LanguageCode }}</language>{{ if not .Date.IsZero }}
+  <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
+  <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
+  <ttl>30</ttl>
+  <source:account service="twitter">{{ .Site.Params.Author.Twitter }}</source:account>
+  <cloud domain="rpc.rsscloud.io" port="5337" path="/pleaseNotify" registerProcedure="" protocol="http-post" />
+
+  <creativeCommons:license>{{ .Site.Params.Licence_URL }}</creativeCommons:license>
+  <dc:creator>{{ .Site.Params.Author.Name }}</dc:creator>
+
+{{ if eq .Title "Show" }}<itunes:subtitle>{{ .Site.Params.Podcast.Tagline }}</itunes:subtitle>
+  <itunes:author>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:author>
+  <itunes:summary>{{ .Site.Params.Podcast.Summary }}</itunes:summary>
+  <itunes:owner>
+    <itunes:name>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:name>
+    <itunes:email>{{ .Site.Params.Podcast.Publisher }}</itunes:email>
+  </itunes:owner>
+  <itunes:keywords>{{ .Site.Params.Podcast.Keywords }}</itunes:keywords>
+  <itunes:image href="{{ .Site.Params.Podcast.Cover }}" />
+  <itunes:category text="{{ .Site.Params.Podcast.iTunes_Category }}">
+    <itunes:category text="{{ .Site.Params.Podcast.iTunes_Sub }}" />
+  </itunes:category>
+  <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>{{ end }}
+
+  <image>
+    <url>{{ .Site.BaseURL }}{{ .Site.Params.logo_rss }}</url>
+    <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
+    <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}/show/{{ end }}</link>
+    <width>72</width>
+    <height>72</height>
+    <description>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Tagline }}{{ else }}{{ .Site.Params.Description }}{{ end }}</description>
+  </image>
+{{ $type := .Title }}
+{{ range first 10 .Data.Pages }}
+  <item>
+    <title>{{ .Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <guid>{{ .Permalink }}</guid>
+    {{ if .Params.category }}<category>{{ .Params.category | lower }}</category>{{ end }}
+    {{ if .Params.tag }}{{ range .Params.tag }}<category>{{ . | lower }}</category>
+    {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+    <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
+    <description>{{ .Content | chomp | html }}</description>
+    <content:encoded>{{ "<![CDATA[" | safeHTML }}{{ .Content }}
+<hr />
+<p style="font-style:italic"><small>This post originally appeared on <a rel="canonical" href="{{ .Permalink }}">{{ .Site.Title }}</a>.</small></p>
+<hr />
+{{ "]]>" | safeHTML }}</content:encoded>
+    {{ if eq $type "Show" }}{{ if .Params.enclosure_file }}<enclosure url="{{ .Params.enclosure_file }}" length="{{ .Params.enclosure_size }}" type="{{ .Params.enclosure_type }}" />
+    <itunes:summary>{{ .Content | chomp | html }}</itunes:summary>
+    <itunes:author>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:author>
+    <itunes:duration>{{ .Params.enclosure_duration }}</itunes:duration>
+    {{ end }}{{ end }}
+  </item>
+{{ end }}
+</channel>
+</rss>
+

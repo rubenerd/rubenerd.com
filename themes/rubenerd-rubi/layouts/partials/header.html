@@ -1,0 +1,20 @@
+{{ partial "head.html" . }}
+
+{{ "<!-- Title and description です -->" | safeHTML }}
+<header id="site-header">
+<h1 id="site-title"><a href="/">{{ .Site.Title }} <img src="/logo.svg" alt="" /></a></h1>
+<a id="skip" href="#content">Skip to content</a>
+<div id="site-description">{{ .Site.Params.Description }}</div>
+</header>
+
+
+<hr />{{ safeHTML "<!-- ******************************** -->" }}
+
+
+{{ safeHTML "<!-- Navigation bar です -->" }}
+<nav id="site-navigation">{{ range .Site.Menus.header }}
+<a href="{{ .URL }}">{{ .Title }}</a>{{ end }}
+</nav>
+
+
+<hr id="content" />{{ safeHTML "<!-- ******************************** -->" }}

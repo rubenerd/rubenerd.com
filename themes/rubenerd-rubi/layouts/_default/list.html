@@ -1,0 +1,16 @@
+{{ partial "header.html" . }}
+
+<div class="post" id="archive">
+{{ if eq .Title "Show" }}{{ partial "show.html" }}{{ else if eq .Title "Annexe" }}{{ partial "annexe.html" }}{{ else }}
+<h2>{{ .Title }} post archive</h2>
+{{ end }}
+
+
+<p></p>
+
+<ol>{{ range .Data.Pages }}
+<li><time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
+</ol>
+
+</div>
+{{ partial "footer.html" . }}
