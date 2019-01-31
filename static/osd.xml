@@ -2,7 +2,7 @@
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
   <ShortName>Rubenerd</ShortName>
   <Description>Search Rubenerd</Description>
-  <Contact>weblog2018@rubenschade.com</Contact>
+  <Contact>weblog2019@rubenschade.com</Contact>
   <Url type="text/html" template="https://duckduckgo.com?q={searchTerms}">
     <Param name="sites" value="rubenerd.com"/>
     <Param name="ia" value="web"/>
@@ -14,7 +14,7 @@
 <Url type="application/opensearchdescription+xml" rel="self" template="https://rubenerd.com/osd.xml" />
 <LongName>Rubenerd</LongName>
 <Image height="144" width="144" type="image/png">https://rubenerd.com/itouch-icon.png</Image>
-<Query role="example" searchTerms="Suzumiya Haruhi" />
+<Query role="example" searchTerms="suzumiya haruhi" />
 <Tags>blog,podcast</Tags>
 <Developer>Ruben Schade</Developer>
 <SyndicationRight>open</SyndicationRight>
