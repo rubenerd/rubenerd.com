@@ -18,4 +18,4 @@ Yesterday I [tested ImageMagick 8-bit grayscale] graphics. I tried it against a 
 
 It's a cool effect.
 
-[tested ImageMagick 8-bit grayscale]: https://rubenerd.com/annexe-converting-down-pngs-to-256-greys/
+[tested ImageMagick 8-bit grayscale]: https://rubenerd.com/http://static/https://static-converting-down-pngs-to-256-greys/
