@@ -281,7 +281,7 @@ tag:
 
 <p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_ID/$_ID.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_ID/$_ID.mp3">Download</a></p>
 
-<p class="show-description"><span class="show-duration"><strong>$_DURATION</strong></span> – $_DESCRIPTION</p>
+<p class="show-description"><span class="show-duration" style="font-weight:bold">$_DURATION</span> – $_DESCRIPTION</p>
 
 <p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
