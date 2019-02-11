@@ -1,8 +1,7 @@
 ---
 title: "Pointless Rubenerd stats: The"
-date: "2019-01-28T21:27:19+11:00"
+date: "2019-01-29T21:27:19+11:00"
 abstract: "I’ve written 179 posts starting with the word The"
-thumb: ""
 year: "2019"
 category: Internet
 tag:
