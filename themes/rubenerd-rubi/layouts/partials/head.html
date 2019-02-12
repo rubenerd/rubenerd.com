@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# dc: http://purl.org/dc/elements/1.1/">
 
 
-{{ "<!-- Essentials です -->" | safeHTML }}
+{{ safeHTML "<!-- Essentials です -->" }}
 <meta charset="utf-8" />
 <title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
 <link rel="stylesheet" href="/screen.css" title="Rubi White Style" />
 <link rel="alternate stylesheet" href="/night.css" title="Night Style" />
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} post feed" href="{{ .Site.BaseURL }}feed/" />
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Params.Podcast.Title }} podcast feed" href="{{ .Site.Params.Podcast.Feed }}" />
+<link rel="meta" type="application/rdf+xml" title="FOAF" href="/{{ .Site.Params.Author.Foaf }}" />
 <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
-<meta name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />
-<meta name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ safeHTML .Site.Params.Description }}{{ end }}" />
-{{ .Hugo.Generator }}{{ if .Params.Tag }}
-<meta name="keywords" content="{{ if .Params.Tag }}{{ delimit .Params.Tag "," }}{{ else }}{{ delimit .Site.Params.Keywords "," }}{{ end }}" />{{ end }}
+<link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
+{{ .Hugo.Generator }}
+<meta name="HandheldFriendly" content="True" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
 {{ partial "meta.html" . }}</head>
 
 
-{{ safeHTML "<!-- Actual content now です -->" }}
+{{ safeHTML "<!-- Actual page now です -->" }}
 <body>
