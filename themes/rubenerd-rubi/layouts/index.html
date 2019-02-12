@@ -1,6 +1,5 @@
 {{ partial "header.html" . }}{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}{{ range $paginator.Pages }}
 
-
 {{ safeHTML "<!-- Blog post です -->" }}
 <article class="post" resource="{{ .Permalink }}">
 <header>
@@ -15,13 +14,17 @@
 </article>
 
 
-<hr />{{ safeHTML "<!-- ******************************** -->" }}{{ end }}
+<hr />{{ safeHTML "<!-- ******************************** -->" }}
+{{ end }}
+
+{{ safeHTML "<!-- Content ends です -->" }}
+</main>
 
 
 {{ safeHTML "<!-- Pagination links です -->" }}
-<nav id="pagination">{{ if .Paginator.HasPrev }}<a id="page-newer" href="{{ .Paginator.Prev.URL }}">Newer posts</a> <span aria-hidden="true" class="page-arrow">&larr;</span>{{ end }}
+<nav id="pagination">{{ if .Paginator.HasPrev }}<a rel="Next" id="page-newer" href="{{ .Paginator.Prev.URL }}">Newer posts</a> <span aria-hidden="true" class="page-arrow">&larr;</span>{{ end }}
 <span id="page-number">Page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
-{{ if .Paginator.HasNext }}<span aria-hidden="true" class="page-arrow">&rarr;</span> <a id="page-older" href="{{ .Paginator.Next.URL }}">Older posts</a>{{ end }}
+{{ if .Paginator.HasNext }}<span aria-hidden="true" class="page-arrow">&rarr;</span> <a rel="Prev" id="page-older" href="{{ .Paginator.Next.URL }}">Older posts</a>{{ end }}
 </nav>
 
 
