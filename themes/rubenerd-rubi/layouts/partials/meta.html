@@ -1,4 +1,18 @@
-{{ safeHTML "<!-- Redundant metadata です -->" }}
+{{ safeHTML "<!-- General metadata and Dublin Core です -->" }}
+<meta property="dc:creator" name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />{{ if eq .Type "post" }}
+<meta property="dc:date" name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
+<meta property="dc:description" name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+<meta property="dc:identifier" name="site" content="{{ .Permalink }}" />
+<meta property="dc:format" content="text/html" />
+<meta property="dc:language" content="{{ .Site.LanguageCode }}" /><!-- Supercedes RFC3066 -->
+<meta property="dc:publisher" content="{{ .Site.Title }}" />{{ with .Params.Category }}
+<meta property="dc:subject" content="{{ . }}" />{{ end }}{{ range .Params.Tag }}
+<meta property="dc:subject" content="{{ . }}" />{{ end }}
+<meta property="dc:title" name="pagename" content="{{ .Title }}" />
+<meta property="dc:type" content="Text" />
+
+
+{{ safeHTML "<!-- OpenGraph, Twitter です -->" }}
 <meta name="twitter:title" property="og:title" content="{{ .Title }}" /> 
 <meta name="twitter:description" property="og:description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ safeHTML .Site.Params.Description }}{{ end }}" />
 <meta name="twitter:image:src" property="og:image" content="{{ .Site.BaseURL }}{{ .Site.Params.Logo }}" />
@@ -11,8 +25,8 @@
 <meta property="og:type" content="{{ if eq .Type "post" }}article{{ else }}website{{ end }}" />{{ if eq .Type "post" }}
 <meta property="article:modified_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
 <meta property="article:published_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
-<meta property="article:section" content="{{ .Params.Category }}" />{{ if .Params.Tag }}
-<meta property="article:tag" content="{{ delimit .Params.Tag "," }}" />{{ end }}{{ end }}
+<meta property="article:section" content="{{ .Params.Category }}" />{{ end }}{{ if .Params.Tag }}
+<meta name="keywords" property="article:tag" content="{{ delimit .Params.Tag "," }}" />{{ end }}
 
 
 {{ safeHTML "<!-- Schema RDF serialised in JSON; developers have spoken です -->" }}
@@ -42,6 +56,11 @@
       "addressRegion": "{{ .Site.Params.Author.State }}",
       "sameAs": "{{ .Site.Params.Author.Place }}"
     },
+    "alumniOf": {
+      "@type: "EducationalOrganization",
+      "name": "{{ .Site.Params.Author.Alumni.School }}",
+      "sameAs: "{{ .Site.Params.Author.Alumni.URL }}"
+    }
     "familyName": "{{ .Site.Params.Author.Last }}",
     "gender": "{{ .Site.Params.Author.Gender }}",
     "givenName": "{{ .Site.Params.Author.First }}",
@@ -59,8 +78,8 @@
     "@type": "Place",
     "address": "{{ . }}",
     "hasMap": "https://www.openstreetmap.org/search?query={{ . }}"
-  },{{ end }}
-  "license": "{{ .Site.Params.Licence_Url }}",
+  },{{ end }}{{ if .Params.Licence }}
+  "license": "{{ . }}",{{ end }}
   "name": "{{ .Title }}",
   "thumbnailUrl": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
   "url": "{{ .Permalink }}",{{ if eq .Type "post" }}
