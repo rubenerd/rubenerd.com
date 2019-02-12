@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 
+<!-- Blog post です -->
 <article class="post">
 <header>
 <h2>{{ .Title }}</h2>
@@ -13,13 +14,17 @@
 </article>
 
 
-<hr />{{ "<!-- ******************************** -->" | safeHTML }}
+<hr />{{ safeHTML "<!-- ******************************** -->" }}
 
 
-{{ if eq .Section "post" }}{{ "<!-- Post navigation です -->" | safeHTML }}
+{{ safeHTML "<!-- Content ends です -->" }}
+</main>
+
+
+{{ if eq .Section "post" }}{{ safeHTML "<!-- Post navigation です -->" }}
 <nav id="pagination">
-{{ if .NextPage }}Newer post <span aria-hidden="true" class="page-arrow">&larr;</span> <a href="{{ .Prev.RelPermalink }}">{{ .NextPage.Title }}</a><br />{{ end }}
-{{ if .PrevPage }}Older post <span aria-hidden="true" class="page-arrow">&rarr;</span> <a href="{{ .Next.RelPermalink }}">{{ .PrevPage.Title }}</a>{{ end }}
+{{ if .NextPage }}Newer post <span aria-hidden="true" class="page-arrow">&larr;</span> <a rel="Next" href="{{ .Prev.RelPermalink }}">{{ .NextPage.Title }}</a><br />{{ end }}
+{{ if .PrevPage }}Older post <span aria-hidden="true" class="page-arrow">&rarr;</span> <a rel="Prev" href="{{ .Next.RelPermalink }}">{{ .PrevPage.Title }}</a>{{ end }}
 </nav>{{ else if eq .Section "omake" }}
 <nav id="pagination">
 <span aria-hidden="true" class="page-arrow">&larr;</span> <a href="/omake-pages/">Back to the Omake page</a>
