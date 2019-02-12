@@ -262,20 +262,21 @@ cat > "$_EPISODES/show$_NUMBER.html" <<EOF
 ---
 title: "$_SHOW $_NUMBER: $_TITLE"
 date: "$_DATE_TIME"
-abstract: "$_TITLE"
+abstract: "$_DURATION — $_DESCRIPTION"
 thumb: "https://archive.org/download/$_ID/$_ID.png"
 enclosure_file: "https://archive.org/download/$_ID/$_ID.mp3"
 enclosure_size: "$_SIZE"
 enclosure_type: "audio/mpeg"
 enclosure_duration: "$_DURATION"
-location: "$_LOCATION"
 category: Show
 tag:
 - audio-magazine
+- internet-radio
 - new-time-radio
-- podcast
 - recorded-in-$_CITY
 - the-overnightscape-underground
+- podcast
+location: "$_CITY"
 ---
 <p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
 
@@ -285,7 +286,7 @@ tag:
 
 <p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
-<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts; this one notwithstanding.</p>
 
 <p class="show-subscribe">Subscribe with <a href="https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071">iTunes</a>, <a href="http://pca.st/ybXl">Pocket Casts</a>, <a href="https://overcast.fm/itunes1003680071/rubenerd-show">Overcast</a> or add <a href="http://showfeed.rubenerd.com/">this feed</a> to your podcast client.</p>
 
@@ -302,7 +303,7 @@ cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
 
 <p class="show-licence">Recorded in $_LOCATION. Licence for this track: <a rel="license" href="$_LICENCE_URL">$_LICENCE_TITLE</a>. Attribution: $_HOST.</p>
 
-<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="https://rubenerd.com/">Rubenerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts.</p>
+<p class="show-release">Released $_ONSUG_RELEASE_DATE on <a href="https://rubenerd.com/">Rubenerd</a> and <a href="http://onsug.com/">The Overnightscape Underground</a>, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts; this one notwithstanding.</p>
 EOF
 
 ## If we're on Mac OS X, copy to clipboard for pasting into Onsug 
