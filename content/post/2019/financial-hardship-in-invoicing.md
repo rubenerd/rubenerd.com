@@ -1,13 +1,12 @@
 ---
-draft: true
 title: "Financial hardship in invoicing"
 date: "2019-01-10T08:27:55+11:00"
-abstract: ""
-thumb: ""
+abstract: "Be respectful, and chances are people will be for you too."
 year: "2019"
 category: Thoughts
 tag:
-- 
+- finances
+- money
 location: sydney
 ---
 I'll keep this as non-specific and vague as possible. Having worked for myself, with family, and for businesses, there are certain clients who won't pay invoices on time. Or ever. I probably shouldn't make this public, but I've generally been poor at chasing people for payment. I figure they have their reasons.
