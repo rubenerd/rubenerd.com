@@ -2,7 +2,7 @@
 title: "Vortex Race 3 keyboard"
 date: "2019-01-07T10:52:46+11:00"
 abstract: "After I may or may not have broken my IBM Model M4"
-thumb: ""
+thumb: "https://rubenerd.com/files/2019/vortex3@1x.jpg"
 year: "2019"
 category: Hardware
 tag:

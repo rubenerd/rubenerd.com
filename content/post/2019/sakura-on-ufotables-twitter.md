@@ -1,8 +1,8 @@
 ---
 title: "Sakura on ufotable’s Twitter"
 date: "2019-01-12T21:42:17+11:00"
-abstract: ""
-thumb: ""
+abstract: "ufotable have been heavily spruiking the second Heavens Feel movie!"
+thumb: "https://rubenerd.com/files/2019/ufotable-sakura-3@1x.jpg"
 year: "2019"
 category: Anime
 tag:

@@ -2,7 +2,6 @@
 title: "Decentraleyes"
 date: "2019-02-15T15:39:20+11:00"
 abstract: "My new favourite Firefox plugin, caches content hosted on third party CDNs."
-thumb: ""
 year: "2019"
 category: Internet
 tag:

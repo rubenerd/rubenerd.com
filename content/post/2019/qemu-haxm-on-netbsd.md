@@ -1,8 +1,8 @@
 ---
 title: "qemu HAXM on NetBSD"
 date: "2019-02-04T11:41:24+11:00"
-abstract: ""
-thumb: ""
+abstract: "Kamil Rytarowski has posted his success getting Intel's HAXM on NetBSD."
+thumb: "https://rubenerd.com/files/2019/netbsd-haxm.png"
 year: "2019"
 category: Software
 tag:

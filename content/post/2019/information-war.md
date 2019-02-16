@@ -2,7 +2,6 @@
 title: "Information war"
 date: "2019-01-08T21:27:55+11:00"
 abstract: "The fact we can be so successfully gamed by memes is troubling."
-thumb: ""
 year: "2019"
 category: Internet
 tag:

@@ -2,7 +2,6 @@
 title: "Setting FLAC compression in FFmpeg"
 date: "2019-01-15T21:43:59+11:00"
 abstract: "Using the -compression_level option"
-thumb: ""
 year: "2019"
 category: Software
 tag:

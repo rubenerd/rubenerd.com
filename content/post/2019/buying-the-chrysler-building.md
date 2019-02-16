@@ -2,7 +2,7 @@
 title: "Buying the Chrysler Building"
 date: "2019-01-11T14:06:57+11:00"
 abstract: "It’s for sale, and I want to buy it."
-thumb: ""
+thumb: "https://rubenerd.com/files/photos/photo-2016-10-05-chrysler-     building@1x.jpg"
 year: "2019"
 category: Thoughts
 tag:
