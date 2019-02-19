@@ -12,7 +12,7 @@ I’ve installed Dave Winer's 1999.io blogging software, at the uninspired locat
 
     https://1999.rubenerd.com/
 
-Right now I'm using it as an http://static/https://static, to replace Tumblr.
+Right now I'm using it as an annexe, to replace Tumblr.
 
 My primary blog will remain generated with Hugo, because its literally the only static blog engine that can chew though more than 5000 posts without breaking a sweat.
 

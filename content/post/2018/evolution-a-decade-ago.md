@@ -16,6 +16,6 @@ Here's a post I wrote [a decade ago] on the *Rubenerd Annexe*, back when I had s
 
 It seems science and reason is just as under attack as it was ten years ago; take just [one example] from recent memory. I wonder if I'd have predicted that? Do you think you would have?
 
-[a decade ago]: https://rubenerd.com/http://static/https://static-ec5618-on-evolution/
+[a decade ago]: https://rubenerd.com/ec5618-on-evolution/
 [Ec5618 on YouTube]: https://youtube.com/watch?v=qR_z85O0P2M
 [one example]: https://rubenerd.com/belle-gibson-fake-cures-and-media/
