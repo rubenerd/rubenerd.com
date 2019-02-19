@@ -3,6 +3,8 @@
 ######
 ## Creates, formats and uploads new podcast episodes
 ## For Rubénerd Show and Snake Tea Podcast
+##
+## This should be replaced with a Perl script and/or Jinja ASAP!
 ## 
 ## 2015-07-27: Created
 ## 2017-01-30: Refactored for arguments (not interactive) + IA upload tool
@@ -189,7 +191,7 @@ EOF
 
 ## Need to remove existing first now, otherwise eyeD3 0.8.x throws an error
 ## Uncaught exception: 'NoneType' object has no attribute 'file_info'
-##eyeD3 --remove-all "$_BUCKET/$_ID.mp3"
+eyeD3 --remove-all "$_BUCKET/$_ID.mp3"
 
 ## Internet Archive
 eyeD3                                                               \
@@ -211,7 +213,7 @@ eyeD3                                                               \
     --url-frame "WOAF:https\://archive.org/download/$_ID/$_ID.mp3"  \
     --url-frame "WOAR:https\://rubenerd.com/"                       \
     --url-frame "WOAS:https\://rubenerd.com/show$_NUMBER/"          \
-    --url-frame "WORS:https\://onsug.com/"                          \
+    --url-frame "WORS:http\://onsug.com/"                          \
     --url-frame "WCOP:`escape $_LICENCE_URL`"                       \
     --url-frame "WPUB:`escape $_URL`"                               \
     --text-frame "TDRL:$_YEAR"                                      \
@@ -262,7 +264,7 @@ cat > "$_EPISODES/show$_NUMBER.html" <<EOF
 ---
 title: "$_SHOW $_NUMBER: $_TITLE"
 date: "$_DATE_TIME"
-abstract: "$_DURATION — $_DESCRIPTION"
+abstract: "$_DURATION — $_DESCRIPTION_TEXT"
 thumb: "https://archive.org/download/$_ID/$_ID.png"
 enclosure_file: "https://archive.org/download/$_ID/$_ID.mp3"
 enclosure_size: "$_SIZE"
@@ -276,7 +278,7 @@ tag:
 - recorded-in-$_CITY
 - the-overnightscape-underground
 - podcast
-location: "$_CITY"
+location: $_CITY
 ---
 <p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
 
@@ -347,7 +349,6 @@ ia upload                                                \
     "$_ID.mp3"                                           \
     "$_ID.png"                                           \
     "$_ID.jpg"                                           \
-    "$_ID.flac"                                          \
     --metadata="collection:$_COLLECTION"                 \
     --metadata="contributor:$_HOST"                      \
     --metadata="coverage:$_LOCATION"                     \
