@@ -9,15 +9,13 @@ title: Rubenerd
 params:
 
   author:
-    alumni:
-      school: University of Technology Sydney
-      url: https://it.uts.edu.au/
     city: Sydney
     country: Australia
     first: Ruben
     foaf: foaf.rdf
     gender: Male
     gitlab: rubenerd
+    home: http://rubenschade.com/
     last: Schade
     nationality: Australian
     partner: http://kirinyan.net/
@@ -42,8 +40,8 @@ params:
     itunes: https://itunes.apple.com/au/podcast/rubenerd-show/id1003680071
     itunes_category: Society & Culture
     itunes_sub: Personal Journals
-    licence_title: Creative Commons Attribution Share-Alike 3.0
-    licence_url: https://creativecommons.org/licenses/by-sa/3.0/
+    licence_title: Creative Commons Attribution 3.0
+    licence_url: https://creativecommons.org/licenses/by/3.0/
     keywords: australia,sydney,singapore,thoughts,tech,anime,jazz,ruben schade,onsug,overnightscape underground
     overcast: https://overcast.fm/itunes1003680071/rubenerd-show
     pocket_casts: http://pca.st/ybXl
@@ -94,5 +92,6 @@ taxonomies:
 disableKinds:
 - categories
 - section
+- sections
 - tags
 
