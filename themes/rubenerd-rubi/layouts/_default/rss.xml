@@ -3,6 +3,7 @@
   xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/1.1/"
   xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:source="http://source.scripting.com/">
@@ -65,12 +66,13 @@
     {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     <description>{{ safeHTML "<![CDATA[" }}{{ replace .Content "\n" "" | safeHTML }}<hr /><p style="font-style:italic"><small>This post originally appeared on <a rel="canonical" href="{{ .Permalink }}">{{ .Site.Title }}</a>.</small></p>]]></description>{{ if .Params.Enclosure_file }}
     <enclosure url="{{ .Params.Enclosure_file }}" length="{{ .Params.Enclosure_size }}" type="{{ .Params.Enclosure_type }}" />{{ end }}
-    {{ safeHTML "<!-- Item namespace extensions -->" }}
-    <conversationsNetwork:image url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />{{ with .Params.Location }}
+    {{ safeHTML "<!-- Useful namespace extensions -->" }}{{ if eq $type "Show" }}
+    <conversationsNetwork:image url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />{{ end }}{{ with .Params.Location }}
     <dc:coverage>{{ humanize . }}</dc:coverage>{{ end }}
     <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
     <dc:format>{{ if .Params.Enclosure_type }}{{ .Params.Enclosure_type }}{{ else }}text/html{{ end }}</dc:format>
-    <dc:type>{{ if eq .Params.Enclosure_type "audio/mpeg" }}Audio{{ else }}Text{{ end }}</dc:type>{{ with .Params.Abstract }}
+    <dc:type>{{ if eq .Params.Enclosure_type "audio/mpeg" }}Audio{{ else }}Text{{ end }}</dc:type>{{ if eq $type "Show" }}
+    <dcterms:license>http://creativecommons.org/licenses/by/3.0/</dcterms:license>{{ end }}{{ with .Params.Abstract }}
     <excerpt:encoded>{{ safeHTML "<![CDATA[" }}{{ . }}]]></excerpt:encoded>{{ end }}{{ if eq $type "Show" }}
     <itunes:author>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:author>
     <itunes:duration>{{ .Params.Enclosure_duration }}</itunes:duration>
