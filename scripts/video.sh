@@ -34,6 +34,6 @@ convert -resize 1000x563 "video.jpg" -quality 97 -crop 1000x562+0+0 +repage \
 convert -resize 500x281 "video.jpg" -quality 97 "yt-$ID@1x.jpg" \
     +page "$PLAY1X" -flatten "yt-$ID@1x.jpg"
 
-## Upload files
-scp yt-$ID@*jpg $SERVER:$YEAR/
+## Upload files and delete on success
+scp yt-$ID@*jpg $SERVER:$YEAR/ && rm -rf yt-$ID@*jpg
 
