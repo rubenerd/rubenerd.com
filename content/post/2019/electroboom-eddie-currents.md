@@ -1,8 +1,8 @@
 ---
 title: "ElectroBOOM! on eddy currents"
 date: "2019-03-01T15:16:25+11:00"
-abstract: ""
-thumb: ""
+abstract: "This was my favourite recent ElectroBOOM! episode in a while."
+thumb: "https://rubenerd.com/files/2019/yt-u7Rg0TcHQ4Y@1x.jpg"
 year: "2019"
 category: Media
 tag:
