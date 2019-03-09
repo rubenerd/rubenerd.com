@@ -52,16 +52,16 @@ There are far too many to list here. But if you see a recurring topic, chances a
 
 I only started putting locations on posts a few years ago. I'll get around to retroactively adding them one day. Sorted in order of post count.
 
-* [Sydney](/tag/written-in-sydney/)
-* [Singapore](/tag/written-in-singapore/)
-* [San Francisco](/tag/written-in-san-francisco/)
-* [Los Angeles](/tag/written-in-los-angeles/)
-* [Osaka](/tag/written-in-osaka/)
-* [Hong Kong](/tag/written-in-hong-kong/)
-* [Oakland](/tag/written-in-oakland/)
-* [Tokyo](/tag/written-in-tokyo/)
-* [New York](/tag/written-in-new-york/)
-* [New Jersey](/tag/written-in-new-jersey/)
+* [Sydney](/location/sydney/)
+* [Singapore](/location/singapore/)
+* [San Francisco](/location/san-francisco/)
+* [Los Angeles](/location/los-angeles/)
+* [Osaka](/location/osaka/)
+* [Hong Kong](/location/hong-kong/)
+* [Oakland](/location/oakland/)
+* [Tokyo](/location/tokyo/)
+* [New York](/location/new-york/)
+* [New Jersey](/location/new-jersey/)
 
 <h3 id="year">By year</h3>
 
