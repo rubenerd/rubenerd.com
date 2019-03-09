@@ -1,8 +1,7 @@
 ---
 title: "Lateral thinking: sponges"
 date: "2019-02-26T21:12:27+11:00"
-abstract: ""
-thumb: ""
+abstract: "Name as many reasons you can for using a sponge."
 year: "2019"
 category: Thoughts
 tag:
