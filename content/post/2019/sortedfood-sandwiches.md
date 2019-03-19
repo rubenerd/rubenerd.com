@@ -4,7 +4,7 @@ date: "2019-01-07T08:40:49+11:00"
 abstract: "Tuna mayo and egg mayo sandwich recipes from the SortedFood gents."
 thumb: "https://rubenerd.com/files/2019/yt-VQ2kyrlUia8@1x.jpg"
 year: "2019"
-category: Thoughts
+category: Media
 tag:
 - food
 - sortedfood

@@ -4,7 +4,7 @@ date: "2019-01-28T18:42:56+11:00"
 abstract: "Packing Mashu in a sea of other boxes."
 thumb: "https://rubenerd.com/files/2019/photo-2019-01-26-mashu-box@1x.jpg"
 year: "2019"
-category: Thoughts
+category: anime
 tag:
 - anime-figures
 - fate

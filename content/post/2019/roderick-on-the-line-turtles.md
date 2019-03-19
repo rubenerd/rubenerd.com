@@ -3,7 +3,7 @@ title: "Roderick on the Line: Turtles"
 date: "2019-03-07T08:33:04+11:00"
 abstract: "You never see a turtle frown."
 year: "2019"
-category: Thoughts
+category: Media
 tag:
 - john-roderick
 - merlin-mann

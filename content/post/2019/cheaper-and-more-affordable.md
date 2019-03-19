@@ -3,7 +3,7 @@ title: "Cheaper, and more affordable"
 date: "2019-01-09T09:07:38+11:00"
 abstract: "The laws of mathematics are very commendable..."
 year: "2019"
-category: Thoughts
+category: Internet
 tag:
 - australia
 - nbn
