@@ -30,7 +30,7 @@ You *can* fill your drive bigger if you do it more slowly; we did it in the 1990
 
 The primary advantage of storage over CPU and RAM is that it can be offloaded easier. If you run short of drive space, your constraint becomes bandwidth to a remote file or backup server, or the number of ports for an external drive. Your Commodore VIC-20 could have more external RAM plugged in, but we can't with our laptops.
 
-*(You could make the case that CPU and RAM can be expanded by using a cloud instance or server hardware send your intensive tasks, but it might be stretching it for non-technical users. Storage is still easier).*
+*(One could make the case that CPU and RAM can be expanded by using a cloud instance or server hardware to send your intensive tasks to as well).*
 
 The justifications and tradeoffs Apple made for soldered on, non-upgradeable RAM is beyond the scope of this post. But for my purchasing decisions for sealed hardware, I'd spend more on RAM before storage, or CPU now that I think about it.
 
