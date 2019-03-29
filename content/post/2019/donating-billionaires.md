@@ -7,7 +7,7 @@ category: Thoughts
 tag:
 - business
 - finance
-location: sydney
+location: Tokyo
 ---
 There's an infographic going around comparing how much billionaires donate, with the implication that some are more charitable than others. It misses the point:
 

@@ -10,7 +10,7 @@ tag:
 - gnu
 - linux
 - netbsd
-location: Sydney
+location: Tokyo
 ---
 I'm writing this on a plane to Japan for AsiaBSDCon again! I learned last year that NetBSD has a unique place there, and I've been keen to continue exploring it. My challenge for this year is to have NetBSD on par with FreeBSD on OrionVM, including full contextualisation. But I digress.
 
