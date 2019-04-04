@@ -13,7 +13,7 @@ html, body, h1, h2, h3, form, fieldset, #archive ol, #archive li {
 body {
   background:#ffffff url("rubi@1x.jpg") fixed no-repeat;
   background-position:right 30px top 30px;
-  font:1em "Helvetica Neue","Open Sans",Helvetica,Arial,sans-serif;
+  font:1em "Helvetica Neue","Open Sans",Arial,sans-serif;
   height:100%;
   overflow-y:scroll;
   padding:40px 40px 240px 40px;
