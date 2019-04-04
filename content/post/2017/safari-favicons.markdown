@@ -42,9 +42,9 @@ This especially. If we're not going to have stacked sidebar tabs which [other br
 
 Basically all I'm after is a 2017 Webkit [Camino], which incidently used favicons.
 
-[I used Safari for a week in 2015]: https://rubenerd.com/using-safari-for-a-week/ "Rubénerd: Using Safari for a wekk"
-[I did another review earlier this year]: https://rubenerd.com/desktop-safari-in-2017/ "Rubénerd: Desktop Safari in 2017"
+[I used Safari for a week in 2015]: https://rubenerd.com/using-safari-for-a-week/ "Rubenerd: Using Safari for a wekk"
+[I did another review earlier this year]: https://rubenerd.com/desktop-safari-in-2017/ "Rubenerd: Desktop Safari in 2017"
 [just done a followup]: https://daringfireball.net/2017/08/safari_should_display_favicons_in_its_tabs "Daring Fireball: Safari should display favicons in its tabs"
 [other browsers]: https://vivaldi.com "Vivaldi browser"
 [browser extensions]: https://addons.mozilla.org/en-US/firefox/addon/tab-center-redux/ "Firefox extension: Tab Center Redux"
-[Camino]: https://rubenerd.com/universal-binaries-for-mozilla-software/ "Rubénerd: Universal binaries for Mozilla software"
+[Camino]: https://rubenerd.com/universal-binaries-for-mozilla-software/ "Rubenerd: Universal binaries for Mozilla software"

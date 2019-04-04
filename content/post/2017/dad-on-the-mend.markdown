@@ -11,7 +11,7 @@ location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2017/dadme@1x.jpg" alt="Dad and me in 2008" style="width:500px; height:375px;" srcset="https://rubenerd.com/files/2017/dadme@1x.jpg 1x, https://rubenerd.com/files/2017/dadme@2x.jpg 2x" /></p>
 
-*Rubénerd* hasn't had many updates for a week, in part because I was scared about what I'd need to write about if something bad happened. Fortunately, I'm happy and relieved beyond words to report everything is fine, and my sister and I still have a dad.
+*Rubenerd* hasn't had many updates for a week, in part because I was scared about what I'd need to write about if something bad happened. Fortunately, I'm happy and relieved beyond words to report everything is fine, and my sister and I still have a dad.
 
 Our [smaller family] had another scare two weeks ago, when my dad was admitted to hospital with chest pains. He was one episode away from a serious heart attack; the doctors said it was miraculous he caught it early. The next day, he was having a five-level heart bypass and followup surgery.
 

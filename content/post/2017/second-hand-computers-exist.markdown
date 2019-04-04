@@ -25,5 +25,5 @@ Many – dare I say most – people don't need a brand new machine each year. It
 
 And yes, I count myself in that. One of my Microservers was bought from a colleague, and I got through various uni stints with eBay ThinkPads and a cheese-grater Mac Pro.
 
-[something I wrote]: https://rubenerd.com/craptastic-v-second-hand/ "Rubénerd: Craptastic versus good quality second hand?"
+[something I wrote]: https://rubenerd.com/craptastic-v-second-hand/ "Rubenerd: Craptastic versus good quality second hand?"
 

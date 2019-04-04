@@ -67,5 +67,5 @@ Except, it doesn't. The top screen protrusion for the camera and speaker is asym
 
 We should all reserve final judgement till we play with this new gear, but if I were on an iPhone 5, Android – or Palm Pre! – today, I'd be snapping up an iPhone 8 without question.
 
-[the]: https://rubenerd.com/the-apple-watch/ "Rubénerd: Stop trying to make Apple Watch without 'the' happen"
+[the]: https://rubenerd.com/the-apple-watch/ "Rubenerd: Stop trying to make Apple Watch without 'the' happen"
 

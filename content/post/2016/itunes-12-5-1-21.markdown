@@ -13,7 +13,7 @@ location: sydney
 ---
 We've got a slew of new Apple goodies to play with, but I'm always most interested in iTunes. When will the former centre of the Apple media ecosystem get better? I [defended iTunes for years] on the basis that version 1.0 running on Mac OS 9 on my blueberry iMac DV was so much better than anything else, but there’s no doubt it’s long past its prime now.
 
-No substantive changes this time that I can see, though their imitation of the *Rubénerd* blue and pale grey colour scheme and bold headings (heh) are a welcome change from the pencil thin lines and muted colours taken from iOS 7. 
+No substantive changes this time that I can see, though their imitation of the *Rubenerd* blue and pale grey colour scheme and bold headings (heh) are a welcome change from the pencil thin lines and muted colours taken from iOS 7. 
 
 The confusingly named "New" tab which lead to Apple Music has also been changed to "Browse". Somewhat of an improvement, but not ideal.
 

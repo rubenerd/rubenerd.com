@@ -8,7 +8,7 @@ tag:
 - personal
 location: sydney
 ---
-The Escapist himself sent a really nice message about the latest Rubénerd Show and Overnightscape adventures in New York and New Jersey :)
+The Escapist himself sent a really nice message about the latest Rubenerd Show and Overnightscape adventures in New York and New Jersey :)
 
 > What a treat! (it's Halloween season, get it?)
 > 

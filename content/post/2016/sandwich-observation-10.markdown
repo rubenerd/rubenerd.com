@@ -13,7 +13,7 @@ location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/shinon-hewshack.jpg" alt="" srcset="https://rubenerd.com/files/2016/shinon-hewshack.jpg 1x, https://rubenerd.com/files/2016/shinon-hewshack@2x.jpg 2x" style="width:500px; height:px" /></p>
 
-It's been seven years **to the day** since our last [grilled cheese sandwich observation] lesson. I was reminded of the old *Rubénerd* phenomena from a message from a dear friend.
+It's been seven years **to the day** since our last [grilled cheese sandwich observation] lesson. I was reminded of the old *Rubenerd* phenomena from a message from a dear friend.
 
 Clearly this issue needs to be resolved. I will quote an earlier lesson, with required modifications:
 

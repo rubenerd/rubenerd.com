@@ -21,8 +21,8 @@ All I could find online were some [stale newsgroup posts], a [repository] last u
 
 Such potential. I wonder where they are now?
 
-[Speaking of Solaris]: https://rubenerd.com/goodbye-to-solaris-probably/ "Rubénerd: Goodbye to Solaris, probably?"
-[again]: https://rubenerd.com/what-about-aix-hpux/ "Rubénerd: What about AIX and HP/UX?"
+[Speaking of Solaris]: https://rubenerd.com/goodbye-to-solaris-probably/ "Rubenerd: Goodbye to Solaris, probably?"
+[again]: https://rubenerd.com/what-about-aix-hpux/ "Rubenerd: What about AIX and HP/UX?"
 [project page]: http://www.spi-inc.org/projects/
 [their page]: http://www.spi-inc.org/projects/osunix/
 [stale newsgroup posts]: http://grokbase.com/g/sc/osunix-commits

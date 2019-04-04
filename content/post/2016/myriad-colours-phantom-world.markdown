@@ -13,7 +13,7 @@ location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2016/anime-mcpw01-cast.jpg" srcset="https://rubenerd.com/files/2016/anime-mcpw01-cast.jpg 1x, https://rubenerd.com/files/2016/anime-mcpw01-cast@2x.jpg 2x" alt="" style="width:500px; height:281px" /></p>
 
-Those who've read *Rubénerd* for a long time (my condolences) know about my *Kyoani Doctrine*. It states that no matter what series Kyoto Animation produces, I have to watch it. Period. It's been in effect since *The Melancholy of Haruhi Suzumiya*, and continued even through Free!, which I would have loved even if it also didn't frustarte so many man-children whinging that Kyoani had "gone gay".
+Those who've read *Rubenerd* for a long time (my condolences) know about my *Kyoani Doctrine*. It states that no matter what series Kyoto Animation produces, I have to watch it. Period. It's been in effect since *The Melancholy of Haruhi Suzumiya*, and continued even through Free!, which I would have loved even if it also didn't frustarte so many man-children whinging that Kyoani had "gone gay".
 
 Whoa, I just realised that means it's been in effect for a decade. I watched Haruhi in 2006. That's a mind fuck.
 

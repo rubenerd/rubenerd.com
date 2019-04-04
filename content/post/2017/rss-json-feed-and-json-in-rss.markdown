@@ -47,7 +47,7 @@ Around the same time Brent and Manton were working on the JSON Feed spec, Dave W
 
 Admittedly, this is what I thought JSON Feed was, before I read the incompatible spec. If a dislike of XML and a preference for JSON were the two reasons, RSS in JSON would seem to be the logical choice. Existing taxonomies and data structures could be maintained, literally all you're changing is the delivery mechanism.
 
-I'll be implementing it on *Rubénerd* as an interesting project, but as [Dave professed] when he first checked it out in 2012, I'm not sure if it'll really be used.
+I'll be implementing it on *Rubenerd* as an interesting project, but as [Dave professed] when he first checked it out in 2012, I'm not sure if it'll really be used.
 
 [JSON Feed]: https://jsonfeed.org/
 [RSS in JSON]: https://github.com/scripting/Scripting-News/blob/master/rss-in-json/README.md

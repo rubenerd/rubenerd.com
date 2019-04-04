@@ -87,7 +87,7 @@ Theoretically, this should be fine. **The whole point of doubling the resolution
 
 Except, browser rendering engines decided not to do this. Instead, they stretch images like you would in Photoshop, so the end result is a muddy, low clarity image.
 
-With these new CSS directives, we can do pixel doubling on these older or non-Retina images! I'm tempted to tag images on *Rubénerd* older than 2011 with "classic" or something, then set these CSS attributes on them.
+With these new CSS directives, we can do pixel doubling on these older or non-Retina images! I'm tempted to tag images on *Rubenerd* older than 2011 with "classic" or something, then set these CSS attributes on them.
 
 [Phrogz on Stack Overflow]: https://stackoverflow.com/questions/3900436/image-scaling-by-css-is-there-a-webkit-alternative-for-moz-crisp-edges/8888964#8888964
 [previous Windows 2000 blog post]: https://rubenerd.com/files/2017/vmware-fusion-windows-2000-kb835732/

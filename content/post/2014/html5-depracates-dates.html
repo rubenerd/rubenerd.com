@@ -31,7 +31,7 @@ location: sydney
 &lt;meta name="dcterms.created" content="2014-02-17T23:43:43+1100" /&gt;
 </pre>
 <p>As the term &quot;created&quot; suggests however, it&#39;s designed to be static. Unfortunately, Jekyll dervives timestamps from the file, which means it changes with each update. I store my own timestamps which override these, so maybe the key would be to use the Jekyll as date modified, and my own timestamp as date created.</p>
-<p>I&#39;m not sure if this is even possible, unless I broke out some more custom Jekyll frontmatter to store a distinct creation date. I suppose it <a href="//rubenerd.com/jekyll-timezones/" title="Rubénerd: Jekyll timezones">wouldn&#39;t be the first time</a> I&#39;ve done something like that.</p>
+<p>I&#39;m not sure if this is even possible, unless I broke out some more custom Jekyll frontmatter to store a distinct creation date. I suppose it <a href="//rubenerd.com/jekyll-timezones/" title="Rubenerd: Jekyll timezones">wouldn&#39;t be the first time</a> I&#39;ve done something like that.</p>
 <p>While I decide what to do, I&#39;ve settled on the more ambiguous <a href="http://dublincore.org/documents/dcmi-terms/#terms-date">date  attribute</a>, to get exactly what we had before:</p>
 <pre>
 &lt;meta name="dcterms.date" content="2014-02-17T23:43:43+1100" /&gt;

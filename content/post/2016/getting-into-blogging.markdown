@@ -12,7 +12,7 @@ A colleague of mine talked about how he'd tried to get into blogging, but every 
 
 I can empathise. I've tried blogging in other places as well, and they've always either puttered out, or I've deleted them and imported them into here.
 
-I'm not really sure what made *Rubénerd* different; it's probably inertia mixed with nostalgia at this stage. Unlike other blogs I've ever started, this one also doesn't have a fixed topic, so I'm free to talk about anything I'm interested in.
+I'm not really sure what made *Rubenerd* different; it's probably inertia mixed with nostalgia at this stage. Unlike other blogs I've ever started, this one also doesn't have a fixed topic, so I'm free to talk about anything I'm interested in.
 
 If there's advise somewhere in here, it's just to slog it out, and know that you'll never be satisfied with the first stuff you write. I wouldn't say most of the stuff I write here is good, but those first couple of years were particularly bad! 
 

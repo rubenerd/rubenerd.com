@@ -9,7 +9,7 @@ tag:
 - mac
 location: sydney
 ---
-2016 was a rough year for so many people, in so many parts of the world, that even by my own narrow definition of news on *Rubénerd* I feel a little indulgent discussing this. I also hate to pile on, and voice what increasingly sounds like a doomsday scenario.
+2016 was a rough year for so many people, in so many parts of the world, that even by my own narrow definition of news on *Rubenerd* I feel a little indulgent discussing this. I also hate to pile on, and voice what increasingly sounds like a doomsday scenario.
 
 ### I'm worried about the Mac, too.
 

@@ -25,7 +25,7 @@ Yeah, that Public folder idea was great. You could futz around with the newer sh
 
 And there it is.
 
-There was a brief period when *Rubénerd* was [hosted on Github Pages], with Dropbox as a poor-man's CDN for media assets. It worked really well, before I decided I was probably abusing the system a bit, and went back to a cloud instance.
+There was a brief period when *Rubenerd* was [hosted on Github Pages], with Dropbox as a poor-man's CDN for media assets. It worked really well, before I decided I was probably abusing the system a bit, and went back to a cloud instance.
 
 And therein lies the rub. Chances are there were people using the Public folder for hosting stuff, or bulk sharing. Someone internally in Dropbox must have realised generating individual links would make these activities much harder, if not stomping out the practice altogether. Is it altogether, or all together?
 

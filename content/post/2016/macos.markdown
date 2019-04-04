@@ -22,7 +22,7 @@ I still say "homage" sounds like a French cheese.
 
 While it will also stop people calling it "OS Ex", my biggest concern is it'll have people calling it "Mac OSSS". I have to deal with enough of that with CentOS gaining an extra S. It's an [initialism], not an acronym!
 
-It'll also be another *Rubénerd* tag I have to track! I already apply [mac-os-x] and [os-x] inconsistently enough.
+It'll also be another *Rubenerd* tag I have to track! I already apply [mac-os-x] and [os-x] inconsistently enough.
 
 [iTunes Partner FAQ]: https://itunespartner.apple.com/en/apps/faq/In-App%20Purchases_Auto-Renewable%20Subscriptions
 [initialism]: http://www.todayifoundout.com/index.php/2012/05/the-difference-between-an-acronym-and-an-initialism/ "The Difference Between an Acronym and an Initialism"

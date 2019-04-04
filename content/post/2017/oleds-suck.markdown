@@ -33,6 +33,6 @@ My hope is Apple has sourced some new revolutionary and magical OLEDs for those 
 
 [Tom's Hardware]: http://www.tomshardware.com/news/Tim-Cook-OLED-Displays-Apple,21057.html "Tim Cook on OLED Displays"
 
-[earlier iPhone post]: https://rubenerd.com/apple-september-2017-kit/ "Rubénerd: Apple’s September 2017 kit"
+[earlier iPhone post]: https://rubenerd.com/apple-september-2017-kit/ "Rubenerd: Apple’s September 2017 kit"
 [Japanese manufacturer]: http://www.channelnewsasia.com/news/technology/japan-display-said-to-seek-us-900-million-for-new-oled-production-method--shares-soar-9277966?utm_source=UTM_IS_SPAM&utm_medium=UTM_IS_SPAM "Channel News Asia: Japan Display said to seek US$900 million for new OLED production method, shares soar"
 

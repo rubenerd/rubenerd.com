@@ -22,5 +22,5 @@ I don't fault Let's Encrypt for this. The official client, and most of the other
 
 Peversely, if we're concerned with people clicking through expired cert warnings without reading or caring, this latest trend is only going to reinforce it.
 
-<p style="font-style:italic">(As an aside, a couple of readers have asked why I keep referring to these as **HTTPS** rather than **SSL** certificates. Crypto people are nothing if not precise, and **SSL** is not offered on Rubénerd, or most other sites any more. The newer versions of the standard are called, rather short-sightedly, **TLS**. But that name holds even less mindshare outside the IT industry).
+<p style="font-style:italic">(As an aside, a couple of readers have asked why I keep referring to these as **HTTPS** rather than **SSL** certificates. Crypto people are nothing if not precise, and **SSL** is not offered on Rubenerd, or most other sites any more. The newer versions of the standard are called, rather short-sightedly, **TLS**. But that name holds even less mindshare outside the IT industry).
 

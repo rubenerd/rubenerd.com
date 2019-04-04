@@ -27,7 +27,7 @@ Fair enough, so I clicked unsubscribe.
 
 Nooooooo!
 
-This gets 30% on the [Rubénerd Newsletter–Unsubscribe Score Card]. I docked an additional 10% because "No need to confirm unsubscribe" failed in the form of an extra email, not just a superfluous web prompt.
+This gets 30% on the [Rubenerd Newsletter–Unsubscribe Score Card]. I docked an additional 10% because "No need to confirm unsubscribe" failed in the form of an extra email, not just a superfluous web prompt.
 
     [ ] 50%  Newsletter was opt-in in the first place
     [x] 10%  Unsubscribe link exists in newsletter
@@ -38,5 +38,5 @@ This gets 30% on the [Rubénerd Newsletter–Unsubscribe Score Card]. I docked a
 
 [spam]: https://rubenerd.com/tag/spam/
 [Most people don't do this]: https://rubenerd.com/tag/newsletters/
-[Rubénerd Newsletter–Unsubscribe Score Card]: https://rubenerd.com/newsletter-unsubscribe-score-card/
+[Rubenerd Newsletter–Unsubscribe Score Card]: https://rubenerd.com/newsletter-unsubscribe-score-card/
 

@@ -14,7 +14,7 @@ location: sydney
 
 Australian Prime Minister Malcolm Turnbull has proposed lowering federal taxes, and allowing the states to collect their own income tax for the first time since the 1940s. [ABC News has the details].
 
-Normally this wouldn't be a topic for *Rubénerd*! But there are two quick reasons why I think this is a bad idea.
+Normally this wouldn't be a topic for *Rubenerd*! But there are two quick reasons why I think this is a bad idea.
 
 1. For a country with the population of Australia, states are useless. If we want to reduce the "blame game" between states, abolish them. I propose everyone repatriating back into New South Wales; though I'd be more than happy to rename this to Australia, and having Victoria's Daniel Andrews take the reins.
 

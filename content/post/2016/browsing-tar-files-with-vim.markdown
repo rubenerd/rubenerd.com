@@ -41,6 +41,6 @@ By comparison, [nvi on FreeBSD and NetBSD] will return fireworks. For certain ti
 
 Emacs can also be used to read tar files, if your [pinkie] isn't prone to repetitive stress injuries.
 
-[nvi on FreeBSD and NetBSD]: https://rubenerd.com/trying-nvi/ "Rubénerd: Trying out the nvi editor"
+[nvi on FreeBSD and NetBSD]: https://rubenerd.com/trying-nvi/ "Rubenerd: Trying out the nvi editor"
 [pinkie]: http://ergoemacs.org/emacs/emacs_pinky.html "How to Avoid the Emacs Pinky Problem"
 

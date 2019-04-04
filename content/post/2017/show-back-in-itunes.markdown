@@ -42,7 +42,7 @@ I wanted to give a big shoutout and thanks to Chel and Hahn from the Podcasts Co
 
 Thanks for listening, hiven glaven.
 
-[Rubénerd Show]: https://rubenerd.com/show/
+[Rubenerd Show]: https://rubenerd.com/show/
 [master feed]: http://onsug.com/feed/
 [accented characters]: https://overcast.fm/itunes1003680071/rub-nerd-show
 

@@ -26,7 +26,7 @@ Within a few days, I was downloading (cough) and watching my first serious anime
 
 Granted I'd watched *Sailor Moon* and *Dragonball Z* as a kid, but *Haruhi* was the first series I saw as an anime, rather than just a cartoon. Suddenly I was exposed to this universe of otaku culture and fandom around this universe of media straddling every conceivable genre. Who would have known? 
 
-This was around the time *Rubénerd* was also getting serious, but I kept a separate anime blog that was [deleted a few years later] without warning by my campus IT department. I sorely wish I could go back and see all these old posts.
+This was around the time *Rubenerd* was also getting serious, but I kept a separate anime blog that was [deleted a few years later] without warning by my campus IT department. I sorely wish I could go back and see all these old posts.
 
 Years later, I'd move back to Sydney and join the [UTS Anime Society]. It was there I met all my dearest friends and my partner for the last four years. And in a case of coming full circle, Clara has even cosplayed as Yuki!
 

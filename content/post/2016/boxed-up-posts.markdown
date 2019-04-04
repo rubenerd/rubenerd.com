@@ -17,6 +17,6 @@ I tried the whole miniamlism thing, but I like the clean breaks between sections
 
 For what it's worth, the [original Rubenerd in 2003] had a similar arrangement. Now all I need are tabs along the top, and we'll be rocking more nostalgia than I know what to do with.
 
-[Rubénerd]: https://rubenerd.com/
+[Rubenerd]: https://rubenerd.com/
 [original Rubenerd in 2003]: https://web.archive.org/web/20031118200430/http://www.rubenerd.com/
 

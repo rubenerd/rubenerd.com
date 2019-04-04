@@ -25,5 +25,5 @@ The same could be said of this A320, taken by [Aero Icarus]. Even with the persp
 [Luis Portillo]: http://www.airliners.net/photo/Cathay-Pacific-Airways/Boeing-777-367-ER/4088955/L
 [Aero Icarus]: https://commons.wikimedia.org/wiki/File:British_Airways_Airbus_A320-232;_G-EUUC@LHR;05.06.2010_576bl_(4688938278).jpg
 
-That concludes this week's episode of *Rubénerd: In Perspective*. Join us this week when we jettison an empty aircraft carrier (The USS Smashmouth) into the sun to compare the size difference.
+That concludes this week's episode of *Rubenerd: In Perspective*. Join us this week when we jettison an empty aircraft carrier (The USS Smashmouth) into the sun to compare the size difference.
 

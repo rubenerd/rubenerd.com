@@ -8,7 +8,7 @@ tag:
 - pointless
 location: sydney
 ---
-Back in the glorious old days of *Rubénerd*, I used to celebrate pointless milestones with [industrial cleaning equipment]. I'd do image searches for the number of posts I'd done at a certain point, and invariably I'd end up with a fine piece of Tennant kit. It wasn't as dashing as a certain Doctor, but it cleaned up just as well.
+Back in the glorious old days of *Rubenerd*, I used to celebrate pointless milestones with [industrial cleaning equipment]. I'd do image searches for the number of posts I'd done at a certain point, and invariably I'd end up with a fine piece of Tennant kit. It wasn't as dashing as a certain Doctor, but it cleaned up just as well.
 
 Hey, that was pretty good.
 

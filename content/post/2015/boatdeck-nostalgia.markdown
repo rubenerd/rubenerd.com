@@ -1,7 +1,7 @@
 ---
 title: "Back at the Boatdeck Café"
 date: "2015-12-10T15:22:00+10:00"
-abstract: "So much of Rubénerd was written here!"
+abstract: "So much of Rubenerd was written here!"
 year: "2015"
 category: Thoughts
 tag:
@@ -11,7 +11,7 @@ location: sydney
 ---
 <p><img src="https://rubenerd.com/files/2015/boatdeck2015.jpg" alt="" style="width:500px;"></p>
 
-For much of 2005-07, and 2008-09, *Rubénerd* was written from on single place in the universe: the Boatdeck Cafe in Mawson Lakes, north of Adelaide, in South Australia, in Australia (unsurprisingly), in the southern hemisphere, on Earth.
+For much of 2005-07, and 2008-09, *Rubenerd* was written from on single place in the universe: the Boatdeck Cafe in Mawson Lakes, north of Adelaide, in South Australia, in Australia (unsurprisingly), in the southern hemisphere, on Earth.
 
 The pizza was amazing, but it was the coffee and friendly faces after scary early days as a first year uni student that cemented this cafe as one of my favourites. Over the years while I studied in Adelaide, I made it a habit of coming almost every week, then almost every day.
 

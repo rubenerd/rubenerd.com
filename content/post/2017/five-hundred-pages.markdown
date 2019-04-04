@@ -10,7 +10,7 @@ tag:
 - weblog
 location: sydney
 ---
-I used to make a big deal of pointless blog milestones, so I'm rather disappointed I missed this huge one. Five hundred pages with ten per page means I've done five thousand posts on *Rubénerd*, assuming I'm able to multiply numbers properly. 
+I used to make a big deal of pointless blog milestones, so I'm rather disappointed I missed this huge one. Five hundred pages with ten per page means I've done five thousand posts on *Rubenerd*, assuming I'm able to multiply numbers properly. 
 
 Let's double check.
 

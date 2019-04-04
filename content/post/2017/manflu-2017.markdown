@@ -22,6 +22,6 @@ Sorry flu viruses (virii?), you'd need to do more than that to rid the world of 
 
 [somewhat infamously said]: https://twitter.com/Rubenerd/status/899191377203838976
 
-[according to this blog]: https://rubenerd.com/onadera-shoots-down-the-manflu "Rubénerd: Onadera shoots down the manflu"
+[according to this blog]: https://rubenerd.com/onadera-shoots-down-the-manflu "Rubenerd: Onadera shoots down the manflu"
 
 

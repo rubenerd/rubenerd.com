@@ -15,7 +15,7 @@ tag:
 - podcasting
 location: sydney
 ---
-My [Rubénerd Show] podcast episodes are produced with a series of shell scripts to save me time and effort, so I'm always looking for ways to optimise them.
+My [Rubenerd Show] podcast episodes are produced with a series of shell scripts to save me time and effort, so I'm always looking for ways to optimise them.
 
 Today I learned about Apple's `afconvert` utility. The manpage may as well have been written by GNU given its lack of useful info, but "-h" tells you all you need to know.
 
@@ -57,5 +57,5 @@ But how do they stack up? I ran these three times on the same 201.1MiB source fi
 
 The results from this (albeit limited) test are clear, `afconvert` is faster. Whether I'd notice a second or two difference is another question, but I'll be adjusting the scripts to preference `afconvert` when available.
 
-[Rubénerd Show]: https://rubenerd.com/show/
+[Rubenerd Show]: https://rubenerd.com/show/
 

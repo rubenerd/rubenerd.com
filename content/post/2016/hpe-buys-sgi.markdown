@@ -34,7 +34,7 @@ And then we have SGI's purchaser that divested itself into HP, and Hewlett Packa
 
 This is why I'm not in business. Or why I don't have an old SGI tower. Wait, that doesn't explain the second one. Maybe if I were better at business, I could have a larger apartment for SGI towers. I'd need one, because those things were huge. Huge and awesome. Like the Sun.
 
-<p style="font-style:italic">(And to think all posts on Rubénerd used to be rapidly written in one take like this).</p>
+<p style="font-style:italic">(And to think all posts on Rubenerd used to be rapidly written in one take like this).</p>
 
 [this news]: https://www.hpe.com/us/en/newsroom/news-archive/featured-article/2016/08/hpe-acquires-sgi-data-analytics-high-performance-computing.html
 [Wikipedia search]: https://en.wikipedia.org/wiki/Silicon_Graphics_International

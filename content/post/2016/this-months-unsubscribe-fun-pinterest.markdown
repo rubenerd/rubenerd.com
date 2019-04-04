@@ -10,7 +10,7 @@ tag:
 - spam
 location: sydney
 ---
-A [recurring theme](https://rubenerd.com/tag/newsletters/) on *Rubénerd* is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
+A [recurring theme](https://rubenerd.com/tag/newsletters/) on *Rubenerd* is the number of sites that abuse their email lists with opt-out newsletters, and the difficulties of unsubscribing.
 
 Pinterest sent me this email:
 

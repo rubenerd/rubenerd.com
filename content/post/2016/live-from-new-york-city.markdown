@@ -26,7 +26,7 @@ We got to see Frank and Denise from [The Overnightscape], and Jim and [Esther] f
 
 I's also a bit bittersweet. My mum and I were supposed to go to The Met once she was cured, so Clara and I went to explore for her. Like the people, it exceeded my expectations in every way.
 
-A few *[Rubénerd Shows]* have been recorded and queued up, but won't likely be produced till we've weathered the next 22 hours of flying and timezone adjustments! In the meantime, Frank graciously recorded these episodes:
+A few *[Rubenerd Shows]* have been recorded and queued up, but won't likely be produced till we've weathered the next 22 hours of flying and timezone adjustments! In the meantime, Frank graciously recorded these episodes:
 
 * [Overnightscape 1326: Ruben and Clara in America](http://onsug.com/archives/21486)
 * [Overnightscape 1327: Tour New Jersey](http://onsug.com/archives/21514)
@@ -37,5 +37,5 @@ See you soon!
 [The Overnightscape]: http://theovernightscape.com/
 [Esther]: http://esthergolton.com/
 [Whole Wheat Radio]: https://rubenerd.com/tag/whole-wheat-radio/
-[Rubénerd Shows]: https://rubenerd.com/show/
+[Rubenerd Shows]: https://rubenerd.com/show/
 

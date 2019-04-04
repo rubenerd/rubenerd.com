@@ -21,5 +21,5 @@ WordPress are running their [yearly survey](http://wp-survey.polldaddy.com/s/wp-
 
 </dl>
 
-*Rubénerd* [used to run on WordPress](https://rubenerd.com/wordpress-and-webserver-status/). Today [Hugo](http://gohugo.io) generates it, like a gentleman.
+*Rubenerd* [used to run on WordPress](https://rubenerd.com/wordpress-and-webserver-status/). Today [Hugo](http://gohugo.io) generates it, like a gentleman.
 

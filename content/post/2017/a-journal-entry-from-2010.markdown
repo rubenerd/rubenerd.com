@@ -17,7 +17,7 @@ I was cleaning out my ancient Google Docs account, and found a single file which
 
 Oh, that was it. I probably should have written more. It also kills me that I wasn't using [ISO 8601] dates back then. The order is correct, but it should really have been written as `2010-11-20`.
 
-Which leads us to another series of *Rubénerd Directives*, this time about dates:
+Which leads us to another series of *Rubenerd Directives*, this time about dates:
 
 <p><img src="https://rubenerd.com/files/stock/tango-x-office-calendar.svg" alt="Clear icon from the Tango Desktop Project" style="width:128px; height:128px; float:right; margin:0 0 2em 2em" /></p>
 

@@ -23,7 +23,7 @@ In no particular order:
 - zettai ryouki
 - hikikamori
 
-I'm too afraid to run `grep` against the *Rubénerd* source to discover the occurances of... dang.
+I'm too afraid to run `grep` against the *Rubenerd* source to discover the occurances of... dang.
 
 - occurances
 

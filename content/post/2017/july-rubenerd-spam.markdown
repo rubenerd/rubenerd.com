@@ -1,5 +1,5 @@
 ---
-title: "July 2017 Rubénerd spam"
+title: "July 2017 Rubenerd spam"
 date: "2017-06-05T16:22:00+10:00"
 abstract: "I messed up a git post update hook, and now, new posts!"
 year: "2017"
