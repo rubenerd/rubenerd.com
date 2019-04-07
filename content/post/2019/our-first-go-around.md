@@ -25,7 +25,7 @@ Perhaps the pilots suddenly couldn't either, and out of an abundance of caution 
 
 I'd assume Sydney Kingsford Smith would have [ILS], but I still respected and admired the quick thinking of our pilots who decided they'd had insufficient time to prepare for this change in circumstances, and decided to re-attempt. That fog came from *nowhere*.
 
-Aborted takeoffs are uncommon, but not unusual. I only fly a half dozen times a year, but it was my first experience with one.
+Aborted <del>takeoffs</del> landings are uncommon, but not unusual. I only fly a half dozen times a year, but it was my first experience with one. *Update: Thank you to the many, many of you who pointed out that whoops!*
 
 [Karl]: https://www.sfgate.com/opinion/article/Let-s-make-a-decision-San-Francisco-Are-we-6779563.php "SFGate: Let's make a decision, San Francisco: Are we calling the fog Karl?"
 [Nek minnit]: https://en.wikipedia.org/wiki/Nek_minnit "Wikipedia article for those who don't know"
