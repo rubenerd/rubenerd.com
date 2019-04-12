@@ -41,8 +41,6 @@ Weird! Checking all available vim ports:
 Checking [vim-console in Freshports], the tireless maintainer adamw@ committed this change on the 11th of January:
 
 > Rename editors/vim-lite to editors/vim-console. The vim-console port isn't
-location: sydney
----
 the main vim port. The only difference is lack of gtk20 GUI, and the
 language bindings are off by default.
 
