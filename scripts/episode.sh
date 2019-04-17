@@ -372,6 +372,14 @@ ia upload                                                \
     --metadata="title: $_SHOW $_NUMBER: $_TITLE"         \
     --metadata="year: $_YEAR"
 
+###########################################################################
+## Commit to git repo
+
+git add "$_EPISODES/show${_NUMBER}.html"
+git add "$_BUCKET/RubenerdShow${_NUMBER}.csv"
+git add "$_BUCKET/RubenerdShow_lyrics${_NUMBER}.txt"
+git add "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_rs${_NUMBER}.html"
+git commit -m "Added show $_NUMBER"
 
 ###########################################################################
 ## That's a wrap
