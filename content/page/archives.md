@@ -57,11 +57,10 @@ I only started putting locations on posts a few years ago. I'll get around to re
 * [San Francisco](/location/san-francisco/)
 * [Los Angeles](/location/los-angeles/)
 * [Osaka](/location/osaka/)
-* [Hong Kong](/location/hong-kong/)
-* [Oakland](/location/oakland/)
 * [Tokyo](/location/tokyo/)
 * [New York](/location/new-york/)
-* [New Jersey](/location/new-jersey/)
+* [Hong Kong](/location/hong-kong/)
+* [Oakland](/location/oakland/)
 
 <h3 id="year">By year</h3>
 
