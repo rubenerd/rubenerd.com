@@ -103,8 +103,8 @@ table th, table td {
   padding:0.3em 1em;
 }
 table code {
-    background:transparent;
-    font-size:12px;
+  background:transparent;
+  font-size:12px;
 }
 figure {
   margin-left:0;
@@ -136,7 +136,7 @@ figcaption {
 
 
 /***** RETINA です*****/
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution:192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution:144dpi) {
   body {
     background-image: url("rubi@2x.jpg");
     background-size:190px 559px;
