@@ -6,12 +6,13 @@
 
 SERVER="rubenerd.com"
 
+THUMB="video.jpg"
 PLAY1X="../metadata/play@1x.png"
 PLAY2X="../metadata/play@2x.png"
 
 ## Download video thumbnail
 VIDEO=`youtube-dl --get-thumb --no-warnings $1 | tail -1`
-curl -Lo "video.jpg" "$VIDEO"
+curl -Lo "$THUMB" "$VIDEO"
 
 ## Get video title
 TITLE=`youtube-dl --get-title --no-warnings $1 | tail -1`
@@ -35,5 +36,5 @@ convert -resize 500x281 "video.jpg" -quality 97 "yt-$ID@1x.jpg" \
     +page "$PLAY1X" -flatten "yt-$ID@1x.jpg"
 
 ## Upload files and delete on success
-scp yt-$ID@*jpg $SERVER:$YEAR/ && rm -rf yt-$ID@*jpg
+scp yt-$ID@*jpg $SERVER:$YEAR/ && rm -rf yt-$ID@*jpg && rm -rf "$THUMB"
 
