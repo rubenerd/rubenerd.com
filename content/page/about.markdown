@@ -22,7 +22,7 @@ So you hit up the paper towel dispenser, only to discover there isn't anywhere c
 
 My name is Ruben Schade, and I'm mostly harmless. I live to tinker with vintage computer hardware, write, drink interesting coffee in nice cafes in the mid-morning, and flesh out about pages not unlike this one. My beautiful girlfriend Clara and I spend far too much time drinking bubble tea and [travelling].
 
-I make a living as a technical writer and solutions architect for an IaaS company in Sydney and San Francisco, but I grew up in Singapore where I developed a taste for well-funded infrastructure.
+I make a living as a technical writer and solution architect for an IaaS company in Sydney and San Francisco, but I grew up in Singapore where I developed a taste for well-funded infrastructure, lah.
 
 [Clara]: http://kiri.sasara.moe/
 [podcast]: https://rubenerd.com/show/
