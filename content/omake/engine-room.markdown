@@ -26,7 +26,7 @@ This page lists the tech that makes this blog possible.
 
 **[Git for version control](https://git-scm.org/)**
 
-: Each blog post and site asset is version controlled with git, which makes updates easier. [Mercurial](https://www.mercurial-scm.org/) is better, but the industry has spoken.
+: Each blog post and site asset is version controlled with git, which makes updates easier. I far prefer [Subversion](https://svnvsgit.com/), and even [Mercurial](https://www.mercurial-scm.org/) is better, but the industry has spoken.
 
 **[Michael Franks](http://www.michaelfranks.com/)**
 
