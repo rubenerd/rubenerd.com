@@ -78,7 +78,8 @@
     "@type": "Place",
     "address": "{{ replace . "-" " " }}",
     "hasMap": "https://www.openstreetmap.org/search?query={{ . }}"
-  },{{ end }}"name": "{{ .Title }}",
+  },{{ end }}
+  "name": "{{ .Title }}",
   "thumbnailUrl": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
   "url": "{{ .Permalink }}",{{ if eq .Type "post" }}
   "wordCount": "{{ .WordCount }}",{{ end }}{{ if .Params.enclosure_file }}
