@@ -3,7 +3,7 @@ title: "HealthMeTV video station billboards"
 date: "2017-01-03T10:35:41+11:00"
 abstract: "HOW IMPORTANT IT IS TO BE HEALTHY!"
 year: "2017"
-category: Media
+category: Travel
 tag:
 - australia
 - advertising

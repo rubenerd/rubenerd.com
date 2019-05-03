@@ -4,7 +4,7 @@ date: "2019-03-22T22:35:29+09:00"
 abstract: "Accidently finding an accidental archaeological site."
 thumb: "https://rubenerd.com/files/2019/photo-2019-03-22-ichigaya-archaeology@1x.jpg"
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - bsd
 - asiabsdcon
@@ -13,7 +13,6 @@ tag:
 - tokyo
 - trains
 - transit
-- travel
 location: Tokyo
 ---
 I'm overwhelmed with all the stuff I've learned, and the great conversations that have come out of [AsiaBSDCon] and [bhyvecon]. I think both were even better than last year. These each deserve their own proper posts!

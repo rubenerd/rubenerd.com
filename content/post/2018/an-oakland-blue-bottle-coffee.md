@@ -4,10 +4,9 @@ date: "2018-07-08T16:12:14-07:00"
 abstract: "My day trip to the city across the bay from San Francisco"
 thumb: "https://rubenerd.com/files/2018/old-oakland@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - california2018
-- travel
 - oakland
 - united-states
 location: oakland

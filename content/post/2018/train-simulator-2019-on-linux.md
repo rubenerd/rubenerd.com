@@ -4,7 +4,7 @@ date: "2018-10-21T00:39:48+11:00"
 abstract: "It works on Steam Play!"
 thumb: "https://rubenerd.com/files/2018/trainsim2019-flyingscotsman@1x.jpg"
 year: "2018"
-category: Software
+category: Travel
 tag:
 - games
 - linux

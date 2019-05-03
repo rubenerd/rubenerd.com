@@ -4,7 +4,7 @@ date: "2018-07-01T17:24:37-07:00"
 abstract: "Such orange, so Matt Damon!"
 thumb: "https://rubenerd.com/files/2018/caltrain-yard@1x.jpg"
 year: "2018"
-category: Software
+category: Travel
 tag:
 - california2018
 - games

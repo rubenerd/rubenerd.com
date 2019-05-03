@@ -4,7 +4,7 @@ date: "2018-02-18T14:18:45+11:00"
 abstract: "So much cool stuff. Howzabout some soft toys?"
 thumb: "https://rubenerd.com/files/2018/tube-soft-toy@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - england
 - europe

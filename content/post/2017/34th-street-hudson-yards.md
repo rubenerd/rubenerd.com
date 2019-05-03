@@ -3,9 +3,8 @@ title: "34th Street–Hudson Yards"
 date: "2017-11-23T11:40:00+11:00"
 abstract: "Travelling and missing this brand new New York subway station"
 year: "2017"
-category: Media
+category: Travel
 tag:
-- travel
 - nyc
 - new-york
 - united-states

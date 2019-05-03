@@ -3,12 +3,11 @@ title: "The NASA X-59"
 date: "2018-07-11T23:14:39-07:00"
 abstract: "A new design to reduce that supersonic boom"
 year: "2018"
-category: Hardware
+category: Travel
 tag:
 - california2018
 - aviation
 - concorde
-- travel
 location: los-angeles
 ---
 <p><img src="https://rubenerd.com/files/2018/low-boom@1x.jpg" srcset="https://rubenerd.com/files/2018/low-boom@1x.jpg 1x, https://rubenerd.com/files/2018/low-boom@2x.jpg 2x" alt="Mockup concent photo of the X-59 flying over a rural town" style="width:500px; height:333px;" /></p>

@@ -3,7 +3,7 @@ title: "The Intercity-Scala"
 date: "2018-01-16T22:06:45+11:00"
 abstract: "Or when I looked at the cover of a Scala book, and saw a train."
 year: "2018"
-category: Software
+category: Travel
 tag:
 - scala
 - trains

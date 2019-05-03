@@ -4,12 +4,11 @@ date: "2018-06-15T16:34:19-07:00"
 abstract: "I love that roof"
 thumb: "https://rubenerd.com/files/2018/montgomery@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - architecture
 - california-2018
 - san-francisco
-- travel
 location: san-francisco
 ---
 Barely any sleep was had on [the aforementioned flight]; we had strong turbulence the entire time. It also didn't help that I was congested! So I've decided to stay awake and force myself to sleep at the normal time here.

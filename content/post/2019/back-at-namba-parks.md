@@ -4,13 +4,12 @@ date: "2019-03-30T23:13:06+09:00"
 abstract: "Typing again from the Starbucks I did back in 2017, in one of my favourite cities."
 thumb: "https://rubenerd.com/files/photos/photo-2019-03-30-namba-parks-starbucks@1x.jpg"
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - coffee
 - japan2019
 - starbucks
 - transit
-- travel
 location: Osaka
 ---
 <p><img src="https://rubenerd.com/files/photos/photo-2019-03-30-namba-parks-starbucks@1x.jpg" alt="View out of the Starbucks at Namba Parks" style="width:500px; height:375px;" srcset="https://rubenerd.com/files/photos/photo-2019-03-30-namba-parks-starbucks@1x.jpg 1x, https://rubenerd.com/files/photos/photo-2019-03-30-namba-parks-starbucks@2x.jpg 2x" /></p>

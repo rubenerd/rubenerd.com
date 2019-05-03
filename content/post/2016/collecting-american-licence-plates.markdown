@@ -2,11 +2,10 @@
 title: "Collecting American licence plates"
 date: "2016-10-24T12:44:00+10:00"
 year: "2016"
-category: Media
+category: Travel
 tag:
 - nynjph
 - pointless
-- travel
 - united-states
 location: sydney
 ---

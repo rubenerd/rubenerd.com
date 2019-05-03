@@ -4,11 +4,10 @@ date: "2018-08-03T16:54:25+10:00"
 abstract: "An interesting thought experiment, with cliche comments!"
 thumb: "https://rubenerd.com/files/2018/sf-financialdist@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - economics
 - san-francisco
-- travel
 - united-states
 location: sydney
 ---

@@ -4,11 +4,10 @@ date: "2018-10-17T22:12:38+11:00"
 abstract: "The biggest city in Mauritius doesn’t look real!"
 thumb: "https://rubenerd.com/files/2018/male@1x.jpg"
 year: "2018"
-category: Media
+category: Travel
 tag:
 - colour
 - photos
-- travel
 - work
 location: sydney
 ---

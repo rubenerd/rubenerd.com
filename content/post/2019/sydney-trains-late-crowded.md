@@ -3,7 +3,7 @@ title: "Sydney trains late, crowded"
 date: "2019-01-07T08:32:47+11:00"
 abstract: "Peak-hour delays due to Sydney Trains' fleet surged by 41 per cent."
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - australia
 - public-transport

@@ -2,7 +2,7 @@
 title: "Life event unlocked: SteamFest 2016"
 date: "2016-04-11T15:32:35+10:00"
 year: "2016"
-category: Media
+category: Travel
 tag: 
 - australia
 - steam-trains

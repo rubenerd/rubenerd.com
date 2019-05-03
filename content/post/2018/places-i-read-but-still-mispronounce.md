@@ -3,9 +3,8 @@ title: "Places I read but still mispronounce"
 date: "2018-08-22T09:41:20+10:00"
 abstract: "Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
-- travel
 - wales
 - united-kingdom
 - united-states

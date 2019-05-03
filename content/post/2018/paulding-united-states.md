@@ -4,12 +4,11 @@ date: "2018-08-29T13:55:38+10:00"
 abstract: "I love rural American photos like this"
 thumb: "https://rubenerd.com/files/2018/paulding@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - food
 - michigan
 - pudding
-- travel
 - united-states
 - wikipedia
 location: sydney

@@ -4,12 +4,11 @@ date: "2018-07-13T18:13:54-07:00"
 abstract: "They fixed my mistake without extra charge."
 thumb: "https://rubenerd.com/files/2018/southwest.png"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - aviation
 - california2018
 - feedback
-- travel
 - united-states
 location: los-angeles
 ---

@@ -3,7 +3,7 @@ title: "Moving out of the way of commuters"
 date: "2019-02-24T17:32:32+11:00"
 abstract: "This happens to me constantly too."
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - feminism
 - public-transport

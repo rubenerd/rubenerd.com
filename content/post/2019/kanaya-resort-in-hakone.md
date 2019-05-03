@@ -4,11 +4,10 @@ date: "2019-01-21T08:40:30+11:00"
 abstract: "I’ve been looking at these pictures for ages."
 thumb: "https://rubenerd.com/files/2019/kanaya-resort-hakone-balcony-view@1x.jpg"
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - calm
 - japan
-- travel
 - transit
 location: sydney
 ---

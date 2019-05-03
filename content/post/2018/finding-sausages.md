@@ -4,10 +4,9 @@ date: "2018-06-03T10:39:14+10:00"
 abstract: "This made my morning."
 thumb: "https://rubenerd.com/files/2018/reuters-dog.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - aviation
-- travel
 - memes
 - transit
 location: sydney

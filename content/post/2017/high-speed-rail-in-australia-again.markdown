@@ -3,7 +3,7 @@ title: "High speed rail in Australia, again"
 date: "2017-07-03T11:40:00+10:00"
 abstract: "inb4 we can’t have it for vague reasons"
 year: "2017"
-category: Thoughts
+category: Travel
 tag:
 - transport
 - public-transport

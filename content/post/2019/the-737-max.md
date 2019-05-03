@@ -4,14 +4,13 @@ date: "2019-03-15T09:03:24+11:00"
 abstract: "Jon Ostower reports the Maneuvering Charactistics Augmentation System, and discussing whether to retire the 737."
 thumb: "https://rubenerd.com/files/2019/photo-737300@2x.jpg"
 year: "2019"
-category: Thoughts
+category: Travel
 tag:
 - aircraft
 - aviation
-- boeing-737
+- boeing
 - boeing-757
 - transit
-- travel
 location: Sydney
 ---
 The 737 MAX made headlines again recently for the wrong reasons, and with a lot of pain and broken hearts. Investigators are zeroing in on new control systems designed to mitigate the aircraft's new larger engines as a potential explanation. [Jon Ostower's article on The Air Current] describes it better than anyone else.

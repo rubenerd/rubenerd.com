@@ -3,13 +3,12 @@ title: "A revised LAX post"
 date: "2018-07-14T15:06:58-07:00"
 abstract: "I recant my earlier statement about this airport!"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - airports
 - aviation
 - california2018
 - los-angeles
-- travel
 - united-states
 location: san-francisco
 ---

@@ -3,13 +3,12 @@ title: "LAX, delayed LAX, now SFO"
 date: "2018-07-15T10:30:41-07:00"
 abstract: "A warning from United about delays to airport security!"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - airports
 - california2018
 - san-francisco
 - security
-- travel
 - united-states
 location: san-francisco
 ---

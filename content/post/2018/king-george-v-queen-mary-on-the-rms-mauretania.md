@@ -4,12 +4,11 @@ date: "2018-08-09T09:28:18+10:00"
 abstract: "I love seeing old photos like this."
 thumb: "https://rubenerd.com/files/2018/maury-george-mary@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - cunard
 - ocean-liners
 - transit
-- travel
 - uk
 location: sydney
 ---

@@ -4,12 +4,11 @@ date: "2018-07-15T10:44:26-07:00"
 abstract: "It was just what my jetlagged mind and body needed!"
 thumb: "https://rubenerd.com/files/2018/photo-southpark@1x.jpg"
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
 - california2018
 - parks
 - san-francisco
-- travel
 - united-states
 location: san-francisco
 ---

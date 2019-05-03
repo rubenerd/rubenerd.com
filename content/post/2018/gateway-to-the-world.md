@@ -3,9 +3,8 @@ title: "Gateway to the world"
 date: "2018-11-14T08:54:27+11:00"
 abstract: "Somewhere couldn’t be a gateway to the world before."
 year: "2018"
-category: Thoughts
+category: Travel
 tag:
-- travel 
 location: sydney
 ---
 *This was originally written on Tuesday, but I forgot to commit it!*

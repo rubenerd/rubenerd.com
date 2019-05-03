@@ -4,13 +4,12 @@ date: "2018-09-27T21:18:55+10:00"
 abstract: "Needs more unicode"
 thumb: "https://rubenerd.com/files/2018/air-unicode.jpg"
 year: "2018"
-category: Hardware
+category: Travel
 tag:
 - aviation
 - boeing
 - boeing-757
 - pointless
-- travel
 location: sydney
 ---
 Last month I [rediscovered], then [re-rediscovered] RedKid's fabulous sign generator site. I thought of a couple more:

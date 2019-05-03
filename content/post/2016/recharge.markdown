@@ -2,14 +2,13 @@
 title: "Recharge"
 date: "2016-07-15T11:18:50+10:00"
 year: "2016"
-category: Thoughts
+category: Travel
 tag:
 - family
 - health
 - north-arm-cove
 - personal
 - transit
-- travel
 location: sydney
 ---
 Like most of us in the world now, I've always lived in cities. I appreciate the convenience, infrastructure, employment and education, arts, and the illogical calm an introvert can derive from being surrounded by people without interaction. They're communities, on a scale of millions.
