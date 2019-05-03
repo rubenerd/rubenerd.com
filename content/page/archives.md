@@ -28,8 +28,9 @@ title: "Archives"
 * [Hardware](/hardware/), computers, servers, phones, jaffle irons
 * [Internet](/internet/), websites, online privacy and security, standards
 * [Media](/media/), photography, journalism, music
-* [Software](/software/), mostly macOS, FreeBSD, (GNU/)Linux
+* [Software](/software/), mostly FreeBSD and macOS
 * [Thoughts](/thoughts/), my catch–all for other random stuff
+* [Travel](/travel/), avaiation, public transport, and actually travelling!
 
 
 <h3 id="other-categories">By archive</h3>
@@ -41,10 +42,10 @@ title: "Archives"
 
 <h3 id="location">By tag</h3>
 
-There are far too many to list here. But if you see a recurring topic, chances are there's a tag. For example, here's [FreeBSD], [travel], and [privacy].
+There are far too many to list here. But if you see a recurring topic, chances are there's a tag. For example, here's [Coffee], [FreeBSD], [privacy], and [privacy].
 
+[coffee]: https://rubenerd.com/tag/coffee/
 [FreeBSD]: https://rubenerd.com/tag/freebsd/
-[travel]: https://rubenerd.com/tag/travel/
 [privacy]: https://rubenerd.com/tag/privacy/
 
 
