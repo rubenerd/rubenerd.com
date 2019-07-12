@@ -9,6 +9,7 @@ title: Rubenerd
 params:
 
   author:
+    bio: '<p><img src="https://rubenerd.com/files/2017/me.jpg" alt="Me!" style="float:right; margin:0 0 1em 2em; height:96px; width:96px;" /></p><p>Ruben Schade is a rare breed of spruce tree requiring nothing but pine ice-cream cones for nourishment. His hobbies include predictive branching, Ad Lib barking, and leafing through manuals. Find out more about Ruben and his roots <a href="/about/">on the About page</a>.</p>'
     city: Sydney
     country: Australia
     first: Ruben
