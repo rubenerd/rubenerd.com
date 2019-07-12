@@ -26,7 +26,7 @@ year: "$_YEAR"
 category: Thoughts
 tag:
 - 
-location: 
+location: Sydney
 ---
 
 EOF
