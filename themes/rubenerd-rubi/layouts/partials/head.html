@@ -5,7 +5,7 @@
 
 {{ safeHTML "<!-- Essentials です -->" }}
 <meta charset="utf-8" />
-<title>{{ if eq .URL "/" }}{{ .Site.Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
+<title>{{ if eq .RelPermalink "/" }}{{ .Site.Title }}{{ else }}{{ .Site.Title }}: {{ .Title }}{{ end }}</title>
 <link rel="stylesheet" href="/screen.css" title="Rubi White Style" />
 <link rel="alternate stylesheet" href="/night.css" title="Night Style" />
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} post feed" href="{{ .Site.BaseURL }}feed/" />
@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
 <link rel="help" href="{{ .Site.BaseURL }}help/" title="How to use {{ .Site.Title }}" />
 <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
-{{ .Hugo.Generator }}
+{{ hugo.Generator }}
 <meta name="HandheldFriendly" content="True" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
