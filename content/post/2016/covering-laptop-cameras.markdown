@@ -1,5 +1,5 @@
 ---
-title: "Covering laptop camers"
+title: "Covering laptop cameras"
 date: "2016-07-18T15:14:00+10:00"
 year: "2016"
 category: Hardware
