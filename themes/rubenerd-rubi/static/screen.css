@@ -67,7 +67,7 @@ hr {
 
 
 /***** POST です*****/
-.post {
+.post, #bio {
   line-height:24px;
   padding-top:70px;
 }
@@ -106,16 +106,17 @@ table code {
   background:transparent;
   font-size:12px;
 }
-figure {
-  margin-left:0;
-  margin-right:0;
-  max-width:500px;
-}
 figcaption {
   font-size:14px;
   font-style:italic;
   text-align:center;
 }
+figure {
+  margin-left:0;
+  margin-right:0;
+  max-width:500px;
+}
+
 
 /***** ARCHIVE です*****/
 #archive a { margin-left: 5px }
@@ -125,7 +126,7 @@ figcaption {
 #pagination {
   font-weight:bold;
   line-height:24px;
-  padding-top:65px;
+  padding-top:55px;
 }
 #pagination a { font-weight:normal }
 #pagination #page-number { font-weight:bold }
