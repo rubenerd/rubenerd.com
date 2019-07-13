@@ -2,7 +2,6 @@
 title: "2019 MacBook Pros"
 date: "2019-05-22T14:11:12+10:00"
 abstract: "I'm glad to see updates, but the keyboard is the same old."
-thumb: ""
 year: "2019"
 category: Hardware
 tag:

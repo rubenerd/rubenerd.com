@@ -2,7 +2,7 @@
 title: "Rhett and Link on baking gastronomy"
 date: "2019-06-10T20:01:42+10:00"
 abstract: "What’s your bread made out of?"
-thumb: ""
+thumb: "https://rubenerd.com/files/2019/rhett-link-bread-01@1x.jpg"
 year: "2019"
 category: Media
 tag:

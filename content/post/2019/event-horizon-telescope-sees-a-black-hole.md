@@ -2,7 +2,7 @@
 title: "Event Horizon Telescope sees a black hole"
 date: "2019-04-14T21:42:07+10:00"
 abstract: "I realise I shared this on Twitter, but didn't post here. I'm living in the future, and it's incredible."
-thumb: ""
+thumb: "https://rubenerd.com/files/2019/event-horizon-telescope@1x.png"
 year: "2019"
 category: Media
 tag:
