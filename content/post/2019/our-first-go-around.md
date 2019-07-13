@@ -1,8 +1,8 @@
 ---
 title: "Our first aviation go-around"
 date: "2019-04-04T11:07:53+11:00"
-abstract: ""
-thumb: ""
+abstract: "The roaring of the engines and sharp tilt up were pretty scary!"
+thumb: "https://rubenerd.com/files/photos/photo-2019-04-03-goaround@1x.jpg"
 year: "2019"
 category: Thoughts
 tag:
@@ -30,3 +30,4 @@ Aborted <del>takeoffs</del> landings are uncommon, but not unusual. I only fly a
 [Karl]: https://www.sfgate.com/opinion/article/Let-s-make-a-decision-San-Francisco-Are-we-6779563.php "SFGate: Let's make a decision, San Francisco: Are we calling the fog Karl?"
 [Nek minnit]: https://en.wikipedia.org/wiki/Nek_minnit "Wikipedia article for those who don't know"
 [ILS]: https://en.wikipedia.org/wiki/Instrument_landing_system "Wikipedia article on the instrument landing system"
+
