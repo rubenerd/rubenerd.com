@@ -1,8 +1,7 @@
 ---
 title: "BSD questions from @romanzolotarev"
 date: "2019-04-29T08:30:42+10:00"
-abstract: ""
-thumb: ""
+abstract: "BSD, ksh, nvi!"
 year: "2019"
 category: Software
 tag:
@@ -41,5 +40,4 @@ I'm on call most times, and like working from coffee shops, so I use 1. It's dif
 
 * Work: KBtalKing with Cherry MX Browns
 * Home: Leopold FC660 with Topres, the world's greatest switches.
-
 
