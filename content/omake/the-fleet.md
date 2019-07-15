@@ -2,96 +2,94 @@
 layout: omake
 title: "The fleet"
 ---
-This page lists my current machines. I do have current Macs and a budget game machine, but most of my fun and joy comes from vintage computing.
+This page details the computers I currently use, including vintage ones. I've got plenty sitting in storage I'll add one day.
 
-### iYuki, the MacBook Air
 
-Once I got my work MacBook Pro, iYuki was relegated to a Mac Mini with external peripherals. Aside from not being able to run a 4K display, she still does everything I need.
+### MacTheKnife-J, the 13" 2018 MacBook Pro
 
-* **Apple 2012 11" MacBook Air**
-    * Intel Core i5 1.7GHz
-    * 8GiB DDR3-1600 memory
-    * 64GiB TS064E Apple SSD
+<p><img src="https://rubenerd.com/files/2019/fleet-macbookpro13usbc@1x.png" srcset="https://rubenerd.com/files/2019/fleet-macbookpro13usbc@1x.png 1x, https://rubenerd.com/files/2019/fleet-macbookpro13usbc@2x.png 2x" alt="" style="width:128px; float:right; margin:0 0 1em 2em" /></p>
 
-### Kyou and Mio, the companion cubes
+This is my work machine, for running all the usual business application suspects. The screen is gorgeous, he's relatively light, and his TouchBar and keyboard are appauling. My primary Mac is always *MacTheKnife*, because I'm funny like that.
 
-These two Microservers serve as my FreeBSD ZFS NAS boxes. Kyou's specs have been updated to handle multiple Plex streams, Mio is fine with a Celeron and ECC memory for backups.
+* **OS:** macOS Mojave 10.14
+* **Shell:** oksh (OpenBSD portable ksh)
+* **Desktop:** Aqua, Xfce on XQuartz
 
-* **HP ProLiant Microserver Gen8**
-    * Intel [Xeon E3-1260L] / [Celeron G1610T]
-    * Intel [C204 chipset]
-    * 16GiB ECC DDR3 memory
-    * **Internal RAID**
-        * Mix of 3/4/6TB Hitachi and WDs in ZFS mirrored pairs
-    * Mellanox MT26428 ConnectX QDR IB
 
-[Xeon E3-1260L]: https://ark.intel.com/products/52275/Intel-Xeon-Processor-E3-1260L-8M-Cache-2_40-GHz
-[Celeron G1610T]: https://ark.intel.com/products/71074
-[C204 chipset]: http://ark.intel.com/products/52804/Intel-BD82C204-PCH
+### Umu, the Panasonic CF-RZ6 FreeBSD laptop
 
-### Tsuruya, the game tower
+<p><img src="https://rubenerd.com/files/2019/fleet-letsnote-cf-rz6@1x.jpg" srcset="https://rubenerd.com/files/2019/fleet-letsnote-cf-rz6@1x.jpg 1x, https://rubenerd.com/files/2019/fleet-letsnote-cf-rz6@2x.jpg 2x" alt="" style="width:128px; float:right; margin:0 0 1em 2em;" /></p>
 
-This was a small game machine I built once Apple ceded the professional graphics market. It's mostly used for Train Simulator, Cities Skylines, and other world builders.
+This is my primary portable machine, named for the catchphrase [Nero-chan](https://grandorder.gamepress.gg/servant/nero-claudius) says in *Fate*. I bought her in Akihabara after AsiaBSDCon 2019. She's implausibly light, quick, and still has more ports than a new MacBook Pro.
 
-It runs Windows 10, and Debian Jessie for when Windows fails. The parts were also carefully chosen in case I wanted to make a Hackintosh.
+* **OS:** FreeBSD 12.0-R
+* **Shell:** oksh (OpenBSD portable ksh)
+* **Desktop:** i3
+* **Display:** 10.1-inch 1920×1200 HiDPI
+* **Weight:** 0.745 kg
+* **Memory:** LPDDR3
+* **GPU:** Intel HD Graphics 615
 
-* NCASE M1 Version 5, Mini-ITX case
-* Corsair SF450 SFX gold power supply
-* **Gigabyte Z170N-WiFi Mini-ITX board**
-    * Intel Core i5-6500 3.0GHz
-    * 16GiB Crucial DDR4-2133 memory
-    * **Onboard SATA3 bus**
-        * 256GiB SanDisk Extreme SSD
-        * 128GiB SanDisk Ultra SSD
-    * ASUS Turbo GeForce GTX 970 OC Edition
 
-### Ami, the Pentium 1 tower
+### Kyou, the HP MicroServer Gen8 bhyve box
 
-This was the first computer I built as a kid growing up in Singapore in the late 1990s, with the help of the wonderful former Make Fine Computer in Funan Centre. It still runs today, save for a new PSU and memory.
+<p><img src="https://rubenerd.com/files/2019/fleet-companioncube@1x.jpg" srcset="https://rubenerd.com/files/2019/fleet-companioncube@1x.jpg 1x, https://rubenerd.com/files/2019/fleet-companioncube@2x.jpg 2x" alt="" style="width:128px; float:right; margin:0 0 1em 2em;" /></p>
 
-My parents threw out our first 486 home computer, so I'm repurposing this machine as an all-in-one nostalgia box. The 5.25" drive, SoundBlaster card, MS-DOS 6.20 and Windows 3.0 were all from that original box.
+This is my FreeBSD bhyve hypervisor, NAS, Plex streaming server, web proxy, sandbox, kitchen sink, CD ripper, and home router in one. She's named for Kyou from the mid 2000's Kyoani anime Clannad, because she kicks arse. 
 
-It also runs Windows for Workgroups, Windows 95 (the first OS this machine ran), Windows NT 4.0 Workstation (that I always wanted it to run), and Red Hat Linux 6.3 (my first \*nix, installed from the original CDs).
+* **OS:** FreeBSD 11.3-R, (FreeBSD, NetBSD, Debian guests)
+* **Shell:** sh
+* **Desktop:** Does Midnight Commander count?
+* **CPU:** Intel Xeon E3-1260L
+* **Memory:** 8 GiB ECC DDR3
+* **HDD:** Mix of Hitachi and WDs in ZFS mirrors
+* **ODD:** LG external USB 2.0
 
-* Mid 1990s ATX beige case
-* Generic 300W AT power supply
-* **Octek Rhino 12+ motherboard**
-    * Intel Pentium MMX 200MHz CPU
-    * **144MiB memory**
-        * 128MiB PC-100 memory
-        * 16MiB 72-pin SIMM
-    * **Onboard IDE bus**
-        * 4GiB SanDisk CF card
-        * 8GiB SanDisk CF card
-        * TEAC slimline CD-ROM
-    * **Onboard FDD bus**
-        * 1.44MiB 3.5" Mitsubishi disk drive
-        * 1.2MiB 5.25" Panasonic disk drive
-    * **PCI to IDE RAID controller card**
-        * 32GiB SanDisk CF card
-        * 32GiB SanDisk CF card
-    * **Adaptec SCSI**
-        * 100MiB SCSI Iomega Zip Drive
-        * 1GB SCSI Iomega Jaz Drive
-    * Matrox Mystique 200 VGA IDE card
-    * 3Com 10BaseT PCI card
-    * SoundBlaster AWE32 ISA sound card
-    * ESS AudioDrive ES1868 ISA sound card
 
-### PowerMac G3
+### Ami, the Pentium MMX tower
 
-My first Mac was a blueberry iMac in the late 1990s, but it long since died. This PowerMac came out at around the same time and has the same aesthetic, so I'm using it to rebuild a classic MacOS environment. 
+This was the first computer I built as a kid growing up in Singapore in the 1990s, with the help of the wonderful former Make Fine Computer in Funan Centre and from parts scavenged from the family 486.
 
-* Blue and White PowerMac G3 enclosure
-* **Apple Revision A PowerMac G3 logic board**
-    * PowerPC G3 300MHz
-    * 256MiB PC-133 memory
-    * **Onboard IDE bus**
-        * Sony DVD-ROM
-    * **Sonnet PCI to IDE controller card**
-        * 32GiB SanDisk CF card
-        * 100MiB Iomega Zip Drive
+* **OS:** MS-DOS 6.00 + Windows 3.11, Windows NT 4.0, NetBSD 8
+* **CPU:** Intel Pentium 200 MHz "with MMX Technology"
+* **Memory:** 16 MiB PC-100 SD-RAM
+* **HDD:** 32 GiB and 16 GiB SanDisk CompactFlash cards
+* **ODD:** Creative Infra48 IDE
+* **FDD:** 3.5" 1.44 MiB Samsung, 5.25" 1.2 MiB Panasonic
+* **Other Drives:** Iomega 2 GiB SCSI Jaz, Iomega 100 MiB USB Zip
+* **NIC:** Compex RL2000 FastEthernet, PCI
+* **SCSI:** Iomega Jaz Jet SCSI accelerator, PCI
+* **Sound:** Creative SoundBlaster AWE32, ISA
 
-### Commodore Plus/4
 
-I was born after this machine came out, but this has to be the most beautiful hardware Commodore ever released.
+### Mio, the Toshiba Libretto 70CT
+
+This was my dream machine as a kid, and armed with eBay and a salary I was finally able to get one! She's named for the shy bassist from *K-On!*, that light music anime that got me through hard times.
+
+* **OS:** Windows 95 with Plus!, NetBSD i386
+* **CPU:** Intel Pentium 133 MHz "with MMX Technology"
+* **Memory:** 32 MiB PC-100 SD-RAM
+* **HDD:** 64 GiB SanDisk CompactFlash card
+* **FDD:** External Toshiba with PCMCIA interface
+* **NIC:** Xircom CreditCard Ethernet PCMCIA
+
+
+### Others
+
+These are in various states of repair or upgrading:
+
+* **Commodore 128:** donated by [Screenbeard](https://the.geekorium.com.au)!
+* **Commodore Plus/4:** bought for my 18th birthday in the 2000s
+* **iBook G3:** needs replacement hinge
+* **iMac DV:** blueberry
+* **MacBook Pro:** first generation, working but not in use
+* **ThinkPad X61s:** working but not in use
+
+
+### *In Memoriam*
+
+* **HP Brio BAx:** Pentium III desktop, wrecked after a house move
+* **Retina 27-inch iMac:** 2017 model, sold because I never used it
+* **ThinkPad 600E:** leaking battery destroyed it
+* **ThinkPad X40:** lost during a house move
+
