@@ -2,11 +2,9 @@
 ## theme.toml file for Rubenerd Rubi
 ## Hugo doesn't accept YAML for this file :<
 
-name = "Rubenerd Liner"
-description = ""
+name = "Rubenerd Rubi"
+description = "The simplest theme I could make, featuring Rubi."
 homepage = "https://rubenerd.com/"
-tags = [minimal, single-column]
-features = [responsive]
 min_version = "0.41"
 
 [author]
