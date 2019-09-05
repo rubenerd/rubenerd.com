@@ -1,7 +1,7 @@
 ---
 title: "Lesson 11 in grilled cheese sandwich observation"
 date: "2019-08-12T14:43:23+10:00"
-abstract: "This blog post series would be old enough to go to late primary school now. I’m rather proud."
+abstract: "The blog post series started eleven years ago here is back!"
 thumb: "https://rubenerd.com/files/photos/photo-2019-03-27-percentarabica@1x.jpg"
 year: "2019"
 category: Thoughts
@@ -25,12 +25,12 @@ Thank you.
 
 * [Lesson #10](https://rubenerd.com/sandwich-observation-10/) on 2016-09-08
 * [Lesson #09](https://rubenerd.com/sandwich-observation-9/) on 2009-09-08
-* [Lesson #08](https://rubenerd.com/p3971/) on 2009-04-05
-* [Lesson #07](https://rubenerd.com/p3971/) on 2009-04-05
-* [Lesson #06](https://rubenerd.com/p3932/) on 2009-03-27
-* [Lesson #05](https://rubenerd.com/p3581/) on 2008-12-07
-* [Lesson #04](https://rubenerd.com/p2921/) on 2008-11-14
-* [Lesson #03](https://rubenerd.com/p2617/) on 2008-11-04
-* [Lesson #02](https://rubenerd.com/p1453/) on 2008-08-21
-* [Lesson #01](https://rubenerd.com/p1284/) on 2008-08-12
+* [Lesson #08](https://rubenerd.com/p3971/) on 2009–04–05
+* [Lesson #07](https://rubenerd.com/p3971/) on 2009–04–05
+* [Lesson #06](https://rubenerd.com/p3932/) on 2009–03–27
+* [Lesson #05](https://rubenerd.com/p3581/) on 2008–12–07
+* [Lesson #04](https://rubenerd.com/p2921/) on 2008–11–14
+* [Lesson #03](https://rubenerd.com/p2617/) on 2008–11–04
+* [Lesson #02](https://rubenerd.com/p1453/) on 2008–08–21
+* [Lesson #01](https://rubenerd.com/p1284/) on 2008–08–12
 
