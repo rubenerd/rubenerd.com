@@ -5,7 +5,7 @@
 ## I should use gohugo's archetypes instead, or a jinja2 template
 
 _PERMALINK=$1
-_DATE=`date "+%FT%H:%M:%S%:z"`
+_DATE=`date "+%FT%H:%M:%S%:%:z"`
 _YEAR=`date "+%Y"`
 _FOLDER="./content/post/$_YEAR"
 
