@@ -1,10 +1,11 @@
 ---
 title: "Plumbing drafts: Now"
 date: "2019-06-08T09:51:42+10:00"
-abstract: "Bringing drafts into the light that otherwise would have gone ignored and unpublished"
+abstract: "Bringing drafts into the light that otherwise would have gone ignored and unpublished."
 year: "2019"
 category: Thoughts
 tag:
+- draft-diving
 - drafts
 - pointless
 location: Sydney
