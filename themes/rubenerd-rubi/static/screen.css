@@ -31,6 +31,7 @@ article, figure, footer, header, main, nav, section { display:block }
 body { color:black } /* https://www.nngroup.com/articles/low-contrast/ */
 a { color:#036ad3 }
 #site-navigation a, .post-meta, .post-meta a, time { color:#2b9c27 }
+blockquote { border-left:4px solid #efeffa }
 
 
 /***** http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ です *****/
@@ -69,7 +70,7 @@ hr {
 /***** POST です*****/
 .post, #bio {
   line-height:24px;
-  padding-top:70px;
+  padding-top:100px;
 }
 .post h2 { padding-bottom:5px }
 .post h3 { padding-top:20px }
@@ -85,11 +86,16 @@ hr {
 .post img {
   max-width:500px;
   margin-top:5px;
+  border-radius:2px;
 }
 .post pre {
   line-height:18px;
   padding:20px;
   overflow-x:auto;
+}
+.post blockquote {
+  margin-left:0;
+  padding-left:1.2em;
 }
 table {
   border-collapse:collapse;
@@ -126,7 +132,7 @@ figure {
 #pagination {
   font-weight:bold;
   line-height:24px;
-  padding-top:55px;
+  padding-top:95px;
 }
 #pagination a { font-weight:normal }
 #pagination #page-number { font-weight:bold }
