@@ -1,6 +1,6 @@
 ---
 title: "C2C Genius as “jitters”"
-date: "2019-09-05T14:58:04+10:00"
+date: "2019-09-09T08:58:04+10:00"
 abstract: "I thought my colleague thought I was drinking too much coffee."
 thumb: "https://rubenerd.com/files/2019/yt-fhIHMDpbQDI@1x.jpg"
 year: "2019"
