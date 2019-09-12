@@ -6,7 +6,7 @@ year: "2018"
 category: Internet
 tag:
 - errors
-- hugo
+- gohugo
 - weblog
 location: sydney
 ---
