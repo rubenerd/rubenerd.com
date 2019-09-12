@@ -1,15 +1,8 @@
-{{ safeHTML "<!-- General metadata and Dublin Core です -->" }}
-<meta property="dc:creator" name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />{{ if eq .Type "post" }}
-<meta property="dc:date" name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
-<meta property="dc:description" name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
-<meta property="dc:identifier" name="site" content="{{ .Permalink }}" />
-<meta property="dc:format" content="text/html" />
-<meta property="dc:language" content="{{ .Site.LanguageCode }}" /><!-- Supercedes RFC3066 -->
-<meta property="dc:publisher" content="{{ .Site.Title }}" />{{ with .Params.Category }}
-<meta property="dc:subject" content="{{ humanize . }}" />{{ end }}{{ range .Params.Tag }}
-<meta property="dc:subject" content="{{ humanize . }}" />{{ end }}
-<meta property="dc:title" name="pagename" content="{{ .Title }}" />
-<meta property="dc:type" content="Text" />
+{{ safeHTML "<!-- General metadata です -->" }}
+<meta name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />{{ if eq .Type "post" }}
+<meta name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
+<meta name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+<meta name="site" content="{{ .Permalink }}" />
 
 
 {{ safeHTML "<!-- OpenGraph, Twitter です -->" }}
@@ -63,6 +56,9 @@
     "nationality": "{{ .Site.Params.Author.Nationality }}",
     "url": "{{ .Site.BaseURL }}about/"
   },
+  "accessMode": ["auditory", "textual", "visual"],
+  "accessibilitySummary": "Primarily text, with optional photos and podcast audio.",
+  "award": "{{ .Site.Params.Award }}",
   "copyrightYear": {{ if eq .Type "post" }}{{ printf "\"%s\"" (.Date.Format "2006") | safeHTML }}{{ else }}{{ .Site.Params.Inception }}{{ end }},{{ if eq .Type "post" }}
   "dateModified": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},
   "datePublished": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},{{ end }}
@@ -76,8 +72,7 @@
   "keywords": "{{ with .Params.Category }}{{ lower . }},{{ end }}{{ delimit .Params.Tag "," }}",{{ end }}{{ with .Params.Location }}
   "locationCreated": {
     "@type": "Place",
-    "address": "{{ replace . "-" " " }}",
-    "hasMap": "https://www.openstreetmap.org/search?query={{ . }}"
+    "address": "{{ replace . "-" " " }}"
   },{{ end }}
   "name": "{{ .Title }}",
   "thumbnailUrl": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
