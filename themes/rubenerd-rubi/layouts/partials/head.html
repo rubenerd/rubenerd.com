@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# dc: http://purl.org/dc/elements/1.1/">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#">
+{{ safeHTML "<!-- This is Rubenerd! Hey, how are you? -->" }}
 
 
 {{ safeHTML "<!-- Essentials です -->" }}
@@ -13,6 +14,7 @@
 <link rel="meta" type="application/rdf+xml" title="FOAF" href="/{{ .Site.Params.Author.Foaf }}" />
 <link rel="apple-touch-icon" href="{{ .Site.BaseURL }}apple-touch-icon.png" />
 <link rel="help" href="{{ .Site.BaseURL }}help/" title="How to use {{ .Site.Title }}" />
+<link rel="image_src" href="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />
 <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
 {{ hugo.Generator }}
 <meta name="HandheldFriendly" content="True" />
