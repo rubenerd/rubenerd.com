@@ -48,7 +48,7 @@ Rubi is the site's mascot, drawn by Clara Tse. Her mismatching, Miku-esque boots
 
 *(Funny story, I was chided for wearing orange and red socks during a high school work experience day, with the implication that I wasn't taking the assignment seriously. The day I'm looked over on account of my socks is when I miss a bullet).*
 
-We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by frequent trips to the pool and nature hiking in the Hokkaido wilderness. She enjoys listening to jazz music, reading, cosplaying, and watches slice-of-life anime that may or may not have robots.
+We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by trips to the pool and nature hiking in the Hokkaido wilderness. She enjoys latin jazz, reading, cosplaying, and slice-of-life anime that may or may not have robots. Her dream is to start a line of tactical cargo skirts that can actually fit modern phones and battery chargers.
 
 
 <h3 id="geek-code">Geek code</h3>
@@ -65,7 +65,7 @@ We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are
 
 The easiest way is via [Twitter], which for better or worse I still use. Otherwise, this is my email:
 
-    printf "%s@%s.%s" me rubenschade com
+    printf "%s@%s.%s\n" me rubenschade com
 
 I no longer use PGP.
 
@@ -74,8 +74,6 @@ I'm also on [Pinboard], [Instagram], [Wikipedia], and [GitHub]. I used to post t
 
 [Twitter]: https://twitter.com/rubenerd
 [PGP public key]: https://pgp.mit.edu/pks/lookup?op=vindex&search=0x9CFC8AEBBD528543
-
-
 [Pinboard]: https://pinboard.in/u:Rubenerd
 [GitHub]: https://github.com/rubenerd
 [GitHub Gists]: https://gist.github.com/rubenerd
@@ -85,3 +83,4 @@ I'm also on [Pinboard], [Instagram], [Wikipedia], and [GitHub]. I used to post t
 [Facebook]: https://facebook.com/ruben.schade
 [YouTube]: https://www.youtube.com/user/rubenerd
 [Vimeo]: https://vimeo.com/rubenerd
+
