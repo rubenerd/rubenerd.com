@@ -3,6 +3,7 @@ baseURL: https://rubenerd.com/
 disableLiveReload: true
 editor: vim
 languageCode: en-SG
+rssLimit: 10
 theme: rubenerd-rubi
 title: Rubenerd
 
