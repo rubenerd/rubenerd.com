@@ -169,9 +169,14 @@ jpegoptim --preserve --totals --verbose "$_BUCKET/${_ID}.jpg"
 ###########################################################################
 ## Get duration for show notes, lyrics file
 
-_DURATION=`eyeD3 "$_BUCKET/$_ID.mp3" 2> /dev/null | \
-    awk '/Time:/ { print substr($2,6,length($2)) }'`
+## eyeD3 is such a moving target; it no longer prints duration
+##_DURATION=`eyeD3 "$_BUCKET/$_ID.mp3" 2> /dev/null | \
+##    awk '/Time:/ { print substr($2,6,length($2)) }'`
 
+## Remove extra hour 00 if less than an hour
+_DURATION=$( ffprobe "$_BUCKET/$_ID.mp3" 2>&1 | \
+    awk '/Duration/ { print substr($2,0,length($2)-4) }' \ |
+    sed 's/00://' )
 
 ###########################################################################
 ## Create lyrics file for MP3
