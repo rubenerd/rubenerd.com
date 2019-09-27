@@ -9,7 +9,7 @@
 <p></p>
 
 <ol>{{ range .Data.Pages }}
-<li><time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">{{ .Title }}</a></li>{{ end }}
+<li><time>{{ .Date.Format "2006-01-02" }}</time> <a href="{{ .Permalink }}">{{ replace .Title "Rubenerd Show" "Show" }}</a></li>{{ end }}
 </ol>
 
 </div>
