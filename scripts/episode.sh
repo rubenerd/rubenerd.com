@@ -30,9 +30,9 @@ _EPISODE_PREFIX='show'
 _SHOW='Rubenerd Show'
 _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
-_LICENCE_URL='http://creativecommons.org/licenses/by/3.0/'
+_LICENCE_URL='https://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='Sydney, Australia'
+_LOCATION='Marina Bay, Singapore'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
@@ -174,9 +174,7 @@ jpegoptim --preserve --totals --verbose "$_BUCKET/${_ID}.jpg"
 ##    awk '/Time:/ { print substr($2,6,length($2)) }'`
 
 ## Remove extra hour 00 if less than an hour
-_DURATION=$( ffprobe "$_BUCKET/$_ID.mp3" 2>&1 | \
-    awk '/Duration/ { print substr($2,0,length($2)-4) }' \ |
-    sed 's/00://' )
+_DURATION=$( ffprobe "$_BUCKET/$_ID.mp3" 2>&1 | awk '/Duration/ { print substr($2,0,length($2)-4) }' | sed 's/00://' )
 
 ###########################################################################
 ## Create lyrics file for MP3
@@ -285,7 +283,7 @@ tag:
 - podcast
 location: $_CITY
 ---
-<p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:left; margin:0px 20px 5px 0px; width:180px; height:180px;" /></a></p>
+<p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:right; margin:0 0 1em 2em; width:180px; height:180px;" /></a></p>
 
 <p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_ID/$_ID.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_ID/$_ID.mp3">Download</a></p>
 
