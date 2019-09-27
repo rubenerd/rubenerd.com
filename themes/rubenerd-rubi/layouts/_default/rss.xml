@@ -1,18 +1,20 @@
-<rss version="2.0"
+<!-- Only generate RSS for the podcast and home page -->{{ if or (eq .Title .Site.Title) (eq .Title "Show") }}<rss version="2.0"
   xml:base="{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Feed }}{{ else }}{{ .Site.BaseURL }}{{ end }}"
-  xmlns:blogChannel="http://backend.userland.com/blogChannelModule"
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:dcterms="http://purl.org/dc/terms/1.1/"
   xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
   xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:source="http://source.scripting.com/">
+  xmlns:media="http://search.yahoo.com/mrss/">
 
 <channel>
 
-  {{ safeHTML "<!-- Welcome! Visit https://rubenerd.com/subscribe/ if you need help using RSS. -->" }}
-  {{ safeHTML "<!-- Main site feed: https://rubenerd.com/feed/ -->" }}
-  {{ safeHTML "<!-- Podcast episodes: http://showfeed.rubenerd.com/ -->" }}
+  {{ safeHTML "<!-- ********************************************** -->" }}
+  {{ safeHTML "<!-- Welcome to Rubenerd's fabulous RSS feeds!      -->" }}
+  {{ safeHTML "<!-- Visit https://rubenerd.com/subscribe/ for help -->" }}
+  {{ safeHTML "<!-- Blog feed: https://rubenerd.com/feed/          -->" }}
+  {{ safeHTML "<!-- Podcast feed: http://showfeed.rubenerd.com/    -->" }}
+  {{ safeHTML "<!-- ********************************************** -->" }}
 
   <title>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title> 
   <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
@@ -25,12 +27,10 @@
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
 
-  {{ safeHTML "<!-- Namespace extensions -->" }}{{ with .Site.Params.Author.Partner }}
-  <blogChannel:blink>{{ . }}</blogChannel:blink>{{ end }}
+  {{ safeHTML "<!-- Namespace extensions, with a nicer date format -->" }}
   <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
-  <dc:identifier>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</dc:identifier>{{ with .Site.Params.Author.Twitter }}
-  <source:account service="twitter">{{ . }}</source:account>{{ end }}{{ with .Site.Params.Author.Gitlab }}
-  <source:account service="gitlab">{{ . }}</source:account>{{ end }}{{ if eq .Title "Show" }}
+  {{ printf "<dc:date>%s</dc:date>" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
+  <dc:identifier>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</dc:identifier>{{ if eq .Title "Show" }}
 
   {{ safeHTML "<!-- iTunes metadata -->" }}
   <itunes:subtitle>{{ .Site.Params.Podcast.Tagline }}</itunes:subtitle>
@@ -56,28 +56,30 @@
     <height>72</height>
     <description>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}</description>
   </image>
-{{ $type := .Title }}{{ range first 10 site.RegularPages }}
+{{ $type := .Title }}{{ $pages := site.RegularPages }}{{ if eq $type "Show" }}{{ $pages = .Data.Pages }}{{ end }}{{ range first 10 $pages }}
   <item>
     <title>{{ .Title }}</title>
     <link>{{ .Permalink }}</link>
     <guid isPermaLink="true">{{ .Permalink }}</guid>{{ if .Params.category }}
-    <category>{{ lower .Params.category }}</category>{{ end }}{{ if .Params.tag }}
-    {{ range sort .Params.tag }}<category>{{ replace . "-" " " }}</category>
+    <category domain="{{ site.BaseURL }}{{ lower .Params.category }}/">{{ lower .Params.category }}</category>{{ end }}{{ if .Params.tag }}
+    {{ range sort .Params.tag }}<category domain="{{ site.BaseURL }}tag/{{ . }}/">{{ replace . "-" " " }}</category>
     {{ end }}{{ end }}<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     <description>{{ safeHTML "<![CDATA[" }}{{ replace .Content "\n" "" | safeHTML }}<hr /><p style="font-style:italic"><small>This post originally appeared on <a rel="canonical" href="{{ .Permalink }}">{{ .Site.Title }}</a>.</small></p>]]></description>{{ if .Params.Enclosure_file }}
     <enclosure url="{{ .Params.Enclosure_file }}" length="{{ .Params.Enclosure_size }}" type="{{ .Params.Enclosure_type }}" />{{ end }}
-    {{ safeHTML "<!-- Useful namespace extensions -->" }}{{ if eq $type "Show" }}
-    <conversationsNetwork:image url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />{{ end }}{{ with .Params.Location }}
+    {{ safeHTML "<!-- Useful namespace extensions -->" }}{{ if .Params.Enclosure_file }}
+    <conversationsNetwork:image url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ site.BaseURL }}{{ site.Params.Logo }}{{ end }}" />{{ end }}{{ with .Params.Location }}
     <dc:coverage>{{ humanize . }}</dc:coverage>{{ end }}
     <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
+    {{ printf "<dc:date>%s</dc:date>" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ safeHTML "<!-- Much nicer date format! -->" }}
     <dc:format>{{ if .Params.Enclosure_type }}{{ .Params.Enclosure_type }}{{ else }}text/html{{ end }}</dc:format>
     <dc:type>{{ if eq .Params.Enclosure_type "audio/mpeg" }}Audio{{ else }}Text{{ end }}</dc:type>{{ if eq $type "Show" }}
-    <dcterms:license>http://creativecommons.org/licenses/by/3.0/</dcterms:license>{{ end }}{{ with .Params.Abstract }}
+    <dcterms:license>https://creativecommons.org/licenses/by/3.0/</dcterms:license>{{ end }}{{ with .Params.Abstract }}
     <excerpt:encoded>{{ safeHTML "<![CDATA[" }}{{ . }}]]></excerpt:encoded>{{ end }}{{ if eq $type "Show" }}
     <itunes:author>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:author>
     <itunes:duration>{{ .Params.Enclosure_duration }}</itunes:duration>
     <itunes:summary>{{ safeHTML "<![CDATA[" }}{{ .Params.Abstract }}]]></itunes:summary>{{ end }}
+    <media:thumbnail url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ site.BaseURL }}{{ site.Params.Logo }}{{ end }}" />
   </item>
 {{ end }}
 </channel>
-</rss>
+</rss>{{ end }}
