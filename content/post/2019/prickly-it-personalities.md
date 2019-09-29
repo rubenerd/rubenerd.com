@@ -9,7 +9,6 @@ tag:
 - gnu
 - open-source
 - philosophy
-- singapore2019
 location: Singapore
 ---
 *(The permalink for this post is `prickly-it-personalities`, but I liked the silly pun too much).*
