@@ -1,5 +1,5 @@
 ---
-title: "Those Swensen’s chip cones"
+title: "SG19: Those Swensen’s chip cones"
 date: "2019-09-22T22:40:56+08:00"
 abstract: "Sharing a mother-son tradition with Clara in Singapore ♡"
 thumb: "https://rubenerd.com/files/2019/photo-swensens-chips@1x.jpg"
@@ -11,7 +11,7 @@ tag:
 - food
 - nostalgia
 - singapore
-- singapore-2019
+- singapore2019
 location: Singapore
 ---
 Hello again from Singapore! Clara and I just flew in for a working holiday, and I insisted on dragging her to this local institution at Changi Airport once we landed at midnight. Which I appreciated, given she likely just wanted to go to the hotel and collapse rather than trundling around wheelie bags, even if it was partly through the [Jewel](https://www.instagram.com/p/B2tTBmNA2hu/).
