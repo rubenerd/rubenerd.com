@@ -17,7 +17,7 @@ location: Sydney
 ---
 I do this every year or so because it's a fun mental exercise. This isn't a list of features I *expect* them to include, it's features I'd love to see.
 
-* Better batteries. iPhones used to have excellet battery life relative to other phones; at best they're mediocre now.
+* Better batteries. iPhones used to have excellent battery life relative to other phones; at best they're mediocre now.
 
 * Grippable edges, ideally using the same design language as the gorgeous, flatter iPad Pro. I don't think anyone prefers the slippery, rounded edges introduced in the iPhone 6 and carried on since.
 
