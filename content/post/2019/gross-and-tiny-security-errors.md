@@ -6,7 +6,6 @@ year: "2019"
 category: Software
 tag:
 - pinboard
-- singapore2019
 - security
 location: Singapore
 ---
