@@ -12,7 +12,7 @@
   {{ safeHTML "<!-- ********************************************** -->" }}
   {{ safeHTML "<!-- Welcome to Rubenerd's fabulous RSS feeds!      -->" }}
   {{ safeHTML "<!-- Visit https://rubenerd.com/subscribe/ for help -->" }}
-  {{ safeHTML "<!-- Blog feed: https://rubenerd.com/feed/          -->" }}
+  {{ safeHTML "<!-- Blog feed:    https://rubenerd.com/feed/       -->" }}
   {{ safeHTML "<!-- Podcast feed: http://showfeed.rubenerd.com/    -->" }}
   {{ safeHTML "<!-- ********************************************** -->" }}
 
@@ -70,7 +70,7 @@
     <conversationsNetwork:image url="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ site.BaseURL }}{{ site.Params.Logo }}{{ end }}" />{{ end }}{{ with .Params.Location }}
     <dc:coverage>{{ humanize . }}</dc:coverage>{{ end }}
     <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
-    {{ printf "<dc:date>%s</dc:date>" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ safeHTML "<!-- Much nicer date format! -->" }}
+    {{ printf "<dc:date>%s</dc:date>" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
     <dc:format>{{ if .Params.Enclosure_type }}{{ .Params.Enclosure_type }}{{ else }}text/html{{ end }}</dc:format>
     <dc:type>{{ if eq .Params.Enclosure_type "audio/mpeg" }}Audio{{ else }}Text{{ end }}</dc:type>{{ if eq $type "Show" }}
     <dcterms:license>https://creativecommons.org/licenses/by/3.0/</dcterms:license>{{ end }}{{ with .Params.Abstract }}
