@@ -11,7 +11,7 @@ tag:
 - food
 - nostalgia
 - singapore
-- singapore2019
+- singapore-2019-trip
 location: Singapore
 ---
 Hello again from Singapore! Clara and I just flew in for a working holiday, and I insisted on dragging her to this local institution at Changi Airport once we landed at midnight. Which I appreciated, given she likely just wanted to go to the hotel and collapse rather than trundling around wheelie bags, even if it was partly through the [Jewel](https://www.instagram.com/p/B2tTBmNA2hu/).

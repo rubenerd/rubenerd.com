@@ -9,7 +9,7 @@ tag:
 - coffee
 - coffee-bean-and-tea-leaf
 - singapore
-- singapore2019
+- singapore-2019-trip
 location: Singapore
 ---
 The cliché Singlish accent pronounces three as tree, though as a stupid angmoh at best I can only offer an approximation. Wah, so good is it. 🇸🇬

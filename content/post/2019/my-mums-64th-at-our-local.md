@@ -14,7 +14,7 @@ tag:
 - nostalgia
 - paragon
 - singapore
-- singapore2019
+- singapore-2019-trip
 - starbucks
 location: Singapore
 ---

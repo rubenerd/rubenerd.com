@@ -7,7 +7,7 @@ year: "2019"
 category: Travel
 tag:
 - singapore
-- singapore2019
+- singapore-2019-trip
 - work
 location: Singapore
 ---
