@@ -1,5 +1,5 @@
 ---
-title: "SG19: Revisiting Jalan Pemimpin"
+title: "#SG19 Revisiting Jalan Pemimpin"
 date: "2019-09-25T22:49:06+08:00"
 abstract: "The first office I worked in after high school in Singapore. Surprising nobody, it’s gone now!"
 thumb: ""

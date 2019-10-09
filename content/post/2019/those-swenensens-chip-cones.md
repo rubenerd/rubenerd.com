@@ -1,5 +1,5 @@
 ---
-title: "SG19: Those Swensen’s chip cones"
+title: "#SG19 Those Swensen’s chip cones"
 date: "2019-09-22T22:40:56+08:00"
 abstract: "Sharing a mother-son tradition with Clara in Singapore ♡"
 thumb: "https://rubenerd.com/files/2019/photo-swensens-chips@1x.jpg"

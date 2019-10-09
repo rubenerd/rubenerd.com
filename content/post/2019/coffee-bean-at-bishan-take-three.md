@@ -1,5 +1,5 @@
 ---
-title: "SG19: Coffee Bean at Bishan, take t(h)ree"
+title: "#SG19 Coffee Bean at Bishan, take t(h)ree"
 date: "2019-09-26T09:05:07+08:00"
 abstract: "My local cafe when I got my first full-time job."
 thumb: "https://rubenerd.com/files/2019/photo-coffee-bean-bishan@1x.jpg"
