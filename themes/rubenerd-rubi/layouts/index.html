@@ -1,6 +1,5 @@
 {{ partial "header.html" . }}
 {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}{{ range $paginator.Pages }}
-
 {{ safeHTML "<!-- Blog post です -->" }}
 <article class="post" resource="{{ .Permalink }}">
 <header>
