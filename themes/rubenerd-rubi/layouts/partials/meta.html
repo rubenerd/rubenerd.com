@@ -2,7 +2,10 @@
 <meta name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />{{ if eq .Type "post" }}
 <meta name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
 <meta name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
+{{ hugo.Generator }}
+<meta name="HandheldFriendly" content="True" />
 <meta name="site" content="{{ .Permalink }}" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
 {{ safeHTML "<!-- OpenGraph, Twitter です -->" }}
@@ -27,12 +30,12 @@
 {
   "@context": "https://schema.org",
   "@type": {{ if eq .Type "post" }}"BlogPosting"{{ else }}"Blog"{{ end }},
-  "publisher": {
+    "publisher": {
     "@type": "Organization",
     "name": "Rubenerd",
     "logo": {
       "@type": "ImageObject",
-      "url": "{{ .Site.BaseURL }}{{ .Site.Params.Logo }}"
+      "url": {{ .Site.Params.Logo | absURL }}
     }
   },
   "author": {
@@ -42,31 +45,31 @@
       "addressCountry": {
         "@type": "Country",
         "name": "{{ . }}",
-        "hasMap": "https://www.openstreetmap.org/search?query={{ . }}",
-        "sameAs": "https://en.wikipedia.org/wiki/{{ . }}"
+        "hasMap": {{ printf "https://www.openstreetmap.org/search?query=%s" . }},
+        "sameAs": {{ printf "https://en.wikipedia.org/wiki/%s" . }}
       },{{ end }}
       "addressLocality": "{{ .Site.Params.Author.City }}",
       "addressRegion": "{{ .Site.Params.Author.State }}",
-      "sameAs": "{{ .Site.Params.Author.Place }}"
+      "sameAs": {{ .Site.Params.Author.Place }}
     },
     "familyName": "{{ .Site.Params.Author.Last }}",
     "gender": "{{ .Site.Params.Author.Gender }}",
     "givenName": "{{ .Site.Params.Author.First }}",
     "name": "{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}",
     "nationality": "{{ .Site.Params.Author.Nationality }}",
-    "url": "{{ .Site.BaseURL }}about/"
+    "url": {{ "/about/" | absURL }}
   },
   "accessMode": ["auditory", "textual", "visual"],
   "accessibilitySummary": "Primarily text, with optional photos and podcast audio.",
   "award": "{{ .Site.Params.Award }}",
-  "copyrightYear": {{ if eq .Type "post" }}{{ printf "\"%s\"" (.Date.Format "2006") | safeHTML }}{{ else }}{{ .Site.Params.Inception }}{{ end }},{{ if eq .Type "post" }}
-  "dateModified": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},
-  "datePublished": {{ printf "\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},{{ end }}
-  "description": "{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}",
+  "copyrightYear": {{ if eq .Type "post" }}{{ printf "%s" (.Date.Format "2006") | safeHTML }}{{ else }}"{{ .Site.Params.Inception }}"{{ end }},{{ if eq .Type "post" }}
+  "dateModified": {{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},
+  "datePublished": {{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }},{{ end }}
+  "description": {{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }},
   "encodingFormat": "text/html",
   "headline": "{{ .Title }}",
-  "identifier": "{{ .Permalink }}",
-  "image": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
+  "identifier": {{ .Permalink }},
+  "image": {{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.Params.Logo | absURL }}{{ end }},
   "inLanguage": "{{ .Site.LanguageCode }}",
   "isAccessibleForFree": "True",{{ if .Params.Tag }}
   "keywords": "{{ with .Params.Category }}{{ lower . }},{{ end }}{{ delimit .Params.Tag "," }}",{{ end }}{{ with .Params.Location }}
@@ -75,8 +78,8 @@
     "address": "{{ replace . "-" " " }}"
   },{{ end }}
   "name": "{{ .Title }}",
-  "thumbnailUrl": "{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}",
-  "url": "{{ .Permalink }}",{{ if eq .Type "post" }}
+  "thumbnailUrl": {{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.Params.Logo | absURL }}{{ end }},
+  "url": {{ .Permalink }},{{ if eq .Type "post" }}
   "wordCount": "{{ .WordCount }}",{{ end }}{{ if .Params.enclosure_file }}
   "audio": {
     "@type": "AudioObject",
@@ -84,11 +87,11 @@
     "contentUrl": "{{ .Params.enclosure_file }}",
     "duration": "{{ .Params.enclosure_duration }}",
     "encodingFormat": "{{ .Params.enclosure_type }}",
-    "license": "{{ .Site.Params.Podcast.Licence_url }}"
+    "license": {{ .Site.Params.Podcast.Licence_url | safeURL }}
   },{{ end }}
   "mainEntityOfPage": {
     "@type": "Blog",
-    "@id": "{{ .Site.BaseURL }}",
+    "@id": {{ .Site.BaseURL | safeURL }},
     "name": "{{ .Site.Title }}"
   }
 }
