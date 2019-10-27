@@ -1,5 +1,6 @@
 {{ safeHTML "<!-- General metadata です -->" }}
 <meta name="author" content="{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}" />{{ if eq .Type "post" }}
+<meta name="copyright" content="© {{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }} unless otherwise stated." />
 <meta name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
 <meta name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 {{ hugo.Generator }}
