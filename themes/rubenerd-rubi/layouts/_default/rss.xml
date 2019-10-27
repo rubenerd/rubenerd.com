@@ -1,4 +1,8 @@
-<!-- Only generate RSS for the podcast and home page -->{{ if or (eq .Title .Site.Title) (eq .Title "Show") }}<rss version="2.0"
+<!-- Only generate RSS for the podcast and home page -->{{ if or (eq .Title .Site.Title) (eq .Title "Show") }}{{ safeHTML "<?xml version=\"1.0\" encoding=\"UTF-8\"?>" }}
+{{ safeHTML "<?xml-stylesheet type=\"text/xsl\" media=\"screen\" href=\"/feed.xsl\"?>" }}
+{{ safeHTML "<?xml-stylesheet type=\"text/css\" media=\"screen\" href=\"/feed.css\"?>" }}
+
+<rss version="2.0"
   xml:base="{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Feed }}{{ else }}{{ .Site.BaseURL }}{{ end }}"
   xmlns:conversationsNetwork="http://conversationsnetwork.org/rssNamespace-1.0/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
