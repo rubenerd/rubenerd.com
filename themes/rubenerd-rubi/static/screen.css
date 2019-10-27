@@ -124,6 +124,18 @@ figure {
 }
 
 
+/***** PODCAST です*****/
+.show-licence, .show-release, .show-subscribe {
+  font-size:14px;
+  font-style:italic;
+  line-height:22px;
+  /* Funny story, the podcast used to be on a separate site. I've always had
+     problems integrating these posts into the rest of this site here, because
+     they all have distinct metadata from regular posts. I think this works
+     mostly fine. */
+}
+
+
 /***** ARCHIVE です*****/
 #archive a { margin-left: 5px }
 
