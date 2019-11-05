@@ -32,7 +32,7 @@ _HOST='Ruben Schade'
 _URL='https://rubenerd.com/show/'
 _LICENCE_URL='https://creativecommons.org/licenses/by/3.0/'
 _LICENCE_TITLE='Creative Commons Attribution 3.0'
-_LOCATION='Marina Bay, Singapore'
+_LOCATION='Sydney, Australia'
 
 ## Network details
 _ONSUG_ABBR='rs'                ## Onsug abbreviation" onsug_DATE_rs000.mp3"
