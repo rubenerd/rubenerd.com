@@ -9,21 +9,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 
-{{ safeHTML "<!-- OpenGraph, Twitter です -->" }}
-<meta name="twitter:title" property="og:title" content="{{ .Title }}" /> 
-<meta name="twitter:description" property="og:description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ safeHTML .Site.Params.Description }}{{ end }}" />
-<meta name="twitter:image:src" property="og:image" content="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />
-<meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
+{{ safeHTML "<!-- Merged Twitter, OpenGraph です -->" }}
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="@{{ .Site.Params.Author.Twitter }}" />
+<meta name="twitter:description" property="og:description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ safeHTML .Site.Params.Description }}{{ end }}" />
+<meta name="twitter:image:src" property="og:image" content="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />
 <meta name="twitter:site" content="@{{ .Site.Params.Twitter }}" />
+<meta name="twitter:title" property="og:title" content="{{ .Title }}" />
+<meta name="twitter:url" property="og:url" content="{{ .Permalink }}" />
 <meta property="og:locale" content="{{ replace .Site.LanguageCode "-" "_" }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:type" content="{{ if eq .Type "post" }}article{{ else }}website{{ end }}" />{{ if eq .Type "post" }}
 <meta property="article:modified_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
 <meta property="article:published_time" {{ printf "content=\"%s\"" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTMLAttr }} />
 <meta property="article:section" content="{{ .Params.Category }}" />{{ end }}{{ if .Params.Tag }}
-<meta name="keywords" property="article:tag" content="{{ delimit .Params.Tag "," }}" />{{ end }}
+<meta property="article:tag" name="keywords" content="{{ delimit .Params.Tag "," }}" />{{ end }}
 
 
 {{ safeHTML "<!-- Schema RDF serialised in JSON; developers have spoken です -->" }}
