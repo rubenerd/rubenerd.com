@@ -1,5 +1,6 @@
 {{ partial "header.html" . }}
 {{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}{{ range $paginator.Pages }}
+
 {{ safeHTML "<!-- Blog post です -->" }}
 <article class="post" resource="{{ .Permalink }}">
 <header>
@@ -19,6 +20,7 @@
 
 {{ safeHTML "<!-- Content ends です -->" }}
 </main>
+
 
 {{ safeHTML "<!-- Pagination links です -->" }}
 <nav id="pagination">{{ if .Paginator.HasPrev }}<a rel="Next" id="page-newer" href="{{ .Paginator.Prev.URL }}">Newer posts</a> <span aria-hidden="true" class="page-arrow">&larr;</span>{{ end }}
