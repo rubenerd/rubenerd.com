@@ -15,7 +15,7 @@ location: Sydney
 ---
 FreeBSD 12.1-RELEASE [is out now](https://www.freebsd.org/releases/12.1R/announce.html)! Read the [release notes](https://www.freebsd.org/releases/12.1R/relnotes.html) and [errata](https://www.freebsd.org/releases/12.1R/errata.html).
 
-<p><img src="https://rubenerd.com/files/2019/screenie-freebsd121@1x.png" srcset="https://rubenerd.com/files/2019/screenie-freebsd121@1x.png 1x, https://rubenerd.com/files/2019/screenie-freebsd121@2x.png 2x" alt="" style="width:500px; height:333px;" /></p>
+<p><img src="https://rubenerd.com/files/2019/screenie-freebsd121@2x.png"  alt="Screenshot showing a Terminal prompt with uname in FreeBSD 12.1" style="width:500px; height:333px;" /></p>
 
 Vanilla Xfce on this release is *nice!*
 
