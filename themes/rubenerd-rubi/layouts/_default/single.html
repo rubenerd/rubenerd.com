@@ -3,14 +3,14 @@
 <!-- Blog post です -->
 <article class="post">
 <header>
-<h2>{{ .Title }}</h2>
+<h2>{{ .Title }}</h2>{{ if eq .Section "post" }}
+<div class="post-meta">
+{{ printf "<time datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ .Date.Format "Monday 02 January 2006" }}</time>
+{{ with .Params.Category }}<a title="Filed under the {{ . }} category" href="/{{ . | urlize }}/">{{ . }}</a>{{ end }}
+</div>{{ end }}
 </header>
 <div class="post-content" property="articleBody">
 {{ replace .Content "\n\n" "\n" | safeHTML }}</div>
-{{ if eq .Section "post" }}<footer class="post-meta">
-{{ printf "<time datetime=\"%s\">" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}{{ .Date.Format "Monday 02 January 2006" }}</time>
-{{ with .Params.Category }}<a title="Filed under the {{ . }} category" href="/{{ . | urlize }}/">{{ . }}</a>{{ end }}
-</footer>{{ end }}
 </article>
 
 
@@ -20,9 +20,11 @@
 {{ if eq .Section "post" }}
 
 <div id="bio">
-<h2>Author bio</h2>
-<p>{{ safeHTML .Site.Params.author.bio }}</p>
+<h2>Author bio and support</h2>
+{{ safeHTML .Site.Params.author.bio }}
+{{ safeHTML .Site.Params.author.support }}
 </div>
+
 
 <hr />{{ safeHTML "<!-- ******************************** -->" }}
 
