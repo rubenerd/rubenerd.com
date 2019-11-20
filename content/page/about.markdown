@@ -15,7 +15,7 @@ title: "About"
 
 I've always been struck—ouch—at the futility of employing washroom hand dryers. Other than those *Airblade* contraptions that also sonically wash your eardrums, you press a button only to find a semblance of mildly warm air hitting your responsibly washed hands, and little else. This is less than useful.
 
-So you hit up the paper towel dispenser, only to discover there isn't anywhere convenient to discard the used portion. Kubernetes.
+So you hit up the paper towel dispenser, only to discover there isn't anywhere convenient to discard the used portion.
 
 
 <h3 id="about-me">Me</h3>
@@ -33,9 +33,9 @@ I make a living as a technical writer and solution architect for an IaaS company
 
 *Rubenerd* is my weblog and [podcast] of things that have interested me since 2004. I write it because it's fun; if people enjoy reading it, so much the better. Topics include anime, travel, public transport, operating systems, digital privacy, Asia, and coffee.
 
-The latest design is the simplest I could make it, partly in protest of what the modern web has become. There's no JavaScript, downloading fonts, embeds, hamburger icons, looping background videos, popups, newsletter signup prompts, sticky navbars, autoplaying videos, iframes, or design sense. Wait, I needed that last one, whoops.
- 
-It's proudly powered by [FreeBSD], everyone's favourite operating system. More information can be found on the [Engine Room Omake] page.
+The latest design is the simplest I could make it, partly in protest of what the modern web has become. There's no JavaScript, downloading fonts, embeds, hamburger icons, looping background videos, popups, newsletter signup prompts, sticky navbars, autoplaying videos, iframes, or design sense. Wait, I needed that last one.
+
+The backend is proudly powered by [FreeBSD], everyone's favourite OS. More information can be found on the [Engine Room Omake] page.
 
 [Engine Room Omake]: https://rubenerd.com/omake/engine-room/
 [has become]: https://rubenerd.com/modernwebbloat-js/ "Blog post on ModernWebBloat.js"
