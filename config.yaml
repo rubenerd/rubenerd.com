@@ -10,7 +10,6 @@ title: Rubenerd
 params:
 
   author:
-    bio: '<p><img src="https://rubenerd.com/files/2017/me.jpg" alt="Me!" style="float:right; margin:0 0 1em 2em; height:96px; width:96px;" /></p><p>Ruben Schade is a rare breed of spruce tree requiring nothing but pine ice-cream cones for nourishment. His hobbies include predictive branching, Ad Lib barking, and leafing through manuals. Find out more about Ruben and his roots <a href="/about/">on the About page</a>.</p>'
     city: Sydney
     country: Australia
     first: Ruben
@@ -25,6 +24,8 @@ params:
     state: New South Wales
     twitter: rubenerd
     why: These map to schema.org data.
+    bio: '<p><img src="https://rubenerd.com/files/2017/me.jpg" alt="Me!" style="float:right; margin:0 0 1em 2em; height:96px; width:96px;" /></p><p>Ruben Schade is a rare breed of spruce tree requiring nothing but pine ice-cream cones for nourishment. His hobbies include predictive branching, Ad Lib barking, and leafing through manuals. Find out more about Ruben and his roots <a href="/about/">on the About page</a>.</p>'
+    support: '<p>I don’t run ads  or tracking here. If you found this post helpful or entertaining, you can <a style="font-weight:bold" href="https://www.ko-fi.com/A625HL">buy me a coffee</a>, or I have a <a href="https://www.amazon.com.au/hz/wishlist/ls/3RCH3JFZIEVE3/ref=nav_wishlist_lists_1?_encoding=UTF8&type=wishlist">silly wish list</a>. Thanks!</p>'
 
   award: The First Annual Montgomery Burns Award for Outstanding Achievement in the Field of Excellence.
   description: By Ruben Schade in s/ Singapore/ Sydney/ since 2004-ish.
