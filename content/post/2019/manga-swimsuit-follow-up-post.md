@@ -1,30 +1,33 @@
 ---
-draft: true
-title: "Manga swimsuit follow-up post, with an apology"
-date: "2019-09-11T08:17:17+10:00"
-abstract: ""
-thumb: ""
+title: "Manga swimsuit follow-up post"
+date: "2019-11-09T08:27:17+11:00"
+abstract: "Rebecca would have killed me if I didn’t ever get around to this!"
+thumb: "https://rubenerd.com/files/2019/arena-manga-lifestyle@2x.jpg"
 year: "2019"
-category: Thoughts
+category: Anime
 tag:
-- 
+- clothes
+- fitness
+- health
+- manga
+- swimsuits
 location: Sydney
 ---
-Long-time *Rubenerd* reader Rebecca Hales – no relation to William Hales who also sends awesome comments – asked where I'd got up to with the fitness post I'd [promised](https://rubenerd.com/hes-back/) three months ago. Her question wasn't entirely selfless, as she contributed material to it and was obviously getting antsy at seeing it posted on this *esteemed* publication. I may have performed a little embelishment in the description ehre.
+Long-time *Rubenerd* reader Rebecca Hales – no relation to Halestrom other than sharing a fabulous name – asked where I'd got up to with the fitness post I'd [promised](https://rubenerd.com/hes-back/) back in June. Her question wasn't entirely selfless, as she contributed material to it and was obviously getting antsy at seeing it posted on this *esteemed* publication. I may have performed a little embellishment in the description there, and by that I mean a lot.
 
-I wrote about [Clara and I wanting this Arena gear](https://rubenerd.com/we-almost-got-arena-manga-swimsuits/) back in April:
+*(Not alot, that's an [entirely different beast](https://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything/). I feel between that and [gotten](https://rubenerd.com/gotten/) we're fighting a losing battle, but one can dream).*
+
+I wrote about [Clara and I wanting this Arena gear](https://rubenerd.com/we-almost-got-arena-manga-swimsuits/) back in April, as part of our push to get more exercise and be healthier:
 
 > Little did we know we could have been weeby at the latter as well. Introducing the Arena Manga One Piece! ... Arena has a range of manga themed outfits, complete with darumas, seigaiha patterns, maneki cats, and a Great Wave off Kanagawa, among other Japanese motifs.
 
-This is what the ladies' outfit looks like, which will be important in a second:
+This is what the ladies outfit looks like, as worn by a model whom the photographer decided to catch sneezing. *Gesundheit!*
 
-<p><img src="https://rubenerd.com/files/2019/arena-manga-ladies@1x.jpg" srcset="https://rubenerd.com/files/2019/arena-manga-ladies@1x.jpg 1x, https://rubenerd.com/files/2019/arena-manga-ladies@2x.jpg 2x" alt="View of the ladies suit" style="width:500px" /></p>
+<p><img src="https://rubenerd.com/files/2019/arena-manga-lifestyle@1x.jpg" srcset="https://rubenerd.com/files/2019/arena-manga-lifestyle@1x.jpg 1x, https://rubenerd.com/files/2019/arena-manga-lifestyle@2x.jpg 2x" alt="View of the ladies suit" style="width:500px; height:333px;" /></p>
 
-Rebecca commented within a longer email thread about something I hadn't considered, because it's something as a male I would not have had to contend with:
+Rebecca commented within a longer email thread that she thought the design was cute, but that it came with a caveat:
 
-> I would be careful recommending that swimsuit for Clara because it's uncomfortable. I like the open back but I've worn the same [swimsuit style] and the very thin shoulder straps cut my shoulders quickly when diving :P
+> I would be careful recommending that swimsuit for Clara because it's uncomfortable. I like the open back but I've worn the same [style] and the shoulder straps are very thin and cut my shoulders quickly when diving :P
 
-She directed me to the FINA diving channel on YouTube – who knew? – where, sure enough, all the people are wearing suits with much thicker straps.
-
-I doubt Clara and I will be doing any strenuous training in the pool *at all*, but if there's a downside to this style, we'll stick with the ones we [already bought](https://rubenerd.com/no-speedo-patterns-for-gents/). Lesson learned, thank you!
+I haven't had to contend with this as a gentleman, but I'll take it under advisement. Now this has been pointed out, I can see the other people in the image above have more sane straps. Maybe they were causing her to sneeze, who knows?!
 
