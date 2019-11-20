@@ -1,9 +1,17 @@
-/**************************
- *  Rubenerd Rubi theme   *
- **************************/
+@charset "utf-8";
+
+/******************************************************
+ *  RUBENERD RUBI THEME                               *
+ *  Named for the bishoujo mascot Clara drew for me!  *
+ *  And it pre-dates the WordPress 2019 theme, grr!   *
+ *                                                    *
+ *  Last revised: November 2019                       *
+ ******************************************************/
 
 
-/***** TOP LEVEL です*****/
+
+/***** ROOT です**************************************************************/
+
 html, body, h1, h2, h3, form, fieldset, #archive ol, #archive li {
   border:0;
   list-style-type:none;
@@ -13,41 +21,42 @@ html, body, h1, h2, h3, form, fieldset, #archive ol, #archive li {
 body {
   background:#ffffff url("rubi@1x.jpg") fixed no-repeat;
   background-position:right 30px top 30px;
-  font:1em "Helvetica Neue","Open Sans",Arial,sans-serif;
+  font:1em "Helvetica Neue", "Open Sans", Arial, "Liberation Sans", sans-serif;
   height:100%;
   overflow-y:scroll;
   padding:40px 40px 240px 40px;
   width:580px;
 }
 code, pre {
-  background:#f3f8fd;
-  color:#036ad3;
-  font:13px Menlo,Consolas,monospace;  /* jeepers Windows fonts are ugly */
+  font:13px Menlo, Consolas, monospace;
 }
+h1, h2, h3 { letter-spacing:-1px }
+h1 a, h2 a, a:hover { text-decoration:none }
 article, figure, footer, header, main, nav, section { display:block }
 
 
-/***** PALETTE です*****/
+
+/***** PALETTE です***********************************************************/
+
 body { color:black } /* https://www.nngroup.com/articles/low-contrast/ */
 a { color:#036ad3 }
-#site-navigation a, .post-meta, .post-meta a, time { color:#2b9c27 }
 blockquote { border-left:4px solid #efeffa }
+code, pre {
+  background:#f3f8fd;
+  color:#036ad3;
+}
+#site-navigation a, .post-meta, .post-meta a, time { color:#2b9c27 }
 
 
-/***** http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ です *****/
+
+/***** ACCESSIBILITY です*****************************************************/
+
 * {
+  /* http://usabilitypost.com/2012/11/05/stop-fixing-font-smoothing/ */
   -moz-osx-font-smoothing:auto !important;
   -webkit-font-smoothing:subpixel-antialiased !important;
   font-smooth:always !important;
 }
-
-
-/***** HEADERS/ANCHORS です*****/
-h1, h2, h3 { letter-spacing:-1px }
-h1 a, h2 a, a:hover { text-decoration:none }
-
-
-/***** ACCESSIBILITY です*****/
 hr {
   display:none;
   visibility:hidden;
@@ -62,27 +71,29 @@ hr {
 }
 
 
-/*** NAVIGATION です***/
+
+/*** NAVIGATION です**********************************************************/
+
 #site-navigation { padding-top:20px }
 #site-navigation a { margin-right:5px }
 
 
-/***** POST です*****/
-.post, #bio {
+
+/***** POST です**************************************************************/
+
+.post, #bio, #support {
   line-height:24px;
   padding-top:100px;
 }
-.post h2 { padding-bottom:5px }
+.post h2 { padding-bottom:4px; }
 .post h3 { padding-top:20px }
-.post-meta, time {
-  font-size:14px;
-  margin:0;
-  padding:0;
-}
-.post-meta time::after { content: " 🌲 " }
+.post-meta, time { font-size:14px; }
+.post-meta time::after { content: " ‧ " }
 
 
-/***** POST CONTENT です*****/
+
+/***** POST CONTENT です******************************************************/
+
 .post img {
   max-width:500px;
   margin-top:5px;
@@ -124,23 +135,30 @@ figure {
 }
 
 
-/***** PODCAST です*****/
+
+/***** PODCAST です***********************************************************/
+
+/* Funny story, the podcast used to be on a separate site. I've always had
+   problems integrating these posts into the rest of this site here, because
+   they all have distinct metadata from regular posts. I think this works
+   mostly fine. */
+
 .show-licence, .show-release, .show-subscribe {
   font-size:14px;
   font-style:italic;
   line-height:22px;
-  /* Funny story, the podcast used to be on a separate site. I've always had
-     problems integrating these posts into the rest of this site here, because
-     they all have distinct metadata from regular posts. I think this works
-     mostly fine. */
 }
 
 
-/***** ARCHIVE です*****/
+
+/***** ARCHIVES です**********************************************************/
+
 #archive a { margin-left: 5px }
 
 
-/***** PAGINATION です*****/
+
+/***** PAGINATION です********************************************************/
+
 #pagination {
   font-weight:bold;
   line-height:24px;
@@ -150,12 +168,16 @@ figure {
 #pagination #page-number { font-weight:bold }
 
 
-/***** FOOTER です*****/
+
+/***** FOOTER です************************************************************/
+
 #boots { padding-top:70px }
 
 
-/***** RETINA です*****/
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution:144dpi) {
+
+/***** RETINA です************************************************************/
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 144dpi) {
   body {
     background-image: url("rubi@2x.jpg");
     background-size:190px 559px;
@@ -163,7 +185,9 @@ figure {
 }
 
 
-/***** SMALL SCREEN です*****/
+
+/***** SMALL SCREEN です******************************************************/
+
 @media screen and (max-width: 870px) {
   body {
     background-image:none;
@@ -174,7 +198,9 @@ figure {
 }
 
 
-/***** CLARA-SIZED SCREEN です*****/
+
+/***** CLARA-SIZED SCREEN です************************************************/
+
 @media screen and (max-width: 630px) {
   body {
     padding:30px 15px;
