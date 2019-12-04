@@ -1,6 +1,6 @@
 ---
 title: "Site updates, late November 2019"
-date: "2019-11-21T08:33:17+11:00"
+date: "2019-11-21T08:13:17+11:00"
 abstract: "Running FreeBSD 12, back to building nginx myself, changed post date locations."
 year: "2019"
 category: Internet
