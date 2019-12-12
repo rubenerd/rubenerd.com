@@ -7,6 +7,7 @@ year: "2019"
 category: Thoughts
 tag:
 - australia
+- bushfires
 - environment
 - sydney
 location: Sydney
