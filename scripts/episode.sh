@@ -302,7 +302,7 @@ EOF
 ## Create Onsug text, and copy to clipboard
 
 cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
-<p><img class="alignleft" src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></p>
+<div class="wp-block-image"><figure class="alignleft size-large"><img src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></figure></div>
 
 <p class="show-description"><strong>$_DURATION</strong> – $_DESCRIPTION</p>
 
