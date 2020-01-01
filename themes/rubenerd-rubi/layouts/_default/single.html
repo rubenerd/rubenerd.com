@@ -9,7 +9,7 @@
 {{ with .Params.Category }}<a title="Filed under the {{ . }} category" href="/{{ . | urlize }}/">{{ . }}</a>{{ end }}
 </div>{{ end }}
 </header>
-<div class="post-content" property="articleBody">
+<div class="post-content {{ replace .RelPermalink "/" "" }}" property="articleBody">
 {{ replace .Content "\n\n" "\n" | safeHTML }}</div>
 </article>
 
