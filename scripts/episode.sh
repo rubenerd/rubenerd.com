@@ -379,9 +379,7 @@ ia upload                                                \
 ## Commit to git repo
 
 git add "$_EPISODES/show${_NUMBER}.html"
-git add "$_BUCKET/RubenerdShow${_NUMBER}.csv"
-git add "$_BUCKET/RubenerdShow_lyrics${_NUMBER}.txt"
-git add "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_rs${_NUMBER}.html"
+git add "$_BUCKET/*${_NUMBER}*"
 git commit -m "Added show $_NUMBER"
 
 ###########################################################################
