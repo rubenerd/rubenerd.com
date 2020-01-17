@@ -45,6 +45,7 @@ code, pre {
   background:#f3f8fd;
   color:#036ad3;
 }
+pre { border-left:4px solid #036ad3 }
 #site-navigation a, .post-meta, .post-meta a, time { color:#2b9c27 }
 
 
@@ -102,6 +103,7 @@ hr {
 .post pre {
   line-height:18px;
   padding:20px;
+  margin:2em 0;
   overflow-x:auto;
 }
 .post blockquote {
