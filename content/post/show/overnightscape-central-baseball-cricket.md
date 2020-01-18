@@ -1,5 +1,5 @@
 ---
-title: "Ovenightscape Central: Baseball/Cricket"
+title: "Overnightscape Central: Baseball/Cricket"
 date: "2016-03-22"
 abstract: "I participated in another of these delightful Overnightscape Underground productions by PQ Ribber."
 thumb: "https://rubenerd.com/files/2016/central-ce16.jpg"
