@@ -1,0 +1,19 @@
+---
+title: "Hey Everybody It’s Jimbo: ONSUG Synchronicity"
+date: "2015-12-07"
+abstract: "Jimbo featured me in his offbeat podcast on the Overnightscape Underground!"
+thumb: "https://rubenerd.com/files/2015/hey-everybody-its-jimbo-synch_special.jpg"
+year: "2016"
+category: Media
+tag:
+- hey-everybody-its-jimbo
+- overnightscape-underground
+location: Sydney
+---
+<p class="show-cover"><a href="https://onsug.com/archives/18488/"><img src="https://rubenerd.com/files/2015/hey-everybody-its-jimbo-synch_special.jpg" alt="View episode" style="float:right; margin:0 0 1em 2em; width:180px; height:180px;" /></a></p>
+
+*Hey Everybody It's Jimbo* was a delightfully offbeat podcast by Jimbo on *The Overnightscape Underground*. He asked me if he could feature an episode I'd done in this compilation, which I was happy to be a part of! *Update 2020:* Jimbo is no longer with us, so this episode is particularly special to me. Thanks for *All The Great Shows*.
+
+> **54:56** – Jimbo broke his back making this episode (really he did; he is in a body cast right now as he sifts through the buffet line). A myriad of Onsuggers show up here and they all are talking about one thing: bizarre synchronicities that have happened to them. You’ll be shocked and amazed. Some may even soil and stain their pants. Carl Jung, pffft. We’ve got this covered: twenty one synchronicities to chew on. Intro: <a href="https://onsug.com/archives/5258" target="_blank">Frank Nora and PQ Ribber</a> .. <a href="https://www.youtube.com/watch?v=urMndLE-HSM" target="_blank">Synchronicity I (cover of The Police song by Vasquez)</a> .. <a href="https://onsug.com/archives/17821" target="_blank">Frank Nora: 2001 A Space Odyssey</a> .. <a href="https://onsug.com/archives/12819" target="_blank">Jimbo: Vic and Sade and Onsug</a> .. <a href="https://onsug.com/archives/3867" target="_blank">Alex (2010) Lady Prosecutor</a> .. <a href="https://onsug.com/archives/16676" target="_blank">Jimbo: Lords Over</a> .. <a href="https://onsug.com/archives/15961" target="_blank">Frank Nora: Funky Moose</a> .. <a href="https://onsug.com/archives/7984" target="_blank">Shambles Constant: Tina Fey</a> .. <a href="https://onsug.com/archives/16730" target="_blank">Jimbo: The Saint TV show</a> .. <a href="https://onsug.com/archives/3546" target="_blank">Frank Nora: Animation School</a> .. <a href="https://onsug.com/archives/16633" target="_blank">Ruben Schade: A Message from Frank Nora</a> .. <a href="https://onsug.com/archives/8322" target="_blank">Shambles Constant: Kurt Vonnegut</a> .. <a href="https://onsug.com/archives/3170" target="_blank">PQ Ribber: Don Adams and Get Smart</a> .. <a href="https://onsug.com/archives/3413" target="_blank">Frank Nora: Tin Machine</a> .. <a href="https://onsug.com/archives/12965" target="_blank">Carrie Michel: Jimbo in Amarillo</a> .. <a href="https://onsug.com/archives/17741" target="_blank">Jimbo: Wheatena</a> .. <a href="https://onsug.com/archives/18206" target="_blank">Frank Nora: Harem Scarem</a> .. <a href="https://onsug.com/archives/17741" target="_blank">Jimbo: Jim Backus</a> .. <a href="https://onsug.com/archives/14958" target="_blank">Shambles Constant: Robert Johnson</a> .. <a href="https://onsug.com/archives/9817" target="_blank">Carrie Michel: Inner Sanctum</a> .. <a href="https://onsug.com/archives/9238" target="_blank">Frank Nora: Daryl Hanna, Newhart and Shambles</a> .. <a href="https://onsug.com/archives/18439" target="_blank">Jimbo: Joba Chamberlain and Midges</a> .. <a href="https://onsug.com/archives/17268" target="_blank">Frank Nora: Mandolin</a>
+
+You can <a href="https://onsug.com/archives/18488/">view this episode</a> on the *Underground*, <a href="https://media.blubrry.com/onsug/s/onsug.com/shows/Dec15/onsug_Dec15_HEIJ064.mp3">listen to it here</a>, and subscribe to *Hey Everybody It’s Jimbo* with <a href="https://onsug.com/archives/category/jimbo/feed/">this feed</a> in your podcast client.
