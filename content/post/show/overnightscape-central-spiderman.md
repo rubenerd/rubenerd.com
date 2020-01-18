@@ -1,0 +1,19 @@
+---
+title: "Overnightscape Central: Spiderman"
+date: "2015-11-24"
+abstract: "I participated in another of these delightful Overnightscape Underground productions by PQ Ribber."
+thumb: "https://rubenerd.com/files/2015/central-cen.jpg"
+year: "2015"
+category: Media
+tag:
+- overnightscape-central
+- overnightscape-underground
+location: Sydney
+---
+<p class="show-cover"><a href="https://onsug.com/archives/18323/"><img src="https://rubenerd.com/files/2015/central-cen.jpg" alt="View episode" style="float:right; margin:0 0 1em 2em; width:180px; height:180px;" /></a></p>
+
+*The Overnightscape Central* is a fun weekly podcast hosted by the illustrious PQ Ribber. Hosts and listeners of *The Overnightscape Underground* participate in a topic each week, and you’re welcome to join.
+
+> **01:47:13** – Ruben!! Smidge!! Frank!! Clara!! An elite quartet joins PQ Ribber for a unique look at this Marvel Comics Legend!!
+
+You can <a href="https://onsug.com/archives/18323/">view this episode</a> on the *Underground*, <a href="https://media.blubrry.com/onsug/p/onsug.com/shows/Nov15/onsug_Nov15_Central_Spi.mp3">listen to it here</a>, and subscribe with <a href="https://onsug.com/archives/category/overnightscapecentral/feed/">this feed</a> in your podcast client.
