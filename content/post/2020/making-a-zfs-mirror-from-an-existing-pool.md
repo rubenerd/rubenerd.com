@@ -42,7 +42,7 @@ Now we want to turn this into a mirror using another drive that we've called `dr
 
 It's an easy mistake to make, but this will stripe the two disks together into a larger vdev, not create a mirror. I remember in my early days of using ZFS I had a larger pool in production for a year that I thought had redundant storage when it didn't. Whoops. 
 
-Instead, you want to use `zfs attach`. You supply the pool name, the existing drive, and the new drive to mirror to:
+Instead, you want to use `zpool attach`. You supply the pool name, the existing drive, and the new drive to mirror to:
 
 <pre>
 <span style="font-weight:bold;"># zpool attach swimming /dev/gpt/drive02.eli /dev/gpt/drive01.eli</span>
