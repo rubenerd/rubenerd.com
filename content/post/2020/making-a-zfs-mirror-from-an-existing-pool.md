@@ -1,6 +1,6 @@
 ---
 title: "Gotchas when adding a drive to an existing ZFS pool to make a mirror"
-date: "2020-01-19T17:34:08+11:00"
+date: "2020-01-20T17:34:08+11:00"
 abstract: "Using zfs attach not add, and getting the order right"
 thumb: "https://rubenerd.com/files/2020/openzfs.png"
 year: "2020"
@@ -16,7 +16,7 @@ location: Sydney
 ---
 ZFS pools can be made with a single disk, then turned into a mirror after the fact by adding additional drives. This is especially useful for staging or homelabs, where you might not have the money upfront to buy both drives, or want to test it before spending time resilvering. There are a few small gotchas that often get me, which we'll explore here.
 
-For this example, I've got a drive with a single `gpart(8)`-created partition labelled `drive01`. This is encrypted with `geli(8)`, and a zfs pool built on top called `swimming` in a ghastly pun. This is shown below: 
+For this example, I've got a drive with a single `gpart(8)`-created partition labelled `drive01`. This is encrypted with `geli(8)`, and a ZFS pool built on top called `swimming` in a ghastly pun. This is shown below:
 
 <!-- I give up on Markdown for pre blocks, it never friggen works -->
 <pre>
