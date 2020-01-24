@@ -6,6 +6,7 @@ year: "2017"
 category: Internet
 tag:
 - australia
+- metadata-retention
 - politics
 location: sydney
 ---
