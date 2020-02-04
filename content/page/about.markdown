@@ -20,9 +20,11 @@ So you hit up the paper towel dispenser, only to discover there isn't anywhere c
 
 <h3 id="about-me">Me</h3>
 
-My name is Ruben Schade, and I'm mostly harmless. I live to tinker with vintage computer hardware, write, drink interesting coffee in nice cafes in the mid-morning, and flesh out about pages not unlike this one. My beautiful girlfriend Clara and I spend far too much time drinking bubble tea and [travelling].
+My name is Ruben Schade, and I'm mostly harmless. I live to tinker with vintage computer hardware, write in nice cafés in the mid-morning, and flesh out about pages not unlike this one. My beautiful girlfriend Clara and I spend far too much time drinking bubble tea and [travelling].
 
-I make a living as a technical writer and solution architect for an IaaS company in Sydney and San Francisco, but I grew up in Singapore where I developed a taste for well-funded infrastructure, lah.
+I make a living as a technical writer and solution architect for an IaaS company in Sydney and San Francisco, but I grew up in Singapore where I developed a taste for well-funded infrastructure, lah. I'm also working up the guts to do more speaking and attend more industry events, especially for the BSDs.
+
+My Internet handle has been *rubenerd* since I was 13. I thought it was a wickedly-clever concatenation at the time. Now I just think it's delightfully self-deprecating, just like my [last name](https://en.wiktionary.org/wiki/schade#Adjective).
 
 [Clara]: http://kiri.sasara.moe/
 [podcast]: https://rubenerd.com/show/
@@ -48,7 +50,7 @@ Rubi is the site's mascot, drawn by Clara Tse. Her mismatching, Miku-esque boots
 
 *(Funny story, I was chided for wearing orange and red socks during a high school work experience day, with the implication that I wasn't taking the assignment seriously. The day I'm looked over on account of my socks is when I miss a bullet).*
 
-We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by trips to the pool and nature hiking in the Hokkaido wilderness. She enjoys latin jazz, reading, cosplaying, and slice-of-life anime that may or may not have robots. Her dream is to start a line of tactical cargo skirts that can actually fit modern phones and battery chargers.
+We agreed that Rubi was born in Sapporo on her birthday. Her favourite foods are shiroi koibito biscuits and curry udon, washed down with green tea lattes. These are burned off by trips to heated pools and nature hiking in the Hokkaido wilderness. She enjoys reading, cosplaying, and slice-of-life anime that may or may not have robots. Her dream is to start a line of tactical cargo skirts that can actually fit modern phones and battery chargers.
 
 
 <h3 id="geek-code">Geek code</h3>
