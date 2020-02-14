@@ -6,16 +6,14 @@ languageCode: en-SG
 rssLimit: 10
 theme: rubenerd-rubi
 title: Rubenerd
-defaultMarkdownHandler: blackFriday
 
 markup:
   goldmark:
     extensions:
       typeographer: true
     renderer:
+      unsafe: true
       xHTML: true
-  blackFriday:
-    angledQuotes: true
 
 params:
 
