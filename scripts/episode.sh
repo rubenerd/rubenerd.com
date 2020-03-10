@@ -40,7 +40,7 @@ _COLLECTION='rubenerdshow'      ## IA collection, such as "community-audio"
 _EMAIL='me@rubenschade.com'     ## IA username/email
 _MARC_LANGUAGE="eng"            ## MARC21 language code
 _SUBJECT='rubenerd'             ## IA tag additions
-_ONSUG_COVER_SIZE=288           ## HxW dimensions for Onsug site cover art
+## _ONSUG_COVER_SIZE=288           ## HxW dimensions for Onsug site cover art
 
 
 ###########################################################################
@@ -151,10 +151,14 @@ _CITY=`echo "$_LOCATION" | sed 's/,//g' | awk '{ print tolower($1) }'`
 cp "$_BUCKET/$_ID.mp3" \
     "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.mp3"
 
-convert                                                            \
-    -resize ${_ONSUG_COVER_SIZE}x${_ONSUG_COVER_SIZE}!             \
-    "$_BUCKET/$_ID.png"                                            \
-    "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
+## 2020-03: Onsug uses larger covers now
+## convert                                                            \
+##    -resize ${_ONSUG_COVER_SIZE}x${_ONSUG_COVER_SIZE}!             \
+##    "$_BUCKET/$_ID.png"                                            \
+##    "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
+
+cp "$_BUCKET/$_ID.png" \
+   "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png"
 
 convert                                                            \
     -quality 98                                                    \
@@ -283,7 +287,7 @@ tag:
 - podcast
 location: $_CITY
 ---
-<p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="float:right; margin:0 0 1em 2em; width:180px; height:180px;" /></a></p>
+<p class="show-cover"><a href="https://archive.org/download/$_ID/$_ID.mp3" title="Listen to episode"><img src="https://archive.org/download/$_ID/$_ID.png" alt="$_SHOW $_NUMBER" style="width:320px; height:320px;" /></a></p>
 
 <p class="show-download">Podcast: <a target="_blank" style="font-weight:bold" href="https://archive.org/download/$_ID/$_ID.mp3">Play in new window</a> | <a style="font-weight:bold;" href="https://archive.org/download/$_ID/$_ID.mp3">Download</a></p>
 
@@ -302,7 +306,7 @@ EOF
 ## Create Onsug text, and copy to clipboard
 
 cat > "$_BUCKET/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.html" <<EOF
-<div class="wp-block-image"><figure class="alignleft size-large"><img src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:144px; height:144px;" /></figure></div>
+<figure class="wp-block-image"><img src="http://onsug.com/shows/$_ONSUG_FILE_DATE/onsug_${_ONSUG_FILE_DATE}_$_ONSUG_ABBR$_NUMBER.png" alt="" style="width:300px; height:300px;" /></figure>
 
 <p class="show-description"><strong>$_DURATION</strong> – $_DESCRIPTION</p>
 
