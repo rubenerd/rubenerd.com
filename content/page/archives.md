@@ -2,7 +2,7 @@
 layout: page
 title: "Archives"
 ---
-*Rubenerd* has 6,000+ posts and podcast episodes. This page lists ways you can view them all, in a somewhat less tedious fashion than employing pagination links.
+*Rubenerd* has 6,800+ posts. This page lists ways you can view them all, in a somewhat less tedious fashion than employing pagination links.
 
 
 <h3 id="search">By search</h3>
