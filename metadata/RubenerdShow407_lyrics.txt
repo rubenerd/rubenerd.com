@@ -1,0 +1,6 @@
+25:32 – What started as a discussion regarding an ugly new concept car turned into pontifications about design, and anti-patterns in cars and websites. If overenginering is to make something intentionally more complicated for no benefit other than to ship product, why are we so compelled to do it? Or did I just answer my own question?
+
+Recorded in Sydney, Australia. Licence for this track: Creative Commons Attribution 3.0. Attribution: Ruben Schade.
+
+Released March 2020 on Rubenerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts; this one notwithstanding.
+

@@ -22,8 +22,8 @@ _TITLE=""
 _DESCRIPTION=""
 
 ## Where to find things
-_BUCKET="$HOME/Dropbox/rubenerd.com/metadata"
-_EPISODES="$HOME/Dropbox/rubenerd.com/content/post/show"
+_BUCKET="$HOME/Repos/rubenerd.com/metadata"
+_EPISODES="$HOME/Repos/rubenerd.com/content/post/show"
 _EPISODE_PREFIX='show'
 
 ## Episode details
