@@ -1,6 +1,6 @@
 ---
 title: "Givin’ It Up for Love, Al Jarreau and George Benson"
-date: "2020-03-16T08:02:28+11:00"
+date: "2020-03-23T08:02:28+11:00"
 abstract: "He could have been an architect... ♫"
 thumb: "https://rubenerd.com/files/2020/yt-9eF2uGWiWWM@1x.jpg"
 year: "2020"
@@ -13,6 +13,8 @@ tag:
 - music-monday
 location: Sydney
 ---
+*Update: This post was supposed to be published on Monday the 23rd of March. I have no idea why it didn't. Se a vida é*.
+
 This is going to be a somewhat more serious *[Music Monday](https://rubenerd.com/tag/music-monday)* than normal, on account of hearing a few lyrics and arriving at some thoughts. That was a longwinded way of saying *music made me think of something*.
 
 <p><a href="https://www.youtube.com/watch?v=9eF2uGWiWWM" title="Play Givin'It Up For Love George Benson & Al Jarreau HQ"><img src="https://rubenerd.com/files/2020/yt-9eF2uGWiWWM@1x.jpg" srcset="https://rubenerd.com/files/2020/yt-9eF2uGWiWWM@1x.jpg 1x, https://rubenerd.com/files/2020/yt-9eF2uGWiWWM@2x.jpg 2x" alt="Play Givin'It Up For Love George Benson & Al Jarreau HQ" style="width:500px;height:281px;" /></a></p>
