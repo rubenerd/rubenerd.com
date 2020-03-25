@@ -14,9 +14,7 @@ tag:
 - thinkpad
 location: Sydney
 ---
-The title of this post reads more like a ticket to a trade show or industry event. But it's something I've likely long since realised, but am only grappling with the implications now.
-
-I've been mulling on the implications of that 2003 VHS–Betamax article I wrote about yesterday, and realised I had the opposite problem that Jack Schofield described.
+The title of this post reads more like a ticket to a trade show or industry event. But it's something I've likely long since realised, but am only grappling with the implications now. Specifically, I've been mulling on [that 2003 VHS–Betamax article](https://rubenerd.com/accuracy-and-the-whole-product-concept/) I wrote about yesterday, and realised I had the opposite problem that Jack Schofield described.
 
 I was always one of those people who had to obsessively research everything I bought. I know this, because I still am. I'd pour over Sim Lim Square and Funan Centre computer part price lists as a kid trying desperately to ink out any conceivable advantage in performance I could find for the precious little money I had. That was a long sentence. Even when I came second in a writing contest and suddenly had $800 to throw around, I was dithering whether to go with RAMBUS or a Pentium Pro.
 
@@ -34,7 +32,7 @@ But still I stubbornly clung to the fallacy that I needed the best, or at least 
 
 I held onto this view for years, at my own expense. I bought heavy DSLRs because, of course, prosumers want interchangable lenses for every situation in which they'd find themselves. No matter that I had basically the same prime welded to it the entire time, and that I barely took fifty photos a month at best. No point rocking up to a nature reserve or an anime convention with a *pocket* camera. The upshot of which meant I used my camera on my phone more, and left the SLR in a bag at home.
 
-Which, speaking of that, also extended to esoteric things like anime figures. I never considered getting so-called *game prize* figures on account of them being poor quality, but I was given one by a close friend and she's [one of my favourites](https://myfigurecollection.net/item/42182 "MyFigureCollection: "Tengen Toppa Gurren-Lagann - Yoko Littner - EX Figure - S.t.a.r.S Ver Kirameki ver."). She even has a few friends now, some of which are there because I sold scale figs I liked less to make space.
+Which, speaking of that, also extended to esoteric things like anime figures. I never considered getting so-called *game prize* figures on account of them being poor quality, but I was given one by a close friend and she's [one of my favourites](https://myfigurecollection.net/item/42182 "MyFigureCollection: Tengen Toppa Gurren-Lagann - Yoko Littner - EX Figure - S.t.a.r.S Ver Kirameki ver."). She even has a few friends now, some of which are there because I sold scale figs I liked less to make space.
 
 The list keeps growing the more I think about this. Kitchen utensils. Watches. Fitness garb including swimsuits and runners. 4K video, lossless audio, and headphones. And with a lady living with me now, these extended to her.
 
