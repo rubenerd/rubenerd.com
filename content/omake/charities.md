@@ -6,6 +6,8 @@ The [diffusion of responsibility] problem means most of us don’t donate to wor
 
 These are the charities and non-profit organisations I donate money to, and encourage you to as well.
 
+
+
 ### Contents
 
 * [Health and research](#health)
@@ -19,26 +21,27 @@ These are the charities and non-profit organisations I donate money to, and enco
 
 **[Cure Cancer Australia](https://curecancer.org/)**
 
-: This organisation directly funds cancer researchers, and without resorting to employing clipboard pushers in public places to intimidate people into donations. It's a personal issue for me, having lost several family members including my mum to the disease.
+: This organisation directly funds cancer researchers, without resorting to employing clipboard pushers in public places to intimidate people into donations, or employing banks of spam callers. It's a personal issue for me, having lost several family members including my mum to the disease.
 
 **[Global Development Group](http://globaldevelopmentgroup.org/au/)**
 
-: This organisation directly funds cancer researchers, and without resorting to employing clipboard pushers in public places to intimidate people into donations. It's a personal issue for me, having lost several family members including my mum to the disease.
+: This is the Australian arm of the United Nations World Food Programme. Their [global site](https://donatenow.wfp.org/wfp/~my-donation) has more details on how to donate in your country.
 
-**[Guide Dogs NSW](https://www.guidedogs.com.au/)**
-
-: I only learned recently that most vision-impaired people can’t afford guide dogs, and the government chips in bugger all to help them out. Guide Dogs NSW provides guide dogs, mobility services, training, and orientation for those affected by impaired vision.
 
 
 <h3 id="software">Software projects</h3>
 
 **[FreeBSD Foundation](https://freebsdfoundation.org/)**
 
-: FreeBSD is my OS of choice for professional and personal use. I was lucky enough to meet Benedict Reuschling and the devs at AsiaBSDCon 2018; they're wonderful people doing important work. The Foundation supports the community, sponsors development and events, and provides travel grants for those who can't afford to attend events.
+: FreeBSD is my OS of choice for professional and personal use. I was lucky enough to meet Benedict Reuschling, Allan Jude, and the devs at AsiaBSDCon 2018 and 2019; they're wonderful people doing important work. The Foundation supports the community, sponsors development and events, and provides travel grants for those who can't afford to attend events.
+
+**[BSDFund](https://bsdfund.org/)**
+
+: Run by Michael Dexter, whom I've also had the pleasure of meeting and chatting with at AsiaBSDCon. The BSDFund directly contributes to delveopers doing important work in the BSD and illumos community.
 
 **[Open Source Technology Improvement Fund](https://ostif.org/donate-to-ostif/)**
 
-: It's hard to overstate how critically important the technologies this fund supports are. OpenSSL is the backbone of the secure internet, OpenVPN is the de-facto small VPN standard, GnuPG secures email, and VeraCrypt is a viable, more secure disk encryption system, especially for Windows users
+: It's hard to overstate how important the technologies this fund supports are. OpenSSL is the backbone of the secure internet, OpenVPN is the de-facto small VPN standard, GnuPG secures email, and VeraCrypt is a viable, more secure disk encryption system, especially for Windows users.
 
 
 <h3 id="websites">Websites</h3>
@@ -49,7 +52,7 @@ These are the charities and non-profit organisations I donate money to, and enco
 
 **[Wikimedia Foundation](https://wikimediafoundation.org/wiki/Ways_to_Give)**
 
-: When I think *free access to the world's knowledge*, its Wikipedia and its related projects not a certain search engine. I've been a reader and contributor since at least 2004, and couldn't imagine beginning any research without it.
+: When I think *free access to the world's knowledge*, it's Wikipedia and its related projects not a certain search engine. I've been a reader and contributor since at least 2004, and couldn't imagine beginning any research without it.
 
 
 <h3 id="media">Media</h3>
@@ -57,6 +60,10 @@ These are the charities and non-profit organisations I donate money to, and enco
 **[ElectroBOOM](https://www.youtube.com/channel/UCJ0-OtVpF0wOKEqT2Z1HEtA)**
 
 : Medhi has the best channel on YouTube; his videos are as hilarious as they are educational. I've learned more watching his electronics videos than anyone else, and want him to continue doing it full time now :).
+
+**[TechMoan](http://www.techmoan.com/)**
+
+: The best video reviews, puppetry, and Hi-Fi history on the net. Mat is a pleasure to watch, and I love his British sense of humour.
 
 **[SamHarris.org](https://samharris.org)**
 
