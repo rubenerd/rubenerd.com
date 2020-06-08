@@ -17,15 +17,16 @@ I'm restoring the first computer I built when I was in primary school, and have 
 
 Winworld and the Internet Archive have been *tremendous* resources for finding these images, but one version I downloaded came extracted to an MDF. It's an Alcohol 120% disk image that can't be burned to a CD on my Mac or BSD boxes, so I wanted to convert it an ISO.
 
-It's easy enough with the surprisingly-named mdf2iso:
+It's easy enough with the surprisingly-named [mdf2iso](https://bsdforge.com/projects/sysutils/mdf2iso/)\:
 
-    # mdf2iso Win95_OSR25.mdf
+    $ mdf2iso Win95_OSR25.mdf
         
     ==> mdf2iso v0.3.1 by Salvatore Santagati
     ==> Licensed under GPL v2 or later
     ==> Win95_OSR25.mdf is already ISO9660.
 
-Sure enough, appending the `.iso` extension worked.
+Sure enough, just appending the `.iso` extension worked.
 
 Lesson learned: try mounting MDFs as if they're ISOs first. If it isn't, use Salvatore Santagati's excellent utility. If only those awful `bin` and `cue` files were as easy.
 
+It's on [FreeBSD ports](https://www.freshports.org/sysutils/mdf2iso/), [pkgsrc](https://pkgsrc.se/sysutils/mdf2iso), and [Homebrew](https://formulae.brew.sh/formula/mdf2iso).
