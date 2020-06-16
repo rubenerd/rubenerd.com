@@ -1,0 +1,6 @@
+28:45 – A discussion about feline creatures liking me despite having never owned one… turned into a rant about desktop software quality, remembering Wintel and desktop Java, running OpenZFS on FreeBSD and NetBSD with cgd, BSD on an iBook back in the day, being burned by btrfs, BSDCan comments about home labs now being production, and wandering outside in beautifully-mild winter weather.
+
+Recorded in Sydney, Australia. Licence for this track: Creative Commons Attribution 3.0. Attribution: Ruben Schade.
+
+Released June 2020 on Rubenerd and The Overnightscape Underground, an Internet talk radio channel focusing on a freeform monologue style, with diverse and fascinating hosts; this one notwithstanding.
+
