@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<manifest xmlns="http://schemas.microsoft.com/wlw/manifest/weblog">
+
+  <!-- This is NOT REAL. I copied this over from my old WordPress blog
+       to use as a honeypot. Even with the word "honeypot" literally in
+       the URL, it's amazing what this catches. -->
+
+  <options>
+    <clientType>WordPress</clientType>
+	<supportsKeywords>Yes</supportsKeywords>
+	<supportsGetTags>Yes</supportsGetTags>
+  </options>
+
+  <weblog>
+    <serviceName>WordPress</serviceName>
+    <imageUrl>images/wlw/wp-icon.png</imageUrl>
+    <watermarkImageUrl>images/wlw/wp-watermark.png</watermarkImageUrl>
+    <homepageLinkText>View site</homepageLinkText>
+    <adminLinkText>Dashboard</adminLinkText>
+    <adminUrl>
+      <![CDATA[
+			{blog-postapi-url}/honeypot.php
+		]]>
+    </adminUrl>
+    <postEditingUrl>
+      <![CDATA[
+			{blog-postapi-url}/honeypot.php&post={post-id}
+		]]>
+    </postEditingUrl>
+  </weblog>
+
+  <buttons>
+    <button>
+      <id>0</id>
+      <text>Manage Comments</text>
+      <imageUrl>images/wlw/wp-comments.png</imageUrl>
+      <clickUrl>
+        <![CDATA[
+				{blog-postapi-url}/honeypot.php
+			]]>
+      </clickUrl>
+    </button>
+
+  </buttons>
+
+</manifest>
+

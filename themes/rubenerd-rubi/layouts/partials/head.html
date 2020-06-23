@@ -16,6 +16,7 @@
 <link rel="image_src" href="{{ if .Params.Thumb }}{{ .Params.Thumb }}{{ else }}{{ .Site.BaseURL }}{{ .Site.Params.Logo }}{{ end }}" />
 <link rel="meta" type="application/rdf+xml" title="FOAF" href="/{{ .Site.Params.Author.Foaf }}" />
 <link rel="search" href="{{ .Site.BaseURL }}osd.xml" type="application/opensearchdescription+xml" title="{{ .Site.Title }} Search" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="{{ .Site.BaseURL }}manifest.xml" title="Honeypots are tasty" /> 
 
 
 {{ partial "meta.html" . }}</head>
