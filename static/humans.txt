@@ -1,0 +1,47 @@
+/*
+ * humans.txt : The people behind sites!
+ * http://humanstxt.org
+ */
+
+
+/* TEAM */
+
+   Writer:      Ruben Schade
+     Site:      https://rubenerd.com
+     Twitter:   https://twitter.com/Rubenerd
+     Location:  Sydney, Australia
+     Hometown:  Singapore
+
+   Illustrator:  Clara Tse
+     Site:       https://claratse.com
+     Twitter:    https://twitter.com/kirsviel
+     Location:   Sydney, Australia
+
+   Mascot:      Rubi
+     Site:      https://rubenerd.com/about/#mascot
+     Location:  Sapporo, Hokkaido, Japan
+
+
+/* THANKS */
+
+   Hosting: OrionVM Cloud Platform
+
+
+/* SITE */
+
+   Language:   English
+
+   Standards:  HTTP/2, CSS3, RSS 2.0.1
+   Doctype:    HTML5 (Polyglot)
+   Server:     FreeBSD, OpenZFS, nginx
+   Generator:  hugo
+   Editor:     Vim, nvi
+
+
+   d8888b. db    db d8888b. d88888b d8b   db d88888b d8888b. d8888b. 
+   88  `8D 88    88 88  `8D 88'     888o  88 88'     88  `8D 88  `8D 
+   88oobY' 88    88 88oooY' 88ooooo 88V8o 88 88ooooo 88oobY' 88   88 
+   88`8b   88    88 88~~~b. 88~~~~~ 88 V8o88 88~~~~~ 88`8b   88   88 
+   88 `88. 88b  d88 88   8D 88.     88  V888 88.     88 `88. 88  .8D 
+   88   YD ~Y8888P' Y8888P' Y88888P VP   V8P Y88888P 88   YD Y8888D'
+
