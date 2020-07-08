@@ -8,8 +8,8 @@
 <a id="skip" href="#content">Skip to content</a>
 
 <nav id="site-navigation">
-<ul>{{ range .Site.Params.Navigation }}
-<li id="nav-{{ lower .title | urlize }}"><a {{ with .info }}title="{{ . }}" {{ end }}href="{{ .url }}">{{ .title }}</a></li>{{ end }}
+<ul>{{ range .Site.Menus.header }}
+<li><a href="{{ .URL }}">{{ .Title }}</a></li>{{ end }}
 </ul>
 </nav>
 

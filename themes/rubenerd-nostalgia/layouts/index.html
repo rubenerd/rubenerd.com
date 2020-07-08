@@ -3,14 +3,16 @@
 {{ partial "sidebar.html" . }}
 
 <main id="content">
-{{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}{{ range $paginator.Pages }}
+{{ $paginator := .Paginate (where site.RegularPages "Type" "post") }}{{ range $paginator.Pages }}
 
 <article itemscope="itemscope" itemtype="http://schema.org/BlogPosting">
 <h2 itemprop="name headline"><a itemprop="identifier url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+<div class="post-meta">
+<time itemprop="datePublished dateModified" datetime="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}"><a href="/year/{{ .Date.Format "2006" }}/">{{ .Date.Format "Monday 02 January 2006" }}</a></time> &middot; {{ with .Params.category }}<a title="{{ . }} category" href="/{{ . | urlize }}/"><span itemprop="keywords">{{ . }}</span></a>{{ end }}</div>
+
 <div class="post-content" itemprop="articleBody">
 {{ replace .Content "\n\n" "\n" | safeHTML }}</div>
-<div class="post-meta">
-<time itemprop="datePublished dateModified" datetime="{{ printf "%s" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}">Posted <a href="/year/{{ .Date.Format "2006" }}/">{{ .Date.Format "Monday 02 January 2006" }}</a></time> in {{ with .Params.category }}<a title="{{ . }} category" href="/{{ . | urlize }}/"><span itemprop="keywords">{{ . }}</span></a>{{ end }}</div>
+
 </article>
 
 <hr />
