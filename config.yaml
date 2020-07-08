@@ -41,6 +41,7 @@ params:
   keywords: australia,singapore,sydney,anime,apple,tech,freebsd,travel,coffee
   logo: logo.png
   logo_rss: rss.png
+  mascot: rubi
   source: https://gitlab.com/rubenerd/rubenerd.com/blob/master/
   twitter: rubenerd_blog
 
