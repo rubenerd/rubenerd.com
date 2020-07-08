@@ -2,8 +2,7 @@
 layout: page
 title: "Archives"
 ---
-*Rubenerd* has 6,800+ posts. This page lists ways you can view them all, in a somewhat less tedious fashion than employing pagination links.
-
+*Rubenerd* has 6,800+ posts. This page lists ways you can view all of them, based on categories, tags, years, and other fun metrics.
 
 <h3 id="search">By search</h3>
 <p>
@@ -42,7 +41,7 @@ title: "Archives"
 
 <h3 id="location">By tag</h3>
 
-There are far too many to list here. But if you see a recurring topic, chances are there's a tag. For example, here's [Coffee], [FreeBSD], and [privacy].
+There are thousands of them; far too many to list here. But if you see a recurring topic, chances are there's a tag. For example, here's [coffee], [FreeBSD], and [privacy].
 
 [coffee]: https://rubenerd.com/tag/coffee/
 [FreeBSD]: https://rubenerd.com/tag/freebsd/
@@ -51,40 +50,36 @@ There are far too many to list here. But if you see a recurring topic, chances a
 
 <h3 id="location">By location</h3>
 
-I only started putting locations on posts a few years ago, and have been slowing adding them to the back catalogue. Consider these generated listings incomplete! sorted in order of post count.
+I love sitting at coffee shops in random places and writing. I only started geo-tagging posts a few years ago and have yet to backfill previous years, so consider these archives incomplete.
 
-* 🇦🇺 [Sydney](/location/sydney/)
-* 🇸🇬 [Singapore](/location/singapore/)
-* 🇺🇸 [San Francisco](/location/san-francisco/)
-* 🇺🇸 [Los Angeles](/location/los-angeles/)
-* 🇯🇵 [Osaka](/location/osaka/)
-* 🇯🇵 [Tokyo](/location/tokyo/)
-* 🇯🇵 [Kyoto](/location/kyoto/)
-* 🇺🇸 [New York](/location/new-york/)
 * 🇭🇰 [Hong Kong](/location/hong-kong/)
+* 🇯🇵 [Kyoto](/location/kyoto/)
+* 🇺🇸 [Los Angeles](/location/los-angeles/)
+* 🇺🇸 [New York](/location/new-york/)
 * 🇺🇸 [Oakland](/location/oakland/)
+* 🇯🇵 [Osaka](/location/osaka/)
+* 🇺🇸 [San Francisco](/location/san-francisco/)
+* 🇸🇬 [Singapore](/location/singapore/)
+* 🇦🇺 [Sydney](/location/sydney/)
+* 🇯🇵 [Tokyo](/location/tokyo/)
 
 <h3 id="year">By year</h3>
 
-<h4>2010s</h4>
-
-* [2019](/year/2019/) ... when we were in Japan for the Reiwa announcement
-* [2018](/year/2018/) ... when I blogged and worked out of San Francisco
-* [2017](/year/2017/) ... when I blogged from Japan for the first time
-* [2016](/year/2016/) ... when everyone lost their mind over *Rem*
-* [2015](/year/2015/) ... when the podcast started again
-* [2014](/year/2014/) ... when my blog turned ten
-* [2013](/year/2013/) ... when a blog post landed me a job!
-* [2012](/year/2012/) ... when *Gangnam Style* came out
-* [2011](/year/2011/) ... when I briefly blogged about anime again
-* [2010](/year/2010/) ... when we said goodbye to *Whole Wheat Radio*
-
-<h4>2000s</h4>
-
-* [2009](/year/2009/) ... when I was studying in Adelaide
-* [2008](/year/2008/) ... when FreeBSD became a regular topic
-* [2007](/year/2007/) ... when I started blogging from cafés
-* [2006](/year/2006/) ... when it became a blog again
-* [2005](/year/2005/) ... when it became a podcast site
-* [2004](/year/2004/) ... when I started blogging in school
+* [2020](/year/2020/)
+* [2019](/year/2019/)
+* [2018](/year/2018/)
+* [2017](/year/2017/)
+* [2016](/year/2016/)
+* [2015](/year/2015/)
+* [2014](/year/2014/)
+* [2013](/year/2013/)
+* [2012](/year/2012/)
+* [2011](/year/2011/)
+* [2010](/year/2010/)
+* [2009](/year/2009/)
+* [2008](/year/2008/)
+* [2007](/year/2007/)
+* [2006](/year/2006/)
+* [2005](/year/2005/)
+* [2004](/year/2004/)
 
