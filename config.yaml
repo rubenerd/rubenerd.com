@@ -85,11 +85,16 @@ menu:
     title: Podcast
     url: /show/
     weight: 4
+  - identifier: rss
+    name: Subscribe to this blog
+    title: RSS
+    url: /feed/
+    weight: 5
   - identifier: omake
     name: Extra goodies
     title: Omake
     url: /omake-pages/
-    weight: 5
+    weight: 6
 
 permalinks:
   omake: /omake/:filename/
