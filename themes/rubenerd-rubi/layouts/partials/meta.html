@@ -4,8 +4,10 @@
 <meta name="date" content="{{ .Date.Format "2006-01-02" }}" />{{ end }}
 <meta name="description" content="{{ if .Params.Abstract }}{{ safeHTML .Params.Abstract }}{{ else }}{{ .Site.Params.Description }}{{ end }}" />
 {{ hugo.Generator }}
+<meta name="keywords" content="{{ .Site.Params.Keywords }}" />
 <meta name="HandheldFriendly" content="True" />
 <meta name="ProgID" content="Legit{{ .Site.Title }}Industries.Document.1" />
+<meta name="publisher" content="{{ .Site.BaseURL }}about/" />
 <meta name="site" content="{{ .Permalink }}" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
