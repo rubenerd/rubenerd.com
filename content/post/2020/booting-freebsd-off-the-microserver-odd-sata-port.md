@@ -1,15 +1,18 @@
 ---
 title: "Booting FreeBSD off the HPE MicroServer Gen8 ODD SATA port"
 date: "2020-06-07T09:55:55+10:00"
-abstract: ""
-thumb: ""
+abstract: "It’s not straight forward, but you can bootstrap something"
+thumb: "https://rubenerd.com/files/2019/fleet-companioncube@1x.jpg"
 year: "2020"
-category: Thoughts
+category: Hardware
 tag:
-- 
+- bsd
+- freebsd
+- homelab
+- microserver
 location: Sydney
 ---
-My [small homelab post]() generated a ton of questions and comments, most of them specific to running FreeBSD on the HP MicroServer. I'll try and answer these over the coming week.
+My [small homelab post](https://rubenerd.com/my-humble-homelab-with-ascii-diagrams/) generated a ton of questions and comments, most of them specific to running FreeBSD on the HP MicroServer. I'll try and answer these over the coming week.
 
 Josh Paxton emailed to ask how I got FreeBSD booting on it, given the unconventional booting limitations of the hardware. I thought I wrote about it a few years ago, but maybe it's on my proverbial draft heap. If you're impatient, the [script is in my lunchbox](https://github.com/rubenerd/rubens-lunchbox/blob/master/odd-microserver-freebsd-boot.sh).
 
