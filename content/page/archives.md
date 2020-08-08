@@ -52,6 +52,7 @@ There are thousands of them; far too many to list here. But if you see a recurri
 
 I love sitting at coffee shops in random places and writing. I only started geo-tagging posts a few years ago and have yet to backfill previous years, so consider these archives incomplete.
 
+* 🇦🇺 [Blue Mountains](/location/blue-mountains/)
 * 🇭🇰 [Hong Kong](/location/hong-kong/)
 * 🇯🇵 [Kyoto](/location/kyoto/)
 * 🇺🇸 [Los Angeles](/location/los-angeles/)
