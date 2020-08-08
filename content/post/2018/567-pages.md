@@ -6,8 +6,9 @@ year: "2018"
 category: Internet
 tag:
 - numbers
-- pointless-milestones
+- pointless-milestone
 - tennant
+- weblog
 location: sydney
 ---
 Speaking of [questionable numerology], I haven't done I haven't done a [pointless milestone] here for a long time. *(I haven't done... I haven't done?)*
