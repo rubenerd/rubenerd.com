@@ -1,0 +1,27 @@
+---
+layout: omake
+title: "Hi-Fi build"
+---
+This page tracks Clara's and my progress building a nostalgic home Hi-Fi system with components from the mid-1980s to the early 1990s. We both blame my dad's generosity giving us some of his old gear, and [Techmoan](https://www.youtube.com/channel/UC5I2hjZYiW9gZPVkvzM8_Cw).
+
+This is a work-in-progress!
+
+### Loungeroom set
+
+* **Stereo speakers**: Bookshelf Mission 731 Pros
+* **Receiver**: Yamaha RX-V395
+* **Turntable**: Technics SL-J300R
+* **Cassette deck**: Yamaha KX-380
+* **CD/LaserDisc player**: Kenwood LVD-290
+
+### Walking set
+
+* **Digital**: Apple iPod 3G 15 GiB
+* **Cassette**: Sony Walkman WM-EX672
+* **MiniDisc**: Sony Walkman MZ-R900 
+
+### To procure
+
+* Four track reel to reel, ideally with auto-reverse
+* Graphic equaliser, just for shameless visualisation
+
