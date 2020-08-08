@@ -5,7 +5,8 @@ abstract: "That's one more page than 685!"
 year: "2020"
 category: Internet
 tag:
-- pointless-milestones
+- pointless-milestone
+- weblog
 location: Sydney
 ---
 *Rubenerd* is up to 686 pages, which is a palindromic number. I took great pains to only mention the number, as the phrase itself isn't palindromic in English. Delightfully though, *segap* means good in Malay (IIRC), so I like to think someone up there thinks reaching that number was a positive thing. 
