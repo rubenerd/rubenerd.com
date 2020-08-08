@@ -11,12 +11,11 @@
 
 <channel>
 
-  {{ safeHTML "<!-- ********************************************** -->" }}
-  {{ safeHTML "<!-- Welcome to Rubenerd's fabulous RSS feeds!      -->" }}
-  {{ safeHTML "<!-- Visit https://rubenerd.com/subscribe/ for help -->" }}
-  {{ safeHTML "<!-- Blog feed:    https://rubenerd.com/feed/       -->" }}
-  {{ safeHTML "<!-- Podcast feed: http://showfeed.rubenerd.com/    -->" }}
-  {{ safeHTML "<!-- ********************************************** -->" }}
+  {{ safeHTML "<!-- WELCOME TO RUBENERD'S RSS FEEDS!                  -->" }}
+  {{ safeHTML "<!-- ================================================= -->" }}
+  {{ safeHTML "<!-- Help subscribing: https://rubenerd.com/subscribe/ -->" }}
+  {{ safeHTML "<!-- Blog feed:        https://rubenerd.com/feed/      -->" }}
+  {{ safeHTML "<!-- Podcast feed:     http://showfeed.rubenerd.com/   -->" }}
 
   <title>{{ if eq .Title "Show" }}{{ .Site.Params.Podcast.Title }}{{ else }}{{ .Site.Title }}{{ end }}</title> 
   <link>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</link>
@@ -29,12 +28,10 @@
   <docs>http://cyber.law.harvard.edu/rss/rss.html</docs>
   <ttl>30</ttl>
 
-  {{ safeHTML "<!-- Namespace extensions, with a nicer date format -->" }}
   <dc:creator>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</dc:creator>
   {{ printf "<dc:date>%s</dc:date>" (.Date.Format "2006-01-02T15:04:05-07:00") | safeHTML }}
   <dc:identifier>{{ .Site.BaseURL }}{{ if eq .Title "Show" }}show/{{ end }}</dc:identifier>{{ if eq .Title "Show" }}
 
-  {{ safeHTML "<!-- iTunes metadata -->" }}
   <itunes:subtitle>{{ .Site.Params.Podcast.Tagline }}</itunes:subtitle>
   <itunes:author>{{ .Site.Params.Author.First }} {{ .Site.Params.Author.Last }}</itunes:author>
   <itunes:summary>{{ .Site.Params.Podcast.Summary }}</itunes:summary>
@@ -49,7 +46,6 @@
   </itunes:category>
   <itunes:explicit>{{ .Site.Params.Podcast.Explicit }}</itunes:explicit>{{ end }}
 
-  {{ safeHTML "<!-- RSS image -->" }}
   <image>
     <url>{{ .Site.BaseURL }}{{ .Site.Params.logo_rss }}</url>
     <title>{{ .Site.Title }}{{ if eq .Title "Show" }} Show{{ end }}</title> 
