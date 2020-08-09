@@ -6,13 +6,15 @@ This page tracks Clara's and my progress building a nostalgic home Hi-Fi system 
 
 This is a work-in-progress!
 
+
 ### Loungeroom set
 
 * **Stereo speakers**: Bookshelf Mission 731 Pros
 * **Receiver**: Yamaha RX-V395
-* **Turntable**: Technics SL-J300R
+* **Turntable**: Technics SL-J300R linear-tracking
 * **Cassette deck**: Yamaha KX-380
 * **CD/LaserDisc player**: Kenwood LVD-290
+
 
 ### Walking set
 
@@ -22,6 +24,7 @@ This is a work-in-progress!
 
 ### To procure
 
-* Four track reel to reel, ideally with auto-reverse
+* MiniDisc deck, ideally a cute Onkyo
+* 7-inch, four-track reel to reel, ideally with auto-reverse
 * Graphic equaliser, just for shameless visualisation
-
+* Self-hosted Spotify alternative, to publish audio behind a VPN
