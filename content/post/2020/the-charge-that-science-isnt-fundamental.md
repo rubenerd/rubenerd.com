@@ -29,7 +29,7 @@ Leonardo da Vinci would like to have a word, sir! Science doesn't supplant art, 
 
 Nothing could be further from the truth. What motivates scientists to build telescopes, or Large Hadron Colliders, or DNA sequencers? It comes from a deep-seated need and yearning to understand how the universe works, and in doing so, learning something about ourselves and improving our lives, whether it be through medicine or art. That's why science is both honest and beautiful.
 
-I've barely scratched the surface here. My friend Sashin is one of the most intelligent and articulate people I've ever met, and he [dedicates his entire blog](sashinexists.com) to such topics which I encourage everyone to check out. His quote from English physicist and shameless crush Brian Cox seems especially apt:
+I've barely scratched the surface here. My friend Sashin is one of the most intelligent and articulate people I've ever met, and he [dedicates his entire blog](http://sashinexists.com) to such topics which I encourage everyone to check out. His quote from English physicist and shameless crush Brian Cox seems especially apt:
 
 > The story of the universe is our story.
 
