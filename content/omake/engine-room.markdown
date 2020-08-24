@@ -66,7 +66,7 @@ This page lists the tech that makes this blog possible.
 
 <h3 id="historical">What used to run the site</h3>
 
-**[Jekyll](http://jekyllrb.org) (2013–15)**
+**[Jekyll](https://jekyllrb.com) (2013–15)**
 
 : I still think Liquid is the nicest templating system I've used, but alas Jekyll simply couldn't handle all my posts. For smaller projects, I couldn't recommend it highly enough.
 
