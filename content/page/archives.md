@@ -2,7 +2,8 @@
 layout: page
 title: "Archives"
 ---
-*Rubenerd* has 6,800+ posts. This page lists ways you can view all of them, based on categories, tags, years, and other fun metrics.
+*Rubenerd* has 7,000+ posts. This page lists ways you can view all of them, based on categories, tags, years, and other fun metrics.
+
 
 <h3 id="search">By search</h3>
 <p>
@@ -50,7 +51,7 @@ There are thousands of them; far too many to list here. But if you see a recurri
 
 <h3 id="location">By location</h3>
 
-I love sitting at coffee shops in random places and writing. I only started geo-tagging posts a few years ago and have yet to backfill previous years, so consider these archives incomplete.
+I love sitting at coffee shops in random places and writing. I only started geo-tagging posts a few years ago and have yet to finish backfilling, so consider these archives incomplete.
 
 * 🇦🇺 [Blue Mountains](/location/blue-mountains/)
 * 🇭🇰 [Hong Kong](/location/hong-kong/)
