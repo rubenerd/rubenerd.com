@@ -2,6 +2,7 @@
 baseURL: https://rubenerd.com/
 disableLiveReload: true
 editor: vim
+buildFuture: true
 languageCode: en-SG
 rssLimit: 10
 theme: rubenerd-rubi
