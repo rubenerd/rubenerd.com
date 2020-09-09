@@ -173,7 +173,10 @@ figure {
 
 /***** FOOTER です************************************************************/
 
-#boots { padding-top:70px }
+#boots {
+    font-size:14px;
+    padding-top:70px
+}
 
 
 
