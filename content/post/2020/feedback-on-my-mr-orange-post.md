@@ -16,7 +16,7 @@ I'd publish each message in full, but they're all just a little too tragic. One 
 
 * another country was worse, which is irrelevant
 * another politician was worse, which is irrelevant
-* that I was mislead about $ScienceFact, without providing evidence
+* that I was mislead about `$ScienceFact`, without providing evidence
 
 It spoke to the internal machinations and mental gymnastics of someone desperate to absolve their leader of culpability. *All* the facts cited were wrong, and only served to reinforce my original thought that his supporters have absolutely *no idea* how the rest of the world perceives them. This kind of transparent projection and self-ownage isn't unique to their flavour of politics, but it does attract a disproportionate amount of it.
 
@@ -26,5 +26,5 @@ And that's the problem. We could have a reasonable discussion if we were coming 
 
 *(I also see this playing out to a lesser extent with Scott Morrison in Australia, who has made no secret of his admiration for the American knob-in-chief).*
 
-Thanks for taking the time to respond everyone, but your tactics to win over another supporter in your "culture war" have backfired. And unlike so many of you who still cling to him because he's "owning lefties", I take no pleasure whatsoever in pointing that out. The sooner they realise you're transparently doing the work of our common enemies better than anyone else, the sooner we can begin to rebuild what we've all lost. Because being an outspoken friend of America has been *hard* these last few years.
+Thanks for taking the time to respond everyone, but your tactics to win over another supporter in your "culture war" have backfired. And unlike so many of you who still cling to him because he's "owning lefties", I take no pleasure whatsoever in pointing that out. The sooner they realise they're transparently doing the work of our common enemies better than anyone else, the sooner we can begin to rebuild what we've all lost. Because being an outspoken friend of America has been *hard* these last few years.
 
