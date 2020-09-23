@@ -37,11 +37,24 @@ So what was going on?
 
 Whoops!
 
-Normalisation is a field of information science that fills entire textbooks, but in a nutshell ZFS uses it to reconcile filenames. This is especially important in UTF-8 where characters from disparate languages may appear superficially the same, such as Chinese-derived kanji in Japanese. How the filename is represented internally, and presented to the operator, can vary in unexpected ways.
+Normalisation is a field of information science that fills entire textbooks, but in a nutshell ZFS uses it, among other reasons, to reconcile filenames. How the filename is represented internally, and presented to the operator, can vary in unexpected ways, even if superficially they look the same.
 
-Unfortunately, normalisation can't be set after the filesystem is created. So this weekend I dropped one of the drives from my mirror, created a new pool with normalisation to transfer data back to, then resilvered the mirror back to full redundancy:
+Unfortunately, normalisation can't be set after the filesystem is created. *(Update: read below).* So this weekend I dropped one of the drives from my mirror, created a new pool with normalisation to transfer data back to, then resilvered the mirror back to full redundancy:
 
     # zpool -O normalization=formD [...]
 
 Now previously-inaccessible files can be opened.
+
+### Update
+
+Henrik Winther kindly emailed in to advise that normalisation is a dataset level property, so you only need to create a new dataset to set it, thereby negating the need to reduce pool redundancy in the interim. He gave an example:
+
+    # sudo zfs create -o normalization=formC gamma/test-normalization
+    # /sbin/zfs get normalization | grep -E 'gamma |test'
+    ==> gamma                    normalization none  -
+    ==> gamma/test-normalization normalization formC -
+
+I appreciate the feedback, especially if you're reading this post with the same issue I was having. **Just use a new dataset and you'll be fine.**
+
+In production I would certainly use this approach. At home for personal data, and where I have backups, I prefer to set normalisation at the pool level so every dataset inherits it. All Clara's and my data have some form of CJK characters, so it makes things easier.
 
