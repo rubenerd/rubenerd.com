@@ -10,7 +10,7 @@ tag:
 - security
 location: Sydney
 ---
-I do a lot of technical writing and compliance documentation for clients that use our platform at work. The industry dismisses this as boilerplate busywork and merely a necessary evil for doing business, but I think they invariably ask the *exactly* the questions we should *all* be asking.
+I do a lot of technical writing and compliance documentation for clients that use our platform at work. The industry dismisses this as boilerplate busywork and merely a necessary evil for doing business, but I think they invariably ask *exactly* the questions we should *all* be asking.
 
 Here's an obfuscated example:
 
