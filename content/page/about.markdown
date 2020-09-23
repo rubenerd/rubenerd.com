@@ -46,7 +46,7 @@ The backend is proudly powered by [FreeBSD], everyone's favourite OS. More infor
 
 <h3 id="mascot">Rubi the mascot</h3>
 
-Rubi is the site's mascot, drawn by Clara Tse. Her mismatching, Miku-esque boots elude to my predilection for not wearing matching socks.
+Rubi is the site's mascot, drawn by Clara Tse. Her mismatching, Miku-esque boots elude to my predilection for not wearing matching socks. Mobile users can [view her here](https://rubenerd.com/rubi@2x.jpg).
 
 *(Funny story, I was chided for wearing orange and red socks during a high school work experience day, with the implication that I wasn't taking the assignment seriously. The day I'm looked over on account of my socks is when I miss a bullet).*
 
