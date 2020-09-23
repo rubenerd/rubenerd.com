@@ -11,6 +11,8 @@ tag:
 - music
 location: Sydney
 ---
+<p style="font-style:italic;">(Update: I didn’t mention this concerned <strong>wired</strong> headphones).</p>
+
 I aggressively disagree with any computer design decisions that detract from ergonomics or health, and nowhere does this continue to remain bafflingly true than audio output. Strap in, I'm about to get a bit ranty!
 
 If we encounter an unwanted audio signal emanating from our computers, especially an uncomfortably-loud one over headphones, we should *immediately* be able to terminate it. No exceptions. If there is any latency *whatsoever* between us hitting a mute button and the audio not cutting out, the hardware or software has failed. Crypton Future Media's Hatsune Miku wouldn't tolerate latency with her headphones, and neither should we.
@@ -21,7 +23,7 @@ I was in a conference call last Friday where I'd adjusted the volume up to compe
 
 Well-engineered mute buttons on keyboards shouldn't need to go to software, they should immediately send a signal to the motherboard's DAC&mdash;ideally on a separate wire or connection&mdash;to say *terminate this signal*. Then it's less of a concern if it takes the OS a few seconds to react to the change, because our ears have been spared.
 
-The *just ackchyually* crowd would don their Captain Obvious capes and brightly-coloured underwear to proclaim that people could *just* unplug their headphones, or rip them off ones head when suddenly inundated with loud audio. Sure, and if you start getting electric shocks from your keyboard you could *just* use an external one, bro. Or if you get your hand caught in a mixer, *just* use your other hand, that's why you have two of them. There are so many reasons why this dismissive attitude is specious, but even if it weren't, it would still take more physical effort *than a button*. And if a mute button doesn't fulfill the function for which it's labelled and designed, what's the point of it? But then, these people know all that, they’re just being obtuse.
+<p id="just-ackchyually">The <em>just ackchyually</em> crowd would don their Captain Obvious capes and brightly-coloured underwear to proclaim that people could <em>just</em> unplug their headphones, or rip them off ones head when suddenly inundated with loud audio. Sure, and if you start getting electric shocks from your keyboard you could <em>just</em> use an external one, bro. Or if you get your hand caught in a mixer, <em>just</em> use your other hand, that’s why you have two of them. There are so many reasons why this dismissive attitude is specious, but even if it weren’t, it would still take more physical effort <em>than a button</em>. And if a mute button doesn’t fulfill the function for which it’s labelled and designed, what’s the point of it? But then, these people know all that, they’re just being obtuse.</p>
 
 We have valid privacy arguments advocating for physical Wi-Fi, camera, and microphone buttons; I'd say audio should be voiced in these discussions too. They should be heard. Sound ideas should be reverberated. Miku.
 
