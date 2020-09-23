@@ -4,7 +4,8 @@ disableLiveReload: true
 editor: vim
 buildFuture: true
 languageCode: en-SG
-rssLimit: 10
+paginate: 20
+rssLimit: 20
 theme: rubenerd-rubi
 title: Rubenerd
 
@@ -94,7 +95,7 @@ menu:
   - identifier: omake
     name: Extra goodies
     title: Omake
-    url: /omake-pages/
+    url: /omake/
     weight: 6
 
 permalinks:
