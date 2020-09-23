@@ -14,6 +14,7 @@ This is a work-in-progress!
 * **Turntable**: Technics SL-J300R linear-tracking
 * **Cassette deck**: Yamaha KX-380
 * **CD/LaserDisc player**: Kenwood LVD-290
+* **Graphic equaliser/visualiser**: Pioneer GR-777, with amber filter
 
 
 ### Walking set
@@ -22,9 +23,10 @@ This is a work-in-progress!
 * **Cassette**: Sony Walkman WM-EX672
 * **MiniDisc**: Sony Walkman MZ-R900 
 
+
 ### To procure
 
-* MiniDisc deck, ideally a cute Onkyo
+* MiniDisc deck, ideally a cute Onkyo or Sony
 * 7-inch, four-track reel to reel, ideally with auto-reverse
-* Graphic equaliser, just for shameless visualisation
 * Self-hosted Spotify alternative, to publish audio behind a VPN
+
