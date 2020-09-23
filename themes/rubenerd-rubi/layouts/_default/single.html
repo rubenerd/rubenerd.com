@@ -22,6 +22,9 @@
 <div id="bio">
 <h2>Author bio and support</h2>
 {{ safeHTML .Site.Params.author.bio }}
+
+<p>The site is powered by <a href="https://gohugo.io/">Hugo</a>, <a href="https://www.freebsd.org/">FreeBSD</a>, and <a href="https://openzfs.org/">OpenZFS</a> on <a href="https://orionvm.com/">OrionVM</a>, everyone’s favourite cloud infrastructure provider.</p>
+
 {{ safeHTML .Site.Params.author.support }}
 </div>
 
@@ -36,7 +39,7 @@ Newer post <span aria-hidden="true" class="page-arrow">&larr;</span> <a href="{{
 <br />Older post <span aria-hidden="true" class="page-arrow">&rarr;</span> <a href="{{ .PrevPage.Permalink }}">{{ .PrevPage.Title }}</a>{{ end }}
 </nav>{{ else if eq .Section "omake" }}
 <nav id="pagination">
-<span aria-hidden="true" class="page-arrow">&larr;</span> <a href="/omake-pages/">Back to the Omake page</a>
+<span aria-hidden="true" class="page-arrow">&larr;</span> <a href="/omake/">Back to the Omake page</a>
 </nav>{{ else if eq .Section "page" }}<p></p>
 <p>🌲</p>
 {{ end }}
