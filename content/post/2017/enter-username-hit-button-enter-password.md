@@ -23,13 +23,15 @@ Note the lack of a password field. In this scenario you ask us to:
 4. Enter or autofull our password
 5. Hit another button
 
-**Steps 2 and 3 are superflous**. You're making us jump through an additional hoop we never needed to before. It's a bad design decision, and you should feel bad.
+**Steps 2 and 3 are superfluous**. You're making us jump through an additional hoop we never needed to before. It's a bad design decision, and if you advocate for it, you should feel bad.
 
-*But Ruben! We need this because different authentication systems require different credentials! Some systems may not need a password! Or maybe we'll need to redirect people to another site! We normalise user-hostile interfaces!!!*
+*But Ruben! We need this because different authentication systems require different credentials! Some use SSO or need different tokens! Some systems may not need a password! Or maybe we'll need to redirect people to another site! We normalise user-hostile interfaces!!!*
 
-Nonsense. Well, except for the last point. You can start with sane defaults, then remove/replace/redirect fields as needed. Otherwise, give the rest of us a normal login form we can autofill with our password manager and be done with it.
+Nonsense. Well, except for the last point. You can start with reasonable defaults, then remove/replace/redirect fields as needed with the same dynamic controls you're using everywhere else. Otherwise, give the rest of us a normal login form we can autofill with our password manager, or use with our screen reader, and be done with it.
 
-So far I've counted Atlassian, Google, and Microsoft as being guilty of this. I'm sure there are more.
+This is a classic anti-pattern: regardless of the dubious, ill-informed technical or design justification, it renders user experience and accessibility *worse*. That's the bottom line. We need a more robust and secure form of authentication, but shameless obfuscation isn't it.
+
+So far I've counted Atlassian, Google, and Microsoft as being guilty of this, and I'm sure there are more.
 
 **Stop doing this.** End of discussion.
 
